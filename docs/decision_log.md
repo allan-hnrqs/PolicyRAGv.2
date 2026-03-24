@@ -483,3 +483,11 @@ become the only place where rationale lives.
   - it clearly helps the rewritten cases when it behaves well
   - but broad reruns are still too stochastic, and `HR_038` remains a
     verification/extraction problem rather than a solved pruning problem
+- A broader missing-detail activation rule was tested and rejected.
+  Decision:
+  - do not rewrite missing-detail cases merely because the verifier says
+    `closest_supported_context` is missing when the baseline already abstains
+  Why:
+  - it helped `HR_038`
+  - but it over-fired on `HR_017` and did not produce a clean generic gain on
+    the abstention-only slice

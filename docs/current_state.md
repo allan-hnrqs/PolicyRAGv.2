@@ -763,3 +763,15 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     treated as sufficient when the contract contains operative context
   - continue using focused slices and intervention-only measurement before any
     new broad reruns
+
+## Rejected Follow-Up
+
+- a broader missing-detail activation rule was tested on:
+  - `datasets/eval/generated/missing_detail_focus.jsonl`
+- outcome:
+  - it helped `HR_038`
+  - but it over-fired on `HR_017`
+  - and it did not yield a clean overall gain on the abstention-only slice
+- status:
+  - rejected
+  - the feature branch should keep the conservative missing-detail gate

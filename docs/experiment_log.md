@@ -1752,3 +1752,40 @@ capture:
   - `HR_038` is now better understood as a missing-detail
     verification/extraction problem, not a pure slot-pruning problem
   - full-suite reruns remain too stochastic to treat this branch as promoted
+
+#### Broader Missing-Detail Activation Check
+
+- Goal:
+  - test whether the narrow verifier branch should rewrite missing-detail cases
+    even when the baseline already abstains, as long as the contract says the
+    closest supported context is still missing
+- Validation surface:
+  - `datasets/eval/generated/missing_detail_focus.jsonl`
+  - cases:
+    - `HR_016`
+    - `HR_017`
+    - `HR_037`
+    - `HR_038`
+- Result:
+  - baseline:
+    - `datasets/runs/baseline_20260324_230325_074860_d4bb.json`
+    - recall `0.7083`
+    - forbidden violations `1`
+  - broadened candidate:
+    - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_230412_461598_1f95.json`
+    - recall `0.6667`
+    - forbidden violations `0`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260324_230325_074860_d4bb_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_230412_461598_1f95_20260324_230528_229622_6b70.json`
+      - control wins `2`
+      - candidate wins `2`
+- Per-case read:
+  - `HR_038` improved and rewrote correctly
+  - `HR_037` improved somewhat
+  - `HR_017` over-fired and regressed from `1.0` to `0.5`
+  - `HR_016` still did not become a clean fix
+- Decision:
+  - reject the broader missing-detail activation rule
+  - keep the more conservative gate from the feature-branch base
+  - treat missing-detail follow-up as a separate method problem, not something
+    to patch by broadly rewriting all abstention-style cases
