@@ -1,0 +1,1512 @@
+{
+  "doc_id": "c4964bd99352",
+  "title": "Prepare approval documents - Procurement plan | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:57:13.539953Z",
+  "content_hash": "affd696b76bc52467992668e6733fc77dc2b2b0e12d3aef891df43e4ba63288d",
+  "word_count": 2250,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Complexity and procurement risk assessment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Determining complexity",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Characteristics of procurement complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Changes to the complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement risk assessment for complexity level 1, 2 and",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "General principles of procurement authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Contract approval and signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Delegation of authority guidelines",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authorities for Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "in_scope": false
+    },
+    {
+      "title": "Additional signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Contracting limits including exceptional authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Risk-based procurement delegation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Approval processes",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "in_scope": false
+    },
+    {
+      "title": "Additional reviewers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "in_scope": false
+    },
+    {
+      "title": "Contract planning and advanced approval",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "in_scope": false
+    },
+    {
+      "title": "Contract request",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "in_scope": false
+    },
+    {
+      "title": "Treasury Board submission",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "in_scope": false
+    },
+    {
+      "title": "Contract amendment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Forgiveness of debts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "in_scope": false
+    },
+    {
+      "title": "Waiver of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "in_scope": false
+    },
+    {
+      "title": "Trade-ins",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "in_scope": false
+    },
+    {
+      "title": "Retroactive Treasury Board approval of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement process initiated by client",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+    "parent_doc_id": "d87330b8f1ec",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "d87330b8f1ec",
+      "c4964bd99352"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Prepare approval documents - Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan"
+      ],
+      "text": "Procurement plan A procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations. The procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits. Before issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level. A Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies. There are two types of procurement plans: Procurement plan for procurements at or below Director General (DG) approval level Formal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level Changes to the original procurement plan If there are significant changes to the original procurement plan you must: review the complexity level perform a new PRA submit the revised procurement plan for approval Note : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) . For PSPC procurements up to Director General approval level A procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry. For procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level. The procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan. There are two steps to this process: Submission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation Formal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented Formal procurement plan for procurements at or above the ADM approval level The formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either: the Senior Director (or Director) to the DG or Regional Director General (RDG) the DG or RDG to the ADM The formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation. Description A brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable. Background Background information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions. Estimated cost and name of client Estimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to. Anticipated contract (or SO or SA ) approval authority required Anticipated contract approval authority and the rationale for its selection. Sourcing Consider the following when selecting suppliers: the applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement ) the sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent) the justification for the decision to use sole source, if applicable for procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future Policy issues Outline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy. Note: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services Evaluation and contractor selection methodology The following methodology must be described: evaluation and contractor selection methodology, including evaluation criteria and selection methods milestones targeting important dates in the procurement process, should be described in general terms rather than specific dates additional comments relevant to the approval authority's consideration Anticipated basis of payment Provide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions. Milestones Give target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates. Additional comments Include any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement. Buyer details Provide your contact information, identifying a clear point of contact for the procurement. Additional comments Leave two or three lines for comments by the approval authority. Recommendations and formal approvals Each procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities. The approval process for high-complexity procurements involves: Preparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks Formal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives Annex A: Sole source questions and answers If applicable, add the sole source questions and answers as Annex A.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "Procurement plan",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "A procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "The procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "Before issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level.",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "paragraph",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "A Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies.",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "There are two types of procurement plans:",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "Procurement plan for procurements at or below Director General (DG) approval level",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan"
+      ],
+      "text": "Formal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "Changes to the original procurement plan",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "If there are significant changes to the original procurement plan you must:",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "list_item",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "review the complexity level",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "list_item",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "perform a new PRA",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "submit the revised procurement plan for approval",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "paragraph",
+      "heading": "Changes to the original procurement plan",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Changes to the original procurement plan"
+      ],
+      "text": "Note : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) .",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "heading",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "For PSPC procurements up to Director General approval level",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "A procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry.",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "paragraph",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "For procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level.",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "paragraph",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "The procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan.",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "paragraph",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "There are two steps to this process:",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "list_item",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "Submission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "list_item",
+      "heading": "For PSPC procurements up to Director General approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "For PSPC procurements up to Director General approval level"
+      ],
+      "text": "Formal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "heading",
+      "heading": "Formal procurement plan for procurements at or above the ADM approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level"
+      ],
+      "text": "Formal procurement plan for procurements at or above the ADM approval level",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "Formal procurement plan for procurements at or above the ADM approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level"
+      ],
+      "text": "The formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either:",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "list_item",
+      "heading": "Formal procurement plan for procurements at or above the ADM approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level"
+      ],
+      "text": "the Senior Director (or Director) to the DG or Regional Director General (RDG)",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "list_item",
+      "heading": "Formal procurement plan for procurements at or above the ADM approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level"
+      ],
+      "text": "the DG or RDG to the ADM",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "paragraph",
+      "heading": "Formal procurement plan for procurements at or above the ADM approval level",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level"
+      ],
+      "text": "The formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation.",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "heading",
+      "heading": "Description",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Description"
+      ],
+      "text": "Description",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "paragraph",
+      "heading": "Description",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Description"
+      ],
+      "text": "A brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable.",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "heading",
+      "heading": "Background",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Background"
+      ],
+      "text": "Background",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "paragraph",
+      "heading": "Background",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Background"
+      ],
+      "text": "Background information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions.",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "heading",
+      "heading": "Estimated cost and name of client",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Estimated cost and name of client"
+      ],
+      "text": "Estimated cost and name of client",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "paragraph",
+      "heading": "Estimated cost and name of client",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Estimated cost and name of client"
+      ],
+      "text": "Estimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to.",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "heading",
+      "heading": "Anticipated contract (or SO or SA ) approval authority required",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Anticipated contract (or SO or SA ) approval authority required"
+      ],
+      "text": "Anticipated contract (or SO or SA ) approval authority required",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "paragraph",
+      "heading": "Anticipated contract (or SO or SA ) approval authority required",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Anticipated contract (or SO or SA ) approval authority required"
+      ],
+      "text": "Anticipated contract approval authority and the rationale for its selection.",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "heading",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "Sourcing",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "Consider the following when selecting suppliers:",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "list_item",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "the applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement )",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "list_item",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "the sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent)",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "list_item",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "the justification for the decision to use sole source, if applicable",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "list_item",
+      "heading": "Sourcing",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Sourcing"
+      ],
+      "text": "for procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "heading",
+      "heading": "Policy issues",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Policy issues"
+      ],
+      "text": "Policy issues",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "paragraph",
+      "heading": "Policy issues",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Policy issues"
+      ],
+      "text": "Outline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy.",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "paragraph",
+      "heading": "Policy issues",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Policy issues"
+      ],
+      "text": "Note: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "heading",
+      "heading": "Evaluation and contractor selection methodology",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Evaluation and contractor selection methodology"
+      ],
+      "text": "Evaluation and contractor selection methodology",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "paragraph",
+      "heading": "Evaluation and contractor selection methodology",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Evaluation and contractor selection methodology"
+      ],
+      "text": "The following methodology must be described:",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "list_item",
+      "heading": "Evaluation and contractor selection methodology",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Evaluation and contractor selection methodology"
+      ],
+      "text": "evaluation and contractor selection methodology, including evaluation criteria and selection methods",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "list_item",
+      "heading": "Evaluation and contractor selection methodology",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Evaluation and contractor selection methodology"
+      ],
+      "text": "milestones targeting important dates in the procurement process, should be described in general terms rather than specific dates",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "list_item",
+      "heading": "Evaluation and contractor selection methodology",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Evaluation and contractor selection methodology"
+      ],
+      "text": "additional comments relevant to the approval authority's consideration",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "heading",
+      "heading": "Anticipated basis of payment",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Anticipated basis of payment"
+      ],
+      "text": "Anticipated basis of payment",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "paragraph",
+      "heading": "Anticipated basis of payment",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Anticipated basis of payment"
+      ],
+      "text": "Provide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions.",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "heading",
+      "heading": "Milestones",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Milestones"
+      ],
+      "text": "Milestones",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "paragraph",
+      "heading": "Milestones",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Milestones"
+      ],
+      "text": "Give target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates.",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "heading",
+      "heading": "Additional comments",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Additional comments"
+      ],
+      "text": "Additional comments",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "paragraph",
+      "heading": "Additional comments",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Additional comments"
+      ],
+      "text": "Include any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement.",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "heading",
+      "heading": "Buyer details",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Buyer details"
+      ],
+      "text": "Buyer details",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "paragraph",
+      "heading": "Buyer details",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Buyer details"
+      ],
+      "text": "Provide your contact information, identifying a clear point of contact for the procurement.",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "heading",
+      "heading": "Additional comments",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Additional comments"
+      ],
+      "text": "Additional comments",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "paragraph",
+      "heading": "Additional comments",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Additional comments"
+      ],
+      "text": "Leave two or three lines for comments by the approval authority.",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "heading",
+      "heading": "Recommendations and formal approvals",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Recommendations and formal approvals"
+      ],
+      "text": "Recommendations and formal approvals",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "paragraph",
+      "heading": "Recommendations and formal approvals",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Recommendations and formal approvals"
+      ],
+      "text": "Each procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities.",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "paragraph",
+      "heading": "Recommendations and formal approvals",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Recommendations and formal approvals"
+      ],
+      "text": "The approval process for high-complexity procurements involves:",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "list_item",
+      "heading": "Recommendations and formal approvals",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Recommendations and formal approvals"
+      ],
+      "text": "Preparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks",
+      "order": 62,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0063",
+      "block_type": "list_item",
+      "heading": "Recommendations and formal approvals",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Recommendations and formal approvals"
+      ],
+      "text": "Formal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives",
+      "order": 63,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0064",
+      "block_type": "heading",
+      "heading": "Annex A: Sole source questions and answers",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Annex A: Sole source questions and answers"
+      ],
+      "text": "Annex A: Sole source questions and answers",
+      "order": 64,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0065",
+      "block_type": "paragraph",
+      "heading": "Annex A: Sole source questions and answers",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Procurement plan",
+        "Procurement plan",
+        "Formal procurement plan for procurements at or above the ADM approval level",
+        "Annex A: Sole source questions and answers"
+      ],
+      "text": "If applicable, add the sole source questions and answers as Annex A.",
+      "order": 65,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Procurement plan A procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations. The procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits. Before issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level. A Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies. There are two types of procurement plans: Procurement plan for procurements at or below Director General (DG) approval level Formal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level Changes to the original procurement plan If there are significant changes to the original procurement plan you must: review the complexity level perform a new PRA submit the revised procurement plan for approval Note : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) . For PSPC procurements up to Director General approval level A procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry. For procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level. The procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan. There are two steps to this process: Submission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation Formal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented Formal procurement plan for procurements at or above the ADM approval level The formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either: the Senior Director (or Director) to the DG or Regional Director General (RDG) the DG or RDG to the ADM The formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation. Description A brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable. Background Background information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions. Estimated cost and name of client Estimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to. Anticipated contract (or SO or SA ) approval authority required Anticipated contract approval authority and the rationale for its selection. Sourcing Consider the following when selecting suppliers: the applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement ) the sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent) the justification for the decision to use sole source, if applicable for procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future Policy issues Outline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy. Note: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services Evaluation and contractor selection methodology The following methodology must be described: evaluation and contractor selection methodology, including evaluation criteria and selection methods milestones targeting important dates in the procurement process, should be described in general terms rather than specific dates additional comments relevant to the approval authority's consideration Anticipated basis of payment Provide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions. Milestones Give target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates. Additional comments Include any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement. Buyer details Provide your contact information, identifying a clear point of contact for the procurement. Additional comments Leave two or three lines for comments by the approval authority. Recommendations and formal approvals Each procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities. The approval process for high-complexity procurements involves: Preparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks Formal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives Annex A: Sole source questions and answers If applicable, add the sole source questions and answers as Annex A.\n\nProcurement plan\n\nA procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations.\n\nThe procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits.\n\nBefore issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level.\n\nA Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies.\n\nThere are two types of procurement plans:\n\nProcurement plan for procurements at or below Director General (DG) approval level\n\nFormal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level\n\nChanges to the original procurement plan\n\nIf there are significant changes to the original procurement plan you must:\n\nreview the complexity level\n\nperform a new PRA\n\nsubmit the revised procurement plan for approval\n\nNote : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) .\n\nFor PSPC procurements up to Director General approval level\n\nA procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry.\n\nFor procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level.\n\nThe procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan.\n\nThere are two steps to this process:\n\nSubmission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation\n\nFormal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented\n\nFormal procurement plan for procurements at or above the ADM approval level\n\nThe formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either:\n\nthe Senior Director (or Director) to the DG or Regional Director General (RDG)\n\nthe DG or RDG to the ADM\n\nThe formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation.\n\nDescription\n\nA brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable.\n\nBackground\n\nBackground information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions.\n\nEstimated cost and name of client\n\nEstimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to.\n\nAnticipated contract (or SO or SA ) approval authority required\n\nAnticipated contract approval authority and the rationale for its selection.\n\nSourcing\n\nConsider the following when selecting suppliers:\n\nthe applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement )\n\nthe sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent)\n\nthe justification for the decision to use sole source, if applicable\n\nfor procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future\n\nPolicy issues\n\nOutline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy.\n\nNote: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services\n\nEvaluation and contractor selection methodology\n\nThe following methodology must be described:\n\nevaluation and contractor selection methodology, including evaluation criteria and selection methods\n\nmilestones targeting important dates in the procurement process, should be described in general terms rather than specific dates\n\nadditional comments relevant to the approval authority's consideration\n\nAnticipated basis of payment\n\nProvide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions.\n\nMilestones\n\nGive target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates.\n\nAdditional comments\n\nInclude any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement.\n\nBuyer details\n\nProvide your contact information, identifying a clear point of contact for the procurement.\n\nAdditional comments\n\nLeave two or three lines for comments by the approval authority.\n\nRecommendations and formal approvals\n\nEach procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities.\n\nThe approval process for high-complexity procurements involves:\n\nPreparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks\n\nFormal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives\n\nAnnex A: Sole source questions and answers\n\nIf applicable, add the sole source questions and answers as Annex A.",
+  "markdown_text": "Procurement plan A procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations. The procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits. Before issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level. A Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies. There are two types of procurement plans: Procurement plan for procurements at or below Director General (DG) approval level Formal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level Changes to the original procurement plan If there are significant changes to the original procurement plan you must: review the complexity level perform a new PRA submit the revised procurement plan for approval Note : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) . For PSPC procurements up to Director General approval level A procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry. For procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level. The procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan. There are two steps to this process: Submission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation Formal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented Formal procurement plan for procurements at or above the ADM approval level The formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either: the Senior Director (or Director) to the DG or Regional Director General (RDG) the DG or RDG to the ADM The formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation. Description A brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable. Background Background information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions. Estimated cost and name of client Estimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to. Anticipated contract (or SO or SA ) approval authority required Anticipated contract approval authority and the rationale for its selection. Sourcing Consider the following when selecting suppliers: the applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement ) the sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent) the justification for the decision to use sole source, if applicable for procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future Policy issues Outline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy. Note: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services Evaluation and contractor selection methodology The following methodology must be described: evaluation and contractor selection methodology, including evaluation criteria and selection methods milestones targeting important dates in the procurement process, should be described in general terms rather than specific dates additional comments relevant to the approval authority's consideration Anticipated basis of payment Provide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions. Milestones Give target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates. Additional comments Include any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement. Buyer details Provide your contact information, identifying a clear point of contact for the procurement. Additional comments Leave two or three lines for comments by the approval authority. Recommendations and formal approvals Each procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities. The approval process for high-complexity procurements involves: Preparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks Formal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives Annex A: Sole source questions and answers If applicable, add the sole source questions and answers as Annex A.\n\nProcurement plan\n\nA procurement plan outlines the intended strategy for conducting procurement activities prior to undertaking significant actions such as posting an Advance Contract Award Notice (ACAN) or entering into contract negotiations.\n\nThe procurement plan is a key tool to be used in discussions and to review points for considering options like competitive versus sole source, and industrial and regional benefits.\n\nBefore issuing a solicitation of offers, you must obtain approval of the procurement plan at the appropriate level.\n\nA Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - PSPC only) must be performed prior to completing the procurement plan and be attached to it. The identification of risks supports the formulation of risk mitigation strategies.\n\nThere are two types of procurement plans:\n\nProcurement plan for procurements at or below Director General (DG) approval level\n\nFormal Procurement Plan Template for procurements at or above Assistant Deputy Minister (ADM) level\n\nChanges to the original procurement plan\n\nIf there are significant changes to the original procurement plan you must:\n\nreview the complexity level\n\nperform a new PRA\n\nsubmit the revised procurement plan for approval\n\nNote : If required, you may consult the group responsible for providing Risk Management Advisory Services (RMAS) .\n\nFor PSPC procurements up to Director General approval level\n\nA procurement plan form is used for procurements estimated to be at or below DG approval when there is insufficient information to obtain advance approval for contract entry.\n\nFor procurements outside the Department’s authority, the procurement plan must be prepared as a memorandum from the Senior Director (or Director) to the Director General (DG) or Regional Director General (RDG). It must include the elements identified under the formal procurement plan for procurements at or above the ADM level.\n\nThe procurement plan must provide details on medium-high to high risks and proposed mitigation strategies. You may also refer to Determine the procurement strategy for a list of items that could be included in the procurement plan.\n\nThere are two steps to this process:\n\nSubmission to the designated authority at or below the DG level for review of the procurement plan and the PRA , addressing comprehensive risk identification and mitigation\n\nFormal approval by the DG or their authorized representative, ensuring that all procedural and strategic aspects of the procurement are adequately addressed and documented\n\nFormal procurement plan for procurements at or above the ADM approval level\n\nThe formal procurement plan is required for the approval of the procurement strategy for all Public Services and Procurement Canada (PSPC) Acquisitions Program (AP) procurements requiring contract entry approval at or above the ADM level. The ADM will approve procurement plans for complexity levels 4 and 5. The formal procurement plan must be comprehensive and include a detailed risk assessment. The formal procurement plan must be prepared as a memorandum from either:\n\nthe Senior Director (or Director) to the DG or Regional Director General (RDG)\n\nthe DG or RDG to the ADM\n\nThe formal procurement plan follows a structured approach that promotes transparency, strategic alignment, and compliance with policies and guidelines. You must include the elements identified below to ensure you are well prepared before procurement initiation.\n\nDescription\n\nA brief description of the requirement, including any options, advance approvals, and set-aside amounts. Indicate the period of the proposed contract and options where applicable.\n\nBackground\n\nBackground information providing context and addressing any relevant recommendations or decisions specific to the requirement, for example, audit recommendations, Canadian International Trade Tribunal determinations or Treasury Board (TB) decisions.\n\nEstimated cost and name of client\n\nEstimated cost including goods and services tax (GST) or harmonized sales tax (HST). Include any options, set-aside amounts, etc., and state which client department it is chargeable to.\n\nAnticipated contract (or SO or SA ) approval authority required\n\nAnticipated contract approval authority and the rationale for its selection.\n\nSourcing\n\nConsider the following when selecting suppliers:\n\nthe applicable trade agreements, Comprehensive Land Claims Agreements, and policies governing sourcing decisions (for example, Procurement Strategy for Indigenous Business, Canadian Content Policy, shipbuilding repair, refit and modernization, Policy on Green Procurement, Interim Policy on Reciprocal Procurement )\n\nthe sourcing strategy, such as the tender opportunities page, other public advertising, source lists (one time, permanent)\n\nthe justification for the decision to use sole source, if applicable\n\nfor procurement plans for which TB submissions will be required, the plan for a competitive or non-competitive contract must provide an assessment of the extent to which TB approval of the proposals could limit, or encourage, the competitiveness of related procurement activities in the future\n\nPolicy issues\n\nOutline any special or unusual aspects of the procurement, for example, a deviation from policy. Recommend course of action to resolve or handle any problems involving potential major risks or deviations from sourcing policy or other applicable policy.\n\nNote: Where there are major risks inherent in the proposed approach, PSPC procurement plans must be examined in consultation with PSPC financial authorities and Legal Services\n\nEvaluation and contractor selection methodology\n\nThe following methodology must be described:\n\nevaluation and contractor selection methodology, including evaluation criteria and selection methods\n\nmilestones targeting important dates in the procurement process, should be described in general terms rather than specific dates\n\nadditional comments relevant to the approval authority's consideration\n\nAnticipated basis of payment\n\nProvide the anticipated basis of payment to be used in the contract (for example, firm price, fixed time rates, ceiling price, limitation of expenditure). Include an explanation for the use of advance payments, and indicate when financial security (for example, surety bond, irrevocable standby letter of credit) will be required from the contractor. Address contract audit provisions.\n\nMilestones\n\nGive target dates for key milestones (for example, solicitation of offers, contract award, delivery schedule) in the form of \"early May\" or \"mid August\" or \"late October\", rather than specific dates.\n\nAdditional comments\n\nInclude any information that should be brought to the approval authority's attention, for example, limitation of contractor's liability, fairness monitor, industrial security requirements, intellectual property, business line consultations, green procurement.\n\nBuyer details\n\nProvide your contact information, identifying a clear point of contact for the procurement.\n\nAdditional comments\n\nLeave two or three lines for comments by the approval authority.\n\nRecommendations and formal approvals\n\nEach procurement plan concludes with a section for recommendations and formal approvals. This is to ensure that the plan is thoroughly reviewed by the appropriate departmental authorities.\n\nThe approval process for high-complexity procurements involves:\n\nPreparation of a formal procurement plan that includes an in-depth risk assessment and proposed mitigation strategies for medium to high risks\n\nFormal approval by the ADM or higher authority, following a thorough review process that ensures the procurement strategy aligns with departmental and government-wide procurement policies and objectives\n\nAnnex A: Sole source questions and answers\n\nIf applicable, add the sole source questions and answers as Annex A.",
+  "provenance_paths": {}
+}

@@ -1,0 +1,37 @@
+{
+  "name": "answer_pairwise_precision_slice",
+  "generated_at": "2026-03-24T04:12:27.939721+00:00",
+  "source_eval_path": "datasets/eval/parity/parity19.jsonl",
+  "output_eval_path": "datasets/eval/generated/answer_pairwise_precision_slice.jsonl",
+  "purpose": "Canonical answer-side precision gate built from pairwise disagreement cases where scalar recall was equal or misleading but pairwise judging still preferred the baseline for faithfulness/directness.",
+  "selection_criteria": [
+    "Start from the original 19-case parity control surface.",
+    "Include equal-recall or otherwise precision-sensitive cases from pairwise control-win analyses of answer-side branches.",
+    "Keep regression guards for cases where the candidate briefly looked better by scalar recall but still needed strong precision discipline."
+  ],
+  "source_artifacts": [
+    "datasets/runs/pairwise_baseline_20260324_020025_vs_selective_mode_aware_answer_repair_20260324_021259_20260324_021545.json",
+    "datasets/runs/pairwise_scalar_analysis_pairwise_baseline_20260324_020025_vs_selective_mode_aware_answer_repair_20260324_021259_20260324_021545_20260324_021606_633997.json",
+    "datasets/runs/pairwise_baseline_20260324_020025_vs_selective_mode_aware_compact_answering_20260324_032955_20260324_033148.json",
+    "datasets/runs/pairwise_scalar_analysis_pairwise_baseline_20260324_020025_vs_selective_mode_aware_compact_answering_20260324_032955_20260324_033148_20260324_035234_825529.md"
+  ],
+  "case_ids": [
+    "HR_001",
+    "HR_003",
+    "HR_004",
+    "HR_005",
+    "HR_007",
+    "HR_008",
+    "HR_009",
+    "HR_011",
+    "HR_013",
+    "HR_015",
+    "HR_017",
+    "HR_018",
+    "HR_019"
+  ],
+  "notes": [
+    "HR_001 and HR_005 are carried as regression guards because answer-side branches can look stronger by scalar recall while still drifting on faithfulness or directness.",
+    "The slice is intentionally precision-heavy and should complement, not replace, the canonical parity19 dev/holdout and rebuilt parity39 surfaces."
+  ]
+}

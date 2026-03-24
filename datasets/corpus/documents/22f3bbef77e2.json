@@ -1,0 +1,574 @@
+{
+  "doc_id": "22f3bbef77e2",
+  "title": "Contract negotiation - How to negotiate | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:58:51.560655Z",
+  "content_hash": "ffad1334a2b32bf8fcc446168b411096841d2307ce1dcc39362df231ef1f1c7f",
+  "word_count": 216,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Contract negotiation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Contract negotiation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "When to negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "in_scope": false
+    },
+    {
+      "title": "How to negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiation Services Hub",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "in_scope": false
+    },
+    {
+      "title": "Cost and profit negotiations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started with cost and profit negotiations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "in_scope": false
+    },
+    {
+      "title": "Contact the price advisory group",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "in_scope": false
+    },
+    {
+      "title": "Analyze and negotiate costs",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "in_scope": false
+    },
+    {
+      "title": "Analyze and negotiate profit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "in_scope": false
+    },
+    {
+      "title": "Special cost considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Alternative pricing strategies",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+    "parent_doc_id": "9521ef89d4c5",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "9521ef89d4c5",
+      "22f3bbef77e2"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Contract negotiation - How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate"
+      ],
+      "text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "How to negotiate",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "During negotiations:",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "list_item",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "all offerors must be treated fairly and impartially",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "confidentiality of each offeror's negotiating position must be assured",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "paragraph",
+      "heading": "How to negotiate",
+      "heading_path": [
+        "Buyer's Guide Contract negotiation - How to negotiate",
+        "How to negotiate"
+      ],
+      "text": "Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+      "order": 7,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.\n\nHow to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+  "markdown_text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.\n\nHow to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+  "provenance_paths": {}
+}

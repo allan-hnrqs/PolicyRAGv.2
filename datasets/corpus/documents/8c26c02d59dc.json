@@ -1,0 +1,1126 @@
+{
+  "doc_id": "8c26c02d59dc",
+  "title": "Request for supply arrangements | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:57:35.553832Z",
+  "content_hash": "1835b18004e02d86997f3f5bb6db5ae9cbc7874ec4ee9bc064196e34b1d6e7ce",
+  "word_count": 1345,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitation of offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Invitation to tender",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "in_scope": false
+    },
+    {
+      "title": "Request for information or Letter of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "in_scope": false
+    },
+    {
+      "title": "Request for quotation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "in_scope": false
+    },
+    {
+      "title": "Request for supply arrangement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "in_scope": false
+    },
+    {
+      "title": "Request for standing offer",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "in_scope": false
+    },
+    {
+      "title": "Preparing the solicitation documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "in_scope": false
+    },
+    {
+      "title": "Notice of proposed procurement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "in_scope": false
+    },
+    {
+      "title": "Advanced Contract Award Notice",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices and trade agreements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices and Procurement Strategy for Indigenous Business set-aside",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "in_scope": false
+    },
+    {
+      "title": "Determine the solicitation period",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitation period",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "in_scope": false
+    },
+    {
+      "title": "Normal minimum solicitation periods",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "in_scope": false
+    },
+    {
+      "title": "Minimum solicitation period for ITQs, RFSAs and urgent procurements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitations following a request for expressions of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "in_scope": false
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": false
+    },
+    {
+      "title": "Audit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "in_scope": false
+    },
+    {
+      "title": "Certifications",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "in_scope": false
+    },
+    {
+      "title": "Delivery terms",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "in_scope": false
+    },
+    {
+      "title": "Exchange rates",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "in_scope": false
+    },
+    {
+      "title": "Method of payment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "in_scope": false
+    },
+    {
+      "title": "Translation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "in_scope": false
+    },
+    {
+      "title": "Offer receipt",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "in_scope": false
+    },
+    {
+      "title": "Phased offer compliance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "in_scope": false
+    },
+    {
+      "title": "Client review",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "in_scope": false
+    },
+    {
+      "title": "Client review of elements of a solicitation of offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "f2fedd3e5896",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "f2fedd3e5896",
+      "8c26c02d59dc"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "heading",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "Request for supply arrangements",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "Published date: 2026-01-30",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "A request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria. The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements. Key elements of an RFSA should include, as a minimum: a clear description of the requirement instructions for offerors guidelines on preparing offers clear evaluation procedures and basis of selection criteria certification requirements industrial security requirements applicable to clients of the SA conditions applicable to the arrangement, including the terms of the solicitation resulting contract clauses applicable to any contract resulting from each solicitation how offerors can request information about RFSA results and how their offer was evaluated SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s. Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III. You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required. A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network). You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period. To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements . International trade agreements and supply arrangements RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS . Notices for RFSA s subject to international trade agreements must include: a description of goods/services, or categories participation conditions and criteria to be satisfied by offerors for inclusion on the list the verification methods for offeror qualification the contact details for the SA authority the validity period of the list and renewal or termination procedures the applicable trade agreements Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process. Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply. Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers. Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS . Canadian Free Trade Agreement and supply arrangements The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply. If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met: you invite all offerors on the source list to submit offers businesses can apply to qualify on the list at any time As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "A request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements.",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "Key elements of an RFSA should include, as a minimum:",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "a clear description of the requirement",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "instructions for offerors",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "guidelines on preparing offers",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "clear evaluation procedures and basis of selection criteria",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "certification requirements",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "industrial security requirements applicable to clients of the SA",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "conditions applicable to the arrangement, including the terms of the solicitation",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "resulting contract clauses applicable to any contract resulting from each solicitation",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "list_item",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "how offerors can request information about RFSA results and how their offer was evaluated",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s.",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III.",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required.",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network).",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period.",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "paragraph",
+      "heading": "Request for supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements"
+      ],
+      "text": "To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements .",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "heading",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "International trade agreements and supply arrangements",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS .",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "Notices for RFSA s subject to international trade agreements must include:",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "a description of goods/services, or categories",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "participation conditions and criteria to be satisfied by offerors for inclusion on the list",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "the verification methods for offeror qualification",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "the contact details for the SA authority",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "the validity period of the list and renewal or termination procedures",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "list_item",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "the applicable trade agreements",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process.",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply.",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers.",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "paragraph",
+      "heading": "International trade agreements and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "International trade agreements and supply arrangements"
+      ],
+      "text": "Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS .",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "heading",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "Canadian Free Trade Agreement and supply arrangements",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "paragraph",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply.",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met:",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "list_item",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "you invite all offerors on the source list to submit offers",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "list_item",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "businesses can apply to qualify on the list at any time",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "paragraph",
+      "heading": "Canadian Free Trade Agreement and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Request for supply arrangements",
+        "Request for supply arrangements",
+        "Canadian Free Trade Agreement and supply arrangements"
+      ],
+      "text": "As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.",
+      "order": 39,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Request for supply arrangements\n\nPublished date: 2026-01-30\n\nA request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria. The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements. Key elements of an RFSA should include, as a minimum: a clear description of the requirement instructions for offerors guidelines on preparing offers clear evaluation procedures and basis of selection criteria certification requirements industrial security requirements applicable to clients of the SA conditions applicable to the arrangement, including the terms of the solicitation resulting contract clauses applicable to any contract resulting from each solicitation how offerors can request information about RFSA results and how their offer was evaluated SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s. Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III. You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required. A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network). You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period. To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements . International trade agreements and supply arrangements RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS . Notices for RFSA s subject to international trade agreements must include: a description of goods/services, or categories participation conditions and criteria to be satisfied by offerors for inclusion on the list the verification methods for offeror qualification the contact details for the SA authority the validity period of the list and renewal or termination procedures the applicable trade agreements Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process. Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply. Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers. Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS . Canadian Free Trade Agreement and supply arrangements The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply. If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met: you invite all offerors on the source list to submit offers businesses can apply to qualify on the list at any time As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.\n\nA request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria.\n\nThe list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements.\n\nKey elements of an RFSA should include, as a minimum:\n\na clear description of the requirement\n\ninstructions for offerors\n\nguidelines on preparing offers\n\nclear evaluation procedures and basis of selection criteria\n\ncertification requirements\n\nindustrial security requirements applicable to clients of the SA\n\nconditions applicable to the arrangement, including the terms of the solicitation\n\nresulting contract clauses applicable to any contract resulting from each solicitation\n\nhow offerors can request information about RFSA results and how their offer was evaluated\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s.\n\nAuthorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III.\n\nYou must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required.\n\nA legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network).\n\nYou should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period.\n\nTo determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements .\n\nInternational trade agreements and supply arrangements\n\nRFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS .\n\nNotices for RFSA s subject to international trade agreements must include:\n\na description of goods/services, or categories\n\nparticipation conditions and criteria to be satisfied by offerors for inclusion on the list\n\nthe verification methods for offeror qualification\n\nthe contact details for the SA authority\n\nthe validity period of the list and renewal or termination procedures\n\nthe applicable trade agreements\n\nOfferors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process.\n\nWhere the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply.\n\nWhere the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers.\n\nWhere one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS .\n\nCanadian Free Trade Agreement and supply arrangements\n\nThe CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply.\n\nIf CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met:\n\nyou invite all offerors on the source list to submit offers\n\nbusinesses can apply to qualify on the list at any time\n\nAs per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.",
+  "markdown_text": "Request for supply arrangements\n\nPublished date: 2026-01-30\n\nA request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria. The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements. Key elements of an RFSA should include, as a minimum: a clear description of the requirement instructions for offerors guidelines on preparing offers clear evaluation procedures and basis of selection criteria certification requirements industrial security requirements applicable to clients of the SA conditions applicable to the arrangement, including the terms of the solicitation resulting contract clauses applicable to any contract resulting from each solicitation how offerors can request information about RFSA results and how their offer was evaluated SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s. Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III. You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required. A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network). You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period. To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements . International trade agreements and supply arrangements RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS . Notices for RFSA s subject to international trade agreements must include: a description of goods/services, or categories participation conditions and criteria to be satisfied by offerors for inclusion on the list the verification methods for offeror qualification the contact details for the SA authority the validity period of the list and renewal or termination procedures the applicable trade agreements Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process. Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply. Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers. Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS . Canadian Free Trade Agreement and supply arrangements The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply. If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met: you invite all offerors on the source list to submit offers businesses can apply to qualify on the list at any time As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.\n\nA request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria.\n\nThe list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements.\n\nKey elements of an RFSA should include, as a minimum:\n\na clear description of the requirement\n\ninstructions for offerors\n\nguidelines on preparing offers\n\nclear evaluation procedures and basis of selection criteria\n\ncertification requirements\n\nindustrial security requirements applicable to clients of the SA\n\nconditions applicable to the arrangement, including the terms of the solicitation\n\nresulting contract clauses applicable to any contract resulting from each solicitation\n\nhow offerors can request information about RFSA results and how their offer was evaluated\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s.\n\nAuthorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III.\n\nYou must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required.\n\nA legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network).\n\nYou should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period.\n\nTo determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements .\n\nInternational trade agreements and supply arrangements\n\nRFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS .\n\nNotices for RFSA s subject to international trade agreements must include:\n\na description of goods/services, or categories\n\nparticipation conditions and criteria to be satisfied by offerors for inclusion on the list\n\nthe verification methods for offeror qualification\n\nthe contact details for the SA authority\n\nthe validity period of the list and renewal or termination procedures\n\nthe applicable trade agreements\n\nOfferors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process.\n\nWhere the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply.\n\nWhere the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers.\n\nWhere one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS .\n\nCanadian Free Trade Agreement and supply arrangements\n\nThe CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply.\n\nIf CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met:\n\nyou invite all offerors on the source list to submit offers\n\nbusinesses can apply to qualify on the list at any time\n\nAs per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.",
+  "provenance_paths": {}
+}

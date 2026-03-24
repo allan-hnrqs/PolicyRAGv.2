@@ -1,0 +1,931 @@
+{
+  "doc_id": "55d2523b2d8c",
+  "title": "Approval and authorities - Contracting limits including exceptional authorities | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:56:56.651231Z",
+  "content_hash": "310c2159664530f645ae5190e38e3a0d83b238ba16952ec431d7e85088a48632",
+  "word_count": 1330,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Complexity and procurement risk assessment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Determining complexity",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Characteristics of procurement complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Changes to the complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement risk assessment for complexity level 1, 2 and",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "General principles of procurement authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Contract approval and signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Delegation of authority guidelines",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authorities for Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "in_scope": false
+    },
+    {
+      "title": "Additional signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Contracting limits including exceptional authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Risk-based procurement delegation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Approval processes",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "in_scope": false
+    },
+    {
+      "title": "Additional reviewers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "in_scope": false
+    },
+    {
+      "title": "Contract planning and advanced approval",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "in_scope": false
+    },
+    {
+      "title": "Contract request",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "in_scope": false
+    },
+    {
+      "title": "Treasury Board submission",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "in_scope": false
+    },
+    {
+      "title": "Contract amendment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Forgiveness of debts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "in_scope": false
+    },
+    {
+      "title": "Waiver of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "in_scope": false
+    },
+    {
+      "title": "Trade-ins",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "in_scope": false
+    },
+    {
+      "title": "Retroactive Treasury Board approval of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement process initiated by client",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+    "parent_doc_id": "2b9c8ce737a9",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "2b9c8ce737a9",
+      "55d2523b2d8c"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities"
+      ],
+      "text": "Contracting limits including exceptional authorities This section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities. The Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. Delegation of authorities tables The delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). The limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment. Exceptional authorities Unless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission. Signing authority Any incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document. For example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul. Position-based delegation limits and individual buyers The relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form. Standing offers and supply arrangements Approval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch. The Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply. Therefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval. Advance Contract Award Notices For the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted. Approval authority for complex procurements For complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement. Equivalent positions Refer to the table of equivalent positions for position titles under each level.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Contracting limits including exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities"
+      ],
+      "text": "Contracting limits including exceptional authorities",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Contracting limits including exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities"
+      ],
+      "text": "This section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Contracting limits including exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities"
+      ],
+      "text": "The Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "heading",
+      "heading": "Delegation of authorities tables",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Delegation of authorities tables"
+      ],
+      "text": "Delegation of authorities tables",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "paragraph",
+      "heading": "Delegation of authorities tables",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Delegation of authorities tables"
+      ],
+      "text": "The delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Delegation of authorities tables",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Delegation of authorities tables"
+      ],
+      "text": "The limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment.",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "heading",
+      "heading": "Exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Exceptional authorities"
+      ],
+      "text": "Exceptional authorities",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Exceptional authorities",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Exceptional authorities"
+      ],
+      "text": "Unless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Signing authority",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Signing authority"
+      ],
+      "text": "Signing authority",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Signing authority",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Signing authority"
+      ],
+      "text": "Any incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document.",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Signing authority",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Signing authority"
+      ],
+      "text": "For example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "heading",
+      "heading": "Position-based delegation limits and individual buyers",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Position-based delegation limits and individual buyers"
+      ],
+      "text": "Position-based delegation limits and individual buyers",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "paragraph",
+      "heading": "Position-based delegation limits and individual buyers",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Position-based delegation limits and individual buyers"
+      ],
+      "text": "The relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form.",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "heading",
+      "heading": "Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Standing offers and supply arrangements"
+      ],
+      "text": "Standing offers and supply arrangements",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "paragraph",
+      "heading": "Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Standing offers and supply arrangements"
+      ],
+      "text": "Approval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch.",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Standing offers and supply arrangements"
+      ],
+      "text": "The Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply.",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "paragraph",
+      "heading": "Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Standing offers and supply arrangements"
+      ],
+      "text": "Therefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval.",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "heading",
+      "heading": "Advance Contract Award Notices",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Advance Contract Award Notices"
+      ],
+      "text": "Advance Contract Award Notices",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "paragraph",
+      "heading": "Advance Contract Award Notices",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Advance Contract Award Notices"
+      ],
+      "text": "For the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted.",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "heading",
+      "heading": "Approval authority for complex procurements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Approval authority for complex procurements"
+      ],
+      "text": "Approval authority for complex procurements",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "paragraph",
+      "heading": "Approval authority for complex procurements",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Approval authority for complex procurements"
+      ],
+      "text": "For complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement.",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "heading",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Equivalent positions"
+      ],
+      "text": "Equivalent positions",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Contracting limits including exceptional authorities",
+        "Contracting limits including exceptional authorities",
+        "Equivalent positions"
+      ],
+      "text": "Refer to the table of equivalent positions for position titles under each level.",
+      "order": 23,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Contracting limits including exceptional authorities This section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities. The Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. Delegation of authorities tables The delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). The limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment. Exceptional authorities Unless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission. Signing authority Any incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document. For example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul. Position-based delegation limits and individual buyers The relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form. Standing offers and supply arrangements Approval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch. The Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply. Therefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval. Advance Contract Award Notices For the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted. Approval authority for complex procurements For complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement. Equivalent positions Refer to the table of equivalent positions for position titles under each level.\n\nContracting limits including exceptional authorities\n\nThis section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities.\n\nThe Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder.\n\nDelegation of authorities tables\n\nThe delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nThe limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment.\n\nExceptional authorities\n\nUnless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission.\n\nSigning authority\n\nAny incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document.\n\nFor example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul.\n\nPosition-based delegation limits and individual buyers\n\nThe relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form.\n\nStanding offers and supply arrangements\n\nApproval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch.\n\nThe Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply.\n\nTherefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval.\n\nAdvance Contract Award Notices\n\nFor the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted.\n\nApproval authority for complex procurements\n\nFor complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement.\n\nEquivalent positions\n\nRefer to the table of equivalent positions for position titles under each level.",
+  "markdown_text": "Contracting limits including exceptional authorities This section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities. The Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. Delegation of authorities tables The delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). The limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment. Exceptional authorities Unless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission. Signing authority Any incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document. For example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul. Position-based delegation limits and individual buyers The relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form. Standing offers and supply arrangements Approval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch. The Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply. Therefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval. Advance Contract Award Notices For the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted. Approval authority for complex procurements For complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement. Equivalent positions Refer to the table of equivalent positions for position titles under each level.\n\nContracting limits including exceptional authorities\n\nThis section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities.\n\nThe Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder.\n\nDelegation of authorities tables\n\nThe delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nThe limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment.\n\nExceptional authorities\n\nUnless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission.\n\nSigning authority\n\nAny incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document.\n\nFor example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul.\n\nPosition-based delegation limits and individual buyers\n\nThe relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form.\n\nStanding offers and supply arrangements\n\nApproval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch.\n\nThe Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply.\n\nTherefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval.\n\nAdvance Contract Award Notices\n\nFor the purposes of contract approval authorities, an ACAN is classified under the \"competitive\" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted.\n\nApproval authority for complex procurements\n\nFor complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement.\n\nEquivalent positions\n\nRefer to the table of equivalent positions for position titles under each level.",
+  "provenance_paths": {}
+}

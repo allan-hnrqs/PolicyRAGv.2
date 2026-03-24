@@ -1,0 +1,1812 @@
+{
+  "doc_id": "382f0fba16c6",
+  "title": "Manage payments - Financial claims | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:58:26.839803Z",
+  "content_hash": "9eb31efc16e76ea1351ac44e8be2f7eed3636a8e1247f47a625007198a157ce7",
+  "word_count": 1611,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Manage payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Manage a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer and client responsibilites",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Contract dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Alternative dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Certifications",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "in_scope": false
+    },
+    {
+      "title": "Employer-employee relationship",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "in_scope": false
+    },
+    {
+      "title": "Financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Integrity provisions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "in_scope": false
+    },
+    {
+      "title": "Protecting Canada's interests",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "in_scope": false
+    },
+    {
+      "title": "Security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "in_scope": false
+    },
+    {
+      "title": "Services of foreign nationals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Subcontracting",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Vendor performance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "in_scope": false
+    },
+    {
+      "title": "Manage payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of monies",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "in_scope": false
+    },
+    {
+      "title": "Financial claims",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "in_scope": false
+    },
+    {
+      "title": "Cost reimbursable contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Exchange rate fluctuation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "in_scope": false
+    },
+    {
+      "title": "Final payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Fixed time rate contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Interest payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Overtime",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "in_scope": false
+    },
+    {
+      "title": "Claims for progress payments and invoicing",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "in_scope": false
+    },
+    {
+      "title": "Refund of excess profits",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "in_scope": false
+    },
+    {
+      "title": "Modify a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Considerations when making amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "in_scope": false
+    },
+    {
+      "title": "Procedural elements for amending contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Administrative guidance for implementing contract amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "in_scope": false
+    },
+    {
+      "title": "Revisions to standing offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Design change or deviation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "in_scope": false
+    },
+    {
+      "title": "Exercise options",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "in_scope": false
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Suspension of the work and stop work orders",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "in_scope": false
+    },
+    {
+      "title": "Termination of contracts with financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Legal services",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "in_scope": false
+    },
+    {
+      "title": "Source lists",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "in_scope": false
+    },
+    {
+      "title": "Public Services and Procurement Canada offices outside Canada",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for convenience",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for default",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "in_scope": false
+    },
+    {
+      "title": "Termination by mutual consent",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "in_scope": false
+    },
+    {
+      "title": "Close out a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Contract close-out activities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "in_scope": false
+    },
+    {
+      "title": "Best practices for contract close-out",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+    "parent_doc_id": "f2aca378ace6",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "f2aca378ace6",
+      "382f0fba16c6"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "heading",
+      "heading": "Financial claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims"
+      ],
+      "text": "Financial claims",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "paragraph",
+      "heading": "Financial claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims"
+      ],
+      "text": "This section provides guidelines for managing financial claims related to contracts. By understanding these procedures, you can protect Canada's financial interests and ensure compliance with all relevant policies and directives. This includes handling claims for extra payments by contractors and managing financial claims owed to Canada.",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "heading",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "Claims for extra payment",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "Contractors may occasionally submit claims for increased payments for firm price contracts due to changes caused by Canada. A firm price contract may not be amended for upward price revision without prior approval of Treasury Board (TB), unless the contract specifically includes an escalation clause, covering the adjustment requested or the contract conditions allowed for the requested adjustment.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "TB approval is mandatory for all claims of extra payment, regardless of the amount involved. Typically, TB will not approve extra payment claims that result solely from:",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "labor or material cost increases",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "changes in freight rates",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "exchange rate revisions",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "contractor-caused delays",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "errors on the part of the contractor",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "list_item",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "other difficulties that the contractor overlooked, but should have foreseen",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "You should consult Legal Services to determine if the extra payment constitutes a contract amendment or an \"ex gratia\" payment.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Claims for extra payment",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Claims for extra payment"
+      ],
+      "text": "The TB has granted full authority to deputy heads to make \"ex gratia\" payments and to designate officials within the department to act on their behalf. See the TB Directive on Payments.",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "heading",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "Financial claims by Canada",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "When monies may be owing to Canada from contracting activities, it is essential to determine the liability and amount owing with assistance, as necessary from Legal Services.",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "There are special procedures to be followed whenever there are suggestions of unreasonably high profits from any contract pursuant to the Defence Production Act or from any contract other than a competitive firm priced contract.",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "There are two general categories of claims by Canada related to contracting activities:",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "list_item",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "overpayments or overclaims identified through an audit",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "list_item",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "legal disputes, including termination for default or bankruptcy when the amount owed is known and final",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "Note: Either instance can only be determined when a contract has been completed or terminated.",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "You should coordinate with the contractor to obtain concurrence on the final amount owing. After determining this amount, you must instruct the client to establish an accounts receivable. The client must notify you that it has been done and initiate collection efforts.",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "paragraph",
+      "heading": "Financial claims by Canada",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada"
+      ],
+      "text": "The following roles contribute to managing these claims by Canada.",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "heading",
+      "heading": "Buyers",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Buyers"
+      ],
+      "text": "Buyers",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "Buyers",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Buyers"
+      ],
+      "text": "You are responsible for reviewing the acceptability of the contractor claimed amount, responding to audit observations as required, liaising with the client for concurrence on the final amount, and advising the Cost and Profit Assurance Group (CPAG) of all settlements reached.",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "heading",
+      "heading": "Assurance Services Group",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Assurance Services Group"
+      ],
+      "text": "Assurance Services Group",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "paragraph",
+      "heading": "Assurance Services Group",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Assurance Services Group"
+      ],
+      "text": "The Assurance Services Group (ASG) provides contract related assurance and advisory services on credibility, integrity and reliability of financial and non-financial information used to support contractor claims.",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "heading",
+      "heading": "Legal Services",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Legal Services"
+      ],
+      "text": "Legal Services",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "paragraph",
+      "heading": "Legal Services",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Legal Services"
+      ],
+      "text": "Identifies risks and liabilities from claims faced by Canada as a result of claims against the contractor, notifies contractors when requested by the buyer of Canada’s claim, and initiates legal action against the contractor.",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "heading",
+      "heading": "Industrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Industrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)"
+      ],
+      "text": "Industrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "paragraph",
+      "heading": "Industrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Financial claims by Canada",
+        "Industrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)"
+      ],
+      "text": "Handles the follow-up of audit qualifications or observations raised by ASG , except for audit issues involving the interpretation of clauses related to contract cost principles, which are the responsibility of Public Services and Procurement Canada (PSPC). Additionally, resolves issues and disputes in joint Canadian Commercial Corporation and ISED agreements.",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "heading",
+      "heading": "Recovery and settlement of contract claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Recovery and settlement of contract claims"
+      ],
+      "text": "Recovery and settlement of contract claims",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "paragraph",
+      "heading": "Recovery and settlement of contract claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Recovery and settlement of contract claims"
+      ],
+      "text": "The recovery and settlement of contract claims adjustments can only be made if the contract, and its terms and conditions, contain clauses that allow for audits and for recovery.",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "paragraph",
+      "heading": "Recovery and settlement of contract claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Recovery and settlement of contract claims"
+      ],
+      "text": "This process addresses overclaims and excess profits as identified under the Cost and Profit Assurance Program (CPAP) which is delivered by the ASG within the Price Support Directorate (PSD) of the Procurement Support Services Sector (PSSS) of PSPC .",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "paragraph",
+      "heading": "Recovery and settlement of contract claims",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Recovery and settlement of contract claims"
+      ],
+      "text": "The CPAP uses account verification tools to demonstrate that the price charged to Canada aligns with the contract, safeguarding Canada from overpaying on contracts, primarily in regard of major procurements. Assurance engagements are undertaken as a result of either an assurance strategy developed with the assistance of ASG ’s assurance advisors, or as a response to risks identified by a buyer, price advisor, or other government stakeholders.",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "heading",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "Assurance engagement",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "paragraph",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "The process for the recovery and settlement of contract claims adjustments starts upon receipt of the assurance engagement report by the assurance advisor.",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "Throughout the assurance engagement, all key stakeholders collaborate closely and maintain regular communication. This includes the assurance advisor, who provides guidance on assurance-related matters, the auditor team conducting the engagement, the PSPC buyer who manages the contract, the client and, when applicable, the price advisor, who was involved in negotiating the pricing arrangements for the contracts under examination.",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "paragraph",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "Auditors review claims against the terms of the contract and focus on:",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "list_item",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "inadequate accounting and labour recording systems",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "list_item",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "non-compliance with contract terms and conditions, Canada’s Contract Cost Principles 1031-2 and the Profit Principles (section 5.2 of the Practitioner’s Guide for Procurement Pricing )",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "list_item",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "billing errors resulting from incorrect rates, quantities or invoiced amounts",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "list_item",
+      "heading": "Assurance engagement",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Assurance engagement"
+      ],
+      "text": "profit variance in excess of authorized contract profit",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "heading",
+      "heading": "Notification report and action plan",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan"
+      ],
+      "text": "Notification report and action plan",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "heading",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "Notification report",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "paragraph",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "A notification report is initiated, drafted and prepared by the ASG. assurance advisor. It is prepared to outline the findings and recommended actions in dealing with the contractor’s claims for payment or excess profit, its accounting practices, or it’s internal controls.",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "paragraph",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "This report summarizes the results of the assurance engagement report and provides advice on the actions required by government representatives to mitigate the risk of overpayment on current and future contracts. The engagement report contains the full details of the assurance engagement results.",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "paragraph",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "The notification report is intended to support buyers in the following areas:",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "negotiations with the offeror on final settlement of financial claims for payment",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "follow-up on matters of offeror compliance, as it relates to records, internal controls, cost accounting or billing practices",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "documentation and approval of the disposition of findings raised in the assurance engagement report",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "strategic decision-making, including modification to the basis of payment, clarifying terms and conditions of contracts, and modifications in costing methodology.",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "paragraph",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "It includes:",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "a plain language description of proposed adjustments to claims for payment with details on its findings, time period and contract(s) covered by the engagement, and information on internal control or accounting system weaknesses",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "identification of the potential risks on current and future contracts awarded to the offeror based on issues identified in the audit",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "recommendations requiring response by the buyer",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "list_item",
+      "heading": "Notification report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Notification report"
+      ],
+      "text": "a request for an action plan in response to recommendations contained in the notification report with expected timelines for completion.",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "heading",
+      "heading": "Action plan",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Action plan"
+      ],
+      "text": "Action plan",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "paragraph",
+      "heading": "Action plan",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Action plan"
+      ],
+      "text": "The action plan is prepared and approved by procurement and responds to recommendations contained in the notification report, as prepared by ASG.",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "paragraph",
+      "heading": "Action plan",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Action plan"
+      ],
+      "text": "You, as the buyer, must provide the action plan to the assurance advisor within 30 calendar days of receipt of the notification report.",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "paragraph",
+      "heading": "Action plan",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Notification report and action plan",
+        "Action plan"
+      ],
+      "text": "You should provide updates to the assurance advisor on progress made against the action plan on a monthly or as required basis.",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "heading",
+      "heading": "Support and negotiation assistance",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Support and negotiation assistance"
+      ],
+      "text": "Support and negotiation assistance",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "paragraph",
+      "heading": "Support and negotiation assistance",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Support and negotiation assistance"
+      ],
+      "text": "You will receive assistance from the assurance advisor, which may include advice on pursuing recoveries, recommendations for strengthening internal controls within the business accounting systems or suggestions for modifying the contract terms and conditions. Additionally, the assurance advisor will help clarify any questions and obtaining additional details from the auditor related to basis of support for adjustments to contractor claims and other relevant issues, as necessary.",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "paragraph",
+      "heading": "Support and negotiation assistance",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Support and negotiation assistance"
+      ],
+      "text": "The technical complexity of the auditor's findings may require support from a professional accountant to aid in negotiations. Requests for specialized assistance should be directed to ASG.",
+      "order": 62,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0063",
+      "block_type": "paragraph",
+      "heading": "Support and negotiation assistance",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Support and negotiation assistance"
+      ],
+      "text": "You must seek approval before rejecting any proposed adjustments to the contractors claims and before discussing them with the contractor. This must include the client, you as the PSPC buyer, and PSSS , as outlined in Approvals and disputes . You must obtain consensus from all before finalizing any rejection of claim adjustments.",
+      "order": 63,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0064",
+      "block_type": "heading",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "Reporting, repayment, and closeout",
+      "order": 64,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0065",
+      "block_type": "paragraph",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "ASG monitors and reports on recovery and settlement actions and will follow-up with you until all recommendations contained in the notification report are resolved. Semi-annually, ASG will report to procurement’s senior management on the status of recoveries, resolution of adjustments and lessons learned from the assurance engagement process.",
+      "order": 65,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0066",
+      "block_type": "paragraph",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "When you are provided a cheque to repay for overclaimed amounts or excess profits, you must provide the following to the assurance advisor within seven calendar days of deposit:",
+      "order": 66,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0067",
+      "block_type": "list_item",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "copy of contractor’s cheque(s)",
+      "order": 67,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0068",
+      "block_type": "list_item",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "copy of the official receipt from the client’s revenue and receivables cashier office",
+      "order": 68,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0069",
+      "block_type": "list_item",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "copy of the client’s refund coding form indicating the financial general ledger account coding",
+      "order": 69,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0070",
+      "block_type": "paragraph",
+      "heading": "Reporting, repayment, and closeout",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Reporting, repayment, and closeout"
+      ],
+      "text": "The process concludes with the administrative closeout. A report is prepared by the assurance advisor that summarizes the disposition of claim adjustments and matters related to contractor compliance for your concurrence. Closeout is finalized upon the report’s approval as outlined in Approvals and disputes .",
+      "order": 70,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0071",
+      "block_type": "heading",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "Approvals and disputes",
+      "order": 71,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0072",
+      "block_type": "paragraph",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "Sign-off thresholds with tiered delegations are required from all three parties namely the client, you as the PSPC buyer and PSSS . The management level required for sign-off is determined by the total dollar value of the contract claims adjustments, as stated in the notification report.",
+      "order": 72,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0073",
+      "block_type": "paragraph",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "The sign-off thresholds are as follows:",
+      "order": 73,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0074",
+      "block_type": "list_item",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "senior directors and regional directors: up to $300,000",
+      "order": 74,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0075",
+      "block_type": "list_item",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "director generals: between $300,001 and $999,999",
+      "order": 75,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0076",
+      "block_type": "list_item",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "assistant deputy minister (ADM), Defence and Marine Procurement Branch or ADM , Procurement Branch (signoff will by the ADM under which the procurement was awarded): 1 million dollars and over",
+      "order": 76,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0077",
+      "block_type": "paragraph",
+      "heading": "Approvals and disputes",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Financial claims",
+        "Financial claims",
+        "Approvals and disputes"
+      ],
+      "text": "Disputes that can’t be solved amicably are referred to Legal Services for an assessment of the facts involved, including the strength of the contract language concerning audits and recoveries and with a listing of all steps involved that led the parties to the dispute.",
+      "order": 77,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Financial claims\n\nThis section provides guidelines for managing financial claims related to contracts. By understanding these procedures, you can protect Canada's financial interests and ensure compliance with all relevant policies and directives. This includes handling claims for extra payments by contractors and managing financial claims owed to Canada.\n\nClaims for extra payment\n\nContractors may occasionally submit claims for increased payments for firm price contracts due to changes caused by Canada. A firm price contract may not be amended for upward price revision without prior approval of Treasury Board (TB), unless the contract specifically includes an escalation clause, covering the adjustment requested or the contract conditions allowed for the requested adjustment.\n\nTB approval is mandatory for all claims of extra payment, regardless of the amount involved. Typically, TB will not approve extra payment claims that result solely from:\n\nlabor or material cost increases\n\nchanges in freight rates\n\nexchange rate revisions\n\ncontractor-caused delays\n\nerrors on the part of the contractor\n\nother difficulties that the contractor overlooked, but should have foreseen\n\nYou should consult Legal Services to determine if the extra payment constitutes a contract amendment or an \"ex gratia\" payment.\n\nThe TB has granted full authority to deputy heads to make \"ex gratia\" payments and to designate officials within the department to act on their behalf. See the TB Directive on Payments.\n\nFinancial claims by Canada\n\nWhen monies may be owing to Canada from contracting activities, it is essential to determine the liability and amount owing with assistance, as necessary from Legal Services.\n\nThere are special procedures to be followed whenever there are suggestions of unreasonably high profits from any contract pursuant to the Defence Production Act or from any contract other than a competitive firm priced contract.\n\nThere are two general categories of claims by Canada related to contracting activities:\n\noverpayments or overclaims identified through an audit\n\nlegal disputes, including termination for default or bankruptcy when the amount owed is known and final\n\nNote: Either instance can only be determined when a contract has been completed or terminated.\n\nYou should coordinate with the contractor to obtain concurrence on the final amount owing. After determining this amount, you must instruct the client to establish an accounts receivable. The client must notify you that it has been done and initiate collection efforts.\n\nThe following roles contribute to managing these claims by Canada.\n\nBuyers\n\nYou are responsible for reviewing the acceptability of the contractor claimed amount, responding to audit observations as required, liaising with the client for concurrence on the final amount, and advising the Cost and Profit Assurance Group (CPAG) of all settlements reached.\n\nAssurance Services Group\n\nThe Assurance Services Group (ASG) provides contract related assurance and advisory services on credibility, integrity and reliability of financial and non-financial information used to support contractor claims.\n\nLegal Services\n\nIdentifies risks and liabilities from claims faced by Canada as a result of claims against the contractor, notifies contractors when requested by the buyer of Canada’s claim, and initiates legal action against the contractor.\n\nIndustrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)\n\nHandles the follow-up of audit qualifications or observations raised by ASG , except for audit issues involving the interpretation of clauses related to contract cost principles, which are the responsibility of Public Services and Procurement Canada (PSPC). Additionally, resolves issues and disputes in joint Canadian Commercial Corporation and ISED agreements.\n\nRecovery and settlement of contract claims\n\nThe recovery and settlement of contract claims adjustments can only be made if the contract, and its terms and conditions, contain clauses that allow for audits and for recovery.\n\nThis process addresses overclaims and excess profits as identified under the Cost and Profit Assurance Program (CPAP) which is delivered by the ASG within the Price Support Directorate (PSD) of the Procurement Support Services Sector (PSSS) of PSPC .\n\nThe CPAP uses account verification tools to demonstrate that the price charged to Canada aligns with the contract, safeguarding Canada from overpaying on contracts, primarily in regard of major procurements. Assurance engagements are undertaken as a result of either an assurance strategy developed with the assistance of ASG ’s assurance advisors, or as a response to risks identified by a buyer, price advisor, or other government stakeholders.\n\nAssurance engagement\n\nThe process for the recovery and settlement of contract claims adjustments starts upon receipt of the assurance engagement report by the assurance advisor.\n\nThroughout the assurance engagement, all key stakeholders collaborate closely and maintain regular communication. This includes the assurance advisor, who provides guidance on assurance-related matters, the auditor team conducting the engagement, the PSPC buyer who manages the contract, the client and, when applicable, the price advisor, who was involved in negotiating the pricing arrangements for the contracts under examination.\n\nAuditors review claims against the terms of the contract and focus on:\n\ninadequate accounting and labour recording systems\n\nnon-compliance with contract terms and conditions, Canada’s Contract Cost Principles 1031-2 and the Profit Principles (section 5.2 of the Practitioner’s Guide for Procurement Pricing )\n\nbilling errors resulting from incorrect rates, quantities or invoiced amounts\n\nprofit variance in excess of authorized contract profit\n\nNotification report and action plan\n\nNotification report\n\nA notification report is initiated, drafted and prepared by the ASG. assurance advisor. It is prepared to outline the findings and recommended actions in dealing with the contractor’s claims for payment or excess profit, its accounting practices, or it’s internal controls.\n\nThis report summarizes the results of the assurance engagement report and provides advice on the actions required by government representatives to mitigate the risk of overpayment on current and future contracts. The engagement report contains the full details of the assurance engagement results.\n\nThe notification report is intended to support buyers in the following areas:\n\nnegotiations with the offeror on final settlement of financial claims for payment\n\nfollow-up on matters of offeror compliance, as it relates to records, internal controls, cost accounting or billing practices\n\ndocumentation and approval of the disposition of findings raised in the assurance engagement report\n\nstrategic decision-making, including modification to the basis of payment, clarifying terms and conditions of contracts, and modifications in costing methodology.\n\nIt includes:\n\na plain language description of proposed adjustments to claims for payment with details on its findings, time period and contract(s) covered by the engagement, and information on internal control or accounting system weaknesses\n\nidentification of the potential risks on current and future contracts awarded to the offeror based on issues identified in the audit\n\nrecommendations requiring response by the buyer\n\na request for an action plan in response to recommendations contained in the notification report with expected timelines for completion.\n\nAction plan\n\nThe action plan is prepared and approved by procurement and responds to recommendations contained in the notification report, as prepared by ASG.\n\nYou, as the buyer, must provide the action plan to the assurance advisor within 30 calendar days of receipt of the notification report.\n\nYou should provide updates to the assurance advisor on progress made against the action plan on a monthly or as required basis.\n\nSupport and negotiation assistance\n\nYou will receive assistance from the assurance advisor, which may include advice on pursuing recoveries, recommendations for strengthening internal controls within the business accounting systems or suggestions for modifying the contract terms and conditions. Additionally, the assurance advisor will help clarify any questions and obtaining additional details from the auditor related to basis of support for adjustments to contractor claims and other relevant issues, as necessary.\n\nThe technical complexity of the auditor's findings may require support from a professional accountant to aid in negotiations. Requests for specialized assistance should be directed to ASG.\n\nYou must seek approval before rejecting any proposed adjustments to the contractors claims and before discussing them with the contractor. This must include the client, you as the PSPC buyer, and PSSS , as outlined in Approvals and disputes . You must obtain consensus from all before finalizing any rejection of claim adjustments.\n\nReporting, repayment, and closeout\n\nASG monitors and reports on recovery and settlement actions and will follow-up with you until all recommendations contained in the notification report are resolved. Semi-annually, ASG will report to procurement’s senior management on the status of recoveries, resolution of adjustments and lessons learned from the assurance engagement process.\n\nWhen you are provided a cheque to repay for overclaimed amounts or excess profits, you must provide the following to the assurance advisor within seven calendar days of deposit:\n\ncopy of contractor’s cheque(s)\n\ncopy of the official receipt from the client’s revenue and receivables cashier office\n\ncopy of the client’s refund coding form indicating the financial general ledger account coding\n\nThe process concludes with the administrative closeout. A report is prepared by the assurance advisor that summarizes the disposition of claim adjustments and matters related to contractor compliance for your concurrence. Closeout is finalized upon the report’s approval as outlined in Approvals and disputes .\n\nApprovals and disputes\n\nSign-off thresholds with tiered delegations are required from all three parties namely the client, you as the PSPC buyer and PSSS . The management level required for sign-off is determined by the total dollar value of the contract claims adjustments, as stated in the notification report.\n\nThe sign-off thresholds are as follows:\n\nsenior directors and regional directors: up to $300,000\n\ndirector generals: between $300,001 and $999,999\n\nassistant deputy minister (ADM), Defence and Marine Procurement Branch or ADM , Procurement Branch (signoff will by the ADM under which the procurement was awarded): 1 million dollars and over\n\nDisputes that can’t be solved amicably are referred to Legal Services for an assessment of the facts involved, including the strength of the contract language concerning audits and recoveries and with a listing of all steps involved that led the parties to the dispute.",
+  "markdown_text": "Financial claims\n\nThis section provides guidelines for managing financial claims related to contracts. By understanding these procedures, you can protect Canada's financial interests and ensure compliance with all relevant policies and directives. This includes handling claims for extra payments by contractors and managing financial claims owed to Canada.\n\nClaims for extra payment\n\nContractors may occasionally submit claims for increased payments for firm price contracts due to changes caused by Canada. A firm price contract may not be amended for upward price revision without prior approval of Treasury Board (TB), unless the contract specifically includes an escalation clause, covering the adjustment requested or the contract conditions allowed for the requested adjustment.\n\nTB approval is mandatory for all claims of extra payment, regardless of the amount involved. Typically, TB will not approve extra payment claims that result solely from:\n\nlabor or material cost increases\n\nchanges in freight rates\n\nexchange rate revisions\n\ncontractor-caused delays\n\nerrors on the part of the contractor\n\nother difficulties that the contractor overlooked, but should have foreseen\n\nYou should consult Legal Services to determine if the extra payment constitutes a contract amendment or an \"ex gratia\" payment.\n\nThe TB has granted full authority to deputy heads to make \"ex gratia\" payments and to designate officials within the department to act on their behalf. See the TB Directive on Payments.\n\nFinancial claims by Canada\n\nWhen monies may be owing to Canada from contracting activities, it is essential to determine the liability and amount owing with assistance, as necessary from Legal Services.\n\nThere are special procedures to be followed whenever there are suggestions of unreasonably high profits from any contract pursuant to the Defence Production Act or from any contract other than a competitive firm priced contract.\n\nThere are two general categories of claims by Canada related to contracting activities:\n\noverpayments or overclaims identified through an audit\n\nlegal disputes, including termination for default or bankruptcy when the amount owed is known and final\n\nNote: Either instance can only be determined when a contract has been completed or terminated.\n\nYou should coordinate with the contractor to obtain concurrence on the final amount owing. After determining this amount, you must instruct the client to establish an accounts receivable. The client must notify you that it has been done and initiate collection efforts.\n\nThe following roles contribute to managing these claims by Canada.\n\nBuyers\n\nYou are responsible for reviewing the acceptability of the contractor claimed amount, responding to audit observations as required, liaising with the client for concurrence on the final amount, and advising the Cost and Profit Assurance Group (CPAG) of all settlements reached.\n\nAssurance Services Group\n\nThe Assurance Services Group (ASG) provides contract related assurance and advisory services on credibility, integrity and reliability of financial and non-financial information used to support contractor claims.\n\nLegal Services\n\nIdentifies risks and liabilities from claims faced by Canada as a result of claims against the contractor, notifies contractors when requested by the buyer of Canada’s claim, and initiates legal action against the contractor.\n\nIndustrial Technologies Office of Innovation, Science and Economic Development Canada (ISED)\n\nHandles the follow-up of audit qualifications or observations raised by ASG , except for audit issues involving the interpretation of clauses related to contract cost principles, which are the responsibility of Public Services and Procurement Canada (PSPC). Additionally, resolves issues and disputes in joint Canadian Commercial Corporation and ISED agreements.\n\nRecovery and settlement of contract claims\n\nThe recovery and settlement of contract claims adjustments can only be made if the contract, and its terms and conditions, contain clauses that allow for audits and for recovery.\n\nThis process addresses overclaims and excess profits as identified under the Cost and Profit Assurance Program (CPAP) which is delivered by the ASG within the Price Support Directorate (PSD) of the Procurement Support Services Sector (PSSS) of PSPC .\n\nThe CPAP uses account verification tools to demonstrate that the price charged to Canada aligns with the contract, safeguarding Canada from overpaying on contracts, primarily in regard of major procurements. Assurance engagements are undertaken as a result of either an assurance strategy developed with the assistance of ASG ’s assurance advisors, or as a response to risks identified by a buyer, price advisor, or other government stakeholders.\n\nAssurance engagement\n\nThe process for the recovery and settlement of contract claims adjustments starts upon receipt of the assurance engagement report by the assurance advisor.\n\nThroughout the assurance engagement, all key stakeholders collaborate closely and maintain regular communication. This includes the assurance advisor, who provides guidance on assurance-related matters, the auditor team conducting the engagement, the PSPC buyer who manages the contract, the client and, when applicable, the price advisor, who was involved in negotiating the pricing arrangements for the contracts under examination.\n\nAuditors review claims against the terms of the contract and focus on:\n\ninadequate accounting and labour recording systems\n\nnon-compliance with contract terms and conditions, Canada’s Contract Cost Principles 1031-2 and the Profit Principles (section 5.2 of the Practitioner’s Guide for Procurement Pricing )\n\nbilling errors resulting from incorrect rates, quantities or invoiced amounts\n\nprofit variance in excess of authorized contract profit\n\nNotification report and action plan\n\nNotification report\n\nA notification report is initiated, drafted and prepared by the ASG. assurance advisor. It is prepared to outline the findings and recommended actions in dealing with the contractor’s claims for payment or excess profit, its accounting practices, or it’s internal controls.\n\nThis report summarizes the results of the assurance engagement report and provides advice on the actions required by government representatives to mitigate the risk of overpayment on current and future contracts. The engagement report contains the full details of the assurance engagement results.\n\nThe notification report is intended to support buyers in the following areas:\n\nnegotiations with the offeror on final settlement of financial claims for payment\n\nfollow-up on matters of offeror compliance, as it relates to records, internal controls, cost accounting or billing practices\n\ndocumentation and approval of the disposition of findings raised in the assurance engagement report\n\nstrategic decision-making, including modification to the basis of payment, clarifying terms and conditions of contracts, and modifications in costing methodology.\n\nIt includes:\n\na plain language description of proposed adjustments to claims for payment with details on its findings, time period and contract(s) covered by the engagement, and information on internal control or accounting system weaknesses\n\nidentification of the potential risks on current and future contracts awarded to the offeror based on issues identified in the audit\n\nrecommendations requiring response by the buyer\n\na request for an action plan in response to recommendations contained in the notification report with expected timelines for completion.\n\nAction plan\n\nThe action plan is prepared and approved by procurement and responds to recommendations contained in the notification report, as prepared by ASG.\n\nYou, as the buyer, must provide the action plan to the assurance advisor within 30 calendar days of receipt of the notification report.\n\nYou should provide updates to the assurance advisor on progress made against the action plan on a monthly or as required basis.\n\nSupport and negotiation assistance\n\nYou will receive assistance from the assurance advisor, which may include advice on pursuing recoveries, recommendations for strengthening internal controls within the business accounting systems or suggestions for modifying the contract terms and conditions. Additionally, the assurance advisor will help clarify any questions and obtaining additional details from the auditor related to basis of support for adjustments to contractor claims and other relevant issues, as necessary.\n\nThe technical complexity of the auditor's findings may require support from a professional accountant to aid in negotiations. Requests for specialized assistance should be directed to ASG.\n\nYou must seek approval before rejecting any proposed adjustments to the contractors claims and before discussing them with the contractor. This must include the client, you as the PSPC buyer, and PSSS , as outlined in Approvals and disputes . You must obtain consensus from all before finalizing any rejection of claim adjustments.\n\nReporting, repayment, and closeout\n\nASG monitors and reports on recovery and settlement actions and will follow-up with you until all recommendations contained in the notification report are resolved. Semi-annually, ASG will report to procurement’s senior management on the status of recoveries, resolution of adjustments and lessons learned from the assurance engagement process.\n\nWhen you are provided a cheque to repay for overclaimed amounts or excess profits, you must provide the following to the assurance advisor within seven calendar days of deposit:\n\ncopy of contractor’s cheque(s)\n\ncopy of the official receipt from the client’s revenue and receivables cashier office\n\ncopy of the client’s refund coding form indicating the financial general ledger account coding\n\nThe process concludes with the administrative closeout. A report is prepared by the assurance advisor that summarizes the disposition of claim adjustments and matters related to contractor compliance for your concurrence. Closeout is finalized upon the report’s approval as outlined in Approvals and disputes .\n\nApprovals and disputes\n\nSign-off thresholds with tiered delegations are required from all three parties namely the client, you as the PSPC buyer and PSSS . The management level required for sign-off is determined by the total dollar value of the contract claims adjustments, as stated in the notification report.\n\nThe sign-off thresholds are as follows:\n\nsenior directors and regional directors: up to $300,000\n\ndirector generals: between $300,001 and $999,999\n\nassistant deputy minister (ADM), Defence and Marine Procurement Branch or ADM , Procurement Branch (signoff will by the ADM under which the procurement was awarded): 1 million dollars and over\n\nDisputes that can’t be solved amicably are referred to Legal Services for an assessment of the facts involved, including the strength of the contract language concerning audits and recoveries and with a listing of all steps involved that led the parties to the dispute.",
+  "provenance_paths": {}
+}

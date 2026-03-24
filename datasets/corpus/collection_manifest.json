@@ -1,0 +1,14 @@
+{
+  "seed_urls": [
+    "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+    "https://canadabuys.canada.ca/en/buy-canadian-policy",
+    "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+  ],
+  "max_pages": 260,
+  "document_count": 230,
+  "family_counts": {
+    "buyers_guide": 228,
+    "buy_canadian_policy": 1,
+    "tbs_directive": 1
+  }
+}

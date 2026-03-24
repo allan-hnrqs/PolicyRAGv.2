@@ -1,0 +1,41 @@
+name: query_decomposition
+description: >
+  Baseline profile plus LLM-generated retrieval subqueries fused with reciprocal
+  rank fusion before reranking to the original question.
+collection_strategy: default_web_collect
+retrieval:
+  source_topology: bg_primary_support_fallback
+  retrieval_mode: hybrid_es_rerank
+  top_k: 16
+  candidate_k: 48
+  retrieval_alpha: 0.7
+  rerank_top_n: 0
+  enable_mmr_diversity: false
+  mmr_lambda: 0.75
+  enable_ranked_chunk_diversity: false
+  diversity_cover_fraction: 0.5
+  max_chunks_per_document: 8
+  max_chunks_per_heading: 4
+  seed_chunks_per_heading: 2
+  enable_query_decomposition: true
+  max_expanded_queries: 2
+  per_query_candidate_k: 24
+  query_fusion_rrf_k: 60
+chunking:
+  chunker: section_chunker
+  metadata_enrichers:
+    - authority_metadata
+    - lineage_metadata
+    - scope_tag_metadata
+    - source_topology_metadata
+  sliding_window_chars: 1200
+  sliding_window_overlap: 200
+answering:
+  strategy: inline_evidence_chat
+  max_packed_docs: 24
+  max_doc_chars: 1600
+  model_name: command-a-03-2025
+evaluation:
+  suite_name: parity_19
+  judge_model: command-a-03-2025
+  chat_temperature: 0.0

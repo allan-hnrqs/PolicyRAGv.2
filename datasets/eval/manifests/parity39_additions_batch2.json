@@ -1,0 +1,375 @@
+[
+  {
+    "id": "HR_020",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "I found the Buy Canadian policy page, but I actually need to decide which suppliers are eligible for this procurement under reciprocal procurement. Can I rely on that page alone, or do I need a different workflow?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy"
+    ],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "Buyer’s Guide reciprocal workflow controls the operational decision",
+      "trade agreement applicability is the first mandatory step",
+      "Buy Canadian page is supporting context rather than the full workflow"
+    ],
+    "should_avoid": [
+      "answering only with the high-level Buy Canadian overview",
+      "skipping trade-agreement applicability"
+    ],
+    "evaluation_focus": "Source-boundary case where the support page should not replace the Buyer’s Guide workflow.",
+    "required_claims": [
+      "The Buy Canadian policy page says the Interim Policy on Reciprocal Procurement prioritizes Canadian suppliers and suppliers from countries that provide Canada with equivalent procurement market access through trade agreements.",
+      "The Buyer’s Guide reciprocal procurement page says determining trade agreement applicability is an initial and mandatory step that must be completed in all cases.",
+      "The Buyer’s Guide reciprocal procurement page says supplier eligibility is determined only after working through whether the Policy applies, whether an exception applies, and whether any international trade agreements apply."
+    ],
+    "forbidden_claims": [
+      "A buyer can determine reciprocal-procurement eligibility from the Buy Canadian overview page alone."
+    ],
+    "reference_answer": "Use the Buyer’s Guide reciprocal-procurement page for the operational decision. The Buy Canadian page gives high-level policy context, but the step-by-step workflow starts by determining trade agreement applicability and then works through whether the policy applies, whether an exception applies, and which suppliers are eligible.",
+    "claim_evidence": [
+      {
+        "claim": "The Buy Canadian policy page says the Interim Policy on Reciprocal Procurement prioritizes Canadian suppliers and suppliers from countries that provide Canada with equivalent procurement market access through trade agreements.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buy-canadian-policy"
+        ]
+      },
+      {
+        "claim": "The Buyer’s Guide reciprocal procurement page says determining trade agreement applicability is an initial and mandatory step that must be completed in all cases.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+        ]
+      },
+      {
+        "claim": "The Buyer’s Guide reciprocal procurement page says supplier eligibility is determined only after working through whether the Policy applies, whether an exception applies, and whether any international trade agreements apply.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+        ]
+      }
+    ],
+    "tags": [
+      "source_boundary",
+      "reciprocal_procurement",
+      "buyers_guide_primary"
+    ]
+  },
+  {
+    "id": "HR_021",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "Because this file is affected by the new Buy Canadian measures, can we let the supplier send the Canadian content certification after closing within the usual two-business-day cure period, or does it have to come with the offer?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "general cure-period rule for missing documents",
+      "exceptions must be provided at the time of offer submission",
+      "Canadian Content certification is an exception"
+    ],
+    "should_avoid": [
+      "saying the Canadian content certification can always be cured later",
+      "treating the high-level Buy Canadian rollout as overriding the Buyer’s Guide verification rule"
+    ],
+    "evaluation_focus": "Source-boundary case where the operational timing rule should stay anchored to Verify offers.",
+    "required_claims": [
+      "The Buyer’s Guide says you must not require offerors to provide mandatory certifications, declarations, or proof documents at offer closing unless the requested documentation is included in the Exceptions list.",
+      "If required documents are absent at closing, the offeror must be notified and given two business days to submit them, and an offeror who fails to provide them in that timeframe is non-responsive.",
+      "The Buyer’s Guide says the Exceptions list covers documents required at the time of offer submission, and Canadian Content Policy certification is one of those exceptions."
+    ],
+    "forbidden_claims": [
+      "The Buy Canadian policy page creates a new rule allowing Canadian content certification to be submitted after closing."
+    ],
+    "reference_answer": "It has to come with the offer. The Buyer’s Guide says the normal two-business-day cure period applies only when the missing document is not one of the Exceptions. Canadian Content Policy certification is listed as an exception that is required at the time of offer submission, so the high-level Buy Canadian policy page does not change that workflow rule.",
+    "claim_evidence": [
+      {
+        "claim": "The Buyer’s Guide says you must not require offerors to provide mandatory certifications, declarations, or proof documents at offer closing unless the requested documentation is included in the Exceptions list.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+        ]
+      },
+      {
+        "claim": "If required documents are absent at closing, the offeror must be notified and given two business days to submit them, and an offeror who fails to provide them in that timeframe is non-responsive.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+        ]
+      },
+      {
+        "claim": "The Buyer’s Guide says the Exceptions list covers documents required at the time of offer submission, and Canadian Content Policy certification is one of those exceptions.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+        ]
+      }
+    ],
+    "tags": [
+      "source_boundary",
+      "verify_offers",
+      "canadian_content"
+    ]
+  },
+  {
+    "id": "HR_022",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "I need to decide whether we should use a standing offer, supply arrangement, or a contract. Where in the Buyer’s Guide should I start?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "choose the method of supply page",
+      "three methods of supply",
+      "consultation with the client"
+    ],
+    "should_avoid": [
+      "sending the user to an unrelated Buyer’s Guide stage",
+      "answering with only general procurement advice and no navigation path"
+    ],
+    "evaluation_focus": "Navigation case to the method-of-supply decision area without requiring unnecessary landing-page restatement.",
+    "required_claims": [
+      "The Buyer’s Guide says you should start with the Choose the method of supply page when deciding among a contract, standing offer, or supply arrangement.",
+      "The Choose the method of supply page says there are three methods of supply for procuring goods and services: contracts, standing offers, and supply arrangements.",
+      "The Choose the method of supply page says the method of supply must be selected in consultation with the client, focusing on what best meets their needs."
+    ],
+    "reference_answer": "Start with Choose the method of supply in the Buyer’s Guide. That page is the decision point for choosing among a contract, standing offer, and supply arrangement, and it says the method should be selected with the client based on what best meets the need.",
+    "claim_evidence": [
+      {
+        "claim": "The Buyer’s Guide says you should start with the Choose the method of supply page when deciding among a contract, standing offer, or supply arrangement.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ]
+      },
+      {
+        "claim": "The Choose the method of supply page says there are three methods of supply for procuring goods and services: contracts, standing offers, and supply arrangements.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ]
+      },
+      {
+        "claim": "The Choose the method of supply page says the method of supply must be selected in consultation with the client, focusing on what best meets their needs.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ]
+      }
+    ],
+    "tags": [
+      "navigation",
+      "method_of_supply"
+    ]
+  },
+  {
+    "id": "HR_023",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "Where in the Buyer’s Guide do I go to find the rule for minimum solicitation periods for an RFSA or an urgent procurement?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "Create solicitation navigation",
+      "determine the solicitation period page",
+      "specific RFSA/urgent minimum-period page"
+    ],
+    "should_avoid": [
+      "answering with only a number and no navigation route",
+      "sending the user to an unrelated solicitation page"
+    ],
+    "evaluation_focus": "Navigation case to the specific solicitation-period child page without requiring unnecessary landing-page restatement.",
+    "required_claims": [
+      "The Buyer’s Guide says you should go to Determine the solicitation period and then to Minimum solicitation periods for ITQs, RFSAs and urgent procurements for this rule.",
+      "The Determine the solicitation period page says it provides information on the various elements to consider when determining the solicitation period.",
+      "The Minimum solicitation periods for ITQs, RFSAs and urgent procurements page contains the RFSA and urgent-procurement rules, including 25 calendar days where one or more international trade agreements apply and 10 calendar days for substantiated urgent procurements where urgency renders the normal solicitation period impracticable."
+    ],
+    "reference_answer": "Go to Determine the solicitation period in the Buyer’s Guide, then open Minimum solicitation periods for ITQs, RFSAs and urgent procurements. That child page is the one with the actual RFSA and urgent-procurement timing rules, including the 25-day and 10-day trade-agreement scenarios.",
+    "claim_evidence": [
+      {
+        "claim": "The Buyer’s Guide says you should go to Determine the solicitation period and then to Minimum solicitation periods for ITQs, RFSAs and urgent procurements for this rule.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements"
+        ]
+      },
+      {
+        "claim": "The Determine the solicitation period page says it provides information on the various elements to consider when determining the solicitation period.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period"
+        ]
+      },
+      {
+        "claim": "The Minimum solicitation periods for ITQs, RFSAs and urgent procurements page contains the RFSA and urgent-procurement rules, including 25 calendar days where one or more international trade agreements apply and 10 calendar days for substantiated urgent procurements where urgency renders the normal solicitation period impracticable.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements"
+        ]
+      }
+    ],
+    "tags": [
+      "navigation",
+      "solicitation_period"
+    ]
+  },
+  {
+    "id": "HR_037",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "What exact form number or file name do I need for the specimen signature card template in the GC network folder when approvals go beyond delegated authority?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "TB approval beyond delegated authorities",
+      "GC-network-only location reference",
+      "missing exact form or file identifier"
+    ],
+    "should_avoid": [
+      "inventing a form number or file name",
+      "pretending the page provides downloadable template details"
+    ],
+    "evaluation_focus": "Expected-abstain internal-detail case in the approvals-and-authorities family.",
+    "required_claims": [
+      "The page says Treasury Board approval is required for submissions exceeding PSPC’s contracting authorities.",
+      "The page says the Delegation of Authorities instrument and Schedule 3 specimen signature card templates can be found in the Delegation of Authorities folder, which is accessible only on the Government of Canada network for PSPC only.",
+      "The provided documents do not identify a specific form number or file name for the specimen signature card template."
+    ],
+    "forbidden_claims": [
+      "The provided documents identify a specific form number or file name for the specimen signature card template."
+    ],
+    "reference_answer": "The page says approvals beyond those authorities need TB approval and that the Delegation of Authorities instrument plus the Schedule 3 specimen signature card templates are in a GC-network-only folder. But it does not give a specific form number or file name, so the system should say the provided documents are insufficient on that point instead of inventing one.",
+    "expect_abstain": true,
+    "claim_evidence": [
+      {
+        "claim": "The page says Treasury Board approval is required for submissions exceeding PSPC’s contracting authorities.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+        ]
+      },
+      {
+        "claim": "The page says the Delegation of Authorities instrument and Schedule 3 specimen signature card templates can be found in the Delegation of Authorities folder, which is accessible only on the Government of Canada network for PSPC only.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+        ]
+      },
+      {
+        "claim": "The provided documents do not identify a specific form number or file name for the specimen signature card template.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+        ]
+      }
+    ],
+    "notes": "Hard failure case for hallucinated internal-form details.",
+    "tags": [
+      "abstention_or_missing_detail",
+      "approvals_and_authorities"
+    ]
+  },
+  {
+    "id": "HR_038",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "What exact email address or direct contact details should I use to contact the Price Advisory Group?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "the page is about when buyers may engage price advisors",
+      "missing direct contact details"
+    ],
+    "should_avoid": [
+      "inventing an email address or phone number",
+      "pretending the page gives a direct contact method"
+    ],
+    "evaluation_focus": "Expected-abstain contact-detail case outside the current CLCA and reciprocal-procurement families.",
+    "required_claims": [
+      "The page explains when buyers may engage with price advisors, including procurements with a total estimated value of $7,500,000 or more or other matters where financial advice is helpful.",
+      "The provided documents do not give a specific email address or other direct contact details for the Price Advisory Group."
+    ],
+    "forbidden_claims": [
+      "The provided documents give a specific email address or direct phone number for the Price Advisory Group."
+    ],
+    "reference_answer": "The page explains when buyers may engage the Price Advisory Group, but it does not give a specific email address or direct contact details. The system should say the provided documents are insufficient for that contact detail rather than inventing one.",
+    "expect_abstain": true,
+    "claim_evidence": [
+      {
+        "claim": "The page explains when buyers may engage with price advisors, including procurements with a total estimated value of $7,500,000 or more or other matters where financial advice is helpful.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group"
+        ]
+      },
+      {
+        "claim": "The provided documents do not give a specific email address or other direct contact details for the Price Advisory Group.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group"
+        ]
+      }
+    ],
+    "notes": "Hard failure case for fabricated contact details.",
+    "tags": [
+      "abstention_or_missing_detail",
+      "contact_detail"
+    ]
+  },
+  {
+    "id": "HR_039",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "We expect repeated, well-defined needs over time, and if we create a standing offer we also need clear rules for ranking and call-ups among multiple suppliers. When does a standing offer make sense, and what has to be built into the RFSO?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "when a standing offer is appropriate",
+      "standing offer is not itself a contract",
+      "RFSO ranking and call-up procedure requirements"
+    ],
+    "should_avoid": [
+      "describing only the benefits of standing offers with no RFSO requirements",
+      "treating the standing offer itself as the contract"
+    ],
+    "evaluation_focus": "Cross-page synthesis between method-of-supply selection and RFSO document requirements.",
+    "required_claims": [
+      "The Buyer’s Guide says a standing offer is used when goods or services may be required over time using pre-determined conditions and pricing, and a standing offer itself is not a contract because each call-up creates the contract.",
+      "The Buyer’s Guide says standing offers are suited where repetitive orders of well-defined goods or services are expected and prices or pricing bases can be established up front without further negotiation at call-up.",
+      "The Request for standing offer page says an RFSO must include, at a minimum, clear evaluation criteria and procedures, a clear ranking methodology where applicable, and precise call-up procedures including the work-allocation method among multiple standing offers."
+    ],
+    "reference_answer": "A standing offer makes sense when you expect repeated needs over time for well-defined goods or services and the pricing can be set up front without renegotiating at each call-up. The Guide also says the standing offer itself is not the contract; each call-up creates the contract. If you go that route, the RFSO has to spell out the evaluation criteria, any ranking methodology, and the precise call-up and work-allocation rules among multiple standing offers.",
+    "claim_evidence": [
+      {
+        "claim": "The Buyer’s Guide says a standing offer is used when goods or services may be required over time using pre-determined conditions and pricing, and a standing offer itself is not a contract because each call-up creates the contract.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ]
+      },
+      {
+        "claim": "The Buyer’s Guide says standing offers are suited where repetitive orders of well-defined goods or services are expected and prices or pricing bases can be established up front without further negotiation at call-up.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ]
+      },
+      {
+        "claim": "The Request for standing offer page says an RFSO must include, at a minimum, clear evaluation criteria and procedures, a clear ranking methodology where applicable, and precise call-up procedures including the work-allocation method among multiple standing offers.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer"
+        ]
+      }
+    ],
+    "tags": [
+      "cross_page_synthesis",
+      "standing_offer",
+      "rfso"
+    ]
+  }
+]

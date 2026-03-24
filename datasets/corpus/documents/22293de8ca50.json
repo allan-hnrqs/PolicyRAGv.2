@@ -1,0 +1,2141 @@
+{
+  "doc_id": "22293de8ca50",
+  "title": "Terminate or suspend a contract - Termination for convenience | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:58:47.746346Z",
+  "content_hash": "cb4e27b26b8ec9ee4db24e9533ff311e554f50780a46d628a3ca834f2d40606c",
+  "word_count": 1879,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Manage a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer and client responsibilites",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Contract dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Alternative dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Certifications",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "in_scope": false
+    },
+    {
+      "title": "Employer-employee relationship",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "in_scope": false
+    },
+    {
+      "title": "Financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Integrity provisions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "in_scope": false
+    },
+    {
+      "title": "Protecting Canada's interests",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "in_scope": false
+    },
+    {
+      "title": "Security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "in_scope": false
+    },
+    {
+      "title": "Services of foreign nationals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Subcontracting",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Vendor performance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "in_scope": false
+    },
+    {
+      "title": "Manage payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of monies",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "in_scope": false
+    },
+    {
+      "title": "Financial claims",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "in_scope": false
+    },
+    {
+      "title": "Cost reimbursable contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Exchange rate fluctuation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "in_scope": false
+    },
+    {
+      "title": "Final payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Fixed time rate contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Interest payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Overtime",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "in_scope": false
+    },
+    {
+      "title": "Claims for progress payments and invoicing",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "in_scope": false
+    },
+    {
+      "title": "Refund of excess profits",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "in_scope": false
+    },
+    {
+      "title": "Modify a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Considerations when making amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "in_scope": false
+    },
+    {
+      "title": "Procedural elements for amending contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Administrative guidance for implementing contract amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "in_scope": false
+    },
+    {
+      "title": "Revisions to standing offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Design change or deviation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "in_scope": false
+    },
+    {
+      "title": "Exercise options",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "in_scope": false
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Suspension of the work and stop work orders",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "in_scope": false
+    },
+    {
+      "title": "Termination of contracts with financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Legal services",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "in_scope": false
+    },
+    {
+      "title": "Source lists",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "in_scope": false
+    },
+    {
+      "title": "Public Services and Procurement Canada offices outside Canada",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for convenience",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for default",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "in_scope": false
+    },
+    {
+      "title": "Termination by mutual consent",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "in_scope": false
+    },
+    {
+      "title": "Close out a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Contract close-out activities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "in_scope": false
+    },
+    {
+      "title": "Best practices for contract close-out",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+    "parent_doc_id": "4541f27f7679",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "4541f27f7679",
+      "22293de8ca50"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "heading",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "Termination for convenience",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "paragraph",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "Canada may terminate a contract for convenience in accordance with the termination for convenience provision of the general conditions applicable to the contract.",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "You may terminate a contract for the convenience of Canada if:",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "the funding has been curtailed",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "a government program has been discontinued",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "a contract has been mistakenly awarded to other than the lowest responsive offeror",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "other circumstances make the procurement of the good or service unnecessary",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "paragraph",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "Termination for convenience also applies when:",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "the client has requested termination",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "a termination for default cannot be considered because the contractor is not in default",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "list_item",
+      "heading": "Termination for convenience",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience"
+      ],
+      "text": "a termination by mutual consent would not be more advantageous to Canada",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "heading",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "Termination claims officer",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "The Price Support Directorate (PSD), Procurement Business Management Sector (PBMS) was designated to provide termination settlement services including the processing of claims associated with goods and services contracts terminated for convenience by Canada.",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "When a contract will be terminated for convenience in whole or in part, the PSPC buyer should involve the termination claims officer (TCO), PSD , PBMS immediately in the claim settlement process.",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "Refer to the lists below for details on the division of responsibilities between the buyer and the TCO regarding terminations of convenience.",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "The responsibilities of the buyer include:",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "preparing contract status reports",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "issuing stop work orders and notices of termination",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "administering the non-terminated portion of the contract",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "The responsibilities of the TCO include:",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "assessing the contractor's request for any upward adjustment of the contract price for the non-terminated portion of the contract",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "requesting the claim from contractor and forwarding claim forms",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "assisting the contractor with preparation of the claim",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "ensuring the acceptability of the claim",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "determining if an audit is required",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "defining audit requirements and arranging the audit",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "arranging for inventory verification and screening by the client",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "negotiating the final settlement with contractor",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "preparing the settlement and release document",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "forwarding the settlement and release document to the contractor for acceptance",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "obtaining the invoice and signed settlement and release document from the contractor",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "submitting the invoice through the client department",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "list_item",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "distributing the settlement and release document",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "paragraph",
+      "heading": "Termination claims officer",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Termination claims officer"
+      ],
+      "text": "Joint responsibilities of the buyer and TCO include disposing of surplus inventory with the client.",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "heading",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "Preparing for contract termination",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "paragraph",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "Occasionally, the client will require a contract status report before making a decision to cancel the contract. They will inform PSPC of their intention to reduce or cancel a contract by issuing a \"notice of intent to cancel\" to you. The client may request all or part of the following contract status information before making a final decision to terminate. This report includes:",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the quantity of stores produced during the contract",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the quantity of stores in production",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the value of raw materials or components acquired by the contractor to carry out the specific contract",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the position with respect to tooling and capital equipment, especially if the contractor had to tool-up to carry out the contract",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the status of subcontracts",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the most economical point to terminate the contract",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "list_item",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "the approximate amount of termination claims, if known",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "paragraph",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "You must immediately request the information from the contractor and provide it to the client along with any recommendations.",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "paragraph",
+      "heading": "Preparing for contract termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination"
+      ],
+      "text": "Normally, the client's initial request will be to cancel all or part of the contract, in which case you should immediately issue a stop work order. A stop work order is a safeguard to ensure a halt in the work and remove the possibility of further expense being generated by the contractor. To terminate the contract, a stop work order must be followed by issuing a notice of termination for convenience.",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "heading",
+      "heading": "Notice of termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "Notice of termination"
+      ],
+      "text": "Notice of termination",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "paragraph",
+      "heading": "Notice of termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "Notice of termination"
+      ],
+      "text": "It is the client's responsibility to decide at what stage a full or partial termination should take place. You must not issue a notice of termination to the contractor until legal opinion is sought and the client’s formal requisition amendment confirming their decision to terminate has been received. In order to avoid further costs to Canada and hardship to the contractor, a notice of termination must be issued as quickly as possible to finalize the implications of the stop work order.",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "paragraph",
+      "heading": "Notice of termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "Notice of termination"
+      ],
+      "text": "You should ensure that sufficient funds remain in the amended requisition to cover the contract value. You must not adjust the funds when issuing the notice of termination. The contract funds will be adjusted on the settlement and release document.",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "paragraph",
+      "heading": "Notice of termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "Notice of termination"
+      ],
+      "text": "You will prepare the notice of termination or partial termination using the appropriate contract clauses and based on advice from Legal Services, send the notice of termination to the contractor.",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "paragraph",
+      "heading": "Notice of termination",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "Notice of termination"
+      ],
+      "text": "After the notice of termination or partial termination is issued, you must immediately send a copy of the stop work order and notice of termination to the TCO .",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "heading",
+      "heading": "No claim is involved",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "No claim is involved"
+      ],
+      "text": "No claim is involved",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "paragraph",
+      "heading": "No claim is involved",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Preparing for contract termination",
+        "No claim is involved"
+      ],
+      "text": "If the contractor advises you that a claim will not be submitted following the receipt of a notice of termination, you must remove the funding for the terminated items. Since no claim is made, the TCO is not part of this process.",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "heading",
+      "heading": "Settlement negotiation and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution"
+      ],
+      "text": "Settlement negotiation and dispute resolution",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "paragraph",
+      "heading": "Settlement negotiation and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution"
+      ],
+      "text": "This section provides information on the process for negotiating a settlement. By following these guidelines, you can manage settlements effectively and ensure all necessary adjustments are made.",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "heading",
+      "heading": "Adjustment of funds",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Adjustment of funds"
+      ],
+      "text": "Adjustment of funds",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "paragraph",
+      "heading": "Adjustment of funds",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Adjustment of funds"
+      ],
+      "text": "The TCO will adjust the contract funds on the settlement and release document.",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "paragraph",
+      "heading": "Adjustment of funds",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Adjustment of funds"
+      ],
+      "text": "For the non-terminated portion of a contract, if the contractor requests an upward adjustment to the cost or unit price, the resulting claim for the adjustment should be referred to the TCO for review before reaching an agreement with the contractor.",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "heading",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "Termination file",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "paragraph",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "For fully terminated contracts that are not complex you should send the complete contract file to the TCO . For complex procurements and partial terminations, where a portion of the contract is active, send an electronic copy of the following to the TCO :",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "the contract",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "all amendments",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "specifications",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "pricing details",
+      "order": 62,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0063",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "pertinent correspondence",
+      "order": 63,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0064",
+      "block_type": "list_item",
+      "heading": "Termination file",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Termination file"
+      ],
+      "text": "any other information relevant to the termination",
+      "order": 64,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0065",
+      "block_type": "heading",
+      "heading": "Informing the contractor",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Informing the contractor"
+      ],
+      "text": "Informing the contractor",
+      "order": 65,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0066",
+      "block_type": "paragraph",
+      "heading": "Informing the contractor",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Informing the contractor"
+      ],
+      "text": "If a claim is involved, the TCO will send the termination claim forms which includes the Procedures Guide – Processing Settlement Proposals Related to Contracts Terminated for Convenience to the contractor and follow-up to ensure receipt and that the necessary action is being taken to submit a claim.",
+      "order": 66,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0067",
+      "block_type": "paragraph",
+      "heading": "Informing the contractor",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Informing the contractor"
+      ],
+      "text": "The contractor must complete all sections of the forms in as much detail as possible. When the forms are complete the signed original is returned to the TCO , who will confirm receipt of the claim with the contractor.",
+      "order": 67,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0068",
+      "block_type": "paragraph",
+      "heading": "Informing the contractor",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Informing the contractor"
+      ],
+      "text": "If the contractor has any questions about termination settlement procedures or the presentation of the claim, they may contact the TCO directly.",
+      "order": 68,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0069",
+      "block_type": "heading",
+      "heading": "Audit of claims",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Audit of claims"
+      ],
+      "text": "Audit of claims",
+      "order": 69,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0070",
+      "block_type": "paragraph",
+      "heading": "Audit of claims",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Audit of claims"
+      ],
+      "text": "Upon receipt of a claim, the TCO will determine the need for an audit. If required, they will prepare the terms of reference and arrange for its completion. The TCO will also review the cost factors reported by the auditor and reconcile the contractor's claim with the auditor's report. The cost implications of any inventory adjustments should be discussed with the auditor and the contractor.",
+      "order": 70,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0071",
+      "block_type": "heading",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Surplus inventories",
+      "order": 71,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0072",
+      "block_type": "paragraph",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "If any inventory is declared surplus by the termination, the TCO should send copies of the termination inventory schedules to the client to obtain disposition instructions. The costs associated with disposition, such as packaging, routing, and shipping, are a proper post termination charge to be added to the contractor's claim.",
+      "order": 72,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0073",
+      "block_type": "paragraph",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "If there are discrepancies after inventory verification by the inspection authority or the recipient designated by the client, then the settlement offer may be adjusted by the TCO .",
+      "order": 73,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0074",
+      "block_type": "paragraph",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Disposition options include:",
+      "order": 74,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0075",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Arranging for verification and shipment of all or part of the inventory to a recipient designated by the client. The costs associated with packaging, routing, shipping, etc., are a proper post termination charge to be added to the contractor's claim",
+      "order": 75,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0076",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Arranging inventory verification (by the TCO with the inspection authority of the client) so that the settlement offer may be adjusted to reflect any inventory discrepancies",
+      "order": 76,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0077",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Arranging for the disposal of the residual inventory by GCSurplus",
+      "order": 77,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0078",
+      "block_type": "paragraph",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Before submitting the sales request (for surplus materiel and equipment) form to GCSurplus , the TCO will obtain certification from both the client and the director of the applicable PSPC contracting directorate. This certification will state that:",
+      "order": 78,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0079",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "the inventories are reasonable in relation to the requirements of the terminated portion of the relevant contract",
+      "order": 79,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0080",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "their use is not required for existing PSPC contracts, due to the nature of the goods, and",
+      "order": 80,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0081",
+      "block_type": "list_item",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "disposal is recommended",
+      "order": 81,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0082",
+      "block_type": "paragraph",
+      "heading": "Surplus inventories",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Surplus inventories"
+      ],
+      "text": "Any proceeds realized from the sale of the surplus inventory are credited (less the GCSurplus commission fee) back to the client, to the Consolidated Revenue Fund or the revolving fund as applicable.",
+      "order": 82,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0083",
+      "block_type": "heading",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "Settlement offer, close-out and dispute resolution",
+      "order": 83,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0084",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "The TCO is responsible for reviewing the audit report, if one was completed, and for negotiating a settlement offer with the contractor. This offer informs the contractor of the amount of the settlement the TCO is prepared to recommend to the executive director, Strategic Policy Development and Integration Directorate (SPDID) for approval.",
+      "order": 84,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0085",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "Once the contractor accepts the proposed settlement offer, the TCO will prepare the settlement and release form, and submit it to:",
+      "order": 85,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0086",
+      "block_type": "list_item",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "Legal Services for review",
+      "order": 86,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0087",
+      "block_type": "list_item",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "the executive director, SPDID for approval and signature",
+      "order": 87,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0088",
+      "block_type": "list_item",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "the contractor for acceptance and signature",
+      "order": 88,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0089",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "The contractor’s written acceptance of the settlement and release document and the final invoice are placed on the Price Support Directorate (PSD) file with a copy forwarded to you for your procurement file. A copy is also sent to the client to issue payment.",
+      "order": 89,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0090",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "If the contractor rejects the proposed settlement, the TCO will advise the contractor, in writing, of the Alternate Dispute Resolution (ADR) services available through the Office of the Procurement Ombud. See Contract Dispute Resolution for more information.",
+      "order": 90,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0091",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "The TCO will negotiate a settlement offer with the contractor that includes the settlement amount. If the contractor rejects the proposed settlement, the TCO can involve the group responsible for business dispute management.",
+      "order": 91,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0092",
+      "block_type": "paragraph",
+      "heading": "Settlement offer, close-out and dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Settlement offer, close-out and dispute resolution"
+      ],
+      "text": "Once the contractor accepts the proposed settlement offer, PSPC executives with the delegated authority can approve and sign the settlement and release documents. The TCO will send a copy to the contractor for their signature.",
+      "order": 92,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0093",
+      "block_type": "heading",
+      "heading": "Payment of the settlement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Payment of the settlement"
+      ],
+      "text": "Payment of the settlement",
+      "order": 93,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0094",
+      "block_type": "paragraph",
+      "heading": "Payment of the settlement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Payment of the settlement"
+      ],
+      "text": "When a partial payment or final settlement payment related to a claim on a contract terminated or partially terminated for the convenience of Canada is approved and signed by the executive director, Strategic Policy Development and Integration Directorate (SPDID), the TCO will:",
+      "order": 94,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0095",
+      "block_type": "list_item",
+      "heading": "Payment of the settlement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Payment of the settlement"
+      ],
+      "text": "place the original of the completed document on the Price Support Directorate (PSD) file and make arrangements to implement the approved settlement payment",
+      "order": 95,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0096",
+      "block_type": "list_item",
+      "heading": "Payment of the settlement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Payment of the settlement"
+      ],
+      "text": "send a copy to the client for payment",
+      "order": 96,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0097",
+      "block_type": "list_item",
+      "heading": "Payment of the settlement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Settlement negotiation and dispute resolution",
+        "Payment of the settlement"
+      ],
+      "text": "send a copy to the buyer for their procurement file",
+      "order": 97,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0098",
+      "block_type": "heading",
+      "heading": "Claims arising from United States and Canadian Commercial Corporation contracts",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Claims arising from United States and Canadian Commercial Corporation contracts"
+      ],
+      "text": "Claims arising from United States and Canadian Commercial Corporation contracts",
+      "order": 98,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0099",
+      "block_type": "paragraph",
+      "heading": "Claims arising from United States and Canadian Commercial Corporation contracts",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Claims arising from United States and Canadian Commercial Corporation contracts"
+      ],
+      "text": "Price Support Directorate (PSD), Procurement Business Management Sector (PBMS) is designated to handle claims arising from United States and Canadian Commercial Corporation (U.S./CCC) contracts being terminated for the convenience of the U.S. government.",
+      "order": 99,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0100",
+      "block_type": "paragraph",
+      "heading": "Claims arising from United States and Canadian Commercial Corporation contracts",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Claims arising from United States and Canadian Commercial Corporation contracts"
+      ],
+      "text": "For terminations involving U.S./CCC contracts, the executive director, Strategic Policy Development and Integration Directorate (SPDID), Strategic Policy Sector (SPS), will ensure compliance with the certification and termination settlement functions that are required to conform with the U.S. Department of Defense and Department of National Defence Letter of Agreement (see U.S. Defense Federal Acquisition Regulation Supplements 225.870-6 and 249.7000 ).",
+      "order": 100,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0101",
+      "block_type": "paragraph",
+      "heading": "Claims arising from United States and Canadian Commercial Corporation contracts",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for convenience",
+        "Termination for convenience",
+        "Claims arising from United States and Canadian Commercial Corporation contracts"
+      ],
+      "text": "The executive director, SPDID will also respond to requests from the U.S. government to arrange audits of U.S. government contracts or subcontracts placed directly with Canadian-based suppliers that are terminated for convenience.",
+      "order": 101,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Termination for convenience\n\nCanada may terminate a contract for convenience in accordance with the termination for convenience provision of the general conditions applicable to the contract.\n\nYou may terminate a contract for the convenience of Canada if:\n\nthe funding has been curtailed\n\na government program has been discontinued\n\na contract has been mistakenly awarded to other than the lowest responsive offeror\n\nother circumstances make the procurement of the good or service unnecessary\n\nTermination for convenience also applies when:\n\nthe client has requested termination\n\na termination for default cannot be considered because the contractor is not in default\n\na termination by mutual consent would not be more advantageous to Canada\n\nTermination claims officer\n\nThe Price Support Directorate (PSD), Procurement Business Management Sector (PBMS) was designated to provide termination settlement services including the processing of claims associated with goods and services contracts terminated for convenience by Canada.\n\nWhen a contract will be terminated for convenience in whole or in part, the PSPC buyer should involve the termination claims officer (TCO), PSD , PBMS immediately in the claim settlement process.\n\nRefer to the lists below for details on the division of responsibilities between the buyer and the TCO regarding terminations of convenience.\n\nThe responsibilities of the buyer include:\n\npreparing contract status reports\n\nissuing stop work orders and notices of termination\n\nadministering the non-terminated portion of the contract\n\nThe responsibilities of the TCO include:\n\nassessing the contractor's request for any upward adjustment of the contract price for the non-terminated portion of the contract\n\nrequesting the claim from contractor and forwarding claim forms\n\nassisting the contractor with preparation of the claim\n\nensuring the acceptability of the claim\n\ndetermining if an audit is required\n\ndefining audit requirements and arranging the audit\n\narranging for inventory verification and screening by the client\n\nnegotiating the final settlement with contractor\n\npreparing the settlement and release document\n\nforwarding the settlement and release document to the contractor for acceptance\n\nobtaining the invoice and signed settlement and release document from the contractor\n\nsubmitting the invoice through the client department\n\ndistributing the settlement and release document\n\nJoint responsibilities of the buyer and TCO include disposing of surplus inventory with the client.\n\nPreparing for contract termination\n\nOccasionally, the client will require a contract status report before making a decision to cancel the contract. They will inform PSPC of their intention to reduce or cancel a contract by issuing a \"notice of intent to cancel\" to you. The client may request all or part of the following contract status information before making a final decision to terminate. This report includes:\n\nthe quantity of stores produced during the contract\n\nthe quantity of stores in production\n\nthe value of raw materials or components acquired by the contractor to carry out the specific contract\n\nthe position with respect to tooling and capital equipment, especially if the contractor had to tool-up to carry out the contract\n\nthe status of subcontracts\n\nthe most economical point to terminate the contract\n\nthe approximate amount of termination claims, if known\n\nYou must immediately request the information from the contractor and provide it to the client along with any recommendations.\n\nNormally, the client's initial request will be to cancel all or part of the contract, in which case you should immediately issue a stop work order. A stop work order is a safeguard to ensure a halt in the work and remove the possibility of further expense being generated by the contractor. To terminate the contract, a stop work order must be followed by issuing a notice of termination for convenience.\n\nNotice of termination\n\nIt is the client's responsibility to decide at what stage a full or partial termination should take place. You must not issue a notice of termination to the contractor until legal opinion is sought and the client’s formal requisition amendment confirming their decision to terminate has been received. In order to avoid further costs to Canada and hardship to the contractor, a notice of termination must be issued as quickly as possible to finalize the implications of the stop work order.\n\nYou should ensure that sufficient funds remain in the amended requisition to cover the contract value. You must not adjust the funds when issuing the notice of termination. The contract funds will be adjusted on the settlement and release document.\n\nYou will prepare the notice of termination or partial termination using the appropriate contract clauses and based on advice from Legal Services, send the notice of termination to the contractor.\n\nAfter the notice of termination or partial termination is issued, you must immediately send a copy of the stop work order and notice of termination to the TCO .\n\nNo claim is involved\n\nIf the contractor advises you that a claim will not be submitted following the receipt of a notice of termination, you must remove the funding for the terminated items. Since no claim is made, the TCO is not part of this process.\n\nSettlement negotiation and dispute resolution\n\nThis section provides information on the process for negotiating a settlement. By following these guidelines, you can manage settlements effectively and ensure all necessary adjustments are made.\n\nAdjustment of funds\n\nThe TCO will adjust the contract funds on the settlement and release document.\n\nFor the non-terminated portion of a contract, if the contractor requests an upward adjustment to the cost or unit price, the resulting claim for the adjustment should be referred to the TCO for review before reaching an agreement with the contractor.\n\nTermination file\n\nFor fully terminated contracts that are not complex you should send the complete contract file to the TCO . For complex procurements and partial terminations, where a portion of the contract is active, send an electronic copy of the following to the TCO :\n\nthe contract\n\nall amendments\n\nspecifications\n\npricing details\n\npertinent correspondence\n\nany other information relevant to the termination\n\nInforming the contractor\n\nIf a claim is involved, the TCO will send the termination claim forms which includes the Procedures Guide – Processing Settlement Proposals Related to Contracts Terminated for Convenience to the contractor and follow-up to ensure receipt and that the necessary action is being taken to submit a claim.\n\nThe contractor must complete all sections of the forms in as much detail as possible. When the forms are complete the signed original is returned to the TCO , who will confirm receipt of the claim with the contractor.\n\nIf the contractor has any questions about termination settlement procedures or the presentation of the claim, they may contact the TCO directly.\n\nAudit of claims\n\nUpon receipt of a claim, the TCO will determine the need for an audit. If required, they will prepare the terms of reference and arrange for its completion. The TCO will also review the cost factors reported by the auditor and reconcile the contractor's claim with the auditor's report. The cost implications of any inventory adjustments should be discussed with the auditor and the contractor.\n\nSurplus inventories\n\nIf any inventory is declared surplus by the termination, the TCO should send copies of the termination inventory schedules to the client to obtain disposition instructions. The costs associated with disposition, such as packaging, routing, and shipping, are a proper post termination charge to be added to the contractor's claim.\n\nIf there are discrepancies after inventory verification by the inspection authority or the recipient designated by the client, then the settlement offer may be adjusted by the TCO .\n\nDisposition options include:\n\nArranging for verification and shipment of all or part of the inventory to a recipient designated by the client. The costs associated with packaging, routing, shipping, etc., are a proper post termination charge to be added to the contractor's claim\n\nArranging inventory verification (by the TCO with the inspection authority of the client) so that the settlement offer may be adjusted to reflect any inventory discrepancies\n\nArranging for the disposal of the residual inventory by GCSurplus\n\nBefore submitting the sales request (for surplus materiel and equipment) form to GCSurplus , the TCO will obtain certification from both the client and the director of the applicable PSPC contracting directorate. This certification will state that:\n\nthe inventories are reasonable in relation to the requirements of the terminated portion of the relevant contract\n\ntheir use is not required for existing PSPC contracts, due to the nature of the goods, and\n\ndisposal is recommended\n\nAny proceeds realized from the sale of the surplus inventory are credited (less the GCSurplus commission fee) back to the client, to the Consolidated Revenue Fund or the revolving fund as applicable.\n\nSettlement offer, close-out and dispute resolution\n\nThe TCO is responsible for reviewing the audit report, if one was completed, and for negotiating a settlement offer with the contractor. This offer informs the contractor of the amount of the settlement the TCO is prepared to recommend to the executive director, Strategic Policy Development and Integration Directorate (SPDID) for approval.\n\nOnce the contractor accepts the proposed settlement offer, the TCO will prepare the settlement and release form, and submit it to:\n\nLegal Services for review\n\nthe executive director, SPDID for approval and signature\n\nthe contractor for acceptance and signature\n\nThe contractor’s written acceptance of the settlement and release document and the final invoice are placed on the Price Support Directorate (PSD) file with a copy forwarded to you for your procurement file. A copy is also sent to the client to issue payment.\n\nIf the contractor rejects the proposed settlement, the TCO will advise the contractor, in writing, of the Alternate Dispute Resolution (ADR) services available through the Office of the Procurement Ombud. See Contract Dispute Resolution for more information.\n\nThe TCO will negotiate a settlement offer with the contractor that includes the settlement amount. If the contractor rejects the proposed settlement, the TCO can involve the group responsible for business dispute management.\n\nOnce the contractor accepts the proposed settlement offer, PSPC executives with the delegated authority can approve and sign the settlement and release documents. The TCO will send a copy to the contractor for their signature.\n\nPayment of the settlement\n\nWhen a partial payment or final settlement payment related to a claim on a contract terminated or partially terminated for the convenience of Canada is approved and signed by the executive director, Strategic Policy Development and Integration Directorate (SPDID), the TCO will:\n\nplace the original of the completed document on the Price Support Directorate (PSD) file and make arrangements to implement the approved settlement payment\n\nsend a copy to the client for payment\n\nsend a copy to the buyer for their procurement file\n\nClaims arising from United States and Canadian Commercial Corporation contracts\n\nPrice Support Directorate (PSD), Procurement Business Management Sector (PBMS) is designated to handle claims arising from United States and Canadian Commercial Corporation (U.S./CCC) contracts being terminated for the convenience of the U.S. government.\n\nFor terminations involving U.S./CCC contracts, the executive director, Strategic Policy Development and Integration Directorate (SPDID), Strategic Policy Sector (SPS), will ensure compliance with the certification and termination settlement functions that are required to conform with the U.S. Department of Defense and Department of National Defence Letter of Agreement (see U.S. Defense Federal Acquisition Regulation Supplements 225.870-6 and 249.7000 ).\n\nThe executive director, SPDID will also respond to requests from the U.S. government to arrange audits of U.S. government contracts or subcontracts placed directly with Canadian-based suppliers that are terminated for convenience.",
+  "markdown_text": "Termination for convenience\n\nCanada may terminate a contract for convenience in accordance with the termination for convenience provision of the general conditions applicable to the contract.\n\nYou may terminate a contract for the convenience of Canada if:\n\nthe funding has been curtailed\n\na government program has been discontinued\n\na contract has been mistakenly awarded to other than the lowest responsive offeror\n\nother circumstances make the procurement of the good or service unnecessary\n\nTermination for convenience also applies when:\n\nthe client has requested termination\n\na termination for default cannot be considered because the contractor is not in default\n\na termination by mutual consent would not be more advantageous to Canada\n\nTermination claims officer\n\nThe Price Support Directorate (PSD), Procurement Business Management Sector (PBMS) was designated to provide termination settlement services including the processing of claims associated with goods and services contracts terminated for convenience by Canada.\n\nWhen a contract will be terminated for convenience in whole or in part, the PSPC buyer should involve the termination claims officer (TCO), PSD , PBMS immediately in the claim settlement process.\n\nRefer to the lists below for details on the division of responsibilities between the buyer and the TCO regarding terminations of convenience.\n\nThe responsibilities of the buyer include:\n\npreparing contract status reports\n\nissuing stop work orders and notices of termination\n\nadministering the non-terminated portion of the contract\n\nThe responsibilities of the TCO include:\n\nassessing the contractor's request for any upward adjustment of the contract price for the non-terminated portion of the contract\n\nrequesting the claim from contractor and forwarding claim forms\n\nassisting the contractor with preparation of the claim\n\nensuring the acceptability of the claim\n\ndetermining if an audit is required\n\ndefining audit requirements and arranging the audit\n\narranging for inventory verification and screening by the client\n\nnegotiating the final settlement with contractor\n\npreparing the settlement and release document\n\nforwarding the settlement and release document to the contractor for acceptance\n\nobtaining the invoice and signed settlement and release document from the contractor\n\nsubmitting the invoice through the client department\n\ndistributing the settlement and release document\n\nJoint responsibilities of the buyer and TCO include disposing of surplus inventory with the client.\n\nPreparing for contract termination\n\nOccasionally, the client will require a contract status report before making a decision to cancel the contract. They will inform PSPC of their intention to reduce or cancel a contract by issuing a \"notice of intent to cancel\" to you. The client may request all or part of the following contract status information before making a final decision to terminate. This report includes:\n\nthe quantity of stores produced during the contract\n\nthe quantity of stores in production\n\nthe value of raw materials or components acquired by the contractor to carry out the specific contract\n\nthe position with respect to tooling and capital equipment, especially if the contractor had to tool-up to carry out the contract\n\nthe status of subcontracts\n\nthe most economical point to terminate the contract\n\nthe approximate amount of termination claims, if known\n\nYou must immediately request the information from the contractor and provide it to the client along with any recommendations.\n\nNormally, the client's initial request will be to cancel all or part of the contract, in which case you should immediately issue a stop work order. A stop work order is a safeguard to ensure a halt in the work and remove the possibility of further expense being generated by the contractor. To terminate the contract, a stop work order must be followed by issuing a notice of termination for convenience.\n\nNotice of termination\n\nIt is the client's responsibility to decide at what stage a full or partial termination should take place. You must not issue a notice of termination to the contractor until legal opinion is sought and the client’s formal requisition amendment confirming their decision to terminate has been received. In order to avoid further costs to Canada and hardship to the contractor, a notice of termination must be issued as quickly as possible to finalize the implications of the stop work order.\n\nYou should ensure that sufficient funds remain in the amended requisition to cover the contract value. You must not adjust the funds when issuing the notice of termination. The contract funds will be adjusted on the settlement and release document.\n\nYou will prepare the notice of termination or partial termination using the appropriate contract clauses and based on advice from Legal Services, send the notice of termination to the contractor.\n\nAfter the notice of termination or partial termination is issued, you must immediately send a copy of the stop work order and notice of termination to the TCO .\n\nNo claim is involved\n\nIf the contractor advises you that a claim will not be submitted following the receipt of a notice of termination, you must remove the funding for the terminated items. Since no claim is made, the TCO is not part of this process.\n\nSettlement negotiation and dispute resolution\n\nThis section provides information on the process for negotiating a settlement. By following these guidelines, you can manage settlements effectively and ensure all necessary adjustments are made.\n\nAdjustment of funds\n\nThe TCO will adjust the contract funds on the settlement and release document.\n\nFor the non-terminated portion of a contract, if the contractor requests an upward adjustment to the cost or unit price, the resulting claim for the adjustment should be referred to the TCO for review before reaching an agreement with the contractor.\n\nTermination file\n\nFor fully terminated contracts that are not complex you should send the complete contract file to the TCO . For complex procurements and partial terminations, where a portion of the contract is active, send an electronic copy of the following to the TCO :\n\nthe contract\n\nall amendments\n\nspecifications\n\npricing details\n\npertinent correspondence\n\nany other information relevant to the termination\n\nInforming the contractor\n\nIf a claim is involved, the TCO will send the termination claim forms which includes the Procedures Guide – Processing Settlement Proposals Related to Contracts Terminated for Convenience to the contractor and follow-up to ensure receipt and that the necessary action is being taken to submit a claim.\n\nThe contractor must complete all sections of the forms in as much detail as possible. When the forms are complete the signed original is returned to the TCO , who will confirm receipt of the claim with the contractor.\n\nIf the contractor has any questions about termination settlement procedures or the presentation of the claim, they may contact the TCO directly.\n\nAudit of claims\n\nUpon receipt of a claim, the TCO will determine the need for an audit. If required, they will prepare the terms of reference and arrange for its completion. The TCO will also review the cost factors reported by the auditor and reconcile the contractor's claim with the auditor's report. The cost implications of any inventory adjustments should be discussed with the auditor and the contractor.\n\nSurplus inventories\n\nIf any inventory is declared surplus by the termination, the TCO should send copies of the termination inventory schedules to the client to obtain disposition instructions. The costs associated with disposition, such as packaging, routing, and shipping, are a proper post termination charge to be added to the contractor's claim.\n\nIf there are discrepancies after inventory verification by the inspection authority or the recipient designated by the client, then the settlement offer may be adjusted by the TCO .\n\nDisposition options include:\n\nArranging for verification and shipment of all or part of the inventory to a recipient designated by the client. The costs associated with packaging, routing, shipping, etc., are a proper post termination charge to be added to the contractor's claim\n\nArranging inventory verification (by the TCO with the inspection authority of the client) so that the settlement offer may be adjusted to reflect any inventory discrepancies\n\nArranging for the disposal of the residual inventory by GCSurplus\n\nBefore submitting the sales request (for surplus materiel and equipment) form to GCSurplus , the TCO will obtain certification from both the client and the director of the applicable PSPC contracting directorate. This certification will state that:\n\nthe inventories are reasonable in relation to the requirements of the terminated portion of the relevant contract\n\ntheir use is not required for existing PSPC contracts, due to the nature of the goods, and\n\ndisposal is recommended\n\nAny proceeds realized from the sale of the surplus inventory are credited (less the GCSurplus commission fee) back to the client, to the Consolidated Revenue Fund or the revolving fund as applicable.\n\nSettlement offer, close-out and dispute resolution\n\nThe TCO is responsible for reviewing the audit report, if one was completed, and for negotiating a settlement offer with the contractor. This offer informs the contractor of the amount of the settlement the TCO is prepared to recommend to the executive director, Strategic Policy Development and Integration Directorate (SPDID) for approval.\n\nOnce the contractor accepts the proposed settlement offer, the TCO will prepare the settlement and release form, and submit it to:\n\nLegal Services for review\n\nthe executive director, SPDID for approval and signature\n\nthe contractor for acceptance and signature\n\nThe contractor’s written acceptance of the settlement and release document and the final invoice are placed on the Price Support Directorate (PSD) file with a copy forwarded to you for your procurement file. A copy is also sent to the client to issue payment.\n\nIf the contractor rejects the proposed settlement, the TCO will advise the contractor, in writing, of the Alternate Dispute Resolution (ADR) services available through the Office of the Procurement Ombud. See Contract Dispute Resolution for more information.\n\nThe TCO will negotiate a settlement offer with the contractor that includes the settlement amount. If the contractor rejects the proposed settlement, the TCO can involve the group responsible for business dispute management.\n\nOnce the contractor accepts the proposed settlement offer, PSPC executives with the delegated authority can approve and sign the settlement and release documents. The TCO will send a copy to the contractor for their signature.\n\nPayment of the settlement\n\nWhen a partial payment or final settlement payment related to a claim on a contract terminated or partially terminated for the convenience of Canada is approved and signed by the executive director, Strategic Policy Development and Integration Directorate (SPDID), the TCO will:\n\nplace the original of the completed document on the Price Support Directorate (PSD) file and make arrangements to implement the approved settlement payment\n\nsend a copy to the client for payment\n\nsend a copy to the buyer for their procurement file\n\nClaims arising from United States and Canadian Commercial Corporation contracts\n\nPrice Support Directorate (PSD), Procurement Business Management Sector (PBMS) is designated to handle claims arising from United States and Canadian Commercial Corporation (U.S./CCC) contracts being terminated for the convenience of the U.S. government.\n\nFor terminations involving U.S./CCC contracts, the executive director, Strategic Policy Development and Integration Directorate (SPDID), Strategic Policy Sector (SPS), will ensure compliance with the certification and termination settlement functions that are required to conform with the U.S. Department of Defense and Department of National Defence Letter of Agreement (see U.S. Defense Federal Acquisition Regulation Supplements 225.870-6 and 249.7000 ).\n\nThe executive director, SPDID will also respond to requests from the U.S. government to arrange audits of U.S. government contracts or subcontracts placed directly with Canadian-based suppliers that are terminated for convenience.",
+  "provenance_paths": {}
+}

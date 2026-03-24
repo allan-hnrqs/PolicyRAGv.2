@@ -1,0 +1,659 @@
+{
+  "doc_id": "b73604166ec3",
+  "title": "Special considerations - Forgiveness of debts | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:57:18.942171Z",
+  "content_hash": "4fdd0eb299e2f13b360e460eb439ef4477ab3169aaa852fb8e99c02dbfb9d2d5",
+  "word_count": 144,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Complexity and procurement risk assessment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Determining complexity",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Characteristics of procurement complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Changes to the complexity levels",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement risk assessment for complexity level 1, 2 and",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "in_scope": false
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "General principles of procurement authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Contract approval and signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Delegation of authority guidelines",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authorities for Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "in_scope": false
+    },
+    {
+      "title": "Additional signing authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Contracting limits including exceptional authorities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "in_scope": false
+    },
+    {
+      "title": "Risk-based procurement delegation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Approval processes",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "in_scope": false
+    },
+    {
+      "title": "Additional reviewers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "in_scope": false
+    },
+    {
+      "title": "Contract planning and advanced approval",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "in_scope": false
+    },
+    {
+      "title": "Contract request",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "in_scope": false
+    },
+    {
+      "title": "Treasury Board submission",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "in_scope": false
+    },
+    {
+      "title": "Contract amendment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Forgiveness of debts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "in_scope": false
+    },
+    {
+      "title": "Waiver of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "in_scope": false
+    },
+    {
+      "title": "Trade-ins",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "in_scope": false
+    },
+    {
+      "title": "Retroactive Treasury Board approval of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement process initiated by client",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+    "parent_doc_id": "05a12ecb14c5",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "05a12ecb14c5",
+      "b73604166ec3"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Special considerations - Forgiveness of debts",
+      "heading_path": [
+        "Buyer's Guide Special considerations - Forgiveness of debts"
+      ],
+      "text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Forgiveness of debts",
+      "heading_path": [
+        "Buyer's Guide Special considerations - Forgiveness of debts",
+        "Forgiveness of debts"
+      ],
+      "text": "Forgiveness of debts",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Forgiveness of debts",
+      "heading_path": [
+        "Buyer's Guide Special considerations - Forgiveness of debts",
+        "Forgiveness of debts"
+      ],
+      "text": "Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+      "order": 2,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.\n\nForgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+  "markdown_text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.\n\nForgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+  "provenance_paths": {}
+}

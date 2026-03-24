@@ -1,0 +1,264 @@
+{
+  "name": "parity39_blueprint",
+  "status": "draft",
+  "description": "Planned honest expansion from the current 19-case suite to a clean 39-case suite.",
+  "principles": [
+    "buyers-guide-primary",
+    "support-sources-as-context-not-default-authority",
+    "operational-questions-over-trivia",
+    "explicit-source-boundary-coverage",
+    "abstention-is-first-class"
+  ],
+  "current_case_count": 19,
+  "target_case_count": 39,
+  "new_case_slots": [
+    {
+      "id": "HR_020",
+      "status": "drafted_batch2",
+      "coverage_bucket": "source_boundary",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+      ],
+      "supporting_urls": [
+        "https://canadabuys.canada.ca/en/buy-canadian-policy"
+      ],
+      "question_shape": "Buyer asks whether the Buyer’s Guide workflow or the supporting policy controls a reciprocal-procurement decision in a mixed-source situation.",
+      "rationale": "Extends the existing authority-boundary pattern beyond HR_019."
+    },
+    {
+      "id": "HR_021",
+      "status": "drafted_batch2",
+      "coverage_bucket": "source_boundary",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+      ],
+      "supporting_urls": [
+        "https://canadabuys.canada.ca/en/buy-canadian-policy"
+      ],
+      "question_shape": "Buyer asks whether the support policy can override the Buyer’s Guide timing rule for required declarations or certifications.",
+      "rationale": "Tests that support policy is used as context rather than replacing page-level workflow."
+    },
+    {
+      "id": "HR_022",
+      "status": "drafted_batch2",
+      "coverage_bucket": "navigation",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Navigation question asking which Buyer’s Guide section covers choosing the method of supply for a requirement.",
+      "rationale": "Adds another landing-page-to-detail navigation case."
+    },
+    {
+      "id": "HR_023",
+      "status": "drafted_batch2",
+      "coverage_bucket": "navigation",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Navigation question asking where to find the rule for RFSA or urgent-procurement minimum solicitation periods.",
+      "rationale": "Adds routing pressure outside the current receive/evaluate cluster."
+    },
+    {
+      "id": "HR_024",
+      "status": "drafted_batch1",
+      "coverage_bucket": "approval_authority",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Operational question on contract approval authority versus signing authority and what each one permits.",
+      "rationale": "Introduces approvals-and-authorities pages that are not yet represented."
+    },
+    {
+      "id": "HR_025",
+        "status": "drafted_batch3",
+      "coverage_bucket": "approval_authority",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Buyer asks how risk-based procurement delegation changes who can approve a file.",
+      "rationale": "Exercises delegation logic rather than current solicitation workflow pages."
+    },
+    {
+      "id": "HR_026",
+      "status": "drafted_batch1",
+      "coverage_bucket": "approval_authority",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about when additional signing authorities are needed and what they do not replace.",
+      "rationale": "Extends authority/delegation coverage with a tighter operational distinction."
+    },
+    {
+      "id": "HR_027",
+        "status": "drafted_batch3",
+      "coverage_bucket": "approval_authority",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about how procurement complexity affects the approval path.",
+      "rationale": "Adds a neighboring page family to avoid overfitting to a single authority page."
+    },
+    {
+      "id": "HR_028",
+      "status": "drafted_batch1",
+      "coverage_bucket": "solicitation_workflow",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Buyer asks when a solicitation should be reissued versus amended and what approval/documentation follows.",
+      "rationale": "Adds another multi-page operational workflow family."
+    },
+    {
+      "id": "HR_029",
+      "status": "drafted_batch1",
+      "coverage_bucket": "solicitation_workflow",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about how to handle supplier questions during the solicitation period and when answers must be shared more broadly.",
+      "rationale": "Tests another live-file workflow page."
+    },
+    {
+      "id": "HR_030",
+        "status": "drafted_batch3",
+      "coverage_bucket": "solicitation_workflow",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question on minimum solicitation periods for RFSAs or urgent procurements and when shortened periods are allowed.",
+      "rationale": "Extends time-sensitive rule coverage beyond offer validity."
+    },
+    {
+      "id": "HR_031",
+        "status": "drafted_batch3",
+      "coverage_bucket": "solicitation_workflow",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about solicitation-stage offer receipt instructions and what must be clear in the solicitation.",
+      "rationale": "Balances current receive/evaluate questions with create-solicitation coverage."
+    },
+    {
+      "id": "HR_032",
+      "status": "drafted_batch1",
+      "coverage_bucket": "security_privacy",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question on how security requirements apply when using standing offers or supply arrangements.",
+      "rationale": "Introduces security as a new decision family."
+    },
+    {
+      "id": "HR_033",
+        "status": "drafted_batch3",
+      "coverage_bucket": "security_privacy",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Operational question on when the SRCL must be completed and what it is used for.",
+      "rationale": "Adds another procedural security question that is not close to the current suite."
+    },
+    {
+      "id": "HR_034",
+        "status": "drafted_batch3",
+      "coverage_bucket": "financial_contract_management",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Buyer asks when financial security can be required during contract management and what the file should show.",
+      "rationale": "Adds post-award contract-management coverage."
+    },
+    {
+      "id": "HR_035",
+      "status": "drafted_batch1",
+      "coverage_bucket": "financial_contract_management",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about what can be shared during debriefing and how to avoid disclosing protected information.",
+      "rationale": "Expands the award/manage-results family."
+    },
+    {
+      "id": "HR_036",
+      "status": "drafted_batch1",
+      "coverage_bucket": "financial_contract_management",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Question about what must happen before a contract file can be properly closed out.",
+      "rationale": "Adds end-of-lifecycle workflow coverage."
+    },
+    {
+      "id": "HR_037",
+      "status": "drafted_batch2",
+      "coverage_bucket": "abstention_or_missing_detail",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Abstention case asking for an exact internal form number or email not provided on the page.",
+      "rationale": "Adds a sealed hallucination-resistance case in a new page family."
+    },
+    {
+      "id": "HR_038",
+      "status": "drafted_batch2",
+      "coverage_bucket": "abstention_or_missing_detail",
+      "split_target": "dev",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Abstention case asking for a specific direct contact detail that is not given in the collected page evidence.",
+      "rationale": "Adds another fabricated-contact failure trap outside CLCA."
+    },
+    {
+      "id": "HR_039",
+      "status": "drafted_batch2",
+      "coverage_bucket": "cross_page_synthesis",
+      "split_target": "holdout",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer"
+      ],
+      "supporting_urls": [],
+      "question_shape": "Cross-page question comparing when a standing offer versus another method of supply is appropriate and what the buyer has to verify first.",
+      "rationale": "Adds a new synthesis family outside the current RFSA comparison cluster."
+    }
+  ]
+}

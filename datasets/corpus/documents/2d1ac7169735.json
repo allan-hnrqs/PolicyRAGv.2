@@ -1,0 +1,783 @@
+{
+  "doc_id": "2d1ac7169735",
+  "title": "Choose a solicitation method - Request for quotation | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:57:33.074752Z",
+  "content_hash": "737a4a367705169db6be6de73c967899b561ad631f0caeb23d3ccbfea31bcaaf",
+  "word_count": 530,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitation of offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Invitation to tender",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "in_scope": false
+    },
+    {
+      "title": "Request for information or Letter of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "in_scope": false
+    },
+    {
+      "title": "Request for quotation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "in_scope": false
+    },
+    {
+      "title": "Request for supply arrangement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "in_scope": false
+    },
+    {
+      "title": "Request for standing offer",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "in_scope": false
+    },
+    {
+      "title": "Preparing the solicitation documents",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "in_scope": false
+    },
+    {
+      "title": "Notice of proposed procurement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "in_scope": false
+    },
+    {
+      "title": "Advanced Contract Award Notice",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices and trade agreements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "in_scope": false
+    },
+    {
+      "title": "Tender notices and Procurement Strategy for Indigenous Business set-aside",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "in_scope": false
+    },
+    {
+      "title": "Determine the solicitation period",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitation period",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "in_scope": false
+    },
+    {
+      "title": "Normal minimum solicitation periods",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "in_scope": false
+    },
+    {
+      "title": "Minimum solicitation period for ITQs, RFSAs and urgent procurements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "in_scope": false
+    },
+    {
+      "title": "Solicitations following a request for expressions of interest",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "in_scope": false
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": false
+    },
+    {
+      "title": "Audit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "in_scope": false
+    },
+    {
+      "title": "Certifications",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "in_scope": false
+    },
+    {
+      "title": "Delivery terms",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "in_scope": false
+    },
+    {
+      "title": "Exchange rates",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "in_scope": false
+    },
+    {
+      "title": "Method of payment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "in_scope": false
+    },
+    {
+      "title": "Translation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "in_scope": false
+    },
+    {
+      "title": "Offer receipt",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "in_scope": false
+    },
+    {
+      "title": "Phased offer compliance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "in_scope": false
+    },
+    {
+      "title": "Client review",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "in_scope": false
+    },
+    {
+      "title": "Client review of elements of a solicitation of offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "f2fedd3e5896",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "f2fedd3e5896",
+      "2d1ac7169735"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Choose a solicitation method - Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation"
+      ],
+      "text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "Request for quotation",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "Before initiating an RFQ , you must ensure:",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "list_item",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "the offeror is not listed on the Ineligibility and Suspension List",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "the RFQ contains the Ineligibility and Suspension Policy clauses",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "the requirements is clearly defined to facilitate evaluation based on price and delivery",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "contract award may be determined based on the lowest-priced offer that meets the requirements",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Request for quotation",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation"
+      ],
+      "text": "RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Telephone buy",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation",
+        "Telephone buy"
+      ],
+      "text": "Telephone buy",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Telephone buy",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation",
+        "Telephone buy"
+      ],
+      "text": "A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Telephone buy",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation",
+        "Telephone buy"
+      ],
+      "text": "Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Telephone buy",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for quotation",
+        "Request for quotation",
+        "Telephone buy"
+      ],
+      "text": "You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+      "order": 12,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.\n\nRequest for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+  "markdown_text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.\n\nRequest for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+  "provenance_paths": {}
+}

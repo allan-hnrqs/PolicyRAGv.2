@@ -1,0 +1,1976 @@
+{
+  "doc_id": "28393b4a7a4b",
+  "title": "Other planning considerations - Emergency requirements | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T02:00:03.470080Z",
+  "content_hash": "f8aef32f0d72f54e762d7a7834b7e2e3bd74f9633718b6e520ef9a72ce30545a",
+  "word_count": 3518,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Define the requirement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Importance of a clear procurement requirement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Requisition",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "in_scope": false
+    },
+    {
+      "title": "Standards and quality assurance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "in_scope": false
+    },
+    {
+      "title": "Review a statement of work",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "in_scope": false
+    },
+    {
+      "title": "Socioeconomic requirements definition",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "in_scope": false
+    },
+    {
+      "title": "Engage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/engage#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "in_scope": false
+    },
+    {
+      "title": "Early engagement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "in_scope": false
+    },
+    {
+      "title": "Engage with clients",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "in_scope": false
+    },
+    {
+      "title": "Engage with subject matter experts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "in_scope": false
+    },
+    {
+      "title": "Engage with businesses",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "in_scope": false
+    },
+    {
+      "title": "Determine the procurement strategy",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "in_scope": false
+    },
+    {
+      "title": "Developing a procurement strategy",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "in_scope": false
+    },
+    {
+      "title": "Choose the method of supply",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "in_scope": false
+    },
+    {
+      "title": "Determine the sourcing strategy",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "in_scope": false
+    },
+    {
+      "title": "Interim Policy on Reciprocal Procurement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "in_scope": false
+    },
+    {
+      "title": "Trade agreement applicability",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "in_scope": false
+    },
+    {
+      "title": "Socioeconomic considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Anti-forced labour considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Accessibility",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "in_scope": false
+    },
+    {
+      "title": "Green procurement",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "in_scope": false
+    },
+    {
+      "title": "Indigenous considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Contract security and privacy requirements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "in_scope": false
+    },
+    {
+      "title": "Completing the Security Requirements Check List",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "in_scope": false
+    },
+    {
+      "title": "Security and timelines",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "in_scope": false
+    },
+    {
+      "title": "Application for registration",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "in_scope": false
+    },
+    {
+      "title": "Security in contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts-0#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts-0",
+      "in_scope": false
+    },
+    {
+      "title": "Security in solicitations of offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitations-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitations-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Security in standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Security and international contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Foreign ownership, control or influence",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy and confidentiality",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "in_scope": false
+    },
+    {
+      "title": "Controlled goods",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "in_scope": false
+    },
+    {
+      "title": "Basis of payment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "in_scope": false
+    },
+    {
+      "title": "Types of basis of payment",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "in_scope": false
+    },
+    {
+      "title": "Cost accounting and pricing",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "in_scope": false
+    },
+    {
+      "title": "Pricing methods",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "in_scope": false
+    },
+    {
+      "title": "Overview of key pricing considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Firm price",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "in_scope": false
+    },
+    {
+      "title": "Fixed price",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "in_scope": false
+    },
+    {
+      "title": "Price and currency adjustments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "in_scope": false
+    },
+    {
+      "title": "Fixed time/unit rate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "in_scope": false
+    },
+    {
+      "title": "Cost reimbursable",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "in_scope": false
+    },
+    {
+      "title": "Provisional price",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "in_scope": false
+    },
+    {
+      "title": "Financial considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes and duties",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "in_scope": false
+    },
+    {
+      "title": "Invoicing instructions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "in_scope": false
+    },
+    {
+      "title": "Payment instruments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "in_scope": false
+    },
+    {
+      "title": "Withholding for non-resident contractors",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "in_scope": false
+    },
+    {
+      "title": "Method of selection",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/method-selection#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "in_scope": false
+    },
+    {
+      "title": "Developing selection criteria",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "in_scope": false
+    },
+    {
+      "title": "Including basis of selection",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "in_scope": false
+    },
+    {
+      "title": "Communicating the method of selection",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "in_scope": false
+    },
+    {
+      "title": "Specifying evaluation criteria",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "in_scope": false
+    },
+    {
+      "title": "Performance considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Incentives",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "in_scope": false
+    },
+    {
+      "title": "Holdbacks",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "in_scope": false
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Official languages obligations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "in_scope": false
+    },
+    {
+      "title": "Employer-employee relationship",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "in_scope": false
+    },
+    {
+      "title": "Services of foreign nationals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "in_scope": false
+    },
+    {
+      "title": "Fairness monitoring",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "in_scope": false
+    },
+    {
+      "title": "Insurance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "in_scope": false
+    },
+    {
+      "title": "Warranties",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "in_scope": false
+    },
+    {
+      "title": "Intellectual property and copyright",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "in_scope": false
+    },
+    {
+      "title": "Liability and risk management",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "in_scope": false
+    },
+    {
+      "title": "Contractor liability",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "in_scope": false
+    },
+    {
+      "title": "Canadian General Standards Board",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "in_scope": false
+    },
+    {
+      "title": "Compliance with the Canadian electrical code",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "in_scope": false
+    },
+    {
+      "title": "Managing urgent acquisitions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "in_scope": false
+    },
+    {
+      "title": "Emergency requirements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+    "parent_doc_id": "d5fdad48b5c7",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "d5fdad48b5c7",
+      "28393b4a7a4b"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitations-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitations-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Other planning considerations - Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements"
+      ],
+      "text": "Emergency requirements The TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes: an actual/imminent life-threatening situation a disaster endangering quality of life or safety of Canadians a disaster that results in the loss of life a disaster resulting in significant loss damage to Crown Property In these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement . PSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits. Considerations when handling emergency requirements Clients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives. PSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical. You must: remain calm and follow established departmental procedures for emergency contracting avoid being too restrictive and allow the requirement and timeline to guide the process use an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team engage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate assign a liaison officer to quickly coordinate the organization’s resources ensure the team has all necessary tools in place to effectively facilitate their duties be available and ensure all key players are present for critical meetings and briefings communicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible identify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients) brief senior management frequently, documenting the file with all decisions and deviations to the process brief senior management frequently, documenting the file with all decisions and deviations to the process identify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process establish and collaborate with contacts in other government departments and levels of government, including provincial and territorial establish a process for quick buys including fast-track approvals be open to innovative solutions that can address unique challenges in emergency situations reduce risks by being prepared for various emergency scenarios In situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development. Emergency contracts and contractual arrangements Contracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where: the total value exceeds basic and exceptional contracting limits the contractor's third party liability is limited due to a substantive transfer of risk the contractor is provided indemnity from risk within their control Only emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement . You, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A. Emergency contracting (Public Services and Procurement Canada as buyer) Under the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch. Criteria for using PSPC Acquisitions Program emergency contracting limits To use PSPC ’s emergency contracting limits, all of the following criteria must be met: the extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies the requirement cannot be met through normal contracting procedures due to the urgency the applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC Documentation and approval Emergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include: a description of the requirement and its total estimated value (including all applicable taxes and fees) an explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers details on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement details on the non-competitive procurement strategy employed You must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority. Financial considerations If an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract. When there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented. Risk assessment and reporting You must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]). As per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include: justification for the pressing emergency and details of the emergency situation the type and total value of the contract or contractual arrangement reasons why soliciting offers was impractical or not permissible the level of PSPC 's delegated contracting authority used details on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable Ratification of emergency contracts TB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report. When such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section. Applying exceptions in emergency contracts In cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program. Integrity verification in an emergency You must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day. If a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight. For clients: Emergency requirements Under the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement . Using emergency contracting limits – clients Clients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits . If the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf. For requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "Emergency requirements",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "The TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes:",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "list_item",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "an actual/imminent life-threatening situation",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "list_item",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "a disaster endangering quality of life or safety of Canadians",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "a disaster that results in the loss of life",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "a disaster resulting in significant loss damage to Crown Property",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "paragraph",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "In these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement .",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements"
+      ],
+      "text": "PSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "Considerations when handling emergency requirements",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "Clients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives.",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "PSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "You must:",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "remain calm and follow established departmental procedures for emergency contracting",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "avoid being too restrictive and allow the requirement and timeline to guide the process",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "use an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "engage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "assign a liaison officer to quickly coordinate the organization’s resources",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "ensure the team has all necessary tools in place to effectively facilitate their duties",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "be available and ensure all key players are present for critical meetings and briefings",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "communicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "identify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients)",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "brief senior management frequently, documenting the file with all decisions and deviations to the process",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "brief senior management frequently, documenting the file with all decisions and deviations to the process",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "identify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "establish and collaborate with contacts in other government departments and levels of government, including provincial and territorial",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "establish a process for quick buys including fast-track approvals",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "be open to innovative solutions that can address unique challenges in emergency situations",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "list_item",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "reduce risks by being prepared for various emergency scenarios",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "paragraph",
+      "heading": "Considerations when handling emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Considerations when handling emergency requirements"
+      ],
+      "text": "In situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development.",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "heading",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "Emergency contracts and contractual arrangements",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "paragraph",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "Contracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where:",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "list_item",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "the total value exceeds basic and exceptional contracting limits",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "list_item",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "the contractor's third party liability is limited due to a substantive transfer of risk",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "list_item",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "the contractor is provided indemnity from risk within their control",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "paragraph",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "Only emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement .",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Emergency contracts and contractual arrangements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracts and contractual arrangements"
+      ],
+      "text": "You, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A.",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "heading",
+      "heading": "Emergency contracting (Public Services and Procurement Canada as buyer)",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)"
+      ],
+      "text": "Emergency contracting (Public Services and Procurement Canada as buyer)",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "paragraph",
+      "heading": "Emergency contracting (Public Services and Procurement Canada as buyer)",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)"
+      ],
+      "text": "Under the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch.",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "heading",
+      "heading": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Criteria for using PSPC Acquisitions Program emergency contracting limits"
+      ],
+      "text": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "paragraph",
+      "heading": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Criteria for using PSPC Acquisitions Program emergency contracting limits"
+      ],
+      "text": "To use PSPC ’s emergency contracting limits, all of the following criteria must be met:",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "list_item",
+      "heading": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Criteria for using PSPC Acquisitions Program emergency contracting limits"
+      ],
+      "text": "the extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "list_item",
+      "heading": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Criteria for using PSPC Acquisitions Program emergency contracting limits"
+      ],
+      "text": "the requirement cannot be met through normal contracting procedures due to the urgency",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "list_item",
+      "heading": "Criteria for using PSPC Acquisitions Program emergency contracting limits",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Criteria for using PSPC Acquisitions Program emergency contracting limits"
+      ],
+      "text": "the applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "heading",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "Documentation and approval",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "paragraph",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "Emergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include:",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "list_item",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "a description of the requirement and its total estimated value (including all applicable taxes and fees)",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "list_item",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "an explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "list_item",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "details on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "list_item",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "details on the non-competitive procurement strategy employed",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "paragraph",
+      "heading": "Documentation and approval",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Documentation and approval"
+      ],
+      "text": "You must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority.",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "heading",
+      "heading": "Financial considerations",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Financial considerations"
+      ],
+      "text": "Financial considerations",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "paragraph",
+      "heading": "Financial considerations",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Financial considerations"
+      ],
+      "text": "If an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract.",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "paragraph",
+      "heading": "Financial considerations",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Financial considerations"
+      ],
+      "text": "When there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented.",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "heading",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "Risk assessment and reporting",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "paragraph",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "You must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]).",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "paragraph",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "As per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include:",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "list_item",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "justification for the pressing emergency and details of the emergency situation",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "list_item",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "the type and total value of the contract or contractual arrangement",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "list_item",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "reasons why soliciting offers was impractical or not permissible",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "list_item",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "the level of PSPC 's delegated contracting authority used",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "list_item",
+      "heading": "Risk assessment and reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Emergency contracting (Public Services and Procurement Canada as buyer)",
+        "Risk assessment and reporting"
+      ],
+      "text": "details on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "heading",
+      "heading": "Ratification of emergency contracts",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Ratification of emergency contracts"
+      ],
+      "text": "Ratification of emergency contracts",
+      "order": 62,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0063",
+      "block_type": "paragraph",
+      "heading": "Ratification of emergency contracts",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Ratification of emergency contracts"
+      ],
+      "text": "TB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report.",
+      "order": 63,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0064",
+      "block_type": "paragraph",
+      "heading": "Ratification of emergency contracts",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Ratification of emergency contracts"
+      ],
+      "text": "When such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section.",
+      "order": 64,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0065",
+      "block_type": "heading",
+      "heading": "Applying exceptions in emergency contracts",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Applying exceptions in emergency contracts"
+      ],
+      "text": "Applying exceptions in emergency contracts",
+      "order": 65,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0066",
+      "block_type": "paragraph",
+      "heading": "Applying exceptions in emergency contracts",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Applying exceptions in emergency contracts"
+      ],
+      "text": "In cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program.",
+      "order": 66,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0067",
+      "block_type": "heading",
+      "heading": "Integrity verification in an emergency",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Integrity verification in an emergency"
+      ],
+      "text": "Integrity verification in an emergency",
+      "order": 67,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0068",
+      "block_type": "paragraph",
+      "heading": "Integrity verification in an emergency",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Integrity verification in an emergency"
+      ],
+      "text": "You must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day.",
+      "order": 68,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0069",
+      "block_type": "paragraph",
+      "heading": "Integrity verification in an emergency",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "Integrity verification in an emergency"
+      ],
+      "text": "If a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight.",
+      "order": 69,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0070",
+      "block_type": "heading",
+      "heading": "For clients: Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements"
+      ],
+      "text": "For clients: Emergency requirements",
+      "order": 70,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0071",
+      "block_type": "paragraph",
+      "heading": "For clients: Emergency requirements",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements"
+      ],
+      "text": "Under the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement .",
+      "order": 71,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0072",
+      "block_type": "heading",
+      "heading": "Using emergency contracting limits – clients",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements",
+        "Using emergency contracting limits – clients"
+      ],
+      "text": "Using emergency contracting limits – clients",
+      "order": 72,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0073",
+      "block_type": "paragraph",
+      "heading": "Using emergency contracting limits – clients",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements",
+        "Using emergency contracting limits – clients"
+      ],
+      "text": "Clients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits .",
+      "order": 73,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0074",
+      "block_type": "paragraph",
+      "heading": "Using emergency contracting limits – clients",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements",
+        "Using emergency contracting limits – clients"
+      ],
+      "text": "If the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf.",
+      "order": 74,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0075",
+      "block_type": "paragraph",
+      "heading": "Using emergency contracting limits – clients",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Emergency requirements",
+        "Emergency requirements",
+        "For clients: Emergency requirements",
+        "Using emergency contracting limits – clients"
+      ],
+      "text": "For requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.",
+      "order": 75,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Emergency requirements The TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes: an actual/imminent life-threatening situation a disaster endangering quality of life or safety of Canadians a disaster that results in the loss of life a disaster resulting in significant loss damage to Crown Property In these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement . PSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits. Considerations when handling emergency requirements Clients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives. PSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical. You must: remain calm and follow established departmental procedures for emergency contracting avoid being too restrictive and allow the requirement and timeline to guide the process use an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team engage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate assign a liaison officer to quickly coordinate the organization’s resources ensure the team has all necessary tools in place to effectively facilitate their duties be available and ensure all key players are present for critical meetings and briefings communicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible identify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients) brief senior management frequently, documenting the file with all decisions and deviations to the process brief senior management frequently, documenting the file with all decisions and deviations to the process identify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process establish and collaborate with contacts in other government departments and levels of government, including provincial and territorial establish a process for quick buys including fast-track approvals be open to innovative solutions that can address unique challenges in emergency situations reduce risks by being prepared for various emergency scenarios In situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development. Emergency contracts and contractual arrangements Contracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where: the total value exceeds basic and exceptional contracting limits the contractor's third party liability is limited due to a substantive transfer of risk the contractor is provided indemnity from risk within their control Only emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement . You, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A. Emergency contracting (Public Services and Procurement Canada as buyer) Under the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch. Criteria for using PSPC Acquisitions Program emergency contracting limits To use PSPC ’s emergency contracting limits, all of the following criteria must be met: the extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies the requirement cannot be met through normal contracting procedures due to the urgency the applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC Documentation and approval Emergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include: a description of the requirement and its total estimated value (including all applicable taxes and fees) an explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers details on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement details on the non-competitive procurement strategy employed You must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority. Financial considerations If an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract. When there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented. Risk assessment and reporting You must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]). As per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include: justification for the pressing emergency and details of the emergency situation the type and total value of the contract or contractual arrangement reasons why soliciting offers was impractical or not permissible the level of PSPC 's delegated contracting authority used details on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable Ratification of emergency contracts TB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report. When such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section. Applying exceptions in emergency contracts In cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program. Integrity verification in an emergency You must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day. If a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight. For clients: Emergency requirements Under the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement . Using emergency contracting limits – clients Clients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits . If the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf. For requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.\n\nEmergency requirements\n\nThe TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes:\n\nan actual/imminent life-threatening situation\n\na disaster endangering quality of life or safety of Canadians\n\na disaster that results in the loss of life\n\na disaster resulting in significant loss damage to Crown Property\n\nIn these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement .\n\nPSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits.\n\nConsiderations when handling emergency requirements\n\nClients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives.\n\nPSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical.\n\nYou must:\n\nremain calm and follow established departmental procedures for emergency contracting\n\navoid being too restrictive and allow the requirement and timeline to guide the process\n\nuse an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team\n\nengage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate\n\nassign a liaison officer to quickly coordinate the organization’s resources\n\nensure the team has all necessary tools in place to effectively facilitate their duties\n\nbe available and ensure all key players are present for critical meetings and briefings\n\ncommunicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible\n\nidentify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients)\n\nbrief senior management frequently, documenting the file with all decisions and deviations to the process\n\nbrief senior management frequently, documenting the file with all decisions and deviations to the process\n\nidentify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process\n\nestablish and collaborate with contacts in other government departments and levels of government, including provincial and territorial\n\nestablish a process for quick buys including fast-track approvals\n\nbe open to innovative solutions that can address unique challenges in emergency situations\n\nreduce risks by being prepared for various emergency scenarios\n\nIn situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development.\n\nEmergency contracts and contractual arrangements\n\nContracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where:\n\nthe total value exceeds basic and exceptional contracting limits\n\nthe contractor's third party liability is limited due to a substantive transfer of risk\n\nthe contractor is provided indemnity from risk within their control\n\nOnly emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement .\n\nYou, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A.\n\nEmergency contracting (Public Services and Procurement Canada as buyer)\n\nUnder the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch.\n\nCriteria for using PSPC Acquisitions Program emergency contracting limits\n\nTo use PSPC ’s emergency contracting limits, all of the following criteria must be met:\n\nthe extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies\n\nthe requirement cannot be met through normal contracting procedures due to the urgency\n\nthe applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC\n\nDocumentation and approval\n\nEmergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include:\n\na description of the requirement and its total estimated value (including all applicable taxes and fees)\n\nan explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers\n\ndetails on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement\n\ndetails on the non-competitive procurement strategy employed\n\nYou must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority.\n\nFinancial considerations\n\nIf an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract.\n\nWhen there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented.\n\nRisk assessment and reporting\n\nYou must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]).\n\nAs per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include:\n\njustification for the pressing emergency and details of the emergency situation\n\nthe type and total value of the contract or contractual arrangement\n\nreasons why soliciting offers was impractical or not permissible\n\nthe level of PSPC 's delegated contracting authority used\n\ndetails on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable\n\nRatification of emergency contracts\n\nTB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report.\n\nWhen such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section.\n\nApplying exceptions in emergency contracts\n\nIn cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program.\n\nIntegrity verification in an emergency\n\nYou must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day.\n\nIf a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight.\n\nFor clients: Emergency requirements\n\nUnder the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement .\n\nUsing emergency contracting limits – clients\n\nClients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits .\n\nIf the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf.\n\nFor requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.",
+  "markdown_text": "Emergency requirements The TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes: an actual/imminent life-threatening situation a disaster endangering quality of life or safety of Canadians a disaster that results in the loss of life a disaster resulting in significant loss damage to Crown Property In these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement . PSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits. Considerations when handling emergency requirements Clients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives. PSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical. You must: remain calm and follow established departmental procedures for emergency contracting avoid being too restrictive and allow the requirement and timeline to guide the process use an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team engage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate assign a liaison officer to quickly coordinate the organization’s resources ensure the team has all necessary tools in place to effectively facilitate their duties be available and ensure all key players are present for critical meetings and briefings communicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible identify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients) brief senior management frequently, documenting the file with all decisions and deviations to the process brief senior management frequently, documenting the file with all decisions and deviations to the process identify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process establish and collaborate with contacts in other government departments and levels of government, including provincial and territorial establish a process for quick buys including fast-track approvals be open to innovative solutions that can address unique challenges in emergency situations reduce risks by being prepared for various emergency scenarios In situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development. Emergency contracts and contractual arrangements Contracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where: the total value exceeds basic and exceptional contracting limits the contractor's third party liability is limited due to a substantive transfer of risk the contractor is provided indemnity from risk within their control Only emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement . You, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A. Emergency contracting (Public Services and Procurement Canada as buyer) Under the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch. Criteria for using PSPC Acquisitions Program emergency contracting limits To use PSPC ’s emergency contracting limits, all of the following criteria must be met: the extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies the requirement cannot be met through normal contracting procedures due to the urgency the applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC Documentation and approval Emergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include: a description of the requirement and its total estimated value (including all applicable taxes and fees) an explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers details on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement details on the non-competitive procurement strategy employed You must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority. Financial considerations If an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract. When there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented. Risk assessment and reporting You must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]). As per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include: justification for the pressing emergency and details of the emergency situation the type and total value of the contract or contractual arrangement reasons why soliciting offers was impractical or not permissible the level of PSPC 's delegated contracting authority used details on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable Ratification of emergency contracts TB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report. When such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section. Applying exceptions in emergency contracts In cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program. Integrity verification in an emergency You must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day. If a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight. For clients: Emergency requirements Under the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement . Using emergency contracting limits – clients Clients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits . If the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf. For requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.\n\nEmergency requirements\n\nThe TB Contracting Policy Notice 2007-4 - Non-Competitive Contracting specifies that pressing emergencies includes:\n\nan actual/imminent life-threatening situation\n\na disaster endangering quality of life or safety of Canadians\n\na disaster that results in the loss of life\n\na disaster resulting in significant loss damage to Crown Property\n\nIn these circumstances, not all contracts or contractual arrangements issued in response to a pressing emergency are considered emergency contracts within the context of the TB Directive on the Management of Procurement .\n\nPSPC may issue contracts/contractual arrangements in response to a pressing emergency in which a delay would be injurious to the public interest using basic, exceptional or emergency contracting limits.\n\nConsiderations when handling emergency requirements\n\nClients should engage PSPC in the procurement process as early as possible, to develop a procurement strategy that effectively aligns with the client's operational objectives.\n\nPSPC buyers should consider the following in advance to help mitigate risks and losses ensuring the procurement is handled efficiently when quick, calm and flexible action is critical.\n\nYou must:\n\nremain calm and follow established departmental procedures for emergency contracting\n\navoid being too restrictive and allow the requirement and timeline to guide the process\n\nuse an integrated team approach with temporary or permanent dedicated personnel working closely with the client’s project team\n\nengage industry early by providing them with information at the earliest opportunity using pre-solicitations tools such as requests for information (RFI) , solicitations of interest and qualification (SOIQ), and price and availability (P&A), where appropriate\n\nassign a liaison officer to quickly coordinate the organization’s resources\n\nensure the team has all necessary tools in place to effectively facilitate their duties\n\nbe available and ensure all key players are present for critical meetings and briefings\n\ncommunicate effectively by maintaining open lines of communication with all stakeholders, while prioritizing urgent requirements and establishing concurrent review processes when possible\n\nidentify the most senior official available to approve a contract when using the department's own $3 million emergency authority (clients)\n\nbrief senior management frequently, documenting the file with all decisions and deviations to the process\n\nbrief senior management frequently, documenting the file with all decisions and deviations to the process\n\nidentify and engage specialists like legal services, policy advisors, financial analysts, risk management advisors or commodity experts early in the process\n\nestablish and collaborate with contacts in other government departments and levels of government, including provincial and territorial\n\nestablish a process for quick buys including fast-track approvals\n\nbe open to innovative solutions that can address unique challenges in emergency situations\n\nreduce risks by being prepared for various emergency scenarios\n\nIn situations where TB project approval is required but not yet obtained by the client, you must consider developing a joint TB submission signed by both the relevant ministers to seek (advance) contract approval simultaneously. You must contact the Treasury Board of Canada Secretariat's (TBS) program sector analyst for guidance on content and the approval process during the TB submission's development.\n\nEmergency contracts and contractual arrangements\n\nContracts or contractual arrangements issued in response to a pressing emergency that normally require TB approval are considered as emergency contracts or contractual arrangements under the TB Directive on the Management of Procurement . These include contracts or contractual arrangements where:\n\nthe total value exceeds basic and exceptional contracting limits\n\nthe contractor's third party liability is limited due to a substantive transfer of risk\n\nthe contractor is provided indemnity from risk within their control\n\nOnly emergency contracts or contractual arrangements are subject to the emergency contracting requirements of the TB Directive on the Management of Procurement .\n\nYou, the buyer, are responsible for ensuring that emergency conditions exist and for obtaining the necessary approval prior to entering into an emergency contract or contractual arrangement, as specified in the TB Directive on the Management of Procurement - Appendix A.\n\nEmergency contracting (Public Services and Procurement Canada as buyer)\n\nUnder the TB Directive on the Management of Procurement Appendix A.3.2, the Minister of PSPC is authorized to enter into a non-competitive emergency contract or contractual arrangement on behalf of any client, including PSPC itself, up to a value of $25 million (Canadian Dollars, including all applicable taxes, fees and amendments). The Minister of PSPC has delegated this authority to the Assistant Deputy Minister, Procurement Branch, the Associate Assistant Deputy Minister, Procurement Branch, the Assistant Deputy Minister, Defence and Marine Procurement Branch and the Associate Assistant Deputy Minister, Defence and Marine Procurement Branch.\n\nCriteria for using PSPC Acquisitions Program emergency contracting limits\n\nTo use PSPC ’s emergency contracting limits, all of the following criteria must be met:\n\nthe extreme urgency provision of each applicable trade agreement has been applied or an exception to each applicable trade agreement applies\n\nthe requirement cannot be met through normal contracting procedures due to the urgency\n\nthe applicable department provides their Minister's (or their delegated authority) approval to use these special authorities for the initiation of the emergency requirement by PSPC\n\nDocumentation and approval\n\nEmergency contracts or contractual arrangements must be approved in accordance with PSPC 's delegated emergency contracting limits. You, the buyer, must prepare a formal procurement plan or a briefing note and include:\n\na description of the requirement and its total estimated value (including all applicable taxes and fees)\n\nan explanation of the urgency and rationale for using the emergency contracting limits, and the Government Contracts Regulations pressing emergency exception to soliciting offers\n\ndetails on the extreme urgency provision of each applicable trade agreement that has been applied or the exception to each applicable trade agreement\n\ndetails on the non-competitive procurement strategy employed\n\nYou must ensure that the context and rationale to support the use of PSPC ’s emergency contracting limits are thoroughly documented. In some cases, where PSPC might need to limit a contractor's first or third party liability or provide indemnification, clients must obtain approval from their Chief Financial Officer, even if PSPC is acting as the contracting authority.\n\nFinancial considerations\n\nIf an advance payment is included in the contract or contractual arrangement, you should ensure the financial capability of the offeror is assessed. This involves contacting the Price Support Directorate (PSD) for a financial capability assessment of the offeror financial capability to fulfil the contract.\n\nWhen there is a business rationale for negotiating advance payment clauses and issuing advance payment to a contractor, the decision-making must be thoroughly documented.\n\nRisk assessment and reporting\n\nYou must assess all procurement risks associated with the offeror and consult subject matter experts as needed. You must submit an emergency contracting report to the TBS within 60 calendar days of entering into or amending an emergency contract or contractual arrangement. This includes all emergency contracts or contractual arrangements issued on behalf of PSPC under the Minister of PSPC 's delegated emergency contracting limits for corporate procurements (see the Delegation of Authorities instrument, under Schedule 1 - [accessible only on the Government of Canada network - for PSPC only]).\n\nAs per Appendix C, section C.5 of the TB Directive on the Management of Procurement , this report should include:\n\njustification for the pressing emergency and details of the emergency situation\n\nthe type and total value of the contract or contractual arrangement\n\nreasons why soliciting offers was impractical or not permissible\n\nthe level of PSPC 's delegated contracting authority used\n\ndetails on any liability limitations or indemnification for contracts or contractual arrangements entered without TB contracting approval regardless of dollar value, if applicable\n\nRatification of emergency contracts\n\nTB approval is required for any emergency contract or contractual arrangement over $25 million. If such a contract is entered into, you must request ratification from the TB , as soon as possible. If you use the emergency contracting authority in error, approval is also required when the contract or contractual arrangement value exceeds the client basic or exceptional limits. You must submit the TB submission for approval in addition to the emergency contracting report.\n\nWhen such contracts and contractual arrangements are subject to Comprehensive Land Claims Agreements (CLCAs), you should contact Indigenous Procurement Policy Directorate for assistance with the overall procurement strategy. For more information, refer to Comprehensive Land Claim Agreements in the Legislation and Policies section.\n\nApplying exceptions in emergency contracts\n\nIn cases of emergency in procurement, a Director General or Regional Director General may make a recommendation for an exception to a vendor performance corrective measure. Where an exception is made, the reason should be documented in the contract file and approved by the Acquisition Branch Assistant Deputy Minister or the approval authority designated in a sector or region vendor performance program.\n\nIntegrity verification in an emergency\n\nYou must verify with the Registrar of ineligibility and suspension that the offeror is not ineligible to be awarded a contract. If an emergency occurs outside regular hours and the Registrar is not available, you should make reasonable efforts to consult the public Ineligibility and Suspension List before awarding the contract and complete the verification process the following day.\n\nIf a contract is awarded to an ineligible offeror due to an emergency, you must immediately contact Acquisitions Program , for instructions on how to notify the Departmental Oversight Branch (DOB) about the oversight.\n\nFor clients: Emergency requirements\n\nUnder the TB Directive on the Management of Procurement , clients can enter into and amend contracts/contractual arrangements up to a value of CAD 3 million, including all applicable taxes fees, and amendments, in response to a pressing emergency. Contracting authorities are responsible for obtaining the approval of the most senior contracting authority available to enter into such contracts. It's important to verify each client’s internal delegation and implementation policies before applying these instructions. Further details on emergency contracting limits applicable to specific clients and reporting requirements are outlined in the TB Directive on the Management of Procurement .\n\nUsing emergency contracting limits – clients\n\nClients can only use their emergency contracting limits if all the criteria for emergency contracting are met as mentioned under Criteria for using PSPC Acquisitions Program emergency contracting limits .\n\nIf the requirement is covered under a standing offer (SO), clients may issue a call-up within the call-up limitations specified in the SO . Should the requirement exceed the limitations, clients should contact PSPC to handle the call-up on their behalf.\n\nFor requirements not covered by an SO , the procurement can be conducted by the client within their emergency contracting limits. If a procurement exceeds these limits, the client must immediately contact PSPC and submit a requisition for the procurement. This includes specifying the technical requirements, sourcing and availability information, and substantiation of the emergency requirement, as indicated under the Documentation and approval section above.",
+  "provenance_paths": {}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "final_acceptance_blueprint",
+  "status": "draft",
+  "sealed": true,
+  "target_case_count": 10,
+  "rules": [
+    "do-not-use-for-active-tuning",
+    "do-not-inspect-per-case-failures-until-milestone-review",
+    "refresh-dev-and-holdout-with-sibling-cases-if-final-fails"
+  ],
+  "coverage_buckets": [
+    "buyers-guide-vs-support-source-boundary",
+    "abstention-or-missing-detail",
+    "cross-page-operational-synthesis",
+    "navigation-to-detail",
+    "workflow-branch-or-deadline-consequence"
+  ]
+}

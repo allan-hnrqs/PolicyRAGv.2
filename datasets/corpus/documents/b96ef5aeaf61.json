@@ -1,0 +1,778 @@
+{
+  "doc_id": "b96ef5aeaf61",
+  "title": "Receive offers - Handle late or delayed offers | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T02:00:41.373834Z",
+  "content_hash": "02abd2975a7635692f2e25f97e34973c77e5edb9244a2d74b00d0eb3f1af3ff0",
+  "word_count": 829,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Receive offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Receive offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle late or delayed offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Verify offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare for an evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluation process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a technical evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a financial evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluate an offeror’s financial capability",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "in_scope": false
+    },
+    {
+      "title": "Decision-making and approvals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Apply the phased offer compliance process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct an offer clarification",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare an evaluation report",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Consider a peer review",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "in_scope": false
+    },
+    {
+      "title": "Determine if a peer review is required",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "in_scope": false
+    },
+    {
+      "title": "Roles and accountabilities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+    "parent_doc_id": "940a9054fe31",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "940a9054fe31",
+      "b96ef5aeaf61"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Receive offers - Handle late or delayed offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers"
+      ],
+      "text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Handle late or delayed offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers"
+      ],
+      "text": "Handle late or delayed offers",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Handle late or delayed offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers"
+      ],
+      "text": "The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "heading",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "Late and delayed offer submission",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "offerors are responsible for ensuring their offer reaches the appropriate location on time",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "CPC cancellation date stamp",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "CPC Priority Courier bill of lading",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Late and delayed offer submission",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
+      ],
+      "text": "documentation of the transaction history for all late offers submitted using this service will be maintained",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "heading",
+      "heading": "Equipment calibration for timely submission verification",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Equipment calibration for timely submission verification"
+      ],
+      "text": "Equipment calibration for timely submission verification",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "paragraph",
+      "heading": "Equipment calibration for timely submission verification",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle late or delayed offers",
+        "Handle late or delayed offers",
+        "Equipment calibration for timely submission verification"
+      ],
+      "text": "To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+      "order": 18,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.\n\nHandle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+  "markdown_text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.\n\nHandle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+  "provenance_paths": {}
+}

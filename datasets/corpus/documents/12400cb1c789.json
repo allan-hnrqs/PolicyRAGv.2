@@ -1,0 +1,1477 @@
+{
+  "doc_id": "12400cb1c789",
+  "title": "Receive offers - Handle offers | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T02:00:42.551177Z",
+  "content_hash": "624603f9786c0f12017f89e5fb895887664967faf34176b3659341b1001d7d31",
+  "word_count": 3195,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Receive offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Receive offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle late or delayed offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Verify offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare for an evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluation process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a technical evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a financial evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluate an offeror’s financial capability",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "in_scope": false
+    },
+    {
+      "title": "Decision-making and approvals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Apply the phased offer compliance process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct an offer clarification",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare an evaluation report",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Consider a peer review",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "in_scope": false
+    },
+    {
+      "title": "Determine if a peer review is required",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "in_scope": false
+    },
+    {
+      "title": "Roles and accountabilities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+    "parent_doc_id": "940a9054fe31",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "940a9054fe31",
+      "12400cb1c789"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Receive offers - Handle offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers"
+      ],
+      "text": "Handle offers You should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award. Initial preparation and receipt This section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded. Offers reception Upon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time. Identification of offers received For physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely. Paper offers Paper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff. If the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer. For Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU). Modify and withdraw offers Here are some key guidelines for handling offer modifications and withdrawals: if permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days an offer withdrawn post-closing cannot be resubmitted offers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level when an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services if PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors Secure handling of offers The offers receiving staff will follow the instructions you give regarding the security of the offers. For offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols. Special handling considerations You, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations. Receipt of quotations Written offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing. To ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date. You must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors. For quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers. Telephone-solicited offers You must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability. Secure opening Securing the opening of offer information is essential to protect confidentiality and fairness during the procurement process. Opening of offers After the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity. Completeness and audit preparation The specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible. As evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file. Public opening procedures When offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out. If there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer. Confidentiality of offers Ensuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process. Secure handling of offer information You must treat all information in a secure and confidential manner to ensure the integrity of the contracting process. Sharing with the offer evaluation team When referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\" Response to inquiries about offeror identities From offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office . After contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy. Managing the offer validity period The period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below. Standard validity periods Offers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored. Monitoring and adjustment You must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception. Action upon expiry of the offer validity period If the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued. Contracts awarded post-expiry Any contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly. Incomplete evaluations If the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers. Extending the offer validity period The Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period. If all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation. Handling non-agreement for extensions In cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension. Legal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Handle offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers"
+      ],
+      "text": "Handle offers",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Handle offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers"
+      ],
+      "text": "You should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "heading",
+      "heading": "Initial preparation and receipt",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt"
+      ],
+      "text": "Initial preparation and receipt",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Initial preparation and receipt",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt"
+      ],
+      "text": "This section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded.",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "heading",
+      "heading": "Offers reception",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Offers reception"
+      ],
+      "text": "Offers reception",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Offers reception",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Offers reception"
+      ],
+      "text": "Upon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time.",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "heading",
+      "heading": "Identification of offers received",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Identification of offers received"
+      ],
+      "text": "Identification of offers received",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Identification of offers received",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Identification of offers received"
+      ],
+      "text": "For physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Paper offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Paper offers"
+      ],
+      "text": "Paper offers",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Paper offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Paper offers"
+      ],
+      "text": "Paper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff.",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Paper offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Paper offers"
+      ],
+      "text": "If the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Paper offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Initial preparation and receipt",
+        "Paper offers"
+      ],
+      "text": "For Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU).",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "heading",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "Modify and withdraw offers",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "paragraph",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "Here are some key guidelines for handling offer modifications and withdrawals:",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "if permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "an offer withdrawn post-closing cannot be resubmitted",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "offers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "an error such as missing information, for example, must be approved as significant at the director level",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "when an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "list_item",
+      "heading": "Modify and withdraw offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Modify and withdraw offers"
+      ],
+      "text": "if PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "heading",
+      "heading": "Secure handling of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure handling of offers"
+      ],
+      "text": "Secure handling of offers",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "paragraph",
+      "heading": "Secure handling of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure handling of offers"
+      ],
+      "text": "The offers receiving staff will follow the instructions you give regarding the security of the offers.",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "Secure handling of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure handling of offers"
+      ],
+      "text": "For offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols.",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "heading",
+      "heading": "Special handling considerations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Special handling considerations"
+      ],
+      "text": "Special handling considerations",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "paragraph",
+      "heading": "Special handling considerations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Special handling considerations"
+      ],
+      "text": "You, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations.",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "heading",
+      "heading": "Receipt of quotations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Receipt of quotations"
+      ],
+      "text": "Receipt of quotations",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "paragraph",
+      "heading": "Receipt of quotations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Receipt of quotations"
+      ],
+      "text": "Written offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing.",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "paragraph",
+      "heading": "Receipt of quotations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Receipt of quotations"
+      ],
+      "text": "To ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date.",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "paragraph",
+      "heading": "Receipt of quotations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Receipt of quotations"
+      ],
+      "text": "You must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors.",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "paragraph",
+      "heading": "Receipt of quotations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Receipt of quotations"
+      ],
+      "text": "For quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers.",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "heading",
+      "heading": "Telephone-solicited offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Telephone-solicited offers"
+      ],
+      "text": "Telephone-solicited offers",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "paragraph",
+      "heading": "Telephone-solicited offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Telephone-solicited offers"
+      ],
+      "text": "You must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability.",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "heading",
+      "heading": "Secure opening",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening"
+      ],
+      "text": "Secure opening",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "paragraph",
+      "heading": "Secure opening",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening"
+      ],
+      "text": "Securing the opening of offer information is essential to protect confidentiality and fairness during the procurement process.",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "heading",
+      "heading": "Opening of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening",
+        "Opening of offers"
+      ],
+      "text": "Opening of offers",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Opening of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening",
+        "Opening of offers"
+      ],
+      "text": "After the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity.",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "heading",
+      "heading": "Completeness and audit preparation",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening",
+        "Completeness and audit preparation"
+      ],
+      "text": "Completeness and audit preparation",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "paragraph",
+      "heading": "Completeness and audit preparation",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening",
+        "Completeness and audit preparation"
+      ],
+      "text": "The specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible.",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "paragraph",
+      "heading": "Completeness and audit preparation",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Secure opening",
+        "Completeness and audit preparation"
+      ],
+      "text": "As evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file.",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "heading",
+      "heading": "Public opening procedures",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Public opening procedures"
+      ],
+      "text": "Public opening procedures",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "paragraph",
+      "heading": "Public opening procedures",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Public opening procedures"
+      ],
+      "text": "When offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out.",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "paragraph",
+      "heading": "Public opening procedures",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Public opening procedures"
+      ],
+      "text": "If there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer.",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "heading",
+      "heading": "Confidentiality of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers"
+      ],
+      "text": "Confidentiality of offers",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "paragraph",
+      "heading": "Confidentiality of offers",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers"
+      ],
+      "text": "Ensuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process.",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "heading",
+      "heading": "Secure handling of offer information",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Secure handling of offer information"
+      ],
+      "text": "Secure handling of offer information",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "paragraph",
+      "heading": "Secure handling of offer information",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Secure handling of offer information"
+      ],
+      "text": "You must treat all information in a secure and confidential manner to ensure the integrity of the contracting process.",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "heading",
+      "heading": "Sharing with the offer evaluation team",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Sharing with the offer evaluation team"
+      ],
+      "text": "Sharing with the offer evaluation team",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "paragraph",
+      "heading": "Sharing with the offer evaluation team",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Sharing with the offer evaluation team"
+      ],
+      "text": "When referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\"",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "heading",
+      "heading": "Response to inquiries about offeror identities",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Response to inquiries about offeror identities"
+      ],
+      "text": "Response to inquiries about offeror identities",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "paragraph",
+      "heading": "Response to inquiries about offeror identities",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Response to inquiries about offeror identities"
+      ],
+      "text": "From offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office .",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "paragraph",
+      "heading": "Response to inquiries about offeror identities",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Confidentiality of offers",
+        "Response to inquiries about offeror identities"
+      ],
+      "text": "After contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy.",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "heading",
+      "heading": "Managing the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period"
+      ],
+      "text": "Managing the offer validity period",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "paragraph",
+      "heading": "Managing the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period"
+      ],
+      "text": "The period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below.",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "heading",
+      "heading": "Standard validity periods",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Standard validity periods"
+      ],
+      "text": "Standard validity periods",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "paragraph",
+      "heading": "Standard validity periods",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Standard validity periods"
+      ],
+      "text": "Offers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored.",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "heading",
+      "heading": "Monitoring and adjustment",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Monitoring and adjustment"
+      ],
+      "text": "Monitoring and adjustment",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "paragraph",
+      "heading": "Monitoring and adjustment",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Monitoring and adjustment"
+      ],
+      "text": "You must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception.",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "heading",
+      "heading": "Action upon expiry of the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Action upon expiry of the offer validity period"
+      ],
+      "text": "Action upon expiry of the offer validity period",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "paragraph",
+      "heading": "Action upon expiry of the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Action upon expiry of the offer validity period"
+      ],
+      "text": "If the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued.",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "heading",
+      "heading": "Contracts awarded post-expiry",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Contracts awarded post-expiry"
+      ],
+      "text": "Contracts awarded post-expiry",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "paragraph",
+      "heading": "Contracts awarded post-expiry",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Contracts awarded post-expiry"
+      ],
+      "text": "Any contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly.",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "heading",
+      "heading": "Incomplete evaluations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Incomplete evaluations"
+      ],
+      "text": "Incomplete evaluations",
+      "order": 62,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0063",
+      "block_type": "paragraph",
+      "heading": "Incomplete evaluations",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Incomplete evaluations"
+      ],
+      "text": "If the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers.",
+      "order": 63,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0064",
+      "block_type": "heading",
+      "heading": "Extending the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Extending the offer validity period"
+      ],
+      "text": "Extending the offer validity period",
+      "order": 64,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0065",
+      "block_type": "paragraph",
+      "heading": "Extending the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Extending the offer validity period"
+      ],
+      "text": "The Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period.",
+      "order": 65,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0066",
+      "block_type": "paragraph",
+      "heading": "Extending the offer validity period",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Extending the offer validity period"
+      ],
+      "text": "If all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation.",
+      "order": 66,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0067",
+      "block_type": "heading",
+      "heading": "Handling non-agreement for extensions",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Handling non-agreement for extensions"
+      ],
+      "text": "Handling non-agreement for extensions",
+      "order": 67,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0068",
+      "block_type": "paragraph",
+      "heading": "Handling non-agreement for extensions",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Handling non-agreement for extensions"
+      ],
+      "text": "In cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension.",
+      "order": 68,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0069",
+      "block_type": "paragraph",
+      "heading": "Handling non-agreement for extensions",
+      "heading_path": [
+        "Buyer's Guide Receive offers - Handle offers",
+        "Handle offers",
+        "Managing the offer validity period",
+        "Handling non-agreement for extensions"
+      ],
+      "text": "Legal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.",
+      "order": 69,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Handle offers You should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award. Initial preparation and receipt This section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded. Offers reception Upon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time. Identification of offers received For physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely. Paper offers Paper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff. If the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer. For Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU). Modify and withdraw offers Here are some key guidelines for handling offer modifications and withdrawals: if permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days an offer withdrawn post-closing cannot be resubmitted offers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level when an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services if PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors Secure handling of offers The offers receiving staff will follow the instructions you give regarding the security of the offers. For offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols. Special handling considerations You, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations. Receipt of quotations Written offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing. To ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date. You must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors. For quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers. Telephone-solicited offers You must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability. Secure opening Securing the opening of offer information is essential to protect confidentiality and fairness during the procurement process. Opening of offers After the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity. Completeness and audit preparation The specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible. As evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file. Public opening procedures When offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out. If there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer. Confidentiality of offers Ensuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process. Secure handling of offer information You must treat all information in a secure and confidential manner to ensure the integrity of the contracting process. Sharing with the offer evaluation team When referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\" Response to inquiries about offeror identities From offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office . After contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy. Managing the offer validity period The period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below. Standard validity periods Offers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored. Monitoring and adjustment You must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception. Action upon expiry of the offer validity period If the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued. Contracts awarded post-expiry Any contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly. Incomplete evaluations If the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers. Extending the offer validity period The Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period. If all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation. Handling non-agreement for extensions In cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension. Legal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.\n\nHandle offers\n\nYou should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award.\n\nInitial preparation and receipt\n\nThis section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded.\n\nOffers reception\n\nUpon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time.\n\nIdentification of offers received\n\nFor physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely.\n\nPaper offers\n\nPaper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff.\n\nIf the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer.\n\nFor Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU).\n\nModify and withdraw offers\n\nHere are some key guidelines for handling offer modifications and withdrawals:\n\nif permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days\n\nan offer withdrawn post-closing cannot be resubmitted\n\noffers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level\n\nan error such as missing information, for example, must be approved as significant at the director level\n\nwhen an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services\n\nif PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors\n\nSecure handling of offers\n\nThe offers receiving staff will follow the instructions you give regarding the security of the offers.\n\nFor offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols.\n\nSpecial handling considerations\n\nYou, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations.\n\nReceipt of quotations\n\nWritten offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing.\n\nTo ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date.\n\nYou must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors.\n\nFor quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers.\n\nTelephone-solicited offers\n\nYou must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability.\n\nSecure opening\n\nSecuring the opening of offer information is essential to protect confidentiality and fairness during the procurement process.\n\nOpening of offers\n\nAfter the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity.\n\nCompleteness and audit preparation\n\nThe specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible.\n\nAs evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file.\n\nPublic opening procedures\n\nWhen offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out.\n\nIf there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer.\n\nConfidentiality of offers\n\nEnsuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process.\n\nSecure handling of offer information\n\nYou must treat all information in a secure and confidential manner to ensure the integrity of the contracting process.\n\nSharing with the offer evaluation team\n\nWhen referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\"\n\nResponse to inquiries about offeror identities\n\nFrom offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office .\n\nAfter contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy.\n\nManaging the offer validity period\n\nThe period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below.\n\nStandard validity periods\n\nOffers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored.\n\nMonitoring and adjustment\n\nYou must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception.\n\nAction upon expiry of the offer validity period\n\nIf the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued.\n\nContracts awarded post-expiry\n\nAny contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly.\n\nIncomplete evaluations\n\nIf the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers.\n\nExtending the offer validity period\n\nThe Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period.\n\nIf all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation.\n\nHandling non-agreement for extensions\n\nIn cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension.\n\nLegal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.",
+  "markdown_text": "Handle offers You should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award. Initial preparation and receipt This section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded. Offers reception Upon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time. Identification of offers received For physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely. Paper offers Paper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff. If the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer. For Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU). Modify and withdraw offers Here are some key guidelines for handling offer modifications and withdrawals: if permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days an offer withdrawn post-closing cannot be resubmitted offers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level when an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services if PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors Secure handling of offers The offers receiving staff will follow the instructions you give regarding the security of the offers. For offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols. Special handling considerations You, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations. Receipt of quotations Written offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing. To ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date. You must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors. For quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers. Telephone-solicited offers You must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability. Secure opening Securing the opening of offer information is essential to protect confidentiality and fairness during the procurement process. Opening of offers After the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity. Completeness and audit preparation The specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible. As evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file. Public opening procedures When offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out. If there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer. Confidentiality of offers Ensuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process. Secure handling of offer information You must treat all information in a secure and confidential manner to ensure the integrity of the contracting process. Sharing with the offer evaluation team When referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\" Response to inquiries about offeror identities From offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office . After contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy. Managing the offer validity period The period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below. Standard validity periods Offers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored. Monitoring and adjustment You must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception. Action upon expiry of the offer validity period If the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued. Contracts awarded post-expiry Any contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly. Incomplete evaluations If the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers. Extending the offer validity period The Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period. If all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation. Handling non-agreement for extensions In cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension. Legal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.\n\nHandle offers\n\nYou should use a detailed and systematic approach when managing and evaluating offers within federal procurement. This ensures the process is fair, compliant, and maintains the integrity of procurement activities. Below are the procedural guidelines designed to assist you from the moment offers are received to contract award.\n\nInitial preparation and receipt\n\nThis section provides guidelines on how to properly receive and log offers, ensuring they are securely stored and accurately recorded.\n\nOffers reception\n\nUpon receipt, the responsible staff will log each offer, date, and time-stamp ensuring that electronic submissions are saved and that paper submissions remain unopened in a secure locked location until after the solicitation of offers closing date and time.\n\nIdentification of offers received\n\nFor physical packages lacking clear identification such as the solicitation number, offeror’s name, return address and solicitation closing date and time, the responsible staff will open them solely for the purpose of identifying essential details. They will then reseal, label with the pertinent information, initial and store them securely.\n\nPaper offers\n\nPaper version offers received after the solicitation closing date and time, including any from solicitations that have been cancelled, are returned to the offerors unopened and the electronic versions will be deleted. A covering letter explaining the reason why the late offer (paper and electronic) is not being considered will be sent to the offeror by the offer reception staff.\n\nIf the envelope or package does not contain sufficient information to identify the offeror and/or the solicitation number, it will be opened for identification purposes and returned to the offeror with the appropriate letter explaining the reason for opening the offer.\n\nFor Public Services and Procurement Canada (PSPC) in the National Capital Region (NCR), offers received by the mailroom are time and date stamped and delivered unopened to the Offer Receiving Unit (ORU).\n\nModify and withdraw offers\n\nHere are some key guidelines for handling offer modifications and withdrawals:\n\nif permitted by the solicitation terms and an offeror raises its price before the closing, any necessary additional financial security must be provided within a reasonable timeframe, typically within 5 business days\n\nan offer withdrawn post-closing cannot be resubmitted\n\noffers accompanied by offer security may be withdrawn without financial penalty to the offeror if a significant error is identified within the offer an error such as missing information, for example, must be approved as significant at the director level\n\nan error such as missing information, for example, must be approved as significant at the director level\n\nwhen an offeror intends to withdraw an offer for reasons other than significant errors, you must consult with legal services\n\nif PSPC permits the withdrawal of an offer submitted with offer security due to a significant error and there was a public opening, an advisory notice signed by a director must be issued to all offerors\n\nSecure handling of offers\n\nThe offers receiving staff will follow the instructions you give regarding the security of the offers.\n\nFor offers marked protected, confidential, secret, or top secret, refer to the Contract Security Program’s website and follow government procedures for the transmittal of protected or classified information or assets. These offers must be delivered directly to you, as the buyer, and receipted to ensure adherence to security protocols.\n\nSpecial handling considerations\n\nYou, as the buyer, must contact your receiving unit before solicitation closing date when an alternative receiving location is required (for example, a large amount or bulky offers are expected). The receiving personnel, in consultation with departmental security, is responsible for the assessment of the alternative location’s security and ensuring the complete physical security of offers from receipt to opening. The personnel of the offer receiving location are responsible for recording submissions received at these locations.\n\nReceipt of quotations\n\nWritten offers (quotations) submitted in response to a Request for Quotations, which are sent directly to you, will be declared non-responsive if received after the closing date and time regardless of the date of mailing.\n\nTo ensure that all responsive quotations are considered and to accommodate internal mail delivery schedules, you may need to delay the award of a purchase order until after delivery of the first morning mail on the day following the closing date.\n\nYou must sign and date quotations upon receipt. Sectors/regions must ensure that the receipt, custody, and handling of quotations submitted directly to you are conducted in a manner that reflects the principle of fairness to all offerors.\n\nFor quotations sent directly to you, no modifications will be accepted after the initial offer unless they are performed through negotiation processes facilitated by PSPC and involve all offerors who initially submitted compliant offers.\n\nTelephone-solicited offers\n\nYou must accurately transcribe details of each offer solicited via telephone, immediately noting the date, time, and their initials on file for accuracy and accountability.\n\nSecure opening\n\nSecuring the opening of offer information is essential to protect confidentiality and fairness during the procurement process.\n\nOpening of offers\n\nAfter the solicitation closing date and time, authorized staff will open all paper and electronic offers in the presence of at least one witness to uphold transparency and integrity.\n\nCompleteness and audit preparation\n\nThe specified authorized staff will screen each offer for completeness. They will also make copies of any corrections or annotations for retention and audit purposes, and ensure that no alterations are possible.\n\nAs evidence that paper documents were processed and verified, the receiving unit perforates financial security documents and stamps the front page of each technical documentation volume. All the offers are then verified and certified against the source list which is kept on the procurement file.\n\nPublic opening procedures\n\nWhen offers are opened publicly, the paper version offers are removed from the secure locked location and transported to the place of public opening. All offers (paper and electronic versions) received will be opened in the presence of a witness. The name and address of each offeror and the amount of each offer are read out.\n\nIf there are multi-items listed in the offer but there is no total offer price, the offer price on each item is read out. It is also confirmed that offer security (if required) is included in the offer.\n\nConfidentiality of offers\n\nEnsuring the confidentiality of offer information is critical for maintaining the integrity of the procurement process.\n\nSecure handling of offer information\n\nYou must treat all information in a secure and confidential manner to ensure the integrity of the contracting process.\n\nSharing with the offer evaluation team\n\nWhen referring offers to the client (or technical evaluators) during the evaluation process, the following cautionary note must be provided to the client: \"Offer information must be divulged only to individuals authorized to participate in this contracting process. Information must not be divulged to, or discussed with the private industry.\"\n\nResponse to inquiries about offeror identities\n\nFrom offer closing to contract award, including the contract approval phase, you are prohibited from disclosing offerors’ names in response to inquiries. Businesses seeking information should be directed to the Access to Information and Privacy Office .\n\nAfter contract award, the release of offerors’ names and other pertinent information may be disclosed in accordance with departmental policy.\n\nManaging the offer validity period\n\nThe period during which offers remain valid for acceptance is crucial for the integrity and efficiency of the procurement process. You can manage this period effectively by following the guidelines below.\n\nStandard validity periods\n\nOffers will remain open for acceptance for a period of 60 days (30 days for construction) from the solicitation closing date unless specified otherwise in the solicitation. These timeframes ensure that both you and the offerors have a clear understanding of the duration for which offers must be honored.\n\nMonitoring and adjustment\n\nYou must carefully assess the potential for extended offer evaluation periods and indicate in the solicitation of offers the modified period for offer acceptance. You must also closely monitor the offer evaluation and contract approval processes and plan accordingly to ensure contracts are awarded within the offer validity period. Expiry of offer acceptance periods before contract award should become an exception.\n\nAction upon expiry of the offer validity period\n\nIf the offer acceptance period expires prior to contract award, the solicitation of offers must be reissued.\n\nContracts awarded post-expiry\n\nAny contract awarded to an offeror after the offer expiry date is considered a sole-source contract and must be justified accordingly.\n\nIncomplete evaluations\n\nIf the evaluation of offers is incomplete and is unlikely to be completed before the offer acceptance period expires, it's essential to halt the process. Assess the reasons for the delay and make any necessary adjustments to the solicitation or evaluation methodology, then reissue the solicitation of offers.\n\nExtending the offer validity period\n\nThe Government of Canada may request in writing an extension of the offer validity period from all responsive offerors a minimum of three days before the end of the offer validity period. If all responsive offerors accept the extension, we will continue with the evaluation of the offers under the extended period.\n\nIf all responsive offerors do not accept the extension, we will either continue with the evaluation of the offers of those who accepted the extension or cancel the solicitation.\n\nHandling non-agreement for extensions\n\nIn cases where an offeror does not agree to the extension and it is clear that the offeror has no chance of being recommended for award, it may be appropriate to exercise our right to proceed with the evaluation of only those offers submitted by the offerors that have agreed to an extension.\n\nLegal Services may be consulted in instances where an offeror does not agree to the extension, particularly in the case of procurements subject to trade agreements.",
+  "provenance_paths": {}
+}

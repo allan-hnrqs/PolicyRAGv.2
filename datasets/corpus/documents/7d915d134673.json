@@ -1,0 +1,1099 @@
+{
+  "doc_id": "7d915d134673",
+  "title": "Manage a contract - Assignment of contracts | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:58:05.665884Z",
+  "content_hash": "d56557d34c8e02a63178f8c1c2a13914dc0b349caaedcb206bc78e7c0b509b38",
+  "word_count": 523,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Manage a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Manage a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer and client responsibilites",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Contract dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Alternative dispute resolution",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "in_scope": false
+    },
+    {
+      "title": "Certifications",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "in_scope": false
+    },
+    {
+      "title": "Employer-employee relationship",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "in_scope": false
+    },
+    {
+      "title": "Financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Integrity provisions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "in_scope": false
+    },
+    {
+      "title": "Protecting Canada's interests",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "in_scope": false
+    },
+    {
+      "title": "Security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "in_scope": false
+    },
+    {
+      "title": "Services of foreign nationals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "in_scope": false
+    },
+    {
+      "title": "Standing offers and supply arrangements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "in_scope": false
+    },
+    {
+      "title": "Subcontracting",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "in_scope": false
+    },
+    {
+      "title": "Task authorizations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "in_scope": false
+    },
+    {
+      "title": "Vendor performance",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "in_scope": false
+    },
+    {
+      "title": "Manage payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "in_scope": false
+    },
+    {
+      "title": "Assignment of monies",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "in_scope": false
+    },
+    {
+      "title": "Financial claims",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "in_scope": false
+    },
+    {
+      "title": "Cost reimbursable contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Exchange rate fluctuation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "in_scope": false
+    },
+    {
+      "title": "Final payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Fixed time rate contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Interest payments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "in_scope": false
+    },
+    {
+      "title": "Overtime",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "in_scope": false
+    },
+    {
+      "title": "Claims for progress payments and invoicing",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "in_scope": false
+    },
+    {
+      "title": "Refund of excess profits",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "in_scope": false
+    },
+    {
+      "title": "Modify a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Considerations when making amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "in_scope": false
+    },
+    {
+      "title": "Procedural elements for amending contracts",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Administrative guidance for implementing contract amendments",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "in_scope": false
+    },
+    {
+      "title": "Revisions to standing offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Design change or deviation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "in_scope": false
+    },
+    {
+      "title": "Exercise options",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "in_scope": false
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Suspension of the work and stop work orders",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "in_scope": false
+    },
+    {
+      "title": "Termination of contracts with financial security",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "in_scope": false
+    },
+    {
+      "title": "Legal services",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "in_scope": false
+    },
+    {
+      "title": "Source lists",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "in_scope": false
+    },
+    {
+      "title": "Public Services and Procurement Canada offices outside Canada",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "in_scope": false
+    },
+    {
+      "title": "Approval authority",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for convenience",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "in_scope": false
+    },
+    {
+      "title": "Termination for default",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "in_scope": false
+    },
+    {
+      "title": "Termination by mutual consent",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "in_scope": false
+    },
+    {
+      "title": "Close out a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Contract close-out activities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "in_scope": false
+    },
+    {
+      "title": "Best practices for contract close-out",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+    "parent_doc_id": "22e894a60281",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "22e894a60281",
+      "7d915d134673"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "heading",
+      "heading": "Assignment of contracts",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts"
+      ],
+      "text": "Assignment of contracts",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "paragraph",
+      "heading": "Assignment of contracts",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts"
+      ],
+      "text": "Consult the guidelines below when considering a contract assignment. These guidelines include security requirements, eligibility verification and contractual obligations for the contractor.",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "heading",
+      "heading": "Security requirements",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Security requirements"
+      ],
+      "text": "Security requirements",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Security requirements",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Security requirements"
+      ],
+      "text": "If the contract involves security considerations, get support from the group responsible for contract security and ensure the assignee meets all security requirements specified in the contract.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "heading",
+      "heading": "Integrity and suspension policy",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Integrity and suspension policy"
+      ],
+      "text": "Integrity and suspension policy",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "paragraph",
+      "heading": "Integrity and suspension policy",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Integrity and suspension policy"
+      ],
+      "text": "To comply with the Ineligibility and Suspension Policy clauses, the assignee must provide a signed certification. If applicable, the assignee must also provide a list of directors or owners as described in the integrity compliance verifications to be completed before contract award.",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Integrity and suspension policy",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Integrity and suspension policy"
+      ],
+      "text": "You must then verify compliance with the Ineligibility and Suspension Policy clauses. You are to ensure that the contract contains these clauses contained in the signed certification. If the contract contains a previous version of these clauses, amending them is recommended. If the assignee needs to submit an integrity declaration form, you should direct the assignee to use the Integrity declaration form – replacement entity and completing contractor .",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "heading",
+      "heading": "Eligibility verification",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Eligibility verification"
+      ],
+      "text": "Eligibility verification",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Eligibility verification",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Eligibility verification"
+      ],
+      "text": "If the assignee or its affiliates is ineligible or suspended under the Ineligibility and Suspension Policy, you may refuse the assignment or request a Public Interest Exception from their deputy head or equivalent. For Public Services and Procurement (PSPC) buyers, this is the appropriate Assistant Deputy Minister (ADM) within the Acquisitions Program.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "paragraph",
+      "heading": "Eligibility verification",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Eligibility verification"
+      ],
+      "text": "Assignees are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship with them under this contract. If there is a pre-existing contractual relationship with a first-tier subcontractor, the assignee must still verify the subcontractor's status for work conducted under this assigned contract.",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "heading",
+      "heading": "Cost analyst review",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Cost analyst review"
+      ],
+      "text": "Cost analyst review",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Cost analyst review",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Cost analyst review"
+      ],
+      "text": "You must send the proposed assignment to a cost analyst for review.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "heading",
+      "heading": "Legal consultation",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Legal consultation"
+      ],
+      "text": "Legal consultation",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "paragraph",
+      "heading": "Legal consultation",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Legal consultation"
+      ],
+      "text": "You may consult legal services to:",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "list_item",
+      "heading": "Legal consultation",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Legal consultation"
+      ],
+      "text": "determine if a contract assignment is an available option",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "list_item",
+      "heading": "Legal consultation",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Legal consultation"
+      ],
+      "text": "determine if a contract assignment is necessary or if a contract revision will suffice (for example, if only the contractor’s name has changed, but not the entity, it is possible simply to revise the name in the contract)",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Legal consultation",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Legal consultation"
+      ],
+      "text": "obtain a template for “consent to assignment”",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "heading",
+      "heading": "Contractual obligations",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Contractual obligations"
+      ],
+      "text": "Contractual obligations",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "paragraph",
+      "heading": "Contractual obligations",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Contractual obligations"
+      ],
+      "text": "When a contractor assigns a contract, the responsibility for all or part of the performance is transferred to the assignee. However, the assignment of a contract must not relieve the original contractor of their obligations or impose additional liability on Canada in relation to the assignee. Contractors must also obtain written permission from Canada before assigning a contract.",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "heading",
+      "heading": "Liabilities and rights transfer",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Liabilities and rights transfer"
+      ],
+      "text": "Liabilities and rights transfer",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "paragraph",
+      "heading": "Liabilities and rights transfer",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Liabilities and rights transfer"
+      ],
+      "text": "To protect Canada's interest, the transfer must ensure that the original contractor remains ultimately liable for the contract's performance. If an assignee fails to perform, you should protect Canada's interest by obtaining the original contractor's guarantee of performance.",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "heading",
+      "heading": "Assignment agreement",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Assignment agreement"
+      ],
+      "text": "Assignment agreement",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "paragraph",
+      "heading": "Assignment agreement",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Assignment agreement"
+      ],
+      "text": "You must forward the assignment agreement to the appropriate signing authority, outlining the reasons for the assignment, the number and value of contracts involved, and the financial condition of the assignee.",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "heading",
+      "heading": "Special considerations for Canadian Commercial Corporation (CCC) contracts",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Special considerations for Canadian Commercial Corporation (CCC) contracts"
+      ],
+      "text": "Special considerations for Canadian Commercial Corporation (CCC) contracts",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "paragraph",
+      "heading": "Special considerations for Canadian Commercial Corporation (CCC) contracts",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Assignment of contracts",
+        "Assignment of contracts",
+        "Special considerations for Canadian Commercial Corporation (CCC) contracts"
+      ],
+      "text": "You should forward a copy of the approved assignment to the group responsible for price support, or the appropriate vice-president of the CCC , so they can maintain data on business financial status.",
+      "order": 24,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Assignment of contracts\n\nConsult the guidelines below when considering a contract assignment. These guidelines include security requirements, eligibility verification and contractual obligations for the contractor.\n\nSecurity requirements\n\nIf the contract involves security considerations, get support from the group responsible for contract security and ensure the assignee meets all security requirements specified in the contract.\n\nIntegrity and suspension policy\n\nTo comply with the Ineligibility and Suspension Policy clauses, the assignee must provide a signed certification. If applicable, the assignee must also provide a list of directors or owners as described in the integrity compliance verifications to be completed before contract award.\n\nYou must then verify compliance with the Ineligibility and Suspension Policy clauses. You are to ensure that the contract contains these clauses contained in the signed certification. If the contract contains a previous version of these clauses, amending them is recommended. If the assignee needs to submit an integrity declaration form, you should direct the assignee to use the Integrity declaration form – replacement entity and completing contractor .\n\nEligibility verification\n\nIf the assignee or its affiliates is ineligible or suspended under the Ineligibility and Suspension Policy, you may refuse the assignment or request a Public Interest Exception from their deputy head or equivalent. For Public Services and Procurement (PSPC) buyers, this is the appropriate Assistant Deputy Minister (ADM) within the Acquisitions Program.\n\nAssignees are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship with them under this contract. If there is a pre-existing contractual relationship with a first-tier subcontractor, the assignee must still verify the subcontractor's status for work conducted under this assigned contract.\n\nCost analyst review\n\nYou must send the proposed assignment to a cost analyst for review.\n\nLegal consultation\n\nYou may consult legal services to:\n\ndetermine if a contract assignment is an available option\n\ndetermine if a contract assignment is necessary or if a contract revision will suffice (for example, if only the contractor’s name has changed, but not the entity, it is possible simply to revise the name in the contract)\n\nobtain a template for “consent to assignment”\n\nContractual obligations\n\nWhen a contractor assigns a contract, the responsibility for all or part of the performance is transferred to the assignee. However, the assignment of a contract must not relieve the original contractor of their obligations or impose additional liability on Canada in relation to the assignee. Contractors must also obtain written permission from Canada before assigning a contract.\n\nLiabilities and rights transfer\n\nTo protect Canada's interest, the transfer must ensure that the original contractor remains ultimately liable for the contract's performance. If an assignee fails to perform, you should protect Canada's interest by obtaining the original contractor's guarantee of performance.\n\nAssignment agreement\n\nYou must forward the assignment agreement to the appropriate signing authority, outlining the reasons for the assignment, the number and value of contracts involved, and the financial condition of the assignee.\n\nSpecial considerations for Canadian Commercial Corporation (CCC) contracts\n\nYou should forward a copy of the approved assignment to the group responsible for price support, or the appropriate vice-president of the CCC , so they can maintain data on business financial status.",
+  "markdown_text": "Assignment of contracts\n\nConsult the guidelines below when considering a contract assignment. These guidelines include security requirements, eligibility verification and contractual obligations for the contractor.\n\nSecurity requirements\n\nIf the contract involves security considerations, get support from the group responsible for contract security and ensure the assignee meets all security requirements specified in the contract.\n\nIntegrity and suspension policy\n\nTo comply with the Ineligibility and Suspension Policy clauses, the assignee must provide a signed certification. If applicable, the assignee must also provide a list of directors or owners as described in the integrity compliance verifications to be completed before contract award.\n\nYou must then verify compliance with the Ineligibility and Suspension Policy clauses. You are to ensure that the contract contains these clauses contained in the signed certification. If the contract contains a previous version of these clauses, amending them is recommended. If the assignee needs to submit an integrity declaration form, you should direct the assignee to use the Integrity declaration form – replacement entity and completing contractor .\n\nEligibility verification\n\nIf the assignee or its affiliates is ineligible or suspended under the Ineligibility and Suspension Policy, you may refuse the assignment or request a Public Interest Exception from their deputy head or equivalent. For Public Services and Procurement (PSPC) buyers, this is the appropriate Assistant Deputy Minister (ADM) within the Acquisitions Program.\n\nAssignees are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship with them under this contract. If there is a pre-existing contractual relationship with a first-tier subcontractor, the assignee must still verify the subcontractor's status for work conducted under this assigned contract.\n\nCost analyst review\n\nYou must send the proposed assignment to a cost analyst for review.\n\nLegal consultation\n\nYou may consult legal services to:\n\ndetermine if a contract assignment is an available option\n\ndetermine if a contract assignment is necessary or if a contract revision will suffice (for example, if only the contractor’s name has changed, but not the entity, it is possible simply to revise the name in the contract)\n\nobtain a template for “consent to assignment”\n\nContractual obligations\n\nWhen a contractor assigns a contract, the responsibility for all or part of the performance is transferred to the assignee. However, the assignment of a contract must not relieve the original contractor of their obligations or impose additional liability on Canada in relation to the assignee. Contractors must also obtain written permission from Canada before assigning a contract.\n\nLiabilities and rights transfer\n\nTo protect Canada's interest, the transfer must ensure that the original contractor remains ultimately liable for the contract's performance. If an assignee fails to perform, you should protect Canada's interest by obtaining the original contractor's guarantee of performance.\n\nAssignment agreement\n\nYou must forward the assignment agreement to the appropriate signing authority, outlining the reasons for the assignment, the number and value of contracts involved, and the financial condition of the assignee.\n\nSpecial considerations for Canadian Commercial Corporation (CCC) contracts\n\nYou should forward a copy of the approved assignment to the group responsible for price support, or the appropriate vice-president of the CCC , so they can maintain data on business financial status.",
+  "provenance_paths": {}
+}

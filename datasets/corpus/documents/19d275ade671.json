@@ -1,0 +1,762 @@
+{
+  "doc_id": "19d275ade671",
+  "title": "Offer evaluation - Conduct an offer clarification | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:59:22.877360Z",
+  "content_hash": "50adb6d8417269d0eca4be0f464f68502afcff306aba042cd774d77ad7475cec",
+  "word_count": 700,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Contract security and privacy requirements",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Receive offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Handle late or delayed offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Verify offers",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare for an evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluation process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a technical evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct a financial evaluation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "in_scope": false
+    },
+    {
+      "title": "Evaluate an offeror’s financial capability",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "in_scope": false
+    },
+    {
+      "title": "Decision-making and approvals",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "in_scope": false
+    },
+    {
+      "title": "Special considerations",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "in_scope": false
+    },
+    {
+      "title": "Apply the phased offer compliance process",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "in_scope": false
+    },
+    {
+      "title": "Conduct an offer clarification",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "in_scope": false
+    },
+    {
+      "title": "Prepare an evaluation report",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Consider a peer review",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "in_scope": false
+    },
+    {
+      "title": "Determine if a peer review is required",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "in_scope": false
+    },
+    {
+      "title": "Roles and accountabilities",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+    "parent_doc_id": "aa8e8a138728",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "aa8e8a138728",
+      "19d275ade671"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitations-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification"
+      ],
+      "text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "Conduct an offer clarification",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "The following points outline the permissible scope and process for clarifications:",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "clarifications can only pertain to aspects of the offer that do not alter its substance or price",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "list_item",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "requests for clarification and the corresponding responses must be documented in writing",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "list_item",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Conduct an offer clarification",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+        "Conduct an offer clarification"
+      ],
+      "text": "Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+      "order": 12,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.\n\nConduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+  "markdown_text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.\n\nConduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+  "provenance_paths": {}
+}

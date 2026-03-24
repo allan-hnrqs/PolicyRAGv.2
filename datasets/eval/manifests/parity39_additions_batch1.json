@@ -1,0 +1,420 @@
+[
+  {
+    "id": "HR_024",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "We have a contract with options and someone suggested splitting it into separate documents so it stays under the approval limit. Are we allowed to do that, and what amount do we use for approval?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "total estimated cost including options",
+      "cannot split documents to avoid authority",
+      "approval and signing limits apply broadly"
+    ],
+    "should_avoid": [
+      "vague statements about getting approval without the option-value rule"
+    ],
+    "evaluation_focus": "Approval-authority rule with a realistic circumvention attempt.",
+    "required_claims": [
+      "Approval of contracts that include options must be sought on the basis of the total estimated cost, including options for which funds are available or expected to be provided in the future.",
+      "More than one contractual document must not be issued in order to circumvent the need for the proper approval authority.",
+      "The conditions and limits on approval authority also apply to the approval and signing of all contractual documents and arrangements, including arrangements not subject to the Government Contracts Regulations and the TB Directive on the Management of Procurement, unless an existing memorandum of understanding sets out approval and signing limits."
+    ],
+    "reference_answer": "No. The Buyer’s Guide says approval for a contract with options has to be based on the total estimated cost including funded or expected options, and you cannot issue more than one contractual document to get around the proper approval authority. It also says the same approval and signing limits apply broadly to contractual documents and arrangements unless an existing memorandum of understanding sets different limits.",
+    "claim_evidence": [
+      {
+        "claim": "Approval of contracts with options is based on the total estimated cost including funded or expected options.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+        ]
+      },
+      {
+        "claim": "More than one contractual document must not be issued to circumvent the proper approval authority.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+        ]
+      },
+      {
+        "claim": "Approval and signing conditions and limits apply broadly to contractual documents and arrangements unless an existing memorandum of understanding sets the limits.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+        ]
+      }
+    ],
+    "tags": [
+      "approval_authority",
+      "anti_circumvention"
+    ]
+  },
+  {
+    "id": "HR_026",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "Can a senior purchasing assistant certify a progress payment on a contract above their approval authority, and can they certify the final claim or a release of holdback?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "form PWGSC-TPSGC 1111 authority",
+      "senior purchasing assistant limit above approval authority",
+      "final claim or holdback exception"
+    ],
+    "should_avoid": [
+      "saying senior purchasing assistants can certify any progress-payment claim"
+    ],
+    "evaluation_focus": "Operational additional-signing-authority question with a concrete threshold.",
+    "required_claims": [
+      "Authority to certify advance, milestone, and progress payment claims on form PWGSC-TPSGC 1111 is a prerequisite for client certification under section 34 of the Financial Administration Act.",
+      "Senior purchasing assistants may certify claims up to $40,000 for contracts beyond their approval authority, except for a final claim or a release of a holdback.",
+      "For contracts within their approval authority, senior purchasing assistants may certify all claims."
+    ],
+    "reference_answer": "Yes, but only within the Buyer’s Guide limits. The Guide says authority over form PWGSC-TPSGC 1111 claims is a prerequisite for the client’s section 34 certification. A senior purchasing assistant can certify claims up to $40,000 on contracts beyond their approval authority, but not a final claim or a release of holdback. If the contract is within their approval authority, they can certify all claims.",
+    "claim_evidence": [
+      {
+        "claim": "Form PWGSC-TPSGC 1111 certification authority is a prerequisite for client section 34 certification.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities"
+        ]
+      },
+      {
+        "claim": "Senior purchasing assistants may certify claims up to $40,000 on contracts beyond their approval authority, except final claims or releases of holdback.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities"
+        ]
+      },
+      {
+        "claim": "Within their approval authority, senior purchasing assistants may certify all claims.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities"
+        ]
+      }
+    ],
+    "tags": [
+      "approval_authority",
+      "payments"
+    ]
+  },
+  {
+    "id": "HR_028",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "We have not issued the contract yet, but the requirement changed and in another file the offer acceptance period already expired. When can we cancel and reissue, when do we have to cancel, and what has to go into the reissued documents and file?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "when cancellation and reissue is allowed",
+      "must cancel if no compliant offers",
+      "documentation and reissued-clause requirements"
+    ],
+    "should_avoid": [
+      "treating cancellation or reissue as discretionary in every case"
+    ],
+    "evaluation_focus": "Operational cancel-or-reissue workflow spanning adjacent pages.",
+    "required_claims": [
+      "A solicitation may be cancelled and reissued if a contract, standing offer, or supply arrangement has not been issued and either a significant change has occurred in the requirement or the acceptance period for the offer has expired.",
+      "A solicitation may also be cancelled and reissued where no offers are compliant, no offers represent fair value, or no offers were received, and the trade agreements allow limited tendering if the solicitation is reissued.",
+      "A competitive solicitation must be cancelled if no compliant offers are received.",
+      "Whenever a solicitation is cancelled or reissued, the procurement file must document the rationale for the decision.",
+      "The reissued solicitation and NPP documents must include a clause about the reissuance at the beginning of the documents.",
+      "If the solicitation is subject to the international trade agreements and the CFTA, a new NPP should be published, except that where no compliant offers were received and the requirement is not being changed significantly, the reissued solicitation may be sent directly to businesses without publishing a new NPP."
+    ],
+    "reference_answer": "You can cancel and reissue if nothing has been issued yet and either the requirement changed significantly or the offer acceptance period expired. You can also do it where no compliant offers, no fair-value offers, or no offers were received, subject to the trade-agreement limited-tendering rule. But if no compliant offers were received under a competitive solicitation, cancellation is mandatory. The file has to record the rationale, the reissued solicitation and NPP need a reissuance clause at the beginning, and if trade agreements and the CFTA apply you normally publish a new NPP unless the no-compliant-offers exception applies without a significant requirement change.",
+    "claim_evidence": [
+      {
+        "claim": "Cancellation and reissue is allowed if nothing has been issued yet and the requirement changed significantly or the offer acceptance period expired.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue"
+        ]
+      },
+      {
+        "claim": "Cancellation and reissue is also allowed for no compliant offers, no fair value, or no offers received under the trade-agreement conditions.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue"
+        ]
+      },
+      {
+        "claim": "A competitive solicitation must be cancelled if no compliant offers are received.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue"
+        ]
+      },
+      {
+        "claim": "The procurement file must document the rationale whenever a solicitation is cancelled or reissued.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue"
+        ]
+      },
+      {
+        "claim": "The reissued solicitation and NPP documents must include a reissuance clause at the beginning, and a new NPP should generally be published for trade-agreement/CFTA files subject to the stated exception.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation"
+        ]
+      }
+    ],
+    "tags": [
+      "solicitation_workflow",
+      "cancel_reissue"
+    ]
+  },
+  {
+    "id": "HR_029",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "A supplier asked a question during the solicitation period. When can we answer just that supplier directly, when do we need an amendment, and who handles complex technical questions?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "simple direct response condition",
+      "complex questions go to client",
+      "when amendment or addendum is required"
+    ],
+    "should_avoid": [
+      "responding as though every question can be answered privately"
+    ],
+    "evaluation_focus": "Live-file solicitation management with branching answer logic.",
+    "required_claims": [
+      "Businesses should submit questions in writing before the deadline stated in the solicitation document.",
+      "The buyer must protect the identity of businesses submitting questions.",
+      "A simple enquiry may be answered directly to the business asking the question only if the answer will not affect other businesses or how they will respond to the solicitation.",
+      "More complex or technical questions about the requirement should be forwarded to the client for response back to the buyer.",
+      "Questions and answers should be consolidated into an addendum or amendment and then either published on GETS for publicly advertised solicitations or issued directly to businesses for solicitations that are not publicly advertised.",
+      "Changes to the solicitation itself, including any extension to the solicitation period, must be formally incorporated through an amendment to the solicitation."
+    ],
+    "reference_answer": "Questions should come in writing before the solicitation deadline, and the buyer has to protect the questioner’s identity. A simple question can be answered just to the asking supplier only if the answer would not affect other businesses or their responses. More complex or technical requirement questions go to the client for a response back to the buyer. The full Q&A has to be consolidated into an addendum or amendment and then published on GETS if the solicitation is public or sent directly if it is not, and any clarification that changes the solicitation or extends the period must be issued formally by amendment.",
+    "claim_evidence": [
+      {
+        "claim": "Questions should be submitted in writing before the solicitation deadline.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      },
+      {
+        "claim": "The identity of businesses submitting questions must be protected.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      },
+      {
+        "claim": "A simple enquiry may be answered directly only if it will not affect other businesses or their responses.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      },
+      {
+        "claim": "Complex or technical requirement questions should be forwarded to the client.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      },
+      {
+        "claim": "Q&A should be consolidated into an amendment or addendum, with publication or direct issuance depending on whether the solicitation is publicly advertised.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      },
+      {
+        "claim": "Changes to the solicitation, including period extensions, must be formally incorporated through an amendment.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period"
+        ]
+      }
+    ],
+    "tags": [
+      "solicitation_workflow",
+      "questions_and_amendments"
+    ]
+  },
+  {
+    "id": "HR_032",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "If we use a standing offer or supply arrangement for work with security requirements, what has to be specified up front and what do we have to verify or attach before a call-up or contract goes out?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "minimum security and when higher level applies",
+      "client confirmation with CSP",
+      "SRCL and CSP copy requirements"
+    ],
+    "should_avoid": [
+      "generic security language without the standing-offer or supply-arrangement workflow"
+    ],
+    "evaluation_focus": "Security handling for method-of-supply use rather than one-off contracts.",
+    "required_claims": [
+      "When a standing offer or supply arrangement is used for a procurement with a contract security requirement, the request should specify the required minimum level of security clearance and indicate when a higher level would be required.",
+      "Clear instructions must be provided on how to identify which level of security applies in the resulting contracts.",
+      "The client must confirm with the Contract Security Program that the offeror meets the security requirement before issuing a contract or call-up.",
+      "Where document safeguarding, IT or cloud, production, or COMSEC capabilities are needed, those specific security types must be verified with the Contract Security Program because they are contract-specific.",
+      "All resulting call-ups and contracts with security requirements must clearly state the security categorization and attach the applicable SRCL.",
+      "A copy of all awarded call-ups and contracts with security requirements must be sent to the Contract Security Program by email."
+    ],
+    "reference_answer": "For a standing offer or supply arrangement with security requirements, the request has to state the minimum security clearance and when a higher level applies, and it has to explain how to identify the right security level in the resulting contracts. Before issuing a call-up or contract, the client has to confirm with the Contract Security Program that the offeror meets the requirement. If specialized capabilities like document safeguarding, IT/cloud, production, or COMSEC are needed, those have to be verified specifically with the CSP because they are contract-specific. The resulting call-up or contract must state the security categorization, attach the SRCL, and a copy has to be sent to the CSP by email.",
+    "claim_evidence": [
+      {
+        "claim": "The request should specify the minimum security clearance and when a higher level applies.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+        ]
+      },
+      {
+        "claim": "Instructions must explain how to identify the applicable security level in resulting contracts.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+        ]
+      },
+      {
+        "claim": "The client must confirm with the CSP that the offeror meets the requirement before issuing a call-up or contract.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+        ]
+      },
+      {
+        "claim": "Special security capabilities such as safeguarding, IT/cloud, production, or COMSEC require specific CSP verification because they are contract-specific.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+        ]
+      },
+      {
+        "claim": "Resulting call-ups and contracts must state the security categorization, attach the SRCL, and be copied to the CSP by email.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements"
+        ]
+      }
+    ],
+    "tags": [
+      "security_privacy",
+      "method_of_supply"
+    ]
+  },
+  {
+    "id": "HR_035",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "We cancelled a solicitation and plan to reissue it. What feedback can we give offerors, what do we have to keep out, and when do we have to use both feedback methods?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "feedback session on reissue",
+      "no disclosure of other offers or reissued specifics",
+      "TB requires both feedback methods"
+    ],
+    "should_avoid": [
+      "treating a reissue feedback session like a normal unrestricted debriefing"
+    ],
+    "evaluation_focus": "Debriefing and feedback workflow for cancelled-and-reissued solicitations.",
+    "required_claims": [
+      "When a solicitation is cancelled and planned for reissue, a feedback session is available upon request and may include information specific to the offeror’s offer or arrangement, such as which mandatory criteria were passed or failed or the technical score.",
+      "The buyer must not disclose details about other offers or arrangements or the specifics of the solicitation of offers to be reissued.",
+      "All information provided in a feedback session must be documented by the Contracting Authority, and where relevant it must be provided in generic form in the reissued solicitation to maintain fairness.",
+      "Feedback may be delivered by highlighting key areas of concern more prominently in the reissued solicitation and or by organizing an offerors’ conference.",
+      "If Treasury Board contract approval is required, both feedback methods must be used."
+    ],
+    "reference_answer": "If the solicitation is being cancelled and reissued, the Buyer’s Guide says a feedback session is available upon request and can give offeror-specific information like failed mandatory criteria or technical score. But you cannot disclose details about other offers or the specifics of the solicitation that will be reissued. The Contracting Authority has to document what was provided and, where relevant, carry it into the reissued solicitation in generic form for fairness. Feedback can be given by emphasizing key concerns in the reissued solicitation, by holding an offerors’ conference, or both, and if Treasury Board approval is required both methods are mandatory.",
+    "claim_evidence": [
+      {
+        "claim": "A feedback session on a cancelled-and-reissued solicitation may provide offeror-specific information such as failed mandatory criteria or technical score.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+        ]
+      },
+      {
+        "claim": "Details about other offers and specifics of the solicitation to be reissued must not be disclosed.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+        ]
+      },
+      {
+        "claim": "Feedback-session information must be documented and, where relevant, provided generically in the reissued solicitation.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+        ]
+      },
+      {
+        "claim": "Feedback may be provided by highlighting concerns in the reissued solicitation and or by an offerors’ conference, and TB approval requires both methods.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+        ]
+      }
+    ],
+    "tags": [
+      "financial_contract_management",
+      "debriefing_feedback"
+    ]
+  },
+  {
+    "id": "HR_036",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "Before I close out the contract file, what has to be fully finished, and what administrative close-out work still has to happen?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "must_include_concepts": [
+      "fully completed contract conditions",
+      "administrative closure tasks",
+      "file documentation and archiving"
+    ],
+    "should_avoid": [
+      "treating final payment alone as sufficient for close-out"
+    ],
+    "evaluation_focus": "End-of-lifecycle contract close-out workflow.",
+    "required_claims": [
+      "A contract is fully completed only when the required deliverables have been received as specified in the contract.",
+      "A contract is fully completed only when the client has accepted the deliverables and the invoice has been paid according to the contract price and basis of payment.",
+      "A contract is fully completed only when there are no unresolved work deficiencies, changes, payments, or claims requiring formal release action.",
+      "Administrative closure must also be performed and includes reporting, returning government-furnished equipment, and disposing of surplus material and assets.",
+      "The procurement file must be accurately documented and archived in accordance with records management procedures."
+    ],
+    "reference_answer": "A contract is not ready for close-out until all required deliverables have been received, the client has accepted them and the invoice has been paid properly, and there are no unresolved deficiencies, changes, payments, or claims needing formal release action. On top of that, the Guide says you still have to complete administrative closure, including reporting, returning government-furnished equipment, disposing of surplus material and assets, and properly documenting and archiving the procurement file.",
+    "claim_evidence": [
+      {
+        "claim": "The required deliverables must have been received as specified in the contract.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+        ]
+      },
+      {
+        "claim": "The client must have accepted the deliverables and the invoice must have been paid according to the contract price and basis of payment.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+        ]
+      },
+      {
+        "claim": "There must be no unresolved work deficiencies, changes, payments, or claims requiring formal release action.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+        ]
+      },
+      {
+        "claim": "Administrative closure includes reporting, returning government-furnished equipment, disposing of surplus material and assets, and documenting and archiving the file.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities"
+        ]
+      }
+    ],
+    "tags": [
+      "financial_contract_management",
+      "close_out"
+    ]
+  }
+]

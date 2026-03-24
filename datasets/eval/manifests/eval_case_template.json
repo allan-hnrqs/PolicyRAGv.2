@@ -1,0 +1,37 @@
+{
+  "id": "HR_020",
+  "persona": "buyer",
+  "question": "Plain-language buyer question goes here.",
+  "primary_urls": [
+    "https://example-primary-page"
+  ],
+  "supporting_urls": [],
+  "expected_primary_source_family": "buyers_guide",
+  "must_include_concepts": [
+    "concept one",
+    "concept two"
+  ],
+  "should_avoid": [
+    "common wrong framing or hallucination"
+  ],
+  "evaluation_focus": "What this case is trying to test.",
+  "required_claims": [
+    "Atomic required claim one.",
+    "Atomic required claim two."
+  ],
+  "forbidden_claims": [],
+  "reference_answer": "Short grounded reference answer.",
+  "claim_evidence": [
+    {
+      "claim": "Atomic required claim one.",
+      "evidence_doc_urls": [
+        "https://example-primary-page"
+      ]
+    }
+  ],
+  "expect_abstain": null,
+  "notes": "Optional authoring note.",
+  "tags": [
+    "workflow"
+  ]
+}

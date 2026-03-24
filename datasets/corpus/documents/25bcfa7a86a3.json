@@ -1,0 +1,1306 @@
+{
+  "doc_id": "25bcfa7a86a3",
+  "title": "Debriefing and feedback sessions | CanadaBuys",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions",
+  "source_family": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": null,
+  "fetched_at": "2026-03-23T01:57:28.599177Z",
+  "content_hash": "43aeb66333022f79f0a7afc3a137aa3600face20d90c2e127806b5139dd9262c",
+  "word_count": 2484,
+  "extraction_method": "html_regions_v2_main_root",
+  "breadcrumbs": [
+    {
+      "title": "Home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Jobs and the workplace",
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "canonical_url": "https://www.canada.ca/en/services/jobs.html",
+      "in_scope": false
+    },
+    {
+      "title": "Immigration and citizenship",
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "canonical_url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "in_scope": false
+    },
+    {
+      "title": "Travel and tourism",
+      "url": "https://travel.gc.ca/",
+      "canonical_url": "https://travel.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "Business and industry",
+      "url": "https://www.canada.ca/en/services/business.html",
+      "canonical_url": "https://www.canada.ca/en/services/business.html",
+      "in_scope": false
+    },
+    {
+      "title": "Benefits",
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "canonical_url": "https://www.canada.ca/en/services/benefits.html",
+      "in_scope": false
+    },
+    {
+      "title": "Health",
+      "url": "https://www.canada.ca/en/services/health.html",
+      "canonical_url": "https://www.canada.ca/en/services/health.html",
+      "in_scope": false
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "canonical_url": "https://www.canada.ca/en/services/taxes.html",
+      "in_scope": false
+    },
+    {
+      "title": "Environment and natural resources",
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "canonical_url": "https://www.canada.ca/en/services/environment.html",
+      "in_scope": false
+    },
+    {
+      "title": "National security and defence",
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "canonical_url": "https://www.canada.ca/en/services/defence.html",
+      "in_scope": false
+    },
+    {
+      "title": "Culture, history and sport",
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "canonical_url": "https://www.canada.ca/en/services/culture.html",
+      "in_scope": false
+    },
+    {
+      "title": "Policing, justice and emergencies",
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "canonical_url": "https://www.canada.ca/en/services/policing.html",
+      "in_scope": false
+    },
+    {
+      "title": "Transport and infrastructure",
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "canonical_url": "https://www.canada.ca/en/services/transport.html",
+      "in_scope": false
+    },
+    {
+      "title": "Canada and the world",
+      "url": "http://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "canonical_url": "http://international.gc.ca/world-monde/index.aspx",
+      "in_scope": false
+    },
+    {
+      "title": "Money and finances",
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "canonical_url": "https://www.canada.ca/en/services/finance.html",
+      "in_scope": false
+    },
+    {
+      "title": "Science and innovation",
+      "url": "https://www.canada.ca/en/services/science.html",
+      "canonical_url": "https://www.canada.ca/en/services/science.html",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Home",
+      "url": "/en/canadabuys",
+      "canonical_url": "https:///en/canadabuys",
+      "in_scope": true
+    },
+    {
+      "title": "Buy Canadian",
+      "url": "/en/buy-canadian-policy",
+      "canonical_url": "https:///en/buy-canadian-policy",
+      "in_scope": false
+    },
+    {
+      "title": "Getting started",
+      "url": "/en/getting-started",
+      "canonical_url": "https:///en/getting-started",
+      "in_scope": false
+    },
+    {
+      "title": "Tender opportunities",
+      "url": "/en/tender-opportunities?status%5B0%5D=1920&status%5B1%5D=87",
+      "canonical_url": "https:///en/tender-opportunities",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer’s Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Support",
+      "url": "/en/support",
+      "canonical_url": "https:///en/support",
+      "in_scope": false
+    },
+    {
+      "title": "Account access",
+      "url": "/en/account-access",
+      "canonical_url": "https:///en/account-access",
+      "in_scope": false
+    },
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "/en",
+      "canonical_url": "https:///en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "/en/buyer-s-portal",
+      "canonical_url": "https:///en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Manage evaluation results",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's guide homepage",
+      "url": "/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide",
+      "in_scope": false
+    },
+    {
+      "title": "Plan",
+      "url": "/en/buyer-s-portal/buyer-s-guide/plan/define-requirement#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": false
+    },
+    {
+      "title": "Approve",
+      "url": "/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": false
+    },
+    {
+      "title": "Create solicitation",
+      "url": "/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": false
+    },
+    {
+      "title": "Solicit",
+      "url": "/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "in_scope": false
+    },
+    {
+      "title": "Receive and evaluate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "in_scope": false
+    },
+    {
+      "title": "Negotiate",
+      "url": "/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "in_scope": false
+    },
+    {
+      "title": "Award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Manage",
+      "url": "/en/buyer-s-portal/buyer-s-guide/manage/manage-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Manage evaluation results",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "in_scope": false
+    },
+    {
+      "title": "Communicate results",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/communicate-results#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/communicate-results",
+      "in_scope": false
+    },
+    {
+      "title": "Debriefings and feedback sessions",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions",
+      "in_scope": false
+    },
+    {
+      "title": "Award a contract",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/award-contract#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/award-contract",
+      "in_scope": false
+    },
+    {
+      "title": "Elements to consider before award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "in_scope": false
+    },
+    {
+      "title": "Elements to consider at award",
+      "url": "/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award-0#tabs",
+      "canonical_url": "https:///en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award-0",
+      "in_scope": false
+    },
+    {
+      "title": "News and events",
+      "url": "/en/news-and-events",
+      "canonical_url": "https:///en/news-and-events",
+      "in_scope": false
+    },
+    {
+      "title": "Buyandsell",
+      "url": "https://buyandsell.gc.ca/",
+      "canonical_url": "https://buyandsell.gc.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "System alerts",
+      "url": "/en/system-alerts",
+      "canonical_url": "https:///en/system-alerts",
+      "in_scope": false
+    },
+    {
+      "title": "Procurement and contracting data",
+      "url": "/en/procurement-and-contracting-data",
+      "canonical_url": "https:///en/procurement-and-contracting-data",
+      "in_scope": false
+    },
+    {
+      "title": "Sitemap",
+      "url": "/en/sitemap",
+      "canonical_url": "https:///en/sitemap",
+      "in_scope": false
+    },
+    {
+      "title": "Contact Support",
+      "url": "https://www.canada.ca/en/contact.html",
+      "canonical_url": "https://www.canada.ca/en/contact.html",
+      "in_scope": false
+    },
+    {
+      "title": "News",
+      "url": "https://www.canada.ca/en/news.html",
+      "canonical_url": "https://www.canada.ca/en/news.html",
+      "in_scope": false
+    },
+    {
+      "title": "Prime Minister",
+      "url": "https://pm.gc.ca/en",
+      "canonical_url": "https://pm.gc.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Departments and agencies",
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "canonical_url": "https://www.canada.ca/en/government/dept.html",
+      "in_scope": false
+    },
+    {
+      "title": "Treaties, laws and regulations",
+      "url": "https://www.canada.ca/en/government/system/laws.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/laws.html",
+      "in_scope": false
+    },
+    {
+      "title": "How government works",
+      "url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "canonical_url": "https://www.canada.ca/en/government/system/how-government-works.html",
+      "in_scope": false
+    },
+    {
+      "title": "Public service and military",
+      "url": "https://www.canada.ca/en/government/publicservice.html",
+      "canonical_url": "https://www.canada.ca/en/government/publicservice.html",
+      "in_scope": false
+    },
+    {
+      "title": "Government-wide reporting",
+      "url": "https://www.canada.ca/en/transparency/reporting.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/reporting.html",
+      "in_scope": false
+    },
+    {
+      "title": "Open government",
+      "url": "https://ouvert.canada.ca/en",
+      "canonical_url": "https://ouvert.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Social media",
+      "url": "https://www.canada.ca/en/social.html",
+      "canonical_url": "https://www.canada.ca/en/social.html",
+      "in_scope": false
+    },
+    {
+      "title": "Mobile applications",
+      "url": "https://www.canada.ca/en/mobile.html",
+      "canonical_url": "https://www.canada.ca/en/mobile.html",
+      "in_scope": false
+    },
+    {
+      "title": "About Canada.ca",
+      "url": "https://www1.canada.ca/en/newsite.html",
+      "canonical_url": "https://www1.canada.ca/en/newsite.html",
+      "in_scope": false
+    },
+    {
+      "title": "Terms and conditions",
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/terms.html",
+      "in_scope": false
+    },
+    {
+      "title": "Privacy",
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "canonical_url": "https://www.canada.ca/en/transparency/privacy.html",
+      "in_scope": false
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+    "parent_doc_id": "4d24ed995a01",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/debriefing-and-feedback-sessions"
+    ],
+    "lineage_doc_ids": [
+      "5edd9cdec636",
+      "4d24ed995a01",
+      "25bcfa7a86a3"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/communicate-results"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results/communicate-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure_blocks": [
+    {
+      "block_id": "block_0000",
+      "block_type": "paragraph",
+      "heading": "Buyer's Guide Debriefing and feedback sessions",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions"
+      ],
+      "text": "Debriefing and feedback sessions Debriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each. Debriefing The primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations. Procedure for requesting debriefings Solicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process. Upon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing. In complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points. Conducting debriefings Debriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters . Content of debriefings Within the limits of information disclosure policies, a debriefing will include the following, as applicable: names of successful offerors total estimated cost of the contract(s) total evaluated price of the successful offeror(s) and the total score, if applicable very general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information an outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology scores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned Feedback session A feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued. Documentation and fairness To ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors. Methods of providing feedback You may deliver feedback through one or both of the following methods: highlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention organizing an offerors' conference for the solicitation of offers to be reissued Considerations for choosing feedback method You should consider certain factors when selecting the appropriate method for feedback. These factors include: complexity of the procurement or the solicitation documents likelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received the nature of the issues that necessitated the cancellation and reissuance of the solicitation sensitivity and estimated dollar value of the procurement if Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback Requirements for reissuing solicitations You must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation. You are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change. Cancelled solicitations of offers Feedback for cancelled solicitation of offers must be handled as follows: if a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation if a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed if a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request if a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation Significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided. No significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria. Other reasons for cancellation If the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided. Providing a debriefing or feedback session The following are guidelines and information about debriefings and feedback sessions. Request timeline Offerors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation. Provision timeline A debriefing or feedback session should be conducted within ten working days from the date a request is received. Format Debriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible. Consultation with management and legal services You should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements. Involvement of fairness monitors and legal counsel If a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation. Documentation You must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.",
+      "order": 0,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0001",
+      "block_type": "heading",
+      "heading": "Debriefing and feedback sessions",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions"
+      ],
+      "text": "Debriefing and feedback sessions",
+      "order": 1,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0002",
+      "block_type": "paragraph",
+      "heading": "Debriefing and feedback sessions",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions"
+      ],
+      "text": "Debriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each.",
+      "order": 2,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0003",
+      "block_type": "heading",
+      "heading": "Debriefing",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing"
+      ],
+      "text": "Debriefing",
+      "order": 3,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0004",
+      "block_type": "paragraph",
+      "heading": "Debriefing",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing"
+      ],
+      "text": "The primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations.",
+      "order": 4,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0005",
+      "block_type": "heading",
+      "heading": "Procedure for requesting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Procedure for requesting debriefings"
+      ],
+      "text": "Procedure for requesting debriefings",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Procedure for requesting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Procedure for requesting debriefings"
+      ],
+      "text": "Solicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process.",
+      "order": 6,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0007",
+      "block_type": "paragraph",
+      "heading": "Procedure for requesting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Procedure for requesting debriefings"
+      ],
+      "text": "Upon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing.",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "paragraph",
+      "heading": "Procedure for requesting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Procedure for requesting debriefings"
+      ],
+      "text": "In complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points.",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "heading",
+      "heading": "Conducting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Conducting debriefings"
+      ],
+      "text": "Conducting debriefings",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Conducting debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Conducting debriefings"
+      ],
+      "text": "Debriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters .",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "heading",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "Content of debriefings",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "Within the limits of information disclosure policies, a debriefing will include the following, as applicable:",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "names of successful offerors",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "total estimated cost of the contract(s)",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "total evaluated price of the successful offeror(s) and the total score, if applicable",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "very general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "an outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "list_item",
+      "heading": "Content of debriefings",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Debriefing",
+        "Content of debriefings"
+      ],
+      "text": "scores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "heading",
+      "heading": "Feedback session",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session"
+      ],
+      "text": "Feedback session",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "paragraph",
+      "heading": "Feedback session",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session"
+      ],
+      "text": "A feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued.",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "heading",
+      "heading": "Documentation and fairness",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Documentation and fairness"
+      ],
+      "text": "Documentation and fairness",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "paragraph",
+      "heading": "Documentation and fairness",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Documentation and fairness"
+      ],
+      "text": "To ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors.",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "heading",
+      "heading": "Methods of providing feedback",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Methods of providing feedback"
+      ],
+      "text": "Methods of providing feedback",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "paragraph",
+      "heading": "Methods of providing feedback",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Methods of providing feedback"
+      ],
+      "text": "You may deliver feedback through one or both of the following methods:",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "list_item",
+      "heading": "Methods of providing feedback",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Methods of providing feedback"
+      ],
+      "text": "highlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "list_item",
+      "heading": "Methods of providing feedback",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Methods of providing feedback"
+      ],
+      "text": "organizing an offerors' conference for the solicitation of offers to be reissued",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "heading",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "Considerations for choosing feedback method",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "paragraph",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "You should consider certain factors when selecting the appropriate method for feedback. These factors include:",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "list_item",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "complexity of the procurement or the solicitation documents",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "list_item",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "likelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "list_item",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "the nature of the issues that necessitated the cancellation and reissuance of the solicitation",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "list_item",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "sensitivity and estimated dollar value of the procurement",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "list_item",
+      "heading": "Considerations for choosing feedback method",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Considerations for choosing feedback method"
+      ],
+      "text": "if Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "heading",
+      "heading": "Requirements for reissuing solicitations",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Requirements for reissuing solicitations"
+      ],
+      "text": "Requirements for reissuing solicitations",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "paragraph",
+      "heading": "Requirements for reissuing solicitations",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Requirements for reissuing solicitations"
+      ],
+      "text": "You must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation.",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "Requirements for reissuing solicitations",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Requirements for reissuing solicitations"
+      ],
+      "text": "You are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change.",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "heading",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "Cancelled solicitations of offers",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "paragraph",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "Feedback for cancelled solicitation of offers must be handled as follows:",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "list_item",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "if a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "list_item",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "if a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "list_item",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "if a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "list_item",
+      "heading": "Cancelled solicitations of offers",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Cancelled solicitations of offers"
+      ],
+      "text": "if a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "heading",
+      "heading": "Significant modifications to requirements",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Significant modifications to requirements"
+      ],
+      "text": "Significant modifications to requirements",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "paragraph",
+      "heading": "Significant modifications to requirements",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Significant modifications to requirements"
+      ],
+      "text": "If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided.",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "heading",
+      "heading": "No significant modifications to requirements",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "No significant modifications to requirements"
+      ],
+      "text": "No significant modifications to requirements",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "paragraph",
+      "heading": "No significant modifications to requirements",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "No significant modifications to requirements"
+      ],
+      "text": "If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria.",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "heading",
+      "heading": "Other reasons for cancellation",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Other reasons for cancellation"
+      ],
+      "text": "Other reasons for cancellation",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "paragraph",
+      "heading": "Other reasons for cancellation",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Feedback session",
+        "Other reasons for cancellation"
+      ],
+      "text": "If the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided.",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "heading",
+      "heading": "Providing a debriefing or feedback session",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session"
+      ],
+      "text": "Providing a debriefing or feedback session",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "paragraph",
+      "heading": "Providing a debriefing or feedback session",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session"
+      ],
+      "text": "The following are guidelines and information about debriefings and feedback sessions.",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "heading",
+      "heading": "Request timeline",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Request timeline"
+      ],
+      "text": "Request timeline",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "paragraph",
+      "heading": "Request timeline",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Request timeline"
+      ],
+      "text": "Offerors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation.",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "heading",
+      "heading": "Provision timeline",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Provision timeline"
+      ],
+      "text": "Provision timeline",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "paragraph",
+      "heading": "Provision timeline",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Provision timeline"
+      ],
+      "text": "A debriefing or feedback session should be conducted within ten working days from the date a request is received.",
+      "order": 54,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0055",
+      "block_type": "heading",
+      "heading": "Format",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Format"
+      ],
+      "text": "Format",
+      "order": 55,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0056",
+      "block_type": "paragraph",
+      "heading": "Format",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Format"
+      ],
+      "text": "Debriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible.",
+      "order": 56,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0057",
+      "block_type": "heading",
+      "heading": "Consultation with management and legal services",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Consultation with management and legal services"
+      ],
+      "text": "Consultation with management and legal services",
+      "order": 57,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0058",
+      "block_type": "paragraph",
+      "heading": "Consultation with management and legal services",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Consultation with management and legal services"
+      ],
+      "text": "You should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements.",
+      "order": 58,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0059",
+      "block_type": "heading",
+      "heading": "Involvement of fairness monitors and legal counsel",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Involvement of fairness monitors and legal counsel"
+      ],
+      "text": "Involvement of fairness monitors and legal counsel",
+      "order": 59,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0060",
+      "block_type": "paragraph",
+      "heading": "Involvement of fairness monitors and legal counsel",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Involvement of fairness monitors and legal counsel"
+      ],
+      "text": "If a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation.",
+      "order": 60,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0061",
+      "block_type": "heading",
+      "heading": "Documentation",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Documentation"
+      ],
+      "text": "Documentation",
+      "order": 61,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0062",
+      "block_type": "paragraph",
+      "heading": "Documentation",
+      "heading_path": [
+        "Buyer's Guide Debriefing and feedback sessions",
+        "Debriefing and feedback sessions",
+        "Providing a debriefing or feedback session",
+        "Documentation"
+      ],
+      "text": "You must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.",
+      "order": 62,
+      "metadata": {}
+    }
+  ],
+  "metadata": {},
+  "raw_text": "Debriefing and feedback sessions Debriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each. Debriefing The primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations. Procedure for requesting debriefings Solicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process. Upon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing. In complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points. Conducting debriefings Debriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters . Content of debriefings Within the limits of information disclosure policies, a debriefing will include the following, as applicable: names of successful offerors total estimated cost of the contract(s) total evaluated price of the successful offeror(s) and the total score, if applicable very general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information an outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology scores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned Feedback session A feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued. Documentation and fairness To ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors. Methods of providing feedback You may deliver feedback through one or both of the following methods: highlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention organizing an offerors' conference for the solicitation of offers to be reissued Considerations for choosing feedback method You should consider certain factors when selecting the appropriate method for feedback. These factors include: complexity of the procurement or the solicitation documents likelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received the nature of the issues that necessitated the cancellation and reissuance of the solicitation sensitivity and estimated dollar value of the procurement if Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback Requirements for reissuing solicitations You must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation. You are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change. Cancelled solicitations of offers Feedback for cancelled solicitation of offers must be handled as follows: if a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation if a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed if a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request if a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation Significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided. No significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria. Other reasons for cancellation If the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided. Providing a debriefing or feedback session The following are guidelines and information about debriefings and feedback sessions. Request timeline Offerors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation. Provision timeline A debriefing or feedback session should be conducted within ten working days from the date a request is received. Format Debriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible. Consultation with management and legal services You should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements. Involvement of fairness monitors and legal counsel If a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation. Documentation You must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.\n\nDebriefing and feedback sessions\n\nDebriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each.\n\nDebriefing\n\nThe primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations.\n\nProcedure for requesting debriefings\n\nSolicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process.\n\nUpon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing.\n\nIn complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points.\n\nConducting debriefings\n\nDebriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters .\n\nContent of debriefings\n\nWithin the limits of information disclosure policies, a debriefing will include the following, as applicable:\n\nnames of successful offerors\n\ntotal estimated cost of the contract(s)\n\ntotal evaluated price of the successful offeror(s) and the total score, if applicable\n\nvery general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information\n\nan outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology\n\nscores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned\n\nFeedback session\n\nA feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued.\n\nDocumentation and fairness\n\nTo ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors.\n\nMethods of providing feedback\n\nYou may deliver feedback through one or both of the following methods:\n\nhighlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention\n\norganizing an offerors' conference for the solicitation of offers to be reissued\n\nConsiderations for choosing feedback method\n\nYou should consider certain factors when selecting the appropriate method for feedback. These factors include:\n\ncomplexity of the procurement or the solicitation documents\n\nlikelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received\n\nthe nature of the issues that necessitated the cancellation and reissuance of the solicitation\n\nsensitivity and estimated dollar value of the procurement\n\nif Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback\n\nRequirements for reissuing solicitations\n\nYou must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation.\n\nYou are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change.\n\nCancelled solicitations of offers\n\nFeedback for cancelled solicitation of offers must be handled as follows:\n\nif a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation\n\nif a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed\n\nif a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request\n\nif a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation\n\nSignificant modifications to requirements\n\nIf the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided.\n\nNo significant modifications to requirements\n\nIf the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria.\n\nOther reasons for cancellation\n\nIf the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided.\n\nProviding a debriefing or feedback session\n\nThe following are guidelines and information about debriefings and feedback sessions.\n\nRequest timeline\n\nOfferors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation.\n\nProvision timeline\n\nA debriefing or feedback session should be conducted within ten working days from the date a request is received.\n\nFormat\n\nDebriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible.\n\nConsultation with management and legal services\n\nYou should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements.\n\nInvolvement of fairness monitors and legal counsel\n\nIf a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation.\n\nDocumentation\n\nYou must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.",
+  "markdown_text": "Debriefing and feedback sessions Debriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each. Debriefing The primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations. Procedure for requesting debriefings Solicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process. Upon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing. In complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points. Conducting debriefings Debriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters . Content of debriefings Within the limits of information disclosure policies, a debriefing will include the following, as applicable: names of successful offerors total estimated cost of the contract(s) total evaluated price of the successful offeror(s) and the total score, if applicable very general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information an outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology scores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned Feedback session A feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued. Documentation and fairness To ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors. Methods of providing feedback You may deliver feedback through one or both of the following methods: highlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention organizing an offerors' conference for the solicitation of offers to be reissued Considerations for choosing feedback method You should consider certain factors when selecting the appropriate method for feedback. These factors include: complexity of the procurement or the solicitation documents likelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received the nature of the issues that necessitated the cancellation and reissuance of the solicitation sensitivity and estimated dollar value of the procurement if Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback Requirements for reissuing solicitations You must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation. You are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change. Cancelled solicitations of offers Feedback for cancelled solicitation of offers must be handled as follows: if a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation if a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed if a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request if a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation Significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided. No significant modifications to requirements If the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria. Other reasons for cancellation If the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided. Providing a debriefing or feedback session The following are guidelines and information about debriefings and feedback sessions. Request timeline Offerors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation. Provision timeline A debriefing or feedback session should be conducted within ten working days from the date a request is received. Format Debriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible. Consultation with management and legal services You should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements. Involvement of fairness monitors and legal counsel If a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation. Documentation You must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.\n\nDebriefing and feedback sessions\n\nDebriefings and feedback sessions are held to provide information to offerors concerning their offers. The following sections describe the different types of sessions and provide best practices and procedures for each.\n\nDebriefing\n\nThe primary goal of a debriefing is to explain to offerors why their offers were not selected. This transparency aids in improving their future proposals and demonstrates the fairness, openness and transparency of the federal contracting process. Feedback from offerors can be utilized by buyers to improve future solicitations.\n\nProcedure for requesting debriefings\n\nSolicitations must clearly state that offerors are entitled to request a debriefing on the outcome of the procurement process.\n\nUpon the award of a contract or issuance of a standing offer or supply arrangement, offerors may request a debriefing.\n\nIn complex procurements involving multiple phases, offerors are notified of their status at the end of each phase and may request detailed feedback at these points.\n\nConducting debriefings\n\nDebriefings are typically conducted in writing through regret letters, which offer detailed feedback. For more comprehensive examples, you may refer to the available samples of regret letters .\n\nContent of debriefings\n\nWithin the limits of information disclosure policies, a debriefing will include the following, as applicable:\n\nnames of successful offerors\n\ntotal estimated cost of the contract(s)\n\ntotal evaluated price of the successful offeror(s) and the total score, if applicable\n\nvery general information on the relative strengths of the successful offer(s)/arrangement(s), without divulging any confidential and commercial information\n\nan outline of the reasons that the offer/arrangement was not successful according to evaluation criteria and selection methodology\n\nscores achieved by the offeror on all rated criteria, with sufficient details for the offeror to understand why those scores were assigned\n\nFeedback session\n\nA feedback session is a form of debriefing, and is provided upon request when a solicitation is cancelled and planned for reissue. These sessions are designed to provide the offeror with information specific to their offer/arrangement, including which mandatory criteria they passed or failed, or their overall technical score or their score for each technical criterion. This helps offerors to understand why their offer/arrangement failed to meet the requirements. You must not disclose any details about other offers/arrangements or the specifics of the solicitation of offers to be reissued.\n\nDocumentation and fairness\n\nTo ensure the fairness, openness, and transparency of the procurement process, all offerors must have access to the same information on the solicitation of offers to be reissued. Therefore, all information provided in a feedback session must be documented by the Contracting Authority. Where relevant, this feedback is to be provided in a generic form in the reissued solicitation of offers to maintain fairness to all potential offerors.\n\nMethods of providing feedback\n\nYou may deliver feedback through one or both of the following methods:\n\nhighlighting key areas of concern more prominently in the reissued solicitation of offers with additional instructions, for example by adding text to inform or focus attention\n\norganizing an offerors' conference for the solicitation of offers to be reissued\n\nConsiderations for choosing feedback method\n\nYou should consider certain factors when selecting the appropriate method for feedback. These factors include:\n\ncomplexity of the procurement or the solicitation documents\n\nlikelihood of another unsuccessful solicitation of offers if no compliant offer/arrangement had been received\n\nthe nature of the issues that necessitated the cancellation and reissuance of the solicitation\n\nsensitivity and estimated dollar value of the procurement\n\nif Treasury Board (TB) contract approval is required, it is mandatory to use both methods of feedback\n\nRequirements for reissuing solicitations\n\nYou must include a clause in the reissued solicitation stating that the reissued solicitations cancels and supersedes the previous solicitation, and that a debriefing or feedback session is available upon request to those who submitted an offer in the initial solicitation.\n\nYou are to advise offerors not to make any assumptions when preparing their offers for the solicitation to be reissued, as evaluation criteria may change.\n\nCancelled solicitations of offers\n\nFeedback for cancelled solicitation of offers must be handled as follows:\n\nif a solicitation of offers is cancelled before the closing date, you must follow established procedures for cancelling or reissuing a solicitation\n\nif a solicitation of offers is cancelled after the closing date, but before completing the evaluation of mandatory or rated criteria, you must inform all offerors of the cancellation and that the evaluation of offers/arrangements was not completed\n\nif a solicitation of offers is cancelled following completion of the evaluation of mandatory or rated criteria and a new solicitation is not planned or will not be issued, a debriefing must be provided upon request\n\nif a solicitation of offers is cancelled following the evaluation of mandatory or rated criteria but it is intended to reissue the solicitation of offers, a feedback session will be provided upon request. The specifics of the feedback session are based on the reasons for cancellation\n\nSignificant modifications to requirements\n\nIf the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value, and the Statement of Requirements for the reissued solicitation is significantly modified, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score were failed. But no detail is to be provided as to why the offeror failed each criteria. No information on other rated criteria is to be provided.\n\nNo significant modifications to requirements\n\nIf the solicitation of offers is cancelled because all offers/arrangements are non-compliant or do not represent fair value and the Statement of Requirements for the reissued solicitation is not significantly modified, you will inform offerors of which mandatory criteria or rated criteria requiring a minimum score were failed. You will also need to include sufficient details for offerors to understand why they failed each criteria. Do not provide any information on other rated criteria.\n\nOther reasons for cancellation\n\nIf the solicitation of offers is cancelled for other reasons, you will inform offerors only of which mandatory criteria or rated criteria requiring a minimum score failed. No detail is to be provided as to why the offerors failed each criteria. No information on other rated criteria is to be provided.\n\nProviding a debriefing or feedback session\n\nThe following are guidelines and information about debriefings and feedback sessions.\n\nRequest timeline\n\nOfferors should request a debriefing or feedback session within fifteen working days of receiving the results of the solicitation process or its cancellation.\n\nProvision timeline\n\nA debriefing or feedback session should be conducted within ten working days from the date a request is received.\n\nFormat\n\nDebriefings or feedback sessions can be provided in writing, by telephone, or in person, depending on the most effective method for the specific procurement context. You should accommodate requests for in-person sessions or specific formats, as much as possible.\n\nConsultation with management and legal services\n\nYou should consult with management and, if necessary, legal services before providing a debriefing or feedback session for sensitive or high-risk requirements.\n\nInvolvement of fairness monitors and legal counsel\n\nIf a fairness monitor was involved in the evaluation process, you will inform them of the date and time of any telephone or in-person debriefing or feedback session or offerors conference. If legal counsel is to accompany an offeror or participates in any telephone debriefing or feedback session, you must coordinate with Legal Services and discuss their participation.\n\nDocumentation\n\nYou must keep thorough records of all debriefing or feedback session information, including minutes or a record of any meeting and any comments or suggestions from offerors.",
+  "provenance_paths": {}
+}
