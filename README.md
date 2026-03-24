@@ -5,6 +5,18 @@ system. It is inspired by `DepartmentDefence-Winter2026-feat-retrieval-expensive
 as a benchmark and behavior reference, but it does not copy implementation code
 from that branch.
 
+## Repo Status
+
+This Git repository is now the primary home for ongoing development.
+
+- primary tracked repo:
+  - `c:\Users\14164\Documents\CohereThing\PolicyRAGv.2`
+- legacy local fallback:
+  - `c:\Users\14164\Documents\CohereThing\buyers-guide-rag-clean`
+
+New work, commits, and branches should happen here unless there is a specific
+reason to use an isolated disposable copy for experimentation.
+
 ## Purpose
 
 The system is Buyer’s Guide-first:

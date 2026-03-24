@@ -5,6 +5,16 @@
 Build a clean Buyer’s Guide-first backend that can match or beat the trustworthy
 `feat` parity floor without inheriting its code clutter or ad hoc answer logic.
 
+## Repo Role
+
+- primary tracked repo:
+  - `c:\Users\14164\Documents\CohereThing\PolicyRAGv.2`
+- legacy local fallback:
+  - `c:\Users\14164\Documents\CohereThing\buyers-guide-rag-clean`
+
+Unless a task specifically calls for a disposable experiment copy, ongoing work
+should now happen in this Git-backed repo.
+
 The evaluation workflow should converge toward three tiers:
 
 - dev for tuning and rapid iteration
