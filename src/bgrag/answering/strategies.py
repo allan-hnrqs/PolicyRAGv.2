@@ -119,6 +119,20 @@ class ContractSlotCoverageVerdictPayload(BaseModel):
 
 
 @dataclass(frozen=True)
+class ContractSlotSelection:
+    keep_slot_keys: list[str]
+    rationale: str
+
+
+class ContractSlotSelectionPayload(BaseModel):
+    keep_slot_keys: list[str] = Field(
+        default_factory=list,
+        description="Populate only with slot keys already populated in the contract and still needed to answer the user's actual question completely and concisely.",
+    )
+    rationale: str = Field(default="", description="Short explanation for the chosen keep set.")
+
+
+@dataclass(frozen=True)
 class AnswerRepairPlan:
     needs_revision: bool
     missing_supported_points: list[str]
@@ -581,11 +595,42 @@ def _build_contract_slot_coverage_verdict_prompt(
         "3. Do not mark slots just because the draft uses different wording or a more concise phrasing.\n"
         "4. For workflow contracts, missed branches, deadlines, consequences, follow-on requirements, and exceptions are especially important.\n"
         "5. For missing-detail contracts with should_abstain=true, mark the relevant populated slots if the draft fails to clearly say the exact detail is not established and then give the closest supported context.\n"
-        "6. unsupported_detail_risk should be true only when the draft states something materially stronger or broader than the evidence or contract support.\n"
-        "7. Be willing to mark substantive omissions even if the draft has the general theme correct.\n\n"
+        "6. For missing-detail contracts, if supporting_rule is populated and it explains when or why the closest supported context is relevant, mark supporting_rule missing when the draft only gives a locator, URL, or generic contact instruction without that operative context.\n"
+        "7. unsupported_detail_risk should be true only when the draft states something materially stronger or broader than the evidence or contract support.\n"
+        "8. Be willing to mark substantive omissions even if the draft has the general theme correct.\n\n"
         f"Original question:\n{question}\n\n"
         f"Structured answer contract:\n{contract_checklist}\n\n"
         f"Draft answer:\n{draft_answer}\n\n"
+        f"Evidence:\n{joined}"
+    )
+
+
+def _build_contract_slot_selection_prompt(
+    question: str,
+    evidence: EvidenceBundle,
+    contract: CitedStructuredAnswerContract,
+) -> str:
+    joined = _render_evidence_sections(evidence.packed_chunks)
+    contract_checklist = _render_cited_contract_checklist(contract)
+    return (
+        "You are pruning an evidence-grounded structured answer contract to the smallest sufficient set of populated slots.\n"
+        "Use only the original question, the populated contract, and the evidence below.\n"
+        "Return JSON only in this exact shape:\n"
+        '{"keep_slot_keys":["slot_key"],"rationale":"short explanation"}\n\n'
+        "Rules:\n"
+        "1. keep_slot_keys must contain only slot keys that are already populated in the structured contract.\n"
+        "2. Keep the slots needed to answer the user's actual question completely and concisely.\n"
+        "3. Drop populated slots that are only background, administrative follow-through, adjacent policy context, or optional detail when the user did not ask for them.\n"
+        "4. For workflow questions, keep the directly relevant branch or scenario slots plus the framing slots needed to make them understandable.\n"
+        "5. For workflow questions about thresholds, periods, deadlines, limits, or how far something can be shortened or extended, keep every populated branch slot that changes the operative threshold, period, or limit.\n"
+        "6. For workflow questions, do not keep required_document_or_input, follow_on_requirement, consequence, exception, or unrelated branch slots unless the user's question asks for them or the answer would be materially incomplete without them.\n"
+        "7. For missing-detail questions, usually keep exact_detail_status and the closest supported context. Keep page_or_location only when it is the best supported locator for that context.\n"
+        "8. If a populated supporting_rule gives the operative conditions that make the closest supported context relevant, keep it unless that condition is already stated clearly in closest_supported_context.\n"
+        "9. For navigation questions, keep only the page/path slots needed to send the user to the correct destination.\n"
+        "10. Be conservative about keeping extra slots, but never return an empty keep_slot_keys list.\n"
+        "11. Prefer the smallest sufficient keep set.\n\n"
+        f"Original question:\n{question}\n\n"
+        f"Structured answer contract:\n{contract_checklist}\n\n"
         f"Evidence:\n{joined}"
     )
 
@@ -768,6 +813,26 @@ def _normalize_contract_slot_coverage_verdict_payload(
     )
 
 
+def _normalize_contract_slot_selection_payload(
+    payload: ContractSlotSelectionPayload,
+    *,
+    answer_mode: str,
+    populated_slot_keys: set[str],
+) -> ContractSlotSelection:
+    allowed_slots = set(_allowed_contract_slots(answer_mode)) & populated_slot_keys
+    keep_slot_keys: list[str] = []
+    seen_slots: set[str] = set()
+    for slot in _normalize_string_list(payload.keep_slot_keys, max_items=16):
+        if slot not in allowed_slots or slot in seen_slots:
+            continue
+        keep_slot_keys.append(slot)
+        seen_slots.add(slot)
+        if len(keep_slot_keys) >= len(allowed_slots):
+            break
+    rationale = " ".join(payload.rationale.split()).strip()
+    return ContractSlotSelection(keep_slot_keys=keep_slot_keys, rationale=rationale)
+
+
 def _normalize_cited_structured_answer_contract_payload(
     payload: CitedStructuredAnswerContractPayload,
 ) -> CitedStructuredAnswerContract:
@@ -905,6 +970,35 @@ def _extract_contract_slot_coverage_verdict(
     return verdict, payload
 
 
+def _extract_contract_slot_selection(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+    contract: CitedStructuredAnswerContract,
+) -> tuple[ContractSlotSelection, ContractSlotSelectionPayload]:
+    settings.require_cohere_key("Contract slot selection")
+    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
+    payload = client.create(
+        response_model=ContractSlotSelectionPayload,
+        messages=[
+            {
+                "role": "user",
+                "content": _build_contract_slot_selection_prompt(question, evidence, contract),
+            }
+        ],
+        model=settings.cohere_query_planner_model,
+        temperature=0,
+        max_tokens=220,
+        max_retries=2,
+    )
+    selection = _normalize_contract_slot_selection_payload(
+        payload,
+        answer_mode=contract.answer_mode,
+        populated_slot_keys=set(contract.slots),
+    )
+    return selection, payload
+
+
 def _normalize_answer_repair_plan(raw_text: str, *, max_points: int = 6) -> AnswerRepairPlan:
     parsed = json.loads(raw_text)
     needs_revision = bool(parsed.get("needs_revision", False))
@@ -958,6 +1052,56 @@ def _render_text_with_chunk_ids(text: str, chunk_ids: list[str]) -> str:
     if not chunk_ids:
         return text
     return f"{text} [{', '.join(chunk_ids)}]"
+
+
+def _looks_quantitative_contract_slot(text: str) -> bool:
+    normalized = " ".join(text.lower().split())
+    quantitative_markers = (
+        "less than",
+        "more than",
+        "at least",
+        "minimum",
+        "maximum",
+        "calendar day",
+        "calendar days",
+        "working day",
+        "working days",
+        "hours",
+        "months",
+        "years",
+        "percent",
+    )
+    return any(char.isdigit() for char in normalized) or any(marker in normalized for marker in quantitative_markers)
+
+
+def _core_contract_slot_keys(contract: CitedStructuredAnswerContract) -> set[str]:
+    if contract.answer_mode == "workflow":
+        return {"bottom_line"} & set(contract.slots)
+    if contract.answer_mode == "navigation":
+        return {"start_page"} & set(contract.slots)
+    if contract.answer_mode == "missing_detail":
+        return {"exact_detail_status"} & set(contract.slots)
+    return {"bottom_line"} & set(contract.slots)
+
+
+def _prune_cited_structured_answer_contract(
+    contract: CitedStructuredAnswerContract,
+    *,
+    keep_slot_keys: set[str],
+) -> CitedStructuredAnswerContract:
+    retained_keys = [
+        key
+        for key in _allowed_contract_slots(contract.answer_mode)
+        if key in contract.slots and key in keep_slot_keys
+    ]
+    if not retained_keys:
+        return contract
+    return CitedStructuredAnswerContract(
+        answer_mode=contract.answer_mode,
+        should_abstain=contract.should_abstain,
+        abstain_reason=contract.abstain_reason,
+        slots={key: contract.slots[key] for key in retained_keys},
+    )
 
 
 def _looks_like_missing_detail_abstention(answer_text: str) -> bool:
@@ -2511,6 +2655,7 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     missing_branch_slots = sorted(missing_slots & branch_slots)
     missing_detail_context_slots = {"closest_supported_context", "page_or_location", "supporting_rule"}
     missing_missing_detail_context_slots = sorted(missing_slots & missing_detail_context_slots)
+    missing_missing_detail_supporting_rule = "supporting_rule" in missing_slots
     baseline_missing_detail_abstains = _looks_like_missing_detail_abstention(baseline_result.answer_text)
     baseline_corrupted = _looks_corrupted(baseline_result.answer_text)
 
@@ -2531,6 +2676,9 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
             elif len(missing_missing_detail_context_slots) >= 2:
                 should_rewrite = True
                 activation_reason = "missing_detail_missing_context"
+            elif missing_missing_detail_supporting_rule:
+                should_rewrite = True
+                activation_reason = "missing_detail_missing_operating_context"
 
     contract_snapshot = {
         "answer_mode": contract.answer_mode,
@@ -2551,6 +2699,7 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
         "missing_or_weakened_slots": coverage_verdict.missing_or_weakened_slots,
         "missing_branch_slots": missing_branch_slots,
         "missing_missing_detail_context_slots": missing_missing_detail_context_slots,
+        "missing_missing_detail_supporting_rule": missing_missing_detail_supporting_rule,
         "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
         "baseline_missing_detail_abstains": baseline_missing_detail_abstains,
         "baseline_corrupted": baseline_corrupted,
@@ -2558,15 +2707,38 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     }
 
     if should_rewrite:
+        selection_start = perf_counter()
+        slot_selection, slot_selection_payload = _extract_contract_slot_selection(
+            settings,
+            question,
+            evidence,
+            contract,
+        )
+        raw_selected_slot_keys = set(slot_selection.keep_slot_keys)
+        selected_slot_keys = set(raw_selected_slot_keys)
+        selected_slot_keys |= _core_contract_slot_keys(contract)
+        quantitative_missing_branch_slots = {
+            slot
+            for slot in missing_branch_slots
+            if slot in contract.slots and _looks_quantitative_contract_slot(contract.slots[slot].text)
+        }
+        selected_slot_keys |= quantitative_missing_branch_slots
+        if not raw_selected_slot_keys:
+            selected_slot_keys |= set(missing_slots)
+        render_contract = _prune_cited_structured_answer_contract(
+            contract,
+            keep_slot_keys=selected_slot_keys,
+        )
+        selection_end = perf_counter()
         render_start = perf_counter()
-        answer_text = _render_cited_structured_contract_answer(contract)
+        answer_text = _render_cited_structured_contract_answer(render_contract)
         render_end = perf_counter()
         return AnswerResult(
             question=question,
             answer_text=answer_text,
             strategy_name="narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_chat",
             model_name=settings.cohere_query_planner_model,
-            citations=_collect_contract_citations(contract, evidence.packed_chunks),
+            citations=_collect_contract_citations(render_contract, evidence.packed_chunks),
             evidence_bundle=evidence,
             raw_response={
                 "baseline_answer_text": baseline_result.answer_text,
@@ -2575,6 +2747,35 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
                 "slot_coverage_verdict_payload": coverage_payload.model_dump(),
                 "structured_contract": contract_snapshot,
                 "structured_contract_payload": contract_payload.model_dump(),
+                "slot_selection": {
+                    "selector_keep_slot_keys": [
+                        key
+                        for key in _allowed_contract_slots(contract.answer_mode)
+                        if key in raw_selected_slot_keys and key in contract.slots
+                    ],
+                    "final_keep_slot_keys": [
+                        key
+                        for key in _allowed_contract_slots(contract.answer_mode)
+                        if key in selected_slot_keys and key in contract.slots
+                    ],
+                    "rationale": slot_selection.rationale,
+                    "required_missing_slots": sorted(missing_slots),
+                    "core_slots": sorted(_core_contract_slot_keys(contract)),
+                    "quantitative_missing_branch_slots": sorted(quantitative_missing_branch_slots),
+                },
+                "slot_selection_payload": slot_selection_payload.model_dump(),
+                "render_contract": {
+                    "answer_mode": render_contract.answer_mode,
+                    "should_abstain": render_contract.should_abstain,
+                    "abstain_reason": render_contract.abstain_reason,
+                    "slots": {
+                        key: {
+                            "text": value.text,
+                            "citation_chunk_ids": value.citation_chunk_ids,
+                        }
+                        for key, value in render_contract.slots.items()
+                    },
+                },
                 "planner_framework": "instructor_cohere_pydantic",
                 "planner_model": settings.cohere_query_planner_model,
                 "baseline_model": baseline_result.model_name,
@@ -2584,9 +2785,10 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
                 "slot_coverage_verdict_seconds": coverage_end - coverage_start,
+                "slot_selection_seconds": selection_end - selection_start,
                 "deterministic_render_seconds": render_end - render_start,
             },
-            abstained=contract.should_abstain,
+            abstained=render_contract.should_abstain,
         )
 
     raw_response = dict(baseline_result.raw_response or {})

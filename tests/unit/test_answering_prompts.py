@@ -1,9 +1,13 @@
 from bgrag.answering.strategies import (
     AnswerRewriteVerdictPayload,
+    ContractSlotSelectionPayload,
     ContractSlotCoverageVerdictPayload,
     CitedStructuredAnswerContractPayload,
+    CitedStructuredAnswerContract,
+    StructuredAnswerSlotValue,
     _build_answer_rewrite_verdict_prompt,
     _build_contract_aware_answer_rewrite_verdict_prompt,
+    _build_contract_slot_selection_prompt,
     _build_contract_slot_coverage_verdict_prompt,
     StructuredAnswerSlotPayload,
     _build_answer_plan_prompt,
@@ -27,12 +31,15 @@ from bgrag.answering.strategies import (
     _normalize_answer_plan,
     _normalize_answer_repair_plan,
     _normalize_answer_rewrite_verdict_payload,
+    _normalize_contract_slot_selection_payload,
     _normalize_contract_slot_coverage_verdict_payload,
     _normalize_cited_structured_answer_contract_payload,
     _normalize_mode_aware_answer_plan,
     _normalize_structured_answer_contract,
+    _prune_cited_structured_answer_contract,
     _looks_corrupted,
     _looks_like_missing_detail_abstention,
+    _looks_quantitative_contract_slot,
     _select_compact_mode_aware_answer_route,
     _select_mode_aware_answer_route,
     _select_structured_contract_answer_route,
@@ -458,6 +465,39 @@ def test_contract_slot_coverage_verdict_prompt_demands_slot_keys_only() -> None:
     assert '{"confidence":"low","rationale":"short explanation","missing_or_weakened_slots":["slot_key"],"unsupported_detail_risk":false}' in prompt
     assert "Only use slot keys that are populated in the structured contract." in prompt
     assert "Be willing to mark substantive omissions" in prompt
+    assert "mark supporting_rule missing when the draft only gives a locator" in prompt
+
+
+def test_contract_slot_selection_prompt_demands_small_sufficient_keep_set() -> None:
+    evidence = EvidenceBundle(
+        query="question",
+        packed_chunks=[_chunk("c1")],
+    )
+    contract = _normalize_cited_structured_answer_contract(
+        """
+        {
+          "answer_mode": "workflow",
+          "should_abstain": false,
+          "abstain_reason": "",
+          "slots": {
+            "bottom_line": {
+              "text": "Use the 25-day minimum.",
+              "citation_chunk_ids": ["c1"]
+            },
+            "required_document_or_input": {
+              "text": "Publish an NPP.",
+              "citation_chunk_ids": ["c1"]
+            }
+          }
+        }
+        """
+    )
+
+    prompt = _build_contract_slot_selection_prompt("question", evidence, contract)
+
+    assert '{"keep_slot_keys":["slot_key"],"rationale":"short explanation"}' in prompt
+    assert "Drop populated slots that are only background" in prompt
+    assert "Prefer the smallest sufficient keep set." in prompt
 
 
 def test_normalize_answer_rewrite_verdict_payload_filters_invalid_values() -> None:
@@ -497,6 +537,57 @@ def test_normalize_contract_slot_coverage_verdict_payload_filters_to_allowed_pop
     assert verdict.unsupported_detail_risk is True
 
 
+def test_normalize_contract_slot_selection_payload_filters_to_allowed_populated_slots() -> None:
+    selection = _normalize_contract_slot_selection_payload(
+        ContractSlotSelectionPayload(
+            keep_slot_keys=["bottom_line", "unknown_slot", "deadline_or_timing", "bottom_line"],
+            rationale="  Keep the core rule and timing only.  ",
+        ),
+        answer_mode="workflow",
+        populated_slot_keys={"bottom_line", "deadline_or_timing"},
+    )
+
+    assert selection.keep_slot_keys == ["bottom_line", "deadline_or_timing"]
+    assert selection.rationale == "Keep the core rule and timing only."
+
+
+def test_prune_cited_structured_answer_contract_keeps_selected_slots_in_mode_order() -> None:
+    contract = CitedStructuredAnswerContract(
+        answer_mode="workflow",
+        should_abstain=False,
+        abstain_reason="",
+        slots={
+            "bottom_line": StructuredAnswerSlotValue(text="Main rule.", citation_chunk_ids=["c1"]),
+            "required_document_or_input": StructuredAnswerSlotValue(text="Publish an NPP.", citation_chunk_ids=["c2"]),
+            "deadline_or_timing": StructuredAnswerSlotValue(text="Urgency can shorten the period.", citation_chunk_ids=["c3"]),
+        },
+    )
+
+    pruned = _prune_cited_structured_answer_contract(
+        contract,
+        keep_slot_keys={"deadline_or_timing", "bottom_line"},
+    )
+
+    assert list(pruned.slots) == ["bottom_line", "deadline_or_timing"]
+    assert "required_document_or_input" not in pruned.slots
+
+
+def test_prune_cited_structured_answer_contract_falls_back_when_keep_set_is_empty() -> None:
+    contract = CitedStructuredAnswerContract(
+        answer_mode="missing_detail",
+        should_abstain=True,
+        abstain_reason="Not provided.",
+        slots={
+            "exact_detail_status": StructuredAnswerSlotValue(text="Not provided.", citation_chunk_ids=["c1"]),
+            "page_or_location": StructuredAnswerSlotValue(text="Use the buyer portal page.", citation_chunk_ids=["c2"]),
+        },
+    )
+
+    pruned = _prune_cited_structured_answer_contract(contract, keep_slot_keys=set())
+
+    assert pruned == contract
+
+
 def test_looks_like_missing_detail_abstention_detects_generic_abstain_language() -> None:
     assert _looks_like_missing_detail_abstention(
         "The evidence does not explicitly provide the exact email address."
@@ -512,6 +603,15 @@ def test_looks_corrupted_detects_repetitive_gibberish() -> None:
 
     assert _looks_corrupted(corrupted)
     assert not _looks_corrupted(healthy)
+
+
+def test_looks_quantitative_contract_slot_detects_threshold_language() -> None:
+    assert _looks_quantitative_contract_slot(
+        "If limited tendering is used, the period can be less than 10 calendar days."
+    )
+    assert not _looks_quantitative_contract_slot(
+        "Consult with management and legal services before providing feedback."
+    )
 
 
 def test_mode_aware_prompt_includes_abstain_and_supporting_source_instructions() -> None:

@@ -471,3 +471,15 @@ become the only place where rationale lives.
   - the intervention logic itself is good
   - the remaining problem is structured-contract extraction or slot scope, not
     broader activation tuning
+- Question-scoped slot pruning is now a live experimental refinement on top of
+  the narrow verifier branch.
+  Current decision:
+  - keep it on an experimental branch only
+  - do not promote it to `main`
+  - keep the typed slot-selection infrastructure
+  - continue measuring it on focused slices and intervention-only composites
+    before trusting broad full-suite reruns
+  Why:
+  - it clearly helps the rewritten cases when it behaves well
+  - but broad reruns are still too stochastic, and `HR_038` remains a
+    verification/extraction problem rather than a solved pruning problem

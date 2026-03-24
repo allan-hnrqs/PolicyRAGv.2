@@ -723,3 +723,43 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     `baseline_keep` cases, not evidence that the rewrite logic is bad
   - the next bottleneck is likely question-scoped contract extraction or slot
     pruning, not broader activation tuning
+
+## Latest Answer-Side Read
+
+- current leading experimental path:
+  - `narrow_contract_slot_coverage_verifier_gated_structured_contract_answering`
+  - plus question-scoped slot pruning on rewritten contracts
+- latest clean take:
+  - slot pruning is worth keeping as an experimental refinement
+  - it does improve the rewritten cases when measured on focused slices
+  - but it is not yet promotable because broad reruns are still noisy
+- current focused evidence:
+  - `datasets/eval/generated/contract_pruning_focus.jsonl`
+  - baseline:
+    - `datasets/runs/baseline_20260324_221515_942877_586a.json`
+    - recall `0.5444`
+  - pruning branch:
+    - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_221620_419549_a150.json`
+    - recall `0.8333`
+    - pairwise candidate wins `2` vs control `1`
+  - follow-up run after quantitative branch preservation:
+    - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_222513_040835_b02c.json`
+    - recall `0.7667`
+- case-level read:
+  - `HR_030`:
+    - the quantitative branch safeguard is necessary to keep the limited-
+      tendering branch
+  - `HR_035`:
+    - still mostly a baseline-keep / truncation-sensitive workflow case
+  - `HR_038`:
+    - the remaining issue is missing-detail verification/extraction, not slot
+      pruning alone
+
+## Immediate next step
+
+- do not promote the pruning branch to default
+- keep it on a feature branch and use it to drive the next bounded method pass:
+  - strengthen missing-detail verification so a bare abstention plus URL is not
+    treated as sufficient when the contract contains operative context
+  - continue using focused slices and intervention-only measurement before any
+    new broad reruns

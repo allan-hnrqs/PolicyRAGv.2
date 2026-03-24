@@ -1692,3 +1692,63 @@ capture:
     good at the cases it actually changes
   - the remaining ambiguity is largely in extraction quality and slot scope, not
     in whether the intervention logic should exist at all
+
+#### Question-Scoped Slot Pruning Follow-Up
+
+- Goal:
+  - tighten the narrow verifier branch by pruning rewritten structured-contract
+    slots to the smallest sufficient set for the actual question
+- Implementation:
+  - added a typed contract-slot selection step in:
+    - `src/bgrag/answering/strategies.py`
+  - kept the existing narrow verifier gate and applied pruning only on the
+    rewrite path
+  - added deterministic helpers for:
+    - core-slot preservation
+    - contract pruning
+    - quantitative branch preservation
+  - added focused tests in:
+    - `tests/unit/test_answering_prompts.py`
+  - added a tiny focused eval slice:
+    - `datasets/eval/generated/contract_pruning_focus.jsonl`
+- Validation:
+  - `pytest -q tests/unit/test_answering_prompts.py tests/unit/test_profiles.py`
+    - `60 passed`
+  - `python -m py_compile src/bgrag/answering/strategies.py`
+    - passed
+- New measurement result:
+  - first full rebuilt-39 rerun after pruning:
+    - dev:
+      - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_214054_529055_1878.json`
+      - recall `0.8070`
+      - forbidden violations `0`
+    - holdout:
+      - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_214037_629995_a577.json`
+      - recall `0.7483`
+      - forbidden violations `1`
+  - later broad reruns were noisy and exposed one real pruning miss:
+    - `HR_030` lost the limited-tendering branch when the selector kept only
+      `bottom_line` and the urgent branch
+    - that regression showed up in:
+      - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_221020_555462_26e4.json`
+  - the focused 3-case slice gave the cleanest read:
+    - baseline:
+      - `datasets/runs/baseline_20260324_221515_942877_586a.json`
+      - recall `0.5444`
+    - pruning branch before quantitative safeguard:
+      - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_221620_419549_a150.json`
+      - recall `0.8333`
+      - pairwise:
+        - `datasets/runs/pairwise_baseline_20260324_221515_942877_586a_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_221620_419549_a150_20260324_221703_627913_98e7.json`
+        - candidate wins `2`
+        - control wins `1`
+    - pruning branch after quantitative safeguard:
+      - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260324_222513_040835_b02c.json`
+      - recall `0.7667`
+- Interpretation:
+  - the slot-pruning method family is real and worth keeping as an experimental
+    branch
+  - the quantitative branch safeguard fixes the main `HR_030` pruning miss
+  - `HR_038` is now better understood as a missing-detail
+    verification/extraction problem, not a pure slot-pruning problem
+  - full-suite reruns remain too stochastic to treat this branch as promoted
