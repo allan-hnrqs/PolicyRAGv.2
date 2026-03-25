@@ -995,3 +995,25 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - it does not justify replacing the baseline answer policy globally
   - it does justify keeping an exactness-specific guarded intervention path in
     the experimental architecture
+
+## Exactness Surface Integrity
+
+- rebuilt-39 exactness slice selection is now audited in:
+  - `datasets/eval/manifests/parity39_exactness_case_audit.json`
+- the slice builder reads that audit manifest directly:
+  - `scripts/build_parity39_exactness_slices.py`
+- explicit adjacent exclusions:
+  - `HR_010`
+  - `HR_012`
+  - `HR_026`
+  - `HR_033`
+- integrity checks:
+  - slice files still validate cleanly
+  - `tests/unit/test_exactness_slice_audit.py` now proves:
+    - the generated exactness slice matches the audited include list
+    - excluded adjacent cases do not leak into the slice
+    - included exactness cases remain authored as abstention cases with
+      forbidden invented-detail claims
+- practical implication:
+  - the exactness surface is still small, but it is now much easier to trust
+    and maintain

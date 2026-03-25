@@ -624,3 +624,23 @@ become the only place where rationale lives.
   - the earlier broader narrow-branch behavior was useful, but this more
     surgical exactness-only path matches the real failure family better and
     avoids unnecessary rewrites such as `HR_017`
+- The rebuilt-39 exactness slice should be treated as an audited asset, not an
+  implicit hard-coded shortlist.
+  Decision:
+  - keep an explicit audit manifest for the exactness slice:
+    - `datasets/eval/manifests/parity39_exactness_case_audit.json`
+  - make the slice builder read from that manifest
+  - keep explicit adjacent exclusions on:
+    - `HR_010`
+    - `HR_012`
+    - `HR_026`
+    - `HR_033`
+  Why:
+  - the exactness surface is currently small enough that hidden selection logic
+    would be hard to trust later
+  - the included cases are abstention/exact-detail failures with forbidden
+    invented-detail claims
+  - the excluded adjacent cases are answerable workflow or documentation cases,
+    not true unsupported exact-detail abstention cases
+  - a visible audit trail makes future expansion or challenge to the slice much
+    easier to reason about

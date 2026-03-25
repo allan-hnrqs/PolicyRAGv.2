@@ -2102,3 +2102,41 @@ capture:
     split-safe exactness holdout surface
   - it should be treated as a guarded sub-path, not a broad answer-policy
     replacement
+
+#### Exactness Slice Audit
+
+- Goal:
+  - make the rebuilt-39 exactness surface auditable instead of leaving it as a
+    hidden hard-coded allowlist in the slice builder
+- Added:
+  - audited selection manifest:
+    - `datasets/eval/manifests/parity39_exactness_case_audit.json`
+  - builder now reads that manifest:
+    - `scripts/build_parity39_exactness_slices.py`
+  - unit coverage:
+    - `tests/unit/test_exactness_slice_audit.py`
+- Audit outcome:
+  - included cases remain:
+    - dev:
+      - `HR_017`
+      - `HR_038`
+    - holdout:
+      - `HR_016`
+      - `HR_037`
+  - explicit adjacent exclusions:
+    - `HR_010`
+    - `HR_012`
+    - `HR_026`
+    - `HR_033`
+- Verification:
+  - `python scripts/build_parity39_exactness_slices.py`
+  - `python scripts/validate_eval_cases.py datasets/eval/dev/parity39_exactness_dev.jsonl datasets/eval/holdout/parity39_exactness_holdout.jsonl`
+  - `python -m pytest -q tests/unit/test_exactness_slice_audit.py tests/unit/test_eval_validation.py tests/unit/test_profiles.py`
+  - passed:
+    - slice validation `4 total case(s)`
+    - targeted tests `24 passed`
+- Interpretation:
+  - the current four-case exactness slice still looks like the honest boundary
+    of this failure family
+  - the main improvement here is methodological: the slice is now explicit,
+    reviewable, and drift-resistant
