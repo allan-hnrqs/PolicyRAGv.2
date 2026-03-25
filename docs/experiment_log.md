@@ -1748,6 +1748,28 @@ capture:
   - promotion decisions on conditional branches are now less likely to hide
     branch leakage or mis-scored judge payloads
 
+#### Conditional Compare Progress Reporting
+
+- Problem:
+  - long-running conditional comparisons were effectively silent in detached or
+    background logs, making it hard to tell whether they were progressing or
+    hung
+- Changes:
+  - `src/bgrag/eval/conditional_compare.py`
+    - added optional progress callbacks for:
+      - resolved namespace
+      - control/candidate eval start and finish
+      - composite creation
+      - pairwise start/finish/error
+      - summary completion
+  - `scripts/compare_conditional_profile.py`
+    - now emits timestamped progress lines to stdout
+- Validation:
+  - targeted conditional-compare tests:
+    - `5 passed`
+  - full suite:
+    - `142 passed`
+
 #### Exactness Surface Audit
 
 - A separate audit of the current exactness surface found:

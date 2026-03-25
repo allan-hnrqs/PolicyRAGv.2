@@ -6,6 +6,7 @@ import json
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Callable
 
 from bgrag.config import Settings
 from bgrag.eval.pairwise import compare_pairwise_runs
@@ -53,6 +54,9 @@ class ConditionalCompareArtifacts:
     pairwise_error: str | None = None
 
 
+ProgressCallback = Callable[[str], None]
+
+
 def resolve_cli_path(repo_root: Path, raw_path: str) -> Path:
     path = Path(raw_path)
     return path if path.is_absolute() else (repo_root / path).resolve()
@@ -82,7 +86,10 @@ def run_profile_eval(
     profile_name: str,
     eval_path: Path,
     index_namespace: str | None,
+    progress: ProgressCallback | None = None,
 ) -> EvalRunArtifact:
+    if progress is not None:
+        progress(f"starting_eval profile={profile_name} eval_path={eval_path} index_namespace={index_namespace}")
     runtime_profile = load_profile(profile_name, settings)
     index_manifest = load_index_manifest(settings, index_namespace)
     answer_callback = build_answer_callback(settings, profile_name, index_namespace=str(index_manifest["namespace"]))
@@ -93,7 +100,10 @@ def run_profile_eval(
         answer_callback,
         run_manifest=build_eval_run_manifest(settings, runtime_profile, eval_path, index_manifest),
     )
-    return EvalRunArtifact(result=result, path=write_eval_result_artifact(settings, result))
+    artifact_path = write_eval_result_artifact(settings, result)
+    if progress is not None:
+        progress(f"finished_eval profile={profile_name} artifact={artifact_path}")
+    return EvalRunArtifact(result=result, path=artifact_path)
 
 
 def render_composite_markdown(
@@ -295,7 +305,13 @@ def compose_conditional_run(
     control_artifact: EvalRunArtifact,
     candidate_artifact: EvalRunArtifact,
     intervention_paths: set[str],
+    progress: ProgressCallback | None = None,
 ) -> CompositeRunArtifact:
+    if progress is not None:
+        progress(
+            "composing_intervention_only "
+            f"control={control_artifact.result.run_name} candidate={candidate_artifact.result.run_name}"
+        )
     composite_run = compose_eval_run(
         control_run=control_artifact.result,
         candidate_run=candidate_artifact.result,
@@ -313,6 +329,11 @@ def compose_conditional_run(
         ),
         encoding="utf-8",
     )
+    if progress is not None:
+        progress(
+            "finished_intervention_only "
+            f"artifact={json_path} selected_cases={len(composite_run.run_manifest.get('composed_from', {}).get('selected_case_ids', []))}"
+        )
     return CompositeRunArtifact(result=composite_run, json_path=json_path, markdown_path=markdown_path)
 
 
@@ -338,31 +359,39 @@ def run_conditional_compare(
     index_namespace: str | None,
     intervention_paths: set[str],
     include_pairwise: bool,
+    progress: ProgressCallback | None = None,
 ) -> ConditionalCompareArtifacts:
     resolved_index_manifest = load_index_manifest(settings, index_namespace)
     resolved_index_namespace = str(resolved_index_manifest["namespace"])
+    if progress is not None:
+        progress(f"resolved_index_namespace={resolved_index_namespace}")
     control_artifact = run_profile_eval(
         settings=settings,
         profile_name=control_profile,
         eval_path=eval_path,
         index_namespace=resolved_index_namespace,
+        progress=progress,
     )
     candidate_artifact = run_profile_eval(
         settings=settings,
         profile_name=candidate_profile,
         eval_path=eval_path,
         index_namespace=resolved_index_namespace,
+        progress=progress,
     )
     composite_artifact = compose_conditional_run(
         settings=settings,
         control_artifact=control_artifact,
         candidate_artifact=candidate_artifact,
         intervention_paths=intervention_paths,
+        progress=progress,
     )
 
     pairwise_artifact: PairwiseRunArtifact | None = None
     pairwise_error: str | None = None
     if include_pairwise:
+        if progress is not None:
+            progress("starting_pairwise control_vs_composite")
         try:
             pairwise_result = compare_pairwise_runs(
                 settings,
@@ -374,8 +403,12 @@ def run_conditional_compare(
                 result=pairwise_result,
                 path=write_pairwise_run_artifact(settings, pairwise_result),
             )
+            if progress is not None:
+                progress(f"finished_pairwise artifact={pairwise_artifact.path}")
         except Exception as exc:  # pragma: no cover - exercised by live API/auth/runtime only
             pairwise_error = str(exc)
+            if progress is not None:
+                progress(f"pairwise_error={pairwise_error}")
 
     summary = build_conditional_compare_summary(
         eval_path=eval_path,
@@ -390,6 +423,8 @@ def run_conditional_compare(
         pairwise_error=pairwise_error,
     )
     summary_json_path, summary_markdown_path = write_conditional_compare_summary(settings, summary)
+    if progress is not None:
+        progress(f"finished_summary json={summary_json_path} markdown={summary_markdown_path}")
     return ConditionalCompareArtifacts(
         control=control_artifact,
         candidate=candidate_artifact,

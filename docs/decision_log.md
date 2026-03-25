@@ -501,3 +501,8 @@ become the only place where rationale lives.
     required/forbidden claims at the same index
   - this prevents reordered or paraphrased claim lists from being scored against
     the wrong target claims
+- Conditional-compare tooling should emit explicit progress for background runs.
+  Decision:
+  - keep progress reporting in the runner and CLI wrapper
+  - prefer rerunning long comparisons on current branch code over trusting stale
+    background jobs that were started before harness changes

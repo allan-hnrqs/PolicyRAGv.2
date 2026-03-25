@@ -760,3 +760,5 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
 - practical implication:
   - intervention-only conditional results are now safer to interpret because
     summaries no longer hide untouched-case drift
+  - long-running conditional comparisons are now observable through timestamped
+    progress logs instead of appearing silent until completion

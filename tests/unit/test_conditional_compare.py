@@ -193,7 +193,7 @@ def test_run_conditional_compare_records_resolved_index_namespace(monkeypatch, t
         lambda settings, namespace: {"namespace": "resolved_ns"},
     )
 
-    def fake_run_profile_eval(*, settings, profile_name, eval_path, index_namespace):
+    def fake_run_profile_eval(*, settings, profile_name, eval_path, index_namespace, progress=None):
         assert index_namespace == "resolved_ns"
         return control if profile_name == "baseline" else candidate
 
@@ -224,3 +224,62 @@ def test_run_conditional_compare_records_resolved_index_namespace(monkeypatch, t
 
     assert captured_summary["index_namespace"] == "resolved_ns"
     assert isinstance(artifacts, ConditionalCompareArtifacts)
+
+
+def test_run_conditional_compare_emits_progress(monkeypatch, tmp_path: Path) -> None:
+    settings = Settings(project_root=tmp_path)
+    settings.ensure_directories()
+    control = EvalRunArtifact(result=_eval_run("baseline_run", recall=0.7, forbidden=1), path=Path("control.json"))
+    candidate = EvalRunArtifact(result=_eval_run("candidate_run", recall=0.8, forbidden=0), path=Path("candidate.json"))
+    composite_result = _eval_run("candidate_intervention_only_run", recall=0.9, forbidden=0)
+    composite_result.run_manifest = {
+        "composed_from": {
+            "selected_case_ids": ["HR_016"],
+            "non_selected_changed_case_ids": [],
+            "non_selected_preserved_baseline": True,
+        }
+    }
+    composite = CompositeRunArtifact(
+        result=composite_result,
+        json_path=Path("composite.json"),
+        markdown_path=Path("composite.md"),
+    )
+    messages: list[str] = []
+
+    monkeypatch.setattr(
+        "bgrag.eval.conditional_compare.load_index_manifest",
+        lambda settings, namespace: {"namespace": "resolved_ns"},
+    )
+    monkeypatch.setattr(
+        "bgrag.eval.conditional_compare.run_profile_eval",
+        lambda **kwargs: (
+            messages.append(f"run_profile_eval:{kwargs['profile_name']}") or (
+                control if kwargs["profile_name"] == "baseline" else candidate
+            )
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.eval.conditional_compare.compose_conditional_run",
+        lambda **kwargs: (messages.append("compose_conditional_run") or composite),
+    )
+    monkeypatch.setattr(
+        "bgrag.eval.conditional_compare.write_conditional_compare_summary",
+        lambda settings, summary: (Path("summary.json"), Path("summary.md")),
+    )
+
+    run_conditional_compare(
+        settings=settings,
+        eval_path=Path("datasets/eval/generated/missing_detail_focus.jsonl"),
+        control_profile="baseline",
+        candidate_profile="candidate",
+        index_namespace=None,
+        intervention_paths={"rewrite_structured_contract"},
+        include_pairwise=False,
+        progress=messages.append,
+    )
+
+    assert messages[0] == "resolved_index_namespace=resolved_ns"
+    assert "run_profile_eval:baseline" in messages
+    assert "run_profile_eval:candidate" in messages
+    assert "compose_conditional_run" in messages
+    assert any(message.startswith("finished_summary json=summary.json") for message in messages)

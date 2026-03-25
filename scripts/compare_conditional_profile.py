@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 
 from _bootstrap import REPO_ROOT
 from bgrag.config import Settings
@@ -8,6 +9,10 @@ from bgrag.eval.conditional_compare import (
     resolve_cli_path,
     run_conditional_compare,
 )
+
+def _emit_progress(message: str) -> None:
+    stamp = datetime.now(timezone.utc).isoformat()
+    print(f"[{stamp}] {message}", flush=True)
 
 
 def main() -> None:
@@ -32,6 +37,11 @@ def main() -> None:
     settings.ensure_directories()
     eval_path = resolve_cli_path(repo_root, args.eval_path)
     intervention_paths = set(args.intervention_path or ["rewrite_structured_contract"])
+    _emit_progress(
+        "starting_conditional_compare "
+        f"eval_path={eval_path} control_profile={args.control_profile} "
+        f"candidate_profile={args.candidate_profile} intervention_paths={sorted(intervention_paths)}"
+    )
     artifacts = run_conditional_compare(
         settings=settings,
         eval_path=eval_path,
@@ -40,8 +50,10 @@ def main() -> None:
         index_namespace=args.index_namespace,
         intervention_paths=intervention_paths,
         include_pairwise=args.pairwise,
+        progress=_emit_progress,
     )
 
+    _emit_progress("conditional_compare_complete")
     print(artifacts.control.path)
     print(artifacts.candidate.path)
     print(artifacts.composite.json_path)
