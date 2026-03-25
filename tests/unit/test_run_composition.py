@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 
+import pytest
+
 from bgrag.eval.run_composition import compose_eval_run, intervention_selected
 from bgrag.types import AnswerResult, EvalCase, EvalCaseResult, EvalRunResult
 
@@ -54,6 +56,7 @@ def _run(name: str, cases: list[EvalCaseResult]) -> EvalRunResult:
         profile_name=name,
         answer_model="command-a",
         judge_model="command-a",
+        run_manifest={"eval_path": "datasets/eval/parity/parity19.jsonl", "index_namespace": "baseline_ns"},
         cases=cases,
         overall_metrics={},
     )
@@ -107,3 +110,28 @@ def test_compose_eval_run_tracks_abstention_accuracy() -> None:
     assert composite.overall_metrics["judge_answer_abstain_count_annotated"] == 1
     assert composite.overall_metrics["abstain_correct_count"] == 1
     assert composite.overall_metrics["abstain_accuracy"] == 1.0
+
+
+def test_compose_eval_run_rejects_mismatched_case_sets() -> None:
+    control = _run("control", [_case_result("HR_001", recall=0.5, selected_path="baseline_keep")])
+    candidate = _run("candidate", [_case_result("HR_002", recall=1.0, selected_path="rewrite_structured_contract")])
+
+    with pytest.raises(RuntimeError, match="identical case IDs"):
+        compose_eval_run(
+            control_run=control,
+            candidate_run=candidate,
+            choose_candidate_case=intervention_selected,
+        )
+
+
+def test_compose_eval_run_rejects_mismatched_eval_provenance() -> None:
+    control = _run("control", [_case_result("HR_001", recall=0.5, selected_path="baseline_keep")])
+    candidate = _run("candidate", [_case_result("HR_001", recall=1.0, selected_path="rewrite_structured_contract")])
+    candidate.run_manifest["eval_path"] = "datasets/eval/holdout/parity19_holdout.jsonl"
+
+    with pytest.raises(RuntimeError, match="matching parent-run provenance"):
+        compose_eval_run(
+            control_run=control,
+            candidate_run=candidate,
+            choose_candidate_case=intervention_selected,
+        )
