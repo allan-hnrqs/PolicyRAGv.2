@@ -579,3 +579,35 @@ become the only place where rationale lives.
     - candidate wins `2`
     - control wins `0`
     - ties `1`
+- Chunker experiments must not be allowed to compare mismatched corpora and
+  indices.
+  Decision:
+  - `build_answer_callback()` now rejects runs where the loaded
+    `datasets/corpus/chunks.jsonl` hash does not match the selected index
+    manifest
+  Reason:
+  - chunker A/B work reuses one shared chunk-corpus file, so silent corpus/index
+    mismatch would contaminate retrieval comparisons
+- The repo's current `sliding_window_chunker` is not an appropriate proxy for
+  "smaller chunking" on the present corpus.
+  Decision:
+  - do not treat `sliding_window_baseline` as evidence for or against targeted
+    late subchunking of oversized section chunks
+  - treat it only as evidence against a broad whole-corpus swap to the current
+    sliding-window implementation
+  Reason:
+  - the current sliding-window profile produced `1872` chunks versus the
+    section baseline's `5979`, so it is coarser on this corpus rather than more
+    fine-grained
+- The first chunking-first gate does not justify a broad retrieval/chunking
+  architecture turn yet.
+  Decision:
+  - stop short of building a post-retrieval subchunking + `documents` path
+  - only revisit chunking with a narrower oversized-section splitting method if
+    we explicitly target that long-tail failure mode
+  Reason:
+  - rebuilt-39 chunk-length signal was weak/negative
+  - canonical `parity19_dev` scalar degraded:
+    - `0.8611 -> 0.8056`
+  - pairwise was mixed rather than clearly supportive:
+    - `4-4-1`

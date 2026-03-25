@@ -1948,3 +1948,90 @@ capture:
   - the next real question is no longer whether the rewrite is good
   - it is whether we can broaden the gate carefully enough to catch `EX_001`
     and `EX_002` without regressing canonical `parity19`
+
+#### Retrieval / chunking audit: sliding-window control
+
+- Goal:
+  - test the cheapest chunking-first hypothesis before building any
+    post-retrieval late-subchunking path
+  - keep retrieval and answering fixed to the promoted baseline except for the
+    upstream chunker
+- Method work added on `feat/retrieval-chunking-audit`:
+  - added a hard runtime guard in `src/bgrag/pipeline.py`
+    - the loaded `datasets/corpus/chunks.jsonl` must match the selected index
+      manifest hash unless explicit chunks are passed
+    - this prevents silently invalid chunker/index A/B runs
+  - added a diagnostic script:
+    - `scripts/analyze_chunk_length_signal.py`
+  - added a profile-only comparison arm:
+    - `profiles/sliding_window_baseline.yaml`
+  - added targeted tests:
+    - `tests/unit/test_strict_runtime.py`
+    - `tests/unit/test_profiles.py`
+- Validation:
+  - targeted tests:
+    - `40 passed`
+  - `py_compile`:
+    - clean
+- Diagnostic on the rebuilt-39 broad baseline artifact:
+  - report:
+    - `datasets/runs/chunk_length_signal_baseline_20260323_061530_20260325_194426.md`
+  - result:
+    - per-case answer-gap correlation with chunk-size proxies was weak or
+      negative
+    - especially:
+      - `count_over_1600` vs recall gap:
+        - Spearman `0.0666`
+      - `max_chunk_chars` vs recall gap:
+        - Spearman `-0.3563`
+  - interpretation:
+    - oversized packed chunks do not currently explain the broad
+      retrieval-to-answer gap in a simple monotonic way
+- First A/B gate on canonical `parity19_dev`:
+  - control:
+    - `datasets/runs/baseline_20260325_200507_046622_b070.json`
+    - required-claim recall:
+      - `0.8611`
+    - packed claim-evidence recall:
+      - `1.0`
+    - mean case seconds:
+      - `28.05`
+  - candidate:
+    - `datasets/runs/sliding_window_baseline_20260325_201330_097254_18f6.json`
+    - required-claim recall:
+      - `0.8056`
+    - packed claim-evidence recall:
+      - `1.0`
+    - mean case seconds:
+      - `35.14`
+  - pairwise:
+    - `datasets/runs/pairwise_baseline_20260325_200507_046622_b070_vs_sliding_window_baseline_20260325_201330_097254_18f6_20260325_201438_024834_b3cc.json`
+    - control wins:
+      - `4`
+    - candidate wins:
+      - `4`
+    - ties:
+      - `1`
+- Important structural finding:
+  - the current `sliding_window_chunker` is not actually a smaller-chunk proxy
+    on this corpus
+  - it produced:
+    - `1872` chunks
+  - versus the section baseline:
+    - `5979` chunks
+  - the sliding-window dev report confirms packed chunks clustered around the
+    `1200`-char window:
+    - `datasets/runs/chunk_length_signal_sliding_window_baseline_20260325_201330_097254_18f6_20260325_201538.md`
+- Environment note:
+  - Elasticsearch initially refused shard allocation because the local disk
+    watermark had been tripped
+  - after the user freed disk space, the node returned to healthy allocation
+    levels and the transient disk-threshold override was removed
+- Interpretation:
+  - the first cheap chunking A/B does not justify a broad upstream chunker swap
+  - more importantly, it shows that the repo's existing
+    `sliding_window_chunker` is a coarser-window alternative here, not the
+    "split large chunks smaller" experiment we actually care about
+  - if this lane continues, the next meaningful variant is targeted splitting
+    of oversized section chunks only, not a whole-corpus sliding-window
+    replacement

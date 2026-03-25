@@ -17,6 +17,7 @@ from bgrag.indexing.embedder import CohereEmbedder, read_embedding_store, write_
 from bgrag.manifests import (
     build_index_manifest,
     derive_index_namespace,
+    file_sha256,
     index_embeddings_path,
     load_index_manifest,
     set_active_index_namespace,
@@ -29,6 +30,29 @@ from bgrag.retrieval.mode_selection import CohereRetrievalModeSelector
 from bgrag.retrieval.query_expansion import CohereQueryExpander
 from bgrag.retrieval.retriever import HybridRetriever
 from bgrag.types import AnswerResult, ChunkRecord, NormalizedDocument
+
+
+def _validate_chunks_match_index_manifest(settings: Settings, index_manifest: dict[str, object]) -> None:
+    chunks_path = str(index_manifest.get("chunks_path", "")).strip()
+    expected_sha = str(index_manifest.get("chunks_sha256", "")).strip()
+    namespace = str(index_manifest.get("namespace", "")).strip() or "<unknown>"
+    if not chunks_path or not expected_sha:
+        return
+    resolved_chunks_path = settings.resolve(Path(chunks_path))
+    if not resolved_chunks_path.exists():
+        raise RuntimeError(
+            "Querying requires the chunk corpus used to build the selected index. "
+            f"Missing chunk file for namespace `{namespace}`: {resolved_chunks_path}"
+        )
+    current_sha = file_sha256(resolved_chunks_path)
+    if current_sha != expected_sha:
+        raise RuntimeError(
+            "Loaded corpus chunks do not match the selected index manifest. "
+            f"Namespace `{namespace}` expects `{chunks_path}` sha `{expected_sha[:12]}`, "
+            f"but the current file is `{current_sha[:12]}`. "
+            "Run `bgrag build-corpus` and `bgrag build-index` for the desired profile, "
+            "or switch to an index namespace built from the current chunks."
+        )
 
 
 def run_collect(
@@ -121,7 +145,9 @@ def build_answer_callback(
     profile = load_profile(profile_name, settings)
     index_manifest = load_index_manifest(settings, index_namespace)
     namespace = str(index_manifest["namespace"])
-    chunks = chunks or read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
+    if chunks is None:
+        _validate_chunks_match_index_manifest(settings, index_manifest)
+        chunks = read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
     documents = read_normalized_documents(settings.resolve(Path("datasets/corpus/documents")))
     embedding_store = read_embedding_store(index_embeddings_path(settings, namespace))
     if not embedding_store:

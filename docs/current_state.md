@@ -887,3 +887,53 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
 - promotion rule:
   - better or equal exactness-family pairwise / scalar results
   - no regression on canonical `parity19`
+
+## Retrieval / Chunking Audit Status
+
+- active branch:
+  - `feat/retrieval-chunking-audit`
+- status:
+  - chunk/index compatibility is now hardened at runtime
+    - `src/bgrag/pipeline.py` rejects mismatched chunk-corpus / index-manifest
+      pairs
+  - a reproducible chunk-length signal script now exists:
+    - `scripts/analyze_chunk_length_signal.py`
+  - a profile-only chunking comparison arm now exists:
+    - `profiles/sliding_window_baseline.yaml`
+- latest chunking read:
+  - rebuilt-39 broad diagnostic:
+    - `datasets/runs/chunk_length_signal_baseline_20260323_061530_20260325_194426.md`
+    - chunk-size proxies did not show a strong positive correlation with the
+      retrieval-to-answer recall gap
+  - canonical `parity19_dev` A/B:
+    - baseline:
+      - `datasets/runs/baseline_20260325_200507_046622_b070.json`
+      - recall `0.8611`
+    - sliding-window:
+      - `datasets/runs/sliding_window_baseline_20260325_201330_097254_18f6.json`
+      - recall `0.8056`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_200507_046622_b070_vs_sliding_window_baseline_20260325_201330_097254_18f6_20260325_201438_024834_b3cc.json`
+      - control `4`
+      - candidate `4`
+      - ties `1`
+- important interpretation:
+  - the current `sliding_window_chunker` is not a valid "smaller chunk" proxy
+    for this corpus
+  - it produced `1872` chunks versus the baseline section chunker's `5979`
+  - so it behaves as a coarser-window alternative here, not a targeted split of
+    oversized section chunks
+- environment status:
+  - baseline corpus and active index namespace have been restored after the A/B
+  - Elasticsearch disk-threshold allocation override was removed after local
+    free space improved
+
+## Chunking Next Step
+
+- do not jump to a broad post-retrieval subchunking branch yet
+- if chunking work continues, make it narrow:
+  - split only oversized section chunks
+  - keep heading path and parent metadata
+  - compare that targeted variant against the current section baseline
+- otherwise, return to answer-side work with the current chunking read
+  recorded as a negative / mixed result for broad chunker replacement

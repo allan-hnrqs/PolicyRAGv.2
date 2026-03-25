@@ -364,3 +364,47 @@ references over secondary summaries.
 - Practical implication:
   - repo-local evaluation scripts should use the same explicit repo-env loading
     path as the CLI when reproducibility matters
+
+### Chunking / documents-array research pass
+
+- Claude Opus 4.6 peer review on the user's "late subchunk retrieved chunks
+  into Cohere `documents`" idea recommended not bundling two changes at once:
+  - splitting retrieved chunks
+  - switching answer delivery from inline evidence to `documents`
+- Claude's main methodological recommendation:
+  - first test whether chunk size correlates with the retrieval-to-answer gap at
+    all
+  - then, if there is signal, test an upstream chunker swap before building a
+    bespoke post-retrieval subchunking path
+- Cohere's official guidance still supports the general concern:
+  - `documents` is the native grounded-chat path for RAG
+  - Cohere recommends relatively small chunks, roughly `100-400` words /
+    `±400` words
+  Sources:
+  - https://docs.cohere.com/v2/reference/chat
+  - https://docs.cohere.com/v2/docs/retrieval-augmented-generation-rag
+  - https://docs.cohere.com/v2/page/chunking-strategies
+- Cohere's chunking guide is particularly relevant methodologically:
+  - it shows a concrete retrieval failure where a relevant fact is split or
+    positioned poorly until overlap is added
+  Practical implication:
+  - chunking can absolutely matter for grounded QA
+  - but it must be tested in the actual corpus shape, not assumed
+- Databricks' retrieval-quality guidance reinforces that:
+  - chunking remains an active optimization area
+  - parent-child / small-to-big retrieval is often more principled than blind
+    whole-corpus chunk-size retuning
+  Source:
+  - https://learn.microsoft.com/en-us/azure/databricks/vector-search/vector-search-retrieval-quality
+- The "Late Chunking" paper supports the broader intuition that chunking can
+  lose context if done too early, but that is primarily an embedding/index-side
+  idea rather than our exact proposed post-retrieval subchunking method
+  Source:
+  - https://arxiv.org/abs/2409.04701
+- Local repo implication after the first audit:
+  - our current `sliding_window_chunker` is not a good proxy for "smaller
+    chunks"
+  - it produced fewer chunks than `section_chunker` on this corpus, so it is a
+    coarser-window alternative
+  - if we revisit chunking after this branch, the more faithful method is
+    targeted splitting of oversized section chunks only

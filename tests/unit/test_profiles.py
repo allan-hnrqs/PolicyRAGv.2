@@ -84,6 +84,13 @@ def test_missing_detail_exactness_verifier_gated_structured_contract_profile_loa
     assert profile.answering.strategy == "missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat"
 
 
+def test_sliding_window_baseline_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("sliding_window_baseline", settings)
+    assert profile.chunking.chunker == "sliding_window_chunker"
+    assert profile.answering.strategy == "inline_evidence_chat"
+
+
 def test_selective_mode_aware_answer_repair_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("selective_mode_aware_answer_repair", settings)

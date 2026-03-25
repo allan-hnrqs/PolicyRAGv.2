@@ -93,6 +93,22 @@ def test_build_answer_callback_rejects_partial_embedding_store(monkeypatch: pyte
         build_answer_callback(settings, "baseline", chunks=[_chunk()])
 
 
+def test_build_answer_callback_rejects_chunks_index_mismatch(monkeypatch: pytest.MonkeyPatch) -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    monkeypatch.setattr(
+        pipeline,
+        "load_index_manifest",
+        lambda settings, namespace=None: {
+            "namespace": "test_ns",
+            "chunks_path": "datasets/corpus/chunks.jsonl",
+            "chunks_sha256": "expectedsha",
+        },
+    )
+    monkeypatch.setattr(pipeline, "file_sha256", lambda path: "actualsha")
+    with pytest.raises(RuntimeError, match="do not match the selected index manifest"):
+        build_answer_callback(settings, "baseline")
+
+
 def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pytest.MonkeyPatch) -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     chunk = _chunk("doc1__section__7").model_copy(
