@@ -515,3 +515,25 @@ become the only place where rationale lives.
     runs as meaningful direct A/B evidence
   - use intervention-only composites and exactness-family slices when deciding
     whether the exactness path is helping
+- `HR_016` should no longer rely on a single narrow forbidden claim.
+  Decision:
+  - explicitly block adjacent PSPC or `PWGSC-TPSGC` form-number hallucinations
+    in all canonical `HR_016` surfaces
+  - keep the required claims unchanged
+  Reason:
+  - the case concept was sound, but judged runs could still surface plausible
+    unrelated form numbers unless the failure contract named that loophole
+- The exactness family should be expanded with newly authored cases rather than
+  by reclassifying adjacent workflow cases.
+  Decision:
+  - add an audited `exactness_family` dev/holdout surface
+  - include:
+    - the existing split-safe parity39 exactness cases
+    - one new dev case from the Controlled Goods Directorate page
+    - one new holdout case from the PSD audit / GCDocs page
+  - do not add the trade-agreement-unit contact-detail idea as the current dev
+    expansion case
+  Reason:
+  - the controlled-goods page is the cleaner negative exactness source because
+    it explicitly says to contact the directorate via email or telephone while
+    still withholding the actual details

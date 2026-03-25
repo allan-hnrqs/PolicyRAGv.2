@@ -1796,3 +1796,51 @@ capture:
 - High-confidence future exactness additions, if we expand the family later:
   - exact PSPC trade agreement unit contact detail
   - exact GCDocs form or file name for PSD audit services
+
+#### Exactness Surface Expansion
+
+- Branch:
+  - `feat/exactness-surface-expansion`
+- Goal:
+  - tighten the weakest existing exactness case and add a slightly broader but
+    still auditable exactness-family diagnostic surface
+- Changes:
+  - tightened `HR_016` across the canonical eval assets by adding:
+    - a stronger `should_avoid` clause
+    - a second forbidden claim that blocks unrelated adjacent PSPC or
+      `PWGSC-TPSGC` form-number hallucinations
+  - added newly authored exactness-family cases:
+    - `EX_001`
+      - missing Controlled Goods Directorate email or phone detail
+      - source:
+        - `https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods`
+    - `EX_002`
+      - missing GCDocs form or file identifier for PSD audit support
+      - source:
+        - `https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit`
+  - added reproducible exactness-family assets:
+    - `datasets/eval/manifests/exactness_family_authored_cases.json`
+    - `datasets/eval/manifests/exactness_family_case_audit.json`
+    - `scripts/build_exactness_family_slices.py`
+    - `datasets/eval/dev/exactness_family_dev.jsonl`
+    - `datasets/eval/holdout/exactness_family_holdout.jsonl`
+    - `datasets/eval/manifests/exactness_family_slice_manifest.json`
+- Peer-review / research inputs:
+  - Claude Opus 4.6 confirmed the negative-exactness method shape and suggested
+    widening the PSD forbidden claim to cover GCDocs file paths or document IDs
+  - sidecar corpus review found that the Controlled Goods Directorate case is a
+    cleaner dev exactness target than the earlier trade-agreement-unit idea, so
+    `EX_001` was swapped to that stronger source before finalizing
+- Validation:
+  - `python scripts/build_exactness_family_slices.py`
+  - `python scripts/validate_eval_cases.py datasets/eval/dev/exactness_family_dev.jsonl datasets/eval/holdout/exactness_family_holdout.jsonl`
+    - passed: `6 total case(s)`
+  - targeted exactness tests:
+    - `5 passed`
+  - full suite:
+    - `144 passed`
+- Interpretation:
+  - the repo now has a better exactness-family regression surface than the old
+    4-case parity39-only slice
+  - this is still a diagnostic exactness surface, not a broad promotion surface
+    for whole-profile answer changes

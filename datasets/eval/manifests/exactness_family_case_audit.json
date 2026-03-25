@@ -1,0 +1,78 @@
+{
+  "name": "exactness_family_case_audit",
+  "selection_principles": [
+    "Keep the rebuilt-parity39 exactness slice as the base control surface.",
+    "Add only newly authored cases that are clean negative exactness or abstention targets, not generic workflow or retrieval cases.",
+    "Balance dev and holdout additions so the family remains useful both for iteration and for promotion checks."
+  ],
+  "audit_notes": [
+    "This surface extends the rebuilt-parity39 exactness slice with newly authored cases instead of reclassifying adjacent workflow questions.",
+    "HR_016 has been tightened with an adjacent-form forbidden claim so unrelated PSPC or PWGSC-TPSGC form numbers count as explicit failures.",
+    "The current expansion still measures negative exactness and abstention behavior only; it is not yet a positive exact-identifier extraction suite."
+  ],
+  "base_surface": {
+    "dev": "datasets/eval/dev/parity39_exactness_dev.jsonl",
+    "holdout": "datasets/eval/holdout/parity39_exactness_holdout.jsonl"
+  },
+  "authored_source": "datasets/eval/manifests/exactness_family_authored_cases.json",
+  "included_cases": [
+    {
+      "id": "HR_017",
+      "origin": "parity39_exactness",
+      "split": "dev",
+      "reason": "Expected-abstain contact-detail case. The page describes notification methods but does not provide a specific Yukon land claimant group email address."
+    },
+    {
+      "id": "HR_038",
+      "origin": "parity39_exactness",
+      "split": "dev",
+      "reason": "Expected-abstain contact-detail case. The page explains when to engage price advisors but does not provide direct Price Advisory Group contact details."
+    },
+    {
+      "id": "EX_001",
+      "origin": "authored",
+      "split": "dev",
+      "reason": "Expected-abstain contact-detail case. The controlled-goods page says buyers should contact the Controlled Goods Directorate via email or telephone for verification, but it gives no actual contact details."
+    },
+    {
+      "id": "HR_016",
+      "origin": "parity39_exactness",
+      "split": "holdout",
+      "reason": "Expected-abstain internal-artifact case. The documents require ADM approval on file but do not identify a specific reciprocal-procurement form number."
+    },
+    {
+      "id": "HR_037",
+      "origin": "parity39_exactness",
+      "split": "holdout",
+      "reason": "Expected-abstain internal-artifact case. The page references GC-network-only specimen signature card templates but does not identify a specific form number or file name."
+    },
+    {
+      "id": "EX_002",
+      "origin": "authored",
+      "split": "holdout",
+      "reason": "Expected-abstain internal-file case. The audit page points buyers to GCDocs for PSD forms and guidance but does not identify a specific GCDocs form or file name."
+    }
+  ],
+  "excluded_adjacent_candidates": [
+    {
+      "id": "HR_010",
+      "split": "dev",
+      "reason": "The answer depends on required supporting evidence and approval records that are explicitly described on the page; it is not an unsupported exact-detail abstention case."
+    },
+    {
+      "id": "HR_012",
+      "split": "dev",
+      "reason": "The page gives the required notification methods and timing. The question is operational workflow, not missing exact contact detail."
+    },
+    {
+      "id": "HR_026",
+      "split": "dev",
+      "reason": "The page supplies the operative numeric authority threshold and exception. This is an answerable authority question, not an abstention or exactness case."
+    },
+    {
+      "id": "HR_033",
+      "split": "holdout",
+      "reason": "The page provides the timing and rationale for the e-SRCL. This is answerable from the source and should not be treated as unsupported exact-detail abstention."
+    }
+  ]
+}
