@@ -1,0 +1,121 @@
+{
+  "name": "exactness_family_authored_cases",
+  "selection_principles": [
+    "Author only negative exactness or abstention cases where the page clearly discusses a workflow, role, form location, or contact path but does not provide the exact requested identifier.",
+    "Require a concrete missing detail such as a specific email address, direct contact detail, form number, or file name.",
+    "Anchor each case with at least one positive required claim about what the page does say before the abstention claim."
+  ],
+  "cases": [
+    {
+      "id": "EX_001",
+      "persona": "buyer",
+      "split": "dev",
+      "question": "What exact email address or telephone number should I use to contact the Controlled Goods Directorate to verify a person who is not listed on the Registered Persons list?",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+      ],
+      "supporting_urls": [],
+      "expected_primary_source_family": "buyers_guide",
+      "must_include_concepts": [
+        "buyers should contact the Controlled Goods Directorate for verification of persons not listed",
+        "specific contact details are not provided"
+      ],
+      "should_avoid": [
+        "inventing an email address or phone number for the Controlled Goods Directorate"
+      ],
+      "evaluation_focus": "Expected-abstain contact-detail case in the controlled-goods verification family.",
+      "required_claims": [
+        "The page says the Controlled Goods Directorate maintains a Registered Persons list for information purposes only, updated daily, and that the list's accuracy cannot be guaranteed because some registrants may choose not to appear publicly.",
+        "For verification of persons not listed, the page says buyers should contact the Controlled Goods Directorate via email or telephone for further verification.",
+        "The provided documents do not give a specific email address or phone number for the Controlled Goods Directorate."
+      ],
+      "forbidden_claims": [
+        "The provided documents give a specific email address or phone number for the Controlled Goods Directorate."
+      ],
+      "reference_answer": "The controlled-goods page says the Controlled Goods Directorate maintains the Registered Persons list and that, for verification of persons who are not listed, buyers should contact the directorate via email or telephone. But it does not give a specific email address or phone number, so the system should say the provided documents are insufficient for that exact contact detail instead of inventing one.",
+      "expect_abstain": true,
+      "claim_evidence": [
+        {
+          "claim": "The page says the Controlled Goods Directorate maintains a Registered Persons list for information purposes only, updated daily, and that the list's accuracy cannot be guaranteed because some registrants may choose not to appear publicly.",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+          ]
+        },
+        {
+          "claim": "For verification of persons not listed, the page says buyers should contact the Controlled Goods Directorate via email or telephone for further verification.",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+          ]
+        },
+        {
+          "claim": "The provided documents do not give a specific email address or phone number for the Controlled Goods Directorate.",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+          ]
+        }
+      ],
+      "notes": "Authored negative exactness case for missing Controlled Goods Directorate contact details.",
+      "tags": [
+        "abstention_or_missing_detail",
+        "contact_detail",
+        "controlled_goods"
+      ]
+    },
+    {
+      "id": "EX_002",
+      "persona": "buyer",
+      "split": "holdout",
+      "question": "What exact GCDocs form or file name should I use to request PSD audit support for a NATO-allied contractor?",
+      "primary_urls": [
+        "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit"
+      ],
+      "supporting_urls": [],
+      "expected_primary_source_family": "buyers_guide",
+      "must_include_concepts": [
+        "buyers can request foreign-government audit support through the Price Support Directorate",
+        "forms and guidance are on GCDocs",
+        "the exact GCDocs form or file name is not provided"
+      ],
+      "should_avoid": [
+        "inventing a specific GCDocs form name, file name, file path, or document identifier for PSD audit support"
+      ],
+      "evaluation_focus": "Expected-abstain internal-file case in the audit and foreign-contractor family.",
+      "required_claims": [
+        "The page says that when a contract involves a contractor or significant subcontracted portion from a NATO-allied country, buyers can request audit support through the Price Support Directorate (PSD).",
+        "The page says forms and guidance on requesting these services are available on GCDocs, accessible only on the Government of Canada network for PSPC only.",
+        "The provided documents do not identify a specific GCDocs form or file name for requesting PSD audit support."
+      ],
+      "forbidden_claims": [
+        "The provided documents identify a specific GCDocs form, file name, file path, document ID, or form number for requesting PSD audit support."
+      ],
+      "reference_answer": "The audit page says buyers can request this support through the Price Support Directorate and that forms and guidance are available on GCDocs, accessible only on the Government of Canada network for PSPC only. But it does not identify a specific GCDocs form or file name, so the system should abstain from inventing one.",
+      "expect_abstain": true,
+      "claim_evidence": [
+        {
+          "claim": "The page says that when a contract involves a contractor or significant subcontracted portion from a NATO-allied country, buyers can request audit support through the Price Support Directorate (PSD).",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit"
+          ]
+        },
+        {
+          "claim": "The page says forms and guidance on requesting these services are available on GCDocs, accessible only on the Government of Canada network for PSPC only.",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit"
+          ]
+        },
+        {
+          "claim": "The provided documents do not identify a specific GCDocs form or file name for requesting PSD audit support.",
+          "evidence_doc_urls": [
+            "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit"
+          ]
+        }
+      ],
+      "notes": "Authored negative exactness case for missing internal GCDocs artifact details.",
+      "tags": [
+        "abstention_or_missing_detail",
+        "internal_file_name",
+        "audit"
+      ]
+    }
+  ]
+}

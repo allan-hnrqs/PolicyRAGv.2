@@ -776,3 +776,77 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     - intervention-only composites
     - split-safe exactness slices
   - not through raw full-suite standalone profile comparisons
+
+## Exactness Surface Expansion Status
+
+- active branch:
+  - `feat/exactness-surface-expansion`
+- status:
+  - `HR_016` is now tightened on the canonical eval surfaces with an explicit
+    adjacent-form forbidden claim
+  - a new audited exactness-family diagnostic surface now exists:
+    - `datasets/eval/dev/exactness_family_dev.jsonl`
+    - `datasets/eval/holdout/exactness_family_holdout.jsonl`
+  - the new authored cases are:
+    - `EX_001`
+      - Controlled Goods Directorate contact-detail abstention case
+    - `EX_002`
+      - PSD / GCDocs internal-file abstention case
+- current local validation:
+  - `python scripts/validate_eval_cases.py` on the new exactness-family files:
+    - `6 total case(s)`
+  - targeted exactness tests:
+    - `5 passed`
+  - full suite:
+    - `144 passed`
+- interpretation:
+  - the repo now has a stronger exactness-family regression surface than the
+    original 4-case parity39-only slice
+  - this remains a diagnostic family for exactness and abstention behavior, not
+    a full answer-quality promotion surface by itself
+
+## Immediate Next Step
+
+- use the new `exactness_family_dev` and `exactness_family_holdout` surfaces as
+  the next regression gate for:
+  - the narrow exactness-only sub-path
+  - any broader answer-side branch that claims better abstention or exactness
+    behavior
+- if the family proves stable over a few runs, either:
+  - expand it with one more newly audited holdout-quality case, or
+  - move back to the broader answer-architecture work with this stronger
+    exactness gate in place
+
+## Exactness-family Rerun Read
+
+- branch:
+  - `feat/exactness-surface-expansion`
+- current trusted read:
+  - the exactness-family surface is useful and should be merged
+  - the narrow exactness sub-path still helps on the cases it actually rewrites
+  - the gate still underfires on the new authored exactness cases
+- latest intervention-only summaries:
+  - dev:
+    - `datasets/runs/conditional_compare_summary_20260325_073131_514889_ba4d.json`
+    - selected:
+      - `HR_038`
+    - recall:
+      - `0.7222 -> 0.8889`
+  - holdout:
+    - `datasets/runs/conditional_compare_summary_20260325_073144_962664_a209.json`
+    - selected:
+      - `HR_016`
+      - `HR_037`
+    - recall:
+      - `0.7778 -> 0.8889`
+    - forbidden violations:
+      - `1 -> 0`
+    - abstain accuracy:
+      - `0.6667 -> 1.0`
+- merge recommendation:
+  - merge the branch for the eval-surface and harness improvements
+  - treat `EX_001` / `EX_002` underfiring as a bounded follow-up branch
+    targeted at exactness-gate sensitivity
+- open blocker:
+  - OpenAI pairwise is currently unavailable again because the live key is
+    returning `401 account_deactivated` on `responses`

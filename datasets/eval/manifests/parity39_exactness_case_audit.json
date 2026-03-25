@@ -8,7 +8,7 @@
   ],
   "audit_notes": [
     "This surface is intentionally narrow. It is a negative exactness / abstention benchmark, not a full exactness family.",
-    "HR_016 is currently the weakest included case. Its concept is valid, but the authored claim contract is slightly under-constrained because some judged runs have still surfaced adjacent PSPC form numbers as 'relevant forms'. Treat it as included-with-caveat until its contract is tightened.",
+    "HR_016 previously allowed adjacent PSPC or PWGSC-TPSGC form hallucinations to slip past the judge. The case contract is now tightened with a second forbidden claim that explicitly blocks unrelated adjacent form numbers.",
     "If the exactness family is expanded later, prefer newly authored cases over reclassifying adjacent workflow cases."
   ],
   "included_cases": [

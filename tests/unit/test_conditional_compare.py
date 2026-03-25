@@ -4,6 +4,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pytest
+
 from bgrag.config import Settings
 from bgrag.eval.conditional_compare import (
     CompositeRunArtifact,
@@ -11,12 +13,14 @@ from bgrag.eval.conditional_compare import (
     EvalRunArtifact,
     PairwiseRunArtifact,
     build_conditional_compare_summary,
+    compose_conditional_run,
     render_composite_markdown,
     render_conditional_compare_summary_markdown,
     run_conditional_compare,
     write_conditional_compare_summary,
 )
-from bgrag.types import EvalRunResult, PairwiseRunResult
+from bgrag.eval.run_composition import compute_overall_metrics
+from bgrag.types import AnswerResult, EvalCase, EvalCaseResult, EvalRunResult, PairwiseRunResult
 
 
 def _eval_run(name: str, *, recall: float, forbidden: int, abstain_accuracy: float = 0.0) -> EvalRunResult:
@@ -35,6 +39,62 @@ def _eval_run(name: str, *, recall: float, forbidden: int, abstain_accuracy: flo
             "abstain_accuracy": abstain_accuracy,
             "answer_failure_count": 0,
         },
+    )
+
+
+def _case_result(case_id: str, *, recall: float, selected_path: str) -> EvalCaseResult:
+    return EvalCaseResult(
+        case=EvalCase(id=case_id, question=f"Question {case_id}"),
+        answer=AnswerResult(
+            question=f"Question {case_id}",
+            answer_text=f"Answer {case_id}",
+            strategy_name="baseline",
+            model_name="command-a",
+            raw_response={"selected_path": selected_path},
+        ),
+        judgment={
+            "required_claim_recall": recall,
+            "forbidden_claim_violation_count": 0,
+            "forbidden_claims_clean": True,
+        },
+        metrics={
+            "required_claim_recall": recall,
+            "abstained": False,
+            "failed": False,
+            "forbidden_claims_clean": True,
+            "forbidden_claim_violation_count": 0,
+            "judge_answer_abstains": False,
+            "expect_abstain_annotated": False,
+            "expect_abstain": None,
+            "abstain_correct": None,
+            "query_embedding_seconds": 0.1,
+            "retrieval_seconds": 0.2,
+            "answer_generation_seconds": 0.3,
+            "judge_seconds": 0.4,
+            "total_case_seconds": 1.0,
+            "packed_primary_url_hit": True,
+            "candidate_primary_url_hit": True,
+            "packed_supporting_url_hit": False,
+            "candidate_supporting_url_hit": False,
+            "packed_expected_url_recall": 1.0,
+            "candidate_expected_url_recall": 1.0,
+            "packed_claim_evidence_recall": 1.0,
+            "candidate_claim_evidence_recall": 1.0,
+            "claim_evidence_annotated": True,
+        },
+    )
+
+
+def _eval_run_with_cases(name: str, cases: list[EvalCaseResult]) -> EvalRunResult:
+    return EvalRunResult(
+        run_name=name,
+        created_at=datetime.now(timezone.utc),
+        profile_name=name,
+        answer_model="command-a",
+        judge_model="command-a",
+        run_manifest={},
+        cases=cases,
+        overall_metrics=compute_overall_metrics(cases),
     )
 
 
@@ -224,6 +284,67 @@ def test_run_conditional_compare_records_resolved_index_namespace(monkeypatch, t
 
     assert captured_summary["index_namespace"] == "resolved_ns"
     assert isinstance(artifacts, ConditionalCompareArtifacts)
+
+
+def test_compose_conditional_run_rejects_profile_name_used_as_intervention_selector(tmp_path: Path) -> None:
+    settings = Settings(project_root=tmp_path)
+    settings.ensure_directories()
+    control = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "baseline_run",
+            [
+                _case_result("HR_016", recall=0.5, selected_path="baseline_keep"),
+                _case_result("HR_037", recall=0.5, selected_path="baseline_keep"),
+            ],
+        ),
+        path=Path("control.json"),
+    )
+    candidate = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "missing_detail_exactness_verifier_gated_structured_contract_answering",
+            [
+                _case_result("HR_016", recall=1.0, selected_path="rewrite_structured_contract"),
+                _case_result("HR_037", recall=0.5, selected_path="baseline_keep"),
+            ],
+        ),
+        path=Path("candidate.json"),
+    )
+
+    with pytest.raises(RuntimeError, match="Use raw selected_path labels"):
+        compose_conditional_run(
+            settings=settings,
+            control_artifact=control,
+            candidate_artifact=candidate,
+            intervention_paths={"missing_detail_exactness_verifier_gated_structured_contract_answering"},
+        )
+
+
+def test_compose_conditional_run_allows_zero_selected_cases_when_candidate_never_intervenes(tmp_path: Path) -> None:
+    settings = Settings(project_root=tmp_path)
+    settings.ensure_directories()
+    control = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "baseline_run",
+            [_case_result("HR_017", recall=1.0, selected_path="baseline_keep")],
+        ),
+        path=Path("control.json"),
+    )
+    candidate = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "missing_detail_exactness_verifier_gated_structured_contract_answering",
+            [_case_result("HR_017", recall=1.0, selected_path="baseline_keep")],
+        ),
+        path=Path("candidate.json"),
+    )
+
+    composite = compose_conditional_run(
+        settings=settings,
+        control_artifact=control,
+        candidate_artifact=candidate,
+        intervention_paths={"missing_detail_exactness_verifier_gated_structured_contract_answering"},
+    )
+
+    assert composite.result.run_manifest["composed_from"]["selected_case_ids"] == []
 
 
 def test_run_conditional_compare_emits_progress(monkeypatch, tmp_path: Path) -> None:

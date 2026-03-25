@@ -311,3 +311,43 @@ references over secondary summaries.
   Practical implication:
   - conditional summaries should always expose whether non-selected candidate
     cases stayed baseline-equivalent or not
+
+### Exactness-family expansion review
+
+- Claude Opus 4.6 peer review supported the general method choice:
+  - tighten `HR_016`
+  - add `1-2` newly authored negative exactness cases instead of stopping at
+    the original 4-case surface
+- Claude's most concrete case-design suggestion:
+  - broaden the PSD case prohibition so invented GCDocs file paths or document
+    IDs count as failures, not just invented form or file names
+- A sidecar corpus search turned up a cleaner dev expansion case than the
+  earlier trade-agreement-unit idea:
+  - Controlled Goods Directorate verification contact detail
+  Why it is stronger:
+  - the page explicitly says to contact the directorate via email or telephone
+  - but it still withholds the actual email address and phone number
+- The same sidecar search also reinforced the PSD audit / GCDocs case as a
+  strong holdout-quality negative exactness target
+- Practical inference:
+  - the best next exactness-family additions are pages that explicitly describe
+    a contact or internal artifact path while withholding the exact identifier
+  - they are cleaner than pages that merely say "contact X for guidance" with
+    less explicit contact-path language
+
+### Exactness-family rerun peer review
+
+- Claude Opus 4.6 peer review on the rerun evidence recommended:
+  - merge the branch for the stronger exactness regression surface and the
+    `HR_016` tightening
+  - keep exactness-gate sensitivity work out of this merge
+  - document a specific risk:
+    - the narrow exactness gate currently fires mainly on cases shaped like the
+      original `HR_016` / `HR_037` / `HR_038` pattern
+    - the new `EX_001` / `EX_002` cases have a slightly different evidence
+      profile, so they should become the bounded follow-up target for gate
+      sensitivity
+- This matches the local read:
+  - eval-surface work and answer-method tuning should stay separated
+  - the branch is worth merging even though the narrow exactness gate is not
+    yet complete on the new authored cases

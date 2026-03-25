@@ -1796,3 +1796,112 @@ capture:
 - High-confidence future exactness additions, if we expand the family later:
   - exact PSPC trade agreement unit contact detail
   - exact GCDocs form or file name for PSD audit services
+
+#### Exactness Surface Expansion
+
+- Branch:
+  - `feat/exactness-surface-expansion`
+- Goal:
+  - tighten the weakest existing exactness case and add a slightly broader but
+    still auditable exactness-family diagnostic surface
+- Changes:
+  - tightened `HR_016` across the canonical eval assets by adding:
+    - a stronger `should_avoid` clause
+    - a second forbidden claim that blocks unrelated adjacent PSPC or
+      `PWGSC-TPSGC` form-number hallucinations
+  - added newly authored exactness-family cases:
+    - `EX_001`
+      - missing Controlled Goods Directorate email or phone detail
+      - source:
+        - `https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods`
+    - `EX_002`
+      - missing GCDocs form or file identifier for PSD audit support
+      - source:
+        - `https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit`
+  - added reproducible exactness-family assets:
+    - `datasets/eval/manifests/exactness_family_authored_cases.json`
+    - `datasets/eval/manifests/exactness_family_case_audit.json`
+    - `scripts/build_exactness_family_slices.py`
+    - `datasets/eval/dev/exactness_family_dev.jsonl`
+    - `datasets/eval/holdout/exactness_family_holdout.jsonl`
+    - `datasets/eval/manifests/exactness_family_slice_manifest.json`
+- Peer-review / research inputs:
+  - Claude Opus 4.6 confirmed the negative-exactness method shape and suggested
+    widening the PSD forbidden claim to cover GCDocs file paths or document IDs
+  - sidecar corpus review found that the Controlled Goods Directorate case is a
+    cleaner dev exactness target than the earlier trade-agreement-unit idea, so
+    `EX_001` was swapped to that stronger source before finalizing
+- Validation:
+  - `python scripts/build_exactness_family_slices.py`
+  - `python scripts/validate_eval_cases.py datasets/eval/dev/exactness_family_dev.jsonl datasets/eval/holdout/exactness_family_holdout.jsonl`
+    - passed: `6 total case(s)`
+  - targeted exactness tests:
+    - `5 passed`
+  - full suite:
+    - `144 passed`
+- Interpretation:
+  - the repo now has a better exactness-family regression surface than the old
+    4-case parity39-only slice
+  - this is still a diagnostic exactness surface, not a broad promotion surface
+    for whole-profile answer changes
+
+#### Exactness-family conditional compare rerun
+
+- A first rerun from `main` failed immediately because the new
+  `exactness_family_*` eval assets only exist on
+  `feat/exactness-surface-expansion`, not on `main`.
+- After switching to `feat/exactness-surface-expansion`, the first conditional
+  compare pass also exposed a harness-usage problem:
+  - we had passed the candidate profile name as `--intervention-path`
+  - the composer expects raw `selected_path` labels such as
+    `rewrite_structured_contract`
+- Fix:
+  - `src/bgrag/eval/conditional_compare.py` now raises a clear runtime error if
+    the provided intervention selector does not match any observed
+    non-baseline `selected_path` values
+  - `scripts/compare_conditional_profile.py` now documents
+    `rewrite_structured_contract` explicitly in the CLI help text
+  - targeted tests added or updated in:
+    - `tests/unit/test_conditional_compare.py`
+    - `tests/unit/test_run_composition.py`
+- Validation:
+  - targeted eval-harness tests:
+    - `13 passed`
+- Correct rerun using `--intervention-path rewrite_structured_contract`:
+  - dev:
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_073131_514889_ba4d.json`
+    - selected cases:
+      - `HR_038`
+    - scalar result:
+      - recall `0.7222 -> 0.8889`
+      - forbidden violations `0 -> 0`
+      - abstain accuracy `1.0 -> 1.0`
+    - current limitation:
+      - `EX_001` still underfires and stays on the preserved baseline path
+  - holdout:
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_073144_962664_a209.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - scalar result:
+      - recall `0.7778 -> 0.8889`
+      - forbidden violations `1 -> 0`
+      - abstain accuracy `0.6667 -> 1.0`
+    - current limitation:
+      - `EX_002` stays on the preserved baseline path
+- Important measurement caveat:
+  - non-selected drift is still visible in the standalone candidate runs:
+    - dev:
+      - `HR_017`, `EX_001`
+    - holdout:
+      - `EX_002`
+  - this does not change the intervention-only result, but it confirms again
+    that whole-profile A/B runs are not the right promotion surface for this
+    method
+- Pairwise status:
+  - OpenAI pairwise was requested on both reruns
+  - both failed with:
+    - `401 account_deactivated`
+  - so these reruns should be read as scalar + intervention-only evidence only
