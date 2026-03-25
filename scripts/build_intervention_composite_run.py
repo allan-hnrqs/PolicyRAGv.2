@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _bootstrap import REPO_ROOT
 from bgrag.eval.run_composition import compose_eval_run, intervention_selected
 from bgrag.types import EvalRunResult
 
@@ -75,7 +76,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    repo_root = Path(__file__).resolve().parents[1]
+    repo_root = REPO_ROOT
     control_path = _resolve_path(repo_root, args.control_run)
     candidate_path = _resolve_path(repo_root, args.candidate_run)
     control_run = _load_run(control_path)

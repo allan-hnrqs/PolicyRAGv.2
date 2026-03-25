@@ -7,6 +7,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _bootstrap import REPO_ROOT
 from bgrag.config import Settings
 from bgrag.eval.runner import run_eval
 from bgrag.manifests import build_eval_run_manifest, build_run_name, load_index_manifest, write_run_artifact_manifest
@@ -21,6 +22,8 @@ class RunSummary:
     mean_case_seconds: float
     answer_failures: int
     forbidden_claim_violations: int
+    abstain_accuracy: float
+    abstain_annotated_case_count: int
     packed_primary_url_hit_rate: float
     candidate_primary_url_hit_rate: float
     packed_expected_url_recall: float
@@ -44,8 +47,10 @@ class RepeatSummary:
     min_required_claim_recall: float
     max_required_claim_recall: float
     mean_case_seconds: float
-    answer_failures: int
-    forbidden_claim_violations: int
+    mean_answer_failures: float
+    mean_forbidden_claim_violations: float
+    mean_abstain_accuracy: float
+    mean_abstain_annotated_case_count: float
     mean_packed_primary_url_hit_rate: float
     mean_candidate_primary_url_hit_rate: float
     mean_packed_expected_url_recall: float
@@ -102,6 +107,8 @@ def _run_once(
         mean_case_seconds=float(overall_metrics["mean_case_seconds"]),
         answer_failures=int(overall_metrics["answer_failure_count"]),
         forbidden_claim_violations=int(overall_metrics["forbidden_claim_violation_count"]),
+        abstain_accuracy=float(overall_metrics.get("abstain_accuracy", 0.0)),
+        abstain_annotated_case_count=int(overall_metrics.get("expect_abstain_annotated_case_count", 0)),
         packed_primary_url_hit_rate=float(overall_metrics["packed_primary_url_hit_rate"]),
         candidate_primary_url_hit_rate=float(overall_metrics["candidate_primary_url_hit_rate"]),
         packed_expected_url_recall=float(overall_metrics["packed_expected_url_recall_mean"]),
@@ -136,8 +143,10 @@ def _render_markdown_summary(eval_path: Path, summaries: list[RepeatSummary]) ->
                 f"- min_required_claim_recall: {summary.min_required_claim_recall:.6f}",
                 f"- max_required_claim_recall: {summary.max_required_claim_recall:.6f}",
                 f"- mean_case_seconds: {summary.mean_case_seconds:.3f}",
-                f"- answer_failures: {summary.answer_failures}",
-                f"- forbidden_claim_violations: {summary.forbidden_claim_violations}",
+                f"- mean_answer_failures: {summary.mean_answer_failures:.3f}",
+                f"- mean_forbidden_claim_violations: {summary.mean_forbidden_claim_violations:.3f}",
+                f"- mean_abstain_accuracy: {summary.mean_abstain_accuracy:.6f}",
+                f"- mean_abstain_annotated_case_count: {summary.mean_abstain_annotated_case_count:.1f}",
                 f"- mean_packed_primary_url_hit_rate: {summary.mean_packed_primary_url_hit_rate:.6f}",
                 f"- mean_candidate_primary_url_hit_rate: {summary.mean_candidate_primary_url_hit_rate:.6f}",
                 f"- mean_packed_expected_url_recall: {summary.mean_packed_expected_url_recall:.6f}",
@@ -166,6 +175,8 @@ def _render_markdown_summary(eval_path: Path, summaries: list[RepeatSummary]) ->
                     f"   - mean_case_seconds: {run_summary.mean_case_seconds:.3f}",
                     f"   - answer_failures: {run_summary.answer_failures}",
                     f"   - forbidden_claim_violations: {run_summary.forbidden_claim_violations}",
+                    f"   - abstain_accuracy: {run_summary.abstain_accuracy:.6f}",
+                    f"   - abstain_annotated_case_count: {run_summary.abstain_annotated_case_count}",
                     f"   - abstain_count: {run_summary.abstain_count}",
                     f"   - routes: {route_bits}",
                 ]
@@ -182,7 +193,7 @@ def main() -> None:
     parser.add_argument("--index-namespace", default=None, help="Explicit index namespace")
     args = parser.parse_args()
 
-    repo_root = Path(__file__).resolve().parents[1]
+    repo_root = REPO_ROOT
     settings = Settings(_env_file=repo_root / ".env", project_root=repo_root)
     settings.ensure_directories()
     eval_path = Path(args.eval_path)
@@ -196,6 +207,8 @@ def main() -> None:
         mean_case_seconds: list[float] = []
         failure_counts: list[int] = []
         forbidden_counts: list[int] = []
+        abstain_accuracies: list[float] = []
+        abstain_annotated_case_counts: list[float] = []
         packed_primary_hit_rates: list[float] = []
         candidate_primary_hit_rates: list[float] = []
         packed_expected_url_recalls: list[float] = []
@@ -217,6 +230,8 @@ def main() -> None:
             mean_case_seconds.append(run_summary.mean_case_seconds)
             failure_counts.append(run_summary.answer_failures)
             forbidden_counts.append(run_summary.forbidden_claim_violations)
+            abstain_accuracies.append(run_summary.abstain_accuracy)
+            abstain_annotated_case_counts.append(float(run_summary.abstain_annotated_case_count))
             packed_primary_hit_rates.append(run_summary.packed_primary_url_hit_rate)
             candidate_primary_hit_rates.append(run_summary.candidate_primary_url_hit_rate)
             packed_expected_url_recalls.append(run_summary.packed_expected_url_recall)
@@ -236,8 +251,10 @@ def main() -> None:
                 min_required_claim_recall=min(recalls),
                 max_required_claim_recall=max(recalls),
                 mean_case_seconds=statistics.mean(mean_case_seconds),
-                answer_failures=sum(failure_counts),
-                forbidden_claim_violations=sum(forbidden_counts),
+                mean_answer_failures=statistics.mean(failure_counts),
+                mean_forbidden_claim_violations=statistics.mean(forbidden_counts),
+                mean_abstain_accuracy=statistics.mean(abstain_accuracies),
+                mean_abstain_annotated_case_count=statistics.mean(abstain_annotated_case_counts),
                 mean_packed_primary_url_hit_rate=statistics.mean(packed_primary_hit_rates),
                 mean_candidate_primary_url_hit_rate=statistics.mean(candidate_primary_hit_rates),
                 mean_packed_expected_url_recall=statistics.mean(packed_expected_url_recalls),
