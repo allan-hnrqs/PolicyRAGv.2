@@ -537,3 +537,25 @@ become the only place where rationale lives.
   - the controlled-goods page is the cleaner negative exactness source because
     it explicitly says to contact the directorate via email or telephone while
     still withholding the actual details
+- Conditional-compare tooling must reject selector misuse when a candidate run
+  clearly intervened.
+  Decision:
+  - if the requested `intervention_paths` do not match any observed
+    non-baseline `selected_path` values, fail fast with an explicit error
+  - keep allowing zero selected cases when the candidate genuinely stayed on
+    `baseline_keep`
+  Reason:
+  - silently accepting a profile name instead of a raw `selected_path` label
+    produces a false zero-intervention read and contaminates promotion logic
+- `feat/exactness-surface-expansion` is mergeable as eval-surface work even
+  though the narrow exactness gate still underfires on `EX_001` and `EX_002`.
+  Decision:
+  - merge the branch for:
+    - tightened `HR_016`
+    - the new audited `exactness_family` regression surface
+    - the conditional-compare selector guard
+  - do not mix gate-sensitivity tuning into this merge
+  Reason:
+  - the branch contract is a stronger, more honest exactness regression gate
+  - the remaining underfiring is a follow-up answer-method problem, not a
+    reason to block the eval-surface improvement itself

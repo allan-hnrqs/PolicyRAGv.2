@@ -334,3 +334,20 @@ references over secondary summaries.
     a contact or internal artifact path while withholding the exact identifier
   - they are cleaner than pages that merely say "contact X for guidance" with
     less explicit contact-path language
+
+### Exactness-family rerun peer review
+
+- Claude Opus 4.6 peer review on the rerun evidence recommended:
+  - merge the branch for the stronger exactness regression surface and the
+    `HR_016` tightening
+  - keep exactness-gate sensitivity work out of this merge
+  - document a specific risk:
+    - the narrow exactness gate currently fires mainly on cases shaped like the
+      original `HR_016` / `HR_037` / `HR_038` pattern
+    - the new `EX_001` / `EX_002` cases have a slightly different evidence
+      profile, so they should become the bounded follow-up target for gate
+      sensitivity
+- This matches the local read:
+  - eval-surface work and answer-method tuning should stay separated
+  - the branch is worth merging even though the narrow exactness gate is not
+    yet complete on the new authored cases

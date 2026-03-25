@@ -1844,3 +1844,64 @@ capture:
     4-case parity39-only slice
   - this is still a diagnostic exactness surface, not a broad promotion surface
     for whole-profile answer changes
+
+#### Exactness-family conditional compare rerun
+
+- A first rerun from `main` failed immediately because the new
+  `exactness_family_*` eval assets only exist on
+  `feat/exactness-surface-expansion`, not on `main`.
+- After switching to `feat/exactness-surface-expansion`, the first conditional
+  compare pass also exposed a harness-usage problem:
+  - we had passed the candidate profile name as `--intervention-path`
+  - the composer expects raw `selected_path` labels such as
+    `rewrite_structured_contract`
+- Fix:
+  - `src/bgrag/eval/conditional_compare.py` now raises a clear runtime error if
+    the provided intervention selector does not match any observed
+    non-baseline `selected_path` values
+  - `scripts/compare_conditional_profile.py` now documents
+    `rewrite_structured_contract` explicitly in the CLI help text
+  - targeted tests added or updated in:
+    - `tests/unit/test_conditional_compare.py`
+    - `tests/unit/test_run_composition.py`
+- Validation:
+  - targeted eval-harness tests:
+    - `13 passed`
+- Correct rerun using `--intervention-path rewrite_structured_contract`:
+  - dev:
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_073131_514889_ba4d.json`
+    - selected cases:
+      - `HR_038`
+    - scalar result:
+      - recall `0.7222 -> 0.8889`
+      - forbidden violations `0 -> 0`
+      - abstain accuracy `1.0 -> 1.0`
+    - current limitation:
+      - `EX_001` still underfires and stays on the preserved baseline path
+  - holdout:
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_073144_962664_a209.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - scalar result:
+      - recall `0.7778 -> 0.8889`
+      - forbidden violations `1 -> 0`
+      - abstain accuracy `0.6667 -> 1.0`
+    - current limitation:
+      - `EX_002` stays on the preserved baseline path
+- Important measurement caveat:
+  - non-selected drift is still visible in the standalone candidate runs:
+    - dev:
+      - `HR_017`, `EX_001`
+    - holdout:
+      - `EX_002`
+  - this does not change the intervention-only result, but it confirms again
+    that whole-profile A/B runs are not the right promotion surface for this
+    method
+- Pairwise status:
+  - OpenAI pairwise was requested on both reruns
+  - both failed with:
+    - `401 account_deactivated`
+  - so these reruns should be read as scalar + intervention-only evidence only

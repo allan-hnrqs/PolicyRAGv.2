@@ -27,7 +27,10 @@ def main() -> None:
         "--intervention-path",
         action="append",
         default=None,
-        help="selected_path values that count as true candidate interventions. Repeatable.",
+        help=(
+            "Raw selected_path values that count as true candidate interventions, "
+            "for example 'rewrite_structured_contract'. Repeatable."
+        ),
     )
     parser.add_argument("--pairwise", action="store_true", help="Run OpenAI pairwise judging on control vs composite.")
     args = parser.parse_args()

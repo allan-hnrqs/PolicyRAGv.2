@@ -816,3 +816,37 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - expand it with one more newly audited holdout-quality case, or
   - move back to the broader answer-architecture work with this stronger
     exactness gate in place
+
+## Exactness-family Rerun Read
+
+- branch:
+  - `feat/exactness-surface-expansion`
+- current trusted read:
+  - the exactness-family surface is useful and should be merged
+  - the narrow exactness sub-path still helps on the cases it actually rewrites
+  - the gate still underfires on the new authored exactness cases
+- latest intervention-only summaries:
+  - dev:
+    - `datasets/runs/conditional_compare_summary_20260325_073131_514889_ba4d.json`
+    - selected:
+      - `HR_038`
+    - recall:
+      - `0.7222 -> 0.8889`
+  - holdout:
+    - `datasets/runs/conditional_compare_summary_20260325_073144_962664_a209.json`
+    - selected:
+      - `HR_016`
+      - `HR_037`
+    - recall:
+      - `0.7778 -> 0.8889`
+    - forbidden violations:
+      - `1 -> 0`
+    - abstain accuracy:
+      - `0.6667 -> 1.0`
+- merge recommendation:
+  - merge the branch for the eval-surface and harness improvements
+  - treat `EX_001` / `EX_002` underfiring as a bounded follow-up branch
+    targeted at exactness-gate sensitivity
+- open blocker:
+  - OpenAI pairwise is currently unavailable again because the live key is
+    returning `401 account_deactivated` on `responses`
