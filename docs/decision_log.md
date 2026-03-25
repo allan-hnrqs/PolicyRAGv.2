@@ -586,3 +586,18 @@ become the only place where rationale lives.
   - pairwise is a secondary promotion check
   - discarding finished artifacts because an external judge key is temporarily
     invalid is operationally wrong
+- The verifier/exactness branch is strongest on unsupported exact-detail
+  failures, not as a broad answer-policy replacement.
+  Decision:
+  - continue evaluating this branch primarily on split-safe exactness and
+    abstention surfaces
+  - do not interpret its wins as evidence for general workflow/policy gains
+  Why:
+  - canonical `parity19_dev` selected zero cases and stayed exactly neutral
+  - canonical `parity19_holdout` only rewrote `HR_016`, with pairwise
+    `1` candidate win and `9` ties
+  - split-safe rebuilt-39 exactness holdout rewrote `HR_016` and `HR_037` and
+    improved:
+    - recall `0.6667 -> 0.8333`
+    - forbidden violations `1 -> 0`
+    - pairwise `2` candidate wins, `0` baseline wins, `0` ties

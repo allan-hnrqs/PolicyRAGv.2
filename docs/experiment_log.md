@@ -1983,3 +1983,43 @@ capture:
     - candidate wins `2`
     - baseline wins `0`
     - ties `2`
+
+#### Split-Safe Rebuilt-39 Exactness Slices
+
+- Goal:
+  - move from the mixed diagnostic `missing_detail_focus` probe to a rebuilt-39
+    exactness/abstention surface that preserves dev vs holdout boundaries
+- Slice builder:
+  - `scripts/build_parity39_exactness_slices.py`
+- Generated assets:
+  - `datasets/eval/dev/parity39_exactness_dev.jsonl`
+  - `datasets/eval/holdout/parity39_exactness_holdout.jsonl`
+  - `datasets/eval/manifests/parity39_exactness_slice_manifest.json`
+- Validation:
+  - `python scripts/validate_eval_cases.py datasets/eval/dev/parity39_exactness_dev.jsonl datasets/eval/holdout/parity39_exactness_holdout.jsonl`
+  - passed: `4 total case(s)`
+- Results:
+  - dev summary:
+    - `datasets/runs/conditional_compare_summary_20260325_024138_664727_566e.json`
+    - selected cases: none
+    - control / candidate / composite all `0.7500`
+  - holdout summary:
+    - `datasets/runs/conditional_compare_summary_20260325_024147_643043_8066.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - control recall `0.6667`
+    - candidate recall `0.8333`
+    - intervention-only composite recall `0.8333`
+    - forbidden violations `1 -> 0`
+  - manual pairwise on the holdout control vs intervention-only composite:
+    - `datasets/runs/pairwise_baseline_20260325_024012_091423_580b_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_intervention_only_20260325_024144_889370_a7ce_20260325_024259_566288_13bb.json`
+    - candidate wins `2`
+    - baseline wins `0`
+    - ties `0`
+- Interpretation:
+  - the branch remains narrow: it does nothing on the exactness dev slice
+  - on the split-safe exactness holdout slice, its interventions carry the full
+    gain and pairwise agrees completely
+  - this is the clearest evidence so far that the verifier/exactness family is
+    useful specifically for unsupported exact-detail failures

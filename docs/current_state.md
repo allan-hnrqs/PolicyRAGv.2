@@ -927,3 +927,25 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     - candidate wins `2`
     - baseline wins `0`
     - ties `2`
+- split-safe rebuilt-39 exactness read:
+  - dev:
+    - `datasets/runs/conditional_compare_summary_20260325_024138_664727_566e.json`
+    - selected cases: none
+    - composite stays equal to baseline at `0.7500`
+  - holdout:
+    - `datasets/runs/conditional_compare_summary_20260325_024147_643043_8066.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - composite recall `0.6667 -> 0.8333`
+    - forbidden violations `1 -> 0`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_024012_091423_580b_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_intervention_only_20260325_024144_889370_a7ce_20260325_024259_566288_13bb.json`
+      - candidate wins `2`
+      - baseline wins `0`
+      - ties `0`
+- practical interpretation:
+  - this branch still does not justify broad default promotion
+  - but it now has clean split-safe rebuilt-39 evidence on the exactness family
+  - the benefit remains concentrated in unsupported exact-detail / internal
+    artifact cases rather than general workflow answering
