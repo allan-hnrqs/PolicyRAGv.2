@@ -33,6 +33,7 @@ def _eval_run(name: str, *, recall: float, forbidden: int, abstain_accuracy: flo
             "forbidden_claim_violation_count": forbidden,
             "mean_case_seconds": 12.5,
             "abstain_accuracy": abstain_accuracy,
+            "answer_failure_count": 0,
         },
     )
 
@@ -58,7 +59,13 @@ def test_render_composite_markdown_shows_selected_cases() -> None:
     control = _eval_run("baseline_run", recall=0.7, forbidden=1)
     candidate = _eval_run("candidate_run", recall=0.8, forbidden=0)
     composite = _eval_run("candidate_intervention_only_run", recall=0.85, forbidden=0, abstain_accuracy=1.0)
-    composite.run_manifest = {"composed_from": {"selected_case_ids": ["HR_016", "HR_038"]}}
+    composite.run_manifest = {
+        "composed_from": {
+            "selected_case_ids": ["HR_016", "HR_038"],
+            "non_selected_changed_case_ids": ["HR_005"],
+            "non_selected_preserved_baseline": False,
+        }
+    }
 
     markdown = render_composite_markdown(
         control_run=control,
@@ -68,6 +75,8 @@ def test_render_composite_markdown_shows_selected_cases() -> None:
 
     assert "- selected_case_count: 2" in markdown
     assert "- selected_case_ids: HR_016, HR_038" in markdown
+    assert "- non_selected_changed_case_count: 1" in markdown
+    assert "- non_selected_changed_case_ids: HR_005" in markdown
     assert "- composite: 0.850000" in markdown
     assert "- composite_abstain_accuracy: 1.000000" in markdown
     assert "- composite_artifact_mean_case_seconds: 12.500" in markdown
@@ -78,7 +87,13 @@ def test_build_conditional_compare_summary_includes_pairwise_metrics() -> None:
     control = EvalRunArtifact(result=_eval_run("baseline_run", recall=0.7, forbidden=1), path=Path("control.json"))
     candidate = EvalRunArtifact(result=_eval_run("candidate_run", recall=0.8, forbidden=0), path=Path("candidate.json"))
     composite_result = _eval_run("candidate_intervention_only_run", recall=0.9, forbidden=0)
-    composite_result.run_manifest = {"composed_from": {"selected_case_ids": ["HR_016"]}}
+    composite_result.run_manifest = {
+        "composed_from": {
+            "selected_case_ids": ["HR_016"],
+            "non_selected_changed_case_ids": ["HR_002"],
+            "non_selected_preserved_baseline": False,
+        }
+    }
     composite = CompositeRunArtifact(
         result=composite_result,
         json_path=Path("composite.json"),
@@ -101,10 +116,13 @@ def test_build_conditional_compare_summary_includes_pairwise_metrics() -> None:
 
     assert summary["selected_case_count"] == 1
     assert summary["selected_case_ids"] == ["HR_016"]
+    assert summary["non_selected_changed_case_ids"] == ["HR_002"]
+    assert summary["non_selected_preserved_baseline"] is False
     assert summary["composite_required_claim_recall"] == 0.9
     assert summary["pairwise_metrics"]["candidate_win_count"] == 4
 
     markdown = render_conditional_compare_summary_markdown(summary)
+    assert "- non_selected_changed_case_count: 1" in markdown
     assert "- pairwise_run_path: pairwise.json" in markdown
     assert "- candidate_win_count: 4" in markdown
 
@@ -121,6 +139,9 @@ def test_write_conditional_compare_summary_writes_manifest(tmp_path: Path) -> No
         "intervention_paths": ["rewrite_structured_contract"],
         "selected_case_ids": ["HR_016"],
         "selected_case_count": 1,
+        "non_selected_changed_case_ids": [],
+        "non_selected_changed_case_count": 0,
+        "non_selected_preserved_baseline": True,
         "control_run_path": "datasets/runs/control.json",
         "candidate_run_path": "datasets/runs/candidate.json",
         "composite_run_path": "datasets/runs/composite.json",
@@ -133,6 +154,12 @@ def test_write_conditional_compare_summary_writes_manifest(tmp_path: Path) -> No
         "control_forbidden_claim_violations": 1,
         "candidate_forbidden_claim_violations": 0,
         "composite_forbidden_claim_violations": 0,
+        "control_answer_failure_count": 0,
+        "candidate_answer_failure_count": 0,
+        "composite_answer_failure_count": 0,
+        "control_abstain_accuracy": 0.0,
+        "candidate_abstain_accuracy": 0.0,
+        "composite_abstain_accuracy": 0.0,
     }
 
     json_path, markdown_path = write_conditional_compare_summary(settings, summary)

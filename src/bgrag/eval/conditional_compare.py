@@ -102,7 +102,9 @@ def render_composite_markdown(
     candidate_run: EvalRunResult,
     composite_run: EvalRunResult,
 ) -> str:
-    selected_case_ids = composite_run.run_manifest.get("composed_from", {}).get("selected_case_ids", [])
+    composed_from = composite_run.run_manifest.get("composed_from", {})
+    selected_case_ids = composed_from.get("selected_case_ids", [])
+    non_selected_changed_case_ids = composed_from.get("non_selected_changed_case_ids", [])
     lines = [
         "# Conditional Profile Comparison",
         "",
@@ -112,6 +114,11 @@ def render_composite_markdown(
         f"- composite_run: {composite_run.run_name}",
         f"- selected_case_count: {len(selected_case_ids)}",
         f"- selected_case_ids: {', '.join(selected_case_ids) if selected_case_ids else 'none'}",
+        f"- non_selected_changed_case_count: {len(non_selected_changed_case_ids)}",
+        (
+            f"- non_selected_changed_case_ids: "
+            f"{', '.join(non_selected_changed_case_ids) if non_selected_changed_case_ids else 'none'}"
+        ),
         "",
         "## Required Claim Recall",
         "",
@@ -154,7 +161,9 @@ def build_conditional_compare_summary(
     pairwise_artifact: PairwiseRunArtifact | None,
     pairwise_error: str | None = None,
 ) -> dict[str, object]:
-    selected_case_ids = composite_artifact.result.run_manifest.get("composed_from", {}).get("selected_case_ids", [])
+    composed_from = composite_artifact.result.run_manifest.get("composed_from", {})
+    selected_case_ids = composed_from.get("selected_case_ids", [])
+    non_selected_changed_case_ids = composed_from.get("non_selected_changed_case_ids", [])
     summary: dict[str, object] = {
         "created_at": datetime.now(timezone.utc).isoformat(),
         "eval_path": str(eval_path),
@@ -164,6 +173,9 @@ def build_conditional_compare_summary(
         "intervention_paths": sorted(intervention_paths),
         "selected_case_ids": list(selected_case_ids),
         "selected_case_count": len(selected_case_ids),
+        "non_selected_changed_case_ids": list(non_selected_changed_case_ids),
+        "non_selected_changed_case_count": len(non_selected_changed_case_ids),
+        "non_selected_preserved_baseline": bool(composed_from.get("non_selected_preserved_baseline", False)),
         "control_run_path": str(control_artifact.path),
         "candidate_run_path": str(candidate_artifact.path),
         "composite_run_path": str(composite_artifact.json_path),
@@ -184,6 +196,12 @@ def build_conditional_compare_summary(
         "composite_forbidden_claim_violations": int(
             composite_artifact.result.overall_metrics["forbidden_claim_violation_count"]
         ),
+        "control_answer_failure_count": int(control_artifact.result.overall_metrics.get("answer_failure_count", 0)),
+        "candidate_answer_failure_count": int(candidate_artifact.result.overall_metrics.get("answer_failure_count", 0)),
+        "composite_answer_failure_count": int(composite_artifact.result.overall_metrics.get("answer_failure_count", 0)),
+        "control_abstain_accuracy": float(control_artifact.result.overall_metrics.get("abstain_accuracy", 0.0)),
+        "candidate_abstain_accuracy": float(candidate_artifact.result.overall_metrics.get("abstain_accuracy", 0.0)),
+        "composite_abstain_accuracy": float(composite_artifact.result.overall_metrics.get("abstain_accuracy", 0.0)),
         "pairwise_run_path": str(pairwise_artifact.path) if pairwise_artifact is not None else None,
         "pairwise_error": pairwise_error,
     }
@@ -205,6 +223,12 @@ def render_conditional_compare_summary_markdown(summary: dict[str, object]) -> s
         f"- intervention_paths: {', '.join(summary['intervention_paths'])}",
         f"- selected_case_count: {summary['selected_case_count']}",
         f"- selected_case_ids: {', '.join(summary['selected_case_ids']) if summary['selected_case_ids'] else 'none'}",
+        f"- non_selected_changed_case_count: {summary['non_selected_changed_case_count']}",
+        (
+            f"- non_selected_changed_case_ids: "
+            f"{', '.join(summary['non_selected_changed_case_ids']) if summary['non_selected_changed_case_ids'] else 'none'}"
+        ),
+        f"- non_selected_preserved_baseline: {summary['non_selected_preserved_baseline']}",
         "",
         "## Scalar Metrics",
         "",
@@ -214,6 +238,12 @@ def render_conditional_compare_summary_markdown(summary: dict[str, object]) -> s
         f"- control_forbidden_claim_violations: {int(summary['control_forbidden_claim_violations'])}",
         f"- candidate_forbidden_claim_violations: {int(summary['candidate_forbidden_claim_violations'])}",
         f"- composite_forbidden_claim_violations: {int(summary['composite_forbidden_claim_violations'])}",
+        f"- control_answer_failure_count: {int(summary['control_answer_failure_count'])}",
+        f"- candidate_answer_failure_count: {int(summary['candidate_answer_failure_count'])}",
+        f"- composite_answer_failure_count: {int(summary['composite_answer_failure_count'])}",
+        f"- control_abstain_accuracy: {float(summary['control_abstain_accuracy']):.6f}",
+        f"- candidate_abstain_accuracy: {float(summary['candidate_abstain_accuracy']):.6f}",
+        f"- composite_abstain_accuracy: {float(summary['composite_abstain_accuracy']):.6f}",
         "",
         "## Artifacts",
         "",

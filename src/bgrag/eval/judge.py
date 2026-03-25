@@ -53,6 +53,10 @@ def _require_bool(value: object, field_name: str) -> bool:
     return value
 
 
+def _normalize_claim_text(value: object) -> str:
+    return " ".join(str(value or "").split()).strip().casefold()
+
+
 def _normalize_judgment(parsed: dict[str, object], case: EvalCase) -> dict[str, object]:
     required_items = parsed.get("required_claims", [])
     forbidden_items = parsed.get("forbidden_claims", [])
@@ -74,6 +78,20 @@ def _normalize_judgment(parsed: dict[str, object], case: EvalCase) -> dict[str, 
         raise ValueError("Judge response required_claims items must be objects")
     if any(not isinstance(item, dict) for item in forbidden_items):
         raise ValueError("Judge response forbidden_claims items must be objects")
+    for index, (item, expected_claim) in enumerate(zip(required_items, case.required_claims, strict=True)):
+        returned_claim = item.get("claim")
+        if _normalize_claim_text(returned_claim) != _normalize_claim_text(expected_claim):
+            raise ValueError(
+                "Judge response required_claims claim mismatch at index "
+                f"{index}: expected {expected_claim!r}, got {returned_claim!r}"
+            )
+    for index, (item, expected_claim) in enumerate(zip(forbidden_items, case.forbidden_claims, strict=True)):
+        returned_claim = item.get("claim")
+        if _normalize_claim_text(returned_claim) != _normalize_claim_text(expected_claim):
+            raise ValueError(
+                "Judge response forbidden_claims claim mismatch at index "
+                f"{index}: expected {expected_claim!r}, got {returned_claim!r}"
+            )
 
     supported_count = sum(
         1

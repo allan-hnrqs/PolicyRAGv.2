@@ -82,3 +82,48 @@ def test_normalize_judgment_rejects_string_booleans() -> None:
 
     with pytest.raises(ValueError, match="must be a boolean"):
         _normalize_judgment(parsed, case)
+
+
+def test_normalize_judgment_rejects_required_claim_text_mismatch() -> None:
+    case = EvalCase.model_validate(
+        {
+            "id": "T3",
+            "question": "Q?",
+            "required_claims": ["A", "B"],
+            "forbidden_claims": [],
+        }
+    )
+    parsed = {
+        "required_claims": [
+            {"claim": "B", "supported": True, "reason": "wrong order"},
+            {"claim": "A", "supported": True, "reason": "wrong order"},
+        ],
+        "forbidden_claims": [],
+        "answer_abstains": False,
+        "abstain_correct": None,
+        "overall_notes": "bad",
+    }
+
+    with pytest.raises(ValueError, match="required_claims claim mismatch"):
+        _normalize_judgment(parsed, case)
+
+
+def test_normalize_judgment_rejects_forbidden_claim_text_mismatch() -> None:
+    case = EvalCase.model_validate(
+        {
+            "id": "T4",
+            "question": "Q?",
+            "required_claims": [],
+            "forbidden_claims": ["X"],
+        }
+    )
+    parsed = {
+        "required_claims": [],
+        "forbidden_claims": [{"claim": "Y", "violated": False, "reason": "wrong claim"}],
+        "answer_abstains": False,
+        "abstain_correct": None,
+        "overall_notes": "bad",
+    }
+
+    with pytest.raises(ValueError, match="forbidden_claims claim mismatch"):
+        _normalize_judgment(parsed, case)

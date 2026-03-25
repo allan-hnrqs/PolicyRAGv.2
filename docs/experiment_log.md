@@ -1722,3 +1722,40 @@ capture:
 - Current use:
   - Claude Opus 4.6 is now being used as a peer reviewer and architecture
     sounding board on the promotion branch
+
+#### Eval Integrity Hardening
+
+- Trigger:
+  - a fresh audit of the evaluation harness found two high-severity risks:
+    - judge claim lists were only length-validated, not identity-validated
+    - conditional compare summaries did not expose drift on non-selected cases
+- Changes:
+  - `src/bgrag/eval/judge.py`
+    - now rejects required/forbidden claim entries whose `claim` text does not
+      align with the authored claim at the same index
+  - `src/bgrag/eval/run_composition.py`
+    - now records non-selected preserved-baseline drift details in the composed
+      run manifest
+  - `src/bgrag/eval/conditional_compare.py`
+    - now surfaces non-selected drift, answer failure counts, and abstain
+      accuracy in conditional summaries and markdown
+- Validation:
+  - targeted eval-harness tests:
+    - `15 passed`
+  - full suite:
+    - `141 passed`
+- Interpretation:
+  - promotion decisions on conditional branches are now less likely to hide
+    branch leakage or mis-scored judge payloads
+
+#### Exactness Surface Audit
+
+- A separate audit of the current exactness surface found:
+  - the current 4-case slice is methodologically sound as a narrow negative
+    exactness / abstention surface
+  - it does not yet cover positive exact-identifier extraction
+  - `HR_016` is the only current case that looks slightly under-constrained and
+    should be tightened before being treated as a hard exactness label
+- High-confidence future exactness additions, if we expand the family later:
+  - exact PSPC trade agreement unit contact detail
+  - exact GCDocs form or file name for PSD audit services

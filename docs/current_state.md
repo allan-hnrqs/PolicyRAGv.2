@@ -749,3 +749,14 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - Claude Opus 4.6, max effort
   - repeated peer consultations with preserved context
   - repo-local eval evidence still decides promotions
+
+## Eval Integrity Status
+
+- the promotion branch now includes two additional harness hardening changes:
+  - judge claim-text alignment is enforced, not just list length
+  - conditional compare summaries now report drift on non-selected cases
+- current local validation:
+  - full suite: `141 passed`
+- practical implication:
+  - intervention-only conditional results are now safer to interpret because
+    summaries no longer hide untouched-case drift

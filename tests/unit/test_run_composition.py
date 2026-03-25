@@ -91,6 +91,26 @@ def test_compose_eval_run_uses_candidate_only_for_intervened_cases() -> None:
     assert composite.overall_metrics["required_claim_recall_mean"] == 0.65
     assert composite.overall_metrics["mean_case_seconds"] == 16.0
     assert "Selected candidate cases: HR_001" in composite.notes
+    composed_from = composite.run_manifest["composed_from"]
+    assert composed_from["non_selected_preserved_baseline"] is False
+    assert composed_from["non_selected_changed_case_count"] == 1
+    assert composed_from["non_selected_changed_case_ids"] == ["HR_002"]
+
+
+def test_compose_eval_run_tracks_non_selected_preserved_baseline_when_unchanged() -> None:
+    control_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
+    candidate_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
+
+    composite = compose_eval_run(
+        control_run=_run("control", [control_case]),
+        candidate_run=_run("candidate", [candidate_case]),
+        choose_candidate_case=intervention_selected,
+    )
+
+    composed_from = composite.run_manifest["composed_from"]
+    assert composed_from["non_selected_preserved_baseline"] is True
+    assert composed_from["non_selected_changed_case_count"] == 0
+    assert composed_from["non_selected_changed_case_ids"] == []
 
 
 def test_compose_eval_run_tracks_abstention_accuracy() -> None:

@@ -84,6 +84,23 @@ def intervention_selected(
     return isinstance(selected_path, str) and selected_path in allowed
 
 
+def _preserved_baseline_case_drift(control_case: EvalCaseResult, candidate_case: EvalCaseResult) -> dict[str, object]:
+    control_selected_path = (control_case.answer.raw_response or {}).get("selected_path")
+    candidate_selected_path = (candidate_case.answer.raw_response or {}).get("selected_path")
+    answer_text_changed = control_case.answer.answer_text != candidate_case.answer.answer_text
+    abstained_changed = control_case.answer.abstained != candidate_case.answer.abstained
+    failure_reason_changed = control_case.answer.failure_reason != candidate_case.answer.failure_reason
+    selected_path_changed = control_selected_path != candidate_selected_path
+    changed = answer_text_changed or abstained_changed or failure_reason_changed or selected_path_changed
+    return {
+        "changed": changed,
+        "answer_text_changed": answer_text_changed,
+        "abstained_changed": abstained_changed,
+        "failure_reason_changed": failure_reason_changed,
+        "selected_path_changed": selected_path_changed,
+    }
+
+
 def _validate_compatible_runs(control_run: EvalRunResult, candidate_run: EvalRunResult) -> None:
     control_case_ids = [case.case.id for case in control_run.cases]
     candidate_case_ids = [case.case.id for case in candidate_run.cases]
@@ -134,6 +151,9 @@ def compose_eval_run(
     candidate_by_id = {case.case.id: case for case in candidate_run.cases}
     composite_cases: list[EvalCaseResult] = []
     selected_case_ids: list[str] = []
+    non_selected_case_ids: list[str] = []
+    non_selected_changed_case_ids: list[str] = []
+    non_selected_drift_details: list[dict[str, object]] = []
     for control_case in control_run.cases:
         candidate_case = candidate_by_id.get(control_case.case.id)
         if candidate_case and choose_candidate_case(candidate_case):
@@ -141,6 +161,20 @@ def compose_eval_run(
             selected_case_ids.append(candidate_case.case.id)
         else:
             composite_cases.append(control_case)
+            non_selected_case_ids.append(control_case.case.id)
+            if candidate_case is not None:
+                drift = _preserved_baseline_case_drift(control_case, candidate_case)
+                if bool(drift["changed"]):
+                    non_selected_changed_case_ids.append(control_case.case.id)
+                    non_selected_drift_details.append(
+                        {
+                            "case_id": control_case.case.id,
+                            "answer_text_changed": bool(drift["answer_text_changed"]),
+                            "abstained_changed": bool(drift["abstained_changed"]),
+                            "failure_reason_changed": bool(drift["failure_reason_changed"]),
+                            "selected_path_changed": bool(drift["selected_path_changed"]),
+                        }
+                    )
 
     composite_notes = list(control_run.notes)
     composite_notes.extend(notes or [])
@@ -164,6 +198,11 @@ def compose_eval_run(
         "control_judge_model": control_run.judge_model,
         "candidate_judge_model": candidate_run.judge_model,
         "selected_case_ids": selected_case_ids,
+        "non_selected_case_ids": non_selected_case_ids,
+        "non_selected_changed_case_ids": non_selected_changed_case_ids,
+        "non_selected_changed_case_count": len(non_selected_changed_case_ids),
+        "non_selected_preserved_baseline": len(non_selected_changed_case_ids) == 0,
+        "non_selected_drift_details": non_selected_drift_details,
     }
 
     return EvalRunResult(

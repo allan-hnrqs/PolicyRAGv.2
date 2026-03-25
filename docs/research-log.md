@@ -293,3 +293,21 @@ references over secondary summaries.
     Codex <-> Claude consultations
   - keep Claude advisory by default and let repo-local eval evidence decide
     promotions
+
+### Eval-method audit results
+
+- A focused audit of the current eval harness identified a concrete methodological
+  risk in structured LLM judging:
+  - validating only the length of returned claim lists is insufficient
+  - the harness should also verify that each returned claim identity still
+    matches the authored claim it is being scored against
+  Practical implication:
+  - strict claim-text alignment should be enforced in normalization before
+    recall or safety metrics are computed
+- The same audit also reinforced a methodological limit of intervention-only
+  composition:
+  - it is only safe as a promotion surface if untouched candidate cases are
+    visibly tracked for drift against control
+  Practical implication:
+  - conditional summaries should always expose whether non-selected candidate
+    cases stayed baseline-equivalent or not

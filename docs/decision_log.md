@@ -486,3 +486,18 @@ become the only place where rationale lives.
   - keep session IDs and transcripts in `.claude/session_local/` and out of git
   - use Claude Opus 4.6 with max effort through a resumable wrapper
   - treat Claude as a peer reviewer and advisor, not as the promotion authority
+- Conditional comparison summaries must explicitly surface preserved-baseline
+  drift on non-selected cases.
+  Decision:
+  - promotion summaries now record:
+    - `non_selected_changed_case_count`
+    - `non_selected_changed_case_ids`
+    - `non_selected_preserved_baseline`
+  - intervention-only composites remain useful, but they are not allowed to
+    silently imply that untouched candidate cases matched control
+- Judge normalization must validate claim identity, not just list length.
+  Decision:
+  - reject judge payloads whose `claim` text does not align with the authored
+    required/forbidden claims at the same index
+  - this prevents reordered or paraphrased claim lists from being scored against
+    the wrong target claims
