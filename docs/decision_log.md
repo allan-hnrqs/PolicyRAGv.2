@@ -601,3 +601,26 @@ become the only place where rationale lives.
     - recall `0.6667 -> 0.8333`
     - forbidden violations `1 -> 0`
     - pairwise `2` candidate wins, `0` baseline wins, `0` ties
+- The exactness-only guard should replace the broader verifier branch for this
+  failure family.
+  Decision:
+  - keep `missing_detail_exactness_verifier_gated_structured_contract_answering`
+    as the leading exactness-specific experimental path
+  - keep it narrow and preserve baseline answers unless exactness risk or
+    indispensable missing-detail context is present
+  - do not promote it as a broad default answer strategy
+  Why:
+  - canonical `parity19_dev` selected zero cases and stayed identical to the
+    baseline at `0.9167`
+  - canonical `parity19_holdout` only rewrote `HR_016` and remained neutral at
+    `0.8500`, with pairwise `1` candidate win and `9` ties
+  - split-safe rebuilt-39 exactness dev only rewrote `HR_038` and stayed
+    neutral at `0.7500`
+  - split-safe rebuilt-39 exactness holdout rewrote `HR_016` and `HR_037` and
+    improved:
+    - recall `0.6667 -> 0.8333`
+    - forbidden violations `1 -> 0`
+    - pairwise `2` candidate wins, `0` baseline wins, `0` ties
+  - the earlier broader narrow-branch behavior was useful, but this more
+    surgical exactness-only path matches the real failure family better and
+    avoids unnecessary rewrites such as `HR_017`

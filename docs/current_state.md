@@ -949,3 +949,49 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - but it now has clean split-safe rebuilt-39 evidence on the exactness family
   - the benefit remains concentrated in unsupported exact-detail / internal
     artifact cases rather than general workflow answering
+
+## Exactness-Only Branch Status
+
+- leading narrow branch:
+  - `missing_detail_exactness_verifier_gated_structured_contract_answering`
+- profile purpose:
+  - preserve the true baseline answer by default
+  - intervene only on missing-detail cases with exactness risk or missing
+    indispensable context
+- current verified read:
+  - canonical `parity19_dev`:
+    - `datasets/runs/conditional_compare_summary_20260325_035449_521824_4451.json`
+    - selected cases: none
+    - composite equals baseline at `0.9167`
+  - canonical `parity19_holdout`:
+    - `datasets/runs/conditional_compare_summary_20260325_040851_023802_1ddc.json`
+    - selected case:
+      - `HR_016`
+    - composite equals baseline at `0.8500`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_035915_027567_37be_vs_missing_detail_exactness_verifier_gated_structured_contract_answering_intervention_only_20260325_040850_968063_b8db_20260325_041028_862890_4548.json`
+      - candidate wins `1`
+      - baseline wins `0`
+      - ties `9`
+  - split-safe rebuilt-39 exactness dev:
+    - `datasets/runs/conditional_compare_summary_20260325_033101_944366_9233.json`
+    - selected case:
+      - `HR_038`
+    - composite equals baseline at `0.7500`
+  - split-safe rebuilt-39 exactness holdout:
+    - `datasets/runs/conditional_compare_summary_20260325_033242_626999_e882.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - recall `0.6667 -> 0.8333`
+    - forbidden violations `1 -> 0`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_032756_361339_27c0_vs_missing_detail_exactness_verifier_gated_structured_contract_answering_intervention_only_20260325_033242_501877_cc3d_20260325_041134_757201_75a5.json`
+      - candidate wins `2`
+      - baseline wins `0`
+      - ties `0`
+- practical interpretation:
+  - this branch is narrow and currently well-behaved
+  - it does not justify replacing the baseline answer policy globally
+  - it does justify keeping an exactness-specific guarded intervention path in
+    the experimental architecture

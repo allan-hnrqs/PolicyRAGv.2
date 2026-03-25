@@ -1176,6 +1176,22 @@ def _core_contract_slot_keys(contract: CitedStructuredAnswerContract) -> set[str
     return {"bottom_line"} & set(contract.slots)
 
 
+def _minimal_missing_detail_exactness_keep_set(
+    contract: CitedStructuredAnswerContract,
+    *,
+    selector_keep_slot_keys: set[str],
+    missing_slots: set[str],
+) -> set[str]:
+    keep = _core_contract_slot_keys(contract)
+    if "closest_supported_context" in contract.slots:
+        keep.add("closest_supported_context")
+    if "page_or_location" in contract.slots and (
+        "page_or_location" in selector_keep_slot_keys or "page_or_location" in missing_slots
+    ):
+        keep.add("page_or_location")
+    return keep
+
+
 def _prune_cited_structured_answer_contract(
     contract: CitedStructuredAnswerContract,
     *,
@@ -1219,6 +1235,34 @@ def _looks_like_missing_detail_abstention(answer_text: str) -> bool:
         r"\b(?:does not|do not|did not)\b.{0,40}\b(?:provide|specify|list|establish|identify)\b.{0,20}\bexact\b",
     )
     return any(re.search(pattern, normalized) for pattern in exact_detail_negative_patterns)
+
+
+def _missing_detail_exactness_rewrite_decision(
+    *,
+    missing_slots: set[str],
+    baseline_answer_text: str,
+    exactness_verdict: MissingDetailExactnessVerdict | None,
+) -> tuple[bool, str]:
+    baseline_corrupted = _looks_corrupted(baseline_answer_text)
+    baseline_missing_detail_abstains = _looks_like_missing_detail_abstention(baseline_answer_text)
+    missing_context_slots = {"closest_supported_context", "page_or_location", "supporting_rule"}
+    missing_missing_detail_context_slots = sorted(missing_slots & missing_context_slots)
+
+    if baseline_corrupted and missing_slots:
+        return True, "missing_detail_corrupted_answer"
+    if (
+        baseline_missing_detail_abstains
+        and exactness_verdict is not None
+        and not exactness_verdict.exact_detail_overstatement_risk
+    ):
+        return False, "baseline_keep"
+    if "exact_detail_status" in missing_slots:
+        return True, "missing_detail_failed_abstention"
+    if not baseline_missing_detail_abstains and len(missing_missing_detail_context_slots) >= 2:
+        return True, "missing_detail_missing_context"
+    if exactness_verdict is not None and exactness_verdict.exact_detail_overstatement_risk:
+        return True, "missing_detail_exactness_overstatement"
+    return False, "baseline_keep"
 
 
 def _looks_corrupted(answer_text: str) -> bool:
@@ -2954,6 +2998,203 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     )
 
 
+def missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+) -> AnswerResult:
+    baseline_start = perf_counter()
+    baseline_result = inline_evidence_chat(settings, question, evidence)
+    baseline_end = perf_counter()
+
+    contract_start = perf_counter()
+    contract, contract_payload = _extract_cited_structured_answer_contract(settings, question, evidence)
+    contract_end = perf_counter()
+
+    contract_snapshot = {
+        "answer_mode": contract.answer_mode,
+        "should_abstain": contract.should_abstain,
+        "abstain_reason": contract.abstain_reason,
+        "slots": {
+            key: {
+                "text": value.text,
+                "citation_chunk_ids": value.citation_chunk_ids,
+            }
+            for key, value in contract.slots.items()
+        },
+    }
+
+    if contract.answer_mode != "missing_detail":
+        raw_response = dict(baseline_result.raw_response or {})
+        raw_response["baseline_answer_text"] = baseline_result.answer_text
+        raw_response["selected_path"] = "baseline_keep"
+        raw_response["structured_contract"] = contract_snapshot
+        raw_response["structured_contract_payload"] = contract_payload.model_dump()
+        timings = dict(baseline_result.timings)
+        timings["baseline_answer_seconds"] = baseline_end - baseline_start
+        timings["structured_contract_seconds"] = contract_end - contract_start
+        timings["slot_coverage_verdict_seconds"] = 0.0
+        timings["missing_detail_exactness_verdict_seconds"] = 0.0
+        return AnswerResult(
+            question=baseline_result.question,
+            answer_text=baseline_result.answer_text,
+            strategy_name="missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat",
+            model_name=baseline_result.model_name,
+            citations=baseline_result.citations,
+            evidence_bundle=baseline_result.evidence_bundle,
+            raw_response=raw_response,
+            timings=timings,
+            abstained=baseline_result.abstained,
+        )
+
+    coverage_start = perf_counter()
+    coverage_verdict, coverage_payload = _extract_contract_slot_coverage_verdict(
+        settings,
+        question,
+        evidence,
+        contract,
+        baseline_result.answer_text,
+    )
+    coverage_end = perf_counter()
+
+    missing_slots = set(coverage_verdict.missing_or_weakened_slots)
+    exactness_start = perf_counter()
+    exactness_verdict, exactness_payload = _extract_missing_detail_exactness_verdict(
+        settings,
+        question,
+        evidence,
+        contract,
+        baseline_result.answer_text,
+    )
+    exactness_end = perf_counter()
+
+    should_rewrite, activation_reason = _missing_detail_exactness_rewrite_decision(
+        missing_slots=missing_slots,
+        baseline_answer_text=baseline_result.answer_text,
+        exactness_verdict=exactness_verdict,
+    )
+
+    verdict_snapshot = {
+        "confidence": coverage_verdict.confidence,
+        "rationale": coverage_verdict.rationale,
+        "missing_or_weakened_slots": coverage_verdict.missing_or_weakened_slots,
+        "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
+        "activation_reason": activation_reason,
+        "exactness_verdict": {
+            "confidence": exactness_verdict.confidence,
+            "rationale": exactness_verdict.rationale,
+            "exact_detail_overstatement_risk": exactness_verdict.exact_detail_overstatement_risk,
+            "offending_details": exactness_verdict.offending_details,
+        },
+    }
+
+    if should_rewrite:
+        selection_start = perf_counter()
+        slot_selection, slot_selection_payload = _extract_contract_slot_selection(
+            settings,
+            question,
+            evidence,
+            contract,
+        )
+        raw_selected_slot_keys = set(slot_selection.keep_slot_keys)
+        selected_slot_keys = _minimal_missing_detail_exactness_keep_set(
+            contract,
+            selector_keep_slot_keys=raw_selected_slot_keys,
+            missing_slots=missing_slots,
+        )
+        render_contract = _prune_cited_structured_answer_contract(
+            contract,
+            keep_slot_keys=selected_slot_keys,
+        )
+        selection_end = perf_counter()
+        render_start = perf_counter()
+        answer_text = _render_cited_structured_contract_answer(render_contract)
+        render_end = perf_counter()
+        return AnswerResult(
+            question=question,
+            answer_text=answer_text,
+            strategy_name="missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat",
+            model_name=settings.cohere_query_planner_model,
+            citations=_collect_contract_citations(render_contract, evidence.packed_chunks),
+            evidence_bundle=evidence,
+            raw_response={
+                "baseline_answer_text": baseline_result.answer_text,
+                "selected_path": "rewrite_structured_contract",
+                "slot_coverage_verdict": verdict_snapshot,
+                "slot_coverage_verdict_payload": coverage_payload.model_dump(),
+                "missing_detail_exactness_verdict_payload": exactness_payload.model_dump(),
+                "structured_contract": contract_snapshot,
+                "structured_contract_payload": contract_payload.model_dump(),
+                "slot_selection": {
+                    "selector_keep_slot_keys": [
+                        key
+                        for key in _allowed_contract_slots(contract.answer_mode)
+                        if key in raw_selected_slot_keys and key in contract.slots
+                    ],
+                    "final_keep_slot_keys": [
+                        key
+                        for key in _allowed_contract_slots(contract.answer_mode)
+                        if key in selected_slot_keys and key in contract.slots
+                    ],
+                    "rationale": slot_selection.rationale,
+                    "required_missing_slots": sorted(missing_slots),
+                    "core_slots": sorted(_core_contract_slot_keys(contract)),
+                },
+                "slot_selection_payload": slot_selection_payload.model_dump(),
+                "render_contract": {
+                    "answer_mode": render_contract.answer_mode,
+                    "should_abstain": render_contract.should_abstain,
+                    "abstain_reason": render_contract.abstain_reason,
+                    "slots": {
+                        key: {
+                            "text": value.text,
+                            "citation_chunk_ids": value.citation_chunk_ids,
+                        }
+                        for key, value in render_contract.slots.items()
+                    },
+                },
+                "planner_framework": "instructor_cohere_pydantic",
+                "planner_model": settings.cohere_query_planner_model,
+                "baseline_model": baseline_result.model_name,
+                "render_mode": "deterministic",
+            },
+            timings={
+                "baseline_answer_seconds": baseline_end - baseline_start,
+                "structured_contract_seconds": contract_end - contract_start,
+                "slot_coverage_verdict_seconds": coverage_end - coverage_start,
+                "missing_detail_exactness_verdict_seconds": exactness_end - exactness_start,
+                "slot_selection_seconds": selection_end - selection_start,
+                "deterministic_render_seconds": render_end - render_start,
+            },
+            abstained=render_contract.should_abstain,
+        )
+
+    raw_response = dict(baseline_result.raw_response or {})
+    raw_response["baseline_answer_text"] = baseline_result.answer_text
+    raw_response["selected_path"] = "baseline_keep"
+    raw_response["slot_coverage_verdict"] = verdict_snapshot
+    raw_response["slot_coverage_verdict_payload"] = coverage_payload.model_dump()
+    raw_response["missing_detail_exactness_verdict_payload"] = exactness_payload.model_dump()
+    raw_response["structured_contract"] = contract_snapshot
+    raw_response["structured_contract_payload"] = contract_payload.model_dump()
+    timings = dict(baseline_result.timings)
+    timings["baseline_answer_seconds"] = baseline_end - baseline_start
+    timings["structured_contract_seconds"] = contract_end - contract_start
+    timings["slot_coverage_verdict_seconds"] = coverage_end - coverage_start
+    timings["missing_detail_exactness_verdict_seconds"] = exactness_end - exactness_start
+    return AnswerResult(
+        question=baseline_result.question,
+        answer_text=baseline_result.answer_text,
+        strategy_name="missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat",
+        model_name=baseline_result.model_name,
+        citations=baseline_result.citations,
+        evidence_bundle=baseline_result.evidence_bundle,
+        raw_response=raw_response,
+        timings=timings,
+        abstained=baseline_result.abstained,
+    )
+
+
 def structured_contract_mode_aware_inline_evidence_chat(
     settings: Settings,
     question: str,
@@ -3046,6 +3287,10 @@ answer_strategy_registry.register(
 answer_strategy_registry.register(
     "narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_chat",
     narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_chat,
+)
+answer_strategy_registry.register(
+    "missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat",
+    missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat,
 )
 answer_strategy_registry.register(
     "structured_contract_mode_aware_inline_evidence_chat",

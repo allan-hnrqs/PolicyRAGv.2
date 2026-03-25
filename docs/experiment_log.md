@@ -2023,3 +2023,82 @@ capture:
     gain and pairwise agrees completely
   - this is the clearest evidence so far that the verifier/exactness family is
     useful specifically for unsupported exact-detail failures
+
+#### Missing-Detail Exactness-Only Guard
+
+- Goal:
+  - separate the unsupported exact-detail / internal-artifact intervention from
+    the broader slot-coverage verifier branch
+  - keep baseline answers untouched unless a missing-detail case has real
+    exactness risk or a missing indispensable context slot
+- Code:
+  - new answer strategy in:
+    - `src/bgrag/answering/strategies.py`
+    - `missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat`
+  - new profile:
+    - `profiles/missing_detail_exactness_verifier_gated_structured_contract_answering.yaml`
+- Method:
+  - baseline answer first
+  - only consider rewrite if the extracted contract is `missing_detail`
+  - suppress rewrite when the baseline already abstains cleanly and the
+    exactness verdict says there is no overstatement risk
+  - if rewriting, keep only the minimal exactness slots:
+    - `exact_detail_status`
+    - `closest_supported_context`
+    - optional `page_or_location`
+- Verification:
+  - unit tests:
+    - `tests/unit/test_answering_prompts.py`
+    - `tests/unit/test_profiles.py`
+    - targeted run passed: `68 passed`
+- Results:
+  - diagnostic `missing_detail_focus`:
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_015811_555558_cde9.json`
+    - control recall `0.7083`
+    - intervention-only composite recall `0.7917`
+    - forbidden violations `1 -> 0`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_015505_751963_98aa_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_intervention_only_20260325_015811_516114_29c0_20260325_020844_153319_5af1.json`
+      - candidate wins `2`
+      - baseline wins `0`
+      - ties `2`
+  - canonical `parity19_dev` rerun:
+    - `datasets/runs/conditional_compare_summary_20260325_035449_521824_4451.json`
+    - selected cases: none
+    - control / composite both `0.9167`
+  - canonical `parity19_holdout` rerun:
+    - `datasets/runs/conditional_compare_summary_20260325_040851_023802_1ddc.json`
+    - selected cases:
+      - `HR_016`
+    - control / composite both `0.8500`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_035915_027567_37be_vs_missing_detail_exactness_verifier_gated_structured_contract_answering_intervention_only_20260325_040850_968063_b8db_20260325_041028_862890_4548.json`
+      - candidate wins `1`
+      - baseline wins `0`
+      - ties `9`
+  - split-safe rebuilt-39 exactness dev:
+    - `datasets/runs/conditional_compare_summary_20260325_033101_944366_9233.json`
+    - selected cases:
+      - `HR_038`
+    - control / composite both `0.7500`
+  - split-safe rebuilt-39 exactness holdout:
+    - `datasets/runs/conditional_compare_summary_20260325_033242_626999_e882.json`
+    - selected cases:
+      - `HR_016`
+      - `HR_037`
+    - control recall `0.6667`
+    - intervention-only composite recall `0.8333`
+    - forbidden violations `1 -> 0`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_032756_361339_27c0_vs_missing_detail_exactness_verifier_gated_structured_contract_answering_intervention_only_20260325_033242_501877_cc3d_20260325_041134_757201_75a5.json`
+      - candidate wins `2`
+      - baseline wins `0`
+      - ties `0`
+- Interpretation:
+  - this is the cleanest narrow intervention branch in the repo so far for the
+    unsupported exact-detail family
+  - it is neutral on the canonical promotion surface and useful on the
+    split-safe exactness holdout surface
+  - it should be treated as a guarded sub-path, not a broad answer-policy
+    replacement
