@@ -1,0 +1,53 @@
+{
+  "name": "parity39_exactness_case_audit",
+  "selection_principles": [
+    "Use only split-safe cases from the rebuilt parity39 draft surfaces.",
+    "Select cases whose authored target is abstention or exactness-safe refusal on a missing specific contact detail, form number, file name, or similar internal artifact identifier.",
+    "Require an authored prohibition against invented exact details, not merely general answer precision.",
+    "Exclude adjacent workflow or documentation questions when the source pages actually provide the needed operational answer."
+  ],
+  "included_cases": [
+    {
+      "id": "HR_017",
+      "split": "dev",
+      "reason": "Expected-abstain contact-detail case. The page describes notification methods but does not provide a specific Yukon email address."
+    },
+    {
+      "id": "HR_038",
+      "split": "dev",
+      "reason": "Expected-abstain contact-detail case. The page explains when to engage price advisors but does not provide direct Price Advisory Group contact details."
+    },
+    {
+      "id": "HR_016",
+      "split": "holdout",
+      "reason": "Expected-abstain internal-artifact case. The documents require ADM approval on file but do not identify a specific reciprocal-procurement form number."
+    },
+    {
+      "id": "HR_037",
+      "split": "holdout",
+      "reason": "Expected-abstain internal-artifact case. The page references GC-network-only specimen signature card templates but does not identify a specific form number or file name."
+    }
+  ],
+  "excluded_adjacent_cases": [
+    {
+      "id": "HR_010",
+      "split": "dev",
+      "reason": "The answer depends on required supporting evidence and approval records that are explicitly described on the page; it is not an unsupported exact-detail abstention case."
+    },
+    {
+      "id": "HR_012",
+      "split": "dev",
+      "reason": "The page gives the required notification methods and timing. The question is operational workflow, not missing exact contact detail."
+    },
+    {
+      "id": "HR_026",
+      "split": "dev",
+      "reason": "The page supplies the operative numeric authority threshold and exception. This is an answerable authority question, not an abstention/exactness case."
+    },
+    {
+      "id": "HR_033",
+      "split": "holdout",
+      "reason": "The page provides the timing and rationale for the e-SRCL. This is answerable from the source and should not be treated as unsupported exact-detail abstention."
+    }
+  ]
+}

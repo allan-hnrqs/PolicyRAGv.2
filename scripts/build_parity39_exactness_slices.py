@@ -5,8 +5,9 @@ from pathlib import Path
 
 from _bootstrap import REPO_ROOT
 
-DEV_IDS = ["HR_017", "HR_038"]
-HOLDOUT_IDS = ["HR_016", "HR_037"]
+AUDIT_MANIFEST_PATH = (
+    REPO_ROOT / "datasets" / "eval" / "manifests" / "parity39_exactness_case_audit.json"
+)
 
 
 def _load_cases(path: Path) -> dict[str, dict[str, object]]:
@@ -17,6 +18,27 @@ def _load_cases(path: Path) -> dict[str, dict[str, object]]:
         row = json.loads(line)
         cases[str(row["id"])] = row
     return cases
+
+
+def _load_audit_manifest(path: Path) -> dict[str, object]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _ids_for_split(audit_manifest: dict[str, object], split: str) -> list[str]:
+    included = audit_manifest.get("included_cases", [])
+    if not isinstance(included, list):
+        raise TypeError("Audit manifest `included_cases` must be a list.")
+
+    ids: list[str] = []
+    for row in included:
+        if not isinstance(row, dict):
+            raise TypeError("Audit manifest entries must be objects.")
+        if row.get("split") == split:
+            case_id = row.get("id")
+            if not isinstance(case_id, str):
+                raise TypeError("Audit manifest case ids must be strings.")
+            ids.append(case_id)
+    return ids
 
 
 def _select_cases(source: dict[str, dict[str, object]], ids: list[str], split: str) -> list[dict[str, object]]:
@@ -40,11 +62,14 @@ def main() -> None:
     repo_root = REPO_ROOT
     dev_source_path = repo_root / "datasets" / "eval" / "dev" / "parity39_dev_draft.jsonl"
     holdout_source_path = repo_root / "datasets" / "eval" / "holdout" / "parity39_holdout_draft.jsonl"
+    audit_manifest = _load_audit_manifest(AUDIT_MANIFEST_PATH)
+    dev_ids = _ids_for_split(audit_manifest, "dev")
+    holdout_ids = _ids_for_split(audit_manifest, "holdout")
     dev_source = _load_cases(dev_source_path)
     holdout_source = _load_cases(holdout_source_path)
 
-    dev_rows = _select_cases(dev_source, DEV_IDS, "dev")
-    holdout_rows = _select_cases(holdout_source, HOLDOUT_IDS, "holdout")
+    dev_rows = _select_cases(dev_source, dev_ids, "dev")
+    holdout_rows = _select_cases(holdout_source, holdout_ids, "holdout")
 
     dev_target = repo_root / "datasets" / "eval" / "dev" / "parity39_exactness_dev.jsonl"
     holdout_target = repo_root / "datasets" / "eval" / "holdout" / "parity39_exactness_holdout.jsonl"
@@ -61,12 +86,18 @@ def main() -> None:
                     "dev_source": "datasets/eval/dev/parity39_dev_draft.jsonl",
                     "holdout_source": "datasets/eval/holdout/parity39_holdout_draft.jsonl",
                 },
+                "selection_manifest": "datasets/eval/manifests/parity39_exactness_case_audit.json",
                 "rationale": (
                     "Split-safe rebuilt-parity39 exactness/abstention subset for preserved-baseline "
                     "evaluation of unsupported exact-detail and contact/internal-detail failures."
                 ),
-                "dev_case_ids": DEV_IDS,
-                "holdout_case_ids": HOLDOUT_IDS,
+                "dev_case_ids": dev_ids,
+                "holdout_case_ids": holdout_ids,
+                "excluded_adjacent_case_ids": [
+                    row["id"]
+                    for row in audit_manifest.get("excluded_adjacent_cases", [])
+                    if isinstance(row, dict) and isinstance(row.get("id"), str)
+                ],
                 "targets": {
                     "dev": "datasets/eval/dev/parity39_exactness_dev.jsonl",
                     "holdout": "datasets/eval/holdout/parity39_exactness_holdout.jsonl",
