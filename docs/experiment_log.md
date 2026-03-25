@@ -1928,3 +1928,53 @@ capture:
   - the eval harness is now materially safer than before
   - generated slices should continue to be treated as diagnostic only unless
     they are explicitly rebuilt to preserve split boundaries
+
+#### Conditional Comparison Workflow Hardening
+
+- Goal:
+  - make the preserved-baseline / intervention-only workflow reproducible in one
+    place instead of relying on ad hoc command sequences
+- What was added:
+  - reusable module:
+    - `src/bgrag/eval/conditional_compare.py`
+  - thin wrapper script:
+    - `scripts/compare_conditional_profile.py`
+  - focused tests:
+    - `tests/unit/test_conditional_compare.py`
+- Method:
+  - run control profile on the chosen eval surface
+  - run candidate profile on the same eval surface
+  - compose an intervention-only run that substitutes candidate outputs only
+    when the candidate explicitly selected a rewrite path
+  - optionally run pairwise judging on control vs the intervention-only
+    composite
+  - write JSON + Markdown summary artifacts plus manifest sidecars
+- Why this matters:
+  - the verifier/exactness branches already preserve the baseline draft within a
+    single run
+  - the main remaining methodological gap was workflow: broad profile reruns
+    still obscured whether losses came from true interventions or regenerated
+    `baseline_keep` cases
+  - this tooling makes that distinction first-class and repeatable
+- Verification:
+  - unit coverage:
+    - `tests/unit/test_conditional_compare.py`
+    - `tests/unit/test_run_composition.py`
+    - `16 passed` on the touched conditional-comparison / composition / manifest
+      suite
+  - live diagnostic run:
+    - `python scripts/compare_conditional_profile.py datasets/eval/generated/missing_detail_focus.jsonl --control-profile baseline --candidate-profile narrow_contract_slot_coverage_verifier_gated_structured_contract_answering`
+    - summary:
+      - `datasets/runs/conditional_compare_summary_20260325_015811_555558_cde9.json`
+    - selected rewrites:
+      - `HR_016`
+      - `HR_037`
+    - control recall `0.7083`
+    - candidate recall `0.7917`
+    - intervention-only composite recall `0.7917`
+    - forbidden violations `1 -> 0`
+- Operational note:
+  - the optional OpenAI pairwise leg currently fails in `PolicyRAGv.2` because
+    the configured key now returns `account_deactivated`
+  - the workflow now records that error in the summary instead of discarding the
+    completed control/candidate/composite artifacts

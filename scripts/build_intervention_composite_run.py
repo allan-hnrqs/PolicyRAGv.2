@@ -71,7 +71,7 @@ def main() -> None:
     parser.add_argument(
         "--intervention-path",
         action="append",
-        default=["rewrite_structured_contract"],
+        default=None,
         help="Candidate selected_path value that counts as a real intervention. Repeatable.",
     )
     args = parser.parse_args()
@@ -82,7 +82,7 @@ def main() -> None:
     control_run = _load_run(control_path)
     candidate_run = _load_run(candidate_path)
 
-    allowed_paths = set(args.intervention_path)
+    allowed_paths = set(args.intervention_path or ["rewrite_structured_contract"])
     composite_run = compose_eval_run(
         control_run=control_run,
         candidate_run=candidate_run,

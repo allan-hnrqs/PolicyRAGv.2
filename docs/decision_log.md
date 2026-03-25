@@ -558,3 +558,31 @@ become the only place where rationale lives.
   - but treat retrieval-claim-evidence metrics on `HR_028`, `HR_032`, `HR_035`,
     and `HR_036` as lower-granularity supervision until their `claim_evidence`
     entries are split more finely
+- Preserved-baseline evaluation should be a first-class workflow, not a manual
+  sequence of scripts.
+  Decision:
+  - keep a dedicated conditional-comparison workflow in:
+    - `src/bgrag/eval/conditional_compare.py`
+    - `scripts/compare_conditional_profile.py`
+  - use it when judging branches whose claimed value comes from conditional
+    intervention rather than a full-profile replacement
+  Why:
+  - the important methodological question for the verifier/exactness family is
+    whether the rewrites help when they actually fire
+  - broad full-profile reruns can still be polluted by regenerated
+    `baseline_keep` cases
+  - the workflow should therefore produce:
+    - control run
+    - candidate run
+    - intervention-only composite
+    - optional pairwise control-vs-composite judgment
+- Pairwise auth failure should not destroy completed conditional-eval artifacts.
+  Decision:
+  - keep pairwise as optional in the conditional-comparison workflow
+  - if pairwise fails after control/candidate/composite are finished, record the
+    error in the summary and keep the completed artifacts
+  Why:
+  - control/candidate/composite runs are the expensive part
+  - pairwise is a secondary promotion check
+  - discarding finished artifacts because an external judge key is temporarily
+    invalid is operationally wrong

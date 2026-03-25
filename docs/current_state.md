@@ -896,3 +896,30 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - `generated` slices should be treated as diagnostic probes only
   - retrieval-evidence metrics on the listed parity39 cases should be read with
     caution until those claims are split more finely
+
+## Conditional Evaluation Workflow
+
+- the preserved-baseline methodology is now explicit infrastructure:
+  - `src/bgrag/eval/conditional_compare.py`
+  - `scripts/compare_conditional_profile.py`
+- purpose:
+  - evaluate conditional-answer branches by composing an intervention-only run
+    from:
+    - baseline control outputs
+    - candidate outputs only on real rewrite cases
+  - optionally compare control vs the intervention-only composite with pairwise
+    judging
+- implication:
+  - future work on verifier/exactness branches should be read primarily through
+    this workflow, not through naive full-profile scalar deltas alone
+- current verified artifact:
+  - `datasets/runs/conditional_compare_summary_20260325_015811_555558_cde9.json`
+  - on `missing_detail_focus`, the intervention-only composite matches the
+    candidate's scalar gain over baseline:
+    - recall `0.7083 -> 0.7917`
+    - forbidden violations `1 -> 0`
+- current ops caveat:
+  - optional OpenAI pairwise is presently blocked in this repo by an
+    `account_deactivated` API response
+  - the conditional-comparison workflow now preserves completed artifacts and
+    records the pairwise failure in its summary instead of aborting

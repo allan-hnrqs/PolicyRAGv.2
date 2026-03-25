@@ -84,6 +84,44 @@ def intervention_selected(
     return isinstance(selected_path, str) and selected_path in allowed
 
 
+def _validate_compatible_runs(control_run: EvalRunResult, candidate_run: EvalRunResult) -> None:
+    control_case_ids = [case.case.id for case in control_run.cases]
+    candidate_case_ids = [case.case.id for case in candidate_run.cases]
+    if control_case_ids != candidate_case_ids:
+        raise RuntimeError(
+            "Composite eval runs require identical case IDs in the same order. "
+            f"Control IDs: {control_case_ids}. Candidate IDs: {candidate_case_ids}."
+        )
+
+    if control_run.answer_model != candidate_run.answer_model:
+        raise RuntimeError(
+            "Composite eval runs require the same answer model across parent runs. "
+            f"Control: {control_run.answer_model}. Candidate: {candidate_run.answer_model}."
+        )
+
+    if control_run.judge_model != candidate_run.judge_model:
+        raise RuntimeError(
+            "Composite eval runs require the same judge model across parent runs. "
+            f"Control: {control_run.judge_model}. Candidate: {candidate_run.judge_model}."
+        )
+
+    manifest_pairs = (
+        ("eval_path", "eval surface"),
+        ("eval_sha256", "eval surface"),
+        ("index_namespace", "index namespace"),
+        ("answer_model", "answer model"),
+        ("judge_model", "judge model"),
+    )
+    for manifest_key, label in manifest_pairs:
+        control_value = control_run.run_manifest.get(manifest_key)
+        candidate_value = candidate_run.run_manifest.get(manifest_key)
+        if control_value and candidate_value and control_value != candidate_value:
+            raise RuntimeError(
+                "Composite eval runs require matching parent-run provenance for "
+                f"{label}. Control: {control_value}. Candidate: {candidate_value}."
+            )
+
+
 def compose_eval_run(
     *,
     control_run: EvalRunResult,
@@ -92,6 +130,7 @@ def compose_eval_run(
     composite_run_name: str | None = None,
     notes: list[str] | None = None,
 ) -> EvalRunResult:
+    _validate_compatible_runs(control_run, candidate_run)
     candidate_by_id = {case.case.id: case for case in candidate_run.cases}
     composite_cases: list[EvalCaseResult] = []
     selected_case_ids: list[str] = []
@@ -117,7 +156,13 @@ def compose_eval_run(
     run_manifest = dict(control_run.run_manifest)
     run_manifest["composed_from"] = {
         "control_run_name": control_run.run_name,
+        "control_profile_name": control_run.profile_name,
         "candidate_run_name": candidate_run.run_name,
+        "candidate_profile_name": candidate_run.profile_name,
+        "control_answer_model": control_run.answer_model,
+        "candidate_answer_model": candidate_run.answer_model,
+        "control_judge_model": control_run.judge_model,
+        "candidate_judge_model": candidate_run.judge_model,
         "selected_case_ids": selected_case_ids,
     }
 
