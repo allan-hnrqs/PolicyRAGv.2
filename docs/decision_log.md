@@ -506,3 +506,12 @@ become the only place where rationale lives.
   - keep progress reporting in the runner and CLI wrapper
   - prefer rerunning long comparisons on current branch code over trusting stale
     background jobs that were started before harness changes
+- The narrow exactness path is mergeable as code and as an intervention-only
+  measured method, but not as a standalone full-suite promotion surface.
+  Decision:
+  - merge the exactness sub-path and supporting eval hardening
+  - do not read raw full-suite `baseline` vs
+    `missing_detail_exactness_verifier_gated_structured_contract_answering`
+    runs as meaningful direct A/B evidence
+  - use intervention-only composites and exactness-family slices when deciding
+    whether the exactness path is helping

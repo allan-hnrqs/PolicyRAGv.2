@@ -762,3 +762,17 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     summaries no longer hide untouched-case drift
   - long-running conditional comparisons are now observable through timestamped
     progress logs instead of appearing silent until completion
+
+## Exactness Merge Read
+
+- current branch judgment:
+  - the eval hardening is ready to merge
+  - the narrow missing-detail exactness path is ready to merge as an available
+    sub-path
+  - the standalone exactness profile is not a trustworthy full-suite promotion
+    surface because regenerated non-selected cases still drift from control
+- promotion rule:
+  - evaluate the exactness path through:
+    - intervention-only composites
+    - split-safe exactness slices
+  - not through raw full-suite standalone profile comparisons

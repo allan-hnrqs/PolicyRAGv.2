@@ -1770,6 +1770,21 @@ capture:
   - full suite:
     - `142 passed`
 
+#### Standalone Exactness Profile Caveat
+
+- Direct artifact comparison on completed `parity19` runs showed that the
+  standalone exactness profile still drifts on non-selected cases because it
+  reruns the baseline generation path before deciding whether to rewrite.
+- That means:
+  - raw full-suite `baseline` vs exactness-profile candidate runs are noisy
+  - they are not the right promotion surface for this method
+  - intervention-only composites remain the correct measurement tool for the
+    exactness sub-path
+- Current interpretation:
+  - this does not block merging the branch
+  - it only blocks treating the standalone exactness profile as a direct
+    promotion-quality comparison surface
+
 #### Exactness Surface Audit
 
 - A separate audit of the current exactness surface found:
