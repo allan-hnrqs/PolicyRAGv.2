@@ -1871,5 +1871,60 @@ capture:
   - the broad parity19 regressions were not caused by harmful rewrites
   - they came from regenerated `baseline_keep` cases, so intervention-only
     measurement remains the right methodology for judging this branch
-  - even so, this branch is still not broad-promotable because it does not yet
-    produce a clean overall gain on the canonical control surface
+- even so, this branch is still not broad-promotable because it does not yet
+  produce a clean overall gain on the canonical control surface
+
+#### Evaluation Integrity Audit
+
+- Goal:
+  - verify that the eval case assets are meaningful and structurally sound, and
+    that the scoring/validation code is actually enforcing the intended rules
+- High-signal findings fixed in code:
+  - eval scripts now bootstrap the local repo source before importing `bgrag`:
+    - `scripts/_bootstrap.py`
+    - `scripts/compare_profiles.py`
+    - `scripts/validate_eval_cases.py`
+    - `scripts/build_intervention_composite_run.py`
+  - eval case validation is now shared and stricter:
+    - `src/bgrag/eval/validation.py`
+    - `src/bgrag/eval/loader.py`
+  - duplicate case IDs now fail at load time
+  - missing `split` values are backfilled from the file location at load time
+  - scored eval surfaces now require:
+    - `required_claims`
+    - `reference_answer`
+    - `primary_urls`
+  - judge normalization is now stricter:
+    - `src/bgrag/eval/judge.py`
+    - malformed boolean strings like `"false"` no longer coerce to `True`
+    - claim-list length mismatches now fail fast
+  - abstention correctness is now preserved in overall metrics:
+    - `src/bgrag/eval/runner.py`
+    - `src/bgrag/eval/run_composition.py`
+  - deterministic retrieval metrics now honor doc-prefix annotations as a
+    fallback when URL anchors are absent:
+    - `src/bgrag/eval/retrieval_metrics.py`
+- Validation:
+  - `pytest -q tests/unit/test_eval_validation.py tests/unit/test_judge.py tests/unit/test_retrieval_metrics.py tests/unit/test_run_composition.py tests/integration/test_eval_loader.py`
+    - `13 passed`
+  - `python scripts/validate_eval_cases.py ...`
+    - passed on canonical and focused surfaces
+- Meaningful remaining warnings:
+  - `parity39_working` cases with coarser `claim_evidence` than
+    one-claim-per-evidence:
+    - `HR_028`
+    - `HR_032`
+    - `HR_035`
+    - `HR_036`
+  - `contract_pruning_focus` inherits the same coarse `HR_035` annotation
+- Structural caution from the audit:
+  - generated slices are valid diagnostic surfaces, but not split-safe promotion
+    surfaces
+  - examples:
+    - `missing_detail_focus.jsonl` mixes canonical dev and holdout IDs
+    - `contract_pruning_focus.jsonl` mixes rebuilt-39 draft dev and holdout IDs
+- Interpretation:
+  - the canonical `parity19` assets remain the cleanest core evaluation surface
+  - the eval harness is now materially safer than before
+  - generated slices should continue to be treated as diagnostic only unless
+    they are explicitly rebuilt to preserve split boundaries

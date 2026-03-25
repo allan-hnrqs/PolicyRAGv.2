@@ -859,3 +859,40 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
 - the next real bottleneck is not whether the verifier exists
 - it is how to keep `baseline_keep` cases stable while still intervening on the
   exact unsupported-detail failures
+
+## Evaluation Integrity State
+
+- the eval harness is stronger than it was:
+  - local eval scripts now bootstrap `PolicyRAGv.2/src` before importing
+    `bgrag`
+  - eval loading now rejects duplicate case IDs and backfills missing split
+    metadata from file location
+  - scored eval surfaces now require `required_claims`, `reference_answer`, and
+    `primary_urls`
+  - judge normalization now rejects malformed booleans and claim-list length
+    mismatches
+  - overall metrics now include abstention correctness
+  - retrieval metrics now support doc-prefix fallback when URL anchors are
+    absent
+- validation status:
+  - focused harness tests:
+    - `13 passed`
+  - case validation command:
+    - `python scripts/validate_eval_cases.py ...`
+    - passed on the main canonical and focused surfaces
+
+## Remaining Eval Caveats
+
+- generated slices are not promotion-safe:
+  - `missing_detail_focus.jsonl` mixes canonical dev and holdout IDs
+  - `contract_pruning_focus.jsonl` mixes rebuilt-39 draft dev and holdout IDs
+- `parity39_working` has some lower-granularity `claim_evidence` annotation on:
+  - `HR_028`
+  - `HR_032`
+  - `HR_035`
+  - `HR_036`
+- practical implication:
+  - canonical `parity19` remains the cleanest core control surface
+  - `generated` slices should be treated as diagnostic probes only
+  - retrieval-evidence metrics on the listed parity39 cases should be read with
+    caution until those claims are split more finely

@@ -22,6 +22,13 @@ def compute_overall_metrics(case_results: list[EvalCaseResult]) -> dict[str, flo
     annotated_results = [result for result in case_results if bool(result.metrics["claim_evidence_annotated"])]
     annotated_packed_claim_recalls = [float(result.metrics["packed_claim_evidence_recall"]) for result in annotated_results]
     annotated_candidate_claim_recalls = [float(result.metrics["candidate_claim_evidence_recall"]) for result in annotated_results]
+    abstention_annotated_results = [result for result in case_results if bool(result.metrics.get("expect_abstain_annotated"))]
+    abstention_correct_results = [
+        result for result in abstention_annotated_results if result.metrics.get("abstain_correct") is True
+    ]
+    abstention_abstained_results = [
+        result for result in abstention_annotated_results if bool(result.metrics.get("judge_answer_abstains"))
+    ]
     return {
         "required_claim_recall_mean": sum(recalls) / len(recalls) if recalls else 0.0,
         "answer_failure_count": failures,
@@ -56,6 +63,12 @@ def compute_overall_metrics(case_results: list[EvalCaseResult]) -> dict[str, flo
             sum(annotated_candidate_claim_recalls) / len(annotated_candidate_claim_recalls)
             if annotated_candidate_claim_recalls
             else 0.0
+        ),
+        "expect_abstain_annotated_case_count": len(abstention_annotated_results),
+        "judge_answer_abstain_count_annotated": len(abstention_abstained_results),
+        "abstain_correct_count": len(abstention_correct_results),
+        "abstain_accuracy": (
+            len(abstention_correct_results) / len(abstention_annotated_results) if abstention_annotated_results else 0.0
         ),
     }
 

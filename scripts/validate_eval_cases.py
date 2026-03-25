@@ -1,31 +1,17 @@
 from __future__ import annotations
 
-import json
 import sys
 from pathlib import Path
 
-from bgrag.types import EvalCase
+from _bootstrap import REPO_ROOT
+from bgrag.eval.validation import load_and_validate_eval_cases
 
 
-def validate_jsonl(path: Path) -> tuple[int, list[str]]:
-    errors: list[str] = []
-    count = 0
-    for line_number, raw_line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
-        line = raw_line.strip()
-        if not line:
-            continue
-        try:
-            payload = json.loads(line)
-        except json.JSONDecodeError as exc:
-            errors.append(f"{path}:{line_number}: invalid JSON: {exc}")
-            continue
-        try:
-            EvalCase.model_validate(payload)
-        except Exception as exc:  # ValidationError is fine, but keep dependency surface simple here.
-            errors.append(f"{path}:{line_number}: schema error: {exc}")
-            continue
-        count += 1
-    return count, errors
+def validate_jsonl(path: Path) -> tuple[int, list[str], list[str]]:
+    cases, issues = load_and_validate_eval_cases(path)
+    errors = [issue.message for issue in issues if issue.severity == "error"]
+    warnings = [issue.message for issue in issues if issue.severity == "warning"]
+    return len(cases), errors, warnings
 
 
 def main(argv: list[str]) -> int:
@@ -35,11 +21,15 @@ def main(argv: list[str]) -> int:
 
     total_cases = 0
     total_errors: list[str] = []
+    total_warnings: list[str] = []
     for raw_path in argv[1:]:
         path = Path(raw_path)
-        count, errors = validate_jsonl(path)
+        if not path.is_absolute():
+            path = (REPO_ROOT / path).resolve()
+        count, errors, warnings = validate_jsonl(path)
         total_cases += count
         total_errors.extend(errors)
+        total_warnings.extend(warnings)
         print(f"{path}: {count} valid case(s)")
 
     if total_errors:
@@ -47,6 +37,11 @@ def main(argv: list[str]) -> int:
         for error in total_errors:
             print(error)
         return 1
+
+    if total_warnings:
+        print("\nWarnings:")
+        for warning in total_warnings:
+            print(warning)
 
     print(f"\nValidation passed: {total_cases} total case(s)")
     return 0

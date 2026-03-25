@@ -531,3 +531,30 @@ become the only place where rationale lives.
   - on trusted canonical `parity19`, the regressions came from regenerated
     `baseline_keep` cases (`HR_001`, `HR_010`, `HR_006`, `HR_018`)
   - the only holdout rewrite was `HR_016`, and it did not reduce quality
+- The evaluation harness needed stricter correctness enforcement.
+  Decision:
+  - keep the new shared eval-case validation and loader checks
+  - keep the stricter judge normalization
+  - keep abstention correctness in overall metrics
+  - keep local-source bootstrap in the eval scripts
+  Why:
+  - duplicate IDs and malformed scored surfaces should fail early
+  - malformed judge booleans should not silently coerce into valid scores
+  - abstention is an authored behavior target and must appear in aggregate
+    metrics
+  - repo scripts should not silently import another workspace's `bgrag`
+- Generated slices are diagnostic, not promotion-safe.
+  Decision:
+  - do not use `generated` slices such as `missing_detail_focus` or
+    `contract_pruning_focus` as independent promotion surfaces
+  Why:
+  - they intentionally mix canonical dev/holdout or rebuilt-39 draft
+    dev/holdout IDs
+  - they are useful for targeted method probes, but not for clean
+    generalization claims
+- `parity39_working` still has some coarse retrieval-supervision annotations.
+  Decision:
+  - keep using `parity39_working` as a real answer-eval surface
+  - but treat retrieval-claim-evidence metrics on `HR_028`, `HR_032`, `HR_035`,
+    and `HR_036` as lower-granularity supervision until their `claim_evidence`
+    entries are split more finely

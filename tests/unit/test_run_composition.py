@@ -25,6 +25,10 @@ def _case_result(case_id: str, *, recall: float, selected_path: str, seconds: fl
             "failed": False,
             "forbidden_claims_clean": True,
             "forbidden_claim_violation_count": 0,
+            "judge_answer_abstains": False,
+            "expect_abstain_annotated": False,
+            "expect_abstain": None,
+            "abstain_correct": None,
             "query_embedding_seconds": 0.1,
             "retrieval_seconds": 0.2,
             "answer_generation_seconds": 0.3,
@@ -84,3 +88,22 @@ def test_compose_eval_run_uses_candidate_only_for_intervened_cases() -> None:
     assert composite.overall_metrics["required_claim_recall_mean"] == 0.65
     assert composite.overall_metrics["mean_case_seconds"] == 16.0
     assert "Selected candidate cases: HR_001" in composite.notes
+
+
+def test_compose_eval_run_tracks_abstention_accuracy() -> None:
+    control_case = _case_result("HR_010", recall=1.0, selected_path="baseline_keep")
+    control_case.metrics["expect_abstain_annotated"] = True
+    control_case.metrics["expect_abstain"] = True
+    control_case.metrics["judge_answer_abstains"] = True
+    control_case.metrics["abstain_correct"] = True
+
+    composite = compose_eval_run(
+        control_run=_run("control", [control_case]),
+        candidate_run=_run("candidate", [control_case]),
+        choose_candidate_case=intervention_selected,
+    )
+
+    assert composite.overall_metrics["expect_abstain_annotated_case_count"] == 1
+    assert composite.overall_metrics["judge_answer_abstain_count_annotated"] == 1
+    assert composite.overall_metrics["abstain_correct_count"] == 1
+    assert composite.overall_metrics["abstain_accuracy"] == 1.0

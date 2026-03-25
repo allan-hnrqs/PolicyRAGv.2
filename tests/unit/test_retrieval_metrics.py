@@ -40,3 +40,29 @@ def test_compute_retrieval_metrics_scores_expected_urls_and_claim_evidence() -> 
     assert metrics.supporting_url_hit is True
     assert metrics.expected_url_recall == 1.0
     assert metrics.claim_evidence_recall == 0.5
+
+
+def test_compute_retrieval_metrics_uses_prefix_fallback_when_urls_are_absent() -> None:
+    case = EvalCase(
+        id="T2",
+        question="question",
+        expected_doc_prefixes=["buyers_guide__late_offers__abc"],
+        supporting_doc_prefixes=["tbs__directive__xyz"],
+        claim_evidence=[
+            EvalClaimEvidence(claim="a", evidence_doc_prefixes=["buyers_guide__late_offers__abc"]),
+            EvalClaimEvidence(claim="b", evidence_doc_prefixes=["missing__prefix"]),
+        ],
+    )
+
+    metrics = compute_retrieval_metrics(
+        case,
+        [
+            _chunk("buyers_guide__late_offers__abc__section__1", "https://example.com/primary"),
+            _chunk("tbs__directive__xyz__section__2", "https://example.com/support"),
+        ],
+    )
+
+    assert metrics.primary_url_hit is True
+    assert metrics.supporting_url_hit is True
+    assert metrics.expected_url_recall == 1.0
+    assert metrics.claim_evidence_recall == 0.5
