@@ -1,9 +1,17 @@
-# Buyer’s Guide RAG Clean
+# PolicyRAGv.2
 
 This repository is a clean-room, backend-only rebuild of the Buyer’s Guide RAG
 system. It is inspired by `DepartmentDefence-Winter2026-feat-retrieval-expensive-methods-eval`
 as a benchmark and behavior reference, but it does not copy implementation code
 from that branch.
+
+## Start Here
+
+If you only need the current high-level state:
+
+- [Presentation Snapshot](docs/presentation_snapshot.md)
+- [Current State](docs/current_state.md)
+- [Decision Log](docs/decision_log.md)
 
 ## Repo Status
 
@@ -25,21 +33,18 @@ The system is Buyer’s Guide-first:
 - supporting sources should be pulled in intentionally rather than treated as
   equal peers by default
 
-## Current status
-
-This repo is in active phase-1 bootstrap. The first goal is to provide a clean,
-documented, testable backend that can:
-- collect and normalize the procurement sources
-- build a reusable corpus package
-- index the corpus with pluggable retrieval profiles
-- answer questions with pluggable answer strategies
-- evaluate against frozen parity suites derived from the current `feat` branch
+## Current Baseline
 
 The current promoted baseline uses:
 - Buyer’s Guide-first source topology
 - Cohere hybrid retrieval with Elasticsearch lexical search
 - LLM query decomposition before retrieval
 - inline evidence answer generation with Command A
+- strict runtime with namespaced index and run manifests
+
+Current quality read:
+- usable as a supervised internal assistant
+- not yet reliable enough to be treated as a fully trusted final authority
 
 ## CLI
 
@@ -111,8 +116,12 @@ bgrag eval-pairwise datasets/runs/control.json datasets/runs/candidate.json
 powershell -ExecutionPolicy Bypass -File .\scripts\start_elasticsearch.ps1
 ```
 
-## Key documents
+## Key Documents
 
-- [Implementation Plan](docs/implementation_plan.md)
+- [Presentation Snapshot](docs/presentation_snapshot.md)
+- [Current State](docs/current_state.md)
+- [Decision Log](docs/decision_log.md)
+- [Experiment Log](docs/experiment_log.md)
 - [Research Log](docs/research-log.md)
+- [Implementation Plan](docs/implementation_plan.md)
 - [Architecture Survey](docs/architecture-survey/README.md)

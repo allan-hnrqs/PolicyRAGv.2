@@ -1,5 +1,9 @@
 # Current State
 
+For a short presentation-oriented summary, start with:
+
+- `docs/presentation_snapshot.md`
+
 ## Goal
 
 Build a clean Buyer’s Guide-first backend that can match or beat the trustworthy
