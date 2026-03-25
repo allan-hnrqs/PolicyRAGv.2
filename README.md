@@ -63,6 +63,13 @@ The intended CLI surface is:
 - `tests/`: unit and integration tests
 - `scripts/`: helper entrypoints for repeatable local workflows
 
+## Claude Collaboration
+
+Claude-specific project guidance lives in [CLAUDE.md](CLAUDE.md). A resumable
+consultation wrapper for Claude Opus 4.6 lives in
+[`scripts/consult_claude.ps1`](scripts/consult_claude.ps1), with local session
+state kept out of git under `.claude/session_local/`.
+
 ## First steps
 
 1. Install the package in editable mode:

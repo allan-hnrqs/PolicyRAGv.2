@@ -471,3 +471,18 @@ become the only place where rationale lives.
   - the intervention logic itself is good
   - the remaining problem is structured-contract extraction or slot scope, not
     broader activation tuning
+- A staged promotion branch is now the preferred integration method for
+  extracting proven ideas from the broader verifier branch.
+  Decision:
+  - promote only:
+    - evaluation hardening
+    - conditional/intervention-only comparison tooling
+    - split-safe exactness slices
+    - the narrow missing-detail exactness sub-path
+  - do not drag the broader verifier family into the promotion branch
+- Claude collaboration should use a durable/local split.
+  Decision:
+  - keep repo-shared Claude guidance in committed `CLAUDE.md`
+  - keep session IDs and transcripts in `.claude/session_local/` and out of git
+  - use Claude Opus 4.6 with max effort through a resumable wrapper
+  - treat Claude as a peer reviewer and advisor, not as the promotion authority

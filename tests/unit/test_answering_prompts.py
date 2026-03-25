@@ -1,11 +1,14 @@
 from bgrag.answering.strategies import (
     AnswerRewriteVerdictPayload,
     ContractSlotCoverageVerdictPayload,
+    CitedStructuredAnswerContract,
     CitedStructuredAnswerContractPayload,
+    MissingDetailExactnessVerdictPayload,
     _build_answer_rewrite_verdict_prompt,
     _build_contract_aware_answer_rewrite_verdict_prompt,
     _build_contract_slot_coverage_verdict_prompt,
     StructuredAnswerSlotPayload,
+    StructuredAnswerSlotValue,
     _build_answer_plan_prompt,
     _build_cited_structured_answer_contract_prompt,
     _build_compact_mode_aware_answer_plan_prompt,
@@ -21,6 +24,8 @@ from bgrag.answering.strategies import (
     _minimal_missing_detail_exactness_keep_set,
     _missing_detail_exactness_rewrite_decision,
     _normalize_cited_structured_answer_contract,
+    _normalize_missing_detail_exactness_verdict_payload,
+    _prune_cited_structured_answer_contract,
     _build_structured_answer_contract_prompt,
     _render_cited_structured_contract_answer,
     _build_mode_aware_planned_inline_evidence_prompt,
@@ -512,20 +517,6 @@ def test_normalize_missing_detail_exactness_verdict_payload_filters_values() -> 
     assert verdict.rationale == "Nearby form is presented too strongly."
     assert verdict.exact_detail_overstatement_risk is True
     assert verdict.offending_details == ["PWGSC-TPSGC 1151-1"]
-
-
-def test_normalize_contract_slot_selection_payload_filters_to_allowed_populated_slots() -> None:
-    selection = _normalize_contract_slot_selection_payload(
-        ContractSlotSelectionPayload(
-            keep_slot_keys=["bottom_line", "unknown_slot", "deadline_or_timing", "bottom_line"],
-            rationale="  Keep the core rule and timing only.  ",
-        ),
-        answer_mode="workflow",
-        populated_slot_keys={"bottom_line", "deadline_or_timing"},
-    )
-
-    assert selection.keep_slot_keys == ["bottom_line", "deadline_or_timing"]
-    assert selection.rationale == "Keep the core rule and timing only."
 
 
 def test_prune_cited_structured_answer_contract_keeps_selected_slots_in_mode_order() -> None:

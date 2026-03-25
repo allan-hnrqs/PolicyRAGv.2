@@ -1692,3 +1692,33 @@ capture:
     good at the cases it actually changes
   - the remaining ambiguity is largely in extraction quality and slot scope, not
     in whether the intervention logic should exist at all
+
+#### Staged Exactness Promotion Branch
+
+- Branch:
+  - `feat/eval-infra-exactness-promotion`
+- Goal:
+  - separate the proven exactness-only path and eval hardening from the broader
+    experimental verifier family
+- Work completed:
+  - cherry-picked the exactness-specific evaluation and profile surface
+  - restored missing exactness-only helper types on the promotion branch
+  - removed an accidental dependency on the broader slot-selector from
+    `missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat`
+- Current read:
+  - targeted validation is green again
+  - the promotion branch should preserve the exactness-only path as a narrow
+    sub-path, not as a broad replacement answer strategy
+
+#### Claude Peer Workflow
+
+- Added:
+  - `CLAUDE.md`
+  - `docs/claude_collaboration.md`
+  - `scripts/consult_claude.ps1`
+- Purpose:
+  - keep Claude consultations resumable and project-aware without checking
+    machine-local session state into git
+- Current use:
+  - Claude Opus 4.6 is now being used as a peer reviewer and architecture
+    sounding board on the promotion branch

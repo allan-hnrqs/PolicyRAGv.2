@@ -723,3 +723,29 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     `baseline_keep` cases, not evidence that the rewrite logic is bad
   - the next bottleneck is likely question-scoped contract extraction or slot
     pruning, not broader activation tuning
+
+## Promotion Branch Status
+
+- active promotion branch:
+  - `feat/eval-infra-exactness-promotion`
+- intent:
+  - land only the proven evaluation hardening and the narrow exactness-only
+    missing-detail path
+- current blocker status:
+  - the accidental dependency on broad slot selection inside the exactness-only
+    path has been removed locally
+  - targeted validation is passing again
+  - a full preserved-baseline `parity19` comparison is running to re-check the
+    branch end to end
+
+## Claude Collaboration Status
+
+- shared Claude instructions now live in:
+  - `CLAUDE.md`
+- local resumable session workflow now lives in:
+  - `scripts/consult_claude.ps1`
+  - `.claude/session_local/` (gitignored)
+- intended usage:
+  - Claude Opus 4.6, max effort
+  - repeated peer consultations with preserved context
+  - repo-local eval evidence still decides promotions
