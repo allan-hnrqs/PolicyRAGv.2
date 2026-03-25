@@ -10,6 +10,7 @@ from that branch.
 If you only need the current high-level state:
 
 - [Presentation Snapshot](docs/presentation_snapshot.md)
+- [Pipeline Presentation Outline](docs/presentation_pipeline_outline.md)
 - [Current State](docs/current_state.md)
 - [Decision Log](docs/decision_log.md)
 
@@ -119,6 +120,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start_elasticsearch.ps1
 ## Key Documents
 
 - [Presentation Snapshot](docs/presentation_snapshot.md)
+- [Pipeline Presentation Outline](docs/presentation_pipeline_outline.md)
 - [Current State](docs/current_state.md)
 - [Decision Log](docs/decision_log.md)
 - [Experiment Log](docs/experiment_log.md)

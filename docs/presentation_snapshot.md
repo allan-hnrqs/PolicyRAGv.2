@@ -3,6 +3,7 @@
 This is the shortest truthful summary of the repo for a presentation or quick
 handoff. For full history, use:
 
+- `docs/presentation_pipeline_outline.md`
 - `docs/current_state.md`
 - `docs/decision_log.md`
 - `docs/experiment_log.md`
