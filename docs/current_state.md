@@ -919,7 +919,11 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     - recall `0.7083 -> 0.7917`
     - forbidden violations `1 -> 0`
 - current ops caveat:
-  - optional OpenAI pairwise is presently blocked in this repo by an
-    `account_deactivated` API response
-  - the conditional-comparison workflow now preserves completed artifacts and
-    records the pairwise failure in its summary instead of aborting
+  - the conditional-comparison workflow preserves completed artifacts and can
+    record pairwise failure in its summary instead of aborting
+  - pairwise is currently working again after key rotation
+  - latest control-vs-composite pairwise on `missing_detail_focus`:
+    - `datasets/runs/pairwise_baseline_20260325_015505_751963_98aa_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_intervention_only_20260325_015811_516114_29c0_20260325_020844_153319_5af1.json`
+    - candidate wins `2`
+    - baseline wins `0`
+    - ties `2`

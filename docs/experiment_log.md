@@ -1974,7 +1974,12 @@ capture:
     - intervention-only composite recall `0.7917`
     - forbidden violations `1 -> 0`
 - Operational note:
-  - the optional OpenAI pairwise leg currently fails in `PolicyRAGv.2` because
-    the configured key now returns `account_deactivated`
-  - the workflow now records that error in the summary instead of discarding the
-    completed control/candidate/composite artifacts
+  - the workflow records pairwise errors in the summary instead of discarding
+    the completed control/candidate/composite artifacts
+  - after rotating the OpenAI key, pairwise is working again
+  - latest preserved-baseline pairwise result:
+    - `datasets/runs/pairwise_baseline_20260325_015505_751963_98aa_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_intervention_only_20260325_015811_516114_29c0_20260325_020844_153319_5af1.json`
+    - case_count `4`
+    - candidate wins `2`
+    - baseline wins `0`
+    - ties `2`
