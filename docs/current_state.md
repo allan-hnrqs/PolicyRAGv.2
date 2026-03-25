@@ -5,6 +5,35 @@
 Build a clean Buyer’s Guide-first backend that can match or beat the trustworthy
 `feat` parity floor without inheriting its code clutter or ad hoc answer logic.
 
+## Latest Update
+
+- A research-first evidence-presentation audit was completed on the
+  `feat/evidence-presentation-audit` branch.
+- The key result is negative-but-useful:
+  - same-retrieval presentation changes can move answer quality
+  - but the new `selective_structured_answering` branch failed the correct
+    holdout intervention-only gate and is not promotable
+- The refined selector on that branch now behaves sensibly:
+  - canonical dev selected cases:
+    - `HR_007`, `HR_015`, `HR_017`
+  - canonical holdout selected cases:
+    - `HR_006`, `HR_012`, `HR_014`, `HR_016`
+  - the selector uses a post-planner procedural action-step filter and is a
+    reusable gating pattern
+- The method itself did not earn promotion:
+  - dev intervention-only composite:
+    - `0.7500 -> 0.7778`
+    - pairwise `2` candidate / `1` control / `6` ties
+  - holdout intervention-only composite:
+    - `0.7583 -> 0.7083`
+    - pairwise `2` candidate / `2` control / `6` ties
+- Current conclusion:
+  - reject `selective_structured_answering`
+  - keep the evidence-presentation diagnostics and the procedural-action-step
+    gate as reusable research outputs
+  - the next meaningful branch should return to the compact branch's remaining
+    dev regressions rather than keep pushing broad structured presentation
+
 ## Repo Role
 
 - primary tracked repo:

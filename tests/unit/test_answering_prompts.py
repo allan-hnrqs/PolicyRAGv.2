@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from bgrag.answering.strategies import (
     AnswerRewriteVerdictPayload,
     ContractSlotCoverageVerdictPayload,
@@ -38,13 +40,18 @@ from bgrag.answering.strategies import (
     _normalize_cited_structured_answer_contract_payload,
     _normalize_mode_aware_answer_plan,
     _normalize_structured_answer_contract,
+    _count_procedural_action_steps,
     _looks_corrupted,
     _looks_like_missing_detail_abstention,
+    selective_structured_inline_evidence_chat,
     _select_compact_mode_aware_answer_route,
     _select_mode_aware_answer_route,
     _select_structured_contract_answer_route,
 )
-from bgrag.types import ChunkRecord, EvidenceBundle, SourceFamily
+from bgrag.config import Settings
+from bgrag.types import AnswerResult, ChunkRecord, EvidenceBundle, SourceFamily
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def _chunk(chunk_id: str, text: str = "text") -> ChunkRecord:
@@ -954,6 +961,156 @@ def test_compact_selective_route_uses_compact_workflow_prompt() -> None:
     assert route.selected_path == "compact_workflow"
     assert route.abstained is False
     assert "Do not use section labels such as Direct Answer" in route.prompt
+
+
+def test_count_procedural_action_steps_distinguishes_rules_from_multi_step_workflows() -> None:
+    simple_rule_points = [
+        "You may request mandatory certifications at bid closing, but must not require them unless they are in the exceptions list.",
+        "If certifications are missing, notify the offeror and allow two business days to respond.",
+        "Ensure solicitation documents identify which certifications are required.",
+    ]
+    workflow_points = [
+        "Review the statement of capabilities against the ACAN criteria.",
+        "If it meets the requirement, inform the business and proceed with a competitive process.",
+        "If it is rejected, ensure a higher authority reviews it and notify the business in writing.",
+        "Maintain documentation of the review and outcomes in the file.",
+    ]
+
+    assert _count_procedural_action_steps(simple_rule_points) < 3
+    assert _count_procedural_action_steps(workflow_points) >= 3
+
+
+def test_selective_structured_strategy_uses_structured_for_workflow(monkeypatch) -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    evidence = EvidenceBundle(
+        query="original question",
+        packed_chunks=[_chunk("c1")],
+    )
+
+    class _FakeClient:
+        def __init__(self, *_args, **_kwargs) -> None:
+            pass
+
+        def chat(self, *args, **kwargs):  # noqa: ANN002, ANN003
+            return object()
+
+    monkeypatch.setattr("bgrag.answering.strategies.cohere.ClientV2", _FakeClient)
+    monkeypatch.setattr(
+        "bgrag.answering.strategies._extract_text_from_chat_response",
+        lambda _response: (
+            '{"answer_mode":"workflow","should_abstain":false,"abstain_reason":"","coverage_points":["Review the statement against the criteria.","Inform the business and proceed competitively if it meets the requirement.","Maintain documentation of the review and outcomes."]}'
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.structured_inline_evidence_chat",
+        lambda _settings, q, e: AnswerResult(
+            question=q,
+            answer_text="structured answer",
+            strategy_name="structured_inline_evidence_chat",
+            model_name="model",
+            evidence_bundle=e,
+            raw_response={"origin": "structured"},
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.inline_evidence_chat",
+        lambda *_args, **_kwargs: (_ for _ in ()).throw(AssertionError("baseline path should not be used")),
+    )
+
+    result = selective_structured_inline_evidence_chat(settings, "original question", evidence)
+
+    assert result.answer_text == "structured answer"
+    assert result.raw_response["selected_path"] == "structured_inline_evidence_chat"
+    assert result.raw_response["action_step_count"] >= 3
+    assert result.raw_response["answer_plan"]["answer_mode"] == "workflow"
+
+
+def test_selective_structured_strategy_keeps_baseline_for_direct_rule(monkeypatch) -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    evidence = EvidenceBundle(
+        query="original question",
+        packed_chunks=[_chunk("c1")],
+    )
+
+    class _FakeClient:
+        def __init__(self, *_args, **_kwargs) -> None:
+            pass
+
+        def chat(self, *args, **kwargs):  # noqa: ANN002, ANN003
+            return object()
+
+    monkeypatch.setattr("bgrag.answering.strategies.cohere.ClientV2", _FakeClient)
+    monkeypatch.setattr(
+        "bgrag.answering.strategies._extract_text_from_chat_response",
+        lambda _response: (
+            '{"answer_mode":"direct_rule","should_abstain":false,"abstain_reason":"","coverage_points":["State the rule directly"]}'
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.inline_evidence_chat",
+        lambda _settings, q, e: AnswerResult(
+            question=q,
+            answer_text="baseline answer",
+            strategy_name="inline_evidence_chat",
+            model_name="model",
+            evidence_bundle=e,
+            raw_response={"origin": "baseline"},
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.structured_inline_evidence_chat",
+        lambda *_args, **_kwargs: (_ for _ in ()).throw(AssertionError("structured path should not be used")),
+    )
+
+    result = selective_structured_inline_evidence_chat(settings, "original question", evidence)
+
+    assert result.answer_text == "baseline answer"
+    assert result.raw_response["selected_path"] == "inline_evidence_baseline"
+    assert result.raw_response["answer_plan"]["answer_mode"] == "direct_rule"
+
+
+def test_selective_structured_strategy_keeps_baseline_for_non_procedural_workflow(monkeypatch) -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    evidence = EvidenceBundle(
+        query="original question",
+        packed_chunks=[_chunk("c1")],
+    )
+
+    class _FakeClient:
+        def __init__(self, *_args, **_kwargs) -> None:
+            pass
+
+        def chat(self, *args, **kwargs):  # noqa: ANN002, ANN003
+            return object()
+
+    monkeypatch.setattr("bgrag.answering.strategies.cohere.ClientV2", _FakeClient)
+    monkeypatch.setattr(
+        "bgrag.answering.strategies._extract_text_from_chat_response",
+        lambda _response: (
+            '{"answer_mode":"workflow","should_abstain":false,"abstain_reason":"","coverage_points":["The declaration must be provided before contract award.","Buyers may request it at closing but cannot require it.","If it is missing, notify the supplier within two business days."]}'
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.inline_evidence_chat",
+        lambda _settings, q, e: AnswerResult(
+            question=q,
+            answer_text="baseline answer",
+            strategy_name="inline_evidence_chat",
+            model_name="model",
+            evidence_bundle=e,
+            raw_response={"origin": "baseline"},
+        ),
+    )
+    monkeypatch.setattr(
+        "bgrag.answering.strategies.structured_inline_evidence_chat",
+        lambda *_args, **_kwargs: (_ for _ in ()).throw(AssertionError("structured path should not be used")),
+    )
+
+    result = selective_structured_inline_evidence_chat(settings, "original question", evidence)
+
+    assert result.answer_text == "baseline answer"
+    assert result.raw_response["selected_path"] == "inline_evidence_baseline"
+    assert result.raw_response["action_step_count"] < 3
 
 
 

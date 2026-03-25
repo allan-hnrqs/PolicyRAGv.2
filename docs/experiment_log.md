@@ -17,6 +17,157 @@ capture:
 - promotion decision
 - methodology notes or caveats
 
+## 2026-03-25
+
+### Evidence-Presentation Audit: Same-Retrieval Prompt Shape
+
+- Hypothesis:
+  - the remaining broad gap may be caused less by missing retrieval and more by
+    how the final evidence bundle is presented to the answer model
+  - if that is true, a same-retrieval answer-presentation change should move
+    answer quality without changing retrieval metrics
+- Research inputs:
+  - Cohere RAG guide and chunking guidance:
+    - https://docs.cohere.com/v2/docs/retrieval-augmented-generation-rag
+    - https://docs.cohere.com/v2/page/chunking-strategies
+  - Lost in the Middle:
+    - https://arxiv.org/abs/2307.03172
+  - Claude Opus 4.6 peer review:
+    - `.claude/session_local/transcripts/claude_consult_codex-peer_20260325_181858.json`
+- Diagnostic implementation:
+  - added `scripts/analyze_evidence_presentation_signal.py`
+  - measured prompt size, chunk ordering, and claim-rank coverage against the
+    scalar recall gap on existing run artifacts
+- Key diagnostic artifacts:
+  - rebuilt-39 baseline:
+    - `datasets/runs/evidence_presentation_signal_baseline_20260323_061530_20260325_204445.md`
+  - canonical parity19 dev baseline:
+    - `datasets/runs/evidence_presentation_signal_baseline_20260325_200507_046622_b070_20260325_204444.md`
+- Diagnostic result:
+  - prompt-length / oversize-evidence metrics did not explain the broad gap in
+    a clean positive way
+  - many large-gap cases already had relevant evidence ranked very early
+  - conclusion:
+    - broad chunk length is not the main current explanation
+    - evidence presentation is still worth testing because answer quality may be
+      sensitive to prompt structure even when retrieval is fixed
+- Same-retrieval presentation-only profiles tested:
+  - `structured_answering`
+  - `query_guided_answering`
+- Canonical parity19 dev:
+  - baseline:
+    - `datasets/runs/baseline_20260325_200507_046622_b070.json`
+    - recall `0.8611`
+  - structured:
+    - `datasets/runs/structured_answering_20260325_205409_712070_1d9c.json`
+    - recall `0.9167`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_200507_046622_b070_vs_structured_answering_20260325_205409_712070_1d9c_20260325_220636_407245_de6a.json`
+      - control `6`, candidate `3`, ties `0`
+  - query-guided:
+    - `datasets/runs/query_guided_answering_20260325_205957_314818_a1fc.json`
+    - recall `0.8889`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_200507_046622_b070_vs_query_guided_answering_20260325_205957_314818_a1fc_20260325_221721_910149_d080.json`
+      - control `5`, candidate `4`, ties `0`
+- Canonical parity19 holdout:
+  - baseline:
+    - `datasets/runs/baseline_20260325_215759_225702_201a.json`
+    - recall `0.7583`
+  - structured:
+    - `datasets/runs/structured_answering_20260325_220458_479116_23d9.json`
+    - recall `0.8167`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_215759_225702_201a_vs_structured_answering_20260325_220458_479116_23d9_20260325_220722_688068_cf06.json`
+      - control `4`, candidate `6`, ties `0`
+  - query-guided:
+    - `datasets/runs/query_guided_answering_20260325_221632_166365_48b8.json`
+    - recall `0.8750`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_215759_225702_201a_vs_query_guided_answering_20260325_221632_166365_48b8_20260325_221811_293475_3c8d.json`
+      - control `6`, candidate `4`, ties `0`
+- Immediate conclusion:
+  - `query_guided_answering` is rejected
+  - `structured_answering` is a real same-retrieval signal, but broad profile
+    comparisons are noisy because equal-recall cases still lose pairwise on
+    faithfulness
+
+### Evidence-Presentation Audit: Selective Structured Prompting
+
+- Hypothesis:
+  - if structured prompting only touches truly procedural or missing-detail
+    cases, it may keep the broad same-retrieval gains while avoiding the
+    over-explanation failures on direct-rule cases
+- Peer-review inputs:
+  - Claude gate recommendation:
+    - `.claude/session_local/transcripts/claude_consult_codex-peer_20260325_182223.json`
+  - gate refinement follow-up:
+    - `.claude/session_local/transcripts/claude_consult_codex-peer_20260325_185122.json`
+    - `.claude/session_local/transcripts/claude_consult_codex-peer_20260325_191455.json`
+- Implementation changes on branch:
+  - added `selective_structured_inline_evidence_chat`
+  - added `profiles/selective_structured_answering.yaml`
+  - added a post-planner procedural action-step filter
+  - added unit coverage for the new strategy and filter
+- First loose gate result:
+  - canonical dev:
+    - `datasets/runs/selective_structured_answering_20260325_224643_801752_4028.json`
+    - recall `0.8056`
+    - routed `8/9` dev cases through structured
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_223449_433166_5dba_vs_selective_structured_answering_20260325_224643_801752_4028_20260325_224829_295796_c3fc.json`
+      - control `5`, candidate `3`, ties `1`
+  - result:
+    - gate rejected as too loose
+- Refined gate result:
+  - canonical dev candidate:
+    - `datasets/runs/selective_structured_answering_20260325_230131_929771_041a.json`
+    - recall `0.8056`
+    - route counts:
+      - `inline_evidence_baseline = 6`
+      - `structured_inline_evidence_chat = 3`
+    - selected cases:
+      - `HR_007`, `HR_015`, `HR_017`
+    - raw pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_223449_433166_5dba_vs_selective_structured_answering_20260325_230131_929771_041a_20260325_230254_777170_cd7a.json`
+      - control `2`, candidate `4`, ties `3`
+  - canonical holdout candidate:
+    - `datasets/runs/selective_structured_answering_20260325_231011_306227_062c.json`
+    - recall `0.7417`
+    - route counts:
+      - `inline_evidence_baseline = 6`
+      - `structured_inline_evidence_chat = 4`
+    - selected cases:
+      - `HR_006`, `HR_012`, `HR_014`, `HR_016`
+    - raw pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_215759_225702_201a_vs_selective_structured_answering_20260325_231011_306227_062c_20260325_231142_685171_da6b.json`
+      - control `2`, candidate `5`, ties `3`
+- Methodology correction:
+  - the raw pairwise/profile results are still polluted by baseline-keep drift
+    on non-selected cases
+  - this branch therefore must be judged on intervention-only composites
+- Intervention-only composite artifacts:
+  - dev:
+    - `datasets/runs/baseline_20260325_223449_433166_5dba_vs_selective_structured_answering_20260325_230131_929771_041a_intervention_only_20260325_231306_386067.json`
+    - composite recall `0.7500 -> 0.7778`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_223449_433166_5dba_vs_selective_structured_answering_intervention_only_20260325_231306_20260325_231406_884807_9a0d.json`
+      - control `1`, candidate `2`, ties `6`
+  - holdout:
+    - `datasets/runs/baseline_20260325_215759_225702_201a_vs_selective_structured_answering_20260325_231011_306227_062c_intervention_only_20260325_231306_674863.json`
+    - composite recall `0.7583 -> 0.7083`
+    - pairwise:
+      - `datasets/runs/pairwise_baseline_20260325_215759_225702_201a_vs_selective_structured_answering_intervention_only_20260325_231306_20260325_231412_471313_d3aa.json`
+      - control `2`, candidate `2`, ties `6`
+- Result:
+  - rejected as a promotion candidate
+  - the tightened gate itself is useful as a reusable pattern
+  - the structured-presentation method does not earn promotion on holdout once
+    evaluated on the correct intervention-only surface
+- Promotion decision:
+  - do not merge or promote `selective_structured_answering`
+  - keep the branch only as an experimental record
+
 ## 2026-03-23
 
 ### Measurement Hardening: Secondary Ragas Lane

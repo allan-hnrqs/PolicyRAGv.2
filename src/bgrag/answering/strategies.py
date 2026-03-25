@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import warnings
 from dataclasses import dataclass
 from time import perf_counter
@@ -206,6 +207,24 @@ def _build_query_guided_inline_evidence_prompt(question: str, evidence: Evidence
         f"{aspect_block}"
         f"Evidence:\n{joined}"
     )
+
+
+_PROCEDURAL_ACTION_STEP_PATTERN = re.compile(
+    r"\b("
+    r"review|verify|inform|notify|invite|publish|send|proceed|handle|follow|apply|consider|consult|"
+    r"open|use|allow|return|assess|justify|record|evaluate|award|recommend"
+    r")\b",
+    flags=re.IGNORECASE,
+)
+
+
+def _count_procedural_action_steps(coverage_points: list[str]) -> int:
+    action_hits: set[str] = set()
+    for point in coverage_points:
+        normalized = re.sub(r"^\s*\d+\.\s*", "", point.strip().lower())
+        for match in _PROCEDURAL_ACTION_STEP_PATTERN.findall(normalized):
+            action_hits.add(match.lower())
+    return len(action_hits)
 
 
 def _build_answer_plan_prompt(question: str, evidence: EvidenceBundle) -> str:
@@ -1895,6 +1914,78 @@ def query_guided_inline_evidence_chat(settings: Settings, question: str, evidenc
     )
 
 
+def selective_structured_inline_evidence_chat(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+) -> AnswerResult:
+    client = cohere.ClientV2(settings.cohere_api_key)
+    plan_start = perf_counter()
+    plan_response = client.chat(
+        model=settings.cohere_query_planner_model,
+        messages=[ct.UserChatMessageV2(content=_build_compact_mode_aware_answer_plan_prompt(question, evidence))],
+        response_format=ct.JsonObjectResponseFormatV2(),
+        temperature=0,
+        max_tokens=500,
+    )
+    plan_text = _extract_text_from_chat_response(plan_response)
+    plan = _normalize_mode_aware_answer_plan(plan_text, max_points=6)
+    plan_end = perf_counter()
+    plan_payload = {
+        "answer_mode": plan.answer_mode,
+        "should_abstain": plan.should_abstain,
+        "abstain_reason": plan.abstain_reason,
+        "coverage_points": plan.coverage_points,
+    }
+    action_step_count = _count_procedural_action_steps(plan.coverage_points)
+
+    if plan.answer_mode == "missing_detail" or (
+        plan.answer_mode == "workflow" and action_step_count >= 3
+    ):
+        structured_start = perf_counter()
+        structured_result = structured_inline_evidence_chat(settings, question, evidence)
+        structured_end = perf_counter()
+        raw_response = dict(structured_result.raw_response or {})
+        raw_response["answer_plan"] = plan_payload
+        raw_response["action_step_count"] = action_step_count
+        raw_response["selected_path"] = "structured_inline_evidence_chat"
+        timings = dict(structured_result.timings)
+        timings["answer_plan_seconds"] = plan_end - plan_start
+        timings["final_answer_seconds"] = structured_end - structured_start
+        return AnswerResult(
+            question=structured_result.question,
+            answer_text=structured_result.answer_text,
+            strategy_name="selective_structured_inline_evidence_chat",
+            model_name=structured_result.model_name,
+            citations=structured_result.citations,
+            evidence_bundle=structured_result.evidence_bundle,
+            raw_response=raw_response,
+            timings=timings,
+            abstained=structured_result.abstained,
+            failure_reason=structured_result.failure_reason,
+        )
+
+    baseline_result = inline_evidence_chat(settings, question, evidence)
+    raw_response = dict(baseline_result.raw_response or {})
+    raw_response["answer_plan"] = plan_payload
+    raw_response["action_step_count"] = action_step_count
+    raw_response["selected_path"] = "inline_evidence_baseline"
+    timings = dict(baseline_result.timings)
+    timings["answer_plan_seconds"] = plan_end - plan_start
+    return AnswerResult(
+        question=baseline_result.question,
+        answer_text=baseline_result.answer_text,
+        strategy_name="selective_structured_inline_evidence_chat",
+        model_name=baseline_result.model_name,
+        citations=baseline_result.citations,
+        evidence_bundle=baseline_result.evidence_bundle,
+        raw_response=raw_response,
+        timings=timings,
+        abstained=baseline_result.abstained,
+        failure_reason=baseline_result.failure_reason,
+    )
+
+
 def planned_inline_evidence_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
     client = cohere.ClientV2(settings.cohere_api_key)
     plan_start = perf_counter()
@@ -3027,6 +3118,10 @@ answer_strategy_registry.register("inline_evidence_chat", inline_evidence_chat)
 answer_strategy_registry.register("structured_inline_evidence_chat", structured_inline_evidence_chat)
 answer_strategy_registry.register("documents_chat", documents_chat)
 answer_strategy_registry.register("query_guided_inline_evidence_chat", query_guided_inline_evidence_chat)
+answer_strategy_registry.register(
+    "selective_structured_inline_evidence_chat",
+    selective_structured_inline_evidence_chat,
+)
 answer_strategy_registry.register("planned_inline_evidence_chat", planned_inline_evidence_chat)
 answer_strategy_registry.register("mode_aware_planned_inline_evidence_chat", mode_aware_planned_inline_evidence_chat)
 answer_strategy_registry.register(

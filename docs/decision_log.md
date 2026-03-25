@@ -3,6 +3,39 @@
 This file records durable architectural decisions so long conversations do not
 become the only place where rationale lives.
 
+## 2026-03-25
+
+- A research-first evidence-presentation audit was run before adding more
+  answer-side complexity. Result:
+  - the broad retrieval-to-answer gap is not well explained by prompt length or
+    oversized packed chunks alone
+  - same-retrieval prompt shape can still move answer quality materially
+  Decision:
+  - treat evidence presentation as a legitimate subproblem
+  - do not treat chunk length itself as the current primary bottleneck
+- `query_guided_answering` is rejected as a presentation-only branch.
+  It improved scalar recall on canonical dev/holdout, but pairwise preferred
+  baseline on both surfaces.
+- `structured_answering` is not promotable as a broad profile.
+  It is a real same-retrieval signal, but broad raw profile comparisons mix
+  method effect with baseline-keep drift on untouched cases.
+- A selective structured-prompt branch was tested with an explicit
+  intervention-only methodology.
+  Result:
+  - the first gate was too loose and routed almost all dev cases to structured
+  - a refined post-planner procedural-action-step filter fixed the over-routing
+  - once judged on intervention-only composites, the method was mildly positive
+    on canonical dev but regressed canonical holdout
+  Decision:
+  - reject `selective_structured_answering` as a promotion candidate
+  - keep the post-planner procedural-action-step filter idea as reusable gating
+    machinery for future conditional branches
+  Rationale:
+  - the selector question and the method question are now separated
+  - the selector became sane
+  - the structured-presentation method itself still failed the holdout
+    intervention-only surface
+
 ## 2026-03-22
 
 - The new repo is a clean-room rebuild based on `feat-retrieval-expensive-methods-eval`

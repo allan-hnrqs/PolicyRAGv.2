@@ -21,6 +21,45 @@ references over secondary summaries.
 - If a useful source requires signup or manual access, record the exact manual
   task needed rather than silently replacing it with a weaker source.
 
+## 2026-03-25
+
+### Evidence presentation and chunking findings
+
+- External guidance still supports the general concern that policy / legal style
+  systems are sensitive to chunking and context placement:
+  - Cohere RAG guide:
+    - https://docs.cohere.com/v2/docs/retrieval-augmented-generation-rag
+  - Cohere chunking strategies:
+    - https://docs.cohere.com/v2/page/chunking-strategies
+  - Lost in the Middle:
+    - https://arxiv.org/abs/2307.03172
+- The repo's local evidence narrowed that concern:
+  - broad chunk-length metrics did not explain the current retrieval-to-answer
+    gap in a clean positive way
+  - same-retrieval prompt shape did move judged answer quality, so the live
+    subproblem is better described as evidence presentation / consumption rather
+    than raw retrieval failure
+- Practical research conclusion:
+  - do not bundle chunking changes, delivery-mode changes, and answer-prompt
+    changes into one experiment
+  - first test same-retrieval presentation-only changes
+  - then judge them on intervention-only composites if the branch is
+    conditional
+- Claude Opus 4.6 peer review was useful here:
+  - transcript:
+    - `.claude/session_local/transcripts/claude_consult_codex-peer_20260325_181858.json`
+  - recommendation:
+    - use existing planner output as the gate
+    - if a selective structured path is tried, measure it on intervention-only
+      surfaces rather than whole-profile pairwise alone
+- Final research takeaway from this cycle:
+  - evidence presentation is a real lever
+  - but the tested selective structured-presentation method does not earn
+    promotion on holdout
+  - future answer-side work should reuse the methodology lesson
+    (intervention-only evaluation + explicit gating) more than the exact prompt
+    family
+
 ## 2026-03-22
 
 ### Cohere / architecture findings

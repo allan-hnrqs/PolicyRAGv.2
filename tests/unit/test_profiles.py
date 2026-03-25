@@ -48,6 +48,12 @@ def test_structured_contract_deterministic_profile_loads() -> None:
     assert profile.answering.strategy == "structured_contract_deterministic_inline_evidence_chat"
 
 
+def test_selective_structured_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("selective_structured_answering", settings)
+    assert profile.answering.strategy == "selective_structured_inline_evidence_chat"
+
+
 def test_selective_workflow_contract_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("selective_workflow_contract_answering", settings)
