@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from _bootstrap import REPO_ROOT
+from bgrag.cli import _repo_env_values
 from bgrag.config import Settings
 from bgrag.eval.runner import run_eval
 from bgrag.manifests import build_eval_run_manifest, build_run_name, load_index_manifest, write_run_artifact_manifest
@@ -194,7 +195,7 @@ def main() -> None:
     args = parser.parse_args()
 
     repo_root = REPO_ROOT
-    settings = Settings(_env_file=repo_root / ".env", project_root=repo_root)
+    settings = Settings(project_root=repo_root, **_repo_env_values(repo_root))
     settings.ensure_directories()
     eval_path = Path(args.eval_path)
     if not eval_path.is_absolute():

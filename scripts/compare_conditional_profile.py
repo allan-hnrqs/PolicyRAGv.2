@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timezone
 
 from _bootstrap import REPO_ROOT
+from bgrag.cli import _repo_env_values
 from bgrag.config import Settings
 from bgrag.eval.conditional_compare import (
     resolve_cli_path,
@@ -36,7 +37,7 @@ def main() -> None:
     args = parser.parse_args()
 
     repo_root = REPO_ROOT
-    settings = Settings(_env_file=repo_root / ".env", project_root=repo_root)
+    settings = Settings(project_root=repo_root, **_repo_env_values(repo_root))
     settings.ensure_directories()
     eval_path = resolve_cli_path(repo_root, args.eval_path)
     intervention_paths = set(args.intervention_path or ["rewrite_structured_contract"])

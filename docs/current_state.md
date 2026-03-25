@@ -848,5 +848,42 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
   - treat `EX_001` / `EX_002` underfiring as a bounded follow-up branch
     targeted at exactness-gate sensitivity
 - open blocker:
-  - OpenAI pairwise is currently unavailable again because the live key is
-    returning `401 account_deactivated` on `responses`
+  - the pairwise blocker was not the repo key itself
+  - it was stale machine-level `OPENAI_API_KEY` precedence in the compare
+    scripts
+
+## Exactness-family Holdout Gate
+
+- current strongest narrow-branch result:
+  - `datasets/runs/conditional_compare_summary_20260325_082330_615363_2c5e.json`
+- result:
+  - selected cases:
+    - `HR_016`
+    - `HR_037`
+  - scalar:
+    - recall `0.7778 -> 0.8889`
+    - forbidden violations `1 -> 0`
+    - abstain accuracy `0.6667 -> 1.0`
+  - pairwise:
+    - candidate wins `2`
+    - control wins `0`
+    - ties `1`
+- current read:
+  - the narrow exactness rewrite path is good enough on the holdout cases where
+    it fires
+  - the remaining problem is gate coverage, not rewrite quality
+
+## Immediate Next Step
+
+- start a new bounded branch for exactness-gate sensitivity
+- target:
+  - `EX_001`
+  - `EX_002`
+- required validation:
+  - `exactness_family_dev`
+  - `exactness_family_holdout`
+  - canonical `parity19_dev`
+  - canonical `parity19_holdout`
+- promotion rule:
+  - better or equal exactness-family pairwise / scalar results
+  - no regression on canonical `parity19`

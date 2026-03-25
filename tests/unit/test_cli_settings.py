@@ -28,3 +28,17 @@ def test_settings_prefers_repo_root_from_cwd(monkeypatch, tmp_path: Path) -> Non
     assert settings.project_root == tmp_path
     assert settings.openai_api_key == "repo-openai"
     assert settings.cohere_api_key == "repo-cohere"
+
+
+def test_settings_prefers_repo_env_over_ambient_shell_env(monkeypatch, tmp_path: Path) -> None:
+    (tmp_path / "pyproject.toml").write_text("[project]\nname='bgrag'\n", encoding="utf-8")
+    (tmp_path / "src" / "bgrag").mkdir(parents=True)
+    (tmp_path / ".env").write_text("OPENAI_API_KEY=repo-openai\nCOHERE_API_KEY=repo-cohere\n", encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv("OPENAI_API_KEY", "shell-openai")
+    monkeypatch.setenv("COHERE_API_KEY", "shell-cohere")
+
+    settings = _settings()
+
+    assert settings.openai_api_key == "repo-openai"
+    assert settings.cohere_api_key == "repo-cohere"

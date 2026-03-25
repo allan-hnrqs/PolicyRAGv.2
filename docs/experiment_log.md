@@ -1905,3 +1905,46 @@ capture:
   - both failed with:
     - `401 account_deactivated`
   - so these reruns should be read as scalar + intervention-only evidence only
+
+#### Exactness-family pairwise unblock
+
+- Root cause of the repeated `401 account_deactivated` failures:
+  - `scripts/compare_conditional_profile.py` and `scripts/compare_profiles.py`
+    were instantiating `Settings` directly from `.env`, so ambient shell
+    environment variables still overrode the repo `.env`
+  - this repo currently had a stale machine-level `OPENAI_API_KEY` in the
+    shell, which was deactivated
+- Fix:
+  - both scripts now use the same repo-env precedence helper as the main CLI,
+    so repo `.env` values override the ambient shell environment
+  - added a settings test to lock that behavior down
+- Validation:
+  - targeted settings / conditional-compare tests:
+    - `16 passed`
+- Holdout exactness-family rerun with pairwise after the fix:
+  - summary:
+    - `datasets/runs/conditional_compare_summary_20260325_082330_615363_2c5e.json`
+  - pairwise:
+    - `datasets/runs/pairwise_baseline_20260325_082116_126844_7167_vs_missing_detail_exactness_verifier_gated_structured_contract_answering_intervention_only_20260325_082318_087523_0d11_20260325_082330_593488_2979.json`
+  - selected cases:
+    - `HR_016`
+    - `HR_037`
+  - scalar:
+    - recall `0.7778 -> 0.8889`
+    - forbidden violations `1 -> 0`
+    - abstain accuracy `0.6667 -> 1.0`
+  - pairwise:
+    - candidate wins `2`
+    - control wins `0`
+    - ties `1`
+    - tie case:
+      - `EX_002`
+    - candidate wins:
+      - `HR_016`
+      - `HR_037`
+- Interpretation:
+  - the narrow exactness sub-path is now pairwise-backed on the exactness-family
+    holdout cases where it intervenes
+  - the next real question is no longer whether the rewrite is good
+  - it is whether we can broaden the gate carefully enough to catch `EX_001`
+    and `EX_002` without regressing canonical `parity19`

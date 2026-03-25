@@ -559,3 +559,23 @@ become the only place where rationale lives.
   - the branch contract is a stronger, more honest exactness regression gate
   - the remaining underfiring is a follow-up answer-method problem, not a
     reason to block the eval-surface improvement itself
+- Repo-local `.env` values must override ambient shell environment in script
+  entrypoints, not just in the main CLI.
+  Decision:
+  - `compare_conditional_profile.py` and `compare_profiles.py` now use the same
+    repo-env precedence helper as `bgrag.cli`
+  Reason:
+  - stale machine-level API keys were able to override the repo `.env` and
+    silently break pairwise evaluation despite the repo being configured
+    correctly
+- The narrow exactness sub-path has now cleared the holdout exactness-family
+  pairwise gate on the cases it actually rewrites.
+  Decision:
+  - treat the rewrite quality question as answered for `HR_016` and `HR_037`
+  - move the next branch to exactness-gate sensitivity for `EX_001` and
+    `EX_002`, not another rewrite-style redesign
+  Reason:
+  - holdout intervention-only pairwise is:
+    - candidate wins `2`
+    - control wins `0`
+    - ties `1`

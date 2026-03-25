@@ -351,3 +351,16 @@ references over secondary summaries.
   - eval-surface work and answer-method tuning should stay separated
   - the branch is worth merging even though the narrow exactness gate is not
     yet complete on the new authored cases
+
+### Pairwise unblock finding
+
+- The repeat `401 account_deactivated` failures during pairwise were not caused
+  by the repo `.env` after all.
+- Local investigation showed:
+  - the pairwise compare scripts were creating `Settings` directly
+  - pydantic settings therefore let ambient shell environment variables
+    override the repo `.env`
+  - this machine still had a stale global `OPENAI_API_KEY` set
+- Practical implication:
+  - repo-local evaluation scripts should use the same explicit repo-env loading
+    path as the CLI when reproducibility matters
