@@ -47,6 +47,16 @@ def _extract_text_from_chat_response(response: object) -> str:
     return "".join(parts).strip()
 
 
+def _require_bool(value: object, field_name: str) -> bool:
+    if not isinstance(value, bool):
+        raise ValueError(f"Judge response {field_name} must be a boolean")
+    return value
+
+
+def _normalize_claim_text(value: object) -> str:
+    return " ".join(str(value or "").split()).strip().casefold()
+
+
 def _normalize_judgment(parsed: dict[str, object], case: EvalCase) -> dict[str, object]:
     required_items = parsed.get("required_claims", [])
     forbidden_items = parsed.get("forbidden_claims", [])
@@ -54,25 +64,56 @@ def _normalize_judgment(parsed: dict[str, object], case: EvalCase) -> dict[str, 
         raise ValueError("Judge response required_claims must be a list")
     if not isinstance(forbidden_items, list):
         raise ValueError("Judge response forbidden_claims must be a list")
+    if len(required_items) != len(case.required_claims):
+        raise ValueError(
+            "Judge response required_claims length mismatch: "
+            f"expected {len(case.required_claims)}, got {len(required_items)}"
+        )
+    if len(forbidden_items) != len(case.forbidden_claims):
+        raise ValueError(
+            "Judge response forbidden_claims length mismatch: "
+            f"expected {len(case.forbidden_claims)}, got {len(forbidden_items)}"
+        )
+    if any(not isinstance(item, dict) for item in required_items):
+        raise ValueError("Judge response required_claims items must be objects")
+    if any(not isinstance(item, dict) for item in forbidden_items):
+        raise ValueError("Judge response forbidden_claims items must be objects")
+    for index, (item, expected_claim) in enumerate(zip(required_items, case.required_claims, strict=True)):
+        returned_claim = item.get("claim")
+        if _normalize_claim_text(returned_claim) != _normalize_claim_text(expected_claim):
+            raise ValueError(
+                "Judge response required_claims claim mismatch at index "
+                f"{index}: expected {expected_claim!r}, got {returned_claim!r}"
+            )
+    for index, (item, expected_claim) in enumerate(zip(forbidden_items, case.forbidden_claims, strict=True)):
+        returned_claim = item.get("claim")
+        if _normalize_claim_text(returned_claim) != _normalize_claim_text(expected_claim):
+            raise ValueError(
+                "Judge response forbidden_claims claim mismatch at index "
+                f"{index}: expected {expected_claim!r}, got {returned_claim!r}"
+            )
 
     supported_count = sum(
         1
         for item in required_items
-        if isinstance(item, dict) and bool(item.get("supported", False))
+        if isinstance(item, dict) and _require_bool(item.get("supported"), "required_claims[].supported")
     )
     violated_count = sum(
         1
         for item in forbidden_items
-        if isinstance(item, dict) and bool(item.get("violated", False))
+        if isinstance(item, dict) and _require_bool(item.get("violated"), "forbidden_claims[].violated")
     )
     required_total = len(case.required_claims)
     forbidden_total = len(case.forbidden_claims)
+    abstain_correct = parsed.get("abstain_correct")
+    if abstain_correct is not None and not isinstance(abstain_correct, bool):
+        raise ValueError("Judge response abstain_correct must be boolean or null")
 
     return {
         "required_claims": required_items,
         "forbidden_claims": forbidden_items,
-        "answer_abstains": bool(parsed.get("answer_abstains", False)),
-        "abstain_correct": parsed.get("abstain_correct"),
+        "answer_abstains": _require_bool(parsed.get("answer_abstains"), "answer_abstains"),
+        "abstain_correct": abstain_correct,
         "overall_notes": str(parsed.get("overall_notes", "")),
         "required_claim_recall": supported_count / required_total if required_total else 0.0,
         "required_claim_supported_count": supported_count,

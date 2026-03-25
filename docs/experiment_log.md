@@ -1692,3 +1692,107 @@ capture:
     good at the cases it actually changes
   - the remaining ambiguity is largely in extraction quality and slot scope, not
     in whether the intervention logic should exist at all
+
+#### Staged Exactness Promotion Branch
+
+- Branch:
+  - `feat/eval-infra-exactness-promotion`
+- Goal:
+  - separate the proven exactness-only path and eval hardening from the broader
+    experimental verifier family
+- Work completed:
+  - cherry-picked the exactness-specific evaluation and profile surface
+  - restored missing exactness-only helper types on the promotion branch
+  - removed an accidental dependency on the broader slot-selector from
+    `missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_chat`
+- Current read:
+  - targeted validation is green again
+  - the promotion branch should preserve the exactness-only path as a narrow
+    sub-path, not as a broad replacement answer strategy
+
+#### Claude Peer Workflow
+
+- Added:
+  - `CLAUDE.md`
+  - `docs/claude_collaboration.md`
+  - `scripts/consult_claude.ps1`
+- Purpose:
+  - keep Claude consultations resumable and project-aware without checking
+    machine-local session state into git
+- Current use:
+  - Claude Opus 4.6 is now being used as a peer reviewer and architecture
+    sounding board on the promotion branch
+
+#### Eval Integrity Hardening
+
+- Trigger:
+  - a fresh audit of the evaluation harness found two high-severity risks:
+    - judge claim lists were only length-validated, not identity-validated
+    - conditional compare summaries did not expose drift on non-selected cases
+- Changes:
+  - `src/bgrag/eval/judge.py`
+    - now rejects required/forbidden claim entries whose `claim` text does not
+      align with the authored claim at the same index
+  - `src/bgrag/eval/run_composition.py`
+    - now records non-selected preserved-baseline drift details in the composed
+      run manifest
+  - `src/bgrag/eval/conditional_compare.py`
+    - now surfaces non-selected drift, answer failure counts, and abstain
+      accuracy in conditional summaries and markdown
+- Validation:
+  - targeted eval-harness tests:
+    - `15 passed`
+  - full suite:
+    - `141 passed`
+- Interpretation:
+  - promotion decisions on conditional branches are now less likely to hide
+    branch leakage or mis-scored judge payloads
+
+#### Conditional Compare Progress Reporting
+
+- Problem:
+  - long-running conditional comparisons were effectively silent in detached or
+    background logs, making it hard to tell whether they were progressing or
+    hung
+- Changes:
+  - `src/bgrag/eval/conditional_compare.py`
+    - added optional progress callbacks for:
+      - resolved namespace
+      - control/candidate eval start and finish
+      - composite creation
+      - pairwise start/finish/error
+      - summary completion
+  - `scripts/compare_conditional_profile.py`
+    - now emits timestamped progress lines to stdout
+- Validation:
+  - targeted conditional-compare tests:
+    - `5 passed`
+  - full suite:
+    - `142 passed`
+
+#### Standalone Exactness Profile Caveat
+
+- Direct artifact comparison on completed `parity19` runs showed that the
+  standalone exactness profile still drifts on non-selected cases because it
+  reruns the baseline generation path before deciding whether to rewrite.
+- That means:
+  - raw full-suite `baseline` vs exactness-profile candidate runs are noisy
+  - they are not the right promotion surface for this method
+  - intervention-only composites remain the correct measurement tool for the
+    exactness sub-path
+- Current interpretation:
+  - this does not block merging the branch
+  - it only blocks treating the standalone exactness profile as a direct
+    promotion-quality comparison surface
+
+#### Exactness Surface Audit
+
+- A separate audit of the current exactness surface found:
+  - the current 4-case slice is methodologically sound as a narrow negative
+    exactness / abstention surface
+  - it does not yet cover positive exact-identifier extraction
+  - `HR_016` is the only current case that looks slightly under-constrained and
+    should be tightened before being treated as a hard exactness label
+- High-confidence future exactness additions, if we expand the family later:
+  - exact PSPC trade agreement unit contact detail
+  - exact GCDocs form or file name for PSD audit services

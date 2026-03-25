@@ -263,3 +263,51 @@ references over secondary summaries.
   - but constrain rewrite activation more narrowly than the current
     slot-coverage branch, because broad rewriting still harms the canonical dev
     surface
+
+## 2026-03-25
+
+### Claude Code collaboration setup
+
+- Official Claude Code docs support a clean split between durable project
+  context and machine-local runtime state:
+  - project-scoped files such as `CLAUDE.md` and `.claude/settings.json` are
+    meant to be shared with the repository
+  - local scope is meant for personal or machine-specific state
+  Source:
+  - https://code.claude.com/docs/en/settings
+- Official memory docs distinguish between:
+  - `CLAUDE.md` for instructions loaded every session
+  - auto memory for machine-local learned context
+  Source:
+  - https://code.claude.com/docs/en/memory
+- Official subagent docs confirm:
+  - subagents run in separate contexts
+  - background subagents are appropriate for independent work
+  - resumed sessions preserve prior conversation context
+  Source:
+  - https://code.claude.com/docs/en/sub-agents
+- Practical implication for this repo:
+  - keep shared Claude collaboration rules in committed `CLAUDE.md`
+  - keep live Claude session IDs and transcripts in gitignored local storage
+  - use a wrapper that resumes the same Claude Opus 4.6 session for repeated
+    Codex <-> Claude consultations
+  - keep Claude advisory by default and let repo-local eval evidence decide
+    promotions
+
+### Eval-method audit results
+
+- A focused audit of the current eval harness identified a concrete methodological
+  risk in structured LLM judging:
+  - validating only the length of returned claim lists is insufficient
+  - the harness should also verify that each returned claim identity still
+    matches the authored claim it is being scored against
+  Practical implication:
+  - strict claim-text alignment should be enforced in normalization before
+    recall or safety metrics are computed
+- The same audit also reinforced a methodological limit of intervention-only
+  composition:
+  - it is only safe as a promotion surface if untouched candidate cases are
+    visibly tracked for drift against control
+  Practical implication:
+  - conditional summaries should always expose whether non-selected candidate
+    cases stayed baseline-equivalent or not

@@ -471,3 +471,47 @@ become the only place where rationale lives.
   - the intervention logic itself is good
   - the remaining problem is structured-contract extraction or slot scope, not
     broader activation tuning
+- A staged promotion branch is now the preferred integration method for
+  extracting proven ideas from the broader verifier branch.
+  Decision:
+  - promote only:
+    - evaluation hardening
+    - conditional/intervention-only comparison tooling
+    - split-safe exactness slices
+    - the narrow missing-detail exactness sub-path
+  - do not drag the broader verifier family into the promotion branch
+- Claude collaboration should use a durable/local split.
+  Decision:
+  - keep repo-shared Claude guidance in committed `CLAUDE.md`
+  - keep session IDs and transcripts in `.claude/session_local/` and out of git
+  - use Claude Opus 4.6 with max effort through a resumable wrapper
+  - treat Claude as a peer reviewer and advisor, not as the promotion authority
+- Conditional comparison summaries must explicitly surface preserved-baseline
+  drift on non-selected cases.
+  Decision:
+  - promotion summaries now record:
+    - `non_selected_changed_case_count`
+    - `non_selected_changed_case_ids`
+    - `non_selected_preserved_baseline`
+  - intervention-only composites remain useful, but they are not allowed to
+    silently imply that untouched candidate cases matched control
+- Judge normalization must validate claim identity, not just list length.
+  Decision:
+  - reject judge payloads whose `claim` text does not align with the authored
+    required/forbidden claims at the same index
+  - this prevents reordered or paraphrased claim lists from being scored against
+    the wrong target claims
+- Conditional-compare tooling should emit explicit progress for background runs.
+  Decision:
+  - keep progress reporting in the runner and CLI wrapper
+  - prefer rerunning long comparisons on current branch code over trusting stale
+    background jobs that were started before harness changes
+- The narrow exactness path is mergeable as code and as an intervention-only
+  measured method, but not as a standalone full-suite promotion surface.
+  Decision:
+  - merge the exactness sub-path and supporting eval hardening
+  - do not read raw full-suite `baseline` vs
+    `missing_detail_exactness_verifier_gated_structured_contract_answering`
+    runs as meaningful direct A/B evidence
+  - use intervention-only composites and exactness-family slices when deciding
+    whether the exactness path is helping

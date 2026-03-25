@@ -22,6 +22,13 @@ def compute_overall_metrics(case_results: list[EvalCaseResult]) -> dict[str, flo
     annotated_results = [result for result in case_results if bool(result.metrics["claim_evidence_annotated"])]
     annotated_packed_claim_recalls = [float(result.metrics["packed_claim_evidence_recall"]) for result in annotated_results]
     annotated_candidate_claim_recalls = [float(result.metrics["candidate_claim_evidence_recall"]) for result in annotated_results]
+    abstention_annotated_results = [result for result in case_results if bool(result.metrics.get("expect_abstain_annotated"))]
+    abstention_correct_results = [
+        result for result in abstention_annotated_results if result.metrics.get("abstain_correct") is True
+    ]
+    abstention_abstained_results = [
+        result for result in abstention_annotated_results if bool(result.metrics.get("judge_answer_abstains"))
+    ]
     return {
         "required_claim_recall_mean": sum(recalls) / len(recalls) if recalls else 0.0,
         "answer_failure_count": failures,
@@ -57,6 +64,12 @@ def compute_overall_metrics(case_results: list[EvalCaseResult]) -> dict[str, flo
             if annotated_candidate_claim_recalls
             else 0.0
         ),
+        "expect_abstain_annotated_case_count": len(abstention_annotated_results),
+        "judge_answer_abstain_count_annotated": len(abstention_abstained_results),
+        "abstain_correct_count": len(abstention_correct_results),
+        "abstain_accuracy": (
+            len(abstention_correct_results) / len(abstention_annotated_results) if abstention_annotated_results else 0.0
+        ),
     }
 
 
@@ -71,6 +84,61 @@ def intervention_selected(
     return isinstance(selected_path, str) and selected_path in allowed
 
 
+def _preserved_baseline_case_drift(control_case: EvalCaseResult, candidate_case: EvalCaseResult) -> dict[str, object]:
+    control_selected_path = (control_case.answer.raw_response or {}).get("selected_path")
+    candidate_selected_path = (candidate_case.answer.raw_response or {}).get("selected_path")
+    answer_text_changed = control_case.answer.answer_text != candidate_case.answer.answer_text
+    abstained_changed = control_case.answer.abstained != candidate_case.answer.abstained
+    failure_reason_changed = control_case.answer.failure_reason != candidate_case.answer.failure_reason
+    selected_path_changed = control_selected_path != candidate_selected_path
+    changed = answer_text_changed or abstained_changed or failure_reason_changed or selected_path_changed
+    return {
+        "changed": changed,
+        "answer_text_changed": answer_text_changed,
+        "abstained_changed": abstained_changed,
+        "failure_reason_changed": failure_reason_changed,
+        "selected_path_changed": selected_path_changed,
+    }
+
+
+def _validate_compatible_runs(control_run: EvalRunResult, candidate_run: EvalRunResult) -> None:
+    control_case_ids = [case.case.id for case in control_run.cases]
+    candidate_case_ids = [case.case.id for case in candidate_run.cases]
+    if control_case_ids != candidate_case_ids:
+        raise RuntimeError(
+            "Composite eval runs require identical case IDs in the same order. "
+            f"Control IDs: {control_case_ids}. Candidate IDs: {candidate_case_ids}."
+        )
+
+    if control_run.answer_model != candidate_run.answer_model:
+        raise RuntimeError(
+            "Composite eval runs require the same answer model across parent runs. "
+            f"Control: {control_run.answer_model}. Candidate: {candidate_run.answer_model}."
+        )
+
+    if control_run.judge_model != candidate_run.judge_model:
+        raise RuntimeError(
+            "Composite eval runs require the same judge model across parent runs. "
+            f"Control: {control_run.judge_model}. Candidate: {candidate_run.judge_model}."
+        )
+
+    manifest_pairs = (
+        ("eval_path", "eval surface"),
+        ("eval_sha256", "eval surface"),
+        ("index_namespace", "index namespace"),
+        ("answer_model", "answer model"),
+        ("judge_model", "judge model"),
+    )
+    for manifest_key, label in manifest_pairs:
+        control_value = control_run.run_manifest.get(manifest_key)
+        candidate_value = candidate_run.run_manifest.get(manifest_key)
+        if control_value and candidate_value and control_value != candidate_value:
+            raise RuntimeError(
+                "Composite eval runs require matching parent-run provenance for "
+                f"{label}. Control: {control_value}. Candidate: {candidate_value}."
+            )
+
+
 def compose_eval_run(
     *,
     control_run: EvalRunResult,
@@ -79,9 +147,13 @@ def compose_eval_run(
     composite_run_name: str | None = None,
     notes: list[str] | None = None,
 ) -> EvalRunResult:
+    _validate_compatible_runs(control_run, candidate_run)
     candidate_by_id = {case.case.id: case for case in candidate_run.cases}
     composite_cases: list[EvalCaseResult] = []
     selected_case_ids: list[str] = []
+    non_selected_case_ids: list[str] = []
+    non_selected_changed_case_ids: list[str] = []
+    non_selected_drift_details: list[dict[str, object]] = []
     for control_case in control_run.cases:
         candidate_case = candidate_by_id.get(control_case.case.id)
         if candidate_case and choose_candidate_case(candidate_case):
@@ -89,6 +161,20 @@ def compose_eval_run(
             selected_case_ids.append(candidate_case.case.id)
         else:
             composite_cases.append(control_case)
+            non_selected_case_ids.append(control_case.case.id)
+            if candidate_case is not None:
+                drift = _preserved_baseline_case_drift(control_case, candidate_case)
+                if bool(drift["changed"]):
+                    non_selected_changed_case_ids.append(control_case.case.id)
+                    non_selected_drift_details.append(
+                        {
+                            "case_id": control_case.case.id,
+                            "answer_text_changed": bool(drift["answer_text_changed"]),
+                            "abstained_changed": bool(drift["abstained_changed"]),
+                            "failure_reason_changed": bool(drift["failure_reason_changed"]),
+                            "selected_path_changed": bool(drift["selected_path_changed"]),
+                        }
+                    )
 
     composite_notes = list(control_run.notes)
     composite_notes.extend(notes or [])
@@ -104,8 +190,19 @@ def compose_eval_run(
     run_manifest = dict(control_run.run_manifest)
     run_manifest["composed_from"] = {
         "control_run_name": control_run.run_name,
+        "control_profile_name": control_run.profile_name,
         "candidate_run_name": candidate_run.run_name,
+        "candidate_profile_name": candidate_run.profile_name,
+        "control_answer_model": control_run.answer_model,
+        "candidate_answer_model": candidate_run.answer_model,
+        "control_judge_model": control_run.judge_model,
+        "candidate_judge_model": candidate_run.judge_model,
         "selected_case_ids": selected_case_ids,
+        "non_selected_case_ids": non_selected_case_ids,
+        "non_selected_changed_case_ids": non_selected_changed_case_ids,
+        "non_selected_changed_case_count": len(non_selected_changed_case_ids),
+        "non_selected_preserved_baseline": len(non_selected_changed_case_ids) == 0,
+        "non_selected_drift_details": non_selected_drift_details,
     }
 
     return EvalRunResult(

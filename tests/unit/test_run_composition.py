@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 
+import pytest
+
 from bgrag.eval.run_composition import compose_eval_run, intervention_selected
 from bgrag.types import AnswerResult, EvalCase, EvalCaseResult, EvalRunResult
 
@@ -25,6 +27,10 @@ def _case_result(case_id: str, *, recall: float, selected_path: str, seconds: fl
             "failed": False,
             "forbidden_claims_clean": True,
             "forbidden_claim_violation_count": 0,
+            "judge_answer_abstains": False,
+            "expect_abstain_annotated": False,
+            "expect_abstain": None,
+            "abstain_correct": None,
             "query_embedding_seconds": 0.1,
             "retrieval_seconds": 0.2,
             "answer_generation_seconds": 0.3,
@@ -50,6 +56,7 @@ def _run(name: str, cases: list[EvalCaseResult]) -> EvalRunResult:
         profile_name=name,
         answer_model="command-a",
         judge_model="command-a",
+        run_manifest={"eval_path": "datasets/eval/parity/parity19.jsonl", "index_namespace": "baseline_ns"},
         cases=cases,
         overall_metrics={},
     )
@@ -84,3 +91,67 @@ def test_compose_eval_run_uses_candidate_only_for_intervened_cases() -> None:
     assert composite.overall_metrics["required_claim_recall_mean"] == 0.65
     assert composite.overall_metrics["mean_case_seconds"] == 16.0
     assert "Selected candidate cases: HR_001" in composite.notes
+    composed_from = composite.run_manifest["composed_from"]
+    assert composed_from["non_selected_preserved_baseline"] is False
+    assert composed_from["non_selected_changed_case_count"] == 1
+    assert composed_from["non_selected_changed_case_ids"] == ["HR_002"]
+
+
+def test_compose_eval_run_tracks_non_selected_preserved_baseline_when_unchanged() -> None:
+    control_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
+    candidate_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
+
+    composite = compose_eval_run(
+        control_run=_run("control", [control_case]),
+        candidate_run=_run("candidate", [candidate_case]),
+        choose_candidate_case=intervention_selected,
+    )
+
+    composed_from = composite.run_manifest["composed_from"]
+    assert composed_from["non_selected_preserved_baseline"] is True
+    assert composed_from["non_selected_changed_case_count"] == 0
+    assert composed_from["non_selected_changed_case_ids"] == []
+
+
+def test_compose_eval_run_tracks_abstention_accuracy() -> None:
+    control_case = _case_result("HR_010", recall=1.0, selected_path="baseline_keep")
+    control_case.metrics["expect_abstain_annotated"] = True
+    control_case.metrics["expect_abstain"] = True
+    control_case.metrics["judge_answer_abstains"] = True
+    control_case.metrics["abstain_correct"] = True
+
+    composite = compose_eval_run(
+        control_run=_run("control", [control_case]),
+        candidate_run=_run("candidate", [control_case]),
+        choose_candidate_case=intervention_selected,
+    )
+
+    assert composite.overall_metrics["expect_abstain_annotated_case_count"] == 1
+    assert composite.overall_metrics["judge_answer_abstain_count_annotated"] == 1
+    assert composite.overall_metrics["abstain_correct_count"] == 1
+    assert composite.overall_metrics["abstain_accuracy"] == 1.0
+
+
+def test_compose_eval_run_rejects_mismatched_case_sets() -> None:
+    control = _run("control", [_case_result("HR_001", recall=0.5, selected_path="baseline_keep")])
+    candidate = _run("candidate", [_case_result("HR_002", recall=1.0, selected_path="rewrite_structured_contract")])
+
+    with pytest.raises(RuntimeError, match="identical case IDs"):
+        compose_eval_run(
+            control_run=control,
+            candidate_run=candidate,
+            choose_candidate_case=intervention_selected,
+        )
+
+
+def test_compose_eval_run_rejects_mismatched_eval_provenance() -> None:
+    control = _run("control", [_case_result("HR_001", recall=0.5, selected_path="baseline_keep")])
+    candidate = _run("candidate", [_case_result("HR_001", recall=1.0, selected_path="rewrite_structured_contract")])
+    candidate.run_manifest["eval_path"] = "datasets/eval/holdout/parity19_holdout.jsonl"
+
+    with pytest.raises(RuntimeError, match="matching parent-run provenance"):
+        compose_eval_run(
+            control_run=control,
+            candidate_run=candidate,
+            choose_candidate_case=intervention_selected,
+        )

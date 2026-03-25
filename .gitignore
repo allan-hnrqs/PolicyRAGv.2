@@ -7,3 +7,5 @@ __pycache__/
 datasets/raw/
 datasets/runs/
 datasets/index/
+.claude/session_local/
+.claude/codex-peer-session-id.txt

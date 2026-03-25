@@ -1,11 +1,14 @@
 from bgrag.answering.strategies import (
     AnswerRewriteVerdictPayload,
     ContractSlotCoverageVerdictPayload,
+    CitedStructuredAnswerContract,
     CitedStructuredAnswerContractPayload,
+    MissingDetailExactnessVerdictPayload,
     _build_answer_rewrite_verdict_prompt,
     _build_contract_aware_answer_rewrite_verdict_prompt,
     _build_contract_slot_coverage_verdict_prompt,
     StructuredAnswerSlotPayload,
+    StructuredAnswerSlotValue,
     _build_answer_plan_prompt,
     _build_cited_structured_answer_contract_prompt,
     _build_compact_mode_aware_answer_plan_prompt,
@@ -18,7 +21,11 @@ from bgrag.answering.strategies import (
     _build_mode_aware_answer_plan_prompt,
     _build_navigation_answer_prompt,
     _collect_contract_citations,
+    _minimal_missing_detail_exactness_keep_set,
+    _missing_detail_exactness_rewrite_decision,
     _normalize_cited_structured_answer_contract,
+    _normalize_missing_detail_exactness_verdict_payload,
+    _prune_cited_structured_answer_contract,
     _build_structured_answer_contract_prompt,
     _render_cited_structured_contract_answer,
     _build_mode_aware_planned_inline_evidence_prompt,
@@ -496,7 +503,85 @@ def test_normalize_contract_slot_coverage_verdict_payload_filters_to_allowed_pop
     assert verdict.missing_or_weakened_slots == ["branch_if_some", "deadline_or_timing"]
     assert verdict.unsupported_detail_risk is True
 
+def test_normalize_missing_detail_exactness_verdict_payload_filters_values() -> None:
+    verdict = _normalize_missing_detail_exactness_verdict_payload(
+        MissingDetailExactnessVerdictPayload(
+            confidence="maybe",
+            rationale="  Nearby form is presented too strongly.  ",
+            exact_detail_overstatement_risk=True,
+            offending_details=["PWGSC-TPSGC 1151-1", "PWGSC-TPSGC 1151-1"],
+        )
+    )
 
+    assert verdict.confidence == "low"
+    assert verdict.rationale == "Nearby form is presented too strongly."
+    assert verdict.exact_detail_overstatement_risk is True
+    assert verdict.offending_details == ["PWGSC-TPSGC 1151-1"]
+
+
+def test_prune_cited_structured_answer_contract_keeps_selected_slots_in_mode_order() -> None:
+    contract = CitedStructuredAnswerContract(
+        answer_mode="workflow",
+        should_abstain=False,
+        abstain_reason="",
+        slots={
+            "bottom_line": StructuredAnswerSlotValue(text="Main rule.", citation_chunk_ids=["c1"]),
+            "required_document_or_input": StructuredAnswerSlotValue(text="Publish an NPP.", citation_chunk_ids=["c2"]),
+            "deadline_or_timing": StructuredAnswerSlotValue(text="Urgency can shorten the period.", citation_chunk_ids=["c3"]),
+        },
+    )
+
+    pruned = _prune_cited_structured_answer_contract(
+        contract,
+        keep_slot_keys={"deadline_or_timing", "bottom_line"},
+    )
+
+    assert list(pruned.slots) == ["bottom_line", "deadline_or_timing"]
+    assert "required_document_or_input" not in pruned.slots
+
+
+def test_prune_cited_structured_answer_contract_falls_back_when_keep_set_is_empty() -> None:
+    contract = CitedStructuredAnswerContract(
+        answer_mode="missing_detail",
+        should_abstain=True,
+        abstain_reason="Not provided.",
+        slots={
+            "exact_detail_status": StructuredAnswerSlotValue(text="Not provided.", citation_chunk_ids=["c1"]),
+            "page_or_location": StructuredAnswerSlotValue(text="Use the buyer portal page.", citation_chunk_ids=["c2"]),
+        },
+    )
+
+    pruned = _prune_cited_structured_answer_contract(contract, keep_slot_keys=set())
+
+    assert pruned == contract
+
+
+def test_minimal_missing_detail_exactness_keep_set_prefers_exact_status_context_and_optional_location() -> None:
+    contract = CitedStructuredAnswerContract(
+        answer_mode="missing_detail",
+        should_abstain=True,
+        abstain_reason="Not provided.",
+        slots={
+            "exact_detail_status": StructuredAnswerSlotValue(text="Not provided.", citation_chunk_ids=["c1"]),
+            "closest_supported_context": StructuredAnswerSlotValue(
+                text="Use the approvals page.", citation_chunk_ids=["c2"]
+            ),
+            "page_or_location": StructuredAnswerSlotValue(
+                text="GC network folder.", citation_chunk_ids=["c3"]
+            ),
+            "supporting_rule": StructuredAnswerSlotValue(
+                text="Written approval must be on file.", citation_chunk_ids=["c4"]
+            ),
+        },
+    )
+
+    keep = _minimal_missing_detail_exactness_keep_set(
+        contract,
+        selector_keep_slot_keys={"page_or_location"},
+        missing_slots={"closest_supported_context", "supporting_rule"},
+    )
+
+    assert keep == {"exact_detail_status", "closest_supported_context", "page_or_location"}
 def test_looks_like_missing_detail_abstention_detects_generic_abstain_language() -> None:
     assert _looks_like_missing_detail_abstention(
         "The evidence does not explicitly provide the exact email address."
@@ -504,6 +589,68 @@ def test_looks_like_missing_detail_abstention_detects_generic_abstain_language()
     assert not _looks_like_missing_detail_abstention(
         "Use the Schedule 3 template and send the notice to the listed group."
     )
+
+
+def test_missing_detail_exactness_rewrite_decision_fires_for_missing_exact_detail_status() -> None:
+    should_rewrite, activation_reason = _missing_detail_exactness_rewrite_decision(
+        missing_slots={"exact_detail_status"},
+        baseline_answer_text="Use the Schedule 3 template.",
+        exactness_verdict=None,
+    )
+
+    assert should_rewrite is True
+    assert activation_reason == "missing_detail_failed_abstention"
+
+
+def test_missing_detail_exactness_rewrite_decision_fires_for_missing_context_when_baseline_does_not_abstain() -> None:
+    should_rewrite, activation_reason = _missing_detail_exactness_rewrite_decision(
+        missing_slots={"closest_supported_context", "supporting_rule"},
+        baseline_answer_text="Use the GC network folder for the relevant form.",
+        exactness_verdict=None,
+    )
+
+    assert should_rewrite is True
+    assert activation_reason == "missing_detail_missing_context"
+
+
+def test_missing_detail_exactness_rewrite_decision_respects_exactness_overstatement_risk() -> None:
+    exactness_verdict = _normalize_missing_detail_exactness_verdict_payload(
+        MissingDetailExactnessVerdictPayload(
+            confidence="high",
+            rationale="Nearby form identifier is presented as the exact requested detail.",
+            exact_detail_overstatement_risk=True,
+            offending_details=["PWGSC-TPSGC 1151-1"],
+        )
+    )
+
+    should_rewrite, activation_reason = _missing_detail_exactness_rewrite_decision(
+        missing_slots=set(),
+        baseline_answer_text="The exact form number is PWGSC-TPSGC 1151-1.",
+        exactness_verdict=exactness_verdict,
+    )
+
+    assert should_rewrite is True
+    assert activation_reason == "missing_detail_exactness_overstatement"
+
+
+def test_missing_detail_exactness_rewrite_decision_keeps_clean_abstention_when_exactness_risk_is_false() -> None:
+    exactness_verdict = _normalize_missing_detail_exactness_verdict_payload(
+        MissingDetailExactnessVerdictPayload(
+            confidence="high",
+            rationale="The draft already abstains cleanly and does not overstate an exact detail.",
+            exact_detail_overstatement_risk=False,
+            offending_details=[],
+        )
+    )
+
+    should_rewrite, activation_reason = _missing_detail_exactness_rewrite_decision(
+        missing_slots={"exact_detail_status", "supporting_rule"},
+        baseline_answer_text="The exact email address is not available in the provided evidence.",
+        exactness_verdict=exactness_verdict,
+    )
+
+    assert should_rewrite is False
+    assert activation_reason == "baseline_keep"
 
 
 def test_looks_corrupted_detects_repetitive_gibberish() -> None:

@@ -723,3 +723,56 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
     `baseline_keep` cases, not evidence that the rewrite logic is bad
   - the next bottleneck is likely question-scoped contract extraction or slot
     pruning, not broader activation tuning
+
+## Promotion Branch Status
+
+- active promotion branch:
+  - `feat/eval-infra-exactness-promotion`
+- intent:
+  - land only the proven evaluation hardening and the narrow exactness-only
+    missing-detail path
+- current blocker status:
+  - the accidental dependency on broad slot selection inside the exactness-only
+    path has been removed locally
+  - targeted validation is passing again
+  - a full preserved-baseline `parity19` comparison is running to re-check the
+    branch end to end
+
+## Claude Collaboration Status
+
+- shared Claude instructions now live in:
+  - `CLAUDE.md`
+- local resumable session workflow now lives in:
+  - `scripts/consult_claude.ps1`
+  - `.claude/session_local/` (gitignored)
+- intended usage:
+  - Claude Opus 4.6, max effort
+  - repeated peer consultations with preserved context
+  - repo-local eval evidence still decides promotions
+
+## Eval Integrity Status
+
+- the promotion branch now includes two additional harness hardening changes:
+  - judge claim-text alignment is enforced, not just list length
+  - conditional compare summaries now report drift on non-selected cases
+- current local validation:
+  - full suite: `141 passed`
+- practical implication:
+  - intervention-only conditional results are now safer to interpret because
+    summaries no longer hide untouched-case drift
+  - long-running conditional comparisons are now observable through timestamped
+    progress logs instead of appearing silent until completion
+
+## Exactness Merge Read
+
+- current branch judgment:
+  - the eval hardening is ready to merge
+  - the narrow missing-detail exactness path is ready to merge as an available
+    sub-path
+  - the standalone exactness profile is not a trustworthy full-suite promotion
+    surface because regenerated non-selected cases still drift from control
+- promotion rule:
+  - evaluate the exactness path through:
+    - intervention-only composites
+    - split-safe exactness slices
+  - not through raw full-suite standalone profile comparisons

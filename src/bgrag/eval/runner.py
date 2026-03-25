@@ -46,6 +46,10 @@ def run_eval(
                 metrics={
                     "required_claim_recall": float(judgment["required_claim_recall"]),
                     "abstained": answer.abstained,
+                    "judge_answer_abstains": bool(judgment["answer_abstains"]),
+                    "expect_abstain_annotated": case.expect_abstain is not None,
+                    "expect_abstain": case.expect_abstain,
+                    "abstain_correct": judgment["abstain_correct"],
                     "failed": bool(answer.failure_reason),
                     "forbidden_claims_clean": bool(judgment["forbidden_claims_clean"]),
                     "forbidden_claim_violation_count": int(judgment["forbidden_claim_violation_count"]),

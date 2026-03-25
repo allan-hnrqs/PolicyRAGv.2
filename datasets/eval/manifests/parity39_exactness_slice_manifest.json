@@ -1,0 +1,27 @@
+{
+  "name": "parity39_exactness_slices",
+  "created_from": {
+    "dev_source": "datasets/eval/dev/parity39_dev_draft.jsonl",
+    "holdout_source": "datasets/eval/holdout/parity39_holdout_draft.jsonl"
+  },
+  "selection_manifest": "datasets/eval/manifests/parity39_exactness_case_audit.json",
+  "rationale": "Split-safe rebuilt-parity39 exactness/abstention subset for preserved-baseline evaluation of unsupported exact-detail and contact/internal-detail failures.",
+  "dev_case_ids": [
+    "HR_017",
+    "HR_038"
+  ],
+  "holdout_case_ids": [
+    "HR_016",
+    "HR_037"
+  ],
+  "excluded_adjacent_case_ids": [
+    "HR_010",
+    "HR_012",
+    "HR_026",
+    "HR_033"
+  ],
+  "targets": {
+    "dev": "datasets/eval/dev/parity39_exactness_dev.jsonl",
+    "holdout": "datasets/eval/holdout/parity39_exactness_holdout.jsonl"
+  }
+}
