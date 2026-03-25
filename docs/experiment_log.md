@@ -1789,3 +1789,87 @@ capture:
   - keep the more conservative gate from the feature-branch base
   - treat missing-detail follow-up as a separate method problem, not something
     to patch by broadly rewriting all abstention-style cases
+
+#### Exactness Verifier and Environment Correction
+
+- Goal:
+  - add a narrower post-draft verifier that catches unsupported exact-detail
+    overstatement in missing-detail answers without broadening the whole
+    missing-detail activation lane
+- Implementation:
+  - added a typed exactness-verdict schema and structured-output extractor in:
+    - `src/bgrag/answering/strategies.py`
+  - added prompt/normalization tests in:
+    - `tests/unit/test_answering_prompts.py`
+  - tightened `_looks_like_missing_detail_abstention()` so the bare phrase
+    `exact form number` no longer counts as abstention language by itself
+  - changed the exactness-verifier trigger to use the structured contract's
+    `should_abstain` signal instead of a raw baseline-string heuristic
+- Important environment correction:
+  - discovered that `PolicyRAGv.2` scripts were importing `bgrag` from
+    `buyers-guide-rag-clean`, not from `PolicyRAGv.2`
+  - confirmed by checking `bgrag.answering.strategies.__file__`
+  - fixed with:
+    - `python -m pip install -e .`
+  - implication:
+    - recent `PolicyRAGv.2` runs before that fix do not count as trustworthy
+      validation of the local branch code
+- Validation after the import fix:
+  - `pytest -q tests/unit/test_answering_prompts.py tests/unit/test_profiles.py`
+    - `62 passed`
+  - `python -m py_compile src/bgrag/answering/strategies.py`
+    - passed
+- Trusted focused result on:
+  - `datasets/eval/generated/missing_detail_focus.jsonl`
+  - baseline:
+    - `datasets/runs/baseline_20260325_001226_418598_1529.json`
+    - recall `0.7083`
+    - forbidden violations `1`
+  - exactness-verifier branch:
+    - `datasets/runs/narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_001554_270312_312c.json`
+    - recall `0.7917`
+    - forbidden violations `0`
+    - routes:
+      - `baseline_keep=2`
+      - `rewrite_structured_contract=2`
+  - pairwise:
+    - `datasets/runs/pairwise_baseline_20260325_001226_418598_1529_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_001554_270312_312c_20260325_001701_968345_d3c4.json`
+    - candidate wins `2`
+    - control wins `1`
+    - ties `1`
+- Canonical parity19 gate after the import fix:
+  - dev:
+    - `datasets/runs/profile_compare_20260325_002558_690004_c237.md`
+    - baseline `0.9167`
+    - candidate `0.8611`
+  - holdout:
+    - `datasets/runs/profile_compare_20260325_003652_369071_1d2e.md`
+    - baseline `0.8750`
+    - candidate `0.8000`
+- Important per-case read on canonical parity19:
+  - dev regressions came from `baseline_keep` cases:
+    - `HR_001`
+    - `HR_010`
+  - holdout regressions also came from `baseline_keep` cases:
+    - `HR_006`
+    - `HR_018`
+  - the only holdout rewrite was:
+    - `HR_016`
+    - and it stayed at `1.0`
+- Intervention-only composites:
+  - dev:
+    - `datasets/runs/baseline_20260325_002012_750440_47e8_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_002558_575637_11d4_intervention_only_20260325_003819_484095.md`
+    - selected cases: none
+    - composite recall `0.9167`
+  - holdout:
+    - `datasets/runs/baseline_20260325_002932_949063_a8c0_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_003652_243065_27f7_intervention_only_20260325_003819_109874.md`
+    - selected case: `HR_016`
+    - composite recall `0.8750`
+- Interpretation:
+  - the exactness-verifier family is real and useful on the targeted
+    missing-detail failures
+  - the broad parity19 regressions were not caused by harmful rewrites
+  - they came from regenerated `baseline_keep` cases, so intervention-only
+    measurement remains the right methodology for judging this branch
+  - even so, this branch is still not broad-promotable because it does not yet
+    produce a clean overall gain on the canonical control surface

@@ -491,3 +491,43 @@ become the only place where rationale lives.
   - it helped `HR_038`
   - but it over-fired on `HR_017` and did not produce a clean generic gain on
     the abstention-only slice
+- `PolicyRAGv.2` had an editable-install path bug.
+  Decision:
+  - treat branch-specific `PolicyRAGv.2` runs produced before `python -m pip install -e .`
+    as untrustworthy for local-code validation
+  Why:
+  - the repo was importing `bgrag` from `buyers-guide-rag-clean`
+  - that would have made the local branch look validated even when the wrong
+    code was executing
+- The exactness verifier is worth keeping, but only as an experimental branch
+  refinement.
+  Decision:
+  - keep the typed missing-detail exactness-verifier infrastructure on
+    `feat/question-scoped-slot-pruning`
+  - do not promote it to `main`
+  Why:
+  - on the trusted `missing_detail_focus` slice it improves recall from
+    `0.7083` to `0.7917`, removes the forbidden violation, and wins pairwise
+    `2` to `1`
+  - but on trusted canonical `parity19` runs it still loses as a full profile:
+    - dev `0.9167 -> 0.8611`
+    - holdout `0.8750 -> 0.8000`
+- Exactness-verifier activation should be contract-driven, not baseline-string-driven.
+  Decision:
+  - use the structured contract's `should_abstain` signal to decide whether the
+    exactness verifier should run
+  - keep `_looks_like_missing_detail_abstention()` only as a narrower helper
+    for other missing-detail checks
+  Why:
+  - the earlier heuristic was too loose
+  - the phrase `exact form number` by itself is not abstention
+  - contract-driven activation is the more principled method for this branch
+- Intervention-only composition remains the correct promotion lens for the
+  narrow verifier family.
+  Decision:
+  - continue to judge this branch primarily by focused slices and
+    intervention-only composites before trusting broad full-run scalar changes
+  Why:
+  - on trusted canonical `parity19`, the regressions came from regenerated
+    `baseline_keep` cases (`HR_001`, `HR_010`, `HR_006`, `HR_018`)
+  - the only holdout rewrite was `HR_016`, and it did not reduce quality

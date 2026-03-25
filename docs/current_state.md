@@ -775,3 +775,87 @@ Keep the promoted query-decomposition baseline as the control. Use it while:
 - status:
   - rejected
   - the feature branch should keep the conservative missing-detail gate
+
+## Current Branch Read
+
+- active experimental branch:
+  - `feat/question-scoped-slot-pruning`
+- latest added method refinement:
+  - a typed missing-detail exactness verifier inside
+    `narrow_contract_slot_coverage_verifier_gated_structured_contract_answering`
+- important environment note:
+  - `PolicyRAGv.2` was briefly importing `bgrag` from
+    `buyers-guide-rag-clean`
+  - that was corrected with:
+    - `python -m pip install -e .`
+  - only runs after that correction should be treated as trustworthy for this
+    branch's local code
+
+## Trusted Exactness-Verifier Read
+
+- trusted focused validation surface:
+  - `datasets/eval/generated/missing_detail_focus.jsonl`
+- trusted artifact:
+  - `datasets/runs/profile_compare_20260325_001554_571063_dc0e.md`
+- result:
+  - baseline:
+    - recall `0.7083`
+    - forbidden violations `1`
+  - exactness-verifier branch:
+    - recall `0.7917`
+    - forbidden violations `0`
+    - route counts:
+      - `baseline_keep=2`
+      - `rewrite_structured_contract=2`
+- trusted pairwise:
+  - `datasets/runs/pairwise_baseline_20260325_001226_418598_1529_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_001554_270312_312c_20260325_001701_968345_d3c4.json`
+  - candidate wins `2`
+  - control wins `1`
+  - ties `1`
+- interpretation:
+  - the exactness verifier is a real improvement on the targeted missing-detail
+    failure family
+  - it is especially justified for unsupported exact form/file/template detail
+    laundering
+
+## Canonical Control Read
+
+- dev:
+  - `datasets/runs/profile_compare_20260325_002558_690004_c237.md`
+  - baseline `0.9167`
+  - branch `0.8611`
+- holdout:
+  - `datasets/runs/profile_compare_20260325_003652_369071_1d2e.md`
+  - baseline `0.8750`
+  - branch `0.8000`
+- important nuance:
+  - these regressions came from regenerated `baseline_keep` cases, not from the
+    exactness rewrite itself
+  - dev losses were `HR_001` and `HR_010`
+  - holdout losses were `HR_006` and `HR_018`
+  - the only holdout rewrite was `HR_016`, and it stayed at `1.0`
+
+## Intervention-Only Read
+
+- dev composite:
+  - `datasets/runs/baseline_20260325_002012_750440_47e8_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_002558_575637_11d4_intervention_only_20260325_003819_484095.md`
+  - selected cases: none
+  - composite recall `0.9167`
+- holdout composite:
+  - `datasets/runs/baseline_20260325_002932_949063_a8c0_vs_narrow_contract_slot_coverage_verifier_gated_structured_contract_answering_20260325_003652_243065_27f7_intervention_only_20260325_003819_109874.md`
+  - selected case: `HR_016`
+  - composite recall `0.8750`
+- interpretation:
+  - the branch's current broad-profile loss is mostly generation noise on
+    untouched `baseline_keep` cases
+  - the intervention logic itself is at least neutral on canonical `parity19`
+    and positive on the focused missing-detail slice
+
+## Current Conclusion
+
+- keep the exactness verifier on the feature branch
+- do not promote it to `main`
+- continue using intervention-only evaluation for this family
+- the next real bottleneck is not whether the verifier exists
+- it is how to keep `baseline_keep` cases stable while still intervening on the
+  exact unsupported-detail failures

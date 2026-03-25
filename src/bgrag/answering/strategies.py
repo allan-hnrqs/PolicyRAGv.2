@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import warnings
 from dataclasses import dataclass
 from time import perf_counter
@@ -98,6 +99,24 @@ class AnswerRewriteVerdictPayload(BaseModel):
     omission_risk: bool = False
     exact_detail_abstain_risk: bool = False
     unsupported_detail_risk: bool = False
+
+
+@dataclass(frozen=True)
+class MissingDetailExactnessVerdict:
+    confidence: str
+    rationale: str
+    exact_detail_overstatement_risk: bool
+    offending_details: list[str]
+
+
+class MissingDetailExactnessVerdictPayload(BaseModel):
+    confidence: str = Field(default="low", description="low, medium, or high")
+    rationale: str = Field(default="", description="Short explanation of the verdict")
+    exact_detail_overstatement_risk: bool = False
+    offending_details: list[str] = Field(
+        default_factory=list,
+        description="Specific exact identifiers, template names, forms, contacts, or nearby details that the draft presents too strongly.",
+    )
 
 
 @dataclass(frozen=True)
@@ -605,6 +624,34 @@ def _build_contract_slot_coverage_verdict_prompt(
     )
 
 
+def _build_missing_detail_exactness_verdict_prompt(
+    question: str,
+    evidence: EvidenceBundle,
+    contract: CitedStructuredAnswerContract,
+    draft_answer: str,
+) -> str:
+    joined = _render_evidence_sections(evidence.packed_chunks)
+    contract_checklist = _render_cited_contract_checklist(contract)
+    return (
+        "You are checking a missing-detail procurement answer for misleading exact-detail claims.\n"
+        "Use only the question, the structured contract, the draft answer, and the evidence below.\n"
+        "Return JSON only in this exact shape:\n"
+        '{"confidence":"low","rationale":"short explanation","exact_detail_overstatement_risk":false,"offending_details":["detail"]}\n\n'
+        "Rules:\n"
+        "1. This check is only about whether the draft presents a nearby identifier, form, file name, template name, contact method, URL, or other detail too strongly as the exact requested answer.\n"
+        "2. Set exact_detail_overstatement_risk to true when the draft says the exact detail is unavailable but then suggests a nearby detail as if it is likely the exact answer, or when it presents a contextual identifier or template name as the requested exact detail.\n"
+        "3. Do not flag a draft merely for giving neutral closest-supported context after a clear abstention.\n"
+        "4. For contact-detail questions, general procedures, directories, lists, or locator URLs are not by themselves exact-detail overstatements.\n"
+        "5. For form-number or file-name questions, naming a related form, template, or document from a broader workflow can still be an overstatement if the evidence does not establish that it is the exact requested artifact.\n"
+        "6. offending_details should list only the specific over-strong details, not general prose.\n"
+        "7. If the draft stays within the contract's exact_detail_status and closest_supported_context without implying more precision than the evidence supports, set exact_detail_overstatement_risk to false.\n\n"
+        f"Original question:\n{question}\n\n"
+        f"Structured answer contract:\n{contract_checklist}\n\n"
+        f"Draft answer:\n{draft_answer}\n\n"
+        f"Evidence:\n{joined}"
+    )
+
+
 def _build_contract_slot_selection_prompt(
     question: str,
     evidence: EvidenceBundle,
@@ -813,6 +860,21 @@ def _normalize_contract_slot_coverage_verdict_payload(
     )
 
 
+def _normalize_missing_detail_exactness_verdict_payload(
+    payload: MissingDetailExactnessVerdictPayload,
+) -> MissingDetailExactnessVerdict:
+    confidence = payload.confidence.strip().lower()
+    if confidence not in {"low", "medium", "high"}:
+        confidence = "low"
+    rationale = " ".join(payload.rationale.split()).strip()
+    return MissingDetailExactnessVerdict(
+        confidence=confidence,
+        rationale=rationale,
+        exact_detail_overstatement_risk=payload.exact_detail_overstatement_risk,
+        offending_details=_normalize_string_list(payload.offending_details, max_items=6),
+    )
+
+
 def _normalize_contract_slot_selection_payload(
     payload: ContractSlotSelectionPayload,
     *,
@@ -970,6 +1032,36 @@ def _extract_contract_slot_coverage_verdict(
     return verdict, payload
 
 
+def _extract_missing_detail_exactness_verdict(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+    contract: CitedStructuredAnswerContract,
+    draft_answer: str,
+) -> tuple[MissingDetailExactnessVerdict, MissingDetailExactnessVerdictPayload]:
+    settings.require_cohere_key("Missing-detail exactness verification")
+    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
+    payload = client.create(
+        response_model=MissingDetailExactnessVerdictPayload,
+        messages=[
+            {
+                "role": "user",
+                "content": _build_missing_detail_exactness_verdict_prompt(
+                    question,
+                    evidence,
+                    contract,
+                    draft_answer,
+                ),
+            }
+        ],
+        model=settings.cohere_query_planner_model,
+        temperature=0,
+        max_tokens=220,
+        max_retries=2,
+    )
+    return _normalize_missing_detail_exactness_verdict_payload(payload), payload
+
+
 def _extract_contract_slot_selection(
     settings: Settings,
     question: str,
@@ -1119,9 +1211,14 @@ def _looks_like_missing_detail_abstention(answer_text: str) -> bool:
         "not in the provided evidence",
         "the evidence does not",
         "exact email address is not",
-        "exact form number",
     )
-    return any(marker in normalized for marker in abstain_markers)
+    if any(marker in normalized for marker in abstain_markers):
+        return True
+    exact_detail_negative_patterns = (
+        r"\bexact [a-z0-9][a-z0-9 /-]{0,40}\b (?:is|are|was|were) not\b",
+        r"\b(?:does not|do not|did not)\b.{0,40}\b(?:provide|specify|list|establish|identify)\b.{0,20}\bexact\b",
+    )
+    return any(re.search(pattern, normalized) for pattern in exact_detail_negative_patterns)
 
 
 def _looks_corrupted(answer_text: str) -> bool:
@@ -2658,6 +2755,9 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     missing_missing_detail_supporting_rule = "supporting_rule" in missing_slots
     baseline_missing_detail_abstains = _looks_like_missing_detail_abstention(baseline_result.answer_text)
     baseline_corrupted = _looks_corrupted(baseline_result.answer_text)
+    exactness_verdict: MissingDetailExactnessVerdict | None = None
+    exactness_payload: MissingDetailExactnessVerdictPayload | None = None
+    exactness_start = exactness_end = None
 
     should_rewrite = False
     activation_reason = "baseline_keep"
@@ -2679,6 +2779,19 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
             elif missing_missing_detail_supporting_rule:
                 should_rewrite = True
                 activation_reason = "missing_detail_missing_operating_context"
+        if not should_rewrite and contract.should_abstain:
+            exactness_start = perf_counter()
+            exactness_verdict, exactness_payload = _extract_missing_detail_exactness_verdict(
+                settings,
+                question,
+                evidence,
+                contract,
+                baseline_result.answer_text,
+            )
+            exactness_end = perf_counter()
+            if exactness_verdict.exact_detail_overstatement_risk:
+                should_rewrite = True
+                activation_reason = "missing_detail_exactness_overstatement"
 
     contract_snapshot = {
         "answer_mode": contract.answer_mode,
@@ -2703,6 +2816,16 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
         "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
         "baseline_missing_detail_abstains": baseline_missing_detail_abstains,
         "baseline_corrupted": baseline_corrupted,
+        "exactness_verdict": (
+            {
+                "confidence": exactness_verdict.confidence,
+                "rationale": exactness_verdict.rationale,
+                "exact_detail_overstatement_risk": exactness_verdict.exact_detail_overstatement_risk,
+                "offending_details": exactness_verdict.offending_details,
+            }
+            if exactness_verdict is not None
+            else None
+        ),
         "activation_reason": activation_reason,
     }
 
@@ -2745,6 +2868,9 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
                 "selected_path": "rewrite_structured_contract",
                 "slot_coverage_verdict": verdict_snapshot,
                 "slot_coverage_verdict_payload": coverage_payload.model_dump(),
+                "missing_detail_exactness_verdict_payload": (
+                    exactness_payload.model_dump() if exactness_payload is not None else None
+                ),
                 "structured_contract": contract_snapshot,
                 "structured_contract_payload": contract_payload.model_dump(),
                 "slot_selection": {
@@ -2785,6 +2911,11 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
                 "slot_coverage_verdict_seconds": coverage_end - coverage_start,
+                "missing_detail_exactness_verdict_seconds": (
+                    (exactness_end - exactness_start)
+                    if exactness_start is not None and exactness_end is not None
+                    else 0.0
+                ),
                 "slot_selection_seconds": selection_end - selection_start,
                 "deterministic_render_seconds": render_end - render_start,
             },
@@ -2796,12 +2927,20 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     raw_response["selected_path"] = "baseline_keep"
     raw_response["slot_coverage_verdict"] = verdict_snapshot
     raw_response["slot_coverage_verdict_payload"] = coverage_payload.model_dump()
+    raw_response["missing_detail_exactness_verdict_payload"] = (
+        exactness_payload.model_dump() if exactness_payload is not None else None
+    )
     raw_response["structured_contract"] = contract_snapshot
     raw_response["structured_contract_payload"] = contract_payload.model_dump()
     timings = dict(baseline_result.timings)
     timings["baseline_answer_seconds"] = baseline_end - baseline_start
     timings["structured_contract_seconds"] = contract_end - contract_start
     timings["slot_coverage_verdict_seconds"] = coverage_end - coverage_start
+    timings["missing_detail_exactness_verdict_seconds"] = (
+        (exactness_end - exactness_start)
+        if exactness_start is not None and exactness_end is not None
+        else 0.0
+    )
     return AnswerResult(
         question=baseline_result.question,
         answer_text=baseline_result.answer_text,

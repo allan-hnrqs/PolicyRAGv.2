@@ -3,10 +3,12 @@ from bgrag.answering.strategies import (
     ContractSlotSelectionPayload,
     ContractSlotCoverageVerdictPayload,
     CitedStructuredAnswerContractPayload,
+    MissingDetailExactnessVerdictPayload,
     CitedStructuredAnswerContract,
     StructuredAnswerSlotValue,
     _build_answer_rewrite_verdict_prompt,
     _build_contract_aware_answer_rewrite_verdict_prompt,
+    _build_missing_detail_exactness_verdict_prompt,
     _build_contract_slot_selection_prompt,
     _build_contract_slot_coverage_verdict_prompt,
     StructuredAnswerSlotPayload,
@@ -31,6 +33,7 @@ from bgrag.answering.strategies import (
     _normalize_answer_plan,
     _normalize_answer_repair_plan,
     _normalize_answer_rewrite_verdict_payload,
+    _normalize_missing_detail_exactness_verdict_payload,
     _normalize_contract_slot_selection_payload,
     _normalize_contract_slot_coverage_verdict_payload,
     _normalize_cited_structured_answer_contract_payload,
@@ -500,6 +503,43 @@ def test_contract_slot_selection_prompt_demands_small_sufficient_keep_set() -> N
     assert "Prefer the smallest sufficient keep set." in prompt
 
 
+def test_missing_detail_exactness_prompt_targets_nearby_identifier_overstatement() -> None:
+    evidence = EvidenceBundle(
+        query="question",
+        packed_chunks=[_chunk("c1")],
+    )
+    contract = _normalize_cited_structured_answer_contract(
+        """
+        {
+          "answer_mode": "missing_detail",
+          "should_abstain": true,
+          "abstain_reason": "The exact form number is not provided.",
+          "slots": {
+            "exact_detail_status": {
+              "text": "The exact form number is not provided.",
+              "citation_chunk_ids": ["c1"]
+            },
+            "closest_supported_context": {
+              "text": "ADM approval must be in writing and on file.",
+              "citation_chunk_ids": ["c1"]
+            }
+          }
+        }
+        """
+    )
+
+    prompt = _build_missing_detail_exactness_verdict_prompt(
+        "Which exact form number do I need?",
+        evidence,
+        contract,
+        "The exact form number is not provided, but use PWGSC-TPSGC 1151-1.",
+    )
+
+    assert '"exact_detail_overstatement_risk":false' in prompt
+    assert "nearby identifier, form, file name, template name, contact method" in prompt
+    assert "Do not flag a draft merely for giving neutral closest-supported context" in prompt
+
+
 def test_normalize_answer_rewrite_verdict_payload_filters_invalid_values() -> None:
     verdict = _normalize_answer_rewrite_verdict_payload(
         AnswerRewriteVerdictPayload(
@@ -535,6 +575,22 @@ def test_normalize_contract_slot_coverage_verdict_payload_filters_to_allowed_pop
     assert verdict.rationale == "Missed branch and deadline."
     assert verdict.missing_or_weakened_slots == ["branch_if_some", "deadline_or_timing"]
     assert verdict.unsupported_detail_risk is True
+
+
+def test_normalize_missing_detail_exactness_verdict_payload_filters_values() -> None:
+    verdict = _normalize_missing_detail_exactness_verdict_payload(
+        MissingDetailExactnessVerdictPayload(
+            confidence="maybe",
+            rationale="  Nearby form is presented too strongly.  ",
+            exact_detail_overstatement_risk=True,
+            offending_details=["PWGSC-TPSGC 1151-1", "PWGSC-TPSGC 1151-1"],
+        )
+    )
+
+    assert verdict.confidence == "low"
+    assert verdict.rationale == "Nearby form is presented too strongly."
+    assert verdict.exact_detail_overstatement_risk is True
+    assert verdict.offending_details == ["PWGSC-TPSGC 1151-1"]
 
 
 def test_normalize_contract_slot_selection_payload_filters_to_allowed_populated_slots() -> None:
@@ -592,8 +648,14 @@ def test_looks_like_missing_detail_abstention_detects_generic_abstain_language()
     assert _looks_like_missing_detail_abstention(
         "The evidence does not explicitly provide the exact email address."
     )
+    assert _looks_like_missing_detail_abstention(
+        "The exact form number is not provided in the directive."
+    )
     assert not _looks_like_missing_detail_abstention(
         "Use the Schedule 3 template and send the notice to the listed group."
+    )
+    assert not _looks_like_missing_detail_abstention(
+        "The exact form number is PWGSC-TPSGC 1151-1."
     )
 
 
