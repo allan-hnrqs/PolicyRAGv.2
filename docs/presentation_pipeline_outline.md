@@ -57,6 +57,12 @@ Why:
 - most benchmarked questions depended first on Buyer’s Guide operational pages
 - flat equal-source retrieval was not the best prior
 
+Evidence to cite:
+- reference corpus composition:
+  - `228` Buyer’s Guide documents
+  - `4` Buy Canadian policy pages
+  - `1` TBS directive page
+
 What failed or was rejected:
 - flat source treatment as the default worldview
 - broad unified-source retrieval as a new default
@@ -64,6 +70,11 @@ What failed or was rejected:
 Why it failed:
 - it did not produce a clean broad gain
 - it diluted the stronger Buyer’s Guide-first prior
+
+Evidence to cite:
+- the topology decision was based on corpus composition first, then later broad
+  retrieval tests failed to show a trustworthy enough gain to justify replacing
+  the Buyer’s Guide-first default
 
 ## Slide 4: Chunking
 
@@ -94,6 +105,10 @@ What failed:
 - canonical `parity19_dev` regressed:
   - baseline `0.8611`
   - sliding-window `0.8056`
+- pairwise on the same dev surface was only:
+  - control `4`
+  - candidate `4`
+  - ties `1`
 
 Why it failed:
 - it was not really testing the intended “smaller chunk” hypothesis
@@ -117,6 +132,16 @@ Why:
 - lexical retrieval alone was not enough
 - query decomposition improved both judged quality and deterministic retrieval
   recall on canonical surfaces
+
+Evidence to cite:
+- canonical `parity19_dev`:
+  - baseline `0.8333`
+  - query decomposition `0.8889`
+  - packed claim-evidence recall `0.9722 -> 1.0`
+- canonical `parity19_holdout`:
+  - baseline `0.6000`
+  - query decomposition `0.8250`
+  - packed claim-evidence recall `0.8250 -> 0.9750`
 
 Current promoted retrieval result:
 - original `19` best full run:
@@ -182,6 +207,30 @@ Why they failed:
 - `selective_structured_answering` had a sane final gate, but failed the
   correct holdout intervention-only evaluation surface
 
+Evidence to cite:
+- `query_guided_answering`
+  - dev scalar:
+    - baseline `0.8611`
+    - query-guided `0.8889`
+  - dev pairwise:
+    - control `5`
+    - candidate `4`
+    - ties `0`
+  - holdout scalar:
+    - baseline `0.7583`
+    - query-guided `0.8750`
+  - holdout pairwise:
+    - control `6`
+    - candidate `4`
+    - ties `0`
+- `selective_structured_answering`
+  - dev intervention-only:
+    - `0.7500 -> 0.7778`
+    - pairwise `1` control / `2` candidate / `6` ties
+  - holdout intervention-only:
+    - `0.7583 -> 0.7083`
+    - pairwise `2` control / `2` candidate / `6` ties
+
 Important methodology lesson:
 - conditional answer branches must be measured with intervention-only
   composites, not only raw profile runs
@@ -206,6 +255,19 @@ Broad answer-side experiments tried:
 What partially worked:
 - mode-aware and compact answer families improved some rebuilt-39 results
 - verifier-gated and exactness-specific paths helped narrow failure families
+
+Evidence to cite:
+- broad mode-aware branch on rebuilt `39`:
+  - baseline `0.7415`
+  - mode-aware `0.8047`
+  - failures `0 -> 0`
+  - forbidden violations `1 -> 0`
+- but original `19` full regressed:
+  - baseline `0.8684`
+  - mode-aware `0.8158`
+- pairwise also stayed against broad promotion:
+  - original `19`: control `11`, candidate `6`, ties `2`
+  - rebuilt `39`: control `22`, candidate `14`, ties `3`
 
 Why these are still not fully promoted:
 - some improved rebuilt `39` but regressed original `19`
@@ -235,6 +297,10 @@ What worked:
   - recall `0.7778 -> 0.8889`
   - forbidden violations `1 -> 0`
   - abstain accuracy `0.6667 -> 1.0`
+- pairwise on the same holdout intervention-only surface:
+  - candidate wins `2`
+  - control wins `0`
+  - ties `1`
 
 Why this is promotable while other answer branches were not:
 - it is narrow
@@ -280,12 +346,20 @@ Failure 1:
 - lesson:
   - one benchmark win is not enough
   - broad answer routing can overfit one surface
+- evidence:
+  - rebuilt `39`: `0.7415 -> 0.8047`
+  - original `19`: `0.8684 -> 0.8158`
 
 Failure 2:
 - page-rerank and document-seed retrieval helped a hard cluster
 - but did not survive canonical promotion
 - lesson:
   - local retrieval wins are not broad architecture wins
+- evidence:
+  - hard cluster baseline: `0.2708`
+  - document-rerank seed: `0.7708`
+  - localized document-rerank seed: `0.7708`
+  - but canonical holdout fell to `0.6167`
 
 Failure 3:
 - broad structured presentation looked promising
@@ -293,11 +367,17 @@ Failure 3:
 - lesson:
   - the selector and the method must be judged separately
   - raw full-profile results are too noisy for conditional branches
+- evidence:
+  - dev intervention-only: `0.7500 -> 0.7778`
+  - holdout intervention-only: `0.7583 -> 0.7083`
 
 Failure 4:
 - sliding-window chunking did not help
 - lesson:
   - not every chunking change is actually testing the intended hypothesis
+- evidence:
+  - canonical dev: `0.8611 -> 0.8056`
+  - pairwise: `4-4-1`
 
 ## Slide 11: Current System Quality
 
