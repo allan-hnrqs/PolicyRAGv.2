@@ -53,6 +53,10 @@ Terms to define explicitly:
 - `canonical parity`
   - the frozen benchmark family used for tuning and promotion checks
   - in practice this mainly means `parity19_dev` and `parity19_holdout`
+- `parity19_dev`
+  - the 9-case development split used during tuning
+- `parity19_holdout`
+  - the 10-case protected split used during promotion checks
 - `p95` / `p99`
   - percentile statistics
   - example: `p99` chunk size means `99%` of chunks are at or below that length
@@ -138,6 +142,30 @@ Why it failed:
 Good lesson:
 - chunking is important, but broad chunking rewrites were not the highest-ROI
   move at the current stage
+
+## Slide 4.5: What One Chunk Looks Like
+
+Add one concrete example so the audience knows what “16 chunks” actually means.
+
+Use a simplified pseudo-record based on a real Buyer’s Guide chunk:
+- `chunk_id: 9e57865c383b__section__185`
+- `doc_id: 9e57865c383b`
+- `source_family: buyers_guide`
+- `chunker_name: section_chunker`
+- `chunk_type: paragraph`
+- `heading: Using a standing offer`
+- `heading_path: Choose the method of supply -> Using a standing offer`
+- `section_id: block_0185`
+- `order: 185`
+- `token_estimate: 121`
+- `scope_tags: standing_offer`
+- `text: A standing offer is from an offeror to Canada ... A standing offer is not a contract ...`
+
+Main message:
+- a chunk is not just a text span
+- it carries structure and metadata that retrieval and interpretation can use
+- in broad runs the answer model usually sees a packed bundle of `16` chunks
+  like this, not whole pages
 
 ## Slide 5: Indexing and Retrieval
 

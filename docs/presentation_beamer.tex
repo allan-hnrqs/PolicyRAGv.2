@@ -46,7 +46,9 @@
 
 \begin{frame}{Key Terms}
   \begin{itemize}
-    \item \textbf{Canonical parity:} the frozen benchmark family used for tuning and promotion checks, especially \texttt{parity19\_dev} and \texttt{parity19\_holdout}.
+    \item \textbf{Canonical parity:} the frozen benchmark family used for tuning and promotion checks.
+    \item \textbf{\texttt{parity19\_dev}:} the 9-case development split used during tuning.
+    \item \textbf{\texttt{parity19\_holdout}:} the 10-case protected split used for promotion checks.
     \item \textbf{p95 / p99:} the 95th / 99th percentile. Example: p99 chunk size means 99\% of chunks are at or below that length.
     \item \textbf{Sliding-window chunking:} fixed-size text windows, usually with overlap, instead of structure-aware paragraph/section blocks.
     \item \textbf{Intervention-only evaluation:} baseline stays unchanged unless the conditional method actually fires.
@@ -99,6 +101,31 @@
   \vspace{0.3em}
   Sliding-window chunking did not help on canonical \texttt{parity19\_dev}:
   0.8611 \textrightarrow{} 0.8056, with pairwise 4-4-1.
+\end{frame}
+
+\begin{frame}{What One Chunk Looks Like}
+  \small
+  \textbf{Representative Buyer’s Guide chunk}
+
+  \vspace{0.4em}
+  \begin{tabularx}{\textwidth}{>{\ttfamily}p{0.31\textwidth} X}
+    chunk\_id & 9e57865c383b\_\_section\_\_185 \\
+    doc\_id & 9e57865c383b \\
+    source\_family & buyers\_guide \\
+    chunker\_name & section\_chunker \\
+    chunk\_type & paragraph \\
+    heading & Using a standing offer \\
+    heading\_path & Choose the method of supply $\rightarrow$ Using a standing offer \\
+    section\_id & block\_0185 \\
+    order & 185 \\
+    token\_estimate & 121 \\
+    scope\_tags & standing\_offer \\
+    text & A standing offer is from an offeror to Canada ... A standing offer is not a contract ... \\
+  \end{tabularx}
+
+  \vspace{0.5em}
+  In broad runs, the answer model usually sees a packed bundle of 16 chunks
+  with this kind of structure, not whole pages.
 \end{frame}
 
 \begin{frame}{Retrieval}

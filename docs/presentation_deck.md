@@ -95,6 +95,10 @@ Use it when building the actual deck. Each slide includes:
 **On slide**
 - `canonical parity`
   - frozen benchmark family for tuning and promotion
+- `parity19_dev`
+  - 9-case development split used for tuning
+- `parity19_holdout`
+  - 10-case protected split used for promotion checks
 - `p95` / `p99`
   - percentile statistics
 - `sliding-window chunking`
@@ -105,6 +109,9 @@ Use it when building the actual deck. Each slide includes:
 **Speaker notes**
 - Define these once so the rest of the talk stays understandable.
 - `canonical parity` mainly refers to `parity19_dev` and `parity19_holdout`.
+- `parity19_dev` is the 9-case development split used while tuning methods.
+- `parity19_holdout` is the 10-case protected split used when deciding what
+  deserves promotion.
 - `p95` means 95 percent of values are at or below that number.
 - `p99` means 99 percent are at or below that number.
 - `sliding-window chunking` is the classic fixed-window approach; our current
@@ -173,7 +180,44 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - histogram of chunk sizes with the long-tail called out
 
-## Slide 7: Retrieval
+## Slide 7: What One Chunk Looks Like
+
+**Title**
+- What one chunk looks like
+
+**On slide**
+- Representative Buyer’s Guide chunk, showing:
+  - `chunk_id`
+  - `doc_id`
+  - `source_family`
+  - `chunker_name`
+  - `chunk_type`
+  - `heading`
+  - `heading_path`
+  - `section_id`
+  - `order`
+  - `token_estimate`
+  - one metadata field such as `scope_tags`
+  - truncated `text` with `...`
+
+**Speaker notes**
+- This is useful because “16 chunks” is abstract unless the audience sees the
+  structure of one of them.
+- The important point is that a chunk is not just free text.
+- It carries retrieval and interpretation metadata:
+  - what document it came from
+  - where it sat in the page structure
+  - what heading lineage it belongs to
+  - what its local order was
+- The answer model typically sees a packed bundle of 16 chunks like this, not
+  whole pages.
+- The text itself can be shortened with `...`; the structure is the main point.
+
+**Suggested visual**
+- simplified pseudo-record or table showing the fields and one truncated text
+  excerpt
+
+## Slide 8: Retrieval
 
 **Title**
 - Retrieval: hybrid plus query decomposition
@@ -200,7 +244,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - before/after bar chart for baseline vs query decomposition on dev and holdout
 
-## Slide 8: Evidence Presentation
+## Slide 9: Evidence Presentation
 
 **Title**
 - Evidence presentation: a real issue, but not solved by every prompt change
@@ -231,7 +275,7 @@ Use it when building the actual deck. Each slide includes:
 - one chart for scalar, one chart for pairwise, to show why scalar alone was
   not enough
 
-## Slide 9: Answer Generation
+## Slide 10: Answer Generation
 
 **Title**
 - Answer generation: some gains were real, but not broad enough
@@ -261,7 +305,7 @@ Use it when building the actual deck. Each slide includes:
   - rebuilt `39` improvement
   - original `19` regression
 
-## Slide 10: Exactness / Abstention Subpath
+## Slide 11: Exactness / Abstention Subpath
 
 **Title**
 - The narrow exactness path: the clearest method win on `main`
@@ -289,7 +333,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small table with before/after for recall, forbidden, abstain accuracy, pairwise
 
-## Slide 11: Evaluation and Promotion Discipline
+## Slide 12: Evaluation and Promotion Discipline
 
 **Title**
 - Evaluation: why we trust some results and reject others
@@ -323,7 +367,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - evaluation stack diagram showing primary and secondary lanes
 
-## Slide 12: What Failed and What We Learned
+## Slide 13: What Failed and What We Learned
 
 **Title**
 - Failures that changed the architecture
@@ -353,7 +397,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - one table with experiment, local gain, broad outcome, final decision
 
-## Slide 13: Current Status and Next Steps
+## Slide 14: Current Status and Next Steps
 
 **Title**
 - Current status
@@ -385,7 +429,7 @@ Use it when building the actual deck. Each slide includes:
   - what is still experimental
   - what comes next
 
-## Optional Slide 14: Demo Plan
+## Optional Slide 15: Demo Plan
 
 **Title**
 - Demo plan
