@@ -57,6 +57,24 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}{How to Read the Metrics}
+  \begin{itemize}
+    \item \textbf{Recall score in the charts:} mean required-claim recall over the benchmark surface
+    \item For each case:
+      \begin{itemize}
+        \item the judge checks each authored required claim
+        \item case recall = supported required claims / total required claims
+      \end{itemize}
+    \item Example: a score of 0.8889 means about 88.89\% of required claims were covered on average
+    \item \textbf{Pairwise:} blind A/B comparison between two full answers
+      \begin{itemize}
+        \item the judge picks control, candidate, or tie
+        \item example: 5-4-0 means control won 5, candidate won 4, ties 0
+      \end{itemize}
+    \item We also track forbidden-claim violations and abstention accuracy separately
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Source Design}
   \begin{itemize}
     \item Buyer’s Guide is the primary retrieval surface.
@@ -164,8 +182,8 @@
     \toprule
     Surface & Baseline & Query decomposition \\
     \midrule
-    \texttt{parity19\_dev} & 0.8333 & 0.8889 \\
-    \texttt{parity19\_holdout} & 0.6000 & 0.8250 \\
+    \texttt{parity19\_dev} recall & 0.8333 & 0.8889 \\
+    \texttt{parity19\_holdout} recall & 0.6000 & 0.8250 \\
     \bottomrule
   \end{tabular}
 
@@ -213,8 +231,8 @@
     \toprule
     Surface & Baseline & Query-guided \\
     \midrule
-    Dev scalar & 0.8611 & 0.8889 \\
-    Holdout scalar & 0.7583 & 0.8750 \\
+    Dev recall & 0.8611 & 0.8889 \\
+    Holdout recall & 0.7583 & 0.8750 \\
     \bottomrule
   \end{tabular}
 

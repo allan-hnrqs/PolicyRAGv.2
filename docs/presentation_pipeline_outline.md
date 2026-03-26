@@ -70,6 +70,25 @@ Terms to define explicitly:
 - `intervention-only composite`
   - for conditional methods, baseline stays untouched unless the method actually fires
 
+## Slide 2.6: How to Read the Metrics
+
+Define the two result styles before showing benchmark charts:
+
+- `recall score`
+  - the main scalar shown in the deck
+  - means mean required-claim recall over the benchmark surface
+- per-case recall
+  - supported required claims / total required claims
+- example
+  - `0.8889` means about `88.89%` average required-claim coverage
+  - it is not exact-match accuracy
+- `pairwise`
+  - blind A/B comparison between control and candidate answers
+  - the judge picks control, candidate, or tie
+  - example: `5-4-0` means control won 5, candidate won 4, ties 0
+- also mention that forbidden-claim violations and abstention accuracy are
+  tracked separately from recall
+
 ## Slide 3: Source Collection and Corpus Design
 
 What we did:

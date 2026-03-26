@@ -130,7 +130,45 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small glossary table with term and one-line meaning
 
-## Slide 5: Source Design and Corpus Strategy
+## Slide 5: How to Read the Metrics
+
+**Title**
+- How to read the metrics
+
+**On slide**
+- `recall score`
+  - mean required-claim recall over the benchmark surface
+- per case:
+  - supported required claims / total required claims
+- example:
+  - `0.8889` means about `88.89%` average required-claim coverage
+- `pairwise`
+  - blind A/B comparison between control and candidate answers
+  - judge picks control, candidate, or tie
+  - example: `5-4-0`
+
+**Speaker notes**
+- Before showing results, define how to read them.
+- The main scalar number in the deck is mean required-claim recall.
+- Each case has authored required claims.
+- The judge checks which of those claims the answer actually supports.
+- A case score is:
+  - supported required claims divided by total required claims
+- Then we average across the benchmark surface.
+- So `0.8889` means about `88.89%` required-claim coverage on average, not
+  “88.89% exact accuracy.”
+- Pairwise is different.
+- In pairwise evaluation, the judge sees two answers in blinded order and picks
+  which one is better overall, or calls a tie.
+- So `5-4-0` means control won `5`, candidate won `4`, and there were `0` ties.
+- We also track forbidden-claim violations and abstention accuracy separately.
+
+**Suggested visual**
+- small two-part box:
+  - scalar recall formula
+  - pairwise A/B explanation
+
+## Slide 6: Source Design and Corpus Strategy
 
 **Title**
 - Source design: make the right source primary
@@ -155,7 +193,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small bar chart with the three source groups
 
-## Slide 6: Chunking
+## Slide 7: Chunking
 
 **Title**
 - Chunking: preserve structure, but watch the long tail
@@ -192,7 +230,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - histogram of chunk sizes with the long-tail called out
 
-## Slide 7: Chunking in Research Context
+## Slide 8: Chunking in Research Context
 
 **Title**
 - Chunking in research context
@@ -243,7 +281,7 @@ Use it when building the actual deck. Each slide includes:
 - Legal-DC:
   - https://arxiv.org/abs/2603.11772
 
-## Slide 8: What One Chunk Looks Like
+## Slide 9: What One Chunk Looks Like
 
 **Title**
 - What one chunk looks like
@@ -280,7 +318,7 @@ Use it when building the actual deck. Each slide includes:
 - simplified pseudo-record or table showing the fields and one truncated text
   excerpt
 
-## Slide 9: Retrieval
+## Slide 10: Retrieval
 
 **Title**
 - Retrieval: hybrid plus query decomposition
@@ -307,7 +345,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - before/after bar chart for baseline vs query decomposition on dev and holdout
 
-## Slide 10: How Query Decomposition Works
+## Slide 11: How Query Decomposition Works
 
 **Title**
 - How query decomposition works
@@ -350,7 +388,7 @@ Use it when building the actual deck. Each slide includes:
   - rerank
   - packed evidence
 
-## Slide 11: Evidence Presentation
+## Slide 12: Evidence Presentation
 
 **Title**
 - Evidence presentation: a real issue, but not solved by every prompt change
@@ -368,6 +406,7 @@ Use it when building the actual deck. Each slide includes:
   the evidence bundle was too noisy.
 - So we ran same-retrieval presentation experiments.
 - Some of them improved scalar recall, but that was not enough.
+- Here, `dev recall` and `holdout recall` mean mean required-claim recall.
 - `query_guided_answering` is a good example:
   - dev scalar improved from `0.8611` to `0.8889`
   - holdout scalar improved from `0.7583` to `0.8750`
@@ -381,7 +420,7 @@ Use it when building the actual deck. Each slide includes:
 - one chart for scalar, one chart for pairwise, to show why scalar alone was
   not enough
 
-## Slide 12: Answer Generation
+## Slide 13: Answer Generation
 
 **Title**
 - Answer generation: some gains were real, but not broad enough
@@ -411,7 +450,7 @@ Use it when building the actual deck. Each slide includes:
   - rebuilt `39` improvement
   - original `19` regression
 
-## Slide 13: Exactness / Abstention Subpath
+## Slide 14: Exactness / Abstention Subpath
 
 **Title**
 - The narrow exactness path: the clearest method win on `main`
@@ -439,7 +478,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small table with before/after for recall, forbidden, abstain accuracy, pairwise
 
-## Slide 14: Evaluation and Promotion Discipline
+## Slide 15: Evaluation and Promotion Discipline
 
 **Title**
 - Evaluation: why we trust some results and reject others
@@ -473,7 +512,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - evaluation stack diagram showing primary and secondary lanes
 
-## Slide 15: What Failed and What We Learned
+## Slide 16: What Failed and What We Learned
 
 **Title**
 - Failures that changed the architecture
@@ -503,7 +542,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - one table with experiment, local gain, broad outcome, final decision
 
-## Slide 16: Current Status and Next Steps
+## Slide 17: Current Status and Next Steps
 
 **Title**
 - Current status
@@ -535,7 +574,7 @@ Use it when building the actual deck. Each slide includes:
   - what is still experimental
   - what comes next
 
-## Optional Slide 17: Demo Plan
+## Optional Slide 18: Demo Plan
 
 **Title**
 - Demo plan
