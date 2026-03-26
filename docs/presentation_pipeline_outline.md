@@ -47,6 +47,21 @@ Current one-line summary:
 - Buyer’s Guide-first hybrid RAG with query decomposition, strict evaluation,
   and a narrow exactness-specific post-draft correction path
 
+## Slide 2.5: Key Terms
+
+Terms to define explicitly:
+- `canonical parity`
+  - the frozen benchmark family used for tuning and promotion checks
+  - in practice this mainly means `parity19_dev` and `parity19_holdout`
+- `p95` / `p99`
+  - percentile statistics
+  - example: `p99` chunk size means `99%` of chunks are at or below that length
+- `sliding-window chunking`
+  - fixed-size text windows, usually with overlap
+  - contrasted with our current structure-aware section chunking
+- `intervention-only composite`
+  - for conditional methods, baseline stays untouched unless the method actually fires
+
 ## Slide 3: Source Collection and Corpus Design
 
 What we did:
@@ -65,7 +80,7 @@ Why:
 Evidence to cite:
 - reference corpus composition:
   - `228` Buyer’s Guide documents
-  - `4` Buy Canadian policy pages
+  - `1` Buy Canadian policy page
   - `1` TBS directive page
 
 What failed or was rejected:
@@ -98,6 +113,7 @@ Important real stats to mention:
 - p95: about `553`
 - p99: about `3578`
 - max: about `34499`
+- largest packed chunk seen in broad runs: about `31630`
 - broad runs typically feed `16` packed chunks to the answer model
 
 What we tested:

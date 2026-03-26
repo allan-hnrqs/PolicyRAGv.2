@@ -87,7 +87,35 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - architecture block diagram with arrows between the six stages
 
-## Slide 4: Source Design and Corpus Strategy
+## Slide 4: Key Terms
+
+**Title**
+- Key terms used in the talk
+
+**On slide**
+- `canonical parity`
+  - frozen benchmark family for tuning and promotion
+- `p95` / `p99`
+  - percentile statistics
+- `sliding-window chunking`
+  - fixed-size windows, usually with overlap
+- `intervention-only evaluation`
+  - candidate answer used only where the method actually fires
+
+**Speaker notes**
+- Define these once so the rest of the talk stays understandable.
+- `canonical parity` mainly refers to `parity19_dev` and `parity19_holdout`.
+- `p95` means 95 percent of values are at or below that number.
+- `p99` means 99 percent are at or below that number.
+- `sliding-window chunking` is the classic fixed-window approach; our current
+  system instead uses structure-aware section chunking.
+- `intervention-only` matters for conditional methods because it removes noise
+  from untouched baseline cases.
+
+**Suggested visual**
+- small glossary table with term and one-line meaning
+
+## Slide 5: Source Design and Corpus Strategy
 
 **Title**
 - Source design: make the right source primary
@@ -97,7 +125,7 @@ Use it when building the actual deck. Each slide includes:
 - Buy Canadian policy and TBS directive are supporting sources
 - Corpus composition:
   - `228` Buyer’s Guide documents
-  - `4` Buy Canadian policy pages
+  - `1` Buy Canadian policy page
   - `1` TBS directive page
 
 **Speaker notes**
@@ -112,7 +140,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small bar chart with the three source groups
 
-## Slide 5: Chunking
+## Slide 6: Chunking
 
 **Title**
 - Chunking: preserve structure, but watch the long tail
@@ -125,6 +153,7 @@ Use it when building the actual deck. Each slide includes:
   - p95 `553`
   - p99 `3578`
   - max `34499`
+  - largest packed chunk seen in broad runs `31630`
 - Broad runs typically feed `16` packed chunks to the answer model
 
 **Speaker notes**
@@ -132,6 +161,8 @@ Use it when building the actual deck. Each slide includes:
 - That was chosen because policy questions often depend on section structure and
   heading lineage.
 - Most chunks are small, but there is a real long tail of very large sections.
+- The largest chunk in the corpus is `34499` characters, and the largest packed
+  chunk we actually saw in broad runs was about `31630`.
 - We tested sliding-window chunking as an upstream alternative, but it did not
   help on the canonical dev surface.
 - In fact, on `parity19_dev`, scalar recall regressed from `0.8611` to
@@ -142,7 +173,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - histogram of chunk sizes with the long-tail called out
 
-## Slide 6: Retrieval
+## Slide 7: Retrieval
 
 **Title**
 - Retrieval: hybrid plus query decomposition
@@ -169,7 +200,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - before/after bar chart for baseline vs query decomposition on dev and holdout
 
-## Slide 7: Evidence Presentation
+## Slide 8: Evidence Presentation
 
 **Title**
 - Evidence presentation: a real issue, but not solved by every prompt change
@@ -200,7 +231,7 @@ Use it when building the actual deck. Each slide includes:
 - one chart for scalar, one chart for pairwise, to show why scalar alone was
   not enough
 
-## Slide 8: Answer Generation
+## Slide 9: Answer Generation
 
 **Title**
 - Answer generation: some gains were real, but not broad enough
@@ -230,7 +261,7 @@ Use it when building the actual deck. Each slide includes:
   - rebuilt `39` improvement
   - original `19` regression
 
-## Slide 9: Exactness / Abstention Subpath
+## Slide 10: Exactness / Abstention Subpath
 
 **Title**
 - The narrow exactness path: the clearest method win on `main`
@@ -258,7 +289,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small table with before/after for recall, forbidden, abstain accuracy, pairwise
 
-## Slide 10: Evaluation and Promotion Discipline
+## Slide 11: Evaluation and Promotion Discipline
 
 **Title**
 - Evaluation: why we trust some results and reject others
@@ -292,7 +323,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - evaluation stack diagram showing primary and secondary lanes
 
-## Slide 11: What Failed and What We Learned
+## Slide 12: What Failed and What We Learned
 
 **Title**
 - Failures that changed the architecture
@@ -322,7 +353,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - one table with experiment, local gain, broad outcome, final decision
 
-## Slide 12: Current Status and Next Steps
+## Slide 13: Current Status and Next Steps
 
 **Title**
 - Current status
@@ -354,7 +385,7 @@ Use it when building the actual deck. Each slide includes:
   - what is still experimental
   - what comes next
 
-## Optional Slide 13: Demo Plan
+## Optional Slide 14: Demo Plan
 
 **Title**
 - Demo plan

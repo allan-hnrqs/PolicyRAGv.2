@@ -45,6 +45,15 @@
   evaluation, and a narrow exactness-specific post-draft correction path.
 \end{frame}
 
+\begin{frame}{Key Terms}
+  \begin{itemize}
+    \item \textbf{Canonical parity:} the frozen benchmark family used for tuning and promotion checks, especially \texttt{parity19\_dev} and \texttt{parity19\_holdout}.
+    \item \textbf{p95 / p99:} the 95th / 99th percentile. Example: p99 chunk size means 99\% of chunks are at or below that length.
+    \item \textbf{Sliding-window chunking:} fixed-size text windows, usually with overlap, instead of structure-aware paragraph/section blocks.
+    \item \textbf{Intervention-only evaluation:} baseline stays unchanged unless the conditional method actually fires.
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Source Design}
   \begin{itemize}
     \item Buyer’s Guide is the primary retrieval surface.
@@ -58,7 +67,7 @@
     Source group & Documents \\
     \midrule
     Buyer’s Guide & 228 \\
-    Buy Canadian policy & 4 \\
+    Buy Canadian policy & 1 \\
     TBS directive & 1 \\
     \bottomrule
   \end{tabular}
@@ -84,6 +93,9 @@
   \end{tabular}
 
   \vspace{0.5em}
+  Largest packed chunk seen in broad runs: about 31630 chars.
+
+  \vspace{0.3em}
   Sliding-window chunking did not help on canonical \texttt{parity19\_dev}:
   0.8611 \textrightarrow{} 0.8056, with pairwise 4-4-1.
 \end{frame}
