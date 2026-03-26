@@ -69,8 +69,10 @@
     \item \textbf{Pairwise:} blind A/B comparison between two full answers
       \begin{itemize}
         \item the judge picks control, candidate, or tie
+        \item criteria: coverage, faithfulness, forbidden/safety handling, and abstention appropriateness
         \item example: 5-4-0 means control won 5, candidate won 4, ties 0
       \end{itemize}
+    \item We did not replace recall with pairwise: recall stays the main scalar, while pairwise is a secondary promotion check because scalar recall alone sometimes rewards longer but less faithful answers
     \item We also track forbidden-claim violations and abstention accuracy separately
   \end{itemize}
 \end{frame}
@@ -300,6 +302,13 @@
       \begin{itemize}
         \item Ragas
         \item OpenAI pairwise A/B
+      \end{itemize}
+    \item Pairwise judge criteria:
+      \begin{itemize}
+        \item cover more required claims
+        \item stay faithful and avoid unsupported details
+        \item avoid forbidden or unsafe content
+        \item abstain appropriately when the case expects abstention
       \end{itemize}
     \item Conditional methods are judged with intervention-only composite evaluation.
   \end{itemize}

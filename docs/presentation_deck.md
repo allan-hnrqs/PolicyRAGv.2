@@ -145,6 +145,11 @@ Use it when building the actual deck. Each slide includes:
 - `pairwise`
   - blind A/B comparison between control and candidate answers
   - judge picks control, candidate, or tie
+  - judge criteria:
+    - coverage
+    - faithfulness / no unsupported detail
+    - forbidden / safety handling
+    - abstention appropriateness
   - example: `5-4-0`
 
 **Speaker notes**
@@ -160,7 +165,17 @@ Use it when building the actual deck. Each slide includes:
 - Pairwise is different.
 - In pairwise evaluation, the judge sees two answers in blinded order and picks
   which one is better overall, or calls a tie.
+- The pairwise judge is explicitly told to decide based on:
+  - coverage of required claims
+  - faithfulness to the reference and no unsupported detail
+  - forbidden / unsafe content avoidance
+  - correct abstention when abstention is expected
 - So `5-4-0` means control won `5`, candidate won `4`, and there were `0` ties.
+- We did not replace required-claim recall with pairwise.
+- Required-claim recall stays the main scalar.
+- Pairwise was added as a secondary promotion check because scalar recall alone
+  sometimes rewarded longer answers that covered more claims but were less
+  faithful or less tight.
 - We also track forbidden-claim violations and abstention accuracy separately.
 
 **Suggested visual**
@@ -493,6 +508,11 @@ Use it when building the actual deck. Each slide includes:
 - Secondary lanes:
   - Ragas
   - OpenAI pairwise A/B
+- Pairwise judge criteria:
+  - cover more required claims
+  - stay faithful and avoid unsupported details
+  - avoid forbidden or unsafe content
+  - abstain appropriately when the case expects abstention
 - Conditional methods:
   - intervention-only composite evaluation
 
@@ -506,6 +526,8 @@ Use it when building the actual deck. Each slide includes:
   - pairwise A/B
   - exactness-family diagnostics
   - intervention-only evaluation for conditional methods
+- Pairwise was added because scalar recall alone sometimes rewarded longer
+  answers that covered more claims but were still less faithful overall.
 - The exactness path is a good example of why that matters: it looks strong on
   the intervention-only surface, which is the right place to judge it.
 

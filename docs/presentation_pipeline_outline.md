@@ -85,7 +85,16 @@ Define the two result styles before showing benchmark charts:
 - `pairwise`
   - blind A/B comparison between control and candidate answers
   - the judge picks control, candidate, or tie
+  - criteria:
+    - coverage
+    - faithfulness / no unsupported detail
+    - forbidden / safety handling
+    - abstention appropriateness
   - example: `5-4-0` means control won 5, candidate won 4, ties 0
+- required-claim recall remains the main scalar metric
+- pairwise was added as a secondary promotion check because scalar recall alone
+  sometimes rewarded longer answers that covered more claims but were less
+  faithful or less tight
 - also mention that forbidden-claim violations and abstention accuracy are
   tracked separately from recall
 
@@ -435,6 +444,12 @@ Secondary lanes:
 - Ragas
 - OpenAI pairwise A/B
 
+Pairwise judge criteria:
+- cover more required claims
+- stay faithful and avoid unsupported details
+- avoid forbidden or unsafe content
+- abstain appropriately when the case expects abstention
+
 Important promotion rules:
 - use canonical `parity19_dev` for tuning
 - use canonical `parity19_holdout` for promotion checks
@@ -446,6 +461,10 @@ Big methodological improvements over time:
 - pairwise A/B added
 - exactness-family diagnostic set added
 - intervention-only evaluation added
+
+Why pairwise was added:
+- scalar recall alone sometimes rewarded longer answers that covered more claims
+  but were still less faithful or less tight overall
 
 ## Slide 10: Main Failures and What They Taught Us
 
