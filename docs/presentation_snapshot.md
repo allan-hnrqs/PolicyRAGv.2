@@ -3,6 +3,8 @@
 This is the shortest truthful summary of the repo for a presentation or quick
 handoff. For full history, use:
 
+- `docs/presentation_deck.md`
+- `docs/presentation_beamer.tex`
 - `docs/presentation_pipeline_outline.md`
 - `docs/current_state.md`
 - `docs/decision_log.md`

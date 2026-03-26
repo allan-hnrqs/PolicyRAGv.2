@@ -1,0 +1,243 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+
+\title{PolicyRAGv.2}
+\subtitle{Building a High-Exactness Procurement-Policy RAG System}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Problem}
+  \begin{itemize}
+    \item Procurement-policy QA is a high-exactness RAG problem.
+    \item The system must retrieve relevant evidence and avoid inventing missing identifiers, forms, contacts, or workflow steps.
+    \item Evaluation has to check both coverage and faithfulness.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Pipeline Overview}
+  \begin{enumerate}
+    \item Collect source pages
+    \item Normalize and enrich documents
+    \item Chunk them
+    \item Build the hybrid retrieval index
+    \item Retrieve and pack evidence
+    \item Generate the answer
+    \item Evaluate with multiple measurement lanes
+  \end{enumerate}
+  \vspace{0.5em}
+  Current system: Buyer’s Guide-first hybrid RAG with query decomposition, strict
+  evaluation, and a narrow exactness-specific post-draft correction path.
+\end{frame}
+
+\begin{frame}{Source Design}
+  \begin{itemize}
+    \item Buyer’s Guide is the primary retrieval surface.
+    \item Buy Canadian policy and the TBS directive are supporting sources.
+    \item Collection, normalization, chunking, retrieval, answering, and evaluation are separate subsystems.
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lr}
+    \toprule
+    Source group & Documents \\
+    \midrule
+    Buyer’s Guide & 228 \\
+    Buy Canadian policy & 4 \\
+    TBS directive & 1 \\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Chunking}
+  \begin{itemize}
+    \item Canonical chunker: \texttt{section\_chunker}
+    \item Variable-size, section-aware chunks with heading-path metadata
+    \item Broad runs typically feed 16 packed chunks to the answer model
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lr}
+    \toprule
+    Chunk statistic & Value \\
+    \midrule
+    Median chars & 129 \\
+    p95 chars & 553 \\
+    p99 chars & 3578 \\
+    Max chars & 34499 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.5em}
+  Sliding-window chunking did not help on canonical \texttt{parity19\_dev}:
+  0.8611 \textrightarrow{} 0.8056, with pairwise 4-4-1.
+\end{frame}
+
+\begin{frame}{Retrieval}
+  \begin{itemize}
+    \item Cohere dense embeddings
+    \item Elasticsearch lexical retrieval
+    \item Hybrid blending
+    \item Buyer’s Guide-first topology
+    \item Query decomposition in the baseline path
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lcc}
+    \toprule
+    Surface & Baseline & Query decomposition \\
+    \midrule
+    \texttt{parity19\_dev} & 0.8333 & 0.8889 \\
+    \texttt{parity19\_holdout} & 0.6000 & 0.8250 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.5em}
+  Packed claim-evidence recall also improved:
+  0.9722 \textrightarrow{} 1.0 on dev, and 0.8250 \textrightarrow{} 0.9750 on holdout.
+\end{frame}
+
+\begin{frame}{Evidence Presentation}
+  \begin{itemize}
+    \item Canonical answer path: \texttt{inline\_evidence\_chat}
+    \item Concern: maybe the answer model is being drowned by large evidence bundles
+    \item Tested:
+      \begin{itemize}
+        \item \texttt{query\_guided\_answering}
+        \item \texttt{structured\_answering}
+        \item \texttt{selective\_structured\_answering}
+      \end{itemize}
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lcc}
+    \toprule
+    Surface & Baseline & Query-guided \\
+    \midrule
+    Dev scalar & 0.8611 & 0.8889 \\
+    Holdout scalar & 0.7583 & 0.8750 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.5em}
+  But pairwise still preferred control: dev 5-4-0, holdout 6-4-0.
+\end{frame}
+
+\begin{frame}{Answer Generation}
+  \begin{itemize}
+    \item Baseline answer path remains the most stable broad option.
+    \item We tried planned, mode-aware, compact, and verifier-gated answer families.
+    \item Some of them improved one surface and regressed another.
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lcc}
+    \toprule
+    Surface & Baseline & Mode-aware \\
+    \midrule
+    Rebuilt 39 & 0.7415 & 0.8047 \\
+    Original 19 full & 0.8684 & 0.8158 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.5em}
+  Pairwise also stayed against broad promotion:
+  original 19 = 11-6-2, rebuilt 39 = 22-14-3.
+\end{frame}
+
+\begin{frame}{Exactness / Abstention Subpath}
+  \begin{itemize}
+    \item Narrow post-draft correction for missing-detail cases
+    \item Goal: do not invent exact identifiers, forms, or contacts
+    \item This is the clearest method win currently on \texttt{main}
+  \end{itemize}
+
+  \vspace{0.5em}
+  \begin{tabular}{lcc}
+    \toprule
+    Metric & Baseline & Exactness path \\
+    \midrule
+    Recall & 0.7778 & 0.8889 \\
+    Forbidden violations & 1 & 0 \\
+    Abstain accuracy & 0.6667 & 1.0 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.5em}
+  Holdout intervention-only pairwise: candidate 2, control 0, ties 1.
+\end{frame}
+
+\begin{frame}{Evaluation and Promotion}
+  \begin{itemize}
+    \item Primary lane:
+      \begin{itemize}
+        \item deterministic retrieval metrics
+        \item structured Cohere judge
+        \item required-claim recall
+        \item forbidden-claim violations
+        \item abstention accuracy
+      \end{itemize}
+    \item Secondary lanes:
+      \begin{itemize}
+        \item Ragas
+        \item OpenAI pairwise A/B
+      \end{itemize}
+    \item Conditional methods are judged with intervention-only composite evaluation.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Failures That Changed the Architecture}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.26\textwidth} >{\raggedright\arraybackslash}p{0.28\textwidth} >{\raggedright\arraybackslash}X}
+    \toprule
+    Experiment & Local result & Why not promoted \\
+    \midrule
+    Broad mode-aware answering & Rebuilt 39: 0.7415 \textrightarrow{} 0.8047 & Original 19 full regressed: 0.8684 \textrightarrow{} 0.8158 \\
+    Page/document seed retrieval & Hard cluster: 0.2708 \textrightarrow{} 0.7708 & Canonical holdout fell to 0.6167 \\
+    Sliding-window chunking & Dev: 0.8611 \textrightarrow{} 0.8056 & Did not test the intended smaller-chunk hypothesis cleanly \\
+    \bottomrule
+  \end{tabularx}
+\end{frame}
+
+\begin{frame}{Current Status}
+  \begin{itemize}
+    \item Best original 19 full: 0.8684
+    \item Best original 19 dev: 0.8889
+    \item Best original 19 holdout: 0.8250
+    \item Rebuilt 39 baseline: 0.7415
+    \item Best rebuilt 39 broad experimental: 0.8047, not promoted
+    \item Test suite: 154 passed
+  \end{itemize}
+
+  \vspace{0.5em}
+  Readiness:
+  \begin{itemize}
+    \item Usable as a supervised internal assistant
+    \item Not yet strong enough to be a fully trusted standalone authority
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Next Steps}
+  \begin{itemize}
+    \item Keep baseline retrieval fixed for now
+    \item Return to the strongest answer-side lane
+    \item Keep using intervention-only evaluation for conditional branches
+    \item Author and protect a final blind set
+  \end{itemize}
+\end{frame}
+
+\end{document}

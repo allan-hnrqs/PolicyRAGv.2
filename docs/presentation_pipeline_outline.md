@@ -4,7 +4,11 @@ This outline is designed for a presentation. It explains the system by walking
 through the RAG pipeline from source collection to evaluation, and it includes
 the major experiments that failed and why they were rejected.
 
-Use this with `docs/presentation_snapshot.md`.
+Use this with:
+
+- `docs/presentation_snapshot.md`
+- `docs/presentation_deck.md`
+- `docs/presentation_beamer.tex`
 
 ## Suggested talk structure
 
