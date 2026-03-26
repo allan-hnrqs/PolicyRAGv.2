@@ -350,9 +350,12 @@ def test_render_cited_structured_contract_answer_and_collect_citations() -> None
     answer_text = _render_cited_structured_contract_answer(contract)
     citations = _collect_contract_citations(contract, evidence_chunks)
 
-    assert "Use the exemption only when the mandatory instrument does not address the obligation. [c1]" in answer_text
-    assert "- Keep the supporting declaration on file. [c2]" in answer_text
-    assert "- Document the rationale in the file. [c3]" in answer_text
+    assert "Use the exemption only when the mandatory instrument does not address the obligation." in answer_text
+    assert "- Keep the supporting declaration on file." in answer_text
+    assert "- Document the rationale in the file." in answer_text
+    assert "[c1]" not in answer_text
+    assert "[c2]" not in answer_text
+    assert "[c3]" not in answer_text
     assert [citation.chunk_id for citation in citations] == ["c1", "c2", "c3"]
 
 

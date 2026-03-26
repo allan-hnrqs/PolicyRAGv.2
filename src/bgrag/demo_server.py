@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import mimetypes
+import re
 import threading
 from dataclasses import asdict, dataclass
 from http import HTTPStatus
@@ -33,6 +34,9 @@ CAPABILITY_INTENT = "capability_help"
 OUT_OF_SCOPE_INTENT = "out_of_scope"
 _CALLBACK_CACHE: dict[tuple[str, str, str], Any] = {}
 _CALLBACK_LOCK = threading.Lock()
+_RENDERED_CHUNK_ID_PATTERN = re.compile(
+    r"\s*\[(?:[A-Za-z0-9_-]+__(?:section|block|window)__\d+)(?:,\s*[A-Za-z0-9_-]+__(?:section|block|window)__\d+)*\]"
+)
 
 
 @dataclass(frozen=True)
@@ -89,6 +93,10 @@ def _extract_text_from_chat_response(response: object) -> str:
         if text:
             parts.append(str(text))
     return "".join(parts).strip()
+
+
+def _strip_rendered_chunk_ids(text: str) -> str:
+    return _RENDERED_CHUNK_ID_PATTERN.sub("", text)
 
 
 def _intent_gate_prompt(question: str) -> str:
@@ -304,7 +312,7 @@ def run_demo_query(settings: Settings, question: str, profile_name: str = DEMO_P
     )
     return {
         "question": clean_question,
-        "answer_text": result.answer_text,
+        "answer_text": _strip_rendered_chunk_ids(result.answer_text),
         "citations": citations,
         "timings": timings,
         "profile_name": profile_name,

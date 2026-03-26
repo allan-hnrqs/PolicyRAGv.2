@@ -154,3 +154,63 @@ def test_run_demo_query_returns_live_payload(monkeypatch: pytest.MonkeyPatch, tm
             "snippet": "snippet",
         }
     ]
+
+
+def test_run_demo_query_strips_rendered_chunk_ids(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    settings = Settings(project_root=tmp_path, cohere_api_key="test-key")
+    settings.ensure_directories()
+    namespace = _write_ready_index(settings)
+    demo_server.reset_demo_callback_cache()
+
+    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
+    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(
+        demo_server,
+        "classify_demo_intent",
+        lambda settings, question: demo_server.IntentDecision(
+            intent=demo_server.PROCUREMENT_INTENT,
+            reply_text="",
+            response_mode="rag",
+        ),
+    )
+
+    def _fake_build_answer_callback(settings: Settings, profile_name: str, index_namespace: str):
+        assert profile_name == "baseline"
+        assert index_namespace == namespace
+
+        def _answer(case: SimpleNamespace) -> AnswerResult:
+            return AnswerResult(
+                question=case.question,
+                answer_text=(
+                    "First supported point [doc__section__15]\n"
+                    "Second supported point [doc__section__6, doc__section__47]"
+                ),
+                strategy_name="inline_evidence_chat",
+                model_name="command-a-03-2025",
+                citations=[
+                    AnswerCitation(
+                        chunk_id="doc__section__15",
+                        canonical_url="https://example.com/policy",
+                        snippet="snippet",
+                    )
+                ],
+                evidence_bundle=EvidenceBundle(
+                    query=case.question,
+                    retrieval_queries=[case.question],
+                ),
+            )
+
+        return _answer
+
+    monkeypatch.setattr(demo_server, "build_answer_callback", _fake_build_answer_callback)
+
+    payload = demo_server.run_demo_query(settings, "What is the rule?")
+
+    assert payload["answer_text"] == "First supported point\nSecond supported point"
+    assert payload["citations"] == [
+        {
+            "chunk_id": "doc__section__15",
+            "canonical_url": "https://example.com/policy",
+            "snippet": "snippet",
+        }
+    ]

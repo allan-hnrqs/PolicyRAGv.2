@@ -1,37 +1,4 @@
 (function () {
-  const scenarios = [
-    {
-      id: "HR_001",
-      title: "Late Offers",
-      prompt: "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?"
-    },
-    {
-      id: "HR_002",
-      title: "Offer Validity",
-      prompt: "Our evaluation is slipping and the offer validity period will run out before we can award. What are our options if some suppliers agree to extend and others do not?"
-    },
-    {
-      id: "HR_003",
-      title: "Certifications",
-      prompt: "Can we require certifications and declarations at bid closing, and what do we do if they are missing?"
-    },
-    {
-      id: "HR_005",
-      title: "ACAN Posting",
-      prompt: "We are thinking about posting an ACAN. What has to already be on file before we post it, and when should we not post one at all?"
-    },
-    {
-      id: "HR_035",
-      title: "Feedback On Reissue",
-      prompt: "We cancelled a solicitation and plan to reissue it. What feedback can we give offerors, what do we have to keep out, and when do we have to use both feedback methods?"
-    },
-    {
-      id: "HR_036",
-      title: "Contract Close-Out",
-      prompt: "Before I close out the contract file, what has to be fully finished, and what administrative close-out work still has to happen?"
-    }
-  ];
-
   const state = {
     chats: [createNewChat()],
     currentChatId: "chat-new",
@@ -42,7 +9,6 @@
     hero: document.getElementById("heroState"),
     messages: document.getElementById("messages"),
     historyList: document.getElementById("historyList"),
-    suggestionGrid: document.getElementById("suggestionGrid"),
     composer: document.getElementById("composer"),
     input: document.getElementById("messageInput"),
     newChatButton: document.getElementById("newChatButton")
@@ -129,7 +95,7 @@
     }
 
     const nextChat = {
-      id: "chat-" + slugify(firstQuestion || "demo-thread"),
+      id: "chat-" + slugify(firstQuestion || "policy-thread"),
       title: trimTitle(firstQuestion || "Policy Question"),
       messages: []
     };
@@ -168,24 +134,6 @@
         render();
       });
       elements.historyList.appendChild(button);
-    });
-  }
-
-  function renderSuggestions() {
-    elements.suggestionGrid.innerHTML = "";
-
-    scenarios.slice(0, 4).forEach(function (scenario) {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "suggestion-card";
-      button.innerHTML = "<strong>" + escapeHtml(scenario.title) + "</strong><span>" + escapeHtml(scenario.prompt) + "</span>";
-      button.addEventListener("click", function () {
-        if (state.isLoading) {
-          return;
-        }
-        submitQuestion(scenario.prompt);
-      });
-      elements.suggestionGrid.appendChild(button);
     });
   }
 
@@ -280,7 +228,6 @@
 
   function render() {
     renderHistory();
-    renderSuggestions();
     renderMessages();
     renderComposerState();
   }

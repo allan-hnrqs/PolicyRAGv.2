@@ -1056,9 +1056,8 @@ def _render_structured_contract_slots(contract: StructuredAnswerContract) -> str
 
 
 def _render_text_with_chunk_ids(text: str, chunk_ids: list[str]) -> str:
-    if not chunk_ids:
-        return text
-    return f"{text} [{', '.join(chunk_ids)}]"
+    del chunk_ids
+    return text
 
 
 def _core_contract_slot_keys(contract: CitedStructuredAnswerContract) -> set[str]:

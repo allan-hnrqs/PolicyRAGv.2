@@ -12,7 +12,6 @@ from rich.table import Table
 
 from bgrag.config import Settings, detect_project_root
 from bgrag.eval.pairwise import compare_pairwise_runs
-from bgrag.eval.ragas_runner import run_ragas_eval
 from bgrag.eval.runner import run_eval
 from bgrag.manifests import (
     build_eval_run_manifest,
@@ -121,6 +120,8 @@ def eval_ragas_command(
     profile: str = "baseline",
     index_namespace: str | None = typer.Option(None, "--index-namespace"),
 ) -> None:
+    from bgrag.eval.ragas_runner import run_ragas_eval
+
     settings = _settings()
     runtime_profile = load_profile(profile, settings)
     index_manifest = load_index_manifest(settings, index_namespace)
