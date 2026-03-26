@@ -583,3 +583,32 @@ Question:
 - What is the main unsolved problem?
 Answer:
 - answer precision and selective activation, not obviously raw retrieval power
+
+## Optional Appendix Example: Why Pairwise Can Reject Higher Recall
+
+Use `HR_019`.
+
+Why it is useful:
+- it shows that a candidate can improve required-claim recall and still lose
+  pairwise
+- that makes the methodological point much clearer than an abstract explanation
+
+What to show:
+- prompt:
+  - can I rely on the Buy Canadian policy page alone and skip the Buyer’s
+    Guide reciprocal procurement workflow?
+- baseline answer:
+  - clear bottom line that the Buyer’s Guide remains the operational workflow
+  - recall `0.6667`
+- query-guided answer:
+  - recall `1.0`
+  - added the missing trade-agreement applicability point
+  - but the answer was truncated / incomplete
+- pairwise result:
+  - baseline still wins overall
+
+Main message:
+- scalar recall rewards claim coverage magnitude
+- pairwise judges the whole answer
+- so a higher-recall answer can still lose if it is less complete, less
+  faithful, or less reliable overall

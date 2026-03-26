@@ -722,3 +722,40 @@ Use it when building the actual deck. Each slide includes:
 - It still looked strong at a high level, but on important canonical cases it
   lost required handling detail.
 - That is exactly the kind of regression we did not allow onto `main`.
+
+## Optional Appendix Slide: Why Pairwise Can Reject Higher Recall
+
+**Title**
+- Worked example: why pairwise can reject higher recall
+
+**On slide**
+- Case: `HR_019`
+- Prompt:
+  - "Can I rely on the Buy Canadian policy page alone and skip the Buyer’s Guide reciprocal procurement workflow?"
+- Baseline:
+  - clear bottom line
+  - policy page is context, Buyer’s Guide is the workflow
+  - recall `0.6667`
+- Query-guided:
+  - adds the missing trade-agreement applicability point
+  - but the full answer is cut off mid-sentence
+  - recall `1.0`
+- Pairwise outcome:
+  - baseline still wins overall
+
+**Speaker notes**
+- This is the cleanest example of why pairwise stayed in the evaluation stack.
+- The query-guided answer did improve scalar recall because it added a required
+  claim that the baseline missed.
+- But the full answer quality was still worse overall because it was truncated.
+- The baseline answer gave the correct operational conclusion more reliably:
+  - the policy page is contextual support
+  - the Buyer’s Guide is still the workflow to follow
+- So this is not a contradiction.
+- It is a case where scalar recall rewards one additional covered claim, while
+  pairwise still prefers the more reliable complete answer.
+
+**Suggested visual**
+- side-by-side baseline vs candidate snippets
+- footer:
+  - scalar `0.6667 -> 1.0`, pairwise winner = baseline

@@ -495,4 +495,52 @@
   This is why rebuilt-39 gains alone were not enough for promotion.
 \end{frame}
 
+\begin{frame}{Worked Example: Why Pairwise Can Reject Higher Recall}
+  \small
+  \textbf{Case:} \texttt{HR\_019}
+
+  \vspace{0.4em}
+  \textbf{Prompt:}
+  \begin{quote}
+    The Buy Canadian policy page sounds stricter than the Buyer’s Guide. Can I
+    just rely on the policy page and skip the Buyer’s Guide reciprocal
+    procurement workflow?
+  \end{quote}
+
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Baseline answer}
+      \begin{itemize}
+        \item Clear operational bottom line
+        \item Policy page is context; Buyer’s Guide is the workflow
+      \end{itemize}
+      \scriptsize
+      ``Relying solely on the policy page is insufficient; the Buyer's Guide is
+      essential for proper implementation.''
+      \normalsize
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 0.6667
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{Query-guided answer}
+      \begin{itemize}
+        \item Added the trade-agreement applicability point
+        \item But the full answer was cut off mid-sentence
+      \end{itemize}
+      \scriptsize
+      ``The Buyer's Guide is mandatory ... It includes: 1. Determine trade
+      agreement applicability ...''
+      \normalsize
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 1.0
+    \end{column}
+  \end{columns}
+
+  \vspace{0.5em}
+  Pairwise still chose baseline: the candidate covered one more required claim,
+  but the baseline answer was more complete and reliable overall.
+\end{frame}
+
 \end{document}
