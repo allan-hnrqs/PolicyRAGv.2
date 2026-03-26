@@ -74,8 +74,6 @@ exactness-specific correction path.
 
 ## Current quality read
 
-- Better than the earlier prototype / previous system:
-  - yes
 - Usable as a supervised internal assistant:
   - yes
 - Ready to rely on without human checking:

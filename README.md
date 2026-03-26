@@ -1,9 +1,7 @@
 # PolicyRAGv.2
 
-This repository is a clean-room, backend-only rebuild of the Buyer’s Guide RAG
-system. It is inspired by `DepartmentDefence-Winter2026-feat-retrieval-expensive-methods-eval`
-as a benchmark and behavior reference, but it does not copy implementation code
-from that branch.
+This repository contains the Buyer’s Guide RAG backend and its evaluation
+stack.
 
 ## Start Here
 
@@ -16,15 +14,7 @@ If you only need the current high-level state:
 
 ## Repo Status
 
-This Git repository is now the primary home for ongoing development.
-
-- primary tracked repo:
-  - `c:\Users\14164\Documents\CohereThing\PolicyRAGv.2`
-- legacy local fallback:
-  - `c:\Users\14164\Documents\CohereThing\buyers-guide-rag-clean`
-
-New work, commits, and branches should happen here unless there is a specific
-reason to use an isolated disposable copy for experimentation.
+This Git repository is the primary home for ongoing development.
 
 ## Purpose
 

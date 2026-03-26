@@ -46,7 +46,8 @@ Current one-line summary:
 ## Slide 3: Source Collection and Corpus Design
 
 What we did:
-- built a clean, modular backend rather than extending the earlier prototype directly
+- built a clean, modular backend with separate collection, normalization,
+  chunking, retrieval, answering, and evaluation subsystems
 - made the Buyer’s Guide the primary retrieval surface
 - treated Buy Canadian policy and the TBS directive as supporting sources
 - kept collection, normalization, chunking, retrieval, answering, and
@@ -397,7 +398,6 @@ Useful numeric summary:
   - `154 passed`
 
 Plain-language conclusion:
-- better than the earlier prototype / previous system
 - usable as a supervised internal assistant
 - not yet strong enough to be a fully trusted standalone authority
 
