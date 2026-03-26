@@ -221,9 +221,9 @@
     \item Concern: maybe the answer model is being drowned by large evidence bundles
     \item Tested:
       \begin{itemize}
-        \item \texttt{query\_guided\_answering}
-        \item \texttt{structured\_answering}
-        \item \texttt{selective\_structured\_answering}
+        \item \texttt{query\_guided\_answering}: inline prompt explicitly covers the decomposed retrieval aspects
+        \item \texttt{structured\_answering}: same retrieval, but a more explicit multi-part answer format
+        \item \texttt{selective\_structured\_answering}: keep baseline by default, switch to structured presentation only on predicted harder cases
       \end{itemize}
   \end{itemize}
 

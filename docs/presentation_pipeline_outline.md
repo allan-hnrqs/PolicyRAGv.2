@@ -315,8 +315,13 @@ What we found:
 
 What we tried:
 - `query_guided_answering`
+  - same inline-evidence path, but the prompt explicitly covers the decomposed
+    retrieval aspects
 - `structured_answering`
+  - same retrieval, but a more explicit multi-part answer format
 - `selective_structured_answering`
+  - keep baseline by default, switch to structured presentation only on
+    predicted harder cases
 
 What failed:
 - `query_guided_answering`

@@ -413,13 +413,25 @@ Use it when building the actual deck. Each slide includes:
 - Concern: maybe the model is drowned by large evidence bundles
 - Tested:
   - `query_guided_answering`
+    - same inline evidence, but the prompt explicitly covers the decomposed retrieval aspects
   - `structured_answering`
+    - same retrieval, but a more explicit multi-part answer format
   - `selective_structured_answering`
+    - keep baseline by default, switch to structured presentation only on predicted harder cases
 
 **Speaker notes**
 - We suspected that even with good retrieval, the answer model might struggle if
   the evidence bundle was too noisy.
 - So we ran same-retrieval presentation experiments.
+- `query_guided_answering` means:
+  - keep the same inline-evidence path, but explicitly tell the model to cover
+    the planner-generated retrieval aspects
+- `structured_answering` means:
+  - keep retrieval fixed, but force a more explicit multi-part answer structure
+    with headings or bullets
+- `selective_structured_answering` means:
+  - try to keep baseline behavior on easy cases and only route predicted harder
+    cases into the structured presentation path
 - Some of them improved scalar recall, but that was not enough.
 - Here, `dev recall` and `holdout recall` mean mean required-claim recall.
 - `query_guided_answering` is a good example:
