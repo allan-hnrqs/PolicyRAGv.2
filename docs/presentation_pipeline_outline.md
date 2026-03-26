@@ -244,6 +244,22 @@ Good lesson:
 - retrieval can be improved locally without becoming the new default
 - hard-cluster wins are not enough for promotion
 
+How query decomposition works in this repo:
+- a Cohere planner first receives the original buyer question
+- it is asked to return JSON only, with at most `2` focused retrieval queries
+- each query should target one distinct aspect of the question and preserve
+  procurement terms and source-specific language
+- retrieval then runs on:
+  - the original question
+  - the planner-generated subqueries
+- the retriever keeps up to `24` candidates per query
+- those per-query result lists are fused with reciprocal rank fusion
+- the merged pool is reranked and then packed into the final evidence bundle
+
+Why this matters:
+- the method is not “make the prompt longer”
+- it is “plan a more targeted retrieval pass over the same corpus”
+
 ## Slide 6: Evidence Packing and Presentation
 
 Current canonical evidence presentation:

@@ -174,6 +174,27 @@
   0.9722 \textrightarrow{} 1.0 on dev, and 0.8250 \textrightarrow{} 0.9750 on holdout.
 \end{frame}
 
+\begin{frame}{How Query Decomposition Works}
+  \begin{itemize}
+    \item A Cohere planner first breaks one buyer question into a small set of focused retrieval queries
+    \item In the baseline profile, the planner is allowed to add at most 2 extra queries
+    \item The planner is instructed to:
+      \begin{itemize}
+        \item target distinct aspects of the original question
+        \item preserve procurement terms and source-specific language
+        \item return JSON only
+      \end{itemize}
+    \item The retriever then:
+      \begin{itemize}
+        \item runs hybrid retrieval for the original query plus the expanded queries
+        \item takes up to 24 candidates per query
+        \item fuses them with reciprocal rank fusion
+        \item reranks, then packs the final evidence bundle
+      \end{itemize}
+    \item This is why the gain is not just “more words”; it is a more targeted retrieval plan
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Evidence Presentation}
   \begin{itemize}
     \item Canonical answer path: \texttt{inline\_evidence\_chat}

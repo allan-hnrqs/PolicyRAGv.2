@@ -307,7 +307,50 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - before/after bar chart for baseline vs query decomposition on dev and holdout
 
-## Slide 10: Evidence Presentation
+## Slide 10: How Query Decomposition Works
+
+**Title**
+- How query decomposition works
+
+**On slide**
+- Planner step first
+- Cohere planner adds at most `2` focused retrieval queries
+- Queries must:
+  - target distinct aspects of the original question
+  - preserve procurement terms
+  - return JSON only
+- Retrieval then:
+  - searches on original + expanded queries
+  - takes up to `24` candidates per query
+  - fuses with reciprocal rank fusion
+  - reranks and packs the final bundle
+
+**Speaker notes**
+- This is important because “query decomposition” can otherwise sound vague.
+- In this repo, it is not a free-form chain-of-thought step.
+- It is a constrained planner that outputs a small JSON list of focused
+  retrieval queries.
+- The baseline profile allows at most `2` extra queries.
+- The planner is explicitly told to keep procurement terms and source-specific
+  language intact, and to make each query cover one distinct aspect of the
+  original question.
+- The retriever then runs hybrid retrieval on the original question plus those
+  subqueries.
+- It keeps up to `24` candidates per query, fuses them with reciprocal rank
+  fusion, reranks the merged pool, and then packs the final evidence bundle.
+- That is why the gain is not just “more query text.” It is a more targeted
+  retrieval plan over the same corpus.
+
+**Suggested visual**
+- small flow diagram:
+  - user question
+  - planner emits 2 focused subqueries
+  - hybrid retrieval per query
+  - fusion
+  - rerank
+  - packed evidence
+
+## Slide 11: Evidence Presentation
 
 **Title**
 - Evidence presentation: a real issue, but not solved by every prompt change
@@ -338,7 +381,7 @@ Use it when building the actual deck. Each slide includes:
 - one chart for scalar, one chart for pairwise, to show why scalar alone was
   not enough
 
-## Slide 11: Answer Generation
+## Slide 12: Answer Generation
 
 **Title**
 - Answer generation: some gains were real, but not broad enough
@@ -368,7 +411,7 @@ Use it when building the actual deck. Each slide includes:
   - rebuilt `39` improvement
   - original `19` regression
 
-## Slide 12: Exactness / Abstention Subpath
+## Slide 13: Exactness / Abstention Subpath
 
 **Title**
 - The narrow exactness path: the clearest method win on `main`
@@ -396,7 +439,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small table with before/after for recall, forbidden, abstain accuracy, pairwise
 
-## Slide 13: Evaluation and Promotion Discipline
+## Slide 14: Evaluation and Promotion Discipline
 
 **Title**
 - Evaluation: why we trust some results and reject others
@@ -430,7 +473,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - evaluation stack diagram showing primary and secondary lanes
 
-## Slide 14: What Failed and What We Learned
+## Slide 15: What Failed and What We Learned
 
 **Title**
 - Failures that changed the architecture
@@ -460,7 +503,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - one table with experiment, local gain, broad outcome, final decision
 
-## Slide 15: Current Status and Next Steps
+## Slide 16: Current Status and Next Steps
 
 **Title**
 - Current status
@@ -492,7 +535,7 @@ Use it when building the actual deck. Each slide includes:
   - what is still experimental
   - what comes next
 
-## Optional Slide 16: Demo Plan
+## Optional Slide 17: Demo Plan
 
 **Title**
 - Demo plan
