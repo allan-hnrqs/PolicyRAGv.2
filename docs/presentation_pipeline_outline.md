@@ -51,12 +51,16 @@ Current one-line summary:
 
 Terms to define explicitly:
 - `canonical parity`
-  - the frozen benchmark family used for tuning and promotion checks
+  - the umbrella name for the frozen benchmark family
   - in practice this mainly means `parity19_dev` and `parity19_holdout`
 - `parity19_dev`
   - the 9-case development split used during tuning
 - `parity19_holdout`
   - the 10-case protected split used during promotion checks
+- `tuning`
+  - experimenting, comparing variants, and adjusting methods against the dev split
+- `promotion`
+  - deciding whether a method deserves to move onto `main` or become a stronger default after holdout checks
 - `p95` / `p99`
   - percentile statistics
   - example: `p99` chunk size means `99%` of chunks are at or below that length

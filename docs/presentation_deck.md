@@ -94,11 +94,15 @@ Use it when building the actual deck. Each slide includes:
 
 **On slide**
 - `canonical parity`
-  - frozen benchmark family for tuning and promotion
+  - umbrella benchmark family containing the dev and holdout splits
 - `parity19_dev`
   - 9-case development split used for tuning
 - `parity19_holdout`
   - 10-case protected split used for promotion checks
+- `tuning`
+  - iterative experimentation on the dev split
+- `promotion`
+  - deciding what deserves to move onto `main` or become a stronger default
 - `p95` / `p99`
   - percentile statistics
 - `sliding-window chunking`
@@ -108,10 +112,14 @@ Use it when building the actual deck. Each slide includes:
 
 **Speaker notes**
 - Define these once so the rest of the talk stays understandable.
-- `canonical parity` mainly refers to `parity19_dev` and `parity19_holdout`.
+- `canonical parity` is not a third benchmark. It is the umbrella name for the
+  frozen benchmark family, mainly `parity19_dev` and `parity19_holdout`.
 - `parity19_dev` is the 9-case development split used while tuning methods.
 - `parity19_holdout` is the 10-case protected split used when deciding what
   deserves promotion.
+- `tuning` means we iterate on ideas using the dev split.
+- `promotion` means we decide whether an idea is strong enough to move onto
+  `main` or become a stronger default after holdout checks.
 - `p95` means 95 percent of values are at or below that number.
 - `p99` means 99 percent are at or below that number.
 - `sliding-window chunking` is the classic fixed-window approach; our current

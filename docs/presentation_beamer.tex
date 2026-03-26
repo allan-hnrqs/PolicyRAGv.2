@@ -46,9 +46,11 @@
 
 \begin{frame}{Key Terms}
   \begin{itemize}
-    \item \textbf{Canonical parity:} the frozen benchmark family used for tuning and promotion checks.
+    \item \textbf{Canonical parity:} the umbrella benchmark family; in practice this means the \texttt{parity19\_dev} and \texttt{parity19\_holdout} splits together.
     \item \textbf{\texttt{parity19\_dev}:} the 9-case development split used during tuning.
-    \item \textbf{\texttt{parity19\_holdout}:} the 10-case protected split used for promotion checks.
+    \item \textbf{\texttt{parity19\_holdout}:} the 10-case protected split used during promotion checks.
+    \item \textbf{Tuning:} trying ideas, comparing variants, and adjusting methods against the dev split.
+    \item \textbf{Promotion:} deciding whether a method deserves to move onto \texttt{main} or become a stronger default after holdout checks.
     \item \textbf{p95 / p99:} the 95th / 99th percentile. Example: p99 chunk size means 99\% of chunks are at or below that length.
     \item \textbf{Sliding-window chunking:} fixed-size text windows, usually with overlap, instead of structure-aware paragraph/section blocks.
     \item \textbf{Intervention-only evaluation:} baseline stays unchanged unless the conditional method actually fires.
