@@ -127,6 +127,11 @@ Important real stats to mention:
 What we tested:
 - sliding-window chunking as an upstream alternative
 - broad chunk-size diagnostics
+- the sliding-window test used:
+  - `1200` characters per window
+  - `200` characters of overlap
+  - under the repo's heuristic, that is roughly a `300`-token window with a
+    `50`-token overlap
 
 What failed:
 - the current `sliding_window_chunker` did not help
@@ -146,6 +151,25 @@ Why it failed:
 Good lesson:
 - chunking is important, but broad chunking rewrites were not the highest-ROI
   move at the current stage
+
+Research context to explain verbally:
+- there is no single legal gold-standard chunk size
+- Cohere guidance points toward short chunks, around `±400` words
+- Databricks suggests `256 / 512 / 1024` tokens as reasonable starting points
+- recent legal RAG work, for example Legal-DC, favors clause-boundary
+  segmentation over giant sections
+- so our `1200 / 200` sliding-window test was plausible in the abstract
+- but it was still not a clean legal-style test here because it removed
+  section/heading structure and produced only `1872` chunks versus the current
+  `5979` section-aware chunks
+
+Research anchors:
+- Cohere retrieval-augmented generation guide:
+  - https://docs.cohere.com/v2/docs/retrieval-augmented-generation-rag
+- Databricks retrieval quality guide:
+  - https://learn.microsoft.com/en-us/azure/databricks/vector-search/vector-search-retrieval-quality
+- Legal-DC:
+  - https://arxiv.org/abs/2603.11772
 
 ## Slide 4.5: What One Chunk Looks Like
 

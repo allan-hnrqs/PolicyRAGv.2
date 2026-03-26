@@ -178,8 +178,12 @@ Use it when building the actual deck. Each slide includes:
 - Most chunks are small, but there is a real long tail of very large sections.
 - The largest chunk in the corpus is `34499` characters, and the largest packed
   chunk we actually saw in broad runs was about `31630`.
-- We tested sliding-window chunking as an upstream alternative, but it did not
-  help on the canonical dev surface.
+- We tested sliding-window chunking as an upstream alternative using
+  `1200`-character windows with `200` characters of overlap.
+- Under the repo's own token heuristic, that is roughly a `300`-token window
+  with about a `50`-token overlap.
+- So the tested size was plausible in the abstract, but it still did not help
+  on the canonical dev surface.
 - In fact, on `parity19_dev`, scalar recall regressed from `0.8611` to
   `0.8056`, and pairwise was only `4-4-1`.
 - So chunking clearly matters, but broad chunker replacement did not earn
@@ -188,7 +192,58 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - histogram of chunk sizes with the long-tail called out
 
-## Slide 7: What One Chunk Looks Like
+## Slide 7: Chunking in Research Context
+
+**Title**
+- Chunking in research context
+
+**On slide**
+- No single legal gold-standard chunk size
+- Cohere guidance:
+  - short chunks around `±400` words
+- Databricks starting points:
+  - `256 / 512 / 1024` tokens
+- Legal RAG trend:
+  - clause-boundary segmentation over giant sections
+- Our sliding-window test:
+  - `1200` chars
+  - `200` char overlap
+  - plausible in the abstract
+  - not a clean legal-style test in this repo
+
+**Speaker notes**
+- The clean answer is not “research says one magic number.”
+- The stronger research-backed claim is:
+  - generic RAG guidance usually starts with a few hundred words or a few
+    hundred tokens
+  - legal-specific work increasingly favors clause- or provision-boundary
+    segmentation because legal meaning often lives at that level
+- Cohere's guidance points toward short chunks, around `±400` words.
+- Databricks suggests `256 / 512 / 1024` tokens as reasonable starting points
+  for experimentation.
+- A recent legal RAG benchmark, Legal-DC, explicitly uses clause-boundary
+  segmentation.
+- That means our sliding-window test was not absurd in size.
+- But it still was not a clean “legal-sized snippets” test here, because it
+  removed section/heading structure and actually produced only `1872` chunks,
+  compared with `5979` section-aware chunks in the current corpus.
+
+**Suggested visual**
+- comparison table:
+  - Cohere: `±400` words
+  - Databricks: `256 / 512 / 1024` tokens
+  - Legal RAG: clause-boundary segmentation
+  - Our sliding test: `1200` chars + `200` overlap
+
+**Research anchors**
+- Cohere retrieval-augmented generation guide:
+  - https://docs.cohere.com/v2/docs/retrieval-augmented-generation-rag
+- Databricks retrieval quality guide:
+  - https://learn.microsoft.com/en-us/azure/databricks/vector-search/vector-search-retrieval-quality
+- Legal-DC:
+  - https://arxiv.org/abs/2603.11772
+
+## Slide 8: What One Chunk Looks Like
 
 **Title**
 - What one chunk looks like
@@ -225,7 +280,7 @@ Use it when building the actual deck. Each slide includes:
 - simplified pseudo-record or table showing the fields and one truncated text
   excerpt
 
-## Slide 8: Retrieval
+## Slide 9: Retrieval
 
 **Title**
 - Retrieval: hybrid plus query decomposition
@@ -252,7 +307,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - before/after bar chart for baseline vs query decomposition on dev and holdout
 
-## Slide 9: Evidence Presentation
+## Slide 10: Evidence Presentation
 
 **Title**
 - Evidence presentation: a real issue, but not solved by every prompt change
@@ -283,7 +338,7 @@ Use it when building the actual deck. Each slide includes:
 - one chart for scalar, one chart for pairwise, to show why scalar alone was
   not enough
 
-## Slide 10: Answer Generation
+## Slide 11: Answer Generation
 
 **Title**
 - Answer generation: some gains were real, but not broad enough
@@ -313,7 +368,7 @@ Use it when building the actual deck. Each slide includes:
   - rebuilt `39` improvement
   - original `19` regression
 
-## Slide 11: Exactness / Abstention Subpath
+## Slide 12: Exactness / Abstention Subpath
 
 **Title**
 - The narrow exactness path: the clearest method win on `main`
@@ -341,7 +396,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - small table with before/after for recall, forbidden, abstain accuracy, pairwise
 
-## Slide 12: Evaluation and Promotion Discipline
+## Slide 13: Evaluation and Promotion Discipline
 
 **Title**
 - Evaluation: why we trust some results and reject others
@@ -375,7 +430,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - evaluation stack diagram showing primary and secondary lanes
 
-## Slide 13: What Failed and What We Learned
+## Slide 14: What Failed and What We Learned
 
 **Title**
 - Failures that changed the architecture
@@ -405,7 +460,7 @@ Use it when building the actual deck. Each slide includes:
 **Suggested visual**
 - one table with experiment, local gain, broad outcome, final decision
 
-## Slide 14: Current Status and Next Steps
+## Slide 15: Current Status and Next Steps
 
 **Title**
 - Current status
@@ -437,7 +492,7 @@ Use it when building the actual deck. Each slide includes:
   - what is still experimental
   - what comes next
 
-## Optional Slide 15: Demo Plan
+## Optional Slide 16: Demo Plan
 
 **Title**
 - Demo plan

@@ -101,8 +101,27 @@
   Largest packed chunk seen in broad runs: about 31630 chars.
 
   \vspace{0.3em}
-  Sliding-window chunking did not help on canonical \texttt{parity19\_dev}:
-  0.8611 \textrightarrow{} 0.8056, with pairwise 4-4-1.
+  Sliding-window chunking (1200-char windows, 200-char overlap) did not help
+  on canonical \texttt{parity19\_dev}: 0.8611 \textrightarrow{} 0.8056, with
+  pairwise 4-4-1.
+\end{frame}
+
+\begin{frame}{Chunking in Research Context}
+  \begin{itemize}
+    \item External guidance is directional, not absolute:
+      \begin{itemize}
+        \item Cohere recommends short snippets, around $\pm$400 words
+        \item Databricks suggests starting tests around 256 / 512 / 1024 tokens
+        \item Recent legal RAG work favors clause-boundary segmentation over giant sections
+      \end{itemize}
+    \item Our sliding-window test used 1200-char windows with 200-char overlap
+    \item Under the repo's token heuristic, that is roughly a 300-token window with 50-token overlap
+    \item So the size was plausible in the abstract, but not a clean legal-style test here:
+      \begin{itemize}
+        \item it removed section and heading structure
+        \item it produced only 1872 chunks versus 5979 section chunks
+      \end{itemize}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{What One Chunk Looks Like}
