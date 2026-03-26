@@ -240,4 +240,146 @@
   \end{itemize}
 \end{frame}
 
+\appendix
+
+\begin{frame}[fragile]{Worked Example: Query Decomposition Helped Retrieval}
+  \small
+  \textbf{Case:} \texttt{HR\_008}
+
+  \vspace{0.4em}
+  \textbf{Prompt:}
+  \begin{quote}
+    What is the actual contractual difference between a standing offer and a
+    supply arrangement? When does Canada become legally bound under each one?
+  \end{quote}
+
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Baseline retrieval}
+      \begin{itemize}
+        \item Top evidence was dominated by \emph{Using a standing offer}
+        \item Example chunk:
+      \end{itemize}
+      \scriptsize
+      ``A standing offer is not a contract. A contract is established with each
+      call-up for goods or services made against the standing offer.''
+      \normalsize
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 0.3333
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{With query decomposition}
+      \begin{itemize}
+        \item Added targeted retrieval queries about standing offers vs supply arrangements
+        \item Newly packed chunk:
+      \end{itemize}
+      \scriptsize
+      ``There is no contractual obligation between Canada and the offeror to buy
+      goods or services at the supply arrangement stage. There is a contractual
+      obligation with the award of each contract.''
+      \normalsize
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 1.0
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]{Worked Example: Exactness Path Prevented an Unsupported Answer}
+  \small
+  \textbf{Case:} \texttt{HR\_037}
+
+  \vspace{0.4em}
+  \textbf{Prompt:}
+  \begin{quote}
+    What exact form number or file name do I need for the specimen signature
+    card template in the GC network folder when approvals go beyond delegated
+    authority?
+  \end{quote}
+
+  \textbf{Retrieved evidence excerpt:}
+  \scriptsize
+  ``The Delegation of Authorities instrument and Schedule 3 specimen signature
+  card templates for the Acquisitions Program can be found in the Delegation of
+  Authorities ... folder.''
+
+  \vspace{0.3em}
+  ``PSPC supervisors ... complete and sign a Schedule 3 Specimen Signature Card
+  Template ... This form documents the scope of the incumbent's delegated
+  approval and signing authority.''
+  \normalsize
+
+  \vspace{0.4em}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Baseline answer}
+      \begin{itemize}
+        \item Gave a specific file/form name as if it were established
+        \item Result:
+      \end{itemize}
+      \scriptsize
+      ``The exact form number or file name ... is the Schedule 3 Specimen
+      Signature Card Template.''
+      \normalsize
+
+      \vspace{0.3em}
+      Recall 0.3333, forbidden 1
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{Exactness path answer}
+      \begin{itemize}
+        \item Explicitly said the evidence does not provide the exact file name
+        \item Result:
+      \end{itemize}
+      \scriptsize
+      ``The exact form number or file name ... is not provided in the evidence.''
+      \normalsize
+
+      \vspace{0.3em}
+      Recall 0.6667, forbidden 0
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]{Worked Example: Why Broad Mode-Aware Answering Was Rejected}
+  \small
+  \textbf{Case:} \texttt{HR\_001}
+
+  \vspace{0.4em}
+  \textbf{Prompt:}
+  \begin{quote}
+    We received a bid after the deadline and the supplier says they sent it on
+    time. What proof counts, and what are we supposed to do with the offer?
+  \end{quote}
+
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Query-decomposition baseline}
+      \begin{itemize}
+        \item Covered acceptable proof
+        \item Covered handling of late offers
+        \item Covered offeror responsibility and return handling
+      \end{itemize}
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 1.0
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{Mode-aware branch}
+      \begin{itemize}
+        \item Still covered acceptable proof
+        \item But dropped part of the handling logic
+        \item Judge notes: missing support for offeror responsibility and return based on delivery method
+      \end{itemize}
+
+      \vspace{0.3em}
+      \textbf{Result:} recall 0.5
+    \end{column}
+  \end{columns}
+
+  \vspace{0.5em}
+  This is why rebuilt-39 gains alone were not enough for promotion.
+\end{frame}
+
 \end{document}

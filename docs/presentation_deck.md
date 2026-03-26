@@ -393,3 +393,78 @@ Use it when building the actual deck. Each slide includes:
 
 **Answer**
 - Answer precision and selective activation, not obviously raw retrieval power.
+
+## Optional Appendix Slide: Query Decomposition Example
+
+**Title**
+- Worked example: query decomposition improved retrieval
+
+**On slide**
+- Case: `HR_008`
+- Prompt:
+  - "What is the actual contractual difference between a standing offer and a supply arrangement? When does Canada become legally bound under each one?"
+- Baseline retrieval:
+  - packed mostly standing-offer evidence
+  - score `0.3333`
+- With query decomposition:
+  - added targeted retrieval queries
+  - pulled a comparative chunk covering supply arrangement obligations
+  - score `1.0`
+
+**Speaker notes**
+- This is a good retrieval example because the issue was not generic relevance.
+- The baseline already had standing-offer material, but it did not have the
+  comparative chunk needed to answer the supply-arrangement part cleanly.
+- Query decomposition added targeted subqueries, and one of the newly packed
+  chunks explicitly stated:
+  - there is no contractual obligation at the supply arrangement stage
+  - each contract awarded under the supply arrangement is a separate binding contract
+
+## Optional Appendix Slide: Exactness Example
+
+**Title**
+- Worked example: exactness path prevented an unsupported answer
+
+**On slide**
+- Case: `HR_037`
+- Prompt:
+  - "What exact form number or file name do I need for the specimen signature card template in the GC network folder when approvals go beyond delegated authority?"
+- Evidence says:
+  - the Schedule 3 specimen signature card template exists
+  - it is in the Delegation of Authorities folder
+  - but it does not provide an exact file name or form number
+- Baseline:
+  - answered with a specific exact name
+  - recall `0.3333`, forbidden `1`
+- Exactness path:
+  - explicitly said the exact file name is not provided
+  - recall `0.6667`, forbidden `0`
+
+**Speaker notes**
+- This is the clearest slide for why the narrow exactness path exists.
+- The evidence supports the nearby process and the folder location.
+- It does not support the exact requested identifier.
+- The baseline overcommitted. The exactness path did not.
+
+## Optional Appendix Slide: Broad Answer Branch Rejection Example
+
+**Title**
+- Worked example: why broad mode-aware answering was rejected
+
+**On slide**
+- Case: `HR_001`
+- Prompt:
+  - "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?"
+- Query-decomposition baseline:
+  - recall `1.0`
+- Mode-aware branch:
+  - recall `0.5`
+- Judge finding:
+  - mode-aware answer dropped support for offeror responsibility and return handling
+
+**Speaker notes**
+- This is the simplest case-level explanation for why a broad answer branch that
+  helped rebuilt-39 was still rejected.
+- It still looked strong at a high level, but on important canonical cases it
+  lost required handling detail.
+- That is exactly the kind of regression we did not allow onto `main`.
