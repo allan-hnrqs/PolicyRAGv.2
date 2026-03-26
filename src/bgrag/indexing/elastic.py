@@ -8,6 +8,8 @@ from elastic_transport import ConnectionError as ElasticConnectionError, Connect
 from bgrag.config import Settings
 from bgrag.types import ChunkRecord
 
+DEFAULT_BULK_CHUNK_SIZE = 50
+
 
 def chunk_index_name(source_family: str, namespace: str) -> str:
     return f"bgrag_chunks_{namespace}_{source_family}".lower()
@@ -30,6 +32,10 @@ def ensure_chunk_index(client: Elasticsearch, index_name: str) -> None:
         return
     client.indices.create(
         index=index_name,
+        settings={
+            "number_of_shards": 1,
+            "number_of_replicas": 0,
+        },
         mappings={
             "properties": {
                 "chunk_id": {"type": "keyword"},
@@ -48,6 +54,13 @@ def ensure_chunk_index(client: Elasticsearch, index_name: str) -> None:
     )
 
 
+def _batched_operations(
+    operations: list[dict[str, object]],
+    batch_size: int,
+) -> list[list[dict[str, object]]]:
+    return [operations[index : index + batch_size] for index in range(0, len(operations), batch_size)]
+
+
 def index_chunks(client: Elasticsearch, chunks: list[ChunkRecord], namespace: str) -> None:
     by_family: dict[str, list[ChunkRecord]] = {}
     for chunk in chunks:
@@ -60,4 +73,6 @@ def index_chunks(client: Elasticsearch, chunks: list[ChunkRecord], namespace: st
             operations.append({"index": {"_index": index_name, "_id": chunk.chunk_id}})
             operations.append(chunk.model_dump(mode="json"))
         if operations:
-            client.bulk(operations=operations, refresh=True)
+            for batch in _batched_operations(operations, DEFAULT_BULK_CHUNK_SIZE * 2):
+                client.bulk(operations=batch, refresh=False)
+            client.indices.refresh(index=index_name)

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PolicyAI Demo</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="global-header">
+      <div class="brand-lockup" aria-label="Government of Canada">
+        <img
+          class="canada-flag"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/330px-Flag_of_Canada.svg.png"
+          alt="Flag of Canada"
+        >
+        <div class="brand-text">
+          <span>Government</span>
+          <span>of Canada</span>
+        </div>
+        <div class="brand-text">
+          <span>Gouvernement</span>
+          <span>du Canada</span>
+        </div>
+      </div>
+      <a class="lang-link" href="#" aria-label="Switch language">Francais</a>
+    </header>
+
+    <div class="utility-bar">
+      <button class="menu-toggle" type="button" aria-label="Menu">
+        <span>MENU</span>
+        <span class="caret"></span>
+      </button>
+    </div>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="#">CanadaBuys.ca</a>
+          <span class="breadcrumb-sep">&rsaquo;</span>
+          <a href="#">Buyer's Guide</a>
+          <span class="breadcrumb-sep">&rsaquo;</span>
+          <span>PolicyAI</span>
+        </nav>
+
+        <button class="new-chat-button" id="newChatButton" type="button">
+          <span class="plus-mark">+</span>
+          <span>New Chat</span>
+        </button>
+
+        <section class="sidebar-section">
+          <h2>History</h2>
+          <div class="history-list" id="historyList"></div>
+        </section>
+
+        <button class="settings-button" type="button">
+          <span class="gear-icon" aria-hidden="true"></span>
+          <span>Settings</span>
+        </button>
+      </aside>
+
+      <main class="chat-panel">
+        <section class="hero-state" id="heroState">
+          <p class="eyebrow">Procurement policy support</p>
+          <h1>PolicyAI: Your Procurement Assistant</h1>
+          <p class="hero-copy">
+            Ask a question to explore CanadaBuys procurement guidance, Buyer&rsquo;s Guide workflows,
+            and contract-management rules in a clean demo experience.
+          </p>
+
+          <div class="suggestion-grid" id="suggestionGrid"></div>
+        </section>
+
+        <section class="messages" id="messages" aria-live="polite"></section>
+
+        <form class="composer" id="composer">
+          <label class="sr-only" for="messageInput">Ask a procurement policy question</label>
+          <input
+            id="messageInput"
+            name="message"
+            type="text"
+            autocomplete="off"
+            placeholder="Type your procurement policy question here..."
+          >
+          <button class="send-button" type="submit" aria-label="Send question">
+            <span class="send-icon"></span>
+          </button>
+        </form>
+
+        <footer class="panel-footer">
+          <span>AI responses are for informational purposes. Verify with official sources.</span>
+          <div class="footer-links">
+            <a href="#">Terms and conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

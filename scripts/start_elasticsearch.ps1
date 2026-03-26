@@ -65,6 +65,7 @@ $env:ES_JAVA_OPTS = "-Xms${HeapMb}m -Xmx${HeapMb}m"
 $arguments = @(
     "-Ediscovery.type=single-node"
     "-Expack.security.enabled=false"
+    "-Ecluster.routing.allocation.disk.threshold_enabled=false"
     "-Ehttp.host=127.0.0.1"
     "-Etransport.host=127.0.0.1"
     "-Epath.data=$dataRoot"
