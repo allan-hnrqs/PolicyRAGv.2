@@ -50,15 +50,39 @@ def _extract_text_from_chat_response(response: object) -> str:
 def _planner_prompt(question: str, max_expanded_queries: int) -> str:
     return (
         "You are planning retrieval queries for a procurement-policy RAG system.\n"
-        "Break a complex user question into a small set of focused retrieval queries.\n"
+        "Decide whether the user's question actually needs query decomposition for retrieval.\n"
         "Rules:\n"
         "1. Return JSON only.\n"
-        f"2. Return at most {max_expanded_queries} queries.\n"
-        "3. Each query should target one distinct aspect needed to answer the original question.\n"
-        "4. Keep procurement terms and source-specific language intact.\n"
-        "5. Do not include the original question verbatim unless it is needed as one focused sub-query.\n"
-        'Return this exact shape: {"queries":[string,...]}\n\n'
+        "2. Prefer not decomposing unless the question clearly needs multiple distinct retrieval aspects.\n"
+        f"3. If decomposition is needed, return at most {max_expanded_queries} focused queries.\n"
+        "4. Each query should target one distinct aspect needed to answer the original question.\n"
+        "5. Keep procurement terms and source-specific language intact.\n"
+        "6. If the original question is already focused and self-contained, set should_decompose to false and return an empty queries list.\n"
+        "7. Do not answer the question.\n"
+        "8. Do not include the original question verbatim unless it is needed as one focused sub-query.\n"
+        'Return this exact shape: {"should_decompose":true|false,"queries":[string,...]}\n\n'
         f"Original question:\n{question}"
+    )
+
+
+def parse_query_plan(
+    question: str,
+    parsed: dict[str, object],
+    *,
+    max_expanded_queries: int,
+) -> list[str]:
+    raw_queries = parsed.get("queries", [])
+    if not isinstance(raw_queries, list):
+        raise ValueError("Query planner response must include a list under 'queries'")
+
+    should_decompose = parsed.get("should_decompose")
+    if isinstance(should_decompose, bool) and not should_decompose:
+        return []
+
+    return normalize_expanded_queries(
+        question,
+        raw_queries,
+        max_expanded_queries=max_expanded_queries,
     )
 
 
@@ -78,11 +102,10 @@ class CohereQueryExpander:
         )
         text = _extract_text_from_chat_response(response)
         parsed = json.loads(text)
-        queries = parsed.get("queries", [])
-        if not isinstance(queries, list):
-            raise ValueError("Query planner response must include a list under 'queries'")
-        return normalize_expanded_queries(
+        if not isinstance(parsed, dict):
+            raise ValueError("Query planner response must be a JSON object")
+        return parse_query_plan(
             question,
-            queries,
+            parsed,
             max_expanded_queries=max_expanded_queries,
         )

@@ -27,13 +27,12 @@ from bgrag.manifests import (
 )
 from bgrag.pipeline import build_answer_callback
 
-DEMO_PROFILE_NAME = "baseline"
+DEMO_PROFILE_NAME = "demo"
 PROCUREMENT_INTENT = "procurement_policy"
-GREETING_INTENT = "greeting_small_talk"
-CAPABILITY_INTENT = "capability_help"
-OUT_OF_SCOPE_INTENT = "out_of_scope"
 _CALLBACK_CACHE: dict[tuple[str, str, str], Any] = {}
 _CALLBACK_LOCK = threading.Lock()
+_MAX_CONTEXT_MESSAGES = 8
+_MAX_CONTEXT_MESSAGE_CHARS = 1200
 _RENDERED_CHUNK_ID_PATTERN = re.compile(
     r"\s*\[(?:[A-Za-z0-9_-]+__(?:section|block|window)__\d+)(?:,\s*[A-Za-z0-9_-]+__(?:section|block|window)__\d+)*\]"
 )
@@ -58,10 +57,10 @@ class DemoServerState:
 
 
 @dataclass(frozen=True)
-class IntentDecision:
-    intent: str
-    reply_text: str
-    response_mode: str
+class ConversationResolution:
+    resolved_question: str
+    route_name: str = ""
+    context_applied: bool = False
 
 
 class DemoHTTPServer(ThreadingHTTPServer):
@@ -99,86 +98,101 @@ def _strip_rendered_chunk_ids(text: str) -> str:
     return _RENDERED_CHUNK_ID_PATTERN.sub("", text)
 
 
-def _intent_gate_prompt(question: str) -> str:
+def _contextualizer_system_prompt() -> str:
     return (
-        "You are the front-door intent gate for PolicyAI, a Canadian procurement policy assistant.\n"
-        "Classify the user input and, when needed, draft the assistant's response.\n\n"
+        "You are rewriting the latest user turn for a Canadian procurement-policy retrieval system.\n"
+        "The full conversation is already provided as chat history.\n"
+        "Rewrite the latest user turn into one standalone procurement-policy question for retrieval.\n\n"
         "Return JSON only in this exact shape:\n"
-        '{"intent":"procurement_policy","reply_text":"text"}\n\n'
-        "Allowed intent values:\n"
-        '- "procurement_policy"\n'
-        '- "greeting_small_talk"\n'
-        '- "capability_help"\n'
-        '- "out_of_scope"\n\n'
+        '{"standalone_question":"text"}\n\n'
         "Rules:\n"
-        "1. Use procurement_policy only when the user is asking for procurement rules, Buyer’s Guide guidance, solicitation, evaluation, contract management, ACAN, standing offers, bids, offers, suppliers, or related policy workflows.\n"
-        "2. Use greeting_small_talk for greetings, thanks, pleasantries, or conversational check-ins.\n"
-        "3. Use capability_help for questions like what can you do, help me use this, how should I ask, or how should I structure a procurement question.\n"
-        "4. Use out_of_scope for topics outside Canadian procurement policy support.\n"
-        "5. If intent is procurement_policy, set reply_text to an empty string.\n"
-        "6. If intent is greeting_small_talk, write a short friendly greeting that introduces PolicyAI and invites a procurement policy question.\n"
-        "7. If intent is capability_help, explain briefly what PolicyAI can help with, give exactly three example procurement questions, and invite the user to rephrase their question.\n"
-        "8. If intent is out_of_scope, politely say the assistant is focused on Canadian procurement policy questions, mention two or three areas it can help with, and invite the user to ask a procurement-focused question instead.\n"
-        "9. Keep non-procurement replies concise, polished, and free of citations, markdown headings, or JSON inside the reply text.\n\n"
-        f"User input:\n{question}"
+        "1. Use prior turns only to resolve pronouns, ellipsis, or missing context.\n"
+        "2. Preserve the user's meaning; do not add new policy content.\n"
+        "3. Do not answer the question.\n"
+        "4. If the latest turn is already self-contained, keep the rewrite very close to it.\n"
+        "5. Assume the conversation is within the procurement-policy assistant's domain.\n"
     )
 
 
-def _normalize_intent(raw_intent: object) -> str:
-    value = str(raw_intent or "").strip().lower()
-    if value in {PROCUREMENT_INTENT, GREETING_INTENT, CAPABILITY_INTENT, OUT_OF_SCOPE_INTENT}:
-        return value
-    if value in {"greeting", "small_talk", "small-talk"}:
-        return GREETING_INTENT
-    if value in {"help", "capabilities", "capability"}:
-        return CAPABILITY_INTENT
-    if value in {"out_of_scope", "out-of-scope", "out_of_domain"}:
-        return OUT_OF_SCOPE_INTENT
-    return PROCUREMENT_INTENT
+def _normalize_demo_messages(raw_messages: object, latest_question: str) -> list[dict[str, str]]:
+    normalized: list[dict[str, str]] = []
+    if isinstance(raw_messages, list):
+        for item in raw_messages[-_MAX_CONTEXT_MESSAGES:]:
+            if not isinstance(item, dict):
+                continue
+            role = str(item.get("role", "")).strip().lower()
+            text = str(item.get("text", "")).strip()
+            if not text:
+                raw_content = item.get("content", "")
+                if isinstance(raw_content, str):
+                    text = raw_content.strip()
+                elif isinstance(raw_content, list):
+                    parts: list[str] = []
+                    for segment in raw_content:
+                        if isinstance(segment, dict):
+                            segment_text = str(segment.get("text", "")).strip()
+                            if segment_text:
+                                parts.append(segment_text)
+                    text = "\n".join(parts).strip()
+            if role not in {"user", "assistant"} or not text:
+                continue
+            normalized.append({"role": role, "text": text[:_MAX_CONTEXT_MESSAGE_CHARS]})
+
+    clean_latest = latest_question.strip()
+    if clean_latest:
+        if not normalized or normalized[-1]["role"] != "user" or normalized[-1]["text"] != clean_latest:
+            normalized.append({"role": "user", "text": clean_latest[:_MAX_CONTEXT_MESSAGE_CHARS]})
+
+    return normalized[-_MAX_CONTEXT_MESSAGES:]
 
 
-def _fallback_intent_reply(intent: str) -> str:
-    if intent == GREETING_INTENT:
-        return (
-            "Hello, I’m PolicyAI. I can help with Canadian procurement policy questions, Buyer’s Guide workflows, "
-            "and contract-management guidance.\n\nAsk me a procurement question whenever you’re ready."
-        )
-    if intent == CAPABILITY_INTENT:
-        return (
-            "I can help with Canadian procurement policy questions, including solicitation rules, evaluation steps, "
-            "ACANs, and contract close-out guidance.\n\nTry asking: When is an ACAN appropriate? How are late offers "
-            "handled? What is required before contract close-out?\n\nIf you want, rephrase your question in a specific "
-            "procurement scenario and I’ll take it from there."
-        )
-    return (
-        "I’m focused on Canadian procurement policy support. I can help with Buyer’s Guide workflows, solicitation and "
-        "evaluation rules, and contract-management questions.\n\nIf you’d like, ask a procurement-focused question and "
-        "I’ll help you work through it."
-    )
+def _build_contextualizer_messages(messages: list[dict[str, str]]) -> list[ct.ChatMessageV2]:
+    chat_messages: list[ct.ChatMessageV2] = [ct.SystemChatMessageV2(content=_contextualizer_system_prompt())]
+    for message in messages:
+        if message["role"] == "assistant":
+            chat_messages.append(ct.AssistantChatMessageV2(content=message["text"]))
+        else:
+            chat_messages.append(ct.UserChatMessageV2(content=message["text"]))
+    return chat_messages
 
 
-def classify_demo_intent(settings: Settings, question: str) -> IntentDecision:
-    settings.require_cohere_key("Intent gating")
+def contextualize_conversation_turn(settings: Settings, messages: list[dict[str, str]]) -> str:
+    settings.require_cohere_key("Conversation contextualization")
+    if not messages:
+        return ""
     client = cohere.ClientV2(settings.cohere_api_key)
     response = client.chat(
         model=settings.cohere_query_planner_model,
-        messages=[ct.UserChatMessageV2(content=_intent_gate_prompt(question))],
+        messages=_build_contextualizer_messages(messages),
         response_format=ct.JsonObjectResponseFormatV2(),
         temperature=0,
-        max_tokens=500,
+        max_tokens=200,
     )
     text = _extract_text_from_chat_response(response)
     parsed = json.loads(text)
-    intent = _normalize_intent(parsed.get("intent", PROCUREMENT_INTENT))
-    reply_text = str(parsed.get("reply_text", "")).strip()
-    if intent == PROCUREMENT_INTENT:
-        reply_text = ""
-        response_mode = "rag"
-    else:
-        if not reply_text:
-            reply_text = _fallback_intent_reply(intent)
-        response_mode = "general_guidance"
-    return IntentDecision(intent=intent, reply_text=reply_text, response_mode=response_mode)
+    standalone_question = str(parsed.get("standalone_question", "")).strip()
+    return standalone_question or messages[-1]["text"].strip()
+
+
+def resolve_demo_question(
+    settings: Settings,
+    question: str,
+    messages: list[dict[str, str]],
+) -> ConversationResolution:
+    clean_question = question.strip()
+    if len(messages) <= 1:
+        return ConversationResolution(
+            resolved_question=clean_question,
+            route_name="direct_question",
+            context_applied=False,
+        )
+
+    resolved_question = contextualize_conversation_turn(settings, messages).strip() or clean_question
+    return ConversationResolution(
+        resolved_question=resolved_question,
+        route_name="history_contextualizer",
+        context_applied=resolved_question != clean_question,
+    )
 
 
 def _build_status_message(status: DemoHealthStatus) -> str:
@@ -259,30 +273,20 @@ def reset_demo_callback_cache() -> None:
         _CALLBACK_CACHE.clear()
 
 
-def run_demo_query(settings: Settings, question: str, profile_name: str = DEMO_PROFILE_NAME) -> dict[str, object]:
+def run_demo_query(
+    settings: Settings,
+    question: str,
+    profile_name: str = DEMO_PROFILE_NAME,
+    messages: object | None = None,
+) -> dict[str, object]:
     clean_question = question.strip()
     if not clean_question:
         raise ValueError("Enter a message before sending.")
 
-    classify_start = perf_counter()
-    decision = classify_demo_intent(settings, clean_question)
-    classify_end = perf_counter()
-
-    if decision.intent != PROCUREMENT_INTENT:
-        return {
-            "question": clean_question,
-            "answer_text": decision.reply_text,
-            "citations": [],
-            "timings": {
-                "intent_classification_seconds": classify_end - classify_start,
-                "total_answer_path_seconds": classify_end - classify_start,
-            },
-            "profile_name": profile_name,
-            "index_namespace": None,
-            "notes": [f"intent_gate:{decision.intent}"],
-            "intent": decision.intent,
-            "response_mode": decision.response_mode,
-        }
+    normalized_messages = _normalize_demo_messages(messages, clean_question)
+    context_start = perf_counter()
+    resolution = resolve_demo_question(settings, clean_question, normalized_messages)
+    context_end = perf_counter()
 
     health = evaluate_demo_health(settings)
     if not health.ok or not health.active_index_namespace:
@@ -293,8 +297,10 @@ def run_demo_query(settings: Settings, question: str, profile_name: str = DEMO_P
             self.question = prompt
 
     answer_callback = _get_answer_callback(settings, profile_name, health.active_index_namespace)
-    result = answer_callback(AdHocCase(clean_question))
-    evidence_notes = [f"intent_gate:{decision.intent}"]
+    result = answer_callback(AdHocCase(resolution.resolved_question))
+    evidence_notes = [f"conversation_route:{resolution.route_name}"]
+    if resolution.context_applied:
+        evidence_notes.append("conversation_context_applied")
     if result.evidence_bundle is not None:
         evidence_notes.extend(result.evidence_bundle.notes)
     citations = [
@@ -306,19 +312,20 @@ def run_demo_query(settings: Settings, question: str, profile_name: str = DEMO_P
         for citation in result.citations
     ]
     timings = dict(result.timings)
-    timings["intent_classification_seconds"] = classify_end - classify_start
-    timings["total_request_seconds"] = (classify_end - classify_start) + float(
+    timings["contextualization_seconds"] = context_end - context_start
+    timings["total_request_seconds"] = (context_end - context_start) + float(
         result.timings.get("total_answer_path_seconds", 0.0)
     )
     return {
         "question": clean_question,
+        "resolved_question": resolution.resolved_question,
         "answer_text": _strip_rendered_chunk_ids(result.answer_text),
         "citations": citations,
         "timings": timings,
         "profile_name": profile_name,
         "index_namespace": health.active_index_namespace,
         "notes": evidence_notes,
-        "intent": decision.intent,
+        "intent": PROCUREMENT_INTENT,
         "response_mode": "rag",
     }
 
@@ -346,8 +353,14 @@ class DemoRequestHandler(BaseHTTPRequestHandler):
             return
 
         question = str(payload.get("question", ""))
+        messages = payload.get("messages")
         try:
-            response_payload = run_demo_query(self.server.state.settings, question, self.server.state.profile_name)
+            response_payload = run_demo_query(
+                self.server.state.settings,
+                question,
+                self.server.state.profile_name,
+                messages=messages,
+            )
         except ValueError as exc:
             self._send_json(HTTPStatus.BAD_REQUEST, {"error": "invalid_request", "status_message": str(exc)})
             return

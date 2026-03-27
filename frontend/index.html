@@ -24,11 +24,11 @@
           <span>du Canada</span>
         </div>
       </div>
-      <a class="lang-link" href="#" aria-label="Switch language">Francais</a>
+      <span class="lang-link is-disabled" aria-disabled="true">Francais</span>
     </header>
 
     <div class="utility-bar">
-      <button class="menu-toggle" type="button" aria-label="Menu">
+      <button class="menu-toggle" type="button" aria-label="Menu" disabled>
         <span>MENU</span>
         <span class="caret"></span>
       </button>
@@ -37,9 +37,9 @@
     <div class="workspace">
       <aside class="sidebar">
         <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="#">CanadaBuys.ca</a>
+          <a href="https://canadabuys.canada.ca/en" target="_blank" rel="noreferrer noopener">CanadaBuys.ca</a>
           <span class="breadcrumb-sep">&rsaquo;</span>
-          <a href="#">Buyer's Guide</a>
+          <a href="https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide" target="_blank" rel="noreferrer noopener">Buyer's Guide</a>
           <span class="breadcrumb-sep">&rsaquo;</span>
           <span>PolicyAI</span>
         </nav>
@@ -54,7 +54,7 @@
           <div class="history-list" id="historyList"></div>
         </section>
 
-        <button class="settings-button" type="button">
+        <button class="settings-button" type="button" disabled>
           <span class="gear-icon" aria-hidden="true"></span>
           <span>Settings</span>
         </button>
@@ -89,8 +89,8 @@
         <footer class="panel-footer">
           <span>AI responses are for informational purposes. Verify with official sources.</span>
           <div class="footer-links">
-            <a href="#">Terms and conditions</a>
-            <a href="#">Privacy Policy</a>
+            <span class="footer-text is-disabled" aria-disabled="true">Terms and conditions</span>
+            <span class="footer-text is-disabled" aria-disabled="true">Privacy Policy</span>
           </div>
         </footer>
       </main>

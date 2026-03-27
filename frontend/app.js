@@ -2,8 +2,11 @@
   const state = {
     chats: [createNewChat()],
     currentChatId: "chat-new",
-    isLoading: false
+    isLoading: false,
+    nextChatSequence: 1
   };
+  const MAX_CONTEXT_MESSAGES = 8;
+  const MAX_CONTEXT_MESSAGE_CHARS = 1200;
 
   const elements = {
     hero: document.getElementById("heroState"),
@@ -38,6 +41,12 @@
 
   function trimTitle(text) {
     return text.length > 28 ? text.slice(0, 28).trimEnd() + "..." : text;
+  }
+
+  function nextChatId(firstQuestion) {
+    const nextSequence = state.nextChatSequence;
+    state.nextChatSequence += 1;
+    return "chat-" + nextSequence + "-" + slugify(firstQuestion || "policy-thread");
   }
 
   function normalizeLinks(citations) {
@@ -95,7 +104,7 @@
     }
 
     const nextChat = {
-      id: "chat-" + slugify(firstQuestion || "policy-thread"),
+      id: nextChatId(firstQuestion),
       title: trimTitle(firstQuestion || "Policy Question"),
       messages: []
     };
@@ -198,8 +207,6 @@
           "</div>",
           '<div class="card-actions">',
           '<a class="icon-button" href="' + escapeAttribute(message.sourceLinks[0].url) + '" target="_blank" rel="noreferrer noopener" aria-label="Open source"><span class="icon-open"></span></a>',
-          '<button class="icon-button" type="button" aria-label="Helpful"><span class="icon-thumb-up"></span></button>',
-          '<button class="icon-button" type="button" aria-label="Not helpful"><span class="icon-thumb-down"></span></button>',
           "</div>",
           "</footer>"
         ].join("");
@@ -249,6 +256,29 @@
     });
   }
 
+  function serializeConversation(chat) {
+    return chat.messages
+      .filter(function (message) {
+        return !message.pending && !message.isError;
+      })
+      .map(function (message) {
+        if (message.role === "user") {
+          return {
+            role: "user",
+            content: String(message.text || "").slice(0, MAX_CONTEXT_MESSAGE_CHARS)
+          };
+        }
+        return {
+          role: "assistant",
+          content: (message.paragraphs || []).join("\n\n").slice(0, MAX_CONTEXT_MESSAGE_CHARS)
+        };
+      })
+      .filter(function (message) {
+        return message.content.trim().length > 0;
+      })
+      .slice(-MAX_CONTEXT_MESSAGES);
+  }
+
   async function submitQuestion(question) {
     const cleanQuestion = String(question || "").trim();
     if (!cleanQuestion || state.isLoading) {
@@ -270,7 +300,10 @@
           "Content-Type": "application/json",
           Accept: "application/json"
         },
-        body: JSON.stringify({ question: cleanQuestion })
+        body: JSON.stringify({
+          question: cleanQuestion,
+          messages: serializeConversation(chat)
+        })
       });
       const payload = await response.json();
       removePendingAssistant(chat);
