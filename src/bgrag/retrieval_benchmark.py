@@ -39,6 +39,11 @@ class RetrievalBenchmarkCaseResult:
     query_planning_seconds: float
     query_embedding_seconds: float
     retrieval_seconds: float
+    lexical_search_seconds: float
+    vector_search_seconds: float
+    candidate_fusion_seconds: float
+    rerank_seconds: float
+    packing_seconds: float
     total_case_seconds: float
     candidate_primary_url_hit: bool
     packed_primary_url_hit: bool
@@ -113,6 +118,17 @@ def _compute_overall_metrics(case_results: list[RetrievalBenchmarkCaseResult]) -
         "mean_query_planning_seconds": mean(result.query_planning_seconds for result in case_results) if case_results else 0.0,
         "mean_query_embedding_seconds": mean(result.query_embedding_seconds for result in case_results) if case_results else 0.0,
         "mean_retrieval_seconds": mean(result.retrieval_seconds for result in case_results) if case_results else 0.0,
+        "mean_lexical_search_seconds": (
+            mean(result.lexical_search_seconds for result in case_results) if case_results else 0.0
+        ),
+        "mean_vector_search_seconds": (
+            mean(result.vector_search_seconds for result in case_results) if case_results else 0.0
+        ),
+        "mean_candidate_fusion_seconds": (
+            mean(result.candidate_fusion_seconds for result in case_results) if case_results else 0.0
+        ),
+        "mean_rerank_seconds": mean(result.rerank_seconds for result in case_results) if case_results else 0.0,
+        "mean_packing_seconds": mean(result.packing_seconds for result in case_results) if case_results else 0.0,
         "mean_total_case_seconds": mean(result.total_case_seconds for result in case_results) if case_results else 0.0,
         "candidate_primary_url_hit_rate": (
             mean(1.0 if result.candidate_primary_url_hit else 0.0 for result in case_results) if case_results else 0.0
@@ -193,6 +209,8 @@ def run_retrieval_benchmark(
             candidate_k=profile.retrieval.candidate_k,
             retrieval_alpha=profile.retrieval.retrieval_alpha,
             rerank_top_n=profile.retrieval.rerank_top_n,
+            dense_retrieval_backend=profile.retrieval.dense_retrieval_backend,
+            es_knn_num_candidates=profile.retrieval.es_knn_num_candidates,
             enable_mmr_diversity=profile.retrieval.enable_mmr_diversity,
             mmr_lambda=profile.retrieval.mmr_lambda,
             enable_ranked_chunk_diversity=profile.retrieval.enable_ranked_chunk_diversity,
@@ -204,6 +222,7 @@ def run_retrieval_benchmark(
             query_embeddings=query_embeddings,
             query_fusion_rrf_k=profile.retrieval.query_fusion_rrf_k,
             per_query_candidate_k=profile.retrieval.per_query_candidate_k,
+            enable_parallel_query_branches=profile.retrieval.enable_parallel_query_branches,
             enable_page_intro_expansion=profile.retrieval.enable_page_intro_expansion,
             page_intro_candidate_k=profile.retrieval.page_intro_candidate_k,
             page_intro_max_order=profile.retrieval.page_intro_max_order,
@@ -239,6 +258,11 @@ def run_retrieval_benchmark(
                 query_planning_seconds=after_plan - case_start,
                 query_embedding_seconds=after_embed - after_plan,
                 retrieval_seconds=after_retrieve - after_embed,
+                lexical_search_seconds=evidence.timings.get("lexical_search_seconds", 0.0),
+                vector_search_seconds=evidence.timings.get("vector_search_seconds", 0.0),
+                candidate_fusion_seconds=evidence.timings.get("candidate_fusion_seconds", 0.0),
+                rerank_seconds=evidence.timings.get("rerank_seconds", 0.0),
+                packing_seconds=evidence.timings.get("packing_seconds", 0.0),
                 total_case_seconds=after_retrieve - case_start,
                 candidate_primary_url_hit=candidate_metrics.primary_url_hit,
                 packed_primary_url_hit=packed_metrics.primary_url_hit,

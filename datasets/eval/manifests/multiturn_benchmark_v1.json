@@ -1,0 +1,96 @@
+{
+  "name": "multiturn_benchmark_v1",
+  "version": 1,
+  "description": "Authored short multi-turn benchmark for follow-up resolution, comparison carryover, and compact conversational continuity.",
+  "notes": [
+    "This benchmark is product-facing rather than judge-graded.",
+    "Use it to inspect whether the system preserves comparison axes, referenced entities, and branch context across turns.",
+    "This manifest does not encode automatic pass or fail rules."
+  ],
+  "cases": [
+    {
+      "id": "MT_001",
+      "question": "What about under each one, when is Canada legally bound?",
+      "description": "Two-turn comparison follow-up that should preserve standing-offer versus supply-arrangement context.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the actual contractual difference between a standing offer and a supply arrangement?"
+        },
+        {
+          "role": "assistant",
+          "content": "A standing offer is not itself a contract, while a supply arrangement is also not a contract but a framework for future solicitations."
+        },
+        {
+          "role": "user",
+          "content": "What about under each one, when is Canada legally bound?"
+        }
+      ],
+      "tags": ["multi_turn", "comparison", "method_of_supply"],
+      "quality_focus": ["follow_up_resolution", "comparison_axis_carryover"]
+    },
+    {
+      "id": "MT_002",
+      "question": "What if it came through CPC Connect instead?",
+      "description": "Two-turn workflow follow-up that should preserve the delayed-offer context and answer the CPC Connect branch.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?"
+        },
+        {
+          "role": "assistant",
+          "content": "You need acceptable proof of timely receipt or delayed-offer evidence. Otherwise the late offer is returned or rejected."
+        },
+        {
+          "role": "user",
+          "content": "What if it came through CPC Connect instead?"
+        }
+      ],
+      "tags": ["multi_turn", "workflow", "late_offer"],
+      "quality_focus": ["follow_up_resolution", "branch_resolution"]
+    },
+    {
+      "id": "MT_003",
+      "question": "And which part actually tells me that?",
+      "description": "Three-turn source-authority follow-up that should preserve the current topic and answer as a navigation/source question rather than restarting retrieval broadly.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The Buy Canadian policy page sounds stricter than the Buyer's Guide. Can I just rely on the policy page and skip the Buyer's Guide reciprocal procurement workflow?"
+        },
+        {
+          "role": "assistant",
+          "content": "No. The policy page and the Buyer's Guide workflow are doing different jobs, and the Buyer's Guide still governs the reciprocal procurement workflow."
+        },
+        {
+          "role": "user",
+          "content": "And which part actually tells me that?"
+        }
+      ],
+      "tags": ["multi_turn", "source_authority", "workflow"],
+      "quality_focus": ["entity_carryover", "source_location_resolution"]
+    },
+    {
+      "id": "MT_004",
+      "question": "Does that change if the work has security requirements?",
+      "description": "Three-turn follow-up that should preserve the method-of-supply comparison and add the security branch without dropping the original context.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "When should I use a standing offer instead of a supply arrangement?"
+        },
+        {
+          "role": "assistant",
+          "content": "A standing offer fits repeated needs for well-defined goods or services with preset pricing, while a supply arrangement is used when future solicitations will still be needed among a pool of suppliers."
+        },
+        {
+          "role": "user",
+          "content": "Does that change if the work has security requirements?"
+        }
+      ],
+      "tags": ["multi_turn", "comparison", "security"],
+      "quality_focus": ["comparison_axis_carryover", "branch_resolution"]
+    }
+  ]
+}

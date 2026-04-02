@@ -121,10 +121,10 @@ def run_build_index(
     namespace = index_namespace or derive_index_namespace(settings, profile_name)
     elastic = build_es_client(settings)
     require_es_available(elastic, settings.elastic_url)
-    index_chunks(elastic, chunks, namespace=namespace)
     embedder = CohereEmbedder(settings)
     vectors = embedder.embed_texts([chunk.text for chunk in chunks], input_type="search_document")
     vector_map = {chunk.chunk_id: vector for chunk, vector in zip(chunks, vectors)}
+    index_chunks(elastic, chunks, namespace=namespace, embeddings=vector_map)
     write_embedding_store(index_embeddings_path(settings, namespace), vector_map)
     manifest = build_index_manifest(settings, profile_name, namespace=namespace, chunk_count=len(chunks))
     write_index_manifest(settings, namespace, manifest)
@@ -193,6 +193,8 @@ def build_answer_callback(
                 candidate_k=profile.retrieval.candidate_k,
                 retrieval_alpha=profile.retrieval.retrieval_alpha,
                 rerank_top_n=profile.retrieval.rerank_top_n,
+                dense_retrieval_backend=profile.retrieval.dense_retrieval_backend,
+                es_knn_num_candidates=profile.retrieval.es_knn_num_candidates,
                 enable_mmr_diversity=profile.retrieval.enable_mmr_diversity,
                 mmr_lambda=profile.retrieval.mmr_lambda,
                 enable_ranked_chunk_diversity=profile.retrieval.enable_ranked_chunk_diversity,
@@ -204,6 +206,7 @@ def build_answer_callback(
                 query_embeddings=query_embeddings,
                 query_fusion_rrf_k=profile.retrieval.query_fusion_rrf_k,
                 per_query_candidate_k=profile.retrieval.per_query_candidate_k,
+                enable_parallel_query_branches=profile.retrieval.enable_parallel_query_branches,
                 enable_page_intro_expansion=profile.retrieval.enable_page_intro_expansion,
                 page_intro_candidate_k=profile.retrieval.page_intro_candidate_k,
                 page_intro_max_order=profile.retrieval.page_intro_max_order,
@@ -266,6 +269,8 @@ def build_answer_callback(
                 "total_answer_path_seconds": after_answer - start,
             }
         )
+        if result.evidence_bundle is not None:
+            result.timings.update(result.evidence_bundle.timings)
         return result
 
     return answer_case

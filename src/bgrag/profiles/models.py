@@ -8,10 +8,12 @@ from pydantic import BaseModel, Field
 class RetrievalProfile(BaseModel):
     source_topology: str = "bg_primary_support_fallback"
     retrieval_mode: str = "hybrid_es_rerank"
+    dense_retrieval_backend: str = "local_embedding_store"
     top_k: int = 16
     candidate_k: int = 48
     retrieval_alpha: float = 0.7
     rerank_top_n: int = 16
+    es_knn_num_candidates: int = 120
     enable_mmr_diversity: bool = False
     mmr_lambda: float = 0.75
     enable_ranked_chunk_diversity: bool = False
@@ -23,6 +25,7 @@ class RetrievalProfile(BaseModel):
     max_expanded_queries: int = 2
     per_query_candidate_k: int = 24
     query_fusion_rrf_k: int = 60
+    enable_parallel_query_branches: bool = False
     enable_retrieval_mode_selection: bool = False
     retrieval_mode_selector_max_chunks: int = 10
     enable_page_intro_expansion: bool = False
@@ -69,6 +72,7 @@ class AnswerProfile(BaseModel):
     max_packed_docs: int = 24
     max_doc_chars: int = 1600
     model_name: str = "command-a-03-2025"
+    planner_model_name: str | None = None
 
 
 class EvalProfile(BaseModel):

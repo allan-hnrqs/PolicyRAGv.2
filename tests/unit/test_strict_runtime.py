@@ -54,6 +54,57 @@ def test_build_index_requires_cohere_key() -> None:
         run_build_index(settings, "baseline")
 
 
+def test_build_index_indexes_vectors_into_elasticsearch(monkeypatch: pytest.MonkeyPatch) -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    captured: dict[str, object] = {}
+    chunk = _chunk("bg1")
+
+    monkeypatch.setattr(
+        pipeline,
+        "load_profile",
+        lambda profile_name, settings: SimpleNamespace(retrieval=SimpleNamespace(source_topology="bg_primary_support_fallback")),
+    )
+    monkeypatch.setattr(pipeline, "read_chunks", lambda path: [chunk])
+    monkeypatch.setattr(pipeline, "build_es_client", lambda settings: object())
+    monkeypatch.setattr(pipeline, "require_es_available", lambda elastic, url: None)
+    monkeypatch.setattr(
+        pipeline,
+        "derive_index_namespace",
+        lambda settings, profile_name: "phase1_test_namespace",
+    )
+    monkeypatch.setattr(pipeline, "write_embedding_store", lambda path, vectors: captured.setdefault("vectors", vectors))
+    monkeypatch.setattr(pipeline, "write_index_manifest", lambda settings, namespace, manifest: None)
+    monkeypatch.setattr(pipeline, "set_active_index_namespace", lambda settings, namespace: None)
+
+    class _FakeEmbedder:
+        def __init__(self, settings: Settings) -> None:
+            del settings
+
+        def embed_texts(self, texts: list[str], input_type: str):
+            assert texts == [chunk.text]
+            assert input_type == "search_document"
+            return [[0.1, 0.2]]
+
+    monkeypatch.setattr(pipeline, "CohereEmbedder", _FakeEmbedder)
+
+    def _capture_index_chunks(elastic, chunks, namespace, *, embeddings=None):
+        captured["index_chunks"] = {
+            "elastic": elastic,
+            "chunks": chunks,
+            "namespace": namespace,
+            "embeddings": embeddings,
+        }
+
+    monkeypatch.setattr(pipeline, "index_chunks", _capture_index_chunks)
+
+    stats = run_build_index(settings, "baseline")
+
+    assert stats["embedding_count"] == 1
+    assert captured["vectors"] == {chunk.chunk_id: [0.1, 0.2]}
+    assert captured["index_chunks"]["namespace"] == "phase1_test_namespace"
+    assert captured["index_chunks"]["embeddings"] == {chunk.chunk_id: [0.1, 0.2]}
+
+
 def test_lexical_search_requires_elasticsearch() -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     retriever = HybridRetriever(settings, elastic=None)
@@ -117,6 +168,8 @@ def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pyt
             candidate_k=3,
             retrieval_alpha=0.7,
             rerank_top_n=0,
+            dense_retrieval_backend="local_embedding_store",
+            es_knn_num_candidates=12,
             enable_mmr_diversity=False,
             mmr_lambda=0.75,
             enable_ranked_chunk_diversity=False,
@@ -126,6 +179,7 @@ def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pyt
             seed_chunks_per_heading=2,
             query_fusion_rrf_k=60,
             per_query_candidate_k=24,
+            enable_parallel_query_branches=False,
             enable_retrieval_mode_selection=True,
             retrieval_mode_selector_max_chunks=5,
             enable_page_intro_expansion=False,
@@ -215,6 +269,72 @@ def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pyt
 
     assert retrieval_calls == [False, True]
     assert "retrieval_mode_selected:page_family_expansion" in result.evidence_bundle.notes
+
+
+def test_retrieve_can_use_elasticsearch_knn_backend_and_records_stage_timings() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+
+    class _VectorSpyRetriever(HybridRetriever):
+        def __init__(self, settings: Settings) -> None:
+            super().__init__(settings, elastic=object())
+            self.vector_calls = 0
+
+        def lexical_search(
+            self,
+            question: str,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            allowed_chunk_ids: set[str] | None = None,
+        ) -> dict[str, float]:
+            del question, chunks, top_k, allowed_chunk_ids
+            return {"bg1": 4.0}
+
+        def vector_search(
+            self,
+            query_embedding,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            num_candidates: int,
+            allowed_chunk_ids: set[str] | None = None,
+        ) -> dict[str, float]:
+            del query_embedding, chunks, top_k, num_candidates, allowed_chunk_ids
+            self.vector_calls += 1
+            return {"bg2": 0.92}
+
+        def rerank(self, question: str, candidates, top_n: int):
+            del question, top_n
+            return candidates
+
+    retriever = _VectorSpyRetriever(settings)
+    chunks = [_chunk("bg1"), _chunk("bg2"), _chunk("bg3")]
+    embeddings = {chunk.chunk_id: [1.0, 0.0] for chunk in chunks}
+
+    evidence = retriever.retrieve(
+        question="buyer question",
+        chunks=chunks,
+        query_embedding=[1.0, 0.0],
+        chunk_embeddings=embeddings,
+        source_topology="bg_primary_support_fallback",
+        top_k=2,
+        candidate_k=2,
+        retrieval_alpha=0.7,
+        rerank_top_n=0,
+        dense_retrieval_backend="elasticsearch_knn",
+        es_knn_num_candidates=16,
+    )
+
+    packed_ids = {chunk.chunk_id for chunk in evidence.packed_chunks}
+    assert retriever.vector_calls == 1
+    assert packed_ids == {"bg1", "bg2"}
+    assert set(evidence.timings) >= {
+        "lexical_search_seconds",
+        "vector_search_seconds",
+        "candidate_fusion_seconds",
+        "rerank_seconds",
+        "packing_seconds",
+    }
 
 
 def test_retrieve_uses_candidate_k_for_candidate_pool() -> None:

@@ -108,6 +108,7 @@ class EvidenceBundle(BaseModel):
     packed_chunks: list[ChunkRecord] = Field(default_factory=list)
     retrieval_queries: list[str] = Field(default_factory=list)
     notes: list[str] = Field(default_factory=list)
+    timings: dict[str, float] = Field(default_factory=dict)
 
 
 class AnswerCitation(BaseModel):

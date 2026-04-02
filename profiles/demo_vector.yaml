@@ -1,0 +1,39 @@
+name: demo_vector
+description: >
+  Demo-oriented retrieval profile using Elasticsearch native kNN vector search
+  with the lighter demo retrieval budgets and without query decomposition.
+collection_strategy: default_web_collect
+retrieval:
+  source_topology: bg_primary_support_fallback
+  retrieval_mode: hybrid_es_rerank
+  dense_retrieval_backend: elasticsearch_knn
+  top_k: 12
+  candidate_k: 36
+  retrieval_alpha: 0.7
+  rerank_top_n: 0
+  es_knn_num_candidates: 90
+  enable_mmr_diversity: false
+  mmr_lambda: 0.75
+  enable_query_decomposition: false
+  max_expanded_queries: 0
+  per_query_candidate_k: 18
+  query_fusion_rrf_k: 60
+  enable_parallel_query_branches: false
+chunking:
+  chunker: section_chunker
+  metadata_enrichers:
+    - authority_metadata
+    - lineage_metadata
+    - scope_tag_metadata
+    - source_topology_metadata
+  sliding_window_chars: 1200
+  sliding_window_overlap: 200
+answering:
+  strategy: inline_evidence_chat
+  max_packed_docs: 12
+  max_doc_chars: 1200
+  model_name: command-a-03-2025
+evaluation:
+  suite_name: parity_19
+  judge_model: command-a-03-2025
+  chat_temperature: 0.0

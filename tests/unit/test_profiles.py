@@ -104,6 +104,20 @@ def test_baseline_documents_profile_loads() -> None:
     assert profile.retrieval.enable_query_decomposition is True
 
 
+def test_baseline_vector_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.retrieval.rerank_top_n == 0
+
+
+def test_demo_vector_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("demo_vector", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.retrieval.enable_query_decomposition is False
+
+
 def test_hierarchical_context_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("hierarchical_context_expansion", settings)
