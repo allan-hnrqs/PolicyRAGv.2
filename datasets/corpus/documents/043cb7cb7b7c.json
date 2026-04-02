@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:41.089125Z",
-  "content_hash": "fd5c2441e14edbbc09e7521919dbc81926ec04f04e706f46608d30616a41401e",
-  "word_count": 1272,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "fd3fb310aef6cd6a4299c9c9edaec08c47f48268481f584ef1b20b79c148157c",
+  "word_count": 636,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,24 +618,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Audit",
+      "block_type": "heading",
+      "heading": "Audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit"
+        "Audit"
       ],
-      "text": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors. General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that: the Work has been performed and the price charged for the Work are in accordance with the contract terms whether best value has been achieved for Canada There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required. Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents. This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC. Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable. The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price. Contracts containing cost-reimbursable elements must contain an appropriate audit clause. The cost reimbursable bases of payment are: cost reimbursable with fixed time rate cost reimbursable with incentive fee cost reimbursable with fixed fee cost reimbursable with fee based on actual costs cost reimbursable with no fee Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary. Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only). Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits). Price proposal certifications are applicable to: non-competitive proposals single responsive offers from competitive tenders amendments to competitively awarded contracts Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
+      "text": "Audit",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit"
       ],
-      "text": "Audit",
+      "text": "The provision for audit is an integral part of the procurement planning process.",
       "order": 1,
       "metadata": {}
     },
@@ -644,48 +643,45 @@
       "block_type": "paragraph",
       "heading": "Audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit"
       ],
-      "text": "The provision for audit is an integral part of the procurement planning process.",
+      "text": "This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Audit",
+      "block_type": "heading",
+      "heading": "General audit clause",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
-        "Audit"
+        "Audit",
+        "General audit clause"
       ],
-      "text": "This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.",
+      "text": "General audit clause",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "General audit clause",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "General audit clause"
       ],
-      "text": "General audit clause",
+      "text": "You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "General audit clause",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "General audit clause"
       ],
-      "text": "You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:",
+      "text": "the Work has been performed and the price charged for the Work are in accordance with the contract terms",
       "order": 5,
       "metadata": {}
     },
@@ -694,50 +690,46 @@
       "block_type": "list_item",
       "heading": "General audit clause",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "General audit clause"
       ],
-      "text": "the Work has been performed and the price charged for the Work are in accordance with the contract terms",
+      "text": "whether best value has been achieved for Canada",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "General audit clause",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "General audit clause"
       ],
-      "text": "whether best value has been achieved for Canada",
+      "text": "There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "General audit clause",
+      "block_type": "heading",
+      "heading": "Price certification clauses and discretionary audits",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
-        "General audit clause"
+        "Price certification clauses and discretionary audits"
       ],
-      "text": "There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.",
+      "text": "Price certification clauses and discretionary audits",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price certification clauses and discretionary audits",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification clauses and discretionary audits"
       ],
-      "text": "Price certification clauses and discretionary audits",
+      "text": "All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.",
       "order": 9,
       "metadata": {}
     },
@@ -746,37 +738,34 @@
       "block_type": "paragraph",
       "heading": "Price certification clauses and discretionary audits",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification clauses and discretionary audits"
       ],
-      "text": "All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.",
+      "text": "This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Price certification clauses and discretionary audits",
+      "block_type": "heading",
+      "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
-        "Price certification clauses and discretionary audits"
+        "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.",
+      "text": "Cost reimbursable contracts - certification and audit",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "Cost reimbursable contracts - certification and audit",
+      "text": "In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.",
       "order": 12,
       "metadata": {}
     },
@@ -785,11 +774,10 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.",
+      "text": "The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.",
       "order": 13,
       "metadata": {}
     },
@@ -798,11 +786,10 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.",
+      "text": "Contracts containing cost-reimbursable elements must contain an appropriate audit clause.",
       "order": 14,
       "metadata": {}
     },
@@ -811,24 +798,22 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "Contracts containing cost-reimbursable elements must contain an appropriate audit clause.",
+      "text": "The cost reimbursable bases of payment are:",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "The cost reimbursable bases of payment are:",
+      "text": "cost reimbursable with fixed time rate",
       "order": 16,
       "metadata": {}
     },
@@ -837,11 +822,10 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "cost reimbursable with fixed time rate",
+      "text": "cost reimbursable with incentive fee",
       "order": 17,
       "metadata": {}
     },
@@ -850,11 +834,10 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "cost reimbursable with incentive fee",
+      "text": "cost reimbursable with fixed fee",
       "order": 18,
       "metadata": {}
     },
@@ -863,11 +846,10 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "cost reimbursable with fixed fee",
+      "text": "cost reimbursable with fee based on actual costs",
       "order": 19,
       "metadata": {}
     },
@@ -876,50 +858,46 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "cost reimbursable with fee based on actual costs",
+      "text": "cost reimbursable with no fee",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable contracts - certification and audit",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Cost reimbursable contracts - certification and audit"
       ],
-      "text": "cost reimbursable with no fee",
+      "text": "Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Cost reimbursable contracts - certification and audit",
+      "block_type": "heading",
+      "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
-        "Cost reimbursable contracts - certification and audit"
+        "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.",
+      "text": "Price certification and audits of contracts with foreign contractors",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "Price certification and audits of contracts with foreign contractors",
+      "text": "If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).",
       "order": 23,
       "metadata": {}
     },
@@ -928,11 +906,10 @@
       "block_type": "paragraph",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).",
+      "text": "Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).",
       "order": 24,
       "metadata": {}
     },
@@ -941,24 +918,22 @@
       "block_type": "paragraph",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).",
+      "text": "Price proposal certifications are applicable to:",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "Price proposal certifications are applicable to:",
+      "text": "non-competitive proposals",
       "order": 26,
       "metadata": {}
     },
@@ -967,11 +942,10 @@
       "block_type": "list_item",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "non-competitive proposals",
+      "text": "single responsive offers from competitive tenders",
       "order": 27,
       "metadata": {}
     },
@@ -980,43 +954,28 @@
       "block_type": "list_item",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
-      "text": "single responsive offers from competitive tenders",
+      "text": "amendments to competitively awarded contracts",
       "order": 28,
       "metadata": {}
     },
     {
       "block_id": "block_0029",
-      "block_type": "list_item",
-      "heading": "Price certification and audits of contracts with foreign contractors",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
-        "Audit",
-        "Price certification and audits of contracts with foreign contractors"
-      ],
-      "text": "amendments to competitively awarded contracts",
-      "order": 29,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0030",
       "block_type": "paragraph",
       "heading": "Price certification and audits of contracts with foreign contractors",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Audit",
         "Audit",
         "Price certification and audits of contracts with foreign contractors"
       ],
       "text": "Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
-      "order": 30,
+      "order": 29,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors. General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that: the Work has been performed and the price charged for the Work are in accordance with the contract terms whether best value has been achieved for Canada There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required. Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents. This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC. Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable. The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price. Contracts containing cost-reimbursable elements must contain an appropriate audit clause. The cost reimbursable bases of payment are: cost reimbursable with fixed time rate cost reimbursable with incentive fee cost reimbursable with fixed fee cost reimbursable with fee based on actual costs cost reimbursable with no fee Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary. Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only). Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits). Price proposal certifications are applicable to: non-competitive proposals single responsive offers from competitive tenders amendments to competitively awarded contracts Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.\n\nAudit\n\nThe provision for audit is an integral part of the procurement planning process.\n\nThis section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.\n\nGeneral audit clause\n\nYou must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:\n\nthe Work has been performed and the price charged for the Work are in accordance with the contract terms\n\nwhether best value has been achieved for Canada\n\nThere are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.\n\nPrice certification clauses and discretionary audits\n\nAll non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.\n\nThis applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.\n\nCost reimbursable contracts - certification and audit\n\nIn the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.\n\nThe purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.\n\nContracts containing cost-reimbursable elements must contain an appropriate audit clause.\n\nThe cost reimbursable bases of payment are:\n\ncost reimbursable with fixed time rate\n\ncost reimbursable with incentive fee\n\ncost reimbursable with fixed fee\n\ncost reimbursable with fee based on actual costs\n\ncost reimbursable with no fee\n\nUpon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.\n\nPrice certification and audits of contracts with foreign contractors\n\nIf a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).\n\nPrice certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).\n\nPrice proposal certifications are applicable to:\n\nnon-competitive proposals\n\nsingle responsive offers from competitive tenders\n\namendments to competitively awarded contracts\n\nPrice certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
-  "markdown_text": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors. General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that: the Work has been performed and the price charged for the Work are in accordance with the contract terms whether best value has been achieved for Canada There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required. Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents. This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC. Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable. The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price. Contracts containing cost-reimbursable elements must contain an appropriate audit clause. The cost reimbursable bases of payment are: cost reimbursable with fixed time rate cost reimbursable with incentive fee cost reimbursable with fixed fee cost reimbursable with fee based on actual costs cost reimbursable with no fee Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary. Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only). Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits). Price proposal certifications are applicable to: non-competitive proposals single responsive offers from competitive tenders amendments to competitively awarded contracts Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.\n\nAudit\n\nThe provision for audit is an integral part of the procurement planning process.\n\nThis section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.\n\nGeneral audit clause\n\nYou must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:\n\nthe Work has been performed and the price charged for the Work are in accordance with the contract terms\n\nwhether best value has been achieved for Canada\n\nThere are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.\n\nPrice certification clauses and discretionary audits\n\nAll non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.\n\nThis applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.\n\nCost reimbursable contracts - certification and audit\n\nIn the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.\n\nThe purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.\n\nContracts containing cost-reimbursable elements must contain an appropriate audit clause.\n\nThe cost reimbursable bases of payment are:\n\ncost reimbursable with fixed time rate\n\ncost reimbursable with incentive fee\n\ncost reimbursable with fixed fee\n\ncost reimbursable with fee based on actual costs\n\ncost reimbursable with no fee\n\nUpon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.\n\nPrice certification and audits of contracts with foreign contractors\n\nIf a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).\n\nPrice certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).\n\nPrice proposal certifications are applicable to:\n\nnon-competitive proposals\n\nsingle responsive offers from competitive tenders\n\namendments to competitively awarded contracts\n\nPrice certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
+  "raw_text": "Audit\n\nThe provision for audit is an integral part of the procurement planning process.\n\nThis section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.\n\nGeneral audit clause\n\nYou must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:\n\nthe Work has been performed and the price charged for the Work are in accordance with the contract terms\n\nwhether best value has been achieved for Canada\n\nThere are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.\n\nPrice certification clauses and discretionary audits\n\nAll non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.\n\nThis applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.\n\nCost reimbursable contracts - certification and audit\n\nIn the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.\n\nThe purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.\n\nContracts containing cost-reimbursable elements must contain an appropriate audit clause.\n\nThe cost reimbursable bases of payment are:\n\ncost reimbursable with fixed time rate\n\ncost reimbursable with incentive fee\n\ncost reimbursable with fixed fee\n\ncost reimbursable with fee based on actual costs\n\ncost reimbursable with no fee\n\nUpon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.\n\nPrice certification and audits of contracts with foreign contractors\n\nIf a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).\n\nPrice certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).\n\nPrice proposal certifications are applicable to:\n\nnon-competitive proposals\n\nsingle responsive offers from competitive tenders\n\namendments to competitively awarded contracts\n\nPrice certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
+  "markdown_text": "Audit\n\nThe provision for audit is an integral part of the procurement planning process.\n\nThis section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.\n\nGeneral audit clause\n\nYou must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:\n\nthe Work has been performed and the price charged for the Work are in accordance with the contract terms\n\nwhether best value has been achieved for Canada\n\nThere are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.\n\nPrice certification clauses and discretionary audits\n\nAll non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.\n\nThis applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.\n\nCost reimbursable contracts - certification and audit\n\nIn the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.\n\nThe purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.\n\nContracts containing cost-reimbursable elements must contain an appropriate audit clause.\n\nThe cost reimbursable bases of payment are:\n\ncost reimbursable with fixed time rate\n\ncost reimbursable with incentive fee\n\ncost reimbursable with fixed fee\n\ncost reimbursable with fee based on actual costs\n\ncost reimbursable with no fee\n\nUpon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.\n\nPrice certification and audits of contracts with foreign contractors\n\nIf a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country’s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).\n\nPrice certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).\n\nPrice proposal certifications are applicable to:\n\nnon-competitive proposals\n\nsingle responsive offers from competitive tenders\n\namendments to competitively awarded contracts\n\nPrice certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
   "provenance_paths": {}
 }

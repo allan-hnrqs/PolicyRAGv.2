@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:44.747619Z",
-  "content_hash": "08668fb1c943f9a15cc629a693833aa181f52e0f27295509dcd517b6fdd312a3",
-  "word_count": 2993,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "36824a88ad436988fcf6ee8e3e43ba02c27807b686da32dd39bb134eeff6c0b7",
+  "word_count": 1526,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,62 +617,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Exchange rates",
+      "block_type": "heading",
+      "heading": "Exchange rates",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates"
+        "Exchange rates"
       ],
-      "text": "Exchange rates The exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract. Evaluating exchange rate provisions When determining if an exchange rate fluctuation provision will be included, you may consider such factors as: the likelihood that currency fluctuations will reduce the number of offerors the duration and value of the contract previous concerns of businesses potential impact on prices, and the willingness and/or ability of the client to accept such provision Excluding exchange rate provisions An exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract). Implementing exchange rate provisions in solicitations The solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET). The solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes. Buyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date. Buyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency. Documenting, planning and communicating Exchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs. The client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made. The client project authority may need to inform the department financial authority of a potential impact to the commitment. Approval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur. Applying exchange rate provisions To have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount. This will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. When offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses. Whenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive. Example of exchange rate adjustment calculation The exchange rate adjustment amount will be calculated by the successful offeror using the following formula: Exchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0 Where: FCC : Foreign Currency Component (per unit) Quantity: Quantity of units i 0 : Initial exchange rate ( CAN $ per unit of foreign currency) i 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency) This calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice. For example: In a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs. The solicitation specified: Initial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $. Adjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $. The solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $. Formula Exchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0 Calculation = $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $ = $1,500 Result The total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice. Sample invoice including exchange rate adjustment Description of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500 If the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements. The exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value. The choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment. The client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions. You must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. You must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\" Note: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease). Invoice requirements The offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract. This must be shown even when there is no adjustment claim due to the change in the rate being below the threshold. The total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
+      "text": "Exchange rates",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Exchange rates",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates"
       ],
-      "text": "Exchange rates",
+      "text": "The exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Exchange rates",
+      "block_type": "heading",
+      "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates"
+        "Exchange rates",
+        "Evaluating exchange rate provisions"
       ],
-      "text": "The exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.",
+      "text": "Evaluating exchange rate provisions",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "Evaluating exchange rate provisions",
+      "text": "When determining if an exchange rate fluctuation provision will be included, you may consider such factors as:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "When determining if an exchange rate fluctuation provision will be included, you may consider such factors as:",
+      "text": "the likelihood that currency fluctuations will reduce the number of offerors",
       "order": 4,
       "metadata": {}
     },
@@ -681,11 +678,10 @@
       "block_type": "list_item",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "the likelihood that currency fluctuations will reduce the number of offerors",
+      "text": "the duration and value of the contract",
       "order": 5,
       "metadata": {}
     },
@@ -694,11 +690,10 @@
       "block_type": "list_item",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "the duration and value of the contract",
+      "text": "previous concerns of businesses",
       "order": 6,
       "metadata": {}
     },
@@ -707,11 +702,10 @@
       "block_type": "list_item",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "previous concerns of businesses",
+      "text": "potential impact on prices, and",
       "order": 7,
       "metadata": {}
     },
@@ -720,63 +714,58 @@
       "block_type": "list_item",
       "heading": "Evaluating exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Evaluating exchange rate provisions"
       ],
-      "text": "potential impact on prices, and",
+      "text": "the willingness and/or ability of the client to accept such provision",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
-      "heading": "Evaluating exchange rate provisions",
+      "block_type": "heading",
+      "heading": "Excluding exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Evaluating exchange rate provisions"
+        "Excluding exchange rate provisions"
       ],
-      "text": "the willingness and/or ability of the client to accept such provision",
+      "text": "Excluding exchange rate provisions",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Excluding exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Excluding exchange rate provisions"
       ],
-      "text": "Excluding exchange rate provisions",
+      "text": "An exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Excluding exchange rate provisions",
+      "block_type": "heading",
+      "heading": "Implementing exchange rate provisions in solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Excluding exchange rate provisions"
+        "Implementing exchange rate provisions in solicitations"
       ],
-      "text": "An exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).",
+      "text": "Implementing exchange rate provisions in solicitations",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Implementing exchange rate provisions in solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Implementing exchange rate provisions in solicitations"
       ],
-      "text": "Implementing exchange rate provisions in solicitations",
+      "text": "The solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).",
       "order": 12,
       "metadata": {}
     },
@@ -785,11 +774,10 @@
       "block_type": "paragraph",
       "heading": "Implementing exchange rate provisions in solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Implementing exchange rate provisions in solicitations"
       ],
-      "text": "The solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).",
+      "text": "The solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.",
       "order": 13,
       "metadata": {}
     },
@@ -798,11 +786,10 @@
       "block_type": "paragraph",
       "heading": "Implementing exchange rate provisions in solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Implementing exchange rate provisions in solicitations"
       ],
-      "text": "The solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.",
+      "text": "Buyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.",
       "order": 14,
       "metadata": {}
     },
@@ -811,37 +798,34 @@
       "block_type": "paragraph",
       "heading": "Implementing exchange rate provisions in solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Implementing exchange rate provisions in solicitations"
       ],
-      "text": "Buyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.",
+      "text": "Buyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Implementing exchange rate provisions in solicitations",
+      "block_type": "heading",
+      "heading": "Documenting, planning and communicating",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Implementing exchange rate provisions in solicitations"
+        "Documenting, planning and communicating"
       ],
-      "text": "Buyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.",
+      "text": "Documenting, planning and communicating",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Documenting, planning and communicating",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Documenting, planning and communicating"
       ],
-      "text": "Documenting, planning and communicating",
+      "text": "Exchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.",
       "order": 17,
       "metadata": {}
     },
@@ -850,11 +834,10 @@
       "block_type": "paragraph",
       "heading": "Documenting, planning and communicating",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Documenting, planning and communicating"
       ],
-      "text": "Exchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.",
+      "text": "The client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.",
       "order": 18,
       "metadata": {}
     },
@@ -863,11 +846,10 @@
       "block_type": "paragraph",
       "heading": "Documenting, planning and communicating",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Documenting, planning and communicating"
       ],
-      "text": "The client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.",
+      "text": "The client project authority may need to inform the department financial authority of a potential impact to the commitment.",
       "order": 19,
       "metadata": {}
     },
@@ -876,37 +858,34 @@
       "block_type": "paragraph",
       "heading": "Documenting, planning and communicating",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Documenting, planning and communicating"
       ],
-      "text": "The client project authority may need to inform the department financial authority of a potential impact to the commitment.",
+      "text": "Approval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Documenting, planning and communicating",
+      "block_type": "heading",
+      "heading": "Applying exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Documenting, planning and communicating"
+        "Applying exchange rate provisions"
       ],
-      "text": "Approval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.",
+      "text": "Applying exchange rate provisions",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Applying exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions"
       ],
-      "text": "Applying exchange rate provisions",
+      "text": "To have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.",
       "order": 22,
       "metadata": {}
     },
@@ -915,11 +894,10 @@
       "block_type": "paragraph",
       "heading": "Applying exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions"
       ],
-      "text": "To have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.",
+      "text": "This will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.",
       "order": 23,
       "metadata": {}
     },
@@ -928,11 +906,10 @@
       "block_type": "paragraph",
       "heading": "Applying exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions"
       ],
-      "text": "This will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.",
+      "text": "When offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.",
       "order": 24,
       "metadata": {}
     },
@@ -941,80 +918,75 @@
       "block_type": "paragraph",
       "heading": "Applying exchange rate provisions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions"
       ],
-      "text": "When offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.",
+      "text": "Whenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
-      "heading": "Applying exchange rate provisions",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions"
-      ],
-      "text": "Whenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.",
-      "order": 26,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0027",
       "block_type": "heading",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "Example of exchange rate adjustment calculation",
-      "order": 27,
+      "order": 26,
       "metadata": {}
     },
     {
-      "block_id": "block_0028",
+      "block_id": "block_0027",
       "block_type": "paragraph",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "The exchange rate adjustment amount will be calculated by the successful offeror using the following formula:",
-      "order": 28,
+      "order": 27,
       "metadata": {}
     },
     {
-      "block_id": "block_0029",
+      "block_id": "block_0028",
       "block_type": "list_item",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "Exchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0",
-      "order": 29,
+      "order": 28,
       "metadata": {}
     },
     {
-      "block_id": "block_0030",
+      "block_id": "block_0029",
       "block_type": "paragraph",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "Where:",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "list_item",
+      "heading": "Example of exchange rate adjustment calculation",
+      "heading_path": [
+        "Exchange rates",
+        "Applying exchange rate provisions",
+        "Example of exchange rate adjustment calculation"
+      ],
+      "text": "FCC : Foreign Currency Component (per unit)",
       "order": 30,
       "metadata": {}
     },
@@ -1023,12 +995,11 @@
       "block_type": "list_item",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
-      "text": "FCC : Foreign Currency Component (per unit)",
+      "text": "Quantity: Quantity of units",
       "order": 31,
       "metadata": {}
     },
@@ -1037,12 +1008,11 @@
       "block_type": "list_item",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
-      "text": "Quantity: Quantity of units",
+      "text": "i 0 : Initial exchange rate ( CAN $ per unit of foreign currency)",
       "order": 32,
       "metadata": {}
     },
@@ -1051,54 +1021,50 @@
       "block_type": "list_item",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Example of exchange rate adjustment calculation"
-      ],
-      "text": "i 0 : Initial exchange rate ( CAN $ per unit of foreign currency)",
-      "order": 33,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0034",
-      "block_type": "list_item",
-      "heading": "Example of exchange rate adjustment calculation",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "i 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency)",
-      "order": 34,
+      "order": 33,
       "metadata": {}
     },
     {
-      "block_id": "block_0035",
+      "block_id": "block_0034",
       "block_type": "paragraph",
       "heading": "Example of exchange rate adjustment calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Example of exchange rate adjustment calculation"
       ],
       "text": "This calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice.",
-      "order": 35,
+      "order": 34,
       "metadata": {}
     },
     {
-      "block_id": "block_0036",
+      "block_id": "block_0035",
       "block_type": "heading",
       "heading": "For example:",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "For example:"
       ],
       "text": "For example:",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "paragraph",
+      "heading": "For example:",
+      "heading_path": [
+        "Exchange rates",
+        "Applying exchange rate provisions",
+        "For example:"
+      ],
+      "text": "In a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.",
       "order": 36,
       "metadata": {}
     },
@@ -1107,26 +1073,24 @@
       "block_type": "paragraph",
       "heading": "For example:",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "For example:"
-      ],
-      "text": "In a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.",
-      "order": 37,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0038",
-      "block_type": "paragraph",
-      "heading": "For example:",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "For example:"
       ],
       "text": "The solicitation specified:",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "list_item",
+      "heading": "For example:",
+      "heading_path": [
+        "Exchange rates",
+        "Applying exchange rate provisions",
+        "For example:"
+      ],
+      "text": "Initial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.",
       "order": 38,
       "metadata": {}
     },
@@ -1135,82 +1099,76 @@
       "block_type": "list_item",
       "heading": "For example:",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "For example:"
-      ],
-      "text": "Initial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.",
-      "order": 39,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0040",
-      "block_type": "list_item",
-      "heading": "For example:",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "For example:"
       ],
       "text": "Adjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $.",
-      "order": 40,
+      "order": 39,
       "metadata": {}
     },
     {
-      "block_id": "block_0041",
+      "block_id": "block_0040",
       "block_type": "paragraph",
       "heading": "For example:",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "For example:"
       ],
       "text": "The solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $.",
-      "order": 41,
+      "order": 40,
       "metadata": {}
     },
     {
-      "block_id": "block_0042",
+      "block_id": "block_0041",
       "block_type": "heading",
       "heading": "Formula",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Formula"
       ],
       "text": "Formula",
-      "order": 42,
+      "order": 41,
       "metadata": {}
     },
     {
-      "block_id": "block_0043",
+      "block_id": "block_0042",
       "block_type": "paragraph",
       "heading": "Formula",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Formula"
       ],
       "text": "Exchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0",
-      "order": 43,
+      "order": 42,
       "metadata": {}
     },
     {
-      "block_id": "block_0044",
+      "block_id": "block_0043",
       "block_type": "heading",
       "heading": "Calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Calculation"
       ],
       "text": "Calculation",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "paragraph",
+      "heading": "Calculation",
+      "heading_path": [
+        "Exchange rates",
+        "Applying exchange rate provisions",
+        "Calculation"
+      ],
+      "text": "= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $",
       "order": 44,
       "metadata": {}
     },
@@ -1219,110 +1177,102 @@
       "block_type": "paragraph",
       "heading": "Calculation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Calculation"
-      ],
-      "text": "= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $",
-      "order": 45,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0046",
-      "block_type": "paragraph",
-      "heading": "Calculation",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Calculation"
       ],
       "text": "= $1,500",
-      "order": 46,
+      "order": 45,
       "metadata": {}
     },
     {
-      "block_id": "block_0047",
+      "block_id": "block_0046",
       "block_type": "heading",
       "heading": "Result",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Result"
       ],
       "text": "Result",
-      "order": 47,
+      "order": 46,
       "metadata": {}
     },
     {
-      "block_id": "block_0048",
+      "block_id": "block_0047",
       "block_type": "paragraph",
       "heading": "Result",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Result"
       ],
       "text": "The total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice.",
-      "order": 48,
+      "order": 47,
       "metadata": {}
     },
     {
-      "block_id": "block_0049",
+      "block_id": "block_0048",
       "block_type": "heading",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
       "text": "Sample invoice including exchange rate adjustment",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "table_row",
+      "heading": "Sample invoice including exchange rate adjustment",
+      "heading_path": [
+        "Exchange rates",
+        "Applying exchange rate provisions",
+        "Sample invoice including exchange rate adjustment"
+      ],
+      "text": "Description of unit: Description of unit | Quantity: Quantity | Unit price ( CAN $): Unit price ( CAN $) | Value ( CAN $): Value ( CAN $)",
       "order": 49,
       "metadata": {}
     },
     {
       "block_id": "block_0050",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Description of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500",
+      "text": "Description of unit: Regular chair | Quantity: 100 | Unit price ( CAN $): $200 | Value ( CAN $): $20,000",
       "order": 50,
       "metadata": {}
     },
     {
       "block_id": "block_0051",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Description of unit",
+      "text": "Description of unit: Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) | Quantity: 100 | Unit price ( CAN $): $15 | Value ( CAN $): $1,500",
       "order": 51,
       "metadata": {}
     },
     {
       "block_id": "block_0052",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Quantity",
+      "text": "Subtotal: | $21,500",
       "order": 52,
       "metadata": {}
     },
@@ -1331,12 +1281,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Unit price ( CAN $)",
+      "text": "If the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.",
       "order": 53,
       "metadata": {}
     },
@@ -1345,12 +1294,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Value ( CAN $)",
+      "text": "The exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.",
       "order": 54,
       "metadata": {}
     },
@@ -1359,12 +1307,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Regular chair",
+      "text": "The choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.",
       "order": 55,
       "metadata": {}
     },
@@ -1373,12 +1320,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "100",
+      "text": "The client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.",
       "order": 56,
       "metadata": {}
     },
@@ -1387,12 +1333,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "$200",
+      "text": "You must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.",
       "order": 57,
       "metadata": {}
     },
@@ -1401,12 +1346,11 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "$20,000",
+      "text": "You must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"",
       "order": 58,
       "metadata": {}
     },
@@ -1415,238 +1359,65 @@
       "block_type": "paragraph",
       "heading": "Sample invoice including exchange rate adjustment",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Applying exchange rate provisions",
         "Sample invoice including exchange rate adjustment"
       ],
-      "text": "Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1)",
+      "text": "Note: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).",
       "order": 59,
       "metadata": {}
     },
     {
       "block_id": "block_0060",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
+      "block_type": "heading",
+      "heading": "Invoice requirements",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
+        "Invoice requirements"
       ],
-      "text": "100",
+      "text": "Invoice requirements",
       "order": 60,
       "metadata": {}
     },
     {
       "block_id": "block_0061",
       "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
+      "heading": "Invoice requirements",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
+        "Invoice requirements"
       ],
-      "text": "$15",
+      "text": "The offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.",
       "order": 61,
       "metadata": {}
     },
     {
       "block_id": "block_0062",
       "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
+      "heading": "Invoice requirements",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
+        "Invoice requirements"
       ],
-      "text": "$1,500",
+      "text": "This must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.",
       "order": 62,
       "metadata": {}
     },
     {
       "block_id": "block_0063",
       "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "Subtotal:",
-      "order": 63,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0064",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "$21,500",
-      "order": 64,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0065",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "If the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.",
-      "order": 65,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0066",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "The exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.",
-      "order": 66,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0067",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "The choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.",
-      "order": 67,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0068",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "The client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.",
-      "order": 68,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0069",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "You must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.",
-      "order": 69,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0070",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "You must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"",
-      "order": 70,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0071",
-      "block_type": "paragraph",
-      "heading": "Sample invoice including exchange rate adjustment",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Applying exchange rate provisions",
-        "Sample invoice including exchange rate adjustment"
-      ],
-      "text": "Note: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).",
-      "order": 71,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0072",
-      "block_type": "heading",
       "heading": "Invoice requirements",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Invoice requirements"
-      ],
-      "text": "Invoice requirements",
-      "order": 72,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0073",
-      "block_type": "paragraph",
-      "heading": "Invoice requirements",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Invoice requirements"
-      ],
-      "text": "The offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.",
-      "order": 73,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0074",
-      "block_type": "paragraph",
-      "heading": "Invoice requirements",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
-        "Exchange rates",
-        "Invoice requirements"
-      ],
-      "text": "This must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.",
-      "order": 74,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0075",
-      "block_type": "paragraph",
-      "heading": "Invoice requirements",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Exchange rates",
         "Exchange rates",
         "Invoice requirements"
       ],
       "text": "The total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
-      "order": 75,
+      "order": 63,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Exchange rates The exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract. Evaluating exchange rate provisions When determining if an exchange rate fluctuation provision will be included, you may consider such factors as: the likelihood that currency fluctuations will reduce the number of offerors the duration and value of the contract previous concerns of businesses potential impact on prices, and the willingness and/or ability of the client to accept such provision Excluding exchange rate provisions An exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract). Implementing exchange rate provisions in solicitations The solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET). The solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes. Buyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date. Buyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency. Documenting, planning and communicating Exchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs. The client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made. The client project authority may need to inform the department financial authority of a potential impact to the commitment. Approval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur. Applying exchange rate provisions To have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount. This will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. When offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses. Whenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive. Example of exchange rate adjustment calculation The exchange rate adjustment amount will be calculated by the successful offeror using the following formula: Exchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0 Where: FCC : Foreign Currency Component (per unit) Quantity: Quantity of units i 0 : Initial exchange rate ( CAN $ per unit of foreign currency) i 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency) This calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice. For example: In a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs. The solicitation specified: Initial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $. Adjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $. The solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $. Formula Exchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0 Calculation = $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $ = $1,500 Result The total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice. Sample invoice including exchange rate adjustment Description of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500 If the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements. The exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value. The choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment. The client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions. You must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. You must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\" Note: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease). Invoice requirements The offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract. This must be shown even when there is no adjustment claim due to the change in the rate being below the threshold. The total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.\n\nExchange rates\n\nThe exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.\n\nEvaluating exchange rate provisions\n\nWhen determining if an exchange rate fluctuation provision will be included, you may consider such factors as:\n\nthe likelihood that currency fluctuations will reduce the number of offerors\n\nthe duration and value of the contract\n\nprevious concerns of businesses\n\npotential impact on prices, and\n\nthe willingness and/or ability of the client to accept such provision\n\nExcluding exchange rate provisions\n\nAn exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).\n\nImplementing exchange rate provisions in solicitations\n\nThe solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).\n\nThe solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.\n\nBuyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.\n\nBuyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.\n\nDocumenting, planning and communicating\n\nExchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.\n\nThe client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.\n\nThe client project authority may need to inform the department financial authority of a potential impact to the commitment.\n\nApproval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.\n\nApplying exchange rate provisions\n\nTo have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.\n\nThis will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nWhen offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.\n\nWhenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.\n\nExample of exchange rate adjustment calculation\n\nThe exchange rate adjustment amount will be calculated by the successful offeror using the following formula:\n\nExchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0\n\nWhere:\n\nFCC : Foreign Currency Component (per unit)\n\nQuantity: Quantity of units\n\ni 0 : Initial exchange rate ( CAN $ per unit of foreign currency)\n\ni 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency)\n\nThis calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice.\n\nFor example:\n\nIn a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.\n\nThe solicitation specified:\n\nInitial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.\n\nAdjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $.\n\nThe solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $.\n\nFormula\n\nExchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0\n\nCalculation\n\n= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $\n\n= $1,500\n\nResult\n\nThe total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice.\n\nSample invoice including exchange rate adjustment\n\nDescription of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500\n\nDescription of unit\n\nQuantity\n\nUnit price ( CAN $)\n\nValue ( CAN $)\n\nRegular chair\n\n100\n\n$200\n\n$20,000\n\nExchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1)\n\n100\n\n$15\n\n$1,500\n\nSubtotal:\n\n$21,500\n\nIf the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.\n\nThe exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.\n\nThe choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.\n\nThe client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.\n\nYou must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nYou must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"\n\nNote: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).\n\nInvoice requirements\n\nThe offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.\n\nThis must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.\n\nThe total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
-  "markdown_text": "Exchange rates The exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract. Evaluating exchange rate provisions When determining if an exchange rate fluctuation provision will be included, you may consider such factors as: the likelihood that currency fluctuations will reduce the number of offerors the duration and value of the contract previous concerns of businesses potential impact on prices, and the willingness and/or ability of the client to accept such provision Excluding exchange rate provisions An exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract). Implementing exchange rate provisions in solicitations The solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET). The solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes. Buyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date. Buyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency. Documenting, planning and communicating Exchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs. The client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made. The client project authority may need to inform the department financial authority of a potential impact to the commitment. Approval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur. Applying exchange rate provisions To have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount. This will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. When offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses. Whenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive. Example of exchange rate adjustment calculation The exchange rate adjustment amount will be calculated by the successful offeror using the following formula: Exchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0 Where: FCC : Foreign Currency Component (per unit) Quantity: Quantity of units i 0 : Initial exchange rate ( CAN $ per unit of foreign currency) i 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency) This calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice. For example: In a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs. The solicitation specified: Initial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $. Adjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $. The solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $. Formula Exchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0 Calculation = $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $ = $1,500 Result The total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice. Sample invoice including exchange rate adjustment Description of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500 If the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements. The exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value. The choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment. The client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions. You must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process. You must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\" Note: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease). Invoice requirements The offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract. This must be shown even when there is no adjustment claim due to the change in the rate being below the threshold. The total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.\n\nExchange rates\n\nThe exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.\n\nEvaluating exchange rate provisions\n\nWhen determining if an exchange rate fluctuation provision will be included, you may consider such factors as:\n\nthe likelihood that currency fluctuations will reduce the number of offerors\n\nthe duration and value of the contract\n\nprevious concerns of businesses\n\npotential impact on prices, and\n\nthe willingness and/or ability of the client to accept such provision\n\nExcluding exchange rate provisions\n\nAn exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).\n\nImplementing exchange rate provisions in solicitations\n\nThe solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).\n\nThe solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.\n\nBuyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.\n\nBuyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.\n\nDocumenting, planning and communicating\n\nExchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.\n\nThe client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.\n\nThe client project authority may need to inform the department financial authority of a potential impact to the commitment.\n\nApproval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.\n\nApplying exchange rate provisions\n\nTo have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.\n\nThis will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nWhen offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.\n\nWhenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.\n\nExample of exchange rate adjustment calculation\n\nThe exchange rate adjustment amount will be calculated by the successful offeror using the following formula:\n\nExchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0\n\nWhere:\n\nFCC : Foreign Currency Component (per unit)\n\nQuantity: Quantity of units\n\ni 0 : Initial exchange rate ( CAN $ per unit of foreign currency)\n\ni 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency)\n\nThis calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice.\n\nFor example:\n\nIn a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.\n\nThe solicitation specified:\n\nInitial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.\n\nAdjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $.\n\nThe solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $.\n\nFormula\n\nExchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0\n\nCalculation\n\n= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $\n\n= $1,500\n\nResult\n\nThe total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice.\n\nSample invoice including exchange rate adjustment\n\nDescription of unit Quantity Unit price ( CAN $) Value ( CAN $) Regular chair 100 $200 $20,000 Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) 100 $15 $1,500 Subtotal: $21,500\n\nDescription of unit\n\nQuantity\n\nUnit price ( CAN $)\n\nValue ( CAN $)\n\nRegular chair\n\n100\n\n$200\n\n$20,000\n\nExchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1)\n\n100\n\n$15\n\n$1,500\n\nSubtotal:\n\n$21,500\n\nIf the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.\n\nThe exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.\n\nThe choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.\n\nThe client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.\n\nYou must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nYou must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"\n\nNote: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).\n\nInvoice requirements\n\nThe offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.\n\nThis must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.\n\nThe total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
+  "raw_text": "Exchange rates\n\nThe exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.\n\nEvaluating exchange rate provisions\n\nWhen determining if an exchange rate fluctuation provision will be included, you may consider such factors as:\n\nthe likelihood that currency fluctuations will reduce the number of offerors\n\nthe duration and value of the contract\n\nprevious concerns of businesses\n\npotential impact on prices, and\n\nthe willingness and/or ability of the client to accept such provision\n\nExcluding exchange rate provisions\n\nAn exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).\n\nImplementing exchange rate provisions in solicitations\n\nThe solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).\n\nThe solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.\n\nBuyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.\n\nBuyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.\n\nDocumenting, planning and communicating\n\nExchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.\n\nThe client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.\n\nThe client project authority may need to inform the department financial authority of a potential impact to the commitment.\n\nApproval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.\n\nApplying exchange rate provisions\n\nTo have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.\n\nThis will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nWhen offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.\n\nWhenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.\n\nExample of exchange rate adjustment calculation\n\nThe exchange rate adjustment amount will be calculated by the successful offeror using the following formula:\n\nExchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0\n\nWhere:\n\nFCC : Foreign Currency Component (per unit)\n\nQuantity: Quantity of units\n\ni 0 : Initial exchange rate ( CAN $ per unit of foreign currency)\n\ni 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency)\n\nThis calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice.\n\nFor example:\n\nIn a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.\n\nThe solicitation specified:\n\nInitial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.\n\nAdjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $.\n\nThe solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $.\n\nFormula\n\nExchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0\n\nCalculation\n\n= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $\n\n= $1,500\n\nResult\n\nThe total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice.\n\nSample invoice including exchange rate adjustment\n\nDescription of unit: Description of unit | Quantity: Quantity | Unit price ( CAN $): Unit price ( CAN $) | Value ( CAN $): Value ( CAN $)\n\nDescription of unit: Regular chair | Quantity: 100 | Unit price ( CAN $): $200 | Value ( CAN $): $20,000\n\nDescription of unit: Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) | Quantity: 100 | Unit price ( CAN $): $15 | Value ( CAN $): $1,500\n\nSubtotal: | $21,500\n\nIf the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.\n\nThe exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.\n\nThe choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.\n\nThe client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.\n\nYou must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nYou must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"\n\nNote: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).\n\nInvoice requirements\n\nThe offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.\n\nThis must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.\n\nThe total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
+  "markdown_text": "Exchange rates\n\nThe exchange rate risk on the purchase of materials, components or products from outside Canada is generally considered a normal business risk. It may be in the interest of Canada to accept the risks and benefits of currency fluctuations. In such circumstances, the business may be offered the choice to mitigate their risk by having an exchange rate fluctuation provision included in the contract.\n\nEvaluating exchange rate provisions\n\nWhen determining if an exchange rate fluctuation provision will be included, you may consider such factors as:\n\nthe likelihood that currency fluctuations will reduce the number of offerors\n\nthe duration and value of the contract\n\nprevious concerns of businesses\n\npotential impact on prices, and\n\nthe willingness and/or ability of the client to accept such provision\n\nExcluding exchange rate provisions\n\nAn exchange rate fluctuation provision would not generally be applied to procurements done by the European and Washington regions, or procurements on the behalf of the Canadian Commercial Corporation (CCC). This provision should also not be used with telephone buys nor with cost reimbursable contracts (or cost reimbursable items of a contract).\n\nImplementing exchange rate provisions in solicitations\n\nThe solicitation must indicate if an exchange rate fluctuation provision is included as a choice for the offeror, and explain clearly how such provision will be applied. The solicitation must indicate the method for determining the initial exchange rate. For example the initial exchange rate is the Bank of Canada rate published on the solicitation closing date. The Bank of Canada publishes its rates each business day by 16:30 Eastern Time (ET).\n\nThe solicitation must also indicate the date to be used in determining the exchange rate for adjustment purposes. This will be the rate published by the Bank of Canada on such a date, by 16:30 ET. It is often preferable to use the delivery date as the exchange rate for adjustment purposes.\n\nBuyers may also choose to use the direct shipment date, as indicated on the Canada Customs Coding Form, Canada Border Services Agency (CBSA) Form B3-3, or some other date.\n\nBuyers must always ensure that the solicitation (and contract) clearly specifies the method for determining the date for the exchange rate for adjustment. Where a modification to a clause is required, buyers are encouraged to work with the Contract Modernization Initiative and Legal Services to modify the clause. Generally, bids must be submitted in Canadian currency.\n\nDocumenting, planning and communicating\n\nExchange rate fluctuation provisions must be identified in procurement plans, contract requests, and Contract Planning and Advance Approvals (CPAA) document, since it is part of the basis of payment and may impact the total contract costs.\n\nThe client should be informed of and agree with the decision to use this provision in the solicitation and the contract. The client should provide a buffer in the commitment, or alternatively, be aware that a supplemental section 32 certification of the Financial Administration Ac t may become necessary in order for the payment to be made.\n\nThe client project authority may need to inform the department financial authority of a potential impact to the commitment.\n\nApproval of the procurement/contract does not need to be sought again due to any increases in the total contract value resulting from exchange rate fluctuation that may occur.\n\nApplying exchange rate provisions\n\nTo have the exchange rate fluctuation provision apply, businesses must clearly identify their choice to have it apply ensuring their intent is documented. They must also specify the Foreign currency component (FCC) for each relevant line item in their financial proposal in both Canadian dollars and the applicable foreign currency. The FCC is defined as the portion of the price or rate that will be directly affected by exchange rate fluctuation. The FCC should include all related taxes, duties and other costs paid by the supplier and which are to be included in the adjustment amount.\n\nThis will establish a clear basis for accurate and fair exchange rate adjustments. You must ensure that the initial exchange rate, the FCC for each item and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nWhen offerors are offered the choice to mitigate their risk against the exchange rate fluctuation, the applicable clause must be included in the solicitation of offers and in the resulting contract clauses.\n\nWhenever exchange rate fluctuation is not expected to be an issue, and therefore it is not proposed to offer mitigation against it, the applicable clause must be included in the solicitation of offers to clearly indicate to offerors that a request for exchange rate adjustment will not be considered and that inclusion of such request in the offer will render the offer non-responsive.\n\nExample of exchange rate adjustment calculation\n\nThe exchange rate adjustment amount will be calculated by the successful offeror using the following formula:\n\nExchange rate adjustment = FCC x Quantity x (i 1 - i 0 ) / i 0\n\nWhere:\n\nFCC : Foreign Currency Component (per unit)\n\nQuantity: Quantity of units\n\ni 0 : Initial exchange rate ( CAN $ per unit of foreign currency)\n\ni 1 : Exchange rate at the time of adjustment ( CAN $ per unit of foreign currency)\n\nThis calculation may be performed for each line item. The total exchange rate adjustment shall be presented as a single line item on the invoice.\n\nFor example:\n\nIn a solicitation for 100 regular chairs, the successful offeror quoted CAN $200 per chair, with a specified Foreign Currency Component (FCC) of CAN $100 per unit (representing 50% of the unit price). This FCC reflects the value of U.S.-sourced materials, inclusive of applicable customs, taxes, and exchange rate costs.\n\nThe solicitation specified:\n\nInitial exchange rate (i 0 ): Based on the offer closing date (March 1), which was 1.0000 CAN $ per US $.\n\nAdjustment exchange rate (i 1 ): Based on the delivery date (May 1), which was 1.1500 CAN $ per US $.\n\nThe solicitation of offers closed on March 1, and on that day, the exchange rate was 1.0000 CAN $ per US $. On May 1, when the chairs were delivered, the exchange rate changed significantly to 1.1500 CAN $/ US $.\n\nFormula\n\nExchange rate adjustment = FCC × Quantity × (i 1 - i 0 ) / i 0\n\nCalculation\n\n= $100 x 100 x (1.1500 CAN $/US$ – 1.0000 CAN $/ US $) / 1.0000 CAN $/ US $\n\n= $1,500\n\nResult\n\nThe total Exchange Rate Adjustment is CAN $1,500, which may be shown as a single line item on the invoice.\n\nSample invoice including exchange rate adjustment\n\nDescription of unit: Description of unit | Quantity: Quantity | Unit price ( CAN $): Unit price ( CAN $) | Value ( CAN $): Value ( CAN $)\n\nDescription of unit: Regular chair | Quantity: 100 | Unit price ( CAN $): $200 | Value ( CAN $): $20,000\n\nDescription of unit: Exchange rate adjustment (on regular chairs, US $ exchange rate for March 1 to May 1) | Quantity: 100 | Unit price ( CAN $): $15 | Value ( CAN $): $1,500\n\nSubtotal: | $21,500\n\nIf the exchange rate had decreased to 0.8900 CAN $/ US $, the adjustment calculation would reflect a reduction in the cost to Canada, with the adjustment amount being $1,235.96. This demonstrates the flexibility of the exchange rate fluctuation provision to adapt to currency market movements, ensuring fairness and financial stability in international procurements.\n\nThe exchange rate adjustment will only be applied when the exchange rate fluctuation is greater than 2% (increase or decrease), i.e. abs[(i 1 – i 0 ) / i 0 ] > .02, where \"abs\" represents the absolute value.\n\nThe choice by a offeror to mitigate their risk against the exchange rate fluctuation will not have an impact on the evaluated price. The exchange rate adjustment is applied at the time of payment.\n\nThe client payment office is responsible for ensuring that the adjustment is in accordance with the contract provisions.\n\nYou must ensure that the initial exchange rate, the FCC for each item, and the associated foreign currency for each FCC is clearly indicated with the prices in the contract to facilitate the payment process.\n\nYou must also ensure that the basis of payment has a provision that specifies: \"The price paid will be adjusted in accordance with the exchange rate fluctuation provision (as applicable).\"\n\nNote: The words \"as applicable\" are used, since it is the offerors choice to include an exchange rate fluctuation provision and the exchange rate fluctuation must be greater than 2% (increase or decrease).\n\nInvoice requirements\n\nThe offeror must indicate the exchange rate adjustment amount (either upward, downward or present no change) as a separate item on each invoice or claim for payment submitted under the contract.\n\nThis must be shown even when there is no adjustment claim due to the change in the rate being below the threshold.\n\nThe total estimated cost of the contract must be amended upward, where needed, to address changes due to the exchange rate fluctuation. The final contract amendment should amend the contract price upward or downward, as needed, to reflect the actual price paid.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:57.888686Z",
-  "content_hash": "b6c2a129f1dcb1f6c82441ed6198e86cf4620615a109c4bb940bc9cb0f759deb",
-  "word_count": 882,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "9c2a784275f8a081e4622e4cfd18db895691db5a5669bcbac404284e0ca5a2e2",
+  "word_count": 441,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,232 +617,205 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
+      "block_type": "heading",
+      "heading": "Delegation of authority guidelines",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines"
+        "Delegation of authority guidelines"
       ],
-      "text": "Delegation of authority guidelines Delegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery. Delegation The Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period). Incumbent PSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority. Promotion Buyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed. Withhold full authority PSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months. Audit To facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference. Acting incumbent An acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect. Email delegation for short terms For short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
+      "text": "Delegation of authority guidelines",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Delegation of authority guidelines",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines"
       ],
-      "text": "Delegation of authority guidelines",
+      "text": "Delegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Delegation of authority guidelines",
+      "block_type": "heading",
+      "heading": "Delegation",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
-        "Delegation of authority guidelines"
+        "Delegation of authority guidelines",
+        "Delegation"
       ],
-      "text": "Delegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.",
+      "text": "Delegation",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Delegation",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Delegation"
       ],
-      "text": "Delegation",
+      "text": "The Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Delegation",
+      "block_type": "heading",
+      "heading": "Incumbent",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
-        "Delegation"
+        "Incumbent"
       ],
-      "text": "The Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).",
+      "text": "Incumbent",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Incumbent",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent"
       ],
-      "text": "Incumbent",
+      "text": "PSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Incumbent",
-      "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
-        "Delegation of authority guidelines",
-        "Incumbent"
-      ],
-      "text": "PSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.",
-      "order": 6,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0007",
       "block_type": "heading",
       "heading": "Promotion",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Promotion"
       ],
       "text": "Promotion",
-      "order": 7,
+      "order": 6,
       "metadata": {}
     },
     {
-      "block_id": "block_0008",
+      "block_id": "block_0007",
       "block_type": "paragraph",
       "heading": "Promotion",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Promotion"
       ],
       "text": "Buyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed.",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     },
     {
-      "block_id": "block_0009",
+      "block_id": "block_0008",
       "block_type": "heading",
       "heading": "Withhold full authority",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Withhold full authority"
       ],
       "text": "Withhold full authority",
-      "order": 9,
+      "order": 8,
       "metadata": {}
     },
     {
-      "block_id": "block_0010",
+      "block_id": "block_0009",
       "block_type": "paragraph",
       "heading": "Withhold full authority",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Withhold full authority"
       ],
       "text": "PSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months.",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     },
     {
-      "block_id": "block_0011",
+      "block_id": "block_0010",
       "block_type": "heading",
       "heading": "Audit",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Audit"
       ],
       "text": "Audit",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Audit",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Incumbent",
         "Audit"
       ],
       "text": "To facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "heading",
+      "heading": "Acting incumbent",
+      "heading_path": [
+        "Delegation of authority guidelines",
+        "Acting incumbent"
+      ],
+      "text": "Acting incumbent",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Acting incumbent",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Acting incumbent"
       ],
-      "text": "Acting incumbent",
+      "text": "An acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Acting incumbent",
-      "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
-        "Delegation of authority guidelines",
-        "Acting incumbent"
-      ],
-      "text": "An acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
       "block_type": "heading",
       "heading": "Email delegation for short terms",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Acting incumbent",
         "Email delegation for short terms"
       ],
       "text": "Email delegation for short terms",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "paragraph",
       "heading": "Email delegation for short terms",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - Delegation of authority guidelines",
         "Delegation of authority guidelines",
         "Acting incumbent",
         "Email delegation for short terms"
       ],
       "text": "For short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
-      "order": 16,
+      "order": 15,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Delegation of authority guidelines Delegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery. Delegation The Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period). Incumbent PSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority. Promotion Buyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed. Withhold full authority PSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months. Audit To facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference. Acting incumbent An acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect. Email delegation for short terms For short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.\n\nDelegation of authority guidelines\n\nDelegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.\n\nDelegation\n\nThe Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).\n\nIncumbent\n\nPSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.\n\nPromotion\n\nBuyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed.\n\nWithhold full authority\n\nPSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months.\n\nAudit\n\nTo facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference.\n\nActing incumbent\n\nAn acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.\n\nEmail delegation for short terms\n\nFor short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
-  "markdown_text": "Delegation of authority guidelines Delegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery. Delegation The Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period). Incumbent PSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority. Promotion Buyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed. Withhold full authority PSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months. Audit To facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference. Acting incumbent An acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect. Email delegation for short terms For short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.\n\nDelegation of authority guidelines\n\nDelegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.\n\nDelegation\n\nThe Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).\n\nIncumbent\n\nPSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.\n\nPromotion\n\nBuyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed.\n\nWithhold full authority\n\nPSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months.\n\nAudit\n\nTo facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference.\n\nActing incumbent\n\nAn acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.\n\nEmail delegation for short terms\n\nFor short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
+  "raw_text": "Delegation of authority guidelines\n\nDelegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.\n\nDelegation\n\nThe Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).\n\nIncumbent\n\nPSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.\n\nPromotion\n\nBuyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed.\n\nWithhold full authority\n\nPSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months.\n\nAudit\n\nTo facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference.\n\nActing incumbent\n\nAn acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.\n\nEmail delegation for short terms\n\nFor short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
+  "markdown_text": "Delegation of authority guidelines\n\nDelegated authority to enter into, sign and amend contracts must be aligned with the responsibilities assigned to each position. These authorities are documented through formal delegation instruments and are designed to ensure that no individual exercises authority beyond what is required for their role. Managers may adjust authority levels, within approved frameworks, to reflect operational needs and ensure effective procurement delivery.\n\nDelegation\n\nThe Minister and Deputy Minister of PSPC delegate authorities to position titles (generic or specific) and not to individuals by name. The authority is valid when the incumbent’s schedule 3 form is approved and signed. The authority can be limited to a certain period of time (for example, during an acting period).\n\nIncumbent\n\nPSPC supervisors are responsible for informing incumbents of their delegated authority for contract approval and signing authority. This is done by completing and signing a Schedule 3 Specimen Signature Card Template (accessible only on the Government of Canada network - for PSPC only). This form documents the scope of the incumbent’s delegated approval and signing authority.\n\nPromotion\n\nBuyers who have previously exercised contract approval and signing authorities in another position, upon promotion you may exercise the authorities delegated to incumbents at the new level once a new individual delegation form is completed and signed.\n\nWithhold full authority\n\nPSPC directors general must withhold full contract approval and signing authorities from anyone who has had no PSPC purchasing/contracting experience until competence has been demonstrated at a lower level of authority for at least six months.\n\nAudit\n\nTo facilitate audit requirements, a signed electronic copy of the individual delegation form must be forwarded to AP Policy for record keeping purposes only. A signed copy is valid, ready to use, and must be kept on file by the incumbent for future reference.\n\nActing incumbent\n\nAn acting incumbent should normally be granted the full contract approval and signing authorities of the position. However, the acting incumbent must not use these authorities on any procurement file they were responsible in their normal position. If an incumbent is acting in a position for four months or longer, then the incumbent's supervisor will delegate the appropriate authorities by completing and signing the schedule 3 specimen signature document indicating the period that these authorities are to be in effect.\n\nEmail delegation for short terms\n\nFor short-term acting assignments (a period of less than 4 months, for example, vacation replacement), authority may be delegated via email, specifying the duration and scope of the authority. This email must be communicated to relevant personnel and a copy placed in the file of any contractual document approved/signed by the incumbent while exercising the acting authority.",
   "provenance_paths": {}
 }

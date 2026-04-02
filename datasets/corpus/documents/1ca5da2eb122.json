@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:55.660001Z",
-  "content_hash": "17b630de55e1620ab739bf24181e605437d0dacc996fe28a4c2a0085db782670",
-  "word_count": 546,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "55ec03cb5b8a950906941ddb9d5e358993083602006c083d917375cb42d3bfc6",
+  "word_count": 273,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -473,24 +473,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
+      "block_type": "heading",
+      "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies"
+        "Alternative pricing strategies"
       ],
-      "text": "Alternative pricing strategies You may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing. The option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as: access to better pricing through gainsharing or price reductions over time enhanced performance of government services to the public flexible contracting arrangements responsive to changing budgets or operational demands improved contractor behaviour or customer satisfaction for goods and services provided Because alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to: obtain the client’s concurrence obtain approval of the contract approval authority document the decision on the procurement file share the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval The Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles. Or Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
+      "text": "Alternative pricing strategies",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "Alternative pricing strategies",
+      "text": "You may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.",
       "order": 1,
       "metadata": {}
     },
@@ -499,22 +498,20 @@
       "block_type": "paragraph",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "You may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.",
+      "text": "The option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "The option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:",
+      "text": "access to better pricing through gainsharing or price reductions over time",
       "order": 3,
       "metadata": {}
     },
@@ -523,10 +520,9 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "access to better pricing through gainsharing or price reductions over time",
+      "text": "enhanced performance of government services to the public",
       "order": 4,
       "metadata": {}
     },
@@ -535,10 +531,9 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "enhanced performance of government services to the public",
+      "text": "flexible contracting arrangements responsive to changing budgets or operational demands",
       "order": 5,
       "metadata": {}
     },
@@ -547,34 +542,31 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "flexible contracting arrangements responsive to changing budgets or operational demands",
+      "text": "improved contractor behaviour or customer satisfaction for goods and services provided",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "improved contractor behaviour or customer satisfaction for goods and services provided",
+      "text": "Because alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "Because alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:",
+      "text": "obtain the client’s concurrence",
       "order": 8,
       "metadata": {}
     },
@@ -583,10 +575,9 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "obtain the client’s concurrence",
+      "text": "obtain approval of the contract approval authority",
       "order": 9,
       "metadata": {}
     },
@@ -595,10 +586,9 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "obtain approval of the contract approval authority",
+      "text": "document the decision on the procurement file",
       "order": 10,
       "metadata": {}
     },
@@ -607,22 +597,20 @@
       "block_type": "list_item",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "document the decision on the procurement file",
+      "text": "share the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
-      "text": "share the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval",
+      "text": "The Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.",
       "order": 12,
       "metadata": {}
     },
@@ -631,28 +619,15 @@
       "block_type": "paragraph",
       "heading": "Alternative pricing strategies",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
-        "Alternative pricing strategies"
-      ],
-      "text": "The Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Alternative pricing strategies",
-      "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Alternative pricing strategies",
         "Alternative pricing strategies"
       ],
       "text": "Or Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
-      "order": 14,
+      "order": 13,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Alternative pricing strategies You may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing. The option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as: access to better pricing through gainsharing or price reductions over time enhanced performance of government services to the public flexible contracting arrangements responsive to changing budgets or operational demands improved contractor behaviour or customer satisfaction for goods and services provided Because alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to: obtain the client’s concurrence obtain approval of the contract approval authority document the decision on the procurement file share the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval The Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles. Or Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.\n\nAlternative pricing strategies\n\nYou may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.\n\nThe option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:\n\naccess to better pricing through gainsharing or price reductions over time\n\nenhanced performance of government services to the public\n\nflexible contracting arrangements responsive to changing budgets or operational demands\n\nimproved contractor behaviour or customer satisfaction for goods and services provided\n\nBecause alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:\n\nobtain the client’s concurrence\n\nobtain approval of the contract approval authority\n\ndocument the decision on the procurement file\n\nshare the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval\n\nThe Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.\n\nOr Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
-  "markdown_text": "Alternative pricing strategies You may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing. The option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as: access to better pricing through gainsharing or price reductions over time enhanced performance of government services to the public flexible contracting arrangements responsive to changing budgets or operational demands improved contractor behaviour or customer satisfaction for goods and services provided Because alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to: obtain the client’s concurrence obtain approval of the contract approval authority document the decision on the procurement file share the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval The Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles. Or Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.\n\nAlternative pricing strategies\n\nYou may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.\n\nThe option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:\n\naccess to better pricing through gainsharing or price reductions over time\n\nenhanced performance of government services to the public\n\nflexible contracting arrangements responsive to changing budgets or operational demands\n\nimproved contractor behaviour or customer satisfaction for goods and services provided\n\nBecause alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:\n\nobtain the client’s concurrence\n\nobtain approval of the contract approval authority\n\ndocument the decision on the procurement file\n\nshare the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval\n\nThe Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.\n\nOr Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
+  "raw_text": "Alternative pricing strategies\n\nYou may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.\n\nThe option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:\n\naccess to better pricing through gainsharing or price reductions over time\n\nenhanced performance of government services to the public\n\nflexible contracting arrangements responsive to changing budgets or operational demands\n\nimproved contractor behaviour or customer satisfaction for goods and services provided\n\nBecause alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:\n\nobtain the client’s concurrence\n\nobtain approval of the contract approval authority\n\ndocument the decision on the procurement file\n\nshare the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval\n\nThe Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.\n\nOr Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
+  "markdown_text": "Alternative pricing strategies\n\nYou may consider an alternative pricing strategy if the contract price, or part of the contract price, cannot be established through market, commercial or cost-based pricing.\n\nThe option to use an alternative pricing strategy is available so you can consider factors or approaches beyond cost when developing the contract price, in the pursuit of best value to Canada, such as:\n\naccess to better pricing through gainsharing or price reductions over time\n\nenhanced performance of government services to the public\n\nflexible contracting arrangements responsive to changing budgets or operational demands\n\nimproved contractor behaviour or customer satisfaction for goods and services provided\n\nBecause alternative pricing strategies are not often used, guidance on specific alternatives is not yet in place. Therefore, you should analyze the risks and benefits of any alternative pricing strategy. You will also need to justify that it might generate better value than applying the cost-based pricing principles. You will also need to:\n\nobtain the client’s concurrence\n\nobtain approval of the contract approval authority\n\ndocument the decision on the procurement file\n\nshare the record of the decision with the group responsible for price support, including the justification, client concurrence and the approval\n\nThe Practitioner’s Guide for Procurement Pricing , Section 5.3, Alternative Pricing Strategies provides more guidance on considerations and procedures of applying Alternative Pricing Principles, used when a contract price is established by applying an approach that does not fully incorporate the Cost-Based Pricing Principles, Section 5.0.1, Cost-Based Pricing Principles.\n\nOr Alternative Pricing Principles can be applied when justification exists that an alternative pricing method might generate better value to Canada than the application of the Cost-Based Pricing Principles.",
   "provenance_paths": {}
 }

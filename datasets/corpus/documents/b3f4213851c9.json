@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:01.625713Z",
-  "content_hash": "0729ffd6d795893b950cd2d092d6c7df93f57038ab6cdc07e0f090bf0a063f66",
-  "word_count": 152,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "2a5748367a998839357dc0f073aa3fcb52515a458e37ebd47c4c74bcabc59152",
+  "word_count": 76,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,42 +617,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Complexity and procurement risk assessment - Changes to the complexity levels",
+      "block_type": "heading",
+      "heading": "Changes to the complexity level",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Changes to the complexity levels"
+        "Changes to the complexity level"
       ],
-      "text": "Changes to the complexity level If the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
+      "text": "Changes to the complexity level",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Changes to the complexity level",
-      "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Changes to the complexity levels",
-        "Changes to the complexity level"
-      ],
-      "text": "Changes to the complexity level",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Changes to the complexity level",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Changes to the complexity levels",
         "Changes to the complexity level"
       ],
       "text": "If the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Changes to the complexity level If the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.\n\nChanges to the complexity level\n\nIf the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
-  "markdown_text": "Changes to the complexity level If the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.\n\nChanges to the complexity level\n\nIf the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
+  "raw_text": "Changes to the complexity level\n\nIf the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
+  "markdown_text": "Changes to the complexity level\n\nIf the buyer identifies that the procurement has been streamed incorrectly or if new factors arise that affect the complexity level, they are required to consult with the assigning manager to determine the appropriate complexity level. Incorrectly streamed procurements must be returned to the workload manager. The manager will reassign the file using the revised complexity code. The procurement must then follow the new process based on the new complexity level.",
   "provenance_paths": {}
 }

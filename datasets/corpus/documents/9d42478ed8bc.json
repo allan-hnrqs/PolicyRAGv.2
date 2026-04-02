@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:32.039845Z",
-  "content_hash": "11134617a4177ca8ddfb958b1c473972f04c323c8787f100e9f882613e19d8c0",
-  "word_count": 176,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "42d809d84630c9e20682aeef38d2670b1b9dea18810e371c8319a1fd2477dd27",
+  "word_count": 88,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -965,42 +965,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the procurement strategy",
+      "block_type": "heading",
+      "heading": "Determine the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy"
+        "Determine the procurement strategy"
       ],
-      "text": "Determine the procurement strategy A procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
+      "text": "Determine the procurement strategy",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Determine the procurement strategy",
-      "heading_path": [
-        "Buyer's Guide Determine the procurement strategy",
-        "Determine the procurement strategy"
-      ],
-      "text": "Determine the procurement strategy",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Determine the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy",
         "Determine the procurement strategy"
       ],
       "text": "A procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Determine the procurement strategy A procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .\n\nDetermine the procurement strategy\n\nA procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
-  "markdown_text": "Determine the procurement strategy A procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .\n\nDetermine the procurement strategy\n\nA procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
+  "raw_text": "Determine the procurement strategy\n\nA procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
+  "markdown_text": "Determine the procurement strategy\n\nA procurement strategy outlines the approach for acquiring goods, services, or construction. This section provides information on the considerations in developing the procurement strategy, including choosing a method of supply, determining the sourcing strategy and considering trade agreement applicability. Buyers are reminded that they are responsible for the integrity of the procurement process and that Canada seeks competitive solicitations whenever possible. To ensure the integrity of the process, buyers must confirm funding commitment as described in Plan – Define the requirement - Funding .",
   "provenance_paths": {}
 }

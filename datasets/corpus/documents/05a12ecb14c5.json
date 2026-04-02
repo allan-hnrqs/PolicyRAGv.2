@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:17.712453Z",
-  "content_hash": "d52855065f1d50086254e4734ee0f66e39d171dc3677378fed6c7a7957e575fa",
-  "word_count": 32,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d76e1a1f0631f2d85eda47aeb312c1329484f7cae562ffc7056d4c9042efd054",
+  "word_count": 16,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -621,42 +621,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Special considerations",
+      "block_type": "heading",
+      "heading": "Special considerations",
       "heading_path": [
-        "Buyer's Guide Special considerations"
+        "Special considerations"
       ],
-      "text": "Special considerations This section provides information on scenarios or conditions that require special approvals or considerations.",
+      "text": "Special considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Special considerations",
-      "heading_path": [
-        "Buyer's Guide Special considerations",
-        "Special considerations"
-      ],
-      "text": "Special considerations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Special considerations",
       "heading_path": [
-        "Buyer's Guide Special considerations",
         "Special considerations"
       ],
       "text": "This section provides information on scenarios or conditions that require special approvals or considerations.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Special considerations This section provides information on scenarios or conditions that require special approvals or considerations.\n\nSpecial considerations\n\nThis section provides information on scenarios or conditions that require special approvals or considerations.",
-  "markdown_text": "Special considerations This section provides information on scenarios or conditions that require special approvals or considerations.\n\nSpecial considerations\n\nThis section provides information on scenarios or conditions that require special approvals or considerations.",
+  "raw_text": "Special considerations\n\nThis section provides information on scenarios or conditions that require special approvals or considerations.",
+  "markdown_text": "Special considerations\n\nThis section provides information on scenarios or conditions that require special approvals or considerations.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:54.720148Z",
-  "content_hash": "0f026ce18a37e97d35220d56a9fb5d2762f1c299ad57f7d9cddc4dcfaa57ef67",
-  "word_count": 122,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b8020f531ba61d8145516ee9f0046f8ac3058965cd1289b27b7bdde78e155d59",
+  "word_count": 61,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -512,24 +512,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Manage the solicitation period - Communications during the solicitation period",
+      "block_type": "heading",
+      "heading": "Communications during the solicitation period",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Communications during the solicitation period"
+        "Communications during the solicitation period"
       ],
-      "text": "Communications during the solicitation period To ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials. Buyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
+      "text": "Communications during the solicitation period",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Communications during the solicitation period",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Communications during the solicitation period",
         "Communications during the solicitation period"
       ],
-      "text": "Communications during the solicitation period",
+      "text": "To ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.",
       "order": 1,
       "metadata": {}
     },
@@ -538,28 +537,15 @@
       "block_type": "paragraph",
       "heading": "Communications during the solicitation period",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Communications during the solicitation period",
-        "Communications during the solicitation period"
-      ],
-      "text": "To ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Communications during the solicitation period",
-      "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Communications during the solicitation period",
         "Communications during the solicitation period"
       ],
       "text": "Buyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Communications during the solicitation period To ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials. Buyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.\n\nCommunications during the solicitation period\n\nTo ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.\n\nBuyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
-  "markdown_text": "Communications during the solicitation period To ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials. Buyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.\n\nCommunications during the solicitation period\n\nTo ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.\n\nBuyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
+  "raw_text": "Communications during the solicitation period\n\nTo ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.\n\nBuyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
+  "markdown_text": "Communications during the solicitation period\n\nTo ensure the integrity of the competitive solicitation process, businesses must direct all communications about the solicitation only to the buyer identified in the solicitation of offers, not to the client or other government officials.\n\nBuyers should avoid one-on-one contact with businesses during the solicitation period. All communications should be in writing, to the extent possible.",
   "provenance_paths": {}
 }

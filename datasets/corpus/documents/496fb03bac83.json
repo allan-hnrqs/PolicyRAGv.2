@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:39.951958Z",
-  "content_hash": "bd2963b1d24ecd6d171e3a21c668c805be8c7b33b0d7c63b84035b03b28851f1",
-  "word_count": 346,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f69bb11ce159095e75e565715ecbf44fdae6f26f79a2f684546728336e18c6dc",
+  "word_count": 158,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Engage - Early engagement",
+      "block_type": "heading",
+      "heading": "Early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement"
+        "Early engagement"
       ],
-      "text": "Early engagement By engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs. You, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days. Resources to support early engagement To ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are: Acquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support Quick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.",
+      "text": "Early engagement",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement"
       ],
-      "text": "Early engagement",
+      "text": "By engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.",
       "order": 1,
       "metadata": {}
     },
@@ -986,48 +985,45 @@
       "block_type": "paragraph",
       "heading": "Early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement"
       ],
-      "text": "By engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.",
+      "text": "You, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Early engagement",
+      "block_type": "heading",
+      "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
-        "Early engagement"
+        "Early engagement",
+        "Resources to support early engagement"
       ],
-      "text": "You, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.",
+      "text": "Resources to support early engagement",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "Resources to support early engagement",
+      "text": "To ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "To ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:",
+      "text": "Acquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides:",
       "order": 5,
       "metadata": {}
     },
@@ -1036,11 +1032,10 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "Acquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support",
+      "text": "policies, directives",
       "order": 6,
       "metadata": {}
     },
@@ -1049,11 +1044,10 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "policies, directives",
+      "text": "guidelines on engagement, communication, governance, socio-economic objectives",
       "order": 7,
       "metadata": {}
     },
@@ -1062,11 +1056,10 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "guidelines on engagement, communication, governance, socio-economic objectives",
+      "text": "risk management support",
       "order": 8,
       "metadata": {}
     },
@@ -1075,11 +1068,10 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "risk management support",
+      "text": "Quick reference resources",
       "order": 9,
       "metadata": {}
     },
@@ -1088,11 +1080,10 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
-      "text": "Quick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.",
+      "text": "Procurement Information Nuggets (accessible only on the Government of Canada network)",
       "order": 10,
       "metadata": {}
     },
@@ -1101,30 +1092,16 @@
       "block_type": "list_item",
       "heading": "Resources to support early engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
-        "Early engagement",
-        "Resources to support early engagement"
-      ],
-      "text": "Procurement Information Nuggets (accessible only on the Government of Canada network)",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "list_item",
-      "heading": "Resources to support early engagement",
-      "heading_path": [
-        "Buyer's Guide Engage - Early engagement",
         "Early engagement",
         "Resources to support early engagement"
       ],
       "text": "guides on procurement issues, offering quick references.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Early engagement By engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs. You, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days. Resources to support early engagement To ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are: Acquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support Quick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.\n\nEarly engagement\n\nBy engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.\n\nYou, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.\n\nResources to support early engagement\n\nTo ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:\n\nAcquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support\n\npolicies, directives\n\nguidelines on engagement, communication, governance, socio-economic objectives\n\nrisk management support\n\nQuick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.\n\nProcurement Information Nuggets (accessible only on the Government of Canada network)\n\nguides on procurement issues, offering quick references.",
-  "markdown_text": "Early engagement By engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs. You, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days. Resources to support early engagement To ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are: Acquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support Quick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.\n\nEarly engagement\n\nBy engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.\n\nYou, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.\n\nResources to support early engagement\n\nTo ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:\n\nAcquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides: policies, directives guidelines on engagement, communication, governance, socio-economic objectives risk management support\n\npolicies, directives\n\nguidelines on engagement, communication, governance, socio-economic objectives\n\nrisk management support\n\nQuick reference resources Procurement Information Nuggets (accessible only on the Government of Canada network) guides on procurement issues, offering quick references.\n\nProcurement Information Nuggets (accessible only on the Government of Canada network)\n\nguides on procurement issues, offering quick references.",
+  "raw_text": "Early engagement\n\nBy engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.\n\nYou, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.\n\nResources to support early engagement\n\nTo ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:\n\nAcquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides:\n\npolicies, directives\n\nguidelines on engagement, communication, governance, socio-economic objectives\n\nrisk management support\n\nQuick reference resources\n\nProcurement Information Nuggets (accessible only on the Government of Canada network)\n\nguides on procurement issues, offering quick references.",
+  "markdown_text": "Early engagement\n\nBy engaging with clients and offerors through early and ongoing consultation and dialogue, you are better situated to identify the complexities and risks associated with a client’s requirement. It enables the development of mitigation strategies that places all stakeholders in a better position for a successful procurement that meets the client’s needs.\n\nYou, can also engage early with industry through various methods, such as issuing letters of Interest (LOI), Requests for Information (RFI), conducting one-on-one consultations and organizing industry days.\n\nResources to support early engagement\n\nTo ensure that you are successful initiating early engagement Public Services and Procurement Canada (PSPC) offers various resources. The resources available to you are:\n\nAcquisitions Program Policy Suite (accessible only on the Government of Canada network) which provides:\n\npolicies, directives\n\nguidelines on engagement, communication, governance, socio-economic objectives\n\nrisk management support\n\nQuick reference resources\n\nProcurement Information Nuggets (accessible only on the Government of Canada network)\n\nguides on procurement issues, offering quick references.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:14.574561Z",
-  "content_hash": "00691e9034feb92495f31658be4471e3aa9103ebf3a50c25f600401a0123b166",
-  "word_count": 744,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "5cce63d2f272277bcfdc686f29937defb2e8cfe442256de809381f0c64d24d26",
+  "word_count": 372,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,49 +617,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+      "block_type": "heading",
+      "heading": "Standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements"
+        "Standing offers and supply arrangements"
       ],
-      "text": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s. Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s. Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group. Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement. Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network). Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or endorse it, but with specific comments, recommendations, or conditions, or decline it and provide supporting rationale. Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale. Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR . Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made. Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+      "text": "Standing offers and supply arrangements",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements"
       ],
-      "text": "Standing offers and supply arrangements",
+      "text": "The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Standing offers and supply arrangements",
+      "block_type": "heading",
+      "heading": "Category management team",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements"
+        "Standing offers and supply arrangements",
+        "Category management team"
       ],
-      "text": "The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.",
+      "text": "Category management team",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Category management team",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Category management team"
       ],
-      "text": "Category management team",
+      "text": "The office of primary interest for specific goods and services is referred to as the \"category management team\".",
       "order": 3,
       "metadata": {}
     },
@@ -668,11 +666,10 @@
       "block_type": "paragraph",
       "heading": "Category management team",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Category management team"
       ],
-      "text": "The office of primary interest for specific goods and services is referred to as the \"category management team\".",
+      "text": "Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.",
       "order": 4,
       "metadata": {}
     },
@@ -681,37 +678,34 @@
       "block_type": "paragraph",
       "heading": "Category management team",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Category management team"
       ],
-      "text": "Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.",
+      "text": "Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Category management team",
+      "block_type": "heading",
+      "heading": "Submission requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Category management team"
+        "Submission requirements"
       ],
-      "text": "Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.",
+      "text": "Submission requirements",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Submission requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Submission requirements"
       ],
-      "text": "Submission requirements",
+      "text": "Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.",
       "order": 7,
       "metadata": {}
     },
@@ -720,50 +714,46 @@
       "block_type": "paragraph",
       "heading": "Submission requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Submission requirements"
       ],
-      "text": "Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.",
+      "text": "Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Submission requirements",
+      "block_type": "heading",
+      "heading": "Endorsement scenarios",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Submission requirements"
+        "Endorsement scenarios"
       ],
-      "text": "Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).",
+      "text": "Endorsement scenarios",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Endorsement scenarios",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Endorsement scenarios"
       ],
-      "text": "Endorsement scenarios",
+      "text": "The category reviewer will evaluate the request and may subsequently:",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Endorsement scenarios",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Endorsement scenarios"
       ],
-      "text": "The category reviewer will evaluate the request and may subsequently:",
+      "text": "endorse it without comments, or",
       "order": 11,
       "metadata": {}
     },
@@ -772,11 +762,10 @@
       "block_type": "list_item",
       "heading": "Endorsement scenarios",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Endorsement scenarios"
       ],
-      "text": "endorse it without comments, or",
+      "text": "endorse it, but with specific comments, recommendations, or conditions, or",
       "order": 12,
       "metadata": {}
     },
@@ -785,134 +774,112 @@
       "block_type": "list_item",
       "heading": "Endorsement scenarios",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Endorsement scenarios"
       ],
-      "text": "endorse it, but with specific comments, recommendations, or conditions, or",
+      "text": "decline it and provide supporting rationale.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Endorsement scenarios",
+      "block_type": "heading",
+      "heading": "Duplication",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Endorsement scenarios"
+        "Duplication"
       ],
-      "text": "decline it and provide supporting rationale.",
+      "text": "Duplication",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Duplication",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Duplication"
       ],
-      "text": "Duplication",
+      "text": "When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Duplication",
+      "block_type": "heading",
+      "heading": "Special endorsement cases",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Duplication"
+        "Special endorsement cases"
       ],
-      "text": "When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.",
+      "text": "Special endorsement cases",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Special endorsement cases",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Special endorsement cases"
       ],
-      "text": "Special endorsement cases",
+      "text": "If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "Special endorsement cases",
+      "block_type": "heading",
+      "heading": "Conditional endorsement or decline",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Special endorsement cases"
+        "Conditional endorsement or decline"
       ],
-      "text": "If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .",
+      "text": "Conditional endorsement or decline",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Conditional endorsement or decline",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Conditional endorsement or decline"
       ],
-      "text": "Conditional endorsement or decline",
+      "text": "If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Conditional endorsement or decline",
+      "block_type": "heading",
+      "heading": "Documentation",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Conditional endorsement or decline"
+        "Documentation"
       ],
-      "text": "If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.",
+      "text": "Documentation",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
-      "heading": "Documentation",
-      "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Documentation"
-      ],
-      "text": "Documentation",
-      "order": 21,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0022",
       "block_type": "paragraph",
       "heading": "Documentation",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Documentation"
       ],
       "text": "The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
-      "order": 22,
+      "order": 21,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s. Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s. Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group. Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement. Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network). Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or endorse it, but with specific comments, recommendations, or conditions, or decline it and provide supporting rationale. Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale. Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR . Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made. Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.\n\nStanding offers and supply arrangements\n\nThe process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.\n\nCategory management team\n\nThe office of primary interest for specific goods and services is referred to as the \"category management team\".\n\nEach team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.\n\nEarly engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.\n\nSubmission requirements\n\nBefore proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.\n\nConsult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).\n\nEndorsement scenarios\n\nThe category reviewer will evaluate the request and may subsequently:\n\nendorse it without comments, or\n\nendorse it, but with specific comments, recommendations, or conditions, or\n\ndecline it and provide supporting rationale.\n\nDuplication\n\nWhen endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.\n\nSpecial endorsement cases\n\nIf a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .\n\nConditional endorsement or decline\n\nIf the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.\n\nDocumentation\n\nThe final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
-  "markdown_text": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s. Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s. Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group. Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement. Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network). Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or endorse it, but with specific comments, recommendations, or conditions, or decline it and provide supporting rationale. Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale. Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR . Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made. Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.\n\nStanding offers and supply arrangements\n\nThe process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.\n\nCategory management team\n\nThe office of primary interest for specific goods and services is referred to as the \"category management team\".\n\nEach team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.\n\nEarly engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.\n\nSubmission requirements\n\nBefore proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.\n\nConsult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).\n\nEndorsement scenarios\n\nThe category reviewer will evaluate the request and may subsequently:\n\nendorse it without comments, or\n\nendorse it, but with specific comments, recommendations, or conditions, or\n\ndecline it and provide supporting rationale.\n\nDuplication\n\nWhen endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.\n\nSpecial endorsement cases\n\nIf a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .\n\nConditional endorsement or decline\n\nIf the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.\n\nDocumentation\n\nThe final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+  "raw_text": "Standing offers and supply arrangements\n\nThe process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.\n\nCategory management team\n\nThe office of primary interest for specific goods and services is referred to as the \"category management team\".\n\nEach team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.\n\nEarly engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.\n\nSubmission requirements\n\nBefore proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.\n\nConsult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).\n\nEndorsement scenarios\n\nThe category reviewer will evaluate the request and may subsequently:\n\nendorse it without comments, or\n\nendorse it, but with specific comments, recommendations, or conditions, or\n\ndecline it and provide supporting rationale.\n\nDuplication\n\nWhen endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.\n\nSpecial endorsement cases\n\nIf a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .\n\nConditional endorsement or decline\n\nIf the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.\n\nDocumentation\n\nThe final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+  "markdown_text": "Standing offers and supply arrangements\n\nThe process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.\n\nCategory management team\n\nThe office of primary interest for specific goods and services is referred to as the \"category management team\".\n\nEach team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.\n\nEarly engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.\n\nSubmission requirements\n\nBefore proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.\n\nConsult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).\n\nEndorsement scenarios\n\nThe category reviewer will evaluate the request and may subsequently:\n\nendorse it without comments, or\n\nendorse it, but with specific comments, recommendations, or conditions, or\n\ndecline it and provide supporting rationale.\n\nDuplication\n\nWhen endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.\n\nSpecial endorsement cases\n\nIf a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .\n\nConditional endorsement or decline\n\nIf the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.\n\nDocumentation\n\nThe final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
   "provenance_paths": {}
 }

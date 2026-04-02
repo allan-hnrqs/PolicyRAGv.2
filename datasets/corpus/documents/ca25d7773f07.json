@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:38.624411Z",
-  "content_hash": "ba43ac6ce6efeefc033970073e6aaf35ee1e08b1e32a6f621c7fa2bca7dd616a",
-  "word_count": 82,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "40bda9a0f4f0ed4cbcb86dbe07bc3099cf2295470d36eb0ee52fb329fd2e0651",
+  "word_count": 41,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -962,42 +962,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Engage",
+      "block_type": "heading",
+      "heading": "Engage",
       "heading_path": [
-        "Buyer's Guide Engage"
+        "Engage"
       ],
-      "text": "Engage Effective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
+      "text": "Engage",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Engage",
-      "heading_path": [
-        "Buyer's Guide Engage",
-        "Engage"
-      ],
-      "text": "Engage",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Engage",
       "heading_path": [
-        "Buyer's Guide Engage",
         "Engage"
       ],
       "text": "Effective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Engage Effective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.\n\nEngage\n\nEffective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
-  "markdown_text": "Engage Effective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.\n\nEngage\n\nEffective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
+  "raw_text": "Engage\n\nEffective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
+  "markdown_text": "Engage\n\nEffective procurement relies on early and meaningful engagement with all stakeholders. This section provides information on how to engage with stakeholders early, collaborate with clients, leverage expert knowledge, and interact with businesses to ensure transparent, fair, and successful procurement outcomes.",
   "provenance_paths": {}
 }

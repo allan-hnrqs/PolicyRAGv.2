@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:51.114496Z",
-  "content_hash": "8fe8f90f73a7d497c730f4c5f3790e7a20535aad5f9f126893fee38072fb15d0",
-  "word_count": 72,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d161ab38850eec1c9da498e0c966973284103cb57f0243562a8f41ce2c88cd9c",
+  "word_count": 36,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -962,42 +962,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Method of selection",
+      "block_type": "heading",
+      "heading": "Method of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection"
+        "Method of selection"
       ],
-      "text": "Method of selection This section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
+      "text": "Method of selection",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Method of selection",
-      "heading_path": [
-        "Buyer's Guide Method of selection",
-        "Method of selection"
-      ],
-      "text": "Method of selection",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Method of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection",
         "Method of selection"
       ],
       "text": "This section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Method of selection This section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.\n\nMethod of selection\n\nThis section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
-  "markdown_text": "Method of selection This section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.\n\nMethod of selection\n\nThis section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
+  "raw_text": "Method of selection\n\nThis section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
+  "markdown_text": "Method of selection\n\nThis section provides information on methods of selection, including selection criteria and evaluation criteria. The evaluation process and the method of selection for contract award must be clearly described in the solicitation documents.",
   "provenance_paths": {}
 }

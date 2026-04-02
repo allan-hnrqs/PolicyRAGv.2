@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:08.761004Z",
   "content_hash": "625d1774df7d192b0ff5958d93b94ea96db7162789e7e21334f76c9ee12c4dac",
   "word_count": 197,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Contract dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution"
       ],
       "text": "Contract dispute resolution",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Contract dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution"
       ],
       "text": "When managing contracts, disputes can occur between the involved parties. Disputes need to be addressed quickly and efficiently so that all parties can meet their contractual obligations. Maintaining accurate records is crucial for clarification, audits or possible termination of contracts.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Contract dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution"
       ],
       "text": "If you cannot resolve a contract dispute, the issue should be escalated to your immediate supervisor and you should consult Legal Services to protect the interests of Canada.",
@@ -808,7 +805,6 @@
       "block_type": "heading",
       "heading": "Handling conflicts with contractors",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Handling conflicts with contractors"
       ],
@@ -821,7 +817,6 @@
       "block_type": "paragraph",
       "heading": "Handling conflicts with contractors",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Handling conflicts with contractors"
       ],
@@ -834,7 +829,6 @@
       "block_type": "heading",
       "heading": "Dispute Management",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Dispute Management"
       ],
@@ -847,7 +841,6 @@
       "block_type": "paragraph",
       "heading": "Dispute Management",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Dispute Management"
       ],
@@ -860,7 +853,6 @@
       "block_type": "paragraph",
       "heading": "Dispute Management",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Dispute Management"
       ],
@@ -873,7 +865,6 @@
       "block_type": "paragraph",
       "heading": "Dispute Management",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Contract dispute resolution",
         "Contract dispute resolution",
         "Dispute Management"
       ],

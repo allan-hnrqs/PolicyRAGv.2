@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:59.118127Z",
-  "content_hash": "a5e34143a77aaaed94708eff03ff939e779623bb5738d3ca0e8bd705c1e38f67",
-  "word_count": 272,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "6a22a0b37aed9124de72e1d3e4282a52521a00bb3377637dc068facb50255a0e",
+  "word_count": 136,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -619,24 +619,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Approvals and authorities - General principles of procurement authority",
+      "block_type": "heading",
+      "heading": "General principles of procurement authority",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - General principles of procurement authority"
+        "General principles of procurement authority"
       ],
-      "text": "General principles of procurement authority Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process. Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
+      "text": "General principles of procurement authority",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "General principles of procurement authority",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - General principles of procurement authority",
         "General principles of procurement authority"
       ],
-      "text": "General principles of procurement authority",
+      "text": "Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.",
       "order": 1,
       "metadata": {}
     },
@@ -645,28 +644,15 @@
       "block_type": "paragraph",
       "heading": "General principles of procurement authority",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities - General principles of procurement authority",
-        "General principles of procurement authority"
-      ],
-      "text": "Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "General principles of procurement authority",
-      "heading_path": [
-        "Buyer's Guide Approvals and authorities - General principles of procurement authority",
         "General principles of procurement authority"
       ],
       "text": "Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "General principles of procurement authority Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process. Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.\n\nGeneral principles of procurement authority\n\nContracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.\n\nFinancial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
-  "markdown_text": "General principles of procurement authority Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process. Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.\n\nGeneral principles of procurement authority\n\nContracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.\n\nFinancial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
+  "raw_text": "General principles of procurement authority\n\nContracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.\n\nFinancial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
+  "markdown_text": "General principles of procurement authority\n\nContracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.\n\nFinancial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.",
   "provenance_paths": {}
 }

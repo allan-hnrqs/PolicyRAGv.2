@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:37.944351Z",
-  "content_hash": "8a3f949a09803792ae12006d87a2104b24de110fed9e388c71be50b844b2c236",
-  "word_count": 40,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "7bacebbce26781e34932195db65dc59c9a3f195294c8141f05994507e1203c41",
+  "word_count": 20,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -613,42 +613,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Client review",
+      "block_type": "heading",
+      "heading": "Client review",
       "heading_path": [
-        "Buyer's Guide Client review"
+        "Client review"
       ],
-      "text": "Client review This section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
+      "text": "Client review",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Client review",
-      "heading_path": [
-        "Buyer's Guide Client review",
-        "Client review"
-      ],
-      "text": "Client review",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Client review",
       "heading_path": [
-        "Buyer's Guide Client review",
         "Client review"
       ],
       "text": "This section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Client review This section provides information on the necessity to engage with the client before issuing the solicitation of offers.\n\nClient review\n\nThis section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
-  "markdown_text": "Client review This section provides information on the necessity to engage with the client before issuing the solicitation of offers.\n\nClient review\n\nThis section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
+  "raw_text": "Client review\n\nThis section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
+  "markdown_text": "Client review\n\nThis section provides information on the necessity to engage with the client before issuing the solicitation of offers.",
   "provenance_paths": {}
 }

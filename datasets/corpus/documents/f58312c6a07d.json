@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:41.045011Z",
   "content_hash": "59dd20be072858d2bbab7d9287bec204f0fbed1e935e2cd7296802f3d04b85b1",
   "word_count": 46,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Approval authority",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Approval authority",
         "Approval authority"
       ],
       "text": "Approval authority",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Approval authority",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Approval authority",
         "Approval authority"
       ],
       "text": "Stop work orders and notices of termination must be approved and signed by the buyer in accordance with the procurement risk assessment for amendments (PRAA). The total contract value at the time of termination is used in the value question of the PRAA .",

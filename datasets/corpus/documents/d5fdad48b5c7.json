@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:57.818491Z",
-  "content_hash": "705ca9ae93cb810786fda8ae606decd0d2a20503e2231f1afe8ba435fa794e07",
-  "word_count": 38,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e131b5f0e6c20a81abba3573396ab7983774c3814039a934d057336f8582bc47",
+  "word_count": 19,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -980,42 +980,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations",
+      "block_type": "heading",
+      "heading": "Other planning considerations",
       "heading_path": [
-        "Buyer's Guide Other planning considerations"
+        "Other planning considerations"
       ],
-      "text": "Other planning considerations This section provides information on other elements you will need to consider when planning a procurement.",
+      "text": "Other planning considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Other planning considerations",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations",
-        "Other planning considerations"
-      ],
-      "text": "Other planning considerations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Other planning considerations",
       "heading_path": [
-        "Buyer's Guide Other planning considerations",
         "Other planning considerations"
       ],
       "text": "This section provides information on other elements you will need to consider when planning a procurement.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Other planning considerations This section provides information on other elements you will need to consider when planning a procurement.\n\nOther planning considerations\n\nThis section provides information on other elements you will need to consider when planning a procurement.",
-  "markdown_text": "Other planning considerations This section provides information on other elements you will need to consider when planning a procurement.\n\nOther planning considerations\n\nThis section provides information on other elements you will need to consider when planning a procurement.",
+  "raw_text": "Other planning considerations\n\nThis section provides information on other elements you will need to consider when planning a procurement.",
+  "markdown_text": "Other planning considerations\n\nThis section provides information on other elements you will need to consider when planning a procurement.",
   "provenance_paths": {}
 }

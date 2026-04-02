@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:50.021617Z",
-  "content_hash": "553c137d750b812e5473176ff0602fc5f713f7813e8e3fb745bdc05861a3bcc7",
-  "word_count": 766,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "610d0b4183479e56126de85d595f8a77286f5998c3d45915db2f3977da6329d0",
+  "word_count": 408,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,11 +961,9 @@
     {
       "block_id": "block_0000",
       "block_type": "paragraph",
-      "heading": "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors"
-      ],
-      "text": "Withholding for non-resident contractors Following section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada. The resulting contract clauses include provisions regarding the withholding of 15%. Client responsibilities Unless the contractor obtains a valid waiver, the client must, where applicable: withhold the 15%, in lieu of taxes remit the withheld amount to the CRA report the amounts paid and withheld to CRA Exclusions from withholding Payments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents. Exception for travel expenses The CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Contracts for multinational services For contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Reductions or waivers Although most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA . Contact Clients and businesses may contact the CRA for more information.",
+      "heading": null,
+      "heading_path": [],
+      "text": ".certificate-box { border: 2px solid black; padding: 20px; width: 70%; margin: auto; text-align: center; font-family: Arial, sans-serif; } .left-align { text-align: left; margin-left: 20px; }",
       "order": 0,
       "metadata": {}
     },
@@ -974,7 +972,6 @@
       "block_type": "heading",
       "heading": "Withholding for non-resident contractors",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors"
       ],
       "text": "Withholding for non-resident contractors",
@@ -986,7 +983,6 @@
       "block_type": "paragraph",
       "heading": "Withholding for non-resident contractors",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors"
       ],
       "text": "Following section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada.",
@@ -998,7 +994,6 @@
       "block_type": "paragraph",
       "heading": "Withholding for non-resident contractors",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors"
       ],
       "text": "The resulting contract clauses include provisions regarding the withholding of 15%.",
@@ -1010,7 +1005,6 @@
       "block_type": "heading",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Client responsibilities"
       ],
@@ -1023,7 +1017,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Client responsibilities"
       ],
@@ -1036,7 +1029,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Client responsibilities"
       ],
@@ -1049,7 +1041,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Client responsibilities"
       ],
@@ -1062,7 +1053,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Client responsibilities"
       ],
@@ -1075,7 +1065,6 @@
       "block_type": "heading",
       "heading": "Exclusions from withholding",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Exclusions from withholding"
       ],
@@ -1088,7 +1077,6 @@
       "block_type": "paragraph",
       "heading": "Exclusions from withholding",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Exclusions from withholding"
       ],
@@ -1101,7 +1089,6 @@
       "block_type": "heading",
       "heading": "Exception for travel expenses",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Exception for travel expenses"
       ],
@@ -1114,7 +1101,6 @@
       "block_type": "paragraph",
       "heading": "Exception for travel expenses",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Exception for travel expenses"
       ],
@@ -1127,7 +1113,6 @@
       "block_type": "heading",
       "heading": "Contracts for multinational services",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Contracts for multinational services"
       ],
@@ -1140,7 +1125,6 @@
       "block_type": "paragraph",
       "heading": "Contracts for multinational services",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Contracts for multinational services"
       ],
@@ -1153,7 +1137,6 @@
       "block_type": "heading",
       "heading": "Reductions or waivers",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Reductions or waivers"
       ],
@@ -1166,7 +1149,6 @@
       "block_type": "paragraph",
       "heading": "Reductions or waivers",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Reductions or waivers"
       ],
@@ -1179,7 +1161,6 @@
       "block_type": "heading",
       "heading": "Contact",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Contact"
       ],
@@ -1192,7 +1173,6 @@
       "block_type": "paragraph",
       "heading": "Contact",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Withholding for non-resident contractors",
         "Withholding for non-resident contractors",
         "Contact"
       ],
@@ -1202,7 +1182,7 @@
     }
   ],
   "metadata": {},
-  "raw_text": "Withholding for non-resident contractors Following section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada. The resulting contract clauses include provisions regarding the withholding of 15%. Client responsibilities Unless the contractor obtains a valid waiver, the client must, where applicable: withhold the 15%, in lieu of taxes remit the withheld amount to the CRA report the amounts paid and withheld to CRA Exclusions from withholding Payments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents. Exception for travel expenses The CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Contracts for multinational services For contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Reductions or waivers Although most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA . Contact Clients and businesses may contact the CRA for more information.\n\nWithholding for non-resident contractors\n\nFollowing section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada.\n\nThe resulting contract clauses include provisions regarding the withholding of 15%.\n\nClient responsibilities\n\nUnless the contractor obtains a valid waiver, the client must, where applicable:\n\nwithhold the 15%, in lieu of taxes\n\nremit the withheld amount to the CRA\n\nreport the amounts paid and withheld to CRA\n\nExclusions from withholding\n\nPayments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents.\n\nException for travel expenses\n\nThe CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nContracts for multinational services\n\nFor contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nReductions or waivers\n\nAlthough most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA .\n\nContact\n\nClients and businesses may contact the CRA for more information.",
-  "markdown_text": "Withholding for non-resident contractors Following section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada. The resulting contract clauses include provisions regarding the withholding of 15%. Client responsibilities Unless the contractor obtains a valid waiver, the client must, where applicable: withhold the 15%, in lieu of taxes remit the withheld amount to the CRA report the amounts paid and withheld to CRA Exclusions from withholding Payments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents. Exception for travel expenses The CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Contracts for multinational services For contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada . Reductions or waivers Although most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA . Contact Clients and businesses may contact the CRA for more information.\n\nWithholding for non-resident contractors\n\nFollowing section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada.\n\nThe resulting contract clauses include provisions regarding the withholding of 15%.\n\nClient responsibilities\n\nUnless the contractor obtains a valid waiver, the client must, where applicable:\n\nwithhold the 15%, in lieu of taxes\n\nremit the withheld amount to the CRA\n\nreport the amounts paid and withheld to CRA\n\nExclusions from withholding\n\nPayments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents.\n\nException for travel expenses\n\nThe CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nContracts for multinational services\n\nFor contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nReductions or waivers\n\nAlthough most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA .\n\nContact\n\nClients and businesses may contact the CRA for more information.",
+  "raw_text": ".certificate-box { border: 2px solid black; padding: 20px; width: 70%; margin: auto; text-align: center; font-family: Arial, sans-serif; } .left-align { text-align: left; margin-left: 20px; }\n\nWithholding for non-resident contractors\n\nFollowing section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada.\n\nThe resulting contract clauses include provisions regarding the withholding of 15%.\n\nClient responsibilities\n\nUnless the contractor obtains a valid waiver, the client must, where applicable:\n\nwithhold the 15%, in lieu of taxes\n\nremit the withheld amount to the CRA\n\nreport the amounts paid and withheld to CRA\n\nExclusions from withholding\n\nPayments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents.\n\nException for travel expenses\n\nThe CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nContracts for multinational services\n\nFor contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nReductions or waivers\n\nAlthough most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA .\n\nContact\n\nClients and businesses may contact the CRA for more information.",
+  "markdown_text": ".certificate-box { border: 2px solid black; padding: 20px; width: 70%; margin: auto; text-align: center; font-family: Arial, sans-serif; } .left-align { text-align: left; margin-left: 20px; }\n\nWithholding for non-resident contractors\n\nFollowing section 153 of the Income Tax Act and subsection 105(1) of the Income Tax Regulations , if the contractor is not a resident of Canada, the client must withhold 15% of the amount to be paid to the contractor for services provided in Canada. Unless the Contractor obtains a valid waiver from the CRA . The amount withheld will be credited towards any taxes the contractor may owe to Canada.\n\nThe resulting contract clauses include provisions regarding the withholding of 15%.\n\nClient responsibilities\n\nUnless the contractor obtains a valid waiver, the client must, where applicable:\n\nwithhold the 15%, in lieu of taxes\n\nremit the withheld amount to the CRA\n\nreport the amounts paid and withheld to CRA\n\nExclusions from withholding\n\nPayments for employment duties performed in Canada made to non-resident individuals do not require the 15% withholding, but are subject to tax deductions on a basis, like those for residents.\n\nException for travel expenses\n\nThe CRA provides an administrative exception from withholding for reasonable travel expenses. Clients should consult paragraphs 24-26 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nContracts for multinational services\n\nFor contracts that include services to be performed in multiple countries, including Canada, an allocation of the contract price is required. Only the portion of the payment attributable to services performed in Canada is subject to the 15% withholding. Clients should consult sections 32-34 of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada .\n\nReductions or waivers\n\nAlthough most tax treaties between Canada and other countries provide for some relief from Canadian tax, Canada does not normally waive its right to withhold tax . If a non-resident contractor can prove that the withholding exceeds their tax liability or creates undue hardship, then the CRA may allow a reduction of the withholding. The procedure to apply for a reduction is detailed in Appendices A and B of CRA IC75-6R2: Required Withholding from Amounts Paid to Non-Residents Providing Services in Canada and in in CRA T4061 NR4: Non-resident Tax Withholding, Remitting, and Reporting . Requests for a waiver or a reduction will not be entertained unless deductions at source are remitted to CRA .\n\nContact\n\nClients and businesses may contact the CRA for more information.",
   "provenance_paths": {}
 }

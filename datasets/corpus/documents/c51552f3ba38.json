@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:22.068753Z",
-  "content_hash": "bf6cd5314119b13ff1d5f396345686a931ea637ce94b143c354448570bc45231",
-  "word_count": 78,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "ced678ba035c9b773369b0fb905dc6425579c21516e3d0ad60b27749eb6f7b4c",
+  "word_count": 39,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,42 +617,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Special considerations - Trade-ins",
+      "block_type": "heading",
+      "heading": "Trade-ins",
       "heading_path": [
-        "Buyer's Guide Special considerations - Trade-ins"
+        "Trade-ins"
       ],
-      "text": "Trade-ins PSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
+      "text": "Trade-ins",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Trade-ins",
-      "heading_path": [
-        "Buyer's Guide Special considerations - Trade-ins",
-        "Trade-ins"
-      ],
-      "text": "Trade-ins",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Trade-ins",
       "heading_path": [
-        "Buyer's Guide Special considerations - Trade-ins",
         "Trade-ins"
       ],
       "text": "PSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Trade-ins PSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.\n\nTrade-ins\n\nPSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
-  "markdown_text": "Trade-ins PSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.\n\nTrade-ins\n\nPSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
+  "raw_text": "Trade-ins\n\nPSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
+  "markdown_text": "Trade-ins\n\nPSPC contracts that involve trade-ins must first be approved through disposal operations procedures. They are then subject to the normal contract approval process and authorities. Do not consider the trade-in value when determining the required level of authority.",
   "provenance_paths": {}
 }

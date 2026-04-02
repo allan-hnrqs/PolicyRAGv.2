@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:25.204876Z",
-  "content_hash": "aff23e6e159efe28dbda056ed07aeb180cdd69c1ac180c356546ec42c028024c",
-  "word_count": 340,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "995c7b3415efc34f7396f20c1cb1cc260b3f08fb336f2ba76b89eb9870afb808",
+  "word_count": 170,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
+      "block_type": "heading",
+      "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements"
+        "Security in standing offers and supply arrangements"
       ],
-      "text": "Security in standing offers and supply arrangements When buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on: how to identify which level of security applies in resulting contracts the client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up Note: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific. All resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
+      "text": "Security in standing offers and supply arrangements",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
         "Security in standing offers and supply arrangements"
       ],
-      "text": "Security in standing offers and supply arrangements",
+      "text": "When buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
         "Security in standing offers and supply arrangements"
       ],
-      "text": "When buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:",
+      "text": "how to identify which level of security applies in resulting contracts",
       "order": 2,
       "metadata": {}
     },
@@ -998,22 +996,20 @@
       "block_type": "list_item",
       "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
         "Security in standing offers and supply arrangements"
       ],
-      "text": "how to identify which level of security applies in resulting contracts",
+      "text": "the client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
         "Security in standing offers and supply arrangements"
       ],
-      "text": "the client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up",
+      "text": "Note: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.",
       "order": 4,
       "metadata": {}
     },
@@ -1022,28 +1018,15 @@
       "block_type": "paragraph",
       "heading": "Security in standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
-        "Security in standing offers and supply arrangements"
-      ],
-      "text": "Note: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.",
-      "order": 5,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Security in standing offers and supply arrangements",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in standing offers and supply arrangements",
         "Security in standing offers and supply arrangements"
       ],
       "text": "All resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
-      "order": 6,
+      "order": 5,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Security in standing offers and supply arrangements When buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on: how to identify which level of security applies in resulting contracts the client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up Note: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific. All resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.\n\nSecurity in standing offers and supply arrangements\n\nWhen buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:\n\nhow to identify which level of security applies in resulting contracts\n\nthe client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up\n\nNote: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.\n\nAll resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
-  "markdown_text": "Security in standing offers and supply arrangements When buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on: how to identify which level of security applies in resulting contracts the client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up Note: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific. All resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.\n\nSecurity in standing offers and supply arrangements\n\nWhen buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:\n\nhow to identify which level of security applies in resulting contracts\n\nthe client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up\n\nNote: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.\n\nAll resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
+  "raw_text": "Security in standing offers and supply arrangements\n\nWhen buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:\n\nhow to identify which level of security applies in resulting contracts\n\nthe client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up\n\nNote: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.\n\nAll resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
+  "markdown_text": "Security in standing offers and supply arrangements\n\nWhen buyers and clients decide to use a standing offer or supply arrangement method of supply for procurements with a contract security requirement, the request should specify the required minimum level of security clearance. It should also indicate under what circumstances a higher security level would be required. Clear instructions must be provided on:\n\nhow to identify which level of security applies in resulting contracts\n\nthe client’s duty to confirm with the CSP that the offeror meets the security requirement, before issuing a contract or call-up\n\nNote: When security capabilities like document safeguarding, IT (including cloud computing), production, and/or COMSEC are needed, verification of these specific security types from the CSP is crucial as they are contract-specific.\n\nAll resulting call-ups and contracts with security requirements must clearly state the security categorization, and the applicable SRCL must be attached to the call-up or contract documentation. A copy of all awarded call-ups and contracts with security requirements must be sent to the CSP via email.",
   "provenance_paths": {}
 }

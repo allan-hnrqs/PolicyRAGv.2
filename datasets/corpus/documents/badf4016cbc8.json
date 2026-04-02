@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:28.630417Z",
   "content_hash": "9d85aab52ad0074aa90dc5dc8689eea2220914bbc8b24d5c30250594d32a7186",
   "word_count": 144,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Interest payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Interest payments",
         "Interest payments"
       ],
       "text": "Interest payments",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Interest payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Interest payments",
         "Interest payments"
       ],
       "text": "Canada pays for work performed or goods received under a contract in accordance with Canada's standard payment period of 30 days as provided in the general conditions. The general conditions also reflect Canada's policy to automatically pay interest to contractors when an account is overdue, and Canada is responsible for the delay.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Interest payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Interest payments",
         "Interest payments"
       ],
       "text": "When dealing with federally or provincially regulated public utility companies, the conditions for payment of interest must conform to those approved by the appropriate regulatory bodies.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Interest payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Interest payments",
         "Interest payments"
       ],
       "text": "The provisions for payment of interest on overdue accounts set out in the general conditions must be strictly adhered to, except in special cases where the client department requisition specifies a payment period longer than 30 days (for example, when extensive product evaluation, inspection or testing requirements are involved). In such cases, the general conditions may be modified subject to consultation with Legal Services.",

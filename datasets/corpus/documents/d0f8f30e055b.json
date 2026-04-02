@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:54.052636Z",
-  "content_hash": "83069c9865a9d76d69e2d7120756fedfcfede4831d3f7c812c90684b35b14374",
-  "word_count": 1558,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b0e0f0bc25980169a65d6cfa6ca39330b97599d2a3f43f731305e4dfa64223a7",
+  "word_count": 779,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -619,24 +619,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
+      "block_type": "heading",
+      "heading": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)"
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)"
       ],
-      "text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation) PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities. Exceptions to internal approval authorities There are several exceptions to PSPC ’s internal approval authorities. Former public servants The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000. In addition, ministerial approval is required in the following cases: when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000 when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure. Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act . Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved. Confirming orders Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM). Royalty payments For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty. If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply. To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include: detailed description of the royalties forecast of anticipated future purchases beyond the current contract comments from legal services National Security Exception The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place. Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception. Integrity provisions Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request. When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG). ADM level approvals must be submitted to APIS by email DG level approvals must follow the established processes within the sector or region Buyers may contact APIS for support Heightened integrity approval is not required when issuing: an amendment where the Integrity Provisions were not modified a call-up a contract resulting from a supply arrangement or a task authorization Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
+      "text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)"
       ],
-      "text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+      "text": "PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).",
       "order": 1,
       "metadata": {}
     },
@@ -645,62 +644,59 @@
       "block_type": "paragraph",
       "heading": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)"
       ],
-      "text": "PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).",
+      "text": "TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+      "block_type": "heading",
+      "heading": "Exceptions to internal approval authorities",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)"
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities"
       ],
-      "text": "TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.",
+      "text": "Exceptions to internal approval authorities",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Exceptions to internal approval authorities",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities"
       ],
-      "text": "Exceptions to internal approval authorities",
+      "text": "There are several exceptions to PSPC ’s internal approval authorities.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Exceptions to internal approval authorities",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities"
-      ],
-      "text": "There are several exceptions to PSPC ’s internal approval authorities.",
-      "order": 5,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0006",
       "block_type": "heading",
       "heading": "Former public servants",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Former public servants"
       ],
       "text": "Former public servants",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Former public servants",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Former public servants"
+      ],
+      "text": "The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.",
       "order": 6,
       "metadata": {}
     },
@@ -709,26 +705,24 @@
       "block_type": "paragraph",
       "heading": "Former public servants",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Former public servants"
-      ],
-      "text": "The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Former public servants",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Former public servants"
       ],
       "text": "In addition, ministerial approval is required in the following cases:",
+      "order": 7,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0008",
+      "block_type": "list_item",
+      "heading": "Former public servants",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Former public servants"
+      ],
+      "text": "when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000",
       "order": 8,
       "metadata": {}
     },
@@ -737,26 +731,24 @@
       "block_type": "list_item",
       "heading": "Former public servants",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Former public servants"
-      ],
-      "text": "when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
-      "block_type": "list_item",
-      "heading": "Former public servants",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Former public servants"
       ],
       "text": "when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Former public servants",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Former public servants"
+      ],
+      "text": "Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.",
       "order": 10,
       "metadata": {}
     },
@@ -765,12 +757,11 @@
       "block_type": "paragraph",
       "heading": "Former public servants",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Former public servants"
       ],
-      "text": "Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.",
+      "text": "Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .",
       "order": 11,
       "metadata": {}
     },
@@ -779,68 +770,63 @@
       "block_type": "paragraph",
       "heading": "Former public servants",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Former public servants"
-      ],
-      "text": "Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Former public servants",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Former public servants"
       ],
       "text": "Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.",
-      "order": 13,
+      "order": 12,
       "metadata": {}
     },
     {
-      "block_id": "block_0014",
+      "block_id": "block_0013",
       "block_type": "heading",
       "heading": "Confirming orders",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Confirming orders"
       ],
       "text": "Confirming orders",
-      "order": 14,
+      "order": 13,
       "metadata": {}
     },
     {
-      "block_id": "block_0015",
+      "block_id": "block_0014",
       "block_type": "paragraph",
       "heading": "Confirming orders",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Confirming orders"
       ],
       "text": "Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "heading",
       "heading": "Royalty payments",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Royalty payments"
       ],
       "text": "Royalty payments",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Royalty payments",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Royalty payments"
+      ],
+      "text": "For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.",
       "order": 16,
       "metadata": {}
     },
@@ -849,12 +835,11 @@
       "block_type": "paragraph",
       "heading": "Royalty payments",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Royalty payments"
       ],
-      "text": "For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.",
+      "text": "If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.",
       "order": 17,
       "metadata": {}
     },
@@ -863,26 +848,24 @@
       "block_type": "paragraph",
       "heading": "Royalty payments",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Royalty payments"
-      ],
-      "text": "If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.",
-      "order": 18,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0019",
-      "block_type": "paragraph",
-      "heading": "Royalty payments",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Royalty payments"
       ],
       "text": "To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "list_item",
+      "heading": "Royalty payments",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Royalty payments"
+      ],
+      "text": "detailed description of the royalties",
       "order": 19,
       "metadata": {}
     },
@@ -891,12 +874,11 @@
       "block_type": "list_item",
       "heading": "Royalty payments",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Royalty payments"
       ],
-      "text": "detailed description of the royalties",
+      "text": "forecast of anticipated future purchases beyond the current contract",
       "order": 20,
       "metadata": {}
     },
@@ -905,40 +887,37 @@
       "block_type": "list_item",
       "heading": "Royalty payments",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Royalty payments"
-      ],
-      "text": "forecast of anticipated future purchases beyond the current contract",
-      "order": 21,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0022",
-      "block_type": "list_item",
-      "heading": "Royalty payments",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Royalty payments"
       ],
       "text": "comments from legal services",
-      "order": 22,
+      "order": 21,
       "metadata": {}
     },
     {
-      "block_id": "block_0023",
+      "block_id": "block_0022",
       "block_type": "heading",
       "heading": "National Security Exception",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "National Security Exception"
       ],
       "text": "National Security Exception",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "paragraph",
+      "heading": "National Security Exception",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "National Security Exception"
+      ],
+      "text": "The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.",
       "order": 23,
       "metadata": {}
     },
@@ -947,40 +926,37 @@
       "block_type": "paragraph",
       "heading": "National Security Exception",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "National Security Exception"
-      ],
-      "text": "The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.",
-      "order": 24,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0025",
-      "block_type": "paragraph",
-      "heading": "National Security Exception",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "National Security Exception"
       ],
       "text": "Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.",
-      "order": 25,
+      "order": 24,
       "metadata": {}
     },
     {
-      "block_id": "block_0026",
+      "block_id": "block_0025",
       "block_type": "heading",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "Integrity provisions",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "paragraph",
+      "heading": "Integrity provisions",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Integrity provisions"
+      ],
+      "text": "Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.",
       "order": 26,
       "metadata": {}
     },
@@ -989,26 +965,24 @@
       "block_type": "paragraph",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Integrity provisions"
-      ],
-      "text": "Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.",
-      "order": 27,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0028",
-      "block_type": "paragraph",
-      "heading": "Integrity provisions",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "list_item",
+      "heading": "Integrity provisions",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Integrity provisions"
+      ],
+      "text": "ADM level approvals must be submitted to APIS by email",
       "order": 28,
       "metadata": {}
     },
@@ -1017,12 +991,11 @@
       "block_type": "list_item",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
-      "text": "ADM level approvals must be submitted to APIS by email",
+      "text": "DG level approvals must follow the established processes within the sector or region",
       "order": 29,
       "metadata": {}
     },
@@ -1031,40 +1004,37 @@
       "block_type": "list_item",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Integrity provisions"
-      ],
-      "text": "DG level approvals must follow the established processes within the sector or region",
-      "order": 30,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0031",
-      "block_type": "list_item",
-      "heading": "Integrity provisions",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "Buyers may contact APIS for support",
-      "order": 31,
+      "order": 30,
       "metadata": {}
     },
     {
-      "block_id": "block_0032",
+      "block_id": "block_0031",
       "block_type": "paragraph",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "Heightened integrity approval is not required when issuing:",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "list_item",
+      "heading": "Integrity provisions",
+      "heading_path": [
+        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
+        "Exceptions to internal approval authorities",
+        "Integrity provisions"
+      ],
+      "text": "an amendment where the Integrity Provisions were not modified",
       "order": 32,
       "metadata": {}
     },
@@ -1073,12 +1043,11 @@
       "block_type": "list_item",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
-      "text": "an amendment where the Integrity Provisions were not modified",
+      "text": "a call-up",
       "order": 33,
       "metadata": {}
     },
@@ -1087,12 +1056,11 @@
       "block_type": "list_item",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
-      "text": "a call-up",
+      "text": "a contract resulting from a supply arrangement",
       "order": 34,
       "metadata": {}
     },
@@ -1101,46 +1069,30 @@
       "block_type": "list_item",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
-        "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
-        "Exceptions to internal approval authorities",
-        "Integrity provisions"
-      ],
-      "text": "a contract resulting from a supply arrangement",
-      "order": 35,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0036",
-      "block_type": "list_item",
-      "heading": "Integrity provisions",
-      "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "or a task authorization",
-      "order": 36,
+      "order": 35,
       "metadata": {}
     },
     {
-      "block_id": "block_0037",
+      "block_id": "block_0036",
       "block_type": "paragraph",
       "heading": "Integrity provisions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)",
         "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)",
         "Exceptions to internal approval authorities",
         "Integrity provisions"
       ],
       "text": "Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
-      "order": 37,
+      "order": 36,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation) PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities. Exceptions to internal approval authorities There are several exceptions to PSPC ’s internal approval authorities. Former public servants The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000. In addition, ministerial approval is required in the following cases: when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000 when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure. Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act . Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved. Confirming orders Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM). Royalty payments For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty. If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply. To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include: detailed description of the royalties forecast of anticipated future purchases beyond the current contract comments from legal services National Security Exception The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place. Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception. Integrity provisions Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request. When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG). ADM level approvals must be submitted to APIS by email DG level approvals must follow the established processes within the sector or region Buyers may contact APIS for support Heightened integrity approval is not required when issuing: an amendment where the Integrity Provisions were not modified a call-up a contract resulting from a supply arrangement or a task authorization Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.\n\nApproval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)\n\nPSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.\n\nExceptions to internal approval authorities\n\nThere are several exceptions to PSPC ’s internal approval authorities.\n\nFormer public servants\n\nThe contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.\n\nIn addition, ministerial approval is required in the following cases:\n\nwhen entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000\n\nwhen entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days\n\nNote : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.\n\nMinisterial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .\n\nNote : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.\n\nConfirming orders\n\nSubmissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).\n\nRoyalty payments\n\nFor contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.\n\nIf there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.\n\nTo obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:\n\ndetailed description of the royalties\n\nforecast of anticipated future purchases beyond the current contract\n\ncomments from legal services\n\nNational Security Exception\n\nThe Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.\n\nFollowing NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.\n\nIntegrity provisions\n\nBefore entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.\n\nWhen an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).\n\nADM level approvals must be submitted to APIS by email\n\nDG level approvals must follow the established processes within the sector or region\n\nBuyers may contact APIS for support\n\nHeightened integrity approval is not required when issuing:\n\nan amendment where the Integrity Provisions were not modified\n\na call-up\n\na contract resulting from a supply arrangement\n\nor a task authorization\n\nBuyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
-  "markdown_text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation) PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities. Exceptions to internal approval authorities There are several exceptions to PSPC ’s internal approval authorities. Former public servants The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000. In addition, ministerial approval is required in the following cases: when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000 when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure. Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act . Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved. Confirming orders Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM). Royalty payments For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty. If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply. To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include: detailed description of the royalties forecast of anticipated future purchases beyond the current contract comments from legal services National Security Exception The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place. Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception. Integrity provisions Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request. When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG). ADM level approvals must be submitted to APIS by email DG level approvals must follow the established processes within the sector or region Buyers may contact APIS for support Heightened integrity approval is not required when issuing: an amendment where the Integrity Provisions were not modified a call-up a contract resulting from a supply arrangement or a task authorization Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.\n\nApproval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)\n\nPSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.\n\nExceptions to internal approval authorities\n\nThere are several exceptions to PSPC ’s internal approval authorities.\n\nFormer public servants\n\nThe contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.\n\nIn addition, ministerial approval is required in the following cases:\n\nwhen entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000\n\nwhen entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days\n\nNote : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.\n\nMinisterial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .\n\nNote : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.\n\nConfirming orders\n\nSubmissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).\n\nRoyalty payments\n\nFor contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.\n\nIf there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.\n\nTo obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:\n\ndetailed description of the royalties\n\nforecast of anticipated future purchases beyond the current contract\n\ncomments from legal services\n\nNational Security Exception\n\nThe Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.\n\nFollowing NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.\n\nIntegrity provisions\n\nBefore entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.\n\nWhen an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).\n\nADM level approvals must be submitted to APIS by email\n\nDG level approvals must follow the established processes within the sector or region\n\nBuyers may contact APIS for support\n\nHeightened integrity approval is not required when issuing:\n\nan amendment where the Integrity Provisions were not modified\n\na call-up\n\na contract resulting from a supply arrangement\n\nor a task authorization\n\nBuyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
+  "raw_text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)\n\nPSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.\n\nExceptions to internal approval authorities\n\nThere are several exceptions to PSPC ’s internal approval authorities.\n\nFormer public servants\n\nThe contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.\n\nIn addition, ministerial approval is required in the following cases:\n\nwhen entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000\n\nwhen entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days\n\nNote : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.\n\nMinisterial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .\n\nNote : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.\n\nConfirming orders\n\nSubmissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).\n\nRoyalty payments\n\nFor contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.\n\nIf there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.\n\nTo obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:\n\ndetailed description of the royalties\n\nforecast of anticipated future purchases beyond the current contract\n\ncomments from legal services\n\nNational Security Exception\n\nThe Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.\n\nFollowing NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.\n\nIntegrity provisions\n\nBefore entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.\n\nWhen an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).\n\nADM level approvals must be submitted to APIS by email\n\nDG level approvals must follow the established processes within the sector or region\n\nBuyers may contact APIS for support\n\nHeightened integrity approval is not required when issuing:\n\nan amendment where the Integrity Provisions were not modified\n\na call-up\n\na contract resulting from a supply arrangement\n\nor a task authorization\n\nBuyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
+  "markdown_text": "Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)\n\nPSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.\n\nExceptions to internal approval authorities\n\nThere are several exceptions to PSPC ’s internal approval authorities.\n\nFormer public servants\n\nThe contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.\n\nIn addition, ministerial approval is required in the following cases:\n\nwhen entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000\n\nwhen entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days\n\nNote : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.\n\nMinisterial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .\n\nNote : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.\n\nConfirming orders\n\nSubmissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).\n\nRoyalty payments\n\nFor contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.\n\nIf there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.\n\nTo obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:\n\ndetailed description of the royalties\n\nforecast of anticipated future purchases beyond the current contract\n\ncomments from legal services\n\nNational Security Exception\n\nThe Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.\n\nFollowing NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.\n\nIntegrity provisions\n\nBefore entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.\n\nWhen an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).\n\nADM level approvals must be submitted to APIS by email\n\nDG level approvals must follow the established processes within the sector or region\n\nBuyers may contact APIS for support\n\nHeightened integrity approval is not required when issuing:\n\nan amendment where the Integrity Provisions were not modified\n\na call-up\n\na contract resulting from a supply arrangement\n\nor a task authorization\n\nBuyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.",
   "provenance_paths": {}
 }

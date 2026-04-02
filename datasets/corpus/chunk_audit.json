@@ -1,0 +1,239 @@
+{
+  "document_count": 230,
+  "chunk_count": 4002,
+  "source_family_counts": {
+    "buyers_guide": 227,
+    "buy_canadian_policy": 2,
+    "tbs_directive": 1
+  },
+  "chunk_type_counts": {
+    "grouped_section": 433,
+    "list_item": 1417,
+    "paragraph": 2015,
+    "table_row": 137
+  },
+  "chunk_char_stats": {
+    "count": 4002,
+    "mean": 225.0,
+    "p50": 202,
+    "p90": 378,
+    "p95": 449,
+    "p99": 603,
+    "max": 805
+  },
+  "tiny_chunk_counts": {
+    "le_25_chars": 6,
+    "le_50_chars": 66
+  },
+  "oversized_chunk_counts": {
+    "ge_1200_chars": 0,
+    "ge_2000_chars": 0,
+    "ge_8000_chars": 0
+  },
+  "duplicated_first_block_summary": {
+    "doc_count": 0,
+    "duplicated_first_block_chars": 0,
+    "share_of_total_chunk_chars": 0.0,
+    "examples": []
+  },
+  "table_spill_summary": {
+    "doc_count": 0,
+    "examples": []
+  },
+  "short_fragment_doc_summary": {
+    "doc_count": 0,
+    "examples": []
+  },
+  "long_chunk_examples": [
+    {
+      "chunk_id": "07ebc6630f80__section__14",
+      "doc_id": "07ebc6630f80",
+      "title": "Socioeconomic considerations - Green procurement | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 805
+    },
+    {
+      "chunk_id": "b13ccce4b017__section__31",
+      "doc_id": "b13ccce4b017",
+      "title": "Determine the procurement strategy - Determine the sourcing strategy | CanadaBuys",
+      "chunk_type": "list_item",
+      "chars": 788
+    },
+    {
+      "chunk_id": "07ebc6630f80__section__5",
+      "doc_id": "07ebc6630f80",
+      "title": "Socioeconomic considerations - Green procurement | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 744
+    },
+    {
+      "chunk_id": "c588b7584d51__section__12",
+      "doc_id": "c588b7584d51",
+      "title": "Cost and profit negotiations - Analyze and negotiate profit | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 700
+    },
+    {
+      "chunk_id": "f2ddac70e712__section__0",
+      "doc_id": "f2ddac70e712",
+      "title": "Socioeconomic considerations - Indigenous considerations | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 698
+    },
+    {
+      "chunk_id": "28393b4a7a4b__section__46",
+      "doc_id": "28393b4a7a4b",
+      "title": "Other planning considerations - Emergency requirements | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 692
+    },
+    {
+      "chunk_id": "8489918af7e5__section__0",
+      "doc_id": "8489918af7e5",
+      "title": "Completing the Security Requirements Check List | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 690
+    },
+    {
+      "chunk_id": "7b9dc6f4487f__section__1",
+      "doc_id": "7b9dc6f4487f",
+      "title": "Other planning considerations - Employer/employee relationship | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 689
+    },
+    {
+      "chunk_id": "92b7c88298dc__section__88",
+      "doc_id": "92b7c88298dc",
+      "title": "Prepare approval documents - Contract amendment | CanadaBuys",
+      "chunk_type": "grouped_section",
+      "chars": 689
+    },
+    {
+      "chunk_id": "73da306eada0__section__3",
+      "doc_id": "73da306eada0",
+      "title": "Offer evaluation - Conduct a technical evaluation | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 677
+    },
+    {
+      "chunk_id": "b13ccce4b017__section__83",
+      "doc_id": "b13ccce4b017",
+      "title": "Determine the procurement strategy - Determine the sourcing strategy | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 675
+    },
+    {
+      "chunk_id": "07ebc6630f80__section__9",
+      "doc_id": "07ebc6630f80",
+      "title": "Socioeconomic considerations - Green procurement | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 673
+    },
+    {
+      "chunk_id": "77e235dd6aca__section__4",
+      "doc_id": "77e235dd6aca",
+      "title": "Contract security and privacy requirements - Privacy and confidentiality | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 673
+    },
+    {
+      "chunk_id": "9e57865c383b__section__103",
+      "doc_id": "9e57865c383b",
+      "title": "Determine the procurement strategy - Choose the method of supply | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 666
+    },
+    {
+      "chunk_id": "07ebc6630f80__section__17",
+      "doc_id": "07ebc6630f80",
+      "title": "Socioeconomic considerations - Green procurement | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 665
+    },
+    {
+      "chunk_id": "07ebc6630f80__section__15",
+      "doc_id": "07ebc6630f80",
+      "title": "Socioeconomic considerations - Green procurement | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 661
+    },
+    {
+      "chunk_id": "9628e8cc20fe__section__19",
+      "doc_id": "9628e8cc20fe",
+      "title": "Considerations for solicitations - Method of payment | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 655
+    },
+    {
+      "chunk_id": "28393b4a7a4b__section__26",
+      "doc_id": "28393b4a7a4b",
+      "title": "Other planning considerations - Emergency requirements | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 652
+    },
+    {
+      "chunk_id": "77e235dd6aca__section__2",
+      "doc_id": "77e235dd6aca",
+      "title": "Contract security and privacy requirements - Privacy and confidentiality | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 650
+    },
+    {
+      "chunk_id": "6b9f8798093e__section__25",
+      "doc_id": "6b9f8798093e",
+      "title": "Define the requirement - Socioeconomic requirements definition | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 649
+    }
+  ],
+  "tiny_chunk_examples": [
+    {
+      "chunk_id": "f2ddac70e712__section__119",
+      "doc_id": "f2ddac70e712",
+      "title": "Socioeconomic considerations - Indigenous considerations | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 18,
+      "text": "If yes, see below."
+    },
+    {
+      "chunk_id": "d9b1038061e0__section__29",
+      "doc_id": "d9b1038061e0",
+      "title": "Considerations for solicitations - Exchange rates | CanadaBuys",
+      "chunk_type": "table_row",
+      "chars": 19,
+      "text": "Subtotal: | $21,500"
+    },
+    {
+      "chunk_id": "ace637c4ada3__section__12",
+      "doc_id": "ace637c4ada3",
+      "title": "Other planning considerations - Liability and risk management | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 21,
+      "text": "See Indemnification ."
+    },
+    {
+      "chunk_id": "f2ddac70e712__section__1",
+      "doc_id": "f2ddac70e712",
+      "title": "Socioeconomic considerations - Indigenous considerations | CanadaBuys",
+      "chunk_type": "paragraph",
+      "chars": 21,
+      "text": "Land Claims Agreement"
+    },
+    {
+      "chunk_id": "22293de8ca50__section__43",
+      "doc_id": "22293de8ca50",
+      "title": "Terminate or suspend a contract - Termination for convenience | CanadaBuys",
+      "chunk_type": "list_item",
+      "chars": 23,
+      "text": "disposal is recommended"
+    },
+    {
+      "chunk_id": "a33ae26d066d__section__38",
+      "doc_id": "a33ae26d066d",
+      "title": "Define the requirement - Standards and quality assurance | CanadaBuys",
+      "chunk_type": "grouped_section",
+      "chars": 24,
+      "text": "QPL includes:\n- underlay"
+    }
+  ]
+}

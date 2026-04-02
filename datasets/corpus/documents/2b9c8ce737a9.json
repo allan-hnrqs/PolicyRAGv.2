@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:51.729697Z",
-  "content_hash": "6ba194179b56215291f75040a0b18e3fe443cc5eae523a1c7c0da645898617a3",
-  "word_count": 76,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "34dec964f2066d29bf2ab971650c9ce540b050cbf293aea5d656c2624e0fd9eb",
+  "word_count": 38,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -625,42 +625,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Approvals and authorities",
+      "block_type": "heading",
+      "heading": "Approvals and authorities",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities"
+        "Approvals and authorities"
       ],
-      "text": "Approvals and authorities This section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
+      "text": "Approvals and authorities",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Approvals and authorities",
-      "heading_path": [
-        "Buyer's Guide Approvals and authorities",
-        "Approvals and authorities"
-      ],
-      "text": "Approvals and authorities",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Approvals and authorities",
       "heading_path": [
-        "Buyer's Guide Approvals and authorities",
         "Approvals and authorities"
       ],
       "text": "This section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Approvals and authorities This section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.\n\nApprovals and authorities\n\nThis section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
-  "markdown_text": "Approvals and authorities This section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.\n\nApprovals and authorities\n\nThis section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
+  "raw_text": "Approvals and authorities\n\nThis section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
+  "markdown_text": "Approvals and authorities\n\nThis section provides information on the delegation of authority for Public Service and Procurement Canada (PSPC) buyers. It addresses the authorities for approving and signing procurement documents, the exceptions and the use of these authorities.",
   "provenance_paths": {}
 }

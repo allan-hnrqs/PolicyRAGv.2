@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:33.705742Z",
   "content_hash": "20ab21b9e0c2d07542a802ed6e408d7864b247d512d326475e2e77aa65a7e53d",
   "word_count": 59,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Administrative guidance for implementing contract amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Administrative guidance for implementing contract modifications",
         "Administrative guidance for implementing contract amendments"
       ],
       "text": "Administrative guidance for implementing contract amendments",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Administrative guidance for implementing contract amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Administrative guidance for implementing contract modifications",
         "Administrative guidance for implementing contract amendments"
       ],
       "text": "The guidance detailed below will help you fulfill the administrative requirements for modifying a contract.",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Administrative guidance for implementing contract amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Administrative guidance for implementing contract modifications",
         "Administrative guidance for implementing contract amendments"
       ],
       "text": "Follow the original contract format and identify all modifications",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Administrative guidance for implementing contract amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Administrative guidance for implementing contract modifications",
         "Administrative guidance for implementing contract amendments"
       ],
       "text": "Consolidate multiple changes into a single amendment whenever possible to minimize administrative costs",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Administrative guidance for implementing contract amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Administrative guidance for implementing contract modifications",
         "Administrative guidance for implementing contract amendments"
       ],
       "text": "Ensure amendments receive the same distribution as the original contract to maintain transparency and accurate records",

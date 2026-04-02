@@ -6,7 +6,7 @@ import hashlib
 import re
 from collections import defaultdict
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from bgrag.collect.collector import canonicalize_url
 from bgrag.types import (
@@ -26,10 +26,17 @@ NOISE_PREFIXES = (
     "Report a problem",
 )
 
+EXTRACTION_TAGS = ("h1", "h2", "h3", "h4", "p", "li", "dt", "dd", "table")
+NESTED_BLOCK_TAGS = ("h1", "h2", "h3", "h4", "p", "li", "dt", "dd", "dl", "table", "ul", "ol")
+
 
 def infer_source_family(url: str) -> SourceFamily:
     normalized = canonicalize_url(url).lower()
-    if "buy-canadian-policy" in normalized or "/policies-and-guidelines/policies-directives-and-regulations/" in normalized:
+    if (
+        "buy-canadian-policy" in normalized
+        or "/policies-and-guidelines/policies-directives-and-regulations/" in normalized
+        or "/buyer-s-portal/legislation-and-policies/" in normalized
+    ):
         return SourceFamily.BUY_CANADIAN_POLICY
     if "tbs-sct.canada.ca" in normalized or "pol/doc-eng.aspx" in normalized:
         return SourceFamily.TBS_DIRECTIVE
@@ -48,15 +55,65 @@ def slug_hash(value: str, size: int = 12) -> str:
     return hashlib.sha256(value.encode("utf-8")).hexdigest()[:size]
 
 
+def _class_tokens(node: Tag) -> set[str]:
+    raw = node.get("class") or []
+    if isinstance(raw, str):
+        return set(raw.split())
+    return {str(value) for value in raw}
+
+
+def _text_weight(node: Tag) -> int:
+    return len(_normalize_text(node.get_text(" ", strip=True)))
+
+
+def _first_field_item_with_class(soup: BeautifulSoup, class_name: str) -> Tag | None:
+    for node in soup.find_all(["div", "section", "article"]):
+        classes = _class_tokens(node)
+        if class_name in classes and "field--item" in classes:
+            return node
+        if class_name in classes:
+            descendant = node.find(
+                lambda tag: isinstance(tag, Tag) and "field--item" in _class_tokens(tag)
+            )
+            if descendant is not None:
+                return descendant
+    return None
+
+
 def _content_root(soup: BeautifulSoup):
-    selectors = [
-        "main",
-        "[role='main']",
-        "article",
-        "#wb-cont",
-        ".main-content",
-        ".layout-content",
-    ]
+    for class_name in ("field--name-field-main-content", "field--name-body"):
+        candidate = _first_field_item_with_class(soup, class_name)
+        if candidate is not None and _text_weight(candidate) > 0:
+            return candidate
+
+    scored_candidates: list[tuple[int, Tag]] = []
+    for node in soup.find_all(["div", "section", "article", "main"]):
+        classes = _class_tokens(node)
+        if not classes and node.name != "main":
+            continue
+
+        text_weight = _text_weight(node)
+        if text_weight == 0:
+            continue
+
+        score: int | None = None
+        if "field--name-field-main-content" in classes and "field--item" in classes:
+            score = 300_000 + text_weight
+        elif "field--name-body" in classes and "field--item" in classes:
+            score = 100_000 + text_weight
+        elif node.get("id") == "wb-cont__content":
+            score = 50_000 + text_weight
+        elif node.name == "main":
+            score = 10_000 + text_weight
+
+        if score is not None:
+            scored_candidates.append((score, node))
+
+    if scored_candidates:
+        scored_candidates.sort(key=lambda item: item[0], reverse=True)
+        return scored_candidates[0][1]
+
+    selectors = ("[role='main']", "article", "#wb-cont", ".main-content", ".layout-content")
     for selector in selectors:
         node = soup.select_one(selector)
         if node is not None:
@@ -70,6 +127,93 @@ def _should_drop_text(text: str) -> bool:
     if any(text.startswith(prefix) for prefix in NOISE_PREFIXES):
         return True
     return False
+
+
+def _normalize_text(text: str) -> str:
+    return " ".join(text.split()).strip()
+
+
+def _node_has_nested_blocks(element: Tag) -> bool:
+    return element.find(NESTED_BLOCK_TAGS) is not None
+
+
+def _direct_text_without_nested_blocks(node: Tag) -> str:
+    parts: list[str] = []
+    for child in node.children:
+        if isinstance(child, NavigableString):
+            text = str(child).strip()
+            if text:
+                parts.append(text)
+            continue
+        if not isinstance(child, Tag):
+            continue
+        if child.name in NESTED_BLOCK_TAGS:
+            continue
+        text = _direct_text_without_nested_blocks(child)
+        if text:
+            parts.append(text)
+    return _normalize_text(" ".join(parts))
+
+
+def _serialize_table(element: Tag) -> str:
+    caption = _normalize_text(element.caption.get_text(" ", strip=True)) if element.caption else ""
+    rows: list[str] = []
+    for row in element.find_all("tr"):
+        cells: list[str] = []
+        for cell in row.find_all(["th", "td"], recursive=False):
+            cell_text = _normalize_text(cell.get_text(" ", strip=True))
+            if cell_text:
+                cells.append(cell_text)
+        if cells:
+            rows.append(" | ".join(cells))
+    parts = []
+    if caption:
+        parts.append(caption)
+    parts.extend(rows)
+    return _normalize_text("\n".join(parts)) if parts else _normalize_text(element.get_text(" ", strip=True))
+
+
+def _table_to_row_texts(element: Tag) -> list[str]:
+    caption = _normalize_text(element.caption.get_text(" ", strip=True)) if element.caption else ""
+    rows: list[list[str]] = []
+    first_row_has_header = False
+
+    for row_index, row in enumerate(element.find_all("tr")):
+        cells = row.find_all(["th", "td"], recursive=False)
+        values = [_normalize_text(cell.get_text(" ", strip=True)) for cell in cells]
+        values = [value for value in values if value]
+        if not values:
+            continue
+        if row_index == 0 and any(cell.name == "th" for cell in cells):
+            first_row_has_header = True
+        rows.append(values)
+
+    if not rows:
+        return []
+
+    headers = rows[0]
+    data_rows = rows[1:] if first_row_has_header else rows
+
+    if not first_row_has_header and len(rows) > 1 and len(headers) > 1 and all(len(row) == len(headers) for row in rows[1:]):
+        if all(len(cell) <= 80 for cell in headers):
+            data_rows = rows[1:]
+        else:
+            headers = []
+
+    row_texts: list[str] = []
+    if headers and len(data_rows) >= 1:
+        if caption:
+            row_texts.append(f"{caption} | Columns: {' | '.join(headers)}")
+        for row in data_rows:
+            if len(row) == len(headers):
+                pairs = [f"{headers[index]}: {value}" for index, value in enumerate(row)]
+                row_texts.append(" | ".join(pairs))
+            else:
+                row_texts.append(" | ".join(row))
+        return row_texts
+
+    serialized = _serialize_table(element)
+    return [serialized] if serialized else []
 
 
 def _renumber_blocks(blocks: list[StructureBlock]) -> list[StructureBlock]:
@@ -126,20 +270,78 @@ def html_to_text_blocks(html: str) -> tuple[str, list[StructureBlock], list[Sour
 
     blocks: list[StructureBlock] = []
     current_heading_path: list[str] = []
+    current_heading_levels: list[int] = []
     order = 0
-    for element in root.find_all(["h1", "h2", "h3", "h4", "p", "li", "table"]):
-        text = " ".join(element.get_text(" ", strip=True).split())
+    for element in root.find_all(EXTRACTION_TAGS):
+        if element.name != "table" and element.find_parent("table") is not None:
+            continue
+
+        if re.fullmatch(r"h[1-4]", element.name or ""):
+            text = _normalize_text(element.get_text(" ", strip=True))
+            if _should_drop_text(text) or not text:
+                continue
+            level = int(element.name[1])
+            while current_heading_levels and current_heading_levels[-1] >= level:
+                current_heading_levels.pop()
+                current_heading_path.pop()
+            current_heading_levels.append(level)
+            current_heading_path.append(text)
+            blocks.append(
+                StructureBlock(
+                    block_id=f"block_{order:04d}",
+                    block_type="heading",
+                    heading=current_heading_path[-1],
+                    heading_path=list(current_heading_path),
+                    text=text,
+                    order=order,
+                )
+            )
+            order += 1
+            continue
+
+        if element.name == "table":
+            row_texts = _table_to_row_texts(element)
+            for row_index, row_text in enumerate(row_texts):
+                if _should_drop_text(row_text) or not row_text:
+                    continue
+                blocks.append(
+                    StructureBlock(
+                        block_id=f"block_{order:04d}",
+                        block_type="table" if row_index == 0 and len(row_texts) == 1 else "table_row",
+                        heading=current_heading_path[-1] if current_heading_path else None,
+                        heading_path=list(current_heading_path),
+                        text=row_text,
+                        order=order,
+                    )
+                )
+                order += 1
+            continue
+
+        if element.name == "p":
+            if _node_has_nested_blocks(element):
+                text = _direct_text_without_nested_blocks(element)
+            else:
+                text = _normalize_text(element.get_text(" ", strip=True))
+        elif element.name in {"li", "dd"}:
+            if _node_has_nested_blocks(element):
+                text = _direct_text_without_nested_blocks(element)
+            else:
+                text = _normalize_text(element.get_text(" ", strip=True))
+        elif element.name == "dt":
+            text = _normalize_text(element.get_text(" ", strip=True))
+        else:
+            text = _normalize_text(element.get_text(" ", strip=True))
+
         if _should_drop_text(text):
             continue
-        if re.fullmatch(r"h[1-4]", element.name or ""):
-            level = int(element.name[1])
-            current_heading_path = current_heading_path[: level - 1]
-            current_heading_path.append(text)
-            block_type = "heading"
-        elif element.name == "li":
+        if not text:
+            continue
+        if element.name == "li":
             block_type = "list_item"
-        elif element.name == "table":
-            block_type = "table"
+        elif element.name == "dt":
+            block_type = "definition_term"
+        elif element.name == "dd":
+            block_type = "definition_detail"
         else:
             block_type = "paragraph"
         blocks.append(
@@ -175,7 +377,7 @@ def normalize_document(document: SourceDocument) -> NormalizedDocument:
         fetched_at=document.fetched_at,
         content_hash=hashlib.sha256(raw_text.encode("utf-8")).hexdigest(),
         word_count=len(raw_text.split()),
-        extraction_method="html_regions_v2_main_root",
+        extraction_method="html_regions_v3_block_safe",
         breadcrumbs=breadcrumbs,
         graph=SourceGraph(
             lineage_urls=[canonical_url],

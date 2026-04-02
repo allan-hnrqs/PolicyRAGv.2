@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:47.388583Z",
-  "content_hash": "e9439fbfed10ea600a4e57bde245f4dab9f771e804d2eaf68c791e77ae1998b3",
-  "word_count": 1050,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "087645ed96b77f6f0e74e856b2f7a1e8594f59333f730af5f19ff99f6b370e3d",
+  "word_count": 541,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,120 +960,111 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Financial considerations - Payment instruments",
+      "block_type": "heading",
+      "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments"
+        "Payment instruments"
       ],
-      "text": "Payment instruments Clients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments: Table example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments Electronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment. For more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network). Direct deposit Direct deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information. Acquisition cards Acquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer. Electronic Data Interchange EDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way. Wire transfer Wire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to: large value, low volume and time-sensitive payments payments that need to be issued in a currency other than that of the destination country Large Value Transfer System Large Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
+      "text": "Payment instruments",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Payment instruments",
+      "text": "Clients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Clients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:",
+      "text": "Table example with colour | Columns: Payment instrument | Electronic? | Application",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Table example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments",
+      "text": "Payment instrument: direct deposit | Electronic?: yes | Application: domestic and international payments",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Payment instrument",
+      "text": "Payment instrument: acquisition card (Visa and Mastercard) | Electronic?: yes | Application: domestic and international payments",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Electronic?",
+      "text": "Payment instrument: Electronic Data Interchange ( EDI ) | Electronic?: yes | Application: domestic payments",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "Application",
+      "text": "Payment instrument: wire transfer | Electronic?: yes | Application: international payments",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "direct deposit",
+      "text": "Payment instrument: Large Value Transfer System ( LVTS ) | Electronic?: yes | Application: all domestic payments over $25 million",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "yes",
+      "text": "Payment instrument: cheque | Electronic?: no | Application: domestic and international payments",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "domestic and international payments",
+      "text": "Payment instrument: petty cash | Electronic?: no | Application: domestic payments",
       "order": 9,
       "metadata": {}
     },
@@ -1082,10 +1073,9 @@
       "block_type": "paragraph",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "acquisition card",
+      "text": "Electronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.",
       "order": 10,
       "metadata": {}
     },
@@ -1094,400 +1084,159 @@
       "block_type": "paragraph",
       "heading": "Payment instruments",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments"
       ],
-      "text": "(Visa and Mastercard)",
+      "text": "For more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "heading",
+      "heading": "Direct deposit",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Direct deposit"
       ],
-      "text": "yes",
+      "text": "Direct deposit",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
       "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "heading": "Direct deposit",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Direct deposit"
       ],
-      "text": "domestic and international payments",
+      "text": "Direct deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "heading",
+      "heading": "Acquisition cards",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Acquisition cards"
       ],
-      "text": "Electronic Data Interchange ( EDI )",
+      "text": "Acquisition cards",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
       "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "heading": "Acquisition cards",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Acquisition cards"
       ],
-      "text": "yes",
+      "text": "Acquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "heading",
+      "heading": "Electronic Data Interchange",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Electronic Data Interchange"
       ],
-      "text": "domestic payments",
+      "text": "Electronic Data Interchange",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
       "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "heading": "Electronic Data Interchange",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Electronic Data Interchange"
       ],
-      "text": "wire transfer",
+      "text": "EDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "heading",
+      "heading": "Wire transfer",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Wire transfer"
       ],
-      "text": "yes",
+      "text": "Wire transfer",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
       "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "heading": "Wire transfer",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Wire transfer"
       ],
-      "text": "international payments",
+      "text": "Wire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "list_item",
+      "heading": "Wire transfer",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Wire transfer"
       ],
-      "text": "Large Value Transfer System ( LVTS )",
+      "text": "large value, low volume and time-sensitive payments",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "list_item",
+      "heading": "Wire transfer",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Wire transfer"
       ],
-      "text": "yes",
+      "text": "payments that need to be issued in a currency other than that of the destination country",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
+      "block_type": "heading",
+      "heading": "Large Value Transfer System",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
+        "Payment instruments",
+        "Large Value Transfer System"
       ],
-      "text": "all domestic payments over $25 million",
+      "text": "Large Value Transfer System",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
       "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "cheque",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "no",
-      "order": 24,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0025",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "domestic and international payments",
-      "order": 25,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0026",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "petty cash",
-      "order": 26,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "no",
-      "order": 27,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0028",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "domestic payments",
-      "order": 28,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0029",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "Electronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.",
-      "order": 29,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0030",
-      "block_type": "paragraph",
-      "heading": "Payment instruments",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments"
-      ],
-      "text": "For more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).",
-      "order": 30,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0031",
-      "block_type": "heading",
-      "heading": "Direct deposit",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Direct deposit"
-      ],
-      "text": "Direct deposit",
-      "order": 31,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0032",
-      "block_type": "paragraph",
-      "heading": "Direct deposit",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Direct deposit"
-      ],
-      "text": "Direct deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.",
-      "order": 32,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0033",
-      "block_type": "heading",
-      "heading": "Acquisition cards",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Acquisition cards"
-      ],
-      "text": "Acquisition cards",
-      "order": 33,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0034",
-      "block_type": "paragraph",
-      "heading": "Acquisition cards",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Acquisition cards"
-      ],
-      "text": "Acquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.",
-      "order": 34,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0035",
-      "block_type": "heading",
-      "heading": "Electronic Data Interchange",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Electronic Data Interchange"
-      ],
-      "text": "Electronic Data Interchange",
-      "order": 35,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0036",
-      "block_type": "paragraph",
-      "heading": "Electronic Data Interchange",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Electronic Data Interchange"
-      ],
-      "text": "EDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.",
-      "order": 36,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0037",
-      "block_type": "heading",
-      "heading": "Wire transfer",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Wire transfer"
-      ],
-      "text": "Wire transfer",
-      "order": 37,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0038",
-      "block_type": "paragraph",
-      "heading": "Wire transfer",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Wire transfer"
-      ],
-      "text": "Wire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:",
-      "order": 38,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0039",
-      "block_type": "list_item",
-      "heading": "Wire transfer",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Wire transfer"
-      ],
-      "text": "large value, low volume and time-sensitive payments",
-      "order": 39,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0040",
-      "block_type": "list_item",
-      "heading": "Wire transfer",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Wire transfer"
-      ],
-      "text": "payments that need to be issued in a currency other than that of the destination country",
-      "order": 40,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0041",
-      "block_type": "heading",
       "heading": "Large Value Transfer System",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
-        "Payment instruments",
-        "Large Value Transfer System"
-      ],
-      "text": "Large Value Transfer System",
-      "order": 41,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0042",
-      "block_type": "paragraph",
-      "heading": "Large Value Transfer System",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Payment instruments",
         "Payment instruments",
         "Large Value Transfer System"
       ],
       "text": "Large Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
-      "order": 42,
+      "order": 23,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Payment instruments Clients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments: Table example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments Electronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment. For more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network). Direct deposit Direct deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information. Acquisition cards Acquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer. Electronic Data Interchange EDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way. Wire transfer Wire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to: large value, low volume and time-sensitive payments payments that need to be issued in a currency other than that of the destination country Large Value Transfer System Large Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.\n\nPayment instruments\n\nClients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:\n\nTable example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments\n\nPayment instrument\n\nElectronic?\n\nApplication\n\ndirect deposit\n\nyes\n\ndomestic and international payments\n\nacquisition card\n\n(Visa and Mastercard)\n\nyes\n\ndomestic and international payments\n\nElectronic Data Interchange ( EDI )\n\nyes\n\ndomestic payments\n\nwire transfer\n\nyes\n\ninternational payments\n\nLarge Value Transfer System ( LVTS )\n\nyes\n\nall domestic payments over $25 million\n\ncheque\n\nno\n\ndomestic and international payments\n\npetty cash\n\nno\n\ndomestic payments\n\nElectronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.\n\nFor more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).\n\nDirect deposit\n\nDirect deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.\n\nAcquisition cards\n\nAcquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.\n\nElectronic Data Interchange\n\nEDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.\n\nWire transfer\n\nWire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:\n\nlarge value, low volume and time-sensitive payments\n\npayments that need to be issued in a currency other than that of the destination country\n\nLarge Value Transfer System\n\nLarge Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
-  "markdown_text": "Payment instruments Clients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments: Table example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments Electronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment. For more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network). Direct deposit Direct deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information. Acquisition cards Acquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer. Electronic Data Interchange EDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way. Wire transfer Wire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to: large value, low volume and time-sensitive payments payments that need to be issued in a currency other than that of the destination country Large Value Transfer System Large Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.\n\nPayment instruments\n\nClients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:\n\nTable example with colour Payment instrument Electronic? Application direct deposit yes domestic and international payments acquisition card (Visa and Mastercard) yes domestic and international payments Electronic Data Interchange ( EDI ) yes domestic payments wire transfer yes international payments Large Value Transfer System ( LVTS ) yes all domestic payments over $25 million cheque no domestic and international payments petty cash no domestic payments\n\nPayment instrument\n\nElectronic?\n\nApplication\n\ndirect deposit\n\nyes\n\ndomestic and international payments\n\nacquisition card\n\n(Visa and Mastercard)\n\nyes\n\ndomestic and international payments\n\nElectronic Data Interchange ( EDI )\n\nyes\n\ndomestic payments\n\nwire transfer\n\nyes\n\ninternational payments\n\nLarge Value Transfer System ( LVTS )\n\nyes\n\nall domestic payments over $25 million\n\ncheque\n\nno\n\ndomestic and international payments\n\npetty cash\n\nno\n\ndomestic payments\n\nElectronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.\n\nFor more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).\n\nDirect deposit\n\nDirect deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.\n\nAcquisition cards\n\nAcquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.\n\nElectronic Data Interchange\n\nEDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.\n\nWire transfer\n\nWire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:\n\nlarge value, low volume and time-sensitive payments\n\npayments that need to be issued in a currency other than that of the destination country\n\nLarge Value Transfer System\n\nLarge Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
+  "raw_text": "Payment instruments\n\nClients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:\n\nTable example with colour | Columns: Payment instrument | Electronic? | Application\n\nPayment instrument: direct deposit | Electronic?: yes | Application: domestic and international payments\n\nPayment instrument: acquisition card (Visa and Mastercard) | Electronic?: yes | Application: domestic and international payments\n\nPayment instrument: Electronic Data Interchange ( EDI ) | Electronic?: yes | Application: domestic payments\n\nPayment instrument: wire transfer | Electronic?: yes | Application: international payments\n\nPayment instrument: Large Value Transfer System ( LVTS ) | Electronic?: yes | Application: all domestic payments over $25 million\n\nPayment instrument: cheque | Electronic?: no | Application: domestic and international payments\n\nPayment instrument: petty cash | Electronic?: no | Application: domestic payments\n\nElectronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.\n\nFor more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).\n\nDirect deposit\n\nDirect deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.\n\nAcquisition cards\n\nAcquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.\n\nElectronic Data Interchange\n\nEDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.\n\nWire transfer\n\nWire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:\n\nlarge value, low volume and time-sensitive payments\n\npayments that need to be issued in a currency other than that of the destination country\n\nLarge Value Transfer System\n\nLarge Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
+  "markdown_text": "Payment instruments\n\nClients are allowed to use the following methods, or payment instruments, to settle the payment of contractors’ invoices. The following table details the allowable payment instruments:\n\nTable example with colour | Columns: Payment instrument | Electronic? | Application\n\nPayment instrument: direct deposit | Electronic?: yes | Application: domestic and international payments\n\nPayment instrument: acquisition card (Visa and Mastercard) | Electronic?: yes | Application: domestic and international payments\n\nPayment instrument: Electronic Data Interchange ( EDI ) | Electronic?: yes | Application: domestic payments\n\nPayment instrument: wire transfer | Electronic?: yes | Application: international payments\n\nPayment instrument: Large Value Transfer System ( LVTS ) | Electronic?: yes | Application: all domestic payments over $25 million\n\nPayment instrument: cheque | Electronic?: no | Application: domestic and international payments\n\nPayment instrument: petty cash | Electronic?: no | Application: domestic payments\n\nElectronic payment instruments is preferred. You may specify the client’s electronic payment instrument preferences in the solicitation document and resulting contract. Offerors can then indicate their capacity to accept the various forms of payment.\n\nFor more information on electronic payment instruments, consult the Receiver General for Canada functions: Government finances and Payment methods (accessible only on the Government of Canada network).\n\nDirect deposit\n\nDirect deposit is our preferred payment instrument. Contractors are strongly encouraged but not obligated to accept payment via direct deposit. Although direct deposit does not include remittance or stub information, the client can send payment details via email to the contractor. Contractors interested in this payment instrument must follow the enrollment steps with the client responsible for issuing payment. Typically, a void cheque is required to accurately document banking information.\n\nAcquisition cards\n\nAcquisition cards are credit cards, either Visa or MasterCard. The client will decide whether to use an acquisition card for the payment of contractor invoices or for payment at point of sale. Contractors do not have to accept them as a payment instrument. Acquisition cards may also be used for call-ups under certain standing offers. If you expect that the client may use an acquisition card for a call-up, include the applicable clause in the request for standing offer.\n\nElectronic Data Interchange\n\nEDI payments include remittance or stub information. The manner in which the contractor receives the information from its financial institution is determined between the contractor and its financial institution. The contractor must ensure their account is EDI -capable to receive payments this way.\n\nWire transfer\n\nWire transfer is often the most expedient way to transfer funds to a bank account in a foreign country. It allows payment in a currency other than the local currency of the destination country. Due to the high transaction costs to Canada, wire transfers should be limited to:\n\nlarge value, low volume and time-sensitive payments\n\npayments that need to be issued in a currency other than that of the destination country\n\nLarge Value Transfer System\n\nLarge Value Transfer System ( LVTS ) is an electronic wire transfer system used to transfer irrevocable payments in Canadian dollars within Canada. LVTS should be used mainly for large value payments. All domestic payments greater than $25 million must be issued with LVTS . LVTS transfers funds in real-time between participating financial institutions on behalf of clients, with the money immediately available to the contractor.",
   "provenance_paths": {}
 }

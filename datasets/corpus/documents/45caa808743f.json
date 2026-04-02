@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:10.866540Z",
-  "content_hash": "4f8067016c6efd3f88b648184f2ba75bd6f87b7f8e8985a7c843e66311fb73f0",
-  "word_count": 1212,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e73414b23e53f8cd9e305a1695b33a8451a5461d7fdfb5627ce239d56d8750c5",
+  "word_count": 594,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
+      "block_type": "heading",
+      "heading": "Contract Planning and Advance Approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval"
+        "Contract Planning and Advance Approval"
       ],
-      "text": "Contract Planning and Advance Approval The Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry. The CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement. The CPAA should not be used if there is insufficient known information about the expected results of the procurement action. The CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs). Contract planning and advance approval instructions Contract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy. You should detail the following information in the CPAA , as applicable: the proposed approval action to be taken (such as seeking approval or advance approval) a description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates) a description of the requirement including any options the total estimated cost including all advance approvals, duties and taxes for competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision for non-competitive procurements, the legal authority justifying the exception to competitive bidding any policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations any risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies the evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria the target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule) any other pertinent details for the approval authority Advance approval and procurement execution On receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission. Alternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award. Following CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract. Contract Planning and Advance Approval resubmission You must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded. The following elements are required, as applicable, as part of CPAA resubmission : the reasons why the procurement strategy has changed any additional risks or changes to previously identified risks the proposed mitigation strategies an updated procurement complexity assessment a new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents any significant deviations from the initially approved procurement plan before contract award the new CPAA documents to the designated approval authority, in accordance with sector and regional procedures Contract summary The contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
+      "text": "Contract Planning and Advance Approval",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval"
       ],
-      "text": "Contract Planning and Advance Approval",
+      "text": "The Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.",
       "order": 1,
       "metadata": {}
     },
@@ -643,10 +642,9 @@
       "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval"
       ],
-      "text": "The Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.",
+      "text": "The CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval"
       ],
-      "text": "The CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.",
+      "text": "The CPAA should not be used if there is insufficient known information about the expected results of the procurement action.",
       "order": 3,
       "metadata": {}
     },
@@ -667,35 +664,33 @@
       "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval"
       ],
-      "text": "The CPAA should not be used if there is insufficient known information about the expected results of the procurement action.",
+      "text": "The CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Contract Planning and Advance Approval",
+      "block_type": "heading",
+      "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
-        "Contract Planning and Advance Approval"
+        "Contract Planning and Advance Approval",
+        "Contract planning and advance approval instructions"
       ],
-      "text": "The CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).",
+      "text": "Contract planning and advance approval instructions",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "Contract planning and advance approval instructions",
+      "text": "Contract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.",
       "order": 6,
       "metadata": {}
     },
@@ -704,24 +699,22 @@
       "block_type": "paragraph",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "Contract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.",
+      "text": "You should detail the following information in the CPAA , as applicable:",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "You should detail the following information in the CPAA , as applicable:",
+      "text": "the proposed approval action to be taken (such as seeking approval or advance approval)",
       "order": 8,
       "metadata": {}
     },
@@ -730,11 +723,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "the proposed approval action to be taken (such as seeking approval or advance approval)",
+      "text": "a description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)",
       "order": 9,
       "metadata": {}
     },
@@ -743,11 +735,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "a description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)",
+      "text": "a description of the requirement including any options",
       "order": 10,
       "metadata": {}
     },
@@ -756,11 +747,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "a description of the requirement including any options",
+      "text": "the total estimated cost including all advance approvals, duties and taxes",
       "order": 11,
       "metadata": {}
     },
@@ -769,11 +759,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "the total estimated cost including all advance approvals, duties and taxes",
+      "text": "for competitive procurements:",
       "order": 12,
       "metadata": {}
     },
@@ -782,11 +771,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "for competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision",
+      "text": "if you use tendering services, other public advertising methods or source lists",
       "order": 13,
       "metadata": {}
     },
@@ -795,11 +783,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "if you use tendering services, other public advertising methods or source lists",
+      "text": "if you do not use tendering services, the rationale of this decision",
       "order": 14,
       "metadata": {}
     },
@@ -808,11 +795,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "if you do not use tendering services, the rationale of this decision",
+      "text": "for non-competitive procurements, the legal authority justifying the exception to competitive bidding",
       "order": 15,
       "metadata": {}
     },
@@ -821,11 +807,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "for non-competitive procurements, the legal authority justifying the exception to competitive bidding",
+      "text": "any policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations",
       "order": 16,
       "metadata": {}
     },
@@ -834,11 +819,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "any policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations",
+      "text": "any risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies",
       "order": 17,
       "metadata": {}
     },
@@ -847,11 +831,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "any risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies",
+      "text": "the evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria",
       "order": 18,
       "metadata": {}
     },
@@ -860,11 +843,10 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "the evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria",
+      "text": "the target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)",
       "order": 19,
       "metadata": {}
     },
@@ -873,37 +855,34 @@
       "block_type": "list_item",
       "heading": "Contract planning and advance approval instructions",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract planning and advance approval instructions"
       ],
-      "text": "the target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)",
+      "text": "any other pertinent details for the approval authority",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
-      "heading": "Contract planning and advance approval instructions",
+      "block_type": "heading",
+      "heading": "Advance approval and procurement execution",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
-        "Contract planning and advance approval instructions"
+        "Advance approval and procurement execution"
       ],
-      "text": "any other pertinent details for the approval authority",
+      "text": "Advance approval and procurement execution",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Advance approval and procurement execution",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Advance approval and procurement execution"
       ],
-      "text": "Advance approval and procurement execution",
+      "text": "On receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.",
       "order": 22,
       "metadata": {}
     },
@@ -912,11 +891,10 @@
       "block_type": "paragraph",
       "heading": "Advance approval and procurement execution",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Advance approval and procurement execution"
       ],
-      "text": "On receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.",
+      "text": "Alternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.",
       "order": 23,
       "metadata": {}
     },
@@ -925,37 +903,34 @@
       "block_type": "paragraph",
       "heading": "Advance approval and procurement execution",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Advance approval and procurement execution"
       ],
-      "text": "Alternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.",
+      "text": "Following CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "paragraph",
-      "heading": "Advance approval and procurement execution",
+      "block_type": "heading",
+      "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
-        "Advance approval and procurement execution"
+        "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "Following CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.",
+      "text": "Contract Planning and Advance Approval resubmission",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "Contract Planning and Advance Approval resubmission",
+      "text": "You must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.",
       "order": 26,
       "metadata": {}
     },
@@ -964,24 +939,22 @@
       "block_type": "paragraph",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "You must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.",
+      "text": "The following elements are required, as applicable, as part of CPAA resubmission :",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "The following elements are required, as applicable, as part of CPAA resubmission :",
+      "text": "the reasons why the procurement strategy has changed",
       "order": 28,
       "metadata": {}
     },
@@ -990,11 +963,10 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "the reasons why the procurement strategy has changed",
+      "text": "any additional risks or changes to previously identified risks",
       "order": 29,
       "metadata": {}
     },
@@ -1003,11 +975,10 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "any additional risks or changes to previously identified risks",
+      "text": "the proposed mitigation strategies",
       "order": 30,
       "metadata": {}
     },
@@ -1016,11 +987,10 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "the proposed mitigation strategies",
+      "text": "an updated procurement complexity assessment",
       "order": 31,
       "metadata": {}
     },
@@ -1029,11 +999,10 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "an updated procurement complexity assessment",
+      "text": "a new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents",
       "order": 32,
       "metadata": {}
     },
@@ -1042,11 +1011,10 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "a new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents",
+      "text": "any significant deviations from the initially approved procurement plan before contract award",
       "order": 33,
       "metadata": {}
     },
@@ -1055,56 +1023,40 @@
       "block_type": "list_item",
       "heading": "Contract Planning and Advance Approval resubmission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract Planning and Advance Approval resubmission"
       ],
-      "text": "any significant deviations from the initially approved procurement plan before contract award",
+      "text": "the new CPAA documents to the designated approval authority, in accordance with sector and regional procedures",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
-      "block_type": "list_item",
-      "heading": "Contract Planning and Advance Approval resubmission",
+      "block_type": "heading",
+      "heading": "Contract summary",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
-        "Contract Planning and Advance Approval resubmission"
+        "Contract summary"
       ],
-      "text": "the new CPAA documents to the designated approval authority, in accordance with sector and regional procedures",
+      "text": "Contract summary",
       "order": 35,
       "metadata": {}
     },
     {
       "block_id": "block_0036",
-      "block_type": "heading",
-      "heading": "Contract summary",
-      "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
-        "Contract Planning and Advance Approval",
-        "Contract summary"
-      ],
-      "text": "Contract summary",
-      "order": 36,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0037",
       "block_type": "paragraph",
       "heading": "Contract summary",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Contract planning and advanced approval",
         "Contract Planning and Advance Approval",
         "Contract summary"
       ],
       "text": "The contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
-      "order": 37,
+      "order": 36,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Contract Planning and Advance Approval The Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry. The CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement. The CPAA should not be used if there is insufficient known information about the expected results of the procurement action. The CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs). Contract planning and advance approval instructions Contract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy. You should detail the following information in the CPAA , as applicable: the proposed approval action to be taken (such as seeking approval or advance approval) a description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates) a description of the requirement including any options the total estimated cost including all advance approvals, duties and taxes for competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision for non-competitive procurements, the legal authority justifying the exception to competitive bidding any policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations any risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies the evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria the target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule) any other pertinent details for the approval authority Advance approval and procurement execution On receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission. Alternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award. Following CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract. Contract Planning and Advance Approval resubmission You must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded. The following elements are required, as applicable, as part of CPAA resubmission : the reasons why the procurement strategy has changed any additional risks or changes to previously identified risks the proposed mitigation strategies an updated procurement complexity assessment a new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents any significant deviations from the initially approved procurement plan before contract award the new CPAA documents to the designated approval authority, in accordance with sector and regional procedures Contract summary The contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.\n\nContract Planning and Advance Approval\n\nThe Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.\n\nThe CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.\n\nThe CPAA should not be used if there is insufficient known information about the expected results of the procurement action.\n\nThe CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).\n\nContract planning and advance approval instructions\n\nContract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.\n\nYou should detail the following information in the CPAA , as applicable:\n\nthe proposed approval action to be taken (such as seeking approval or advance approval)\n\na description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)\n\na description of the requirement including any options\n\nthe total estimated cost including all advance approvals, duties and taxes\n\nfor competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision\n\nif you use tendering services, other public advertising methods or source lists\n\nif you do not use tendering services, the rationale of this decision\n\nfor non-competitive procurements, the legal authority justifying the exception to competitive bidding\n\nany policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations\n\nany risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies\n\nthe evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria\n\nthe target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)\n\nany other pertinent details for the approval authority\n\nAdvance approval and procurement execution\n\nOn receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.\n\nAlternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.\n\nFollowing CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.\n\nContract Planning and Advance Approval resubmission\n\nYou must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.\n\nThe following elements are required, as applicable, as part of CPAA resubmission :\n\nthe reasons why the procurement strategy has changed\n\nany additional risks or changes to previously identified risks\n\nthe proposed mitigation strategies\n\nan updated procurement complexity assessment\n\na new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents\n\nany significant deviations from the initially approved procurement plan before contract award\n\nthe new CPAA documents to the designated approval authority, in accordance with sector and regional procedures\n\nContract summary\n\nThe contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
-  "markdown_text": "Contract Planning and Advance Approval The Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry. The CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement. The CPAA should not be used if there is insufficient known information about the expected results of the procurement action. The CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs). Contract planning and advance approval instructions Contract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy. You should detail the following information in the CPAA , as applicable: the proposed approval action to be taken (such as seeking approval or advance approval) a description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates) a description of the requirement including any options the total estimated cost including all advance approvals, duties and taxes for competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision for non-competitive procurements, the legal authority justifying the exception to competitive bidding any policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations any risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies the evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria the target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule) any other pertinent details for the approval authority Advance approval and procurement execution On receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission. Alternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award. Following CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract. Contract Planning and Advance Approval resubmission You must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded. The following elements are required, as applicable, as part of CPAA resubmission : the reasons why the procurement strategy has changed any additional risks or changes to previously identified risks the proposed mitigation strategies an updated procurement complexity assessment a new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents any significant deviations from the initially approved procurement plan before contract award the new CPAA documents to the designated approval authority, in accordance with sector and regional procedures Contract summary The contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.\n\nContract Planning and Advance Approval\n\nThe Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.\n\nThe CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.\n\nThe CPAA should not be used if there is insufficient known information about the expected results of the procurement action.\n\nThe CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).\n\nContract planning and advance approval instructions\n\nContract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.\n\nYou should detail the following information in the CPAA , as applicable:\n\nthe proposed approval action to be taken (such as seeking approval or advance approval)\n\na description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)\n\na description of the requirement including any options\n\nthe total estimated cost including all advance approvals, duties and taxes\n\nfor competitive procurements: if you use tendering services, other public advertising methods or source lists if you do not use tendering services, the rationale of this decision\n\nif you use tendering services, other public advertising methods or source lists\n\nif you do not use tendering services, the rationale of this decision\n\nfor non-competitive procurements, the legal authority justifying the exception to competitive bidding\n\nany policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations\n\nany risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies\n\nthe evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria\n\nthe target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)\n\nany other pertinent details for the approval authority\n\nAdvance approval and procurement execution\n\nOn receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.\n\nAlternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.\n\nFollowing CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.\n\nContract Planning and Advance Approval resubmission\n\nYou must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.\n\nThe following elements are required, as applicable, as part of CPAA resubmission :\n\nthe reasons why the procurement strategy has changed\n\nany additional risks or changes to previously identified risks\n\nthe proposed mitigation strategies\n\nan updated procurement complexity assessment\n\na new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents\n\nany significant deviations from the initially approved procurement plan before contract award\n\nthe new CPAA documents to the designated approval authority, in accordance with sector and regional procedures\n\nContract summary\n\nThe contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
+  "raw_text": "Contract Planning and Advance Approval\n\nThe Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.\n\nThe CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.\n\nThe CPAA should not be used if there is insufficient known information about the expected results of the procurement action.\n\nThe CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).\n\nContract planning and advance approval instructions\n\nContract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.\n\nYou should detail the following information in the CPAA , as applicable:\n\nthe proposed approval action to be taken (such as seeking approval or advance approval)\n\na description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)\n\na description of the requirement including any options\n\nthe total estimated cost including all advance approvals, duties and taxes\n\nfor competitive procurements:\n\nif you use tendering services, other public advertising methods or source lists\n\nif you do not use tendering services, the rationale of this decision\n\nfor non-competitive procurements, the legal authority justifying the exception to competitive bidding\n\nany policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations\n\nany risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies\n\nthe evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria\n\nthe target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)\n\nany other pertinent details for the approval authority\n\nAdvance approval and procurement execution\n\nOn receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.\n\nAlternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.\n\nFollowing CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.\n\nContract Planning and Advance Approval resubmission\n\nYou must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.\n\nThe following elements are required, as applicable, as part of CPAA resubmission :\n\nthe reasons why the procurement strategy has changed\n\nany additional risks or changes to previously identified risks\n\nthe proposed mitigation strategies\n\nan updated procurement complexity assessment\n\na new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents\n\nany significant deviations from the initially approved procurement plan before contract award\n\nthe new CPAA documents to the designated approval authority, in accordance with sector and regional procedures\n\nContract summary\n\nThe contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
+  "markdown_text": "Contract Planning and Advance Approval\n\nThe Contract Planning and Advance Approval (CPAA) process allows for approval of the procurement strategy and pre-approval for contract entry.\n\nThe CPAA is used for approvals up to and including director general and regional director general, unless a procurement plan applies to the procurement.\n\nThe CPAA should not be used if there is insufficient known information about the expected results of the procurement action.\n\nThe CPAA process allows you to issue contracts, standing offers (SOs) and supply arrangements (SAs).\n\nContract planning and advance approval instructions\n\nContract planning is a critical step in procurement. You must complete the CPAA and explain the procurement strategy.\n\nYou should detail the following information in the CPAA , as applicable:\n\nthe proposed approval action to be taken (such as seeking approval or advance approval)\n\na description of the approvals requested (for example, approval to make advance payments or advance approval to firm up interim rates)\n\na description of the requirement including any options\n\nthe total estimated cost including all advance approvals, duties and taxes\n\nfor competitive procurements:\n\nif you use tendering services, other public advertising methods or source lists\n\nif you do not use tendering services, the rationale of this decision\n\nfor non-competitive procurements, the legal authority justifying the exception to competitive bidding\n\nany policy issues (for example, socio-economic or accessibility considerations), policy deviations and associated recommendations\n\nany risks related to the procurement, especially medium-high or high risks, and the proposed mitigation strategies\n\nthe evaluation criteria, solicitation method and selection methodology, including the pricing basis and mandatory and/or point rating criteria\n\nthe target dates for significant milestones (for example, solicitation publication, contract award, delivery schedule)\n\nany other pertinent details for the approval authority\n\nAdvance approval and procurement execution\n\nOn receipt of the approval document, the approval authority will review the CPAA , either granting full approval, or identifying concerns and directing changes to the proposed strategy, the latter necessitating a CPAA resubmission.\n\nAlternatively, the approval authority may decide to approve the procurement strategy but to not grant advance approval to enter into a contract. In which case, you must prepare and submit a Contract Request for approval before contract award.\n\nFollowing CPAA approval, you will proceed with the procurement action. If the procurement action results in a significant change from the originally approved plan before the contract is awarded, the CPAA must be resubmitted. If there is no significant change, you will prepare the contract.\n\nContract Planning and Advance Approval resubmission\n\nYou must resubmit the CPAA when there is a significant change to a procurement strategy (e.g. a non-competitive requirement becomes competitive, or vice versa), or if the procurement action results in a significant change from the originally approved plan before the contract is awarded.\n\nThe following elements are required, as applicable, as part of CPAA resubmission :\n\nthe reasons why the procurement strategy has changed\n\nany additional risks or changes to previously identified risks\n\nthe proposed mitigation strategies\n\nan updated procurement complexity assessment\n\na new Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only), at the appropriate complexity level to accompany the procurement approval documents\n\nany significant deviations from the initially approved procurement plan before contract award\n\nthe new CPAA documents to the designated approval authority, in accordance with sector and regional procedures\n\nContract summary\n\nThe contract summary is used pursuant to an approved CPAA to document the actions taken from the time the CPAA was approved up to the issuance of the contract, including offer evaluation results and contractor selection.",
   "provenance_paths": {}
 }

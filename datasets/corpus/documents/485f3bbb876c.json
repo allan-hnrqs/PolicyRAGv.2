@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:07.702933Z",
-  "content_hash": "ab94c4ef974b4c4d1ca495226898d06e59a62ae1b532455a72a9fd709159b732",
-  "word_count": 1232,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "9276a041efa7af1bd43decc121e3b9cee464c65c7ee5a3e9fb4c20ec0148d568",
+  "word_count": 598,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Prepare approval documents - Additional reviewers",
+      "block_type": "heading",
+      "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers"
+        "Additional reviewers"
       ],
-      "text": "Additional reviewers As a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required. As detailed in the Plan section, some of these additional reviewers include: a quality control officer Legal Services cost and price analysis services Contract Security Program (CSP) a risk management advisor experts on socio-economic considerations the group responsible for contract security a fairness monitor the client You or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback. Legal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates. Legal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval. A review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements). When a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file: Any potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment. Any competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments. Apart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information. You must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate. Clients must: Review the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria Confirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission Follow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence A procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
+      "text": "Additional reviewers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Additional reviewers",
+      "text": "As a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.",
       "order": 1,
       "metadata": {}
     },
@@ -643,22 +642,20 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "As a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.",
+      "text": "As detailed in the Plan section, some of these additional reviewers include:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "As detailed in the Plan section, some of these additional reviewers include:",
+      "text": "a quality control officer",
       "order": 3,
       "metadata": {}
     },
@@ -667,10 +664,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "a quality control officer",
+      "text": "Legal Services",
       "order": 4,
       "metadata": {}
     },
@@ -679,10 +675,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Legal Services",
+      "text": "cost and price analysis services",
       "order": 5,
       "metadata": {}
     },
@@ -691,10 +686,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "cost and price analysis services",
+      "text": "Contract Security Program (CSP)",
       "order": 6,
       "metadata": {}
     },
@@ -703,10 +697,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Contract Security Program (CSP)",
+      "text": "a risk management advisor",
       "order": 7,
       "metadata": {}
     },
@@ -715,10 +708,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "a risk management advisor",
+      "text": "experts on socio-economic considerations",
       "order": 8,
       "metadata": {}
     },
@@ -727,10 +719,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "experts on socio-economic considerations",
+      "text": "the group responsible for contract security",
       "order": 9,
       "metadata": {}
     },
@@ -739,10 +730,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "the group responsible for contract security",
+      "text": "a fairness monitor",
       "order": 10,
       "metadata": {}
     },
@@ -751,22 +741,20 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "a fairness monitor",
+      "text": "the client",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "the client",
+      "text": "You or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.",
       "order": 12,
       "metadata": {}
     },
@@ -775,10 +763,9 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "You or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.",
+      "text": "Legal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.",
       "order": 13,
       "metadata": {}
     },
@@ -787,10 +774,9 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Legal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.",
+      "text": "Legal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.",
       "order": 14,
       "metadata": {}
     },
@@ -799,10 +785,9 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Legal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.",
+      "text": "A review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).",
       "order": 15,
       "metadata": {}
     },
@@ -811,22 +796,20 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "A review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).",
+      "text": "When a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "When a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:",
+      "text": "Any potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.",
       "order": 17,
       "metadata": {}
     },
@@ -835,10 +818,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Any potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.",
+      "text": "Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.",
       "order": 18,
       "metadata": {}
     },
@@ -847,10 +829,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.",
+      "text": "Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.",
       "order": 19,
       "metadata": {}
     },
@@ -859,22 +840,20 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.",
+      "text": "Any competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Any competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.",
+      "text": "Apart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.",
       "order": 21,
       "metadata": {}
     },
@@ -883,10 +862,9 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Apart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.",
+      "text": "You must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.",
       "order": 22,
       "metadata": {}
     },
@@ -895,22 +873,20 @@
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "You must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.",
+      "text": "Clients must:",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Clients must:",
+      "text": "Review the solicitation document, including:",
       "order": 24,
       "metadata": {}
     },
@@ -919,10 +895,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Review the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria",
+      "text": "Statement of Work",
       "order": 25,
       "metadata": {}
     },
@@ -931,10 +906,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Statement of Work",
+      "text": "Statement of Requirement",
       "order": 26,
       "metadata": {}
     },
@@ -943,10 +917,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Statement of Requirement",
+      "text": "specifications",
       "order": 27,
       "metadata": {}
     },
@@ -955,10 +928,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "specifications",
+      "text": "evaluation criteria",
       "order": 28,
       "metadata": {}
     },
@@ -967,10 +939,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "evaluation criteria",
+      "text": "Confirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission",
       "order": 29,
       "metadata": {}
     },
@@ -979,10 +950,9 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Confirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission",
+      "text": "Follow the applicable framework:",
       "order": 30,
       "metadata": {}
     },
@@ -991,40 +961,26 @@
       "block_type": "list_item",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
-      "text": "Follow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence",
+      "text": "the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "list_item",
-      "heading": "Additional reviewers",
-      "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
-        "Additional reviewers"
-      ],
-      "text": "the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence",
-      "order": 32,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0033",
       "block_type": "paragraph",
       "heading": "Additional reviewers",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Additional reviewers",
         "Additional reviewers"
       ],
       "text": "A procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
-      "order": 33,
+      "order": 32,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Additional reviewers As a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required. As detailed in the Plan section, some of these additional reviewers include: a quality control officer Legal Services cost and price analysis services Contract Security Program (CSP) a risk management advisor experts on socio-economic considerations the group responsible for contract security a fairness monitor the client You or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback. Legal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates. Legal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval. A review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements). When a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file: Any potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment. Any competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments. Apart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information. You must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate. Clients must: Review the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria Confirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission Follow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence A procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.\n\nAdditional reviewers\n\nAs a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.\n\nAs detailed in the Plan section, some of these additional reviewers include:\n\na quality control officer\n\nLegal Services\n\ncost and price analysis services\n\nContract Security Program (CSP)\n\na risk management advisor\n\nexperts on socio-economic considerations\n\nthe group responsible for contract security\n\na fairness monitor\n\nthe client\n\nYou or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.\n\nLegal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.\n\nLegal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.\n\nA review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).\n\nWhen a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:\n\nAny potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.\n\nAny competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.\n\nApart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.\n\nYou must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.\n\nClients must:\n\nReview the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria\n\nStatement of Work\n\nStatement of Requirement\n\nspecifications\n\nevaluation criteria\n\nConfirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission\n\nFollow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nthe generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nA procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
-  "markdown_text": "Additional reviewers As a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required. As detailed in the Plan section, some of these additional reviewers include: a quality control officer Legal Services cost and price analysis services Contract Security Program (CSP) a risk management advisor experts on socio-economic considerations the group responsible for contract security a fairness monitor the client You or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback. Legal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates. Legal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval. A review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements). When a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file: Any potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received. Any competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment. Any competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments. Apart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information. You must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate. Clients must: Review the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria Confirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission Follow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence A procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.\n\nAdditional reviewers\n\nAs a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.\n\nAs detailed in the Plan section, some of these additional reviewers include:\n\na quality control officer\n\nLegal Services\n\ncost and price analysis services\n\nContract Security Program (CSP)\n\na risk management advisor\n\nexperts on socio-economic considerations\n\nthe group responsible for contract security\n\na fairness monitor\n\nthe client\n\nYou or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.\n\nLegal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.\n\nLegal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.\n\nA review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).\n\nWhen a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:\n\nAny potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.\n\nAny competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.\n\nApart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.\n\nYou must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.\n\nClients must:\n\nReview the solicitation document, including: Statement of Work Statement of Requirement specifications evaluation criteria\n\nStatement of Work\n\nStatement of Requirement\n\nspecifications\n\nevaluation criteria\n\nConfirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission\n\nFollow the applicable framework: the generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nthe generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nA procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
+  "raw_text": "Additional reviewers\n\nAs a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.\n\nAs detailed in the Plan section, some of these additional reviewers include:\n\na quality control officer\n\nLegal Services\n\ncost and price analysis services\n\nContract Security Program (CSP)\n\na risk management advisor\n\nexperts on socio-economic considerations\n\nthe group responsible for contract security\n\na fairness monitor\n\nthe client\n\nYou or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.\n\nLegal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.\n\nLegal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.\n\nA review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).\n\nWhen a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:\n\nAny potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.\n\nAny competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.\n\nApart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.\n\nYou must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.\n\nClients must:\n\nReview the solicitation document, including:\n\nStatement of Work\n\nStatement of Requirement\n\nspecifications\n\nevaluation criteria\n\nConfirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission\n\nFollow the applicable framework:\n\nthe generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nA procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
+  "markdown_text": "Additional reviewers\n\nAs a buyer, you are responsible for ensuring that procurement documents go through the necessary reviews and receive approval by the proper authorities or areas. You must consult various entities before or during the procurement approval process. Reviews may also be done on a discretionary basis, as required.\n\nAs detailed in the Plan section, some of these additional reviewers include:\n\na quality control officer\n\nLegal Services\n\ncost and price analysis services\n\nContract Security Program (CSP)\n\na risk management advisor\n\nexperts on socio-economic considerations\n\nthe group responsible for contract security\n\na fairness monitor\n\nthe client\n\nYou or the approval authority may request a review of the procurement documents by the quality control team of the Specialized Services for Procurement Division. This request should be made on the recommendation of the section Manager, by contacting Contract Quality Control , or Regional Quality Assurance . The appropriate team will provide written feedback.\n\nLegal Services must be consulted when the buyer is considering a deviation from standard clauses, departmental standard procurement templates, or commodity or sector-based legally approved templates.\n\nLegal Services must review any requests for lessening Canada's full rights at law, a disclaimer, limitation of the contractor's liability, or decrease in the warranty period. The proposed changes must also be acceptable to the client, and form part of the request for approval.\n\nA review by Legal Services is within the discretion of the buyer or the approval authority, except in those instances that are mandated by policies and directives within the Acquisitions Program (for example, for sensitive requirements).\n\nWhen a procurement presents any of the conditions noted below and described in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network), it is mandatory that the buyer consult a Price Support Directorate advisor and document the consultation and pricing decisions in the procurement file:\n\nAny potential sole-source procurement with a total estimated value of $7,5 million or more, including applicable taxes, options and amendments.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes and options where only one compliant offer is received.\n\nAny competitive procurement with a total estimated value of $7,5 million or more, including applicable taxes, with contract provisions for negotiated prices or where prices are likely to be negotiated as a result of a contract amendment.\n\nAny competitive procurement, with a total estimated value of $10 million or more, including applicable taxes, options and amendments.\n\nApart from the above mandatory conditions where they must be consulted, Price Support Directorate advisors are always available for consultation on any procurement on a discretionary basis. Refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network) for additional information.\n\nYou must ensure that any contract security requirement is addressed in the approval documents and that the Contract Security Program (CSP) has been consulted, as appropriate.\n\nClients must:\n\nReview the solicitation document, including:\n\nStatement of Work\n\nStatement of Requirement\n\nspecifications\n\nevaluation criteria\n\nConfirm by writing that their input is accurately reflected in both the solicitation document and Treasury Board submission\n\nFollow the applicable framework:\n\nthe generic matrix of responsibilities between PSPC and clients for the procurement of goods and services , or the client-specific agreements with the Department of National Defence\n\nA procurement may require modifying or deleting certain conditions. These changes must be discussed with the client before being reflected in the solicitation, contract, standing offer or supply arrangement. This ensures the complete understanding of the extent of the client's rights and responsibilities.",
   "provenance_paths": {}
 }

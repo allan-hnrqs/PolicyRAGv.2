@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:42.352392Z",
-  "content_hash": "7f7f06a428de4f7cfcbd0d21b2dc42a0253955dd9a0b83ca43125a2c07333410",
-  "word_count": 586,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "34389a51adb32c0890b934040a12050d1de478de1b2e74024386928e2b970533",
+  "word_count": 293,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Certifications",
+      "block_type": "heading",
+      "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications"
+        "Certifications"
       ],
-      "text": "Certifications A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents. The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are: Federal Contractors Program for Employment Equity This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act . Canadian content When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation. Price and rate certifications A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility. Ineligibility and Suspension Policy clauses These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
+      "text": "Certifications",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications"
       ],
-      "text": "Certifications",
+      "text": "A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.",
       "order": 1,
       "metadata": {}
     },
@@ -643,132 +642,111 @@
       "block_type": "paragraph",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications"
       ],
-      "text": "A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.",
+      "text": "The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Certifications",
+      "block_type": "heading",
+      "heading": "Federal Contractors Program for Employment Equity",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
-        "Certifications"
+        "Certifications",
+        "Federal Contractors Program for Employment Equity"
       ],
-      "text": "The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:",
+      "text": "Federal Contractors Program for Employment Equity",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Federal Contractors Program for Employment Equity",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
         "Federal Contractors Program for Employment Equity"
       ],
-      "text": "Federal Contractors Program for Employment Equity",
+      "text": "This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Federal Contractors Program for Employment Equity",
+      "block_type": "heading",
+      "heading": "Canadian content",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
-        "Federal Contractors Program for Employment Equity"
+        "Canadian content"
       ],
-      "text": "This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .",
+      "text": "Canadian content",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Canadian content",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
         "Canadian content"
       ],
-      "text": "Canadian content",
+      "text": "When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Canadian content",
+      "block_type": "heading",
+      "heading": "Price and rate certifications",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
-        "Canadian content"
+        "Price and rate certifications"
       ],
-      "text": "When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.",
+      "text": "Price and rate certifications",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price and rate certifications",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
         "Price and rate certifications"
       ],
-      "text": "Price and rate certifications",
+      "text": "A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Price and rate certifications",
+      "block_type": "heading",
+      "heading": "Ineligibility and Suspension Policy clauses",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
-        "Price and rate certifications"
+        "Ineligibility and Suspension Policy clauses"
       ],
-      "text": "A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.",
+      "text": "Ineligibility and Suspension Policy clauses",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
-      "heading": "Ineligibility and Suspension Policy clauses",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
-        "Certifications",
-        "Ineligibility and Suspension Policy clauses"
-      ],
-      "text": "Ineligibility and Suspension Policy clauses",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Ineligibility and Suspension Policy clauses",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Certifications",
         "Certifications",
         "Ineligibility and Suspension Policy clauses"
       ],
       "text": "These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Certifications A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents. The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are: Federal Contractors Program for Employment Equity This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act . Canadian content When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation. Price and rate certifications A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility. Ineligibility and Suspension Policy clauses These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.\n\nCertifications\n\nA requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.\n\nThe absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:\n\nFederal Contractors Program for Employment Equity\n\nThis program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .\n\nCanadian content\n\nWhen the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.\n\nPrice and rate certifications\n\nA price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.\n\nIneligibility and Suspension Policy clauses\n\nThese clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
-  "markdown_text": "Certifications A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents. The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are: Federal Contractors Program for Employment Equity This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act . Canadian content When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation. Price and rate certifications A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility. Ineligibility and Suspension Policy clauses These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.\n\nCertifications\n\nA requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.\n\nThe absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:\n\nFederal Contractors Program for Employment Equity\n\nThis program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .\n\nCanadian content\n\nWhen the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.\n\nPrice and rate certifications\n\nA price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.\n\nIneligibility and Suspension Policy clauses\n\nThese clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
+  "raw_text": "Certifications\n\nA requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.\n\nThe absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:\n\nFederal Contractors Program for Employment Equity\n\nThis program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .\n\nCanadian content\n\nWhen the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.\n\nPrice and rate certifications\n\nA price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.\n\nIneligibility and Suspension Policy clauses\n\nThese clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
+  "markdown_text": "Certifications\n\nA requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.\n\nThe absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:\n\nFederal Contractors Program for Employment Equity\n\nThis program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .\n\nCanadian content\n\nWhen the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.\n\nPrice and rate certifications\n\nA price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.\n\nIneligibility and Suspension Policy clauses\n\nThese clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.",
   "provenance_paths": {}
 }

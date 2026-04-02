@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:19.072945Z",
   "content_hash": "87b4385f96d385a563492ee64a7c1c179455ce7c52a6ac76ed8984fc83877042",
   "word_count": 676,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -774,7 +774,6 @@
       "block_type": "heading",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations"
       ],
       "text": "Task authorizations",
@@ -786,7 +785,6 @@
       "block_type": "paragraph",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations"
       ],
       "text": "You should refer to the guidelines listed below when managing contracts that involve task authorizations.",
@@ -798,7 +796,6 @@
       "block_type": "heading",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -811,7 +808,6 @@
       "block_type": "paragraph",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -824,7 +820,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -837,7 +832,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -850,7 +844,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -863,7 +856,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -876,7 +868,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -889,7 +880,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -902,7 +892,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -915,7 +904,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -928,7 +916,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -941,7 +928,6 @@
       "block_type": "list_item",
       "heading": "Authorizing and issuing task authorizations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Authorizing and issuing task authorizations"
       ],
@@ -954,7 +940,6 @@
       "block_type": "heading",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -967,7 +952,6 @@
       "block_type": "paragraph",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -980,7 +964,6 @@
       "block_type": "paragraph",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -993,7 +976,6 @@
       "block_type": "list_item",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -1006,7 +988,6 @@
       "block_type": "list_item",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -1019,7 +1000,6 @@
       "block_type": "paragraph",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -1032,7 +1012,6 @@
       "block_type": "paragraph",
       "heading": "Revision of a task authorization",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Revision of a task authorization"
       ],
@@ -1045,7 +1024,6 @@
       "block_type": "heading",
       "heading": "Recordkeeping",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Recordkeeping"
       ],
@@ -1058,7 +1036,6 @@
       "block_type": "paragraph",
       "heading": "Recordkeeping",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Recordkeeping"
       ],
@@ -1071,7 +1048,6 @@
       "block_type": "heading",
       "heading": "Segregation of duties",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Segregation of duties"
       ],
@@ -1084,7 +1060,6 @@
       "block_type": "paragraph",
       "heading": "Segregation of duties",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Segregation of duties"
       ],
@@ -1097,7 +1072,6 @@
       "block_type": "paragraph",
       "heading": "Segregation of duties",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Segregation of duties"
       ],
@@ -1110,7 +1084,6 @@
       "block_type": "paragraph",
       "heading": "Segregation of duties",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Segregation of duties"
       ],
@@ -1123,7 +1096,6 @@
       "block_type": "heading",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],
@@ -1136,7 +1108,6 @@
       "block_type": "paragraph",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],
@@ -1149,7 +1120,6 @@
       "block_type": "paragraph",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],
@@ -1162,7 +1132,6 @@
       "block_type": "list_item",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],
@@ -1175,7 +1144,6 @@
       "block_type": "list_item",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],
@@ -1188,7 +1156,6 @@
       "block_type": "paragraph",
       "heading": "Monitoring and oversight",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Task authorizations",
         "Task authorizations",
         "Monitoring and oversight"
       ],

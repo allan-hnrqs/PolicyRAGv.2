@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:17.920134Z",
-  "content_hash": "06a8dc42d55154377d149e85d641a6da02c9ef17861bb2a241df8f4331553f78",
-  "word_count": 1658,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c1258b487904a8209e6e604be9fa7b764132a5ac3597616ec6f124c523b5943a",
+  "word_count": 829,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,101 +960,95 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+      "block_type": "heading",
+      "heading": "Controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods"
+        "Controlled goods"
       ],
-      "text": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods. Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology. Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods. Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website . Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents. Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual. Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods. Verification of registration status The PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons. Review the current Registered Persons list Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination. Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled. Find a copy of the export permit in Export and Import Controls Printable Forms Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include: using double envelopes, security seals and security-sealed containers marking transfer containers with a return address recording how the controlled good is being transferred determining the reliability of a postal or courier service transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred examining the packaging and sealing devices, and reporting any tampering upon receipt Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
+      "text": "Controlled goods",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods"
       ],
-      "text": "Controlled goods",
+      "text": "Controlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Controlled goods",
+      "block_type": "heading",
+      "heading": "Registration requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
-        "Controlled goods"
+        "Controlled goods",
+        "Registration requirements"
       ],
-      "text": "Controlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.",
+      "text": "Registration requirements",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Registration requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Registration requirements"
       ],
-      "text": "Registration requirements",
+      "text": "As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Registration requirements",
+      "block_type": "heading",
+      "heading": "Handling offers containing controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Registration requirements"
+        "Handling offers containing controlled goods"
       ],
-      "text": "As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.",
+      "text": "Handling offers containing controlled goods",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Handling offers containing controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Handling offers containing controlled goods"
       ],
-      "text": "Handling offers containing controlled goods",
+      "text": "There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Handling offers containing controlled goods",
+      "block_type": "heading",
+      "heading": "Access and distribution restrictions",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Handling offers containing controlled goods"
+        "Access and distribution restrictions"
       ],
-      "text": "There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.",
+      "text": "Access and distribution restrictions",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Access and distribution restrictions",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Access and distribution restrictions"
       ],
-      "text": "Access and distribution restrictions",
+      "text": "Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .",
       "order": 7,
       "metadata": {}
     },
@@ -1063,63 +1057,58 @@
       "block_type": "paragraph",
       "heading": "Access and distribution restrictions",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Access and distribution restrictions"
       ],
-      "text": "Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .",
+      "text": "For more details, please consult the Controlled Goods Directorate website .",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Access and distribution restrictions",
+      "block_type": "heading",
+      "heading": "Solicitation requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Access and distribution restrictions"
+        "Solicitation requirements"
       ],
-      "text": "For more details, please consult the Controlled Goods Directorate website .",
+      "text": "Solicitation requirements",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Solicitation requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Solicitation requirements"
       ],
-      "text": "Solicitation requirements",
+      "text": "When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Solicitation requirements",
+      "block_type": "heading",
+      "heading": "Handling controlled components in solicitations",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Solicitation requirements"
+        "Handling controlled components in solicitations"
       ],
-      "text": "When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.",
+      "text": "Handling controlled components in solicitations",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Handling controlled components in solicitations",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Handling controlled components in solicitations"
       ],
-      "text": "Handling controlled components in solicitations",
+      "text": "If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.",
       "order": 12,
       "metadata": {}
     },
@@ -1128,37 +1117,34 @@
       "block_type": "paragraph",
       "heading": "Handling controlled components in solicitations",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Handling controlled components in solicitations"
       ],
-      "text": "If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.",
+      "text": "Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Handling controlled components in solicitations",
+      "block_type": "heading",
+      "heading": "Verification of registration status",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Handling controlled components in solicitations"
+        "Verification of registration status"
       ],
-      "text": "Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.",
+      "text": "Verification of registration status",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Verification of registration status",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Verification of registration status"
       ],
-      "text": "Verification of registration status",
+      "text": "The PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.",
       "order": 15,
       "metadata": {}
     },
@@ -1167,37 +1153,34 @@
       "block_type": "paragraph",
       "heading": "Verification of registration status",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Verification of registration status"
       ],
-      "text": "The PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.",
+      "text": "Review the current Registered Persons list",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "paragraph",
-      "heading": "Verification of registration status",
+      "block_type": "heading",
+      "heading": "Export controls",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Verification of registration status"
+        "Export controls"
       ],
-      "text": "Review the current Registered Persons list",
+      "text": "Export controls",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Export controls",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Export controls"
       ],
-      "text": "Export controls",
+      "text": "Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.",
       "order": 18,
       "metadata": {}
     },
@@ -1206,11 +1189,10 @@
       "block_type": "paragraph",
       "heading": "Export controls",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Export controls"
       ],
-      "text": "Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.",
+      "text": "Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.",
       "order": 19,
       "metadata": {}
     },
@@ -1219,50 +1201,46 @@
       "block_type": "paragraph",
       "heading": "Export controls",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Export controls"
       ],
-      "text": "Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.",
+      "text": "Find a copy of the export permit in Export and Import Controls Printable Forms",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Export controls",
+      "block_type": "heading",
+      "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Export controls"
+        "Security measures for transferring controlled goods"
       ],
-      "text": "Find a copy of the export permit in Export and Import Controls Printable Forms",
+      "text": "Security measures for transferring controlled goods",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "Security measures for transferring controlled goods",
+      "text": "Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:",
+      "text": "using double envelopes, security seals and security-sealed containers",
       "order": 23,
       "metadata": {}
     },
@@ -1271,11 +1249,10 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "using double envelopes, security seals and security-sealed containers",
+      "text": "marking transfer containers with a return address",
       "order": 24,
       "metadata": {}
     },
@@ -1284,11 +1261,10 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "marking transfer containers with a return address",
+      "text": "recording how the controlled good is being transferred",
       "order": 25,
       "metadata": {}
     },
@@ -1297,11 +1273,10 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "recording how the controlled good is being transferred",
+      "text": "determining the reliability of a postal or courier service",
       "order": 26,
       "metadata": {}
     },
@@ -1310,11 +1285,10 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "determining the reliability of a postal or courier service",
+      "text": "transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery",
       "order": 27,
       "metadata": {}
     },
@@ -1323,11 +1297,10 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery",
+      "text": "recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred",
       "order": 28,
       "metadata": {}
     },
@@ -1336,56 +1309,40 @@
       "block_type": "list_item",
       "heading": "Security measures for transferring controlled goods",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Security measures for transferring controlled goods"
       ],
-      "text": "recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred",
+      "text": "examining the packaging and sealing devices, and reporting any tampering upon receipt",
       "order": 29,
       "metadata": {}
     },
     {
       "block_id": "block_0030",
-      "block_type": "list_item",
-      "heading": "Security measures for transferring controlled goods",
+      "block_type": "heading",
+      "heading": "Contractual requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
-        "Security measures for transferring controlled goods"
+        "Contractual requirements"
       ],
-      "text": "examining the packaging and sealing devices, and reporting any tampering upon receipt",
+      "text": "Contractual requirements",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "heading",
-      "heading": "Contractual requirements",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
-        "Controlled goods",
-        "Contractual requirements"
-      ],
-      "text": "Contractual requirements",
-      "order": 31,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0032",
       "block_type": "paragraph",
       "heading": "Contractual requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
         "Controlled goods",
         "Contractual requirements"
       ],
       "text": "When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
-      "order": 32,
+      "order": 31,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods. Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology. Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods. Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website . Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents. Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual. Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods. Verification of registration status The PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons. Review the current Registered Persons list Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination. Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled. Find a copy of the export permit in Export and Import Controls Printable Forms Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include: using double envelopes, security seals and security-sealed containers marking transfer containers with a return address recording how the controlled good is being transferred determining the reliability of a postal or courier service transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred examining the packaging and sealing devices, and reporting any tampering upon receipt Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities\n\nControlled goods\n\nControlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.\n\nRegistration requirements\n\nAs of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.\n\nHandling offers containing controlled goods\n\nThere may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.\n\nAccess and distribution restrictions\n\nControlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .\n\nFor more details, please consult the Controlled Goods Directorate website .\n\nSolicitation requirements\n\nWhen producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.\n\nHandling controlled components in solicitations\n\nIf a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.\n\nNote: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.\n\nVerification of registration status\n\nThe PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.\n\nReview the current Registered Persons list\n\nExport controls\n\nExporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.\n\nGenerally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.\n\nFind a copy of the export permit in Export and Import Controls Printable Forms\n\nSecurity measures for transferring controlled goods\n\nAppropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:\n\nusing double envelopes, security seals and security-sealed containers\n\nmarking transfer containers with a return address\n\nrecording how the controlled good is being transferred\n\ndetermining the reliability of a postal or courier service\n\ntransferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery\n\nrecording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred\n\nexamining the packaging and sealing devices, and reporting any tampering upon receipt\n\nContractual requirements\n\nWhen the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
-  "markdown_text": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods. Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology. Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods. Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website . Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents. Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual. Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods. Verification of registration status The PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons. Review the current Registered Persons list Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination. Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled. Find a copy of the export permit in Export and Import Controls Printable Forms Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include: using double envelopes, security seals and security-sealed containers marking transfer containers with a return address recording how the controlled good is being transferred determining the reliability of a postal or courier service transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred examining the packaging and sealing devices, and reporting any tampering upon receipt Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities\n\nControlled goods\n\nControlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.\n\nRegistration requirements\n\nAs of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.\n\nHandling offers containing controlled goods\n\nThere may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.\n\nAccess and distribution restrictions\n\nControlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .\n\nFor more details, please consult the Controlled Goods Directorate website .\n\nSolicitation requirements\n\nWhen producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.\n\nHandling controlled components in solicitations\n\nIf a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.\n\nNote: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.\n\nVerification of registration status\n\nThe PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.\n\nReview the current Registered Persons list\n\nExport controls\n\nExporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.\n\nGenerally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.\n\nFind a copy of the export permit in Export and Import Controls Printable Forms\n\nSecurity measures for transferring controlled goods\n\nAppropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:\n\nusing double envelopes, security seals and security-sealed containers\n\nmarking transfer containers with a return address\n\nrecording how the controlled good is being transferred\n\ndetermining the reliability of a postal or courier service\n\ntransferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery\n\nrecording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred\n\nexamining the packaging and sealing devices, and reporting any tampering upon receipt\n\nContractual requirements\n\nWhen the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
+  "raw_text": "Controlled goods\n\nControlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.\n\nRegistration requirements\n\nAs of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.\n\nHandling offers containing controlled goods\n\nThere may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.\n\nAccess and distribution restrictions\n\nControlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .\n\nFor more details, please consult the Controlled Goods Directorate website .\n\nSolicitation requirements\n\nWhen producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.\n\nHandling controlled components in solicitations\n\nIf a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.\n\nNote: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.\n\nVerification of registration status\n\nThe PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.\n\nReview the current Registered Persons list\n\nExport controls\n\nExporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.\n\nGenerally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.\n\nFind a copy of the export permit in Export and Import Controls Printable Forms\n\nSecurity measures for transferring controlled goods\n\nAppropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:\n\nusing double envelopes, security seals and security-sealed containers\n\nmarking transfer containers with a return address\n\nrecording how the controlled good is being transferred\n\ndetermining the reliability of a postal or courier service\n\ntransferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery\n\nrecording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred\n\nexamining the packaging and sealing devices, and reporting any tampering upon receipt\n\nContractual requirements\n\nWhen the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
+  "markdown_text": "Controlled goods\n\nControlled goods are items of military or national security significance that are regulated under Canada’s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.\n\nRegistration requirements\n\nAs of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.\n\nHandling offers containing controlled goods\n\nThere may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.\n\nAccess and distribution restrictions\n\nControlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .\n\nFor more details, please consult the Controlled Goods Directorate website .\n\nSolicitation requirements\n\nWhen producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.\n\nHandling controlled components in solicitations\n\nIf a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.\n\nNote: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.\n\nVerification of registration status\n\nThe PSPC ’s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.\n\nReview the current Registered Persons list\n\nExport controls\n\nExporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.\n\nGenerally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT ’s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.\n\nFind a copy of the export permit in Export and Import Controls Printable Forms\n\nSecurity measures for transferring controlled goods\n\nAppropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:\n\nusing double envelopes, security seals and security-sealed containers\n\nmarking transfer containers with a return address\n\nrecording how the controlled good is being transferred\n\ndetermining the reliability of a postal or courier service\n\ntransferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery\n\nrecording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred\n\nexamining the packaging and sealing devices, and reporting any tampering upon receipt\n\nContractual requirements\n\nWhen the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror’s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
   "provenance_paths": {}
 }

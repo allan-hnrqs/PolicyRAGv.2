@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:52.706789Z",
-  "content_hash": "53426befc40ca42db776bfb5adb0824a38c9fcfe42f4715d43a8bec45dc82c06",
-  "word_count": 66,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "222fb165f2c483356785aa2c98d3fb1d55e6a8744f80d52c7881df4bedde1ee8",
+  "word_count": 33,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -473,42 +473,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract negotiation - Negotiation Services Hub",
+      "block_type": "heading",
+      "heading": "Negotiation Services Hub",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - Negotiation Services Hub"
+        "Negotiation Services Hub"
       ],
-      "text": "Negotiation Services Hub Public Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
+      "text": "Negotiation Services Hub",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Negotiation Services Hub",
-      "heading_path": [
-        "Buyer's Guide Contract negotiation - Negotiation Services Hub",
-        "Negotiation Services Hub"
-      ],
-      "text": "Negotiation Services Hub",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Negotiation Services Hub",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - Negotiation Services Hub",
         "Negotiation Services Hub"
       ],
       "text": "Public Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Negotiation Services Hub Public Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).\n\nNegotiation Services Hub\n\nPublic Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
-  "markdown_text": "Negotiation Services Hub Public Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).\n\nNegotiation Services Hub\n\nPublic Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
+  "raw_text": "Negotiation Services Hub\n\nPublic Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
+  "markdown_text": "Negotiation Services Hub\n\nPublic Services and Procurement Canada (PSPC) buyers can access negotiation expertise and support by visiting the Negotiation Services Hub (accessible only on the Government of Canada network [ PSPC only]).",
   "provenance_paths": {}
 }

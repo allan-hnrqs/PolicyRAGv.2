@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:59.399711Z",
-  "content_hash": "7a8c1bd64958a330a0eb711eb76dbe8f4708cdc552801abb73f51b641838e9d3",
-  "word_count": 866,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "5266f006e24071bf7642fff20e28716746024218685c560d604f3036e143ec81",
+  "word_count": 433,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -473,24 +473,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
+      "block_type": "heading",
+      "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations"
+        "Getting started with cost and profit negotiations"
       ],
-      "text": "Getting started with cost and profit negotiations Buyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles. The policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing . Prices for goods and services can be established through various pricing methods: market, commercial and negotiated. Market pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes. When neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada. You must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles. Note : Contracts valued under $50,000 do not require negotiation of profit under this section Cost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles: a cost base established using accepted costs incurred, cost estimates or a combination of both a profit margin calculated according to established profit principles contract incentives, where appropriate, to reward added value beyond the contract requirements The determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations . Where the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
+      "text": "Getting started with cost and profit negotiations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Getting started with cost and profit negotiations",
+      "text": "Buyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.",
       "order": 1,
       "metadata": {}
     },
@@ -499,10 +498,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Buyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.",
+      "text": "The policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .",
       "order": 2,
       "metadata": {}
     },
@@ -511,10 +509,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "The policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .",
+      "text": "Prices for goods and services can be established through various pricing methods: market, commercial and negotiated.",
       "order": 3,
       "metadata": {}
     },
@@ -523,10 +520,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Prices for goods and services can be established through various pricing methods: market, commercial and negotiated.",
+      "text": "Market pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.",
       "order": 4,
       "metadata": {}
     },
@@ -535,10 +531,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Market pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.",
+      "text": "When neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.",
       "order": 5,
       "metadata": {}
     },
@@ -547,10 +542,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "When neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.",
+      "text": "You must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.",
       "order": 6,
       "metadata": {}
     },
@@ -559,10 +553,9 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "You must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.",
+      "text": "Note : Contracts valued under $50,000 do not require negotiation of profit under this section",
       "order": 7,
       "metadata": {}
     },
@@ -571,22 +564,20 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Note : Contracts valued under $50,000 do not require negotiation of profit under this section",
+      "text": "Cost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "Cost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:",
+      "text": "a cost base established using accepted costs incurred, cost estimates or a combination of both",
       "order": 9,
       "metadata": {}
     },
@@ -595,10 +586,9 @@
       "block_type": "list_item",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "a cost base established using accepted costs incurred, cost estimates or a combination of both",
+      "text": "a profit margin calculated according to established profit principles",
       "order": 10,
       "metadata": {}
     },
@@ -607,22 +597,20 @@
       "block_type": "list_item",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "a profit margin calculated according to established profit principles",
+      "text": "contract incentives, where appropriate, to reward added value beyond the contract requirements",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
-      "text": "contract incentives, where appropriate, to reward added value beyond the contract requirements",
+      "text": "The determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .",
       "order": 12,
       "metadata": {}
     },
@@ -631,28 +619,15 @@
       "block_type": "paragraph",
       "heading": "Getting started with cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
-        "Getting started with cost and profit negotiations"
-      ],
-      "text": "The determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Getting started with cost and profit negotiations",
-      "heading_path": [
-        "Buyer's Guide Cost and profit negotiations - Getting started with cost and profit negotiations",
         "Getting started with cost and profit negotiations"
       ],
       "text": "Where the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
-      "order": 14,
+      "order": 13,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Getting started with cost and profit negotiations Buyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles. The policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing . Prices for goods and services can be established through various pricing methods: market, commercial and negotiated. Market pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes. When neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada. You must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles. Note : Contracts valued under $50,000 do not require negotiation of profit under this section Cost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles: a cost base established using accepted costs incurred, cost estimates or a combination of both a profit margin calculated according to established profit principles contract incentives, where appropriate, to reward added value beyond the contract requirements The determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations . Where the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract\n\nGetting started with cost and profit negotiations\n\nBuyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.\n\nThe policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .\n\nPrices for goods and services can be established through various pricing methods: market, commercial and negotiated.\n\nMarket pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.\n\nWhen neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.\n\nYou must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.\n\nNote : Contracts valued under $50,000 do not require negotiation of profit under this section\n\nCost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:\n\na cost base established using accepted costs incurred, cost estimates or a combination of both\n\na profit margin calculated according to established profit principles\n\ncontract incentives, where appropriate, to reward added value beyond the contract requirements\n\nThe determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .\n\nWhere the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
-  "markdown_text": "Getting started with cost and profit negotiations Buyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles. The policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing . Prices for goods and services can be established through various pricing methods: market, commercial and negotiated. Market pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes. When neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada. You must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles. Note : Contracts valued under $50,000 do not require negotiation of profit under this section Cost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles: a cost base established using accepted costs incurred, cost estimates or a combination of both a profit margin calculated according to established profit principles contract incentives, where appropriate, to reward added value beyond the contract requirements The determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations . Where the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract\n\nGetting started with cost and profit negotiations\n\nBuyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.\n\nThe policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .\n\nPrices for goods and services can be established through various pricing methods: market, commercial and negotiated.\n\nMarket pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.\n\nWhen neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.\n\nYou must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.\n\nNote : Contracts valued under $50,000 do not require negotiation of profit under this section\n\nCost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:\n\na cost base established using accepted costs incurred, cost estimates or a combination of both\n\na profit margin calculated according to established profit principles\n\ncontract incentives, where appropriate, to reward added value beyond the contract requirements\n\nThe determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .\n\nWhere the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
+  "raw_text": "Getting started with cost and profit negotiations\n\nBuyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.\n\nThe policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .\n\nPrices for goods and services can be established through various pricing methods: market, commercial and negotiated.\n\nMarket pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.\n\nWhen neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.\n\nYou must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.\n\nNote : Contracts valued under $50,000 do not require negotiation of profit under this section\n\nCost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:\n\na cost base established using accepted costs incurred, cost estimates or a combination of both\n\na profit margin calculated according to established profit principles\n\ncontract incentives, where appropriate, to reward added value beyond the contract requirements\n\nThe determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .\n\nWhere the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
+  "markdown_text": "Getting started with cost and profit negotiations\n\nBuyers should refer to the Practitioner’s Guide for Procurement Pricing , Section 5, Pricing Principles for more information and guidance on contract pricing, including cost and profit principles.\n\nThe policy and guidelines for profit determination is applicable to all negotiated contracts, in line with the applicability requirements in Section 5.0.1 Cost-Based Pricing Principles, and Section 5.2 Profit Principles in the Practitioner’s Guide for Procurement Pricing .\n\nPrices for goods and services can be established through various pricing methods: market, commercial and negotiated.\n\nMarket pricing is preferred, where prices are established by the market through competition. If competition is absent, commercial pricing may be possible, which is pricing available to the general public or entities for non-government purposes.\n\nWhen neither method is possible, or it is not possible to establish a basis of price through a fair and reasonable price assessment, you must negotiate the price using a form of “negotiated pricing”. The objective of price negotiation is to duplicate a fair market price, while establishing a realistic division of responsibilities and risks between the contractor and Canada.\n\nYou must negotiate a fair market price for non-competitive contracts for the procurement of goods and services (other than commercial goods and services). A fair market price will be based on an estimate of the costs, to be incurred in the performance of the contract, computed in accordance with the Contract Cost Principles 1031-2 , plus a fair profit. A fair profit is an amount no greater than that calculated in the Practitioner’s Guide for Procurement Pricing , Section 5.2 Profit Principles.\n\nNote : Contracts valued under $50,000 do not require negotiation of profit under this section\n\nCost-based pricing is the most common form of negotiated pricing, although you may use an alternative pricing strategy under certain conditions. With cost-based pricing, a fair and reasonable contract price consists of three principles:\n\na cost base established using accepted costs incurred, cost estimates or a combination of both\n\na profit margin calculated according to established profit principles\n\ncontract incentives, where appropriate, to reward added value beyond the contract requirements\n\nThe determination of prices depends on the circumstances of each contract. Before referring to the general subsections on analyzing and negotiating costs and profit, determine if your procurement must include special cost considerations .\n\nWhere the contract price is based on estimated or actual costs, there may be a need to mitigate price risk and make adjustment to allowable amounts based on a verification of the supporting records. To mitigate price risk, buyers should include the appropriate auditing clause in the contract",
   "provenance_paths": {}
 }

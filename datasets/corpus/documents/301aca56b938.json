@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:29.723849Z",
   "content_hash": "ecf869f124f733a9993dae337dab2d18ec31adef4ecb69f628147d6a8472415c",
   "word_count": 299,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "Overtime",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "When overtime is performed under a contract, Canada may incur added costs due to overtime premiums. Recognition of the additional costs by Canada depends upon the attendant circumstances and the cause for the overtime. Work performed under a contract should not result in higher overtime charges than would apply to similar commercial work.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "Scheduled overtime premium costs included in a contractor’s overhead are allowable if the contracts account for a pro rata share of the overtime.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "Unscheduled overtime premium costs to specific contracts are allowable only, if the overtime is due to Public Services and Procurement Canada (PSPC) or client demands for accelerated delivery, increased delivery quantities, or other reasons initiated by the client where the benefit to Canada can be demonstrated.",
@@ -820,7 +816,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "If unscheduled overtime is likely, you should ensure the contract includes proper provisions for authorization, rates, and dollar limits.",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "You should consult with a cost analyst to determine if the contractor's cost system includes overtime premium costs in the overhead account or as a direct charge to the particular contract. PSPC buyers should consult the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada’s network - PSPC only).",
@@ -844,7 +838,6 @@
       "block_type": "paragraph",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "When authorizing unscheduled overtime, you must:",
@@ -856,7 +849,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "consult with the client to jointly confirm the need of overtime will result in a benefit to Canada",
@@ -868,7 +860,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "ensure funding is available for reimbursing the contractor",
@@ -880,7 +871,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "determine the aggregate limits of time and costs of the overtime to be authorized",
@@ -892,7 +882,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "decide what, if any, delegation of authority should be made to the client's representative",
@@ -904,7 +893,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "ensure that provisions for proper claiming and approval of overtime claimed, and overtime payments to the contractor, is included in the contract",
@@ -916,7 +904,6 @@
       "block_type": "list_item",
       "heading": "Overtime",
       "heading_path": [
-        "Buyer's Guide Manage payments - Overtime",
         "Overtime"
       ],
       "text": "ensure that the procurement file includes clear documentation of all aspects related to the decision to authorize overtime",

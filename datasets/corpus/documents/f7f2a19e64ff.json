@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:15.677878Z",
-  "content_hash": "aca17e722ef0e2af70eb6ed953996e5aa9b528304ecbb59324323af8e7b935df",
-  "word_count": 392,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "09ab7c03951e52a93477464c007aa873b0c6804d258c90ccc5df04ce14f1d7d7",
+  "word_count": 196,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,36 +618,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Prepare approval documents - Task authorizations",
+      "block_type": "heading",
+      "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations"
+        "Task authorizations"
       ],
-      "text": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suitable for this method of supply the justification for the proposed financial limits for issuing TA s by clients a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task a description of the contract monitoring process and activities to be implemented Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
+      "text": "Task authorizations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "Task authorizations",
+      "text": "For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:",
+      "text": "the reasons why the services are suitable for this method of supply",
       "order": 2,
       "metadata": {}
     },
@@ -656,10 +654,9 @@
       "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "the reasons why the services are suitable for this method of supply",
+      "text": "the justification for the proposed financial limits for issuing TA s by clients",
       "order": 3,
       "metadata": {}
     },
@@ -668,10 +665,9 @@
       "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "the justification for the proposed financial limits for issuing TA s by clients",
+      "text": "a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client",
       "order": 4,
       "metadata": {}
     },
@@ -680,10 +676,9 @@
       "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client",
+      "text": "a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued",
       "order": 5,
       "metadata": {}
     },
@@ -692,10 +687,9 @@
       "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued",
+      "text": "a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task",
       "order": 6,
       "metadata": {}
     },
@@ -704,54 +698,39 @@
       "block_type": "list_item",
       "heading": "Task authorizations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations"
       ],
-      "text": "a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task",
+      "text": "a description of the contract monitoring process and activities to be implemented",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Task authorizations",
+      "block_type": "heading",
+      "heading": "Authority for approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
-        "Task authorizations"
+        "Task authorizations",
+        "Authority for approval"
       ],
-      "text": "a description of the contract monitoring process and activities to be implemented",
+      "text": "Authority for approval",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
-      "heading": "Authority for approval",
-      "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
-        "Task authorizations",
-        "Authority for approval"
-      ],
-      "text": "Authority for approval",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
       "block_type": "paragraph",
       "heading": "Authority for approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Task authorizations",
         "Task authorizations",
         "Authority for approval"
       ],
       "text": "The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suitable for this method of supply the justification for the proposed financial limits for issuing TA s by clients a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task a description of the contract monitoring process and activities to be implemented Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTask authorizations\n\nFor contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:\n\nthe reasons why the services are suitable for this method of supply\n\nthe justification for the proposed financial limits for issuing TA s by clients\n\na statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client\n\na statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued\n\na statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task\n\na description of the contract monitoring process and activities to be implemented\n\nAuthority for approval\n\nThe Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
-  "markdown_text": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suitable for this method of supply the justification for the proposed financial limits for issuing TA s by clients a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task a description of the contract monitoring process and activities to be implemented Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).\n\nTask authorizations\n\nFor contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:\n\nthe reasons why the services are suitable for this method of supply\n\nthe justification for the proposed financial limits for issuing TA s by clients\n\na statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client\n\na statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued\n\na statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task\n\na description of the contract monitoring process and activities to be implemented\n\nAuthority for approval\n\nThe Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
+  "raw_text": "Task authorizations\n\nFor contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:\n\nthe reasons why the services are suitable for this method of supply\n\nthe justification for the proposed financial limits for issuing TA s by clients\n\na statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client\n\na statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued\n\na statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task\n\na description of the contract monitoring process and activities to be implemented\n\nAuthority for approval\n\nThe Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
+  "markdown_text": "Task authorizations\n\nFor contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:\n\nthe reasons why the services are suitable for this method of supply\n\nthe justification for the proposed financial limits for issuing TA s by clients\n\na statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client\n\na statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued\n\na statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task\n\na description of the contract monitoring process and activities to be implemented\n\nAuthority for approval\n\nThe Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
   "provenance_paths": {}
 }

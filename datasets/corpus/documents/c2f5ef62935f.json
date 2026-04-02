@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:54.760019Z",
-  "content_hash": "6a04f91831410106033a2276c22241bfa0df26c1b1a2c70c2911df4dbeb6731d",
-  "word_count": 40,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b9d74b39c312423131ea833bd1d3977ca7133aad7290154fc6f11a177c8ff7fc",
+  "word_count": 20,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -481,42 +481,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cost and profit negotiations",
+      "block_type": "heading",
+      "heading": "Cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations"
+        "Cost and profit negotiations"
       ],
-      "text": "Cost and profit negotiations This section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
+      "text": "Cost and profit negotiations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Cost and profit negotiations",
-      "heading_path": [
-        "Buyer's Guide Cost and profit negotiations",
-        "Cost and profit negotiations"
-      ],
-      "text": "Cost and profit negotiations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Cost and profit negotiations",
       "heading_path": [
-        "Buyer's Guide Cost and profit negotiations",
         "Cost and profit negotiations"
       ],
       "text": "This section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Cost and profit negotiations This section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.\n\nCost and profit negotiations\n\nThis section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
-  "markdown_text": "Cost and profit negotiations This section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.\n\nCost and profit negotiations\n\nThis section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
+  "raw_text": "Cost and profit negotiations\n\nThis section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
+  "markdown_text": "Cost and profit negotiations\n\nThis section provides information on pricing, analyzing and negotiating costs, and applying profit principles in procurement.",
   "provenance_paths": {}
 }

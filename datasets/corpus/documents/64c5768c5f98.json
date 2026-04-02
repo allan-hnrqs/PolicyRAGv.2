@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:54.596917Z",
-  "content_hash": "ad8ac8e07da315d6dddefbd063124dec3625396f666266e09531a5790b537ac6",
-  "word_count": 128,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "a5a212386f4cfb5e2448443eab15dacdeb3766e8aace3faebaf74b918739f2e4",
+  "word_count": 64,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -609,42 +609,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Solicitation period",
+      "block_type": "heading",
+      "heading": "Solicitation period",
       "heading_path": [
-        "Buyer's Guide Solicitation period"
+        "Solicitation period"
       ],
-      "text": "Solicitation period You, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
+      "text": "Solicitation period",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Solicitation period",
-      "heading_path": [
-        "Buyer's Guide Solicitation period",
-        "Solicitation period"
-      ],
-      "text": "Solicitation period",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Solicitation period",
       "heading_path": [
-        "Buyer's Guide Solicitation period",
         "Solicitation period"
       ],
       "text": "You, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Solicitation period You, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.\n\nSolicitation period\n\nYou, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
-  "markdown_text": "Solicitation period You, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.\n\nSolicitation period\n\nYou, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
+  "raw_text": "Solicitation period\n\nYou, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
+  "markdown_text": "Solicitation period\n\nYou, the buyer, must always provide a reasonable amount of time for offerors to obtain the solicitation document and to prepare and submit an offer regardless of any prescribed minimum solicitation periods. Special considerations for the applicable solicitation period also apply to urgent procurements, requests for supply arrangements (RFSAs), invitations to qualify (ITQs) and solicitations following a request for expressions of interest.",
   "provenance_paths": {}
 }

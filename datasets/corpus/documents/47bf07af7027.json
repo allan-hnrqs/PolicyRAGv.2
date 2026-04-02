@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:07.845968Z",
-  "content_hash": "fc8279c6ff803e338f0d4b5bdff6171f0aafcf97a1f65fc3701389ea97133074",
-  "word_count": 804,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "706b102438439b57fc6377fab3aa29592ff08ef5545c9d8b672f9f37dc24bb3f",
+  "word_count": 402,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Fixed time/unit rate",
+      "block_type": "heading",
+      "heading": "Fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate"
+        "Fixed time/unit rate"
       ],
-      "text": "Fixed time/unit rate This basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit. This payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits. Conditions for using fixed time/unit rate Use this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined. You must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications. Negotiating fixed time/unit rate For non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable. Incorporating contractual limitations Use one the following clauses with fixed time/unit rate basis of payment: Ceiling price If included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work. Limitation of expenditure Without a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding. To learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
+      "text": "Fixed time/unit rate",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate"
       ],
-      "text": "Fixed time/unit rate",
+      "text": "This basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.",
       "order": 1,
       "metadata": {}
     },
@@ -986,35 +985,33 @@
       "block_type": "paragraph",
       "heading": "Fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate"
       ],
-      "text": "This basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.",
+      "text": "This payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Fixed time/unit rate",
+      "block_type": "heading",
+      "heading": "Conditions for using fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
-        "Fixed time/unit rate"
+        "Fixed time/unit rate",
+        "Conditions for using fixed time/unit rate"
       ],
-      "text": "This payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.",
+      "text": "Conditions for using fixed time/unit rate",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Conditions for using fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Conditions for using fixed time/unit rate"
       ],
-      "text": "Conditions for using fixed time/unit rate",
+      "text": "Use this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.",
       "order": 4,
       "metadata": {}
     },
@@ -1023,118 +1020,110 @@
       "block_type": "paragraph",
       "heading": "Conditions for using fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Conditions for using fixed time/unit rate"
       ],
-      "text": "Use this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.",
+      "text": "You must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Conditions for using fixed time/unit rate",
+      "block_type": "heading",
+      "heading": "Negotiating fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
-        "Conditions for using fixed time/unit rate"
+        "Negotiating fixed time/unit rate"
       ],
-      "text": "You must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.",
+      "text": "Negotiating fixed time/unit rate",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Negotiating fixed time/unit rate",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Negotiating fixed time/unit rate"
       ],
-      "text": "Negotiating fixed time/unit rate",
+      "text": "For non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Negotiating fixed time/unit rate",
+      "block_type": "heading",
+      "heading": "Incorporating contractual limitations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
-        "Negotiating fixed time/unit rate"
+        "Incorporating contractual limitations"
       ],
-      "text": "For non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.",
+      "text": "Incorporating contractual limitations",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Incorporating contractual limitations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Incorporating contractual limitations"
       ],
-      "text": "Incorporating contractual limitations",
+      "text": "Use one the following clauses with fixed time/unit rate basis of payment:",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Incorporating contractual limitations",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
-        "Fixed time/unit rate",
-        "Incorporating contractual limitations"
-      ],
-      "text": "Use one the following clauses with fixed time/unit rate basis of payment:",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
       "block_type": "heading",
       "heading": "Ceiling price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Incorporating contractual limitations",
         "Ceiling price"
       ],
       "text": "Ceiling price",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Ceiling price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Incorporating contractual limitations",
         "Ceiling price"
       ],
       "text": "If included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     },
     {
-      "block_id": "block_0013",
+      "block_id": "block_0012",
       "block_type": "heading",
       "heading": "Limitation of expenditure",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Incorporating contractual limitations",
         "Limitation of expenditure"
       ],
       "text": "Limitation of expenditure",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "paragraph",
+      "heading": "Limitation of expenditure",
+      "heading_path": [
+        "Fixed time/unit rate",
+        "Incorporating contractual limitations",
+        "Limitation of expenditure"
+      ],
+      "text": "Without a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.",
       "order": 13,
       "metadata": {}
     },
@@ -1143,32 +1132,17 @@
       "block_type": "paragraph",
       "heading": "Limitation of expenditure",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
-        "Fixed time/unit rate",
-        "Incorporating contractual limitations",
-        "Limitation of expenditure"
-      ],
-      "text": "Without a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Limitation of expenditure",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed time/unit rate",
         "Fixed time/unit rate",
         "Incorporating contractual limitations",
         "Limitation of expenditure"
       ],
       "text": "To learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Fixed time/unit rate This basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit. This payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits. Conditions for using fixed time/unit rate Use this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined. You must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications. Negotiating fixed time/unit rate For non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable. Incorporating contractual limitations Use one the following clauses with fixed time/unit rate basis of payment: Ceiling price If included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work. Limitation of expenditure Without a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding. To learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nFixed time/unit rate\n\nThis basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.\n\nThis payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.\n\nConditions for using fixed time/unit rate\n\nUse this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.\n\nYou must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.\n\nNegotiating fixed time/unit rate\n\nFor non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.\n\nIncorporating contractual limitations\n\nUse one the following clauses with fixed time/unit rate basis of payment:\n\nCeiling price\n\nIf included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work.\n\nLimitation of expenditure\n\nWithout a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.\n\nTo learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
-  "markdown_text": "Fixed time/unit rate This basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit. This payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits. Conditions for using fixed time/unit rate Use this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined. You must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications. Negotiating fixed time/unit rate For non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable. Incorporating contractual limitations Use one the following clauses with fixed time/unit rate basis of payment: Ceiling price If included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work. Limitation of expenditure Without a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding. To learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nFixed time/unit rate\n\nThis basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.\n\nThis payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.\n\nConditions for using fixed time/unit rate\n\nUse this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.\n\nYou must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.\n\nNegotiating fixed time/unit rate\n\nFor non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.\n\nIncorporating contractual limitations\n\nUse one the following clauses with fixed time/unit rate basis of payment:\n\nCeiling price\n\nIf included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work.\n\nLimitation of expenditure\n\nWithout a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.\n\nTo learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
+  "raw_text": "Fixed time/unit rate\n\nThis basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.\n\nThis payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.\n\nConditions for using fixed time/unit rate\n\nUse this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.\n\nYou must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.\n\nNegotiating fixed time/unit rate\n\nFor non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.\n\nIncorporating contractual limitations\n\nUse one the following clauses with fixed time/unit rate basis of payment:\n\nCeiling price\n\nIf included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work.\n\nLimitation of expenditure\n\nWithout a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.\n\nTo learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
+  "markdown_text": "Fixed time/unit rate\n\nThis basis of payment reimburses the contractor for the actual hours worked or other units procured in performance of the work. The time/units can represent labour hours or machine hours. The amount paid for these hours or other units is calculated based on a predetermined fixed rate, typically composed of estimated direct costs, indirect costs (overhead charges) and profit.\n\nThis payment method ensures the contractor is paid for the actual work done at a pre-agreed rate while allowing for financial oversight through audits and adherence to negotiated limits.\n\nConditions for using fixed time/unit rate\n\nUse this basis of payment when the level of effort and/or quantities required to perform the contract cannot be estimated in advance, but the applicable direct and indirect costs for each hour worked or other unit procured during the contract period can be determined.\n\nYou must include adequate cost controls in the contract to prevent inefficient or wasteful methods by the contractor. The government may audit the actual hours worked or units spent in performance of the work. You must include audit clause for time verification and rate certifications.\n\nNegotiating fixed time/unit rate\n\nFor non-competitive contracts, the fixed rate should be negotiated between the contractor and you, the buyer, with support from the Procurement Support Service Sector (PSSS) price advisors . You must validate price and technical details prior to contract award to ensure the cost estimates are reasonable and that the contractor’s financial systems supporting the estimates are sufficient and reliable.\n\nIncorporating contractual limitations\n\nUse one the following clauses with fixed time/unit rate basis of payment:\n\nCeiling price\n\nIf included, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When used, there must be full agreement with all parties as to what constitutes the prescribed work.\n\nLimitation of expenditure\n\nWithout a ceiling price, you must include a limitation of expenditure in the contract. A limitation of expenditure set the maximum amount the contractor may be paid for the prescribed work. This is typically used when the level of effort is uncertain. At the client’s request, you will amend the contact to provide additional funds, or request the contractor to complete the work within the limits of that the original funding.\n\nTo learn more about the fixed time/unit rate basis of payment refer to section 4.1.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
   "provenance_paths": {}
 }

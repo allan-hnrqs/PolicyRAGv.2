@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:57.795623Z",
-  "content_hash": "3b12a710ceaa75992bf765555cfc42ee5f4a7d82a61a66a4d225fa07efbefdef",
-  "word_count": 346,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "0be9da085ed57012962968ad6b94b937383355b1e279363788d007f7a94d94dd",
+  "word_count": 173,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,36 +617,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Tender notices - Notice of proposed procurement",
+      "block_type": "heading",
+      "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement"
+        "Notice of proposed procurement"
       ],
-      "text": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include: sufficient information for businesses to determine their interest and their ability to fulfill the requirements a list of the applicable agreements, trade or otherwise whether Canadian content restrictions apply whether the requirement has been set aside under the Procurement Strategy for Indigenous Business whether a National Security Exception applies whether additional material will be posted on GETS or made available separately The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement. When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur. Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
+      "text": "Notice of proposed procurement",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "Notice of proposed procurement",
+      "text": "You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:",
+      "text": "sufficient information for businesses to determine their interest and their ability to fulfill the requirements",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "sufficient information for businesses to determine their interest and their ability to fulfill the requirements",
+      "text": "a list of the applicable agreements, trade or otherwise",
       "order": 3,
       "metadata": {}
     },
@@ -667,10 +664,9 @@
       "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "a list of the applicable agreements, trade or otherwise",
+      "text": "whether Canadian content restrictions apply",
       "order": 4,
       "metadata": {}
     },
@@ -679,10 +675,9 @@
       "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "whether Canadian content restrictions apply",
+      "text": "whether the requirement has been set aside under the Procurement Strategy for Indigenous Business",
       "order": 5,
       "metadata": {}
     },
@@ -691,10 +686,9 @@
       "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "whether the requirement has been set aside under the Procurement Strategy for Indigenous Business",
+      "text": "whether a National Security Exception applies",
       "order": 6,
       "metadata": {}
     },
@@ -703,22 +697,20 @@
       "block_type": "list_item",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "whether a National Security Exception applies",
+      "text": "whether additional material will be posted on GETS or made available separately",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "whether additional material will be posted on GETS or made available separately",
+      "text": "The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.",
       "order": 8,
       "metadata": {}
     },
@@ -727,10 +719,9 @@
       "block_type": "paragraph",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
-      "text": "The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.",
+      "text": "When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.",
       "order": 9,
       "metadata": {}
     },
@@ -739,28 +730,15 @@
       "block_type": "paragraph",
       "heading": "Notice of proposed procurement",
       "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
-        "Notice of proposed procurement"
-      ],
-      "text": "When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Notice of proposed procurement",
-      "heading_path": [
-        "Buyer's Guide Tender notices - Notice of proposed procurement",
         "Notice of proposed procurement"
       ],
       "text": "Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include: sufficient information for businesses to determine their interest and their ability to fulfill the requirements a list of the applicable agreements, trade or otherwise whether Canadian content restrictions apply whether the requirement has been set aside under the Procurement Strategy for Indigenous Business whether a National Security Exception applies whether additional material will be posted on GETS or made available separately The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement. When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur. Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.\n\nNotice of proposed procurement\n\nYou, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:\n\nsufficient information for businesses to determine their interest and their ability to fulfill the requirements\n\na list of the applicable agreements, trade or otherwise\n\nwhether Canadian content restrictions apply\n\nwhether the requirement has been set aside under the Procurement Strategy for Indigenous Business\n\nwhether a National Security Exception applies\n\nwhether additional material will be posted on GETS or made available separately\n\nThe NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.\n\nWhen entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.\n\nMany procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
-  "markdown_text": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include: sufficient information for businesses to determine their interest and their ability to fulfill the requirements a list of the applicable agreements, trade or otherwise whether Canadian content restrictions apply whether the requirement has been set aside under the Procurement Strategy for Indigenous Business whether a National Security Exception applies whether additional material will be posted on GETS or made available separately The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement. When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur. Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.\n\nNotice of proposed procurement\n\nYou, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:\n\nsufficient information for businesses to determine their interest and their ability to fulfill the requirements\n\na list of the applicable agreements, trade or otherwise\n\nwhether Canadian content restrictions apply\n\nwhether the requirement has been set aside under the Procurement Strategy for Indigenous Business\n\nwhether a National Security Exception applies\n\nwhether additional material will be posted on GETS or made available separately\n\nThe NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.\n\nWhen entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.\n\nMany procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
+  "raw_text": "Notice of proposed procurement\n\nYou, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:\n\nsufficient information for businesses to determine their interest and their ability to fulfill the requirements\n\na list of the applicable agreements, trade or otherwise\n\nwhether Canadian content restrictions apply\n\nwhether the requirement has been set aside under the Procurement Strategy for Indigenous Business\n\nwhether a National Security Exception applies\n\nwhether additional material will be posted on GETS or made available separately\n\nThe NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.\n\nWhen entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.\n\nMany procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
+  "markdown_text": "Notice of proposed procurement\n\nYou, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:\n\nsufficient information for businesses to determine their interest and their ability to fulfill the requirements\n\na list of the applicable agreements, trade or otherwise\n\nwhether Canadian content restrictions apply\n\nwhether the requirement has been set aside under the Procurement Strategy for Indigenous Business\n\nwhether a National Security Exception applies\n\nwhether additional material will be posted on GETS or made available separately\n\nThe NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.\n\nWhen entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.\n\nMany procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
   "provenance_paths": {}
 }

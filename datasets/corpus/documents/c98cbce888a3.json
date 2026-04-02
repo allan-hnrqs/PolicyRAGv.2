@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:45.273312Z",
   "content_hash": "03308c222cceaf38ac69726cebe8c38b617a325fb55ee26feae072784b2808bc",
   "word_count": 134,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Suspension of the work and stop work orders",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Suspension of the work and stop work orders",
         "Suspension of the work and stop work orders"
       ],
       "text": "Suspension of the work and stop work orders",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Suspension of the work and stop work orders",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Suspension of the work and stop work orders",
         "Suspension of the work and stop work orders"
       ],
       "text": "If a client needs to have work under a contract suspended instead of cancelled, you should use the appropriate clause to issue a stop work order. Suspending the work provides time to review the contract's status before deciding the type and extent of termination (including termination for default).",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Suspension of the work and stop work orders",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Suspension of the work and stop work orders",
         "Suspension of the work and stop work orders"
       ],
       "text": "To reinstate the contract after issuing a stop work order, you must cancel the stop work order using the appropriate clause. It may be necessary to adjust the delivery terms or the contract price. You are responsible to determine if the contractor's claims for additional costs are reasonable.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Suspension of the work and stop work orders",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Suspension of the work and stop work orders",
         "Suspension of the work and stop work orders"
       ],
       "text": "Amendments to cover payment of such costs must be approved in accordance with the contract amendment approval and signing authorities. Further guidance can be found in Termination for convenience .",

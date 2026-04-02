@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:02.202672Z",
   "content_hash": "f1ae72c4f3495aa8837af3b1496fbb372cb5a5656a68989753fe00896d163271",
   "word_count": 104,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Best practices for contract close-out",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Best practices for contract close out",
         "Best practices for contract close-out"
       ],
       "text": "Best practices for contract close-out",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Best practices for contract close-out",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Best practices for contract close out",
         "Best practices for contract close-out"
       ],
       "text": "Best practices for contract close-out include:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Best practices for contract close-out",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Best practices for contract close out",
         "Best practices for contract close-out"
       ],
       "text": "files/contracts with warranty periods should be retained and warranty periods noted, until the warranty has expired or until any warranty claims are resolved",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Best practices for contract close-out",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Best practices for contract close out",
         "Best practices for contract close-out"
       ],
       "text": "where a contract created intellectual property (IP) for Canada or associated rights, the related documentation should be kept until such time as the Government of Canada no longer has need of the IP . The contract may need to be kept indefinitely",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Best practices for contract close-out",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Best practices for contract close out",
         "Best practices for contract close-out"
       ],
       "text": "contract files with any outstanding legal or operational issues or requirements related to oversight (e.g. audits) should not be archived until such time as the issues are resolved",

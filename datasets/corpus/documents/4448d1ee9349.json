@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:26.819026Z",
-  "content_hash": "c7f26634fe1a5954e643c8a7787ce163ba6e4d4f4ce9edc7a7b05bd7977ca7bb",
-  "word_count": 334,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e5d6b6045a617e8028b6edf4105d9904fbe45effd8ca874ea079aa0d8d1230a9",
+  "word_count": 167,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -530,62 +530,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+      "block_type": "heading",
+      "heading": "Prepare an evaluation report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report"
+        "Prepare an evaluation report"
       ],
-      "text": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors. Contents of the report The evaluation report should outline: the criteria used for evaluation the rationale for mandatory and point ratings for each criterion the names and contact information of all evaluators involved in the process Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made. Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes. Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
+      "text": "Prepare an evaluation report",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Prepare an evaluation report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report"
       ],
-      "text": "Prepare an evaluation report",
+      "text": "An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Prepare an evaluation report",
+      "block_type": "heading",
+      "heading": "Contents of the report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
-        "Prepare an evaluation report"
+        "Prepare an evaluation report",
+        "Contents of the report"
       ],
-      "text": "An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.",
+      "text": "Contents of the report",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contents of the report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Contents of the report"
       ],
-      "text": "Contents of the report",
+      "text": "The evaluation report should outline:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Contents of the report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Contents of the report"
       ],
-      "text": "The evaluation report should outline:",
+      "text": "the criteria used for evaluation",
       "order": 4,
       "metadata": {}
     },
@@ -594,11 +591,10 @@
       "block_type": "list_item",
       "heading": "Contents of the report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Contents of the report"
       ],
-      "text": "the criteria used for evaluation",
+      "text": "the rationale for mandatory and point ratings for each criterion",
       "order": 5,
       "metadata": {}
     },
@@ -607,108 +603,88 @@
       "block_type": "list_item",
       "heading": "Contents of the report",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Contents of the report"
       ],
-      "text": "the rationale for mandatory and point ratings for each criterion",
+      "text": "the names and contact information of all evaluators involved in the process",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
-      "heading": "Contents of the report",
+      "block_type": "heading",
+      "heading": "Signatures",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
-        "Contents of the report"
+        "Signatures"
       ],
-      "text": "the names and contact information of all evaluators involved in the process",
+      "text": "Signatures",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Signatures",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Signatures"
       ],
-      "text": "Signatures",
+      "text": "All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Signatures",
+      "block_type": "heading",
+      "heading": "Record keeping",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
-        "Signatures"
+        "Record keeping"
       ],
-      "text": "All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.",
+      "text": "Record keeping",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Record keeping",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Record keeping"
       ],
-      "text": "Record keeping",
+      "text": "All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Record keeping",
+      "block_type": "heading",
+      "heading": "Additional tools",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
-        "Record keeping"
+        "Additional tools"
       ],
-      "text": "All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.",
+      "text": "Additional tools",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "heading",
-      "heading": "Additional tools",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
-        "Prepare an evaluation report",
-        "Additional tools"
-      ],
-      "text": "Additional tools",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
       "block_type": "paragraph",
       "heading": "Additional tools",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
         "Prepare an evaluation report",
         "Additional tools"
       ],
       "text": "In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
-      "order": 13,
+      "order": 12,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors. Contents of the report The evaluation report should outline: the criteria used for evaluation the rationale for mandatory and point ratings for each criterion the names and contact information of all evaluators involved in the process Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made. Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes. Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.\n\nPrepare an evaluation report\n\nAn evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.\n\nContents of the report\n\nThe evaluation report should outline:\n\nthe criteria used for evaluation\n\nthe rationale for mandatory and point ratings for each criterion\n\nthe names and contact information of all evaluators involved in the process\n\nSignatures\n\nAll individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.\n\nRecord keeping\n\nAll notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.\n\nAdditional tools\n\nIn some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
-  "markdown_text": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors. Contents of the report The evaluation report should outline: the criteria used for evaluation the rationale for mandatory and point ratings for each criterion the names and contact information of all evaluators involved in the process Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made. Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes. Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.\n\nPrepare an evaluation report\n\nAn evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.\n\nContents of the report\n\nThe evaluation report should outline:\n\nthe criteria used for evaluation\n\nthe rationale for mandatory and point ratings for each criterion\n\nthe names and contact information of all evaluators involved in the process\n\nSignatures\n\nAll individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.\n\nRecord keeping\n\nAll notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.\n\nAdditional tools\n\nIn some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
+  "raw_text": "Prepare an evaluation report\n\nAn evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.\n\nContents of the report\n\nThe evaluation report should outline:\n\nthe criteria used for evaluation\n\nthe rationale for mandatory and point ratings for each criterion\n\nthe names and contact information of all evaluators involved in the process\n\nSignatures\n\nAll individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.\n\nRecord keeping\n\nAll notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.\n\nAdditional tools\n\nIn some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
+  "markdown_text": "Prepare an evaluation report\n\nAn evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.\n\nContents of the report\n\nThe evaluation report should outline:\n\nthe criteria used for evaluation\n\nthe rationale for mandatory and point ratings for each criterion\n\nthe names and contact information of all evaluators involved in the process\n\nSignatures\n\nAll individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.\n\nRecord keeping\n\nAll notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.\n\nAdditional tools\n\nIn some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
   "provenance_paths": {}
 }

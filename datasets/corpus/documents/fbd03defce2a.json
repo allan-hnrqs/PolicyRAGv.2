@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:00.296363Z",
-  "content_hash": "f0c53e51e3cae2d70ca234c16ee975c802dc990184e9566d69ede7fcd0d1babc",
-  "word_count": 804,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "a68b207813298830a06a94916dca65d7b45d108b046700252624b2651ceb59e6",
+  "word_count": 650,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,143 +617,658 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+      "block_type": "heading",
+      "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation"
+        "Risk-based procurement delegation"
       ],
-      "text": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels . Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply Table of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position",
+      "text": "Risk-based procurement delegation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation"
       ],
-      "text": "Risk-based procurement delegation",
+      "text": "This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation"
       ],
-      "text": "This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .",
+      "text": "Complexity level: Complexity level",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation"
       ],
-      "text": "Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM",
+      "text": "Risk level | Level 1 | Level 2 | Level 3 | Level 4 | Level 5",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation"
       ],
-      "text": "Risk",
+      "text": "High | Manager | Director | DG | ADM | ADM",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation"
       ],
-      "text": "level",
+      "text": "Medium- High | Supply team leader | Manager | Senior director/Regional director/Director | ADM | ADM",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
-      "heading": "Equivalent positions",
+      "block_type": "table_row",
+      "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
-        "Risk-based procurement delegation",
-        "Equivalent positions"
+        "Risk-based procurement delegation"
       ],
-      "text": "Equivalent positions",
+      "text": "Medium | Supply specialist | Supply team leader | Manager | ADM | ADM",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Equivalent positions",
+      "block_type": "table_row",
+      "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
-        "Risk-based procurement delegation",
-        "Equivalent positions"
+        "Risk-based procurement delegation"
       ],
-      "text": "The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.",
+      "text": "Medium- Low | Supply officer | Supply specialist | Supply team leader | ADM | ADM",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Equivalent positions",
+      "block_type": "table_row",
+      "heading": "Risk-based procurement delegation",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
-        "Risk-based procurement delegation",
-        "Equivalent positions"
+        "Risk-based procurement delegation"
       ],
-      "text": "unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC",
+      "text": "Low | Intern officer/ Senior purchasing assistant/ Procurement assistant | Supply officer | Supply specialist | ADM | ADM",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "heading",
       "heading": "Equivalent positions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation",
         "Equivalent positions"
       ],
-      "text": "positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply",
+      "text": "Equivalent positions",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "table",
+      "block_type": "paragraph",
       "heading": "Equivalent positions",
       "heading_path": [
-        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
         "Risk-based procurement delegation",
         "Equivalent positions"
       ],
-      "text": "Table of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position",
+      "text": "The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.",
       "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "list_item",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "list_item",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Table of equivalent positions within AP",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 1 – Senior Departmental Manager | ADM , Defence and Marine Procurement",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: ADM , Procurement",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Regional DG",
+      "order": 16,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0017",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other executive level positions reporting directly to the Deputy Minister",
+      "order": 17,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0018",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 2 – DG | DG",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other Executive level positions reporting directly to a Level 01 position",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 3 – Senior Director | Regional Director",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior Director",
+      "order": 21,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0022",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other executive level positions reporting directly to at least a Level 02 position",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 4 – Director | Director",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Regional manager",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other positions reporting directly to at least a Level 03 position",
+      "order": 25,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0026",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 5 – Manager | Manager",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Project manager",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Procurement manager",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other positions reporting directly to at least a Level 04 position",
+      "order": 29,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0030",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 6 – Supervisor | Chief",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Contracting management officer",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Marine technical inspector (when performing purchasing functions)",
+      "order": 32,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0033",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Procurement officer",
+      "order": 33,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0034",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Project officer",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior contract management officer",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior contracts officer",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior contracts officer (Washington)",
+      "order": 37,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0038",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior procurement manager",
+      "order": 38,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0039",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Supervisor",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Supply specialist",
+      "order": 40,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0041",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Supply team leader",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Team leader",
+      "order": 42,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0043",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other positions reporting directly to at least a Level 05 position",
+      "order": 43,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0044",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Level 7 – Officer | Contract clerk",
+      "order": 44,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0045",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Contracts officer",
+      "order": 45,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0046",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Export transportation officer",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Intern officer/trainee",
+      "order": 47,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0048",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Procurement assistant",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Project clerk",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Purchasing assistant",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Purchasing officer",
+      "order": 51,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0052",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Senior purchasing assistant",
+      "order": 52,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0053",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Supply officer",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "table_row",
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "text": "Table of equivalent positions within AP: Other positions reporting directly to at least a Level 06 position",
+      "order": 54,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels . Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply Table of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position\n\nRisk-based procurement delegation\n\nThis grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .\n\nComplexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM\n\nRisk\n\nlevel\n\nEquivalent positions\n\nThe following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.\n\nunless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC\n\npositions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply\n\nTable of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position",
-  "markdown_text": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels . Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply Table of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position\n\nRisk-based procurement delegation\n\nThis grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .\n\nComplexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM\n\nRisk\n\nlevel\n\nEquivalent positions\n\nThe following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.\n\nunless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC\n\npositions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply\n\nTable of equivalent positions within AP Level 1 – Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 – DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 – Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 – Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 – Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 – Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 – Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position",
+  "raw_text": "Risk-based procurement delegation\n\nThis grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .\n\nComplexity level: Complexity level\n\nRisk level | Level 1 | Level 2 | Level 3 | Level 4 | Level 5\n\nHigh | Manager | Director | DG | ADM | ADM\n\nMedium- High | Supply team leader | Manager | Senior director/Regional director/Director | ADM | ADM\n\nMedium | Supply specialist | Supply team leader | Manager | ADM | ADM\n\nMedium- Low | Supply officer | Supply specialist | Supply team leader | ADM | ADM\n\nLow | Intern officer/ Senior purchasing assistant/ Procurement assistant | Supply officer | Supply specialist | ADM | ADM\n\nEquivalent positions\n\nThe following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.\n\nunless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC\n\npositions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply\n\nTable of equivalent positions within AP: Table of equivalent positions within AP\n\nLevel 1 – Senior Departmental Manager | ADM , Defence and Marine Procurement\n\nTable of equivalent positions within AP: ADM , Procurement\n\nTable of equivalent positions within AP: Regional DG\n\nTable of equivalent positions within AP: Other executive level positions reporting directly to the Deputy Minister\n\nLevel 2 – DG | DG\n\nTable of equivalent positions within AP: Other Executive level positions reporting directly to a Level 01 position\n\nLevel 3 – Senior Director | Regional Director\n\nTable of equivalent positions within AP: Senior Director\n\nTable of equivalent positions within AP: Other executive level positions reporting directly to at least a Level 02 position\n\nLevel 4 – Director | Director\n\nTable of equivalent positions within AP: Regional manager\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 03 position\n\nLevel 5 – Manager | Manager\n\nTable of equivalent positions within AP: Project manager\n\nTable of equivalent positions within AP: Procurement manager\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 04 position\n\nLevel 6 – Supervisor | Chief\n\nTable of equivalent positions within AP: Contracting management officer\n\nTable of equivalent positions within AP: Marine technical inspector (when performing purchasing functions)\n\nTable of equivalent positions within AP: Procurement officer\n\nTable of equivalent positions within AP: Project officer\n\nTable of equivalent positions within AP: Senior contract management officer\n\nTable of equivalent positions within AP: Senior contracts officer\n\nTable of equivalent positions within AP: Senior contracts officer (Washington)\n\nTable of equivalent positions within AP: Senior procurement manager\n\nTable of equivalent positions within AP: Supervisor\n\nTable of equivalent positions within AP: Supply specialist\n\nTable of equivalent positions within AP: Supply team leader\n\nTable of equivalent positions within AP: Team leader\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 05 position\n\nLevel 7 – Officer | Contract clerk\n\nTable of equivalent positions within AP: Contracts officer\n\nTable of equivalent positions within AP: Export transportation officer\n\nTable of equivalent positions within AP: Intern officer/trainee\n\nTable of equivalent positions within AP: Procurement assistant\n\nTable of equivalent positions within AP: Project clerk\n\nTable of equivalent positions within AP: Purchasing assistant\n\nTable of equivalent positions within AP: Purchasing officer\n\nTable of equivalent positions within AP: Senior purchasing assistant\n\nTable of equivalent positions within AP: Supply officer\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 06 position",
+  "markdown_text": "Risk-based procurement delegation\n\nThis grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .\n\nComplexity level: Complexity level\n\nRisk level | Level 1 | Level 2 | Level 3 | Level 4 | Level 5\n\nHigh | Manager | Director | DG | ADM | ADM\n\nMedium- High | Supply team leader | Manager | Senior director/Regional director/Director | ADM | ADM\n\nMedium | Supply specialist | Supply team leader | Manager | ADM | ADM\n\nMedium- Low | Supply officer | Supply specialist | Supply team leader | ADM | ADM\n\nLow | Intern officer/ Senior purchasing assistant/ Procurement assistant | Supply officer | Supply specialist | ADM | ADM\n\nEquivalent positions\n\nThe following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.\n\nunless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC\n\npositions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply\n\nTable of equivalent positions within AP: Table of equivalent positions within AP\n\nLevel 1 – Senior Departmental Manager | ADM , Defence and Marine Procurement\n\nTable of equivalent positions within AP: ADM , Procurement\n\nTable of equivalent positions within AP: Regional DG\n\nTable of equivalent positions within AP: Other executive level positions reporting directly to the Deputy Minister\n\nLevel 2 – DG | DG\n\nTable of equivalent positions within AP: Other Executive level positions reporting directly to a Level 01 position\n\nLevel 3 – Senior Director | Regional Director\n\nTable of equivalent positions within AP: Senior Director\n\nTable of equivalent positions within AP: Other executive level positions reporting directly to at least a Level 02 position\n\nLevel 4 – Director | Director\n\nTable of equivalent positions within AP: Regional manager\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 03 position\n\nLevel 5 – Manager | Manager\n\nTable of equivalent positions within AP: Project manager\n\nTable of equivalent positions within AP: Procurement manager\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 04 position\n\nLevel 6 – Supervisor | Chief\n\nTable of equivalent positions within AP: Contracting management officer\n\nTable of equivalent positions within AP: Marine technical inspector (when performing purchasing functions)\n\nTable of equivalent positions within AP: Procurement officer\n\nTable of equivalent positions within AP: Project officer\n\nTable of equivalent positions within AP: Senior contract management officer\n\nTable of equivalent positions within AP: Senior contracts officer\n\nTable of equivalent positions within AP: Senior contracts officer (Washington)\n\nTable of equivalent positions within AP: Senior procurement manager\n\nTable of equivalent positions within AP: Supervisor\n\nTable of equivalent positions within AP: Supply specialist\n\nTable of equivalent positions within AP: Supply team leader\n\nTable of equivalent positions within AP: Team leader\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 05 position\n\nLevel 7 – Officer | Contract clerk\n\nTable of equivalent positions within AP: Contracts officer\n\nTable of equivalent positions within AP: Export transportation officer\n\nTable of equivalent positions within AP: Intern officer/trainee\n\nTable of equivalent positions within AP: Procurement assistant\n\nTable of equivalent positions within AP: Project clerk\n\nTable of equivalent positions within AP: Purchasing assistant\n\nTable of equivalent positions within AP: Purchasing officer\n\nTable of equivalent positions within AP: Senior purchasing assistant\n\nTable of equivalent positions within AP: Supply officer\n\nTable of equivalent positions within AP: Other positions reporting directly to at least a Level 06 position",
   "provenance_paths": {}
 }

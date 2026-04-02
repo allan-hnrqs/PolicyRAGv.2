@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:20.896208Z",
   "content_hash": "8061e997e9b103acab8030d0874727a1793b1a8ba4ef364154008e12fe40c4a1",
   "word_count": 21,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -789,7 +789,6 @@
       "block_type": "heading",
       "heading": "Manage payments",
       "heading_path": [
-        "Buyer's Guide Manage payments",
         "Manage payments"
       ],
       "text": "Manage payments",
@@ -801,7 +800,6 @@
       "block_type": "paragraph",
       "heading": "Manage payments",
       "heading_path": [
-        "Buyer's Guide Manage payments",
         "Manage payments"
       ],
       "text": "This section provides information on managing payments, including progress payments, financial claims, cost reimbursable contracts and handling excess profits.",

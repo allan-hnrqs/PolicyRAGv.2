@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:43.390026Z",
-  "content_hash": "e2d5bc1fef0fe8bb71bd5547596b5d1c9d23158bfd715ab038c62d049cadd7dd",
-  "word_count": 504,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "27bb9225d9c670c770f4e45cd3523e51c68cbc6ba55a71e8db1333c6677838ca",
+  "word_count": 252,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,49 +617,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Delivery terms",
+      "block_type": "heading",
+      "heading": "Delivery terms",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms"
+        "Delivery terms"
       ],
-      "text": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods. Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”. The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in: all Department of National Defence (DND) sole source contracts all repair and overhaul contracts where transportation is not part of competitive offer, and United States Foreign Military Sales (FMS) contracts DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise. The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so. If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
+      "text": "Delivery terms",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Delivery terms",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms"
       ],
-      "text": "Delivery terms",
+      "text": "Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Delivery terms",
+      "block_type": "heading",
+      "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
-        "Delivery terms"
+        "Delivery terms",
+        "Transportation costs"
       ],
-      "text": "Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.",
+      "text": "Transportation costs",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "Transportation costs",
+      "text": "For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.",
       "order": 3,
       "metadata": {}
     },
@@ -668,11 +666,10 @@
       "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.",
+      "text": "For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.",
       "order": 4,
       "metadata": {}
     },
@@ -681,24 +678,22 @@
       "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.",
+      "text": "The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:",
+      "text": "all Department of National Defence (DND) sole source contracts",
       "order": 6,
       "metadata": {}
     },
@@ -707,11 +702,10 @@
       "block_type": "list_item",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "all Department of National Defence (DND) sole source contracts",
+      "text": "all repair and overhaul contracts where transportation is not part of competitive offer, and",
       "order": 7,
       "metadata": {}
     },
@@ -720,24 +714,22 @@
       "block_type": "list_item",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "all repair and overhaul contracts where transportation is not part of competitive offer, and",
+      "text": "United States Foreign Military Sales (FMS) contracts",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "United States Foreign Military Sales (FMS) contracts",
+      "text": "DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.",
       "order": 9,
       "metadata": {}
     },
@@ -746,11 +738,10 @@
       "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
-      "text": "DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.",
+      "text": "The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.",
       "order": 10,
       "metadata": {}
     },
@@ -759,30 +750,16 @@
       "block_type": "paragraph",
       "heading": "Transportation costs",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
-        "Delivery terms",
-        "Transportation costs"
-      ],
-      "text": "The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Transportation costs",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Delivery terms",
         "Delivery terms",
         "Transportation costs"
       ],
       "text": "If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods. Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”. The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in: all Department of National Defence (DND) sole source contracts all repair and overhaul contracts where transportation is not part of competitive offer, and United States Foreign Military Sales (FMS) contracts DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise. The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so. If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.\n\nDelivery terms\n\nDelivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.\n\nTransportation costs\n\nFor most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.\n\nFor unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.\n\nThe Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:\n\nall Department of National Defence (DND) sole source contracts\n\nall repair and overhaul contracts where transportation is not part of competitive offer, and\n\nUnited States Foreign Military Sales (FMS) contracts\n\nDND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.\n\nThe buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.\n\nIf the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
-  "markdown_text": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods. Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”. The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in: all Department of National Defence (DND) sole source contracts all repair and overhaul contracts where transportation is not part of competitive offer, and United States Foreign Military Sales (FMS) contracts DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise. The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so. If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.\n\nDelivery terms\n\nDelivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.\n\nTransportation costs\n\nFor most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.\n\nFor unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.\n\nThe Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:\n\nall Department of National Defence (DND) sole source contracts\n\nall repair and overhaul contracts where transportation is not part of competitive offer, and\n\nUnited States Foreign Military Sales (FMS) contracts\n\nDND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.\n\nThe buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.\n\nIf the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
+  "raw_text": "Delivery terms\n\nDelivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.\n\nTransportation costs\n\nFor most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.\n\nFor unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.\n\nThe Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:\n\nall Department of National Defence (DND) sole source contracts\n\nall repair and overhaul contracts where transportation is not part of competitive offer, and\n\nUnited States Foreign Military Sales (FMS) contracts\n\nDND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.\n\nThe buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.\n\nIf the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
+  "markdown_text": "Delivery terms\n\nDelivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.\n\nTransportation costs\n\nFor most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.\n\nFor unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: “ FOB ” in incoterms means “Free On-Board”, not “Freight on Board”.\n\nThe Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:\n\nall Department of National Defence (DND) sole source contracts\n\nall repair and overhaul contracts where transportation is not part of competitive offer, and\n\nUnited States Foreign Military Sales (FMS) contracts\n\nDND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.\n\nThe buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.\n\nIf the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
   "provenance_paths": {}
 }

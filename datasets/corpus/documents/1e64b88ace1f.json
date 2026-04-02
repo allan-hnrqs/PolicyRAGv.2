@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:42.737122Z",
-  "content_hash": "c848ac37392c99ad91254ac10f6483dcf98de825064c3a486efbcf52ab3639ff",
-  "word_count": 1729,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "94fd8f32fb7ea2d4c36ac9846e4682372714e387821dd6461fe15f48b43b89e4",
+  "word_count": 845,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Engage - Engage with subject matter experts",
+      "block_type": "heading",
+      "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts"
+        "Engage with subject matter experts"
       ],
-      "text": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include: legal advisors Access to Information and Privacy (ATIP) officers contract quality control specialists cost analysts and risk management advisors auditors and policy authorities environmental procurement advisors ethics officers human resources advisors product and service category team leaders client engagement specialists experienced buyers industry and association representatives These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant. Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit. Participation of Legal Services in the review of proposed contractual documents is intended to: ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration. Seek legal advice when: required following a procurement risk assessment considering special conditions or deviations from standard procurement clauses needing confirmation of verbal requests from a client through a confirming order security for repayment of debt to Canada is involved, such as letters of credit considering letters of comfort, intent, or go-ahead letters conflicts of interest or post-employment concerns for public servants arise dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent handling defence contracts which invoke section 20 of the Defence Production Act preparing any memorandum of understanding and drafting of orders in council preparing conditional amendments offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period Note : an offerors request must be acceptable to the client and be addressed in the approval request. Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as: contracts that may create an employee-employer relationship contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work disputes after contract award Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when: communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice the advice is intended to be confidential Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege. Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted. Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Characteristics that necessitate consultation with a price support advisor include: any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file. You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "text": "Engage with subject matter experts",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "Engage with subject matter experts",
+      "text": "You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:",
+      "text": "legal advisors",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "legal advisors",
+      "text": "Access to Information and Privacy (ATIP) officers",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "Access to Information and Privacy (ATIP) officers",
+      "text": "contract quality control specialists",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "contract quality control specialists",
+      "text": "cost analysts and risk management advisors",
       "order": 5,
       "metadata": {}
     },
@@ -1034,10 +1029,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "cost analysts and risk management advisors",
+      "text": "auditors and policy authorities",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "auditors and policy authorities",
+      "text": "environmental procurement advisors",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "environmental procurement advisors",
+      "text": "ethics officers",
       "order": 8,
       "metadata": {}
     },
@@ -1070,10 +1062,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "ethics officers",
+      "text": "human resources advisors",
       "order": 9,
       "metadata": {}
     },
@@ -1082,10 +1073,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "human resources advisors",
+      "text": "product and service category team leaders",
       "order": 10,
       "metadata": {}
     },
@@ -1094,10 +1084,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "product and service category team leaders",
+      "text": "client engagement specialists",
       "order": 11,
       "metadata": {}
     },
@@ -1106,10 +1095,9 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "client engagement specialists",
+      "text": "experienced buyers",
       "order": 12,
       "metadata": {}
     },
@@ -1118,47 +1106,44 @@
       "block_type": "list_item",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "experienced buyers",
+      "text": "industry and association representatives",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Engage with subject matter experts",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts"
       ],
-      "text": "industry and association representatives",
+      "text": "These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Engage with subject matter experts",
+      "block_type": "heading",
+      "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
-        "Engage with subject matter experts"
+        "Engage with subject matter experts",
+        "Legal Services"
       ],
-      "text": "These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.",
+      "text": "Legal Services",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "Legal Services",
+      "text": "All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.",
       "order": 16,
       "metadata": {}
     },
@@ -1167,24 +1152,22 @@
       "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.",
+      "text": "Participation of Legal Services in the review of proposed contractual documents is intended to:",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "Participation of Legal Services in the review of proposed contractual documents is intended to:",
+      "text": "ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor",
       "order": 18,
       "metadata": {}
     },
@@ -1193,11 +1176,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor",
+      "text": "ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected",
       "order": 19,
       "metadata": {}
     },
@@ -1206,24 +1188,22 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected",
+      "text": "identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada",
+      "text": "When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.",
       "order": 21,
       "metadata": {}
     },
@@ -1232,24 +1212,22 @@
       "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.",
+      "text": "Seek legal advice when:",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "Seek legal advice when:",
+      "text": "required following a procurement risk assessment",
       "order": 23,
       "metadata": {}
     },
@@ -1258,11 +1236,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "required following a procurement risk assessment",
+      "text": "considering special conditions or deviations from standard procurement clauses",
       "order": 24,
       "metadata": {}
     },
@@ -1271,11 +1248,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "considering special conditions or deviations from standard procurement clauses",
+      "text": "needing confirmation of verbal requests from a client through a confirming order",
       "order": 25,
       "metadata": {}
     },
@@ -1284,11 +1260,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "needing confirmation of verbal requests from a client through a confirming order",
+      "text": "security for repayment of debt to Canada is involved, such as letters of credit",
       "order": 26,
       "metadata": {}
     },
@@ -1297,11 +1272,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "security for repayment of debt to Canada is involved, such as letters of credit",
+      "text": "considering letters of comfort, intent, or go-ahead letters",
       "order": 27,
       "metadata": {}
     },
@@ -1310,11 +1284,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "considering letters of comfort, intent, or go-ahead letters",
+      "text": "conflicts of interest or post-employment concerns for public servants arise",
       "order": 28,
       "metadata": {}
     },
@@ -1323,11 +1296,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "conflicts of interest or post-employment concerns for public servants arise",
+      "text": "dealing with contract assignments to:",
       "order": 29,
       "metadata": {}
     },
@@ -1336,11 +1308,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent",
+      "text": "a third party",
       "order": 30,
       "metadata": {}
     },
@@ -1349,11 +1320,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "a third party",
+      "text": "receivership",
       "order": 31,
       "metadata": {}
     },
@@ -1362,11 +1332,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "receivership",
+      "text": "insolvency",
       "order": 32,
       "metadata": {}
     },
@@ -1375,11 +1344,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "insolvency",
+      "text": "bankruptcy of a contractor",
       "order": 33,
       "metadata": {}
     },
@@ -1388,11 +1356,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "bankruptcy of a contractor",
+      "text": "terminations for default, convenience and mutual consent",
       "order": 34,
       "metadata": {}
     },
@@ -1401,11 +1368,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "terminations for default, convenience and mutual consent",
+      "text": "handling defence contracts which invoke section 20 of the Defence Production Act",
       "order": 35,
       "metadata": {}
     },
@@ -1414,11 +1380,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "handling defence contracts which invoke section 20 of the Defence Production Act",
+      "text": "preparing any memorandum of understanding and drafting of orders in council",
       "order": 36,
       "metadata": {}
     },
@@ -1427,11 +1392,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "preparing any memorandum of understanding and drafting of orders in council",
+      "text": "preparing conditional amendments",
       "order": 37,
       "metadata": {}
     },
@@ -1440,11 +1404,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "preparing conditional amendments",
+      "text": "offerors request any of the following:",
       "order": 38,
       "metadata": {}
     },
@@ -1453,11 +1416,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period",
+      "text": "changes that might lessen Canada's full rights at law",
       "order": 39,
       "metadata": {}
     },
@@ -1466,11 +1428,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "changes that might lessen Canada's full rights at law",
+      "text": "a disclaimer",
       "order": 40,
       "metadata": {}
     },
@@ -1479,11 +1440,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "a disclaimer",
+      "text": "limitation of the contractor’s liability",
       "order": 41,
       "metadata": {}
     },
@@ -1492,24 +1452,22 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "limitation of the contractor’s liability",
+      "text": "a decrease of the warranty time period",
       "order": 42,
       "metadata": {}
     },
     {
       "block_id": "block_0043",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "a decrease of the warranty time period",
+      "text": "Note : an offerors request must be acceptable to the client and be addressed in the approval request.",
       "order": 43,
       "metadata": {}
     },
@@ -1518,24 +1476,22 @@
       "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "Note : an offerors request must be acceptable to the client and be addressed in the approval request.",
+      "text": "Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:",
       "order": 44,
       "metadata": {}
     },
     {
       "block_id": "block_0045",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:",
+      "text": "contracts that may create an employee-employer relationship",
       "order": 45,
       "metadata": {}
     },
@@ -1544,11 +1500,10 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "contracts that may create an employee-employer relationship",
+      "text": "contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work",
       "order": 46,
       "metadata": {}
     },
@@ -1557,38 +1512,36 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services"
       ],
-      "text": "contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work",
+      "text": "disputes after contract award",
       "order": 47,
       "metadata": {}
     },
     {
       "block_id": "block_0048",
-      "block_type": "list_item",
-      "heading": "Legal Services",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
-        "Engage with subject matter experts",
-        "Legal Services"
-      ],
-      "text": "disputes after contract award",
-      "order": 48,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0049",
       "block_type": "heading",
       "heading": "Solicitor-client privilege",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services",
         "Solicitor-client privilege"
       ],
       "text": "Solicitor-client privilege",
+      "order": 48,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0049",
+      "block_type": "paragraph",
+      "heading": "Solicitor-client privilege",
+      "heading_path": [
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "text": "Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.",
       "order": 49,
       "metadata": {}
     },
@@ -1597,26 +1550,24 @@
       "block_type": "paragraph",
       "heading": "Solicitor-client privilege",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
-        "Engage with subject matter experts",
-        "Legal Services",
-        "Solicitor-client privilege"
-      ],
-      "text": "Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.",
-      "order": 50,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0051",
-      "block_type": "paragraph",
-      "heading": "Solicitor-client privilege",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services",
         "Solicitor-client privilege"
       ],
       "text": "Solicitor-client privilege applies when:",
+      "order": 50,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0051",
+      "block_type": "list_item",
+      "heading": "Solicitor-client privilege",
+      "heading_path": [
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "text": "communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice",
       "order": 51,
       "metadata": {}
     },
@@ -1625,79 +1576,72 @@
       "block_type": "list_item",
       "heading": "Solicitor-client privilege",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
-        "Engage with subject matter experts",
-        "Legal Services",
-        "Solicitor-client privilege"
-      ],
-      "text": "communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice",
-      "order": 52,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0053",
-      "block_type": "list_item",
-      "heading": "Solicitor-client privilege",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services",
         "Solicitor-client privilege"
       ],
       "text": "the advice is intended to be confidential",
-      "order": 53,
+      "order": 52,
       "metadata": {}
     },
     {
-      "block_id": "block_0054",
+      "block_id": "block_0053",
       "block_type": "paragraph",
       "heading": "Solicitor-client privilege",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Legal Services",
         "Solicitor-client privilege"
       ],
       "text": "Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.",
+      "order": 53,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0054",
+      "block_type": "heading",
+      "heading": "Quality control review",
+      "heading_path": [
+        "Engage with subject matter experts",
+        "Quality control review"
+      ],
+      "text": "Quality control review",
       "order": 54,
       "metadata": {}
     },
     {
       "block_id": "block_0055",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Quality control review",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Quality control review"
       ],
-      "text": "Quality control review",
+      "text": "As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.",
       "order": 55,
       "metadata": {}
     },
     {
       "block_id": "block_0056",
-      "block_type": "paragraph",
-      "heading": "Quality control review",
+      "block_type": "heading",
+      "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
-        "Quality control review"
+        "Cost and price analysis services"
       ],
-      "text": "As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.",
+      "text": "Cost and price analysis services",
       "order": 56,
       "metadata": {}
     },
     {
       "block_id": "block_0057",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "Cost and price analysis services",
+      "text": "You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
       "order": 57,
       "metadata": {}
     },
@@ -1706,24 +1650,22 @@
       "block_type": "paragraph",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "text": "Characteristics that necessitate consultation with a price support advisor include:",
       "order": 58,
       "metadata": {}
     },
     {
       "block_id": "block_0059",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "Characteristics that necessitate consultation with a price support advisor include:",
+      "text": "any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments",
       "order": 59,
       "metadata": {}
     },
@@ -1732,11 +1674,10 @@
       "block_type": "list_item",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments",
+      "text": "any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received",
       "order": 60,
       "metadata": {}
     },
@@ -1745,11 +1686,10 @@
       "block_type": "list_item",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received",
+      "text": "any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment",
       "order": 61,
       "metadata": {}
     },
@@ -1758,24 +1698,22 @@
       "block_type": "list_item",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment",
+      "text": "any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments",
       "order": 62,
       "metadata": {}
     },
     {
       "block_id": "block_0063",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
-      "text": "any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments",
+      "text": "A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.",
       "order": 63,
       "metadata": {}
     },
@@ -1784,30 +1722,16 @@
       "block_type": "paragraph",
       "heading": "Cost and price analysis services",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
-        "Engage with subject matter experts",
-        "Cost and price analysis services"
-      ],
-      "text": "A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.",
-      "order": 64,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0065",
-      "block_type": "paragraph",
-      "heading": "Cost and price analysis services",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with subject matter experts",
         "Engage with subject matter experts",
         "Cost and price analysis services"
       ],
       "text": "You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
-      "order": 65,
+      "order": 64,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include: legal advisors Access to Information and Privacy (ATIP) officers contract quality control specialists cost analysts and risk management advisors auditors and policy authorities environmental procurement advisors ethics officers human resources advisors product and service category team leaders client engagement specialists experienced buyers industry and association representatives These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant. Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit. Participation of Legal Services in the review of proposed contractual documents is intended to: ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration. Seek legal advice when: required following a procurement risk assessment considering special conditions or deviations from standard procurement clauses needing confirmation of verbal requests from a client through a confirming order security for repayment of debt to Canada is involved, such as letters of credit considering letters of comfort, intent, or go-ahead letters conflicts of interest or post-employment concerns for public servants arise dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent handling defence contracts which invoke section 20 of the Defence Production Act preparing any memorandum of understanding and drafting of orders in council preparing conditional amendments offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period Note : an offerors request must be acceptable to the client and be addressed in the approval request. Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as: contracts that may create an employee-employer relationship contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work disputes after contract award Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when: communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice the advice is intended to be confidential Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege. Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted. Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Characteristics that necessitate consultation with a price support advisor include: any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file. You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nEngage with subject matter experts\n\nYou should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:\n\nlegal advisors\n\nAccess to Information and Privacy (ATIP) officers\n\ncontract quality control specialists\n\ncost analysts and risk management advisors\n\nauditors and policy authorities\n\nenvironmental procurement advisors\n\nethics officers\n\nhuman resources advisors\n\nproduct and service category team leaders\n\nclient engagement specialists\n\nexperienced buyers\n\nindustry and association representatives\n\nThese professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.\n\nLegal Services\n\nAll Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.\n\nParticipation of Legal Services in the review of proposed contractual documents is intended to:\n\nensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor\n\nensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected\n\nidentify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada\n\nWhen legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.\n\nSeek legal advice when:\n\nrequired following a procurement risk assessment\n\nconsidering special conditions or deviations from standard procurement clauses\n\nneeding confirmation of verbal requests from a client through a confirming order\n\nsecurity for repayment of debt to Canada is involved, such as letters of credit\n\nconsidering letters of comfort, intent, or go-ahead letters\n\nconflicts of interest or post-employment concerns for public servants arise\n\ndealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent\n\na third party\n\nreceivership\n\ninsolvency\n\nbankruptcy of a contractor\n\nterminations for default, convenience and mutual consent\n\nhandling defence contracts which invoke section 20 of the Defence Production Act\n\npreparing any memorandum of understanding and drafting of orders in council\n\npreparing conditional amendments\n\nofferors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period\n\nchanges that might lessen Canada's full rights at law\n\na disclaimer\n\nlimitation of the contractor’s liability\n\na decrease of the warranty time period\n\nNote : an offerors request must be acceptable to the client and be addressed in the approval request.\n\nLegal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:\n\ncontracts that may create an employee-employer relationship\n\ncontracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work\n\ndisputes after contract award\n\nSolicitor-client privilege\n\nCommunications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.\n\nSolicitor-client privilege applies when:\n\ncommunication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice\n\nthe advice is intended to be confidential\n\nNote : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.\n\nQuality control review\n\nAs a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.\n\nCost and price analysis services\n\nYou must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nCharacteristics that necessitate consultation with a price support advisor include:\n\nany potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment\n\nany competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments\n\nA price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.\n\nYou may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
-  "markdown_text": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include: legal advisors Access to Information and Privacy (ATIP) officers contract quality control specialists cost analysts and risk management advisors auditors and policy authorities environmental procurement advisors ethics officers human resources advisors product and service category team leaders client engagement specialists experienced buyers industry and association representatives These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant. Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit. Participation of Legal Services in the review of proposed contractual documents is intended to: ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration. Seek legal advice when: required following a procurement risk assessment considering special conditions or deviations from standard procurement clauses needing confirmation of verbal requests from a client through a confirming order security for repayment of debt to Canada is involved, such as letters of credit considering letters of comfort, intent, or go-ahead letters conflicts of interest or post-employment concerns for public servants arise dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent handling defence contracts which invoke section 20 of the Defence Production Act preparing any memorandum of understanding and drafting of orders in council preparing conditional amendments offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period Note : an offerors request must be acceptable to the client and be addressed in the approval request. Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as: contracts that may create an employee-employer relationship contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work disputes after contract award Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when: communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice the advice is intended to be confidential Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege. Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted. Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Characteristics that necessitate consultation with a price support advisor include: any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file. You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nEngage with subject matter experts\n\nYou should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:\n\nlegal advisors\n\nAccess to Information and Privacy (ATIP) officers\n\ncontract quality control specialists\n\ncost analysts and risk management advisors\n\nauditors and policy authorities\n\nenvironmental procurement advisors\n\nethics officers\n\nhuman resources advisors\n\nproduct and service category team leaders\n\nclient engagement specialists\n\nexperienced buyers\n\nindustry and association representatives\n\nThese professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.\n\nLegal Services\n\nAll Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.\n\nParticipation of Legal Services in the review of proposed contractual documents is intended to:\n\nensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor\n\nensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected\n\nidentify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada\n\nWhen legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.\n\nSeek legal advice when:\n\nrequired following a procurement risk assessment\n\nconsidering special conditions or deviations from standard procurement clauses\n\nneeding confirmation of verbal requests from a client through a confirming order\n\nsecurity for repayment of debt to Canada is involved, such as letters of credit\n\nconsidering letters of comfort, intent, or go-ahead letters\n\nconflicts of interest or post-employment concerns for public servants arise\n\ndealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent\n\na third party\n\nreceivership\n\ninsolvency\n\nbankruptcy of a contractor\n\nterminations for default, convenience and mutual consent\n\nhandling defence contracts which invoke section 20 of the Defence Production Act\n\npreparing any memorandum of understanding and drafting of orders in council\n\npreparing conditional amendments\n\nofferors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor’s liability a decrease of the warranty time period\n\nchanges that might lessen Canada's full rights at law\n\na disclaimer\n\nlimitation of the contractor’s liability\n\na decrease of the warranty time period\n\nNote : an offerors request must be acceptable to the client and be addressed in the approval request.\n\nLegal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:\n\ncontracts that may create an employee-employer relationship\n\ncontracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work\n\ndisputes after contract award\n\nSolicitor-client privilege\n\nCommunications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.\n\nSolicitor-client privilege applies when:\n\ncommunication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice\n\nthe advice is intended to be confidential\n\nNote : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.\n\nQuality control review\n\nAs a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.\n\nCost and price analysis services\n\nYou must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nCharacteristics that necessitate consultation with a price support advisor include:\n\nany potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment\n\nany competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments\n\nA price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.\n\nYou may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+  "raw_text": "Engage with subject matter experts\n\nYou should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:\n\nlegal advisors\n\nAccess to Information and Privacy (ATIP) officers\n\ncontract quality control specialists\n\ncost analysts and risk management advisors\n\nauditors and policy authorities\n\nenvironmental procurement advisors\n\nethics officers\n\nhuman resources advisors\n\nproduct and service category team leaders\n\nclient engagement specialists\n\nexperienced buyers\n\nindustry and association representatives\n\nThese professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.\n\nLegal Services\n\nAll Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.\n\nParticipation of Legal Services in the review of proposed contractual documents is intended to:\n\nensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor\n\nensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected\n\nidentify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada\n\nWhen legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.\n\nSeek legal advice when:\n\nrequired following a procurement risk assessment\n\nconsidering special conditions or deviations from standard procurement clauses\n\nneeding confirmation of verbal requests from a client through a confirming order\n\nsecurity for repayment of debt to Canada is involved, such as letters of credit\n\nconsidering letters of comfort, intent, or go-ahead letters\n\nconflicts of interest or post-employment concerns for public servants arise\n\ndealing with contract assignments to:\n\na third party\n\nreceivership\n\ninsolvency\n\nbankruptcy of a contractor\n\nterminations for default, convenience and mutual consent\n\nhandling defence contracts which invoke section 20 of the Defence Production Act\n\npreparing any memorandum of understanding and drafting of orders in council\n\npreparing conditional amendments\n\nofferors request any of the following:\n\nchanges that might lessen Canada's full rights at law\n\na disclaimer\n\nlimitation of the contractor’s liability\n\na decrease of the warranty time period\n\nNote : an offerors request must be acceptable to the client and be addressed in the approval request.\n\nLegal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:\n\ncontracts that may create an employee-employer relationship\n\ncontracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work\n\ndisputes after contract award\n\nSolicitor-client privilege\n\nCommunications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.\n\nSolicitor-client privilege applies when:\n\ncommunication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice\n\nthe advice is intended to be confidential\n\nNote : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.\n\nQuality control review\n\nAs a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.\n\nCost and price analysis services\n\nYou must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nCharacteristics that necessitate consultation with a price support advisor include:\n\nany potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment\n\nany competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments\n\nA price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.\n\nYou may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+  "markdown_text": "Engage with subject matter experts\n\nYou should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:\n\nlegal advisors\n\nAccess to Information and Privacy (ATIP) officers\n\ncontract quality control specialists\n\ncost analysts and risk management advisors\n\nauditors and policy authorities\n\nenvironmental procurement advisors\n\nethics officers\n\nhuman resources advisors\n\nproduct and service category team leaders\n\nclient engagement specialists\n\nexperienced buyers\n\nindustry and association representatives\n\nThese professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.\n\nLegal Services\n\nAll Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department’s Legal Services unit.\n\nParticipation of Legal Services in the review of proposed contractual documents is intended to:\n\nensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor\n\nensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected\n\nidentify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada\n\nWhen legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.\n\nSeek legal advice when:\n\nrequired following a procurement risk assessment\n\nconsidering special conditions or deviations from standard procurement clauses\n\nneeding confirmation of verbal requests from a client through a confirming order\n\nsecurity for repayment of debt to Canada is involved, such as letters of credit\n\nconsidering letters of comfort, intent, or go-ahead letters\n\nconflicts of interest or post-employment concerns for public servants arise\n\ndealing with contract assignments to:\n\na third party\n\nreceivership\n\ninsolvency\n\nbankruptcy of a contractor\n\nterminations for default, convenience and mutual consent\n\nhandling defence contracts which invoke section 20 of the Defence Production Act\n\npreparing any memorandum of understanding and drafting of orders in council\n\npreparing conditional amendments\n\nofferors request any of the following:\n\nchanges that might lessen Canada's full rights at law\n\na disclaimer\n\nlimitation of the contractor’s liability\n\na decrease of the warranty time period\n\nNote : an offerors request must be acceptable to the client and be addressed in the approval request.\n\nLegal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:\n\ncontracts that may create an employee-employer relationship\n\ncontracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work\n\ndisputes after contract award\n\nSolicitor-client privilege\n\nCommunications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.\n\nSolicitor-client privilege applies when:\n\ncommunication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice\n\nthe advice is intended to be confidential\n\nNote : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.\n\nQuality control review\n\nAs a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.\n\nCost and price analysis services\n\nYou must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).\n\nCharacteristics that necessitate consultation with a price support advisor include:\n\nany potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received\n\nany competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment\n\nany competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments\n\nA price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.\n\nYou may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
   "provenance_paths": {}
 }

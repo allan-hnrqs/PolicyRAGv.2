@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:02.268172Z",
-  "content_hash": "139e8f9582925fe28e1e57097ed99472907c2df19eddab4bbb2d70a06c798296",
-  "word_count": 1818,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "ba9c7da4b5cb2c9b8b19dae37849fc121fcdd79b9a5237f541b752f8b7cfe065",
+  "word_count": 909,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,24 +961,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Contractor liability",
+      "block_type": "heading",
+      "heading": "Contractor liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability"
+        "Contractor liability"
       ],
-      "text": "Contractor liability The Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada. The directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients. For information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca Indemnification Indemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where: it may not be in Canada’s financial interest to rely on Common Law or the Civil Code Canada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control Limitation of liability Limiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada. Decisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations. When the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping). When limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply: The parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties If Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount Each party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada. When limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used. When limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used. Limiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows: Limiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity Limiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer For satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used. For the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident. For IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
+      "text": "Contractor liability",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contractor liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability"
       ],
-      "text": "Contractor liability",
+      "text": "The Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.",
       "order": 1,
       "metadata": {}
     },
@@ -987,10 +986,9 @@
       "block_type": "paragraph",
       "heading": "Contractor liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability"
       ],
-      "text": "The Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.",
+      "text": "The directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.",
       "order": 2,
       "metadata": {}
     },
@@ -999,48 +997,45 @@
       "block_type": "paragraph",
       "heading": "Contractor liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability"
       ],
-      "text": "The directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.",
+      "text": "For information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Contractor liability",
+      "block_type": "heading",
+      "heading": "Indemnification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
-        "Contractor liability"
+        "Contractor liability",
+        "Indemnification"
       ],
-      "text": "For information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca",
+      "text": "Indemnification",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Indemnification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Indemnification"
       ],
-      "text": "Indemnification",
+      "text": "Indemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Indemnification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Indemnification"
       ],
-      "text": "Indemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:",
+      "text": "it may not be in Canada’s financial interest to rely on Common Law or the Civil Code",
       "order": 6,
       "metadata": {}
     },
@@ -1049,37 +1044,34 @@
       "block_type": "list_item",
       "heading": "Indemnification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Indemnification"
       ],
-      "text": "it may not be in Canada’s financial interest to rely on Common Law or the Civil Code",
+      "text": "Canada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Indemnification",
+      "block_type": "heading",
+      "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
-        "Indemnification"
+        "Limitation of liability"
       ],
-      "text": "Canada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control",
+      "text": "Limitation of liability",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Limitation of liability",
+      "text": "Limiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.",
       "order": 9,
       "metadata": {}
     },
@@ -1088,11 +1080,10 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Limiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.",
+      "text": "Decisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.",
       "order": 10,
       "metadata": {}
     },
@@ -1101,11 +1092,10 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Decisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.",
+      "text": "When the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).",
       "order": 11,
       "metadata": {}
     },
@@ -1114,24 +1104,22 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "When the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).",
+      "text": "When limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "When limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:",
+      "text": "The parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties",
       "order": 13,
       "metadata": {}
     },
@@ -1140,24 +1128,22 @@
       "block_type": "list_item",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "The parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties",
+      "text": "If Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "If Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount",
+      "text": "Each party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.",
       "order": 15,
       "metadata": {}
     },
@@ -1166,11 +1152,10 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Each party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.",
+      "text": "When limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.",
       "order": 16,
       "metadata": {}
     },
@@ -1179,11 +1164,10 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "When limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.",
+      "text": "When limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.",
       "order": 17,
       "metadata": {}
     },
@@ -1192,24 +1176,22 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "When limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.",
+      "text": "Limiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Limiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:",
+      "text": "Limiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity",
       "order": 19,
       "metadata": {}
     },
@@ -1218,24 +1200,22 @@
       "block_type": "list_item",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Limiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity",
+      "text": "Limiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "Limiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer",
+      "text": "For satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.",
       "order": 21,
       "metadata": {}
     },
@@ -1244,11 +1224,10 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
-      "text": "For satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.",
+      "text": "For the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.",
       "order": 22,
       "metadata": {}
     },
@@ -1257,30 +1236,16 @@
       "block_type": "paragraph",
       "heading": "Limitation of liability",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
-        "Contractor liability",
-        "Limitation of liability"
-      ],
-      "text": "For the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
-      "block_type": "paragraph",
-      "heading": "Limitation of liability",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Contractor liability",
         "Contractor liability",
         "Limitation of liability"
       ],
       "text": "For IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
-      "order": 24,
+      "order": 23,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Contractor liability The Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada. The directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients. For information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca Indemnification Indemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where: it may not be in Canada’s financial interest to rely on Common Law or the Civil Code Canada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control Limitation of liability Limiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada. Decisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations. When the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping). When limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply: The parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties If Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount Each party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada. When limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used. When limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used. Limiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows: Limiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity Limiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer For satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used. For the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident. For IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.\n\nContractor liability\n\nThe Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.\n\nThe directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.\n\nFor information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca\n\nIndemnification\n\nIndemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:\n\nit may not be in Canada’s financial interest to rely on Common Law or the Civil Code\n\nCanada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control\n\nLimitation of liability\n\nLimiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.\n\nDecisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.\n\nWhen the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).\n\nWhen limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:\n\nThe parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties\n\nIf Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount\n\nEach party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.\n\nWhen limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.\n\nWhen limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.\n\nLimiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:\n\nLimiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity\n\nLimiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer\n\nFor satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.\n\nFor the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.\n\nFor IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
-  "markdown_text": "Contractor liability The Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada. The directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients. For information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca Indemnification Indemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where: it may not be in Canada’s financial interest to rely on Common Law or the Civil Code Canada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control Limitation of liability Limiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada. Decisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations. When the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping). When limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply: The parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties If Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount Each party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada. When limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used. When limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used. Limiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows: Limiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity Limiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer For satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used. For the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident. For IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.\n\nContractor liability\n\nThe Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.\n\nThe directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.\n\nFor information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca\n\nIndemnification\n\nIndemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:\n\nit may not be in Canada’s financial interest to rely on Common Law or the Civil Code\n\nCanada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control\n\nLimitation of liability\n\nLimiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.\n\nDecisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.\n\nWhen the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).\n\nWhen limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:\n\nThe parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties\n\nIf Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount\n\nEach party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.\n\nWhen limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.\n\nWhen limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.\n\nLimiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:\n\nLimiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity\n\nLimiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer\n\nFor satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.\n\nFor the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.\n\nFor IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
+  "raw_text": "Contractor liability\n\nThe Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.\n\nThe directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.\n\nFor information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca\n\nIndemnification\n\nIndemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:\n\nit may not be in Canada’s financial interest to rely on Common Law or the Civil Code\n\nCanada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control\n\nLimitation of liability\n\nLimiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.\n\nDecisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.\n\nWhen the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).\n\nWhen limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:\n\nThe parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties\n\nIf Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount\n\nEach party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.\n\nWhen limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.\n\nWhen limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.\n\nLimiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:\n\nLimiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity\n\nLimiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer\n\nFor satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.\n\nFor the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.\n\nFor IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
+  "markdown_text": "Contractor liability\n\nThe Policy on the Planning and Management of Investments defines limitation of liability as an establishment by contract of a predetermined financial cap to limit the responsibility of the contractor. The Treasury Board (TB) Directive on the Management of Procurement governs the process for limiting contractor liability. You are required to understand the application of this directive to ensure compliance and protect interests of Canada.\n\nThe directive forms the framework for risk-based decision-making, enabling the appropriate application and apportionment of liability risks in contracts. The directive details the steps and necessary approvals that must be followed when limiting contractor liability, ensuring effective management and service delivery for the benefit of Canadians. A key element of risked based decision-making is the requirement for conducting risk assessments by clients.\n\nFor information on limiting contractor liability refer to Appendix B of the TB Directive on the Management of Procurement and the section above on liability and risk management. Questions regarding limitation of contractor liability and indemnification may be sent to the Strategic Policy Interpretation Centre of Expertise within the Strategic Policy Sector at email: tpsgc.papolitiques-appolicy.pwgsc@tpsgc-pwgsc.gc.ca\n\nIndemnification\n\nIndemnification is the requirement for one party to a contract to make the other whole when the latter has suffered a loss. The default position of Canada on indemnification in procurement contracts is to remain silent. This enables both the parties to rely on their respective rights at law in the event of a loss. Exceptions to this position are where:\n\nit may not be in Canada’s financial interest to rely on Common Law or the Civil Code\n\nCanada agrees to indemnify the contractor due to exceptional circumstances or when the procurement falls under the terms of a foreign military sale . Under this condition, the client must assume financial responsibility for the substantive transfer of risk to Canada, as determined by a risk assessment. The client must provide approval from its chief financial officer to indemnify contractors from risks within their control\n\nLimitation of liability\n\nLimiting a contractor’s liability should be an exception to the normal practices of using the standard conditions. When the decision is made to limit a contractor’s liability to Canada, buyers, in conjunction with the client, must be able to demonstrate that the risks associated with the procurement have been analyzed and that the limitation of liability provides adequate protection to Canada.\n\nDecisions with respect to limiting a contractor’s liability should be made before the solicitation release. In the instances of non-competitive contracts the decision should be made before the start of negotiations.\n\nWhen the limitation of liability applies to a requirement, you may include additional clauses to address the limitation of liability in the contract. The applicable dollar amount in the clause is to be determined from the appropriate commodity grouping, usually “the Contract Price at the time the damage occurs” or a pre-determined dollar amount established by the commodity grouping).\n\nWhen limiting a contractor’s liability to Canada, but not limiting each party’s liability for damages to third parties , the appropriate clause must be used, where the following both apply:\n\nThe parties agree to allow the laws in the jurisdiction of the contract to determine who is responsible for any damages to third parties\n\nIf Canada must pay the third party for damages caused by the contractor because of joint and several liability, the contractor must reimburse Canada for that amount\n\nEach party is responsible for any damages that it causes to third parties. The appropriate clause would be used when a commodity grouping exists (other than Information Management/Information Technology [IM/IT] or satellite services, which have their own clauses) or after a risk assessment has been performed to determine the risk exposure and amount of protection required by Canada.\n\nWhen limiting a contractor’s liability to Canada and requiring the contractor to indemnify Canada against third party claims that relate to the contract , the appropriate clauses must be used.\n\nWhen limiting a contractor’s liability to Canada for first and third party claims , the appropriate clause must be used.\n\nLimiting a contractor’s liability to Canada for third party claims should be avoided, as the exposure of risk to Canada could be extensive. Limiting a contractor’s third party liability can only be done under a very limited number of circumstances, generally in situations concerning non-competitive contracts. When the decision is made to limit a contractor’s third party liability, the appropriate approvals must be sought as follows:\n\nLimiting contractor’s third party liability without a substantive transfer of risk requires approval by the director within the Acquisitions Program responsible for the area/commodity\n\nLimiting contractor’s third party liability with a substantive transfer of risk requires TB approval, through the Assistant Deputy Minister (ADM), Procurement Branch, or ADM , Defence and Marine Procurement, and approval of the client’s Chief Financial Officer\n\nFor satellite services requirements where TB granted special authority to allocate risk, the appropriate clause reflecting this limitation of liability must be used.\n\nFor the Public Cloud Software as a Service (SaaS) services requirements where TB granted special authority to allocate risk, the appropriate clause must be used indicating a limitation per incident . This is done regardless of the basis or the nature of the claim, such that the contractor’s total liability per incident will not exceed the cumulative value of the contract invoices for 12 months preceding the incident.\n\nFor IM/IT requirements where TB granted special authority to allocate risk, the appropriate clause for IM/IT contracts must be used.",
   "provenance_paths": {}
 }

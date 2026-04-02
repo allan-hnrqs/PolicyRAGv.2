@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:34.286193Z",
-  "content_hash": "44624ced95f735395a600af6522d4e9f8d5973e32b78281c7faca79a85cd310f",
-  "word_count": 428,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "102cb074de0ef34c6cb11abc896b32a06bdc3236bb67bcefe883a6127a79d36f",
+  "word_count": 214,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,24 +529,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
+      "block_type": "heading",
+      "heading": "Conduct a technical evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation"
+        "Conduct a technical evaluation"
       ],
-      "text": "Conduct a technical evaluation The client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive. Following the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report. All documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file. Public Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
+      "text": "Conduct a technical evaluation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Conduct a technical evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
         "Conduct a technical evaluation"
       ],
-      "text": "Conduct a technical evaluation",
+      "text": "The client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.",
       "order": 1,
       "metadata": {}
     },
@@ -555,10 +554,9 @@
       "block_type": "paragraph",
       "heading": "Conduct a technical evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
         "Conduct a technical evaluation"
       ],
-      "text": "The client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.",
+      "text": "Following the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.",
       "order": 2,
       "metadata": {}
     },
@@ -567,10 +565,9 @@
       "block_type": "paragraph",
       "heading": "Conduct a technical evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
         "Conduct a technical evaluation"
       ],
-      "text": "Following the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.",
+      "text": "All documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.",
       "order": 3,
       "metadata": {}
     },
@@ -579,28 +576,15 @@
       "block_type": "paragraph",
       "heading": "Conduct a technical evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
-        "Conduct a technical evaluation"
-      ],
-      "text": "All documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Conduct a technical evaluation",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct a technical evaluation",
         "Conduct a technical evaluation"
       ],
       "text": "Public Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Conduct a technical evaluation The client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive. Following the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report. All documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file. Public Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.\n\nConduct a technical evaluation\n\nThe client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.\n\nFollowing the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.\n\nAll documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.\n\nPublic Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
-  "markdown_text": "Conduct a technical evaluation The client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive. Following the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report. All documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file. Public Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.\n\nConduct a technical evaluation\n\nThe client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.\n\nFollowing the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.\n\nAll documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.\n\nPublic Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
+  "raw_text": "Conduct a technical evaluation\n\nThe client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.\n\nFollowing the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.\n\nAll documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.\n\nPublic Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
+  "markdown_text": "Conduct a technical evaluation\n\nThe client is responsible for the technical evaluation of offers. The mandatory criteria is assessed on a simple pass/fail basis. Offers that fail to meet any of the mandatory criteria will be considered non-responsive.\n\nFollowing the completion of the technical evaluation, clients must provide you with a report detailing the results of the evaluation. The report must include details on all non-responsive offers and the reasons for declaring them non-responsive. Each person who participated in the technical evaluation as an evaluator must sign the report.\n\nAll documentation, including all notes and/or worksheets made during the technical evaluation of offers must be retained in the procurement file.\n\nPublic Services and Procurement Canada (PSPC) is accountable for the entire procurement process and must ensure that evaluations are performed fairly and in accordance with all the terms and conditions of the solicitation of offers document. While you do not formally evaluate the technical offers, you must ensure that the technical evaluation is performed according to the process set out in the solicitation document. This includes questioning, clarifying, or challenging any scoring or remarks that are unclear, in error, or inappropriate at any stage of the evaluation process. The evaluation of offers must be performed with integrity in an open, fair, and honest manner.",
   "provenance_paths": {}
 }

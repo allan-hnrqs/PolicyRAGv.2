@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:50.324167Z",
   "content_hash": "0fa60d272b29ef723cc22959873df92f3bd93238cdb0a4b1098570eeb77ad7ee",
   "word_count": 143,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "Termination by mutual consent",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "On rare occasions both parties may agree to termination without claims or penalties, usually where:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "the client has requested full or partial termination of a contract",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "the contractor has incurred minor or no expenses and is willing to forego a claim, and",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "the matter may be settled at no cost to Canada",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "Termination by mutual consent does not apply when it is in Canada's interest to issue a termination for default or when the contractor claims additional costs following the reduction or cancellation of all or a portion of the contract.",
@@ -844,7 +838,6 @@
       "block_type": "paragraph",
       "heading": "Termination by mutual consent",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Termination by mutual consent",
         "Termination by mutual consent"
       ],
       "text": "Upon receiving a client’s request for termination by mutual consent, you should request the contractor to confirm that no claim is involved, and you must refer the matter to Legal Services. You do not need to involve a terminations claims officer (TCO) since no claim has been made.",

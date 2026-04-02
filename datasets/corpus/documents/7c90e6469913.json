@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:43.145953Z",
   "content_hash": "afc3d38afc50e0f9e0a3d31d4b7d342098a5b92cc47e9db81fc739511f9c7ed1",
   "word_count": 46,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Public Services and Procurement Canada offices outside Canada",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Public Services and Procurement Canada offices outside Canada",
         "Public Services and Procurement Canada offices outside Canada"
       ],
       "text": "Public Services and Procurement Canada offices outside Canada",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Public Services and Procurement Canada offices outside Canada",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Public Services and Procurement Canada offices outside Canada",
         "Public Services and Procurement Canada offices outside Canada"
       ],
       "text": "Termination procedures for contracts awarded by Public Services and Procurement Canada (PSPC) offices outside Canada may differ from those for contracts issued in Canada. Therefore, the termination procedures provided in the Buyer's Guide serve only as general guidance.",

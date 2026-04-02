@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:11.889062Z",
-  "content_hash": "fa34d0ae778e6e8a4326382dae7526cd310a96e2455df208b1c0837b55a213e3",
-  "word_count": 178,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "864a2c86fc10379a3bb8374436b44691501123607d205730aee5d7c410c7c325",
+  "word_count": 89,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,36 +961,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Pricing methods",
+      "block_type": "heading",
+      "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods"
+        "Pricing methods"
       ],
-      "text": "Pricing methods Prices for goods and services can be established through various methods: market pricing commercial pricing negotiated pricing To establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for: a non-competitive contract after a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments) the use of incentives involving costs See Cost and profit negotiations for more information on pricing methods.",
+      "text": "Pricing methods",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "Pricing methods",
+      "text": "Prices for goods and services can be established through various methods:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "Prices for goods and services can be established through various methods:",
+      "text": "market pricing",
       "order": 2,
       "metadata": {}
     },
@@ -999,10 +997,9 @@
       "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "market pricing",
+      "text": "commercial pricing",
       "order": 3,
       "metadata": {}
     },
@@ -1011,34 +1008,31 @@
       "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "commercial pricing",
+      "text": "negotiated pricing",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "negotiated pricing",
+      "text": "To establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "To establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:",
+      "text": "a non-competitive contract",
       "order": 6,
       "metadata": {}
     },
@@ -1047,10 +1041,9 @@
       "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "a non-competitive contract",
+      "text": "after a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)",
       "order": 7,
       "metadata": {}
     },
@@ -1059,40 +1052,26 @@
       "block_type": "list_item",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
-      "text": "after a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)",
+      "text": "the use of incentives involving costs",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
-      "heading": "Pricing methods",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
-        "Pricing methods"
-      ],
-      "text": "the use of incentives involving costs",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
       "block_type": "paragraph",
       "heading": "Pricing methods",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Pricing methods",
         "Pricing methods"
       ],
       "text": "See Cost and profit negotiations for more information on pricing methods.",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Pricing methods Prices for goods and services can be established through various methods: market pricing commercial pricing negotiated pricing To establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for: a non-competitive contract after a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments) the use of incentives involving costs See Cost and profit negotiations for more information on pricing methods.\n\nPricing methods\n\nPrices for goods and services can be established through various methods:\n\nmarket pricing\n\ncommercial pricing\n\nnegotiated pricing\n\nTo establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:\n\na non-competitive contract\n\nafter a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)\n\nthe use of incentives involving costs\n\nSee Cost and profit negotiations for more information on pricing methods.",
-  "markdown_text": "Pricing methods Prices for goods and services can be established through various methods: market pricing commercial pricing negotiated pricing To establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for: a non-competitive contract after a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments) the use of incentives involving costs See Cost and profit negotiations for more information on pricing methods.\n\nPricing methods\n\nPrices for goods and services can be established through various methods:\n\nmarket pricing\n\ncommercial pricing\n\nnegotiated pricing\n\nTo establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:\n\na non-competitive contract\n\nafter a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)\n\nthe use of incentives involving costs\n\nSee Cost and profit negotiations for more information on pricing methods.",
+  "raw_text": "Pricing methods\n\nPrices for goods and services can be established through various methods:\n\nmarket pricing\n\ncommercial pricing\n\nnegotiated pricing\n\nTo establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:\n\na non-competitive contract\n\nafter a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)\n\nthe use of incentives involving costs\n\nSee Cost and profit negotiations for more information on pricing methods.",
+  "markdown_text": "Pricing methods\n\nPrices for goods and services can be established through various methods:\n\nmarket pricing\n\ncommercial pricing\n\nnegotiated pricing\n\nTo establish a commercial price, obtain sufficient price support to validate the offeror’s price. Negotiated pricing is used when a contract requires any type of price negotiations, such as for:\n\na non-competitive contract\n\nafter a competitive contract has been awarded for aspects not included in the initial financial bids (for example, contract amendments)\n\nthe use of incentives involving costs\n\nSee Cost and profit negotiations for more information on pricing methods.",
   "provenance_paths": {}
 }

@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:27.755322Z",
   "content_hash": "c1ed98a7b22c76d123ae7eefc84277e34e16230514d16d0ea7e142a07d25c357",
   "word_count": 122,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Fixed time rate contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Fixed time rate contracts",
         "Fixed time rate contracts"
       ],
       "text": "Fixed time rate contracts",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Fixed time rate contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Fixed time rate contracts",
         "Fixed time rate contracts"
       ],
       "text": "Time charged and the accuracy of the contractor’s time recording are subject to verification by Canada. This can occur before or after payment is made to the contractor under the terms of the contract.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Fixed time rate contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Fixed time rate contracts",
         "Fixed time rate contracts"
       ],
       "text": "This verification applies to all fixed time rate contracts, except those for equipment rentals and temporary help services, whether sourced competitively or non-competitively and regardless of value.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Fixed time rate contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Fixed time rate contracts",
         "Fixed time rate contracts"
       ],
       "text": "The depth of verification should be proportional to the contract's value.",
@@ -820,7 +816,6 @@
       "block_type": "paragraph",
       "heading": "Fixed time rate contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Fixed time rate contracts",
         "Fixed time rate contracts"
       ],
       "text": "Upon completion of a fixed time rate contract, the contractor must provide a submission detailing the actual time spent to perform the contract. In addition, an appropriate contract clause must be included to allow for the verification of time charged and the contractor's time recording system.",

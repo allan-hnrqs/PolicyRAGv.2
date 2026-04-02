@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:10.718188Z",
-  "content_hash": "f7713fccc8779d3f23ba385d8ba214e199769352e0a2538edd67e8aae5dd9d94",
-  "word_count": 1028,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d48666552ba15c9d68def26e58dff19e106ad319d1bbd2871d7f38a34f856fd6",
+  "word_count": 514,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,49 +960,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Price and currency adjustments",
+      "block_type": "heading",
+      "heading": "Price and currency adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments"
+        "Price and currency adjustments"
       ],
-      "text": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining. Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment. Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract. Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price. The formula for adjustments must detail: any economic wage or price index to be used the firm price element the base period for which adjustments will be made either a ceiling price or a limitation of expenditure The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties. You should consult a cost analyst to: develop significant EPA provisions implement an EPA provision using an accounting type formula For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions. For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise. Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used. Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data. A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry. Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
+      "text": "Price and currency adjustments",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price and currency adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments"
       ],
-      "text": "Price and currency adjustments",
+      "text": "Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Price and currency adjustments",
+      "block_type": "heading",
+      "heading": "Usage guidelines",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
-        "Price and currency adjustments"
+        "Price and currency adjustments",
+        "Usage guidelines"
       ],
-      "text": "Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.",
+      "text": "Usage guidelines",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Usage guidelines",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Usage guidelines"
       ],
-      "text": "Usage guidelines",
+      "text": "These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.",
       "order": 3,
       "metadata": {}
     },
@@ -1011,37 +1009,34 @@
       "block_type": "paragraph",
       "heading": "Usage guidelines",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Usage guidelines"
       ],
-      "text": "These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.",
+      "text": "Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Usage guidelines",
+      "block_type": "heading",
+      "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
-        "Usage guidelines"
+        "Economic price adjustments"
       ],
-      "text": "Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.",
+      "text": "Economic price adjustments",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "Economic price adjustments",
+      "text": "EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.",
       "order": 6,
       "metadata": {}
     },
@@ -1050,24 +1045,22 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.",
+      "text": "The formula for adjustments must detail:",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "The formula for adjustments must detail:",
+      "text": "any economic wage or price index to be used",
       "order": 8,
       "metadata": {}
     },
@@ -1076,11 +1069,10 @@
       "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "any economic wage or price index to be used",
+      "text": "the firm price element",
       "order": 9,
       "metadata": {}
     },
@@ -1089,11 +1081,10 @@
       "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "the firm price element",
+      "text": "the base period for which adjustments will be made",
       "order": 10,
       "metadata": {}
     },
@@ -1102,24 +1093,22 @@
       "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "the base period for which adjustments will be made",
+      "text": "either a ceiling price or a limitation of expenditure",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "either a ceiling price or a limitation of expenditure",
+      "text": "The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.",
       "order": 12,
       "metadata": {}
     },
@@ -1128,24 +1117,22 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.",
+      "text": "You should consult a cost analyst to:",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "You should consult a cost analyst to:",
+      "text": "develop significant EPA provisions",
       "order": 14,
       "metadata": {}
     },
@@ -1154,24 +1141,22 @@
       "block_type": "list_item",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "develop significant EPA provisions",
+      "text": "implement an EPA provision using an accounting type formula",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "implement an EPA provision using an accounting type formula",
+      "text": "For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.",
       "order": 16,
       "metadata": {}
     },
@@ -1180,11 +1165,10 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.",
+      "text": "For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.",
       "order": 17,
       "metadata": {}
     },
@@ -1193,11 +1177,10 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.",
+      "text": "Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.",
       "order": 18,
       "metadata": {}
     },
@@ -1206,11 +1189,10 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.",
+      "text": "Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.",
       "order": 19,
       "metadata": {}
     },
@@ -1219,56 +1201,40 @@
       "block_type": "paragraph",
       "heading": "Economic price adjustments",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Economic price adjustments"
       ],
-      "text": "Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.",
+      "text": "A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Economic price adjustments",
+      "block_type": "heading",
+      "heading": "Alternatives",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
-        "Economic price adjustments"
+        "Alternatives"
       ],
-      "text": "A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.",
+      "text": "Alternatives",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
-      "heading": "Alternatives",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
-        "Price and currency adjustments",
-        "Alternatives"
-      ],
-      "text": "Alternatives",
-      "order": 22,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0023",
       "block_type": "paragraph",
       "heading": "Alternatives",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Price and currency adjustments",
         "Price and currency adjustments",
         "Alternatives"
       ],
       "text": "There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
-      "order": 23,
+      "order": 22,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining. Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment. Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract. Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price. The formula for adjustments must detail: any economic wage or price index to be used the firm price element the base period for which adjustments will be made either a ceiling price or a limitation of expenditure The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties. You should consult a cost analyst to: develop significant EPA provisions implement an EPA provision using an accounting type formula For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions. For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise. Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used. Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data. A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry. Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .\n\nPrice and currency adjustments\n\nEconomic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.\n\nUsage guidelines\n\nThese tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.\n\nAdjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.\n\nEconomic price adjustments\n\nEPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.\n\nThe formula for adjustments must detail:\n\nany economic wage or price index to be used\n\nthe firm price element\n\nthe base period for which adjustments will be made\n\neither a ceiling price or a limitation of expenditure\n\nThe calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.\n\nYou should consult a cost analyst to:\n\ndevelop significant EPA provisions\n\nimplement an EPA provision using an accounting type formula\n\nFor a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.\n\nFor commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.\n\nStatistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.\n\nAdjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.\n\nA company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.\n\nAlternatives\n\nThere are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
-  "markdown_text": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining. Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment. Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract. Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price. The formula for adjustments must detail: any economic wage or price index to be used the firm price element the base period for which adjustments will be made either a ceiling price or a limitation of expenditure The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties. You should consult a cost analyst to: develop significant EPA provisions implement an EPA provision using an accounting type formula For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions. For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise. Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used. Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data. A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry. Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .\n\nPrice and currency adjustments\n\nEconomic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.\n\nUsage guidelines\n\nThese tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.\n\nAdjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.\n\nEconomic price adjustments\n\nEPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.\n\nThe formula for adjustments must detail:\n\nany economic wage or price index to be used\n\nthe firm price element\n\nthe base period for which adjustments will be made\n\neither a ceiling price or a limitation of expenditure\n\nThe calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.\n\nYou should consult a cost analyst to:\n\ndevelop significant EPA provisions\n\nimplement an EPA provision using an accounting type formula\n\nFor a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.\n\nFor commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.\n\nStatistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.\n\nAdjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.\n\nA company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.\n\nAlternatives\n\nThere are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
+  "raw_text": "Price and currency adjustments\n\nEconomic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.\n\nUsage guidelines\n\nThese tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.\n\nAdjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.\n\nEconomic price adjustments\n\nEPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.\n\nThe formula for adjustments must detail:\n\nany economic wage or price index to be used\n\nthe firm price element\n\nthe base period for which adjustments will be made\n\neither a ceiling price or a limitation of expenditure\n\nThe calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.\n\nYou should consult a cost analyst to:\n\ndevelop significant EPA provisions\n\nimplement an EPA provision using an accounting type formula\n\nFor a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.\n\nFor commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.\n\nStatistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.\n\nAdjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.\n\nA company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.\n\nAlternatives\n\nThere are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
+  "markdown_text": "Price and currency adjustments\n\nEconomic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.\n\nUsage guidelines\n\nThese tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.\n\nAdjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.\n\nEconomic price adjustments\n\nEPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.\n\nThe formula for adjustments must detail:\n\nany economic wage or price index to be used\n\nthe firm price element\n\nthe base period for which adjustments will be made\n\neither a ceiling price or a limitation of expenditure\n\nThe calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.\n\nYou should consult a cost analyst to:\n\ndevelop significant EPA provisions\n\nimplement an EPA provision using an accounting type formula\n\nFor a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.\n\nFor commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.\n\nStatistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.\n\nAdjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor’s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.\n\nA company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.\n\nAlternatives\n\nThere are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner’s Guide for Procurement Pricing .",
   "provenance_paths": {}
 }

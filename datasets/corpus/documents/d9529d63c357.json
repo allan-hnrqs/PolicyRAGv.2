@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:12.971616Z",
-  "content_hash": "6d9293d4028f2b4e2933ee5910d70df2c0659ae49c8f55555d72401d28f20f7f",
-  "word_count": 886,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d4da31b15905c787a4b79be52a60e7e6f362b8fab68602abad332adb005019a0",
+  "word_count": 443,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Provisional price",
+      "block_type": "heading",
+      "heading": "Provisional price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price"
+        "Provisional price"
       ],
-      "text": "Provisional price With a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract. Provisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs. Adopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement. For more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures. Setting a milestone With a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract. Price validation The shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract. You should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation. Negotiation of fixed price Once the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
+      "text": "Provisional price",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Provisional price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price"
       ],
-      "text": "Provisional price",
+      "text": "With a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.",
       "order": 1,
       "metadata": {}
     },
@@ -986,10 +985,9 @@
       "block_type": "paragraph",
       "heading": "Provisional price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price"
       ],
-      "text": "With a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.",
+      "text": "Provisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "paragraph",
       "heading": "Provisional price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price"
       ],
-      "text": "Provisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.",
+      "text": "Adopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.",
       "order": 3,
       "metadata": {}
     },
@@ -1010,61 +1007,57 @@
       "block_type": "paragraph",
       "heading": "Provisional price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price"
       ],
-      "text": "Adopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.",
+      "text": "For more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Provisional price",
+      "block_type": "heading",
+      "heading": "Setting a milestone",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
-        "Provisional price"
+        "Provisional price",
+        "Setting a milestone"
       ],
-      "text": "For more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.",
+      "text": "Setting a milestone",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Setting a milestone",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
         "Setting a milestone"
       ],
-      "text": "Setting a milestone",
+      "text": "With a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Setting a milestone",
+      "block_type": "heading",
+      "heading": "Price validation",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
-        "Setting a milestone"
+        "Price validation"
       ],
-      "text": "With a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.",
+      "text": "Price validation",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price validation",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
         "Price validation"
       ],
-      "text": "Price validation",
+      "text": "The shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.",
       "order": 8,
       "metadata": {}
     },
@@ -1073,56 +1066,40 @@
       "block_type": "paragraph",
       "heading": "Price validation",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
         "Price validation"
       ],
-      "text": "The shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.",
+      "text": "You should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Price validation",
+      "block_type": "heading",
+      "heading": "Negotiation of fixed price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
-        "Price validation"
+        "Negotiation of fixed price"
       ],
-      "text": "You should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.",
+      "text": "Negotiation of fixed price",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "heading",
-      "heading": "Negotiation of fixed price",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
-        "Provisional price",
-        "Negotiation of fixed price"
-      ],
-      "text": "Negotiation of fixed price",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
       "block_type": "paragraph",
       "heading": "Negotiation of fixed price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Provisional price",
         "Provisional price",
         "Negotiation of fixed price"
       ],
       "text": "Once the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Provisional price With a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract. Provisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs. Adopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement. For more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures. Setting a milestone With a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract. Price validation The shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract. You should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation. Negotiation of fixed price Once the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.\n\nProvisional price\n\nWith a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.\n\nProvisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.\n\nAdopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.\n\nFor more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.\n\nSetting a milestone\n\nWith a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.\n\nPrice validation\n\nThe shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.\n\nYou should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.\n\nNegotiation of fixed price\n\nOnce the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
-  "markdown_text": "Provisional price With a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract. Provisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs. Adopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement. For more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures. Setting a milestone With a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract. Price validation The shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract. You should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation. Negotiation of fixed price Once the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.\n\nProvisional price\n\nWith a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.\n\nProvisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.\n\nAdopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.\n\nFor more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.\n\nSetting a milestone\n\nWith a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.\n\nPrice validation\n\nThe shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.\n\nYou should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.\n\nNegotiation of fixed price\n\nOnce the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
+  "raw_text": "Provisional price\n\nWith a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.\n\nProvisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.\n\nAdopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.\n\nFor more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.\n\nSetting a milestone\n\nWith a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.\n\nPrice validation\n\nThe shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.\n\nYou should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.\n\nNegotiation of fixed price\n\nOnce the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
+  "markdown_text": "Provisional price\n\nWith a provisional price basis of payment, a contract begins with a cost-reimbursable basis of payment when the contract requirements and costs are uncertain or cannot be estimated, with a clearly defined ceiling price or limitation of expenditure. This basis of payment is used if there is a plan to transition to a fixed price basis of payment when the requirements become clearer, reducing financial risks to Canada for the rest of the contract.\n\nProvisional pricing is often used in longer term contracts such as five years or longer, where setting a fixed price upfront is not possible due to uncertainties regarding contract requirements and costs.\n\nAdopting a fixed price after a provisional phase can lead to cost savings, transfer of risk to the contractor and reduced administrative burden. A cost-benefit analysis could reveal the potential value for your procurement.\n\nFor more information on provisional pricing, refer to section 4.1.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). This guide provides examples and more guidance on the decision process and procedures.\n\nSetting a milestone\n\nWith a provisional price basis of payment, you must establish a milestone related to the requirement’s uncertainty level. This milestone is normally linked to a certain percentage of work completed or achievement of critical performance indicators within the contract. This would predefine when the cost reimbursable portion is complete and the basis of payment can move to fixed price. Clearly define this milestone in the contract.\n\nPrice validation\n\nThe shift from cost-reimbursable to fixed pricing is triggered when the contractor submits a declaration of the percentage of work completed that corresponds to the predetermined milestone. This declaration must include a cost submission, so be sure to include a cost submission Contract Cost Principles 1031-2 (PDF, 6.50 MB) clause in the contract.\n\nYou should consult the group responsible for price support for assistance with price validation. Contractors must cooperate with auditors, providing all necessary financial details and other supporting evidence in a timely manner. This information must be sufficient to disclose unit costs and costs trends for goods and services provided under the contract, as well as inventory levels for both work in progress and undelivered contract supplies on hand. The price validation process also includes, benchmarking against market data or historical data on cost and profit calculation.\n\nNegotiation of fixed price\n\nOnce the milestone is reached and costs are more certain and stable, you will negotiate a fixed price with the contractor for the remainder of the contract based on the contract terms and conditions. When a reasonable fixed price has been agreed to by both parties, you will need to formally amend the contract.",
   "provenance_paths": {}
 }

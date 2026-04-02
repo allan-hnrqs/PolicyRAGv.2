@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:01:05.902934Z",
-  "content_hash": "a2e0b84865b310f9abe5c3b9e30b452437f4ba07f04fa8b05bf5414264ba5653",
-  "word_count": 318,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e9d388e04a38cb11911302fd34b50193dca58aa5c48f98c7f5648ec1e9d13789",
+  "word_count": 159,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,24 +511,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Release the solicitation document - Technical data",
+      "block_type": "heading",
+      "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data"
+        "Technical data"
       ],
-      "text": "Technical data For technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use. If the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves. If technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data. PSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to: Directorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6 You must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
+      "text": "Technical data",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
-      "text": "Technical data",
+      "text": "For technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.",
       "order": 1,
       "metadata": {}
     },
@@ -537,10 +536,9 @@
       "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
-      "text": "For technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.",
+      "text": "If the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.",
       "order": 2,
       "metadata": {}
     },
@@ -549,10 +547,9 @@
       "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
-      "text": "If the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.",
+      "text": "If technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.",
       "order": 3,
       "metadata": {}
     },
@@ -561,10 +558,9 @@
       "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
-      "text": "If technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.",
+      "text": "PSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:",
       "order": 4,
       "metadata": {}
     },
@@ -573,10 +569,9 @@
       "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
-      "text": "PSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:",
+      "text": "Directorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6",
       "order": 5,
       "metadata": {}
     },
@@ -585,28 +580,15 @@
       "block_type": "paragraph",
       "heading": "Technical data",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
-        "Technical data"
-      ],
-      "text": "Directorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6",
-      "order": 6,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Technical data",
-      "heading_path": [
-        "Buyer's Guide Release the solicitation document - Technical data",
         "Technical data"
       ],
       "text": "You must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
-      "order": 7,
+      "order": 6,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Technical data For technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use. If the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves. If technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data. PSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to: Directorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6 You must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.\n\nTechnical data\n\nFor technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.\n\nIf the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.\n\nIf technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.\n\nPSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:\n\nDirectorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6\n\nYou must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
-  "markdown_text": "Technical data For technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use. If the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves. If technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data. PSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to: Directorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6 You must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.\n\nTechnical data\n\nFor technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.\n\nIf the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.\n\nIf technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.\n\nPSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:\n\nDirectorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6\n\nYou must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
+  "raw_text": "Technical data\n\nFor technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.\n\nIf the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.\n\nIf technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.\n\nPSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:\n\nDirectorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6\n\nYou must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
+  "markdown_text": "Technical data\n\nFor technical data not owned by Public Services and Procurement Canada (PSPC), you must ensure that the government obtains rights for its distribution and use.\n\nIf the necessary technical data is available through normal business channels, such as Canadian Standards Association (CSA) specifications or standards, businesses are responsible for obtaining it themselves.\n\nIf technical data needs to be sent to businesses from an alternate source, such as the client, the solicitation must not be posted until this data is available from that source. The solicitation must clearly identify how to obtain the data.\n\nPSPC buyers working on Department of National Defence requirements must send the completed form PWGSC-TPSGC 1065 - Request for distribution of technical data to:\n\nDirectorate, Supply Chain Operations (DSCO) repository section, staff DSCO 4-7 National Printing Bureau (NPB) 45 Blvd. Sacré-Coeur Gatineau, QC, J8X 1C6\n\nYou must allow sufficient time to ensure the data will be available when the solicitation of offers is issued.",
   "provenance_paths": {}
 }

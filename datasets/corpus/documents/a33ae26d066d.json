@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:31.925747Z",
-  "content_hash": "b196495252214999c69b810e8c140f6b77585df24557ad248428b8ff26cb3979",
-  "word_count": 3289,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c964c60697a055e5d512da8ef889ee2a2172d63308959901724c3b39bb568025",
+  "word_count": 1602,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Define the requirement - Standards and quality assurance",
+      "block_type": "heading",
+      "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance"
+        "Standards and quality assurance"
       ],
-      "text": "Standards and quality assurance For the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used. When determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which: Canadian views have been reflected in the standard or specification products available in Canada are likely to meet the standard or specification the standard or specification is likely to discriminate against products You must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion. Note : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service. Clients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection. The level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of: the quality standard against which verification will be conducted the requirement for the contractor to establish and maintain a quality assurance system the requirement for the offeror or contractor to demonstrate conformance what quality verification activity will be done by the government consignee inspection the requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification the requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples the requirement for the offeror or contractor to submit an inspection plan the requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials As an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client. If a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC . If a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence. This is particularly important when the requirement involves: newly designed products being produced to government-generated specifications a product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints a product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure the product or service being purchased for the first time and no history of performance is available at least one potential offeror or contractor has a weak quality system This is required to provide adequate protection for both the client and PSPC . You may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value. Government Quality Assurance at source You should use GQA at source when any of the following conditions apply: the inspection authority is different from the consignee the benefits justify the costs of conducting inspections at the source the offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources assessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination The GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region. Additionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support. Listing programs You can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND). Listing or qualification programs are normally established in situations where: testing requirements could delay delivery the costs of acceptance inspection are prohibitively high assurance of product conformance or offeror capability is needed beforehand complex testing equipment and procedures are required there are regular purchases of products in large quantities Before contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract. Reasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include: changes in product formulation that impair product quality production process adjustments that impair product quality verified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority) failure to meet verification test requirements failure to submit samples for testing, where requested failure to submit data for qualification maintenance, when requested withdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation a cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification When there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures. When utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below. QPL includes: underlay security guards remanufactured toner cartridges protective clothing polyethylene vapor barrier paints office furniture medical gloves Laboratory Acceptance Program dockside Monitoring Company carpets Canadian Non-Destructive Testing Personnel Certification Program Canadian Air Transport Security Authority screening contractors breather type sheathing membrane CPL includes: polyethylene vapor barrier surgical and patient examination rubber gloves breather type sheathing membrane firefighter's protective clothing, protecting against heat and flame fireline workwear for forest firefighters Laboratory Acceptance Program Registered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems): Lists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version. Registered Environmental Management Systems List: Lists of companies compliant with ISO 14001:2015 standard for environmental management systems. Certified Occupational Health and Safety Standards (OHSAS) List: Lists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems. Certified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development. Ontario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs. Certified Drinking Water Quality Systems (Ministry of Ontario) List: A registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
+      "text": "Standards and quality assurance",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "Standards and quality assurance",
+      "text": "For the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.",
       "order": 1,
       "metadata": {}
     },
@@ -986,22 +985,20 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "For the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.",
+      "text": "When determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "When determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:",
+      "text": "Canadian views have been reflected in the standard or specification",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "Canadian views have been reflected in the standard or specification",
+      "text": "products available in Canada are likely to meet the standard or specification",
       "order": 4,
       "metadata": {}
     },
@@ -1022,22 +1018,20 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "products available in Canada are likely to meet the standard or specification",
+      "text": "the standard or specification is likely to discriminate against products",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the standard or specification is likely to discriminate against products",
+      "text": "You must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "You must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.",
+      "text": "Note : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "Note : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.",
+      "text": "Clients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.",
       "order": 8,
       "metadata": {}
     },
@@ -1070,22 +1062,20 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "Clients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.",
+      "text": "The level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "The level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:",
+      "text": "the quality standard against which verification will be conducted",
       "order": 10,
       "metadata": {}
     },
@@ -1094,10 +1084,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the quality standard against which verification will be conducted",
+      "text": "the requirement for the contractor to establish and maintain a quality assurance system",
       "order": 11,
       "metadata": {}
     },
@@ -1106,10 +1095,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the contractor to establish and maintain a quality assurance system",
+      "text": "the requirement for the offeror or contractor to demonstrate conformance",
       "order": 12,
       "metadata": {}
     },
@@ -1118,10 +1106,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the offeror or contractor to demonstrate conformance",
+      "text": "what quality verification activity will be done by the government",
       "order": 13,
       "metadata": {}
     },
@@ -1130,10 +1117,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "what quality verification activity will be done by the government",
+      "text": "consignee inspection",
       "order": 14,
       "metadata": {}
     },
@@ -1142,10 +1128,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "consignee inspection",
+      "text": "the requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification",
       "order": 15,
       "metadata": {}
     },
@@ -1154,10 +1139,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification",
+      "text": "the requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples",
       "order": 16,
       "metadata": {}
     },
@@ -1166,10 +1150,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples",
+      "text": "the requirement for the offeror or contractor to submit an inspection plan",
       "order": 17,
       "metadata": {}
     },
@@ -1178,10 +1161,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the offeror or contractor to submit an inspection plan",
+      "text": "the requirement for the inspection authority to verify that the product supplied:",
       "order": 18,
       "metadata": {}
     },
@@ -1190,10 +1172,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials",
+      "text": "is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process",
       "order": 19,
       "metadata": {}
     },
@@ -1202,10 +1183,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process",
+      "text": "is manufactured under the same conditions as the product qualified during the QPL or CPL process",
       "order": 20,
       "metadata": {}
     },
@@ -1214,22 +1194,20 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "is manufactured under the same conditions as the product qualified during the QPL or CPL process",
+      "text": "has adequate details of acceptance inspection, tests and trials",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "has adequate details of acceptance inspection, tests and trials",
+      "text": "As an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.",
       "order": 22,
       "metadata": {}
     },
@@ -1238,10 +1216,9 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "As an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.",
+      "text": "If a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .",
       "order": 23,
       "metadata": {}
     },
@@ -1250,10 +1227,9 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "If a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .",
+      "text": "If a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.",
       "order": 24,
       "metadata": {}
     },
@@ -1262,22 +1238,20 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "If a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.",
+      "text": "This is particularly important when the requirement involves:",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "This is particularly important when the requirement involves:",
+      "text": "newly designed products being produced to government-generated specifications",
       "order": 26,
       "metadata": {}
     },
@@ -1286,10 +1260,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "newly designed products being produced to government-generated specifications",
+      "text": "a product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints",
       "order": 27,
       "metadata": {}
     },
@@ -1298,10 +1271,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "a product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints",
+      "text": "a product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure",
       "order": 28,
       "metadata": {}
     },
@@ -1310,10 +1282,9 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "a product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure",
+      "text": "the product or service being purchased for the first time and no history of performance is available",
       "order": 29,
       "metadata": {}
     },
@@ -1322,22 +1293,20 @@
       "block_type": "list_item",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "the product or service being purchased for the first time and no history of performance is available",
+      "text": "at least one potential offeror or contractor has a weak quality system",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "at least one potential offeror or contractor has a weak quality system",
+      "text": "This is required to provide adequate protection for both the client and PSPC .",
       "order": 31,
       "metadata": {}
     },
@@ -1346,48 +1315,45 @@
       "block_type": "paragraph",
       "heading": "Standards and quality assurance",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance"
       ],
-      "text": "This is required to provide adequate protection for both the client and PSPC .",
+      "text": "You may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
-      "block_type": "paragraph",
-      "heading": "Standards and quality assurance",
+      "block_type": "heading",
+      "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
-        "Standards and quality assurance"
+        "Standards and quality assurance",
+        "Government Quality Assurance at source"
       ],
-      "text": "You may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.",
+      "text": "Government Quality Assurance at source",
       "order": 33,
       "metadata": {}
     },
     {
       "block_id": "block_0034",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "Government Quality Assurance at source",
+      "text": "You should use GQA at source when any of the following conditions apply:",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "You should use GQA at source when any of the following conditions apply:",
+      "text": "the inspection authority is different from the consignee",
       "order": 35,
       "metadata": {}
     },
@@ -1396,11 +1362,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "the inspection authority is different from the consignee",
+      "text": "the benefits justify the costs of conducting inspections at the source",
       "order": 36,
       "metadata": {}
     },
@@ -1409,11 +1374,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "the benefits justify the costs of conducting inspections at the source",
+      "text": "the offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources",
       "order": 37,
       "metadata": {}
     },
@@ -1422,11 +1386,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "the offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources",
+      "text": "assessing conformance upon receipt isn't feasible due to:",
       "order": 38,
       "metadata": {}
     },
@@ -1435,11 +1398,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "assessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination",
+      "text": "the product containing critical characteristics not visible in the end item",
       "order": 39,
       "metadata": {}
     },
@@ -1448,11 +1410,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "the product containing critical characteristics not visible in the end item",
+      "text": "special safety or security characteristics",
       "order": 40,
       "metadata": {}
     },
@@ -1461,11 +1422,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "special safety or security characteristics",
+      "text": "risk of damage to special packing and packaging",
       "order": 41,
       "metadata": {}
     },
@@ -1474,11 +1434,10 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "risk of damage to special packing and packaging",
+      "text": "delivery to multiple locations",
       "order": 42,
       "metadata": {}
     },
@@ -1487,24 +1446,22 @@
       "block_type": "list_item",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "delivery to multiple locations",
+      "text": "inadequate conditions or capabilities at the destination",
       "order": 43,
       "metadata": {}
     },
     {
       "block_id": "block_0044",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "inadequate conditions or capabilities at the destination",
+      "text": "The GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.",
       "order": 44,
       "metadata": {}
     },
@@ -1513,37 +1470,34 @@
       "block_type": "paragraph",
       "heading": "Government Quality Assurance at source",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Government Quality Assurance at source"
       ],
-      "text": "The GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.",
+      "text": "Additionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.",
       "order": 45,
       "metadata": {}
     },
     {
       "block_id": "block_0046",
-      "block_type": "paragraph",
-      "heading": "Government Quality Assurance at source",
+      "block_type": "heading",
+      "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
-        "Government Quality Assurance at source"
+        "Listing programs"
       ],
-      "text": "Additionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.",
+      "text": "Listing programs",
       "order": 46,
       "metadata": {}
     },
     {
       "block_id": "block_0047",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Listing programs",
+      "text": "You can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).",
       "order": 47,
       "metadata": {}
     },
@@ -1552,24 +1506,22 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "You can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).",
+      "text": "Listing or qualification programs are normally established in situations where:",
       "order": 48,
       "metadata": {}
     },
     {
       "block_id": "block_0049",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Listing or qualification programs are normally established in situations where:",
+      "text": "testing requirements could delay delivery",
       "order": 49,
       "metadata": {}
     },
@@ -1578,11 +1530,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "testing requirements could delay delivery",
+      "text": "the costs of acceptance inspection are prohibitively high",
       "order": 50,
       "metadata": {}
     },
@@ -1591,11 +1542,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "the costs of acceptance inspection are prohibitively high",
+      "text": "assurance of product conformance or offeror capability is needed beforehand",
       "order": 51,
       "metadata": {}
     },
@@ -1604,11 +1554,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "assurance of product conformance or offeror capability is needed beforehand",
+      "text": "complex testing equipment and procedures are required",
       "order": 52,
       "metadata": {}
     },
@@ -1617,24 +1566,22 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "complex testing equipment and procedures are required",
+      "text": "there are regular purchases of products in large quantities",
       "order": 53,
       "metadata": {}
     },
     {
       "block_id": "block_0054",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "there are regular purchases of products in large quantities",
+      "text": "Before contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.",
       "order": 54,
       "metadata": {}
     },
@@ -1643,24 +1590,22 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Before contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.",
+      "text": "Reasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:",
       "order": 55,
       "metadata": {}
     },
     {
       "block_id": "block_0056",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Reasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:",
+      "text": "changes in product formulation that impair product quality",
       "order": 56,
       "metadata": {}
     },
@@ -1669,11 +1614,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "changes in product formulation that impair product quality",
+      "text": "production process adjustments that impair product quality",
       "order": 57,
       "metadata": {}
     },
@@ -1682,11 +1626,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "production process adjustments that impair product quality",
+      "text": "verified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)",
       "order": 58,
       "metadata": {}
     },
@@ -1695,11 +1638,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "verified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)",
+      "text": "failure to meet verification test requirements",
       "order": 59,
       "metadata": {}
     },
@@ -1708,11 +1650,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "failure to meet verification test requirements",
+      "text": "failure to submit samples for testing, where requested",
       "order": 60,
       "metadata": {}
     },
@@ -1721,11 +1662,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "failure to submit samples for testing, where requested",
+      "text": "failure to submit data for qualification maintenance, when requested",
       "order": 61,
       "metadata": {}
     },
@@ -1734,11 +1674,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "failure to submit data for qualification maintenance, when requested",
+      "text": "withdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation",
       "order": 62,
       "metadata": {}
     },
@@ -1747,24 +1686,22 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "withdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation",
+      "text": "a cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification",
       "order": 63,
       "metadata": {}
     },
     {
       "block_id": "block_0064",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "a cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification",
+      "text": "When there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.",
       "order": 64,
       "metadata": {}
     },
@@ -1773,11 +1710,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "When there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.",
+      "text": "When utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.",
       "order": 65,
       "metadata": {}
     },
@@ -1786,24 +1722,22 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "When utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.",
+      "text": "QPL includes:",
       "order": 66,
       "metadata": {}
     },
     {
       "block_id": "block_0067",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "QPL includes:",
+      "text": "underlay",
       "order": 67,
       "metadata": {}
     },
@@ -1812,11 +1746,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "underlay",
+      "text": "security guards",
       "order": 68,
       "metadata": {}
     },
@@ -1825,11 +1758,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "security guards",
+      "text": "remanufactured toner cartridges",
       "order": 69,
       "metadata": {}
     },
@@ -1838,11 +1770,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "remanufactured toner cartridges",
+      "text": "protective clothing",
       "order": 70,
       "metadata": {}
     },
@@ -1851,11 +1782,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "protective clothing",
+      "text": "polyethylene vapor barrier",
       "order": 71,
       "metadata": {}
     },
@@ -1864,11 +1794,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "polyethylene vapor barrier",
+      "text": "paints",
       "order": 72,
       "metadata": {}
     },
@@ -1877,11 +1806,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "paints",
+      "text": "office furniture",
       "order": 73,
       "metadata": {}
     },
@@ -1890,11 +1818,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "office furniture",
+      "text": "medical gloves",
       "order": 74,
       "metadata": {}
     },
@@ -1903,11 +1830,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "medical gloves",
+      "text": "Laboratory Acceptance Program",
       "order": 75,
       "metadata": {}
     },
@@ -1916,11 +1842,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Laboratory Acceptance Program",
+      "text": "dockside Monitoring Company",
       "order": 76,
       "metadata": {}
     },
@@ -1929,11 +1854,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "dockside Monitoring Company",
+      "text": "carpets",
       "order": 77,
       "metadata": {}
     },
@@ -1942,11 +1866,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "carpets",
+      "text": "Canadian Non-Destructive Testing Personnel Certification Program",
       "order": 78,
       "metadata": {}
     },
@@ -1955,11 +1878,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Canadian Non-Destructive Testing Personnel Certification Program",
+      "text": "Canadian Air Transport Security Authority screening contractors",
       "order": 79,
       "metadata": {}
     },
@@ -1968,37 +1890,34 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Canadian Air Transport Security Authority screening contractors",
+      "text": "breather type sheathing membrane",
       "order": 80,
       "metadata": {}
     },
     {
       "block_id": "block_0081",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "breather type sheathing membrane",
+      "text": "CPL includes:",
       "order": 81,
       "metadata": {}
     },
     {
       "block_id": "block_0082",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "CPL includes:",
+      "text": "polyethylene vapor barrier",
       "order": 82,
       "metadata": {}
     },
@@ -2007,11 +1926,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "polyethylene vapor barrier",
+      "text": "surgical and patient examination rubber gloves",
       "order": 83,
       "metadata": {}
     },
@@ -2020,11 +1938,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "surgical and patient examination rubber gloves",
+      "text": "breather type sheathing membrane",
       "order": 84,
       "metadata": {}
     },
@@ -2033,11 +1950,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "breather type sheathing membrane",
+      "text": "firefighter's protective clothing, protecting against heat and flame",
       "order": 85,
       "metadata": {}
     },
@@ -2046,11 +1962,10 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "firefighter's protective clothing, protecting against heat and flame",
+      "text": "fireline workwear for forest firefighters",
       "order": 86,
       "metadata": {}
     },
@@ -2059,24 +1974,22 @@
       "block_type": "list_item",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "fireline workwear for forest firefighters",
+      "text": "Laboratory Acceptance Program",
       "order": 87,
       "metadata": {}
     },
     {
       "block_id": "block_0088",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Laboratory Acceptance Program",
+      "text": "Registered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):",
       "order": 88,
       "metadata": {}
     },
@@ -2085,11 +1998,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Registered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):",
+      "text": "Lists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.",
       "order": 89,
       "metadata": {}
     },
@@ -2098,11 +2010,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Lists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.",
+      "text": "Registered Environmental Management Systems List:",
       "order": 90,
       "metadata": {}
     },
@@ -2111,11 +2022,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Registered Environmental Management Systems List:",
+      "text": "Lists of companies compliant with ISO 14001:2015 standard for environmental management systems.",
       "order": 91,
       "metadata": {}
     },
@@ -2124,11 +2034,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Lists of companies compliant with ISO 14001:2015 standard for environmental management systems.",
+      "text": "Certified Occupational Health and Safety Standards (OHSAS) List:",
       "order": 92,
       "metadata": {}
     },
@@ -2137,11 +2046,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Certified Occupational Health and Safety Standards (OHSAS) List:",
+      "text": "Lists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.",
       "order": 93,
       "metadata": {}
     },
@@ -2150,11 +2058,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Lists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.",
+      "text": "Certified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.",
       "order": 94,
       "metadata": {}
     },
@@ -2163,11 +2070,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Certified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.",
+      "text": "Ontario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.",
       "order": 95,
       "metadata": {}
     },
@@ -2176,11 +2082,10 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
-      "text": "Ontario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.",
+      "text": "Certified Drinking Water Quality Systems (Ministry of Ontario) List:",
       "order": 96,
       "metadata": {}
     },
@@ -2189,30 +2094,16 @@
       "block_type": "paragraph",
       "heading": "Listing programs",
       "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
-        "Standards and quality assurance",
-        "Listing programs"
-      ],
-      "text": "Certified Drinking Water Quality Systems (Ministry of Ontario) List:",
-      "order": 97,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0098",
-      "block_type": "paragraph",
-      "heading": "Listing programs",
-      "heading_path": [
-        "Buyer's Guide Define the requirement - Standards and quality assurance",
         "Standards and quality assurance",
         "Listing programs"
       ],
       "text": "A registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
-      "order": 98,
+      "order": 97,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Standards and quality assurance For the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used. When determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which: Canadian views have been reflected in the standard or specification products available in Canada are likely to meet the standard or specification the standard or specification is likely to discriminate against products You must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion. Note : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service. Clients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection. The level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of: the quality standard against which verification will be conducted the requirement for the contractor to establish and maintain a quality assurance system the requirement for the offeror or contractor to demonstrate conformance what quality verification activity will be done by the government consignee inspection the requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification the requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples the requirement for the offeror or contractor to submit an inspection plan the requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials As an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client. If a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC . If a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence. This is particularly important when the requirement involves: newly designed products being produced to government-generated specifications a product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints a product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure the product or service being purchased for the first time and no history of performance is available at least one potential offeror or contractor has a weak quality system This is required to provide adequate protection for both the client and PSPC . You may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value. Government Quality Assurance at source You should use GQA at source when any of the following conditions apply: the inspection authority is different from the consignee the benefits justify the costs of conducting inspections at the source the offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources assessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination The GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region. Additionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support. Listing programs You can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND). Listing or qualification programs are normally established in situations where: testing requirements could delay delivery the costs of acceptance inspection are prohibitively high assurance of product conformance or offeror capability is needed beforehand complex testing equipment and procedures are required there are regular purchases of products in large quantities Before contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract. Reasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include: changes in product formulation that impair product quality production process adjustments that impair product quality verified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority) failure to meet verification test requirements failure to submit samples for testing, where requested failure to submit data for qualification maintenance, when requested withdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation a cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification When there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures. When utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below. QPL includes: underlay security guards remanufactured toner cartridges protective clothing polyethylene vapor barrier paints office furniture medical gloves Laboratory Acceptance Program dockside Monitoring Company carpets Canadian Non-Destructive Testing Personnel Certification Program Canadian Air Transport Security Authority screening contractors breather type sheathing membrane CPL includes: polyethylene vapor barrier surgical and patient examination rubber gloves breather type sheathing membrane firefighter's protective clothing, protecting against heat and flame fireline workwear for forest firefighters Laboratory Acceptance Program Registered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems): Lists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version. Registered Environmental Management Systems List: Lists of companies compliant with ISO 14001:2015 standard for environmental management systems. Certified Occupational Health and Safety Standards (OHSAS) List: Lists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems. Certified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development. Ontario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs. Certified Drinking Water Quality Systems (Ministry of Ontario) List: A registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.\n\nStandards and quality assurance\n\nFor the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.\n\nWhen determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:\n\nCanadian views have been reflected in the standard or specification\n\nproducts available in Canada are likely to meet the standard or specification\n\nthe standard or specification is likely to discriminate against products\n\nYou must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.\n\nNote : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.\n\nClients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.\n\nThe level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:\n\nthe quality standard against which verification will be conducted\n\nthe requirement for the contractor to establish and maintain a quality assurance system\n\nthe requirement for the offeror or contractor to demonstrate conformance\n\nwhat quality verification activity will be done by the government\n\nconsignee inspection\n\nthe requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification\n\nthe requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples\n\nthe requirement for the offeror or contractor to submit an inspection plan\n\nthe requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials\n\nis equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process\n\nis manufactured under the same conditions as the product qualified during the QPL or CPL process\n\nhas adequate details of acceptance inspection, tests and trials\n\nAs an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.\n\nIf a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .\n\nIf a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.\n\nThis is particularly important when the requirement involves:\n\nnewly designed products being produced to government-generated specifications\n\na product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints\n\na product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure\n\nthe product or service being purchased for the first time and no history of performance is available\n\nat least one potential offeror or contractor has a weak quality system\n\nThis is required to provide adequate protection for both the client and PSPC .\n\nYou may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.\n\nGovernment Quality Assurance at source\n\nYou should use GQA at source when any of the following conditions apply:\n\nthe inspection authority is different from the consignee\n\nthe benefits justify the costs of conducting inspections at the source\n\nthe offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources\n\nassessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination\n\nthe product containing critical characteristics not visible in the end item\n\nspecial safety or security characteristics\n\nrisk of damage to special packing and packaging\n\ndelivery to multiple locations\n\ninadequate conditions or capabilities at the destination\n\nThe GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.\n\nAdditionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.\n\nListing programs\n\nYou can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).\n\nListing or qualification programs are normally established in situations where:\n\ntesting requirements could delay delivery\n\nthe costs of acceptance inspection are prohibitively high\n\nassurance of product conformance or offeror capability is needed beforehand\n\ncomplex testing equipment and procedures are required\n\nthere are regular purchases of products in large quantities\n\nBefore contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.\n\nReasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:\n\nchanges in product formulation that impair product quality\n\nproduction process adjustments that impair product quality\n\nverified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)\n\nfailure to meet verification test requirements\n\nfailure to submit samples for testing, where requested\n\nfailure to submit data for qualification maintenance, when requested\n\nwithdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation\n\na cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification\n\nWhen there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.\n\nWhen utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.\n\nQPL includes:\n\nunderlay\n\nsecurity guards\n\nremanufactured toner cartridges\n\nprotective clothing\n\npolyethylene vapor barrier\n\npaints\n\noffice furniture\n\nmedical gloves\n\nLaboratory Acceptance Program\n\ndockside Monitoring Company\n\ncarpets\n\nCanadian Non-Destructive Testing Personnel Certification Program\n\nCanadian Air Transport Security Authority screening contractors\n\nbreather type sheathing membrane\n\nCPL includes:\n\npolyethylene vapor barrier\n\nsurgical and patient examination rubber gloves\n\nbreather type sheathing membrane\n\nfirefighter's protective clothing, protecting against heat and flame\n\nfireline workwear for forest firefighters\n\nLaboratory Acceptance Program\n\nRegistered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):\n\nLists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.\n\nRegistered Environmental Management Systems List:\n\nLists of companies compliant with ISO 14001:2015 standard for environmental management systems.\n\nCertified Occupational Health and Safety Standards (OHSAS) List:\n\nLists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.\n\nCertified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.\n\nOntario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.\n\nCertified Drinking Water Quality Systems (Ministry of Ontario) List:\n\nA registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
-  "markdown_text": "Standards and quality assurance For the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used. When determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which: Canadian views have been reflected in the standard or specification products available in Canada are likely to meet the standard or specification the standard or specification is likely to discriminate against products You must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion. Note : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service. Clients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection. The level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of: the quality standard against which verification will be conducted the requirement for the contractor to establish and maintain a quality assurance system the requirement for the offeror or contractor to demonstrate conformance what quality verification activity will be done by the government consignee inspection the requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification the requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples the requirement for the offeror or contractor to submit an inspection plan the requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials As an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client. If a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC . If a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence. This is particularly important when the requirement involves: newly designed products being produced to government-generated specifications a product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints a product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure the product or service being purchased for the first time and no history of performance is available at least one potential offeror or contractor has a weak quality system This is required to provide adequate protection for both the client and PSPC . You may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value. Government Quality Assurance at source You should use GQA at source when any of the following conditions apply: the inspection authority is different from the consignee the benefits justify the costs of conducting inspections at the source the offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources assessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination The GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region. Additionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support. Listing programs You can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND). Listing or qualification programs are normally established in situations where: testing requirements could delay delivery the costs of acceptance inspection are prohibitively high assurance of product conformance or offeror capability is needed beforehand complex testing equipment and procedures are required there are regular purchases of products in large quantities Before contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract. Reasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include: changes in product formulation that impair product quality production process adjustments that impair product quality verified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority) failure to meet verification test requirements failure to submit samples for testing, where requested failure to submit data for qualification maintenance, when requested withdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation a cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification When there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures. When utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below. QPL includes: underlay security guards remanufactured toner cartridges protective clothing polyethylene vapor barrier paints office furniture medical gloves Laboratory Acceptance Program dockside Monitoring Company carpets Canadian Non-Destructive Testing Personnel Certification Program Canadian Air Transport Security Authority screening contractors breather type sheathing membrane CPL includes: polyethylene vapor barrier surgical and patient examination rubber gloves breather type sheathing membrane firefighter's protective clothing, protecting against heat and flame fireline workwear for forest firefighters Laboratory Acceptance Program Registered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems): Lists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version. Registered Environmental Management Systems List: Lists of companies compliant with ISO 14001:2015 standard for environmental management systems. Certified Occupational Health and Safety Standards (OHSAS) List: Lists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems. Certified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development. Ontario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs. Certified Drinking Water Quality Systems (Ministry of Ontario) List: A registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.\n\nStandards and quality assurance\n\nFor the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.\n\nWhen determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:\n\nCanadian views have been reflected in the standard or specification\n\nproducts available in Canada are likely to meet the standard or specification\n\nthe standard or specification is likely to discriminate against products\n\nYou must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.\n\nNote : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.\n\nClients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.\n\nThe level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:\n\nthe quality standard against which verification will be conducted\n\nthe requirement for the contractor to establish and maintain a quality assurance system\n\nthe requirement for the offeror or contractor to demonstrate conformance\n\nwhat quality verification activity will be done by the government\n\nconsignee inspection\n\nthe requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification\n\nthe requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples\n\nthe requirement for the offeror or contractor to submit an inspection plan\n\nthe requirement for the inspection authority to verify that the product supplied: is equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process is manufactured under the same conditions as the product qualified during the QPL or CPL process has adequate details of acceptance inspection, tests and trials\n\nis equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process\n\nis manufactured under the same conditions as the product qualified during the QPL or CPL process\n\nhas adequate details of acceptance inspection, tests and trials\n\nAs an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.\n\nIf a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .\n\nIf a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.\n\nThis is particularly important when the requirement involves:\n\nnewly designed products being produced to government-generated specifications\n\na product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints\n\na product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure\n\nthe product or service being purchased for the first time and no history of performance is available\n\nat least one potential offeror or contractor has a weak quality system\n\nThis is required to provide adequate protection for both the client and PSPC .\n\nYou may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.\n\nGovernment Quality Assurance at source\n\nYou should use GQA at source when any of the following conditions apply:\n\nthe inspection authority is different from the consignee\n\nthe benefits justify the costs of conducting inspections at the source\n\nthe offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources\n\nassessing conformance upon receipt isn't feasible due to: the product containing critical characteristics not visible in the end item special safety or security characteristics risk of damage to special packing and packaging delivery to multiple locations inadequate conditions or capabilities at the destination\n\nthe product containing critical characteristics not visible in the end item\n\nspecial safety or security characteristics\n\nrisk of damage to special packing and packaging\n\ndelivery to multiple locations\n\ninadequate conditions or capabilities at the destination\n\nThe GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.\n\nAdditionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.\n\nListing programs\n\nYou can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).\n\nListing or qualification programs are normally established in situations where:\n\ntesting requirements could delay delivery\n\nthe costs of acceptance inspection are prohibitively high\n\nassurance of product conformance or offeror capability is needed beforehand\n\ncomplex testing equipment and procedures are required\n\nthere are regular purchases of products in large quantities\n\nBefore contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.\n\nReasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:\n\nchanges in product formulation that impair product quality\n\nproduction process adjustments that impair product quality\n\nverified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)\n\nfailure to meet verification test requirements\n\nfailure to submit samples for testing, where requested\n\nfailure to submit data for qualification maintenance, when requested\n\nwithdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation\n\na cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification\n\nWhen there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.\n\nWhen utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.\n\nQPL includes:\n\nunderlay\n\nsecurity guards\n\nremanufactured toner cartridges\n\nprotective clothing\n\npolyethylene vapor barrier\n\npaints\n\noffice furniture\n\nmedical gloves\n\nLaboratory Acceptance Program\n\ndockside Monitoring Company\n\ncarpets\n\nCanadian Non-Destructive Testing Personnel Certification Program\n\nCanadian Air Transport Security Authority screening contractors\n\nbreather type sheathing membrane\n\nCPL includes:\n\npolyethylene vapor barrier\n\nsurgical and patient examination rubber gloves\n\nbreather type sheathing membrane\n\nfirefighter's protective clothing, protecting against heat and flame\n\nfireline workwear for forest firefighters\n\nLaboratory Acceptance Program\n\nRegistered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):\n\nLists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.\n\nRegistered Environmental Management Systems List:\n\nLists of companies compliant with ISO 14001:2015 standard for environmental management systems.\n\nCertified Occupational Health and Safety Standards (OHSAS) List:\n\nLists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.\n\nCertified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.\n\nOntario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.\n\nCertified Drinking Water Quality Systems (Ministry of Ontario) List:\n\nA registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
+  "raw_text": "Standards and quality assurance\n\nFor the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.\n\nWhen determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:\n\nCanadian views have been reflected in the standard or specification\n\nproducts available in Canada are likely to meet the standard or specification\n\nthe standard or specification is likely to discriminate against products\n\nYou must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.\n\nNote : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.\n\nClients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.\n\nThe level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:\n\nthe quality standard against which verification will be conducted\n\nthe requirement for the contractor to establish and maintain a quality assurance system\n\nthe requirement for the offeror or contractor to demonstrate conformance\n\nwhat quality verification activity will be done by the government\n\nconsignee inspection\n\nthe requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification\n\nthe requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples\n\nthe requirement for the offeror or contractor to submit an inspection plan\n\nthe requirement for the inspection authority to verify that the product supplied:\n\nis equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process\n\nis manufactured under the same conditions as the product qualified during the QPL or CPL process\n\nhas adequate details of acceptance inspection, tests and trials\n\nAs an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.\n\nIf a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .\n\nIf a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.\n\nThis is particularly important when the requirement involves:\n\nnewly designed products being produced to government-generated specifications\n\na product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints\n\na product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure\n\nthe product or service being purchased for the first time and no history of performance is available\n\nat least one potential offeror or contractor has a weak quality system\n\nThis is required to provide adequate protection for both the client and PSPC .\n\nYou may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.\n\nGovernment Quality Assurance at source\n\nYou should use GQA at source when any of the following conditions apply:\n\nthe inspection authority is different from the consignee\n\nthe benefits justify the costs of conducting inspections at the source\n\nthe offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources\n\nassessing conformance upon receipt isn't feasible due to:\n\nthe product containing critical characteristics not visible in the end item\n\nspecial safety or security characteristics\n\nrisk of damage to special packing and packaging\n\ndelivery to multiple locations\n\ninadequate conditions or capabilities at the destination\n\nThe GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.\n\nAdditionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.\n\nListing programs\n\nYou can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).\n\nListing or qualification programs are normally established in situations where:\n\ntesting requirements could delay delivery\n\nthe costs of acceptance inspection are prohibitively high\n\nassurance of product conformance or offeror capability is needed beforehand\n\ncomplex testing equipment and procedures are required\n\nthere are regular purchases of products in large quantities\n\nBefore contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.\n\nReasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:\n\nchanges in product formulation that impair product quality\n\nproduction process adjustments that impair product quality\n\nverified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)\n\nfailure to meet verification test requirements\n\nfailure to submit samples for testing, where requested\n\nfailure to submit data for qualification maintenance, when requested\n\nwithdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation\n\na cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification\n\nWhen there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.\n\nWhen utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.\n\nQPL includes:\n\nunderlay\n\nsecurity guards\n\nremanufactured toner cartridges\n\nprotective clothing\n\npolyethylene vapor barrier\n\npaints\n\noffice furniture\n\nmedical gloves\n\nLaboratory Acceptance Program\n\ndockside Monitoring Company\n\ncarpets\n\nCanadian Non-Destructive Testing Personnel Certification Program\n\nCanadian Air Transport Security Authority screening contractors\n\nbreather type sheathing membrane\n\nCPL includes:\n\npolyethylene vapor barrier\n\nsurgical and patient examination rubber gloves\n\nbreather type sheathing membrane\n\nfirefighter's protective clothing, protecting against heat and flame\n\nfireline workwear for forest firefighters\n\nLaboratory Acceptance Program\n\nRegistered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):\n\nLists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.\n\nRegistered Environmental Management Systems List:\n\nLists of companies compliant with ISO 14001:2015 standard for environmental management systems.\n\nCertified Occupational Health and Safety Standards (OHSAS) List:\n\nLists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.\n\nCertified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.\n\nOntario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.\n\nCertified Drinking Water Quality Systems (Ministry of Ontario) List:\n\nA registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
+  "markdown_text": "Standards and quality assurance\n\nFor the procurement of goods and services, recognized Canadian standards or specifications must be used. Unless the volume or specific nature of the purchase justifies an exception. If no Canadian standards are available, you must use wherever possible, Canadian specifications from a recognized standards-writing organization. In cases where neither is available, suitable US or international standards or specifications may be used.\n\nWhen determining the suitability of US or international standards or specifications you should consult with the client, and may call on the assistance of the Canadian General Standards Board (CGSB). Your determination to use such standards should also reflect the extent to which:\n\nCanadian views have been reflected in the standard or specification\n\nproducts available in Canada are likely to meet the standard or specification\n\nthe standard or specification is likely to discriminate against products\n\nYou must assess the adequacy and applicability of any standards, specifications, including client-developed specifications, or purchase descriptions included by a client in the requisition. When a requisition does not include an existing standard, specification or purchase description, that you consider appropriate, recommend that the requisition be amended for its inclusion.\n\nNote : You must also identify the need for a new standard, specification or purchase description when a suitable one does not exist for a specific product or service.\n\nClients are responsible for clearly stating their Government Quality Assurance (GQA) requirements, including quality assurance and quality control on their requisition or attached documentation. The client statement should clearly and completely describe the technical requirements and the requirement for GQA , and must designate the inspection authority and the point of inspection.\n\nThe level of GQA needed will depend on the technical requirements of the contract and the performance history of the offeror. The GQA requirement may be specified in terms of:\n\nthe quality standard against which verification will be conducted\n\nthe requirement for the contractor to establish and maintain a quality assurance system\n\nthe requirement for the offeror or contractor to demonstrate conformance\n\nwhat quality verification activity will be done by the government\n\nconsignee inspection\n\nthe requirement for the offeror or contractor to provide proof of compliance in accordance with an acceptable quality assurance standard or specification\n\nthe requirement for the offeror or contractor to submit samples for approval, such as pre-award samples, first-off units, pre-production, qualification or sealed samples\n\nthe requirement for the offeror or contractor to submit an inspection plan\n\nthe requirement for the inspection authority to verify that the product supplied:\n\nis equal in all respects to the product qualified during the Quality Products List or Qualification Program List (QPL) or Certification Program List (CPL) process\n\nis manufactured under the same conditions as the product qualified during the QPL or CPL process\n\nhas adequate details of acceptance inspection, tests and trials\n\nAs an alternative, the offeror or contractor may be required to be listed in an acceptable, recognized qualifying program, such as International Organization for Standardization (ISO) 9001-2015, ISO 9001-2015 plus AQAP-2110, or equivalent, that provides for adequate audit and controls. When using this option it is essential to conduct offeror or contractor surveillance to ensure compliance with the specified standards. You must inform clients of the availability of CGSB or other listing programs that, if used for procurement, would reduce the need for GQA . For example, CGSB’s Certification and Qualification Programs and the Qualified Products Lists are operated on a cost recovery basis with no direct expense or use of the resources to the client.\n\nIf a requisition does not include a GQA requirement or the level of GQA is deemed insufficient, you must work with the client to develop an appropriate GQA framework. This includes advising clients on the financial and operational implications of appropriate GQA , for the client, the offeror or contractor and PSPC .\n\nIf a requisition does not specify an offeror or contractor quality system, it may be necessary for you to recommend that the client includes requirements and non-conformance could have significant implications for product safety, reliability, or operational consequence.\n\nThis is particularly important when the requirement involves:\n\nnewly designed products being produced to government-generated specifications\n\na product or service where current offerors have a history of not-conforming to specifications or previous similar requirements have resulted in chronic client complaints\n\na product of high technical complexity; a product has a stringent interchangeability requirement; or a critical product where non-conformance could result in system failure\n\nthe product or service being purchased for the first time and no history of performance is available\n\nat least one potential offeror or contractor has a weak quality system\n\nThis is required to provide adequate protection for both the client and PSPC .\n\nYou may also consider an offeror or contractor quality system if a requirement has a significant dollar value. However, issues relating to the nature of the requirement are usually more important than the dollar value.\n\nGovernment Quality Assurance at source\n\nYou should use GQA at source when any of the following conditions apply:\n\nthe inspection authority is different from the consignee\n\nthe benefits justify the costs of conducting inspections at the source\n\nthe offeror or contractor has a history of subpar performance or quality and conditions preclude procurement from other sources\n\nassessing conformance upon receipt isn't feasible due to:\n\nthe product containing critical characteristics not visible in the end item\n\nspecial safety or security characteristics\n\nrisk of damage to special packing and packaging\n\ndelivery to multiple locations\n\ninadequate conditions or capabilities at the destination\n\nThe GQA at source may be performed by an inspection authority specified by the client or by an inspection authority commissioned by PSPC on the client's behalf. As part of the inspection, contractor performance data respecting quality must be documented and copies of all inspection reports provided to the sector or region.\n\nAdditionally, PSPC holds the authority to provide additional quality tasking for civilian marine services, such as conducting inspections and arranging for technical support.\n\nListing programs\n\nYou can expedite procurement by using listing programs. This establishes a list of pre-identified products or services that comply with recognized performance standards or specifications. These lists are developed and maintained by the CGSB and the Department of National Defence (DND).\n\nListing or qualification programs are normally established in situations where:\n\ntesting requirements could delay delivery\n\nthe costs of acceptance inspection are prohibitively high\n\nassurance of product conformance or offeror capability is needed beforehand\n\ncomplex testing equipment and procedures are required\n\nthere are regular purchases of products in large quantities\n\nBefore contracting, you should verify which product or service offered has been approved with the standards (listing) organization. This signifies compliance with recognized standards or specifications, however, it does not relieve the contractor from meeting all specified contract requirements or guarantee acceptance under a contract.\n\nReasons that the responsible qualifying authority may discontinue the qualification and remove a product or service from an existing list include:\n\nchanges in product formulation that impair product quality\n\nproduction process adjustments that impair product quality\n\nverified, authenticated field failures, which is attributable to non-conformance of the product to the relevant standard or specification (in contrast with perceived field failures which should be reported by users to the qualifying authority)\n\nfailure to meet verification test requirements\n\nfailure to submit samples for testing, where requested\n\nfailure to submit data for qualification maintenance, when requested\n\nwithdrawal for cause, such as the contractor has ceased operation, changed location or has consistently failed to respond to requests for quotation\n\na cancelled listing resulting from a cancelled governing standard, or a cancelled or superseded specification\n\nWhen there are indications of non-conformance, and if PSPC and the client determine that a qualified offeror or contractor does not conform to the applicable standard, you must notify the qualifying authority. Offerors or contractors have the right to appeal against the removal as per the established appeal procedures.\n\nWhen utilizing a listing program for procurement, you must state in the notice of proposed procurement (NPP), solicitation of offers, and contract documents that the offeror or contractor and its product must be listed in the appropriate listing as detailed below.\n\nQPL includes:\n\nunderlay\n\nsecurity guards\n\nremanufactured toner cartridges\n\nprotective clothing\n\npolyethylene vapor barrier\n\npaints\n\noffice furniture\n\nmedical gloves\n\nLaboratory Acceptance Program\n\ndockside Monitoring Company\n\ncarpets\n\nCanadian Non-Destructive Testing Personnel Certification Program\n\nCanadian Air Transport Security Authority screening contractors\n\nbreather type sheathing membrane\n\nCPL includes:\n\npolyethylene vapor barrier\n\nsurgical and patient examination rubber gloves\n\nbreather type sheathing membrane\n\nfirefighter's protective clothing, protecting against heat and flame\n\nfireline workwear for forest firefighters\n\nLaboratory Acceptance Program\n\nRegistered Quality Systems List ISO 9001 (ISO 9000 Quality Management Systems):\n\nLists of companies compliant with ISO 9001:2015 models for quality systems, marking the transition from ISO 9001:2008 to the current version.\n\nRegistered Environmental Management Systems List:\n\nLists of companies compliant with ISO 14001:2015 standard for environmental management systems.\n\nCertified Occupational Health and Safety Standards (OHSAS) List:\n\nLists of companies compliant with OHSAS 18001:1999 specification for health and safety management systems.\n\nCertified Food Safety Management Systems List: Alberta and Ontario Hazard Analysis and Critical Control Point (HACCP) Advantage List (AHA!) Certification Program: the formalized process whereby a food safety management system is assessed against the AHA! standard of the Alberta Ministry of Agriculture and Rural Development.\n\nOntario HACCP Advantage Certification Program: the formalized process whereby a food safety management system is assessed against the Advantage HACCP standard of the Ontario Ministry of Agriculture, Food and Rural Affairs.\n\nCertified Drinking Water Quality Systems (Ministry of Ontario) List:\n\nA registration program designed to recognize operating authorities managing municipal residential drinking water systems that meet the Ontario Drinking Water Quality Standard through accreditation by an independent third party.",
   "provenance_paths": {}
 }

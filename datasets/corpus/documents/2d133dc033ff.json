@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:38.904709Z",
-  "content_hash": "7c16ad137d3498465b61eed6451fe03199c212c81cd9aa56ed36c267a56e4f29",
-  "word_count": 348,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "73c3b244300d029e18323dda036dae8342579809cc5c9e0ca23fdeee4fc715c8",
+  "word_count": 174,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,36 +617,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
+      "block_type": "heading",
+      "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers"
+        "Client review of elements of a solicitation of offers"
       ],
-      "text": "Client review of elements of a solicitation of offers For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following: the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations. You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process. You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
+      "text": "Client review of elements of a solicitation of offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "Client review of elements of a solicitation of offers",
+      "text": "For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:",
+      "text": "the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "list_item",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements",
+      "text": "they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers",
       "order": 3,
       "metadata": {}
     },
@@ -667,22 +664,20 @@
       "block_type": "list_item",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers",
+      "text": "they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money",
+      "text": "Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.",
       "order": 5,
       "metadata": {}
     },
@@ -691,10 +686,9 @@
       "block_type": "paragraph",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
-      "text": "Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.",
+      "text": "You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.",
       "order": 6,
       "metadata": {}
     },
@@ -703,28 +697,15 @@
       "block_type": "paragraph",
       "heading": "Client review of elements of a solicitation of offers",
       "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
-        "Client review of elements of a solicitation of offers"
-      ],
-      "text": "You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Client review of elements of a solicitation of offers",
-      "heading_path": [
-        "Buyer's Guide Client review - Client review of elements of a solicitation of offers",
         "Client review of elements of a solicitation of offers"
       ],
       "text": "You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Client review of elements of a solicitation of offers For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following: the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations. You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process. You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.\n\nClient review of elements of a solicitation of offers\n\nFor sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:\n\nthe statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements\n\nthey concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers\n\nthey agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money\n\nNote: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.\n\nYou should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.\n\nYou must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
-  "markdown_text": "Client review of elements of a solicitation of offers For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following: the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations. You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process. You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.\n\nClient review of elements of a solicitation of offers\n\nFor sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:\n\nthe statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements\n\nthey concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers\n\nthey agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money\n\nNote: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.\n\nYou should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.\n\nYou must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
+  "raw_text": "Client review of elements of a solicitation of offers\n\nFor sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:\n\nthe statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements\n\nthey concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers\n\nthey agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money\n\nNote: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.\n\nYou should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.\n\nYou must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
+  "markdown_text": "Client review of elements of a solicitation of offers\n\nFor sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:\n\nthe statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements\n\nthey concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers\n\nthey agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money\n\nNote: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.\n\nYou should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.\n\nYou must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:31.941424Z",
-  "content_hash": "09e21fe0b6f21e109214f577a56489377247f77d141a4bf80fb882ae94f7d630",
-  "word_count": 562,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e8c43ef977a67ef584214f524b66038ff2b61e14a84c901b46fee575ce3b77a2",
+  "word_count": 281,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,49 +618,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Choose a solicitation method - Request for information",
+      "block_type": "heading",
+      "heading": "Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information"
+        "Request for information or Letter of interest"
       ],
-      "text": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured. Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables. Engage businesses early in the process to: review and comment on the adequacy and clarify of the requirements offer alternative solutions that may meet the needs share insights on the procurement strategy, preliminary basis of payment elements and project timelines comment on the draft solicitation when included with the RFI and LOI Use feedback to help clients: make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest explore alternative solutions concepts that align with their needs Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
+      "text": "Request for information or Letter of interest",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest"
       ],
-      "text": "Request for information or Letter of interest",
+      "text": "A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Request for information or Letter of interest",
+      "block_type": "heading",
+      "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
-        "Request for information or Letter of interest"
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.",
+      "text": "Objectives of a Request for information or Letter of interest",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "Objectives of a Request for information or Letter of interest",
+      "text": "Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.",
       "order": 3,
       "metadata": {}
     },
@@ -669,24 +667,22 @@
       "block_type": "paragraph",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.",
+      "text": "Engage businesses early in the process to:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "Engage businesses early in the process to:",
+      "text": "review and comment on the adequacy and clarify of the requirements",
       "order": 5,
       "metadata": {}
     },
@@ -695,11 +691,10 @@
       "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "review and comment on the adequacy and clarify of the requirements",
+      "text": "offer alternative solutions that may meet the needs",
       "order": 6,
       "metadata": {}
     },
@@ -708,11 +703,10 @@
       "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "offer alternative solutions that may meet the needs",
+      "text": "share insights on the procurement strategy, preliminary basis of payment elements and project timelines",
       "order": 7,
       "metadata": {}
     },
@@ -721,37 +715,34 @@
       "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "share insights on the procurement strategy, preliminary basis of payment elements and project timelines",
+      "text": "comment on the draft solicitation when included with the RFI and LOI",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "comment on the draft solicitation when included with the RFI and LOI",
+      "text": "Use feedback to help clients:",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "Use feedback to help clients:",
+      "text": "make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines",
       "order": 10,
       "metadata": {}
     },
@@ -760,11 +751,10 @@
       "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines",
+      "text": "become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest",
       "order": 11,
       "metadata": {}
     },
@@ -773,56 +763,40 @@
       "block_type": "list_item",
       "heading": "Objectives of a Request for information or Letter of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Objectives of a Request for information or Letter of interest"
       ],
-      "text": "become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest",
+      "text": "explore alternative solutions concepts that align with their needs",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "list_item",
-      "heading": "Objectives of a Request for information or Letter of interest",
+      "block_type": "heading",
+      "heading": "Request for information or Letter of interest process",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
-        "Objectives of a Request for information or Letter of interest"
+        "Request for information or Letter of interest process"
       ],
-      "text": "explore alternative solutions concepts that align with their needs",
+      "text": "Request for information or Letter of interest process",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "heading",
-      "heading": "Request for information or Letter of interest process",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
-        "Request for information or Letter of interest",
-        "Request for information or Letter of interest process"
-      ],
-      "text": "Request for information or Letter of interest process",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
       "block_type": "paragraph",
       "heading": "Request for information or Letter of interest process",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for information",
         "Request for information or Letter of interest",
         "Request for information or Letter of interest process"
       ],
       "text": "RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured. Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables. Engage businesses early in the process to: review and comment on the adequacy and clarify of the requirements offer alternative solutions that may meet the needs share insights on the procurement strategy, preliminary basis of payment elements and project timelines comment on the draft solicitation when included with the RFI and LOI Use feedback to help clients: make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest explore alternative solutions concepts that align with their needs Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.\n\nRequest for information or Letter of interest\n\nA Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.\n\nObjectives of a Request for information or Letter of interest\n\nThrough an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.\n\nEngage businesses early in the process to:\n\nreview and comment on the adequacy and clarify of the requirements\n\noffer alternative solutions that may meet the needs\n\nshare insights on the procurement strategy, preliminary basis of payment elements and project timelines\n\ncomment on the draft solicitation when included with the RFI and LOI\n\nUse feedback to help clients:\n\nmake informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines\n\nbecome a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest\n\nexplore alternative solutions concepts that align with their needs\n\nRequest for information or Letter of interest process\n\nRFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
-  "markdown_text": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured. Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables. Engage businesses early in the process to: review and comment on the adequacy and clarify of the requirements offer alternative solutions that may meet the needs share insights on the procurement strategy, preliminary basis of payment elements and project timelines comment on the draft solicitation when included with the RFI and LOI Use feedback to help clients: make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest explore alternative solutions concepts that align with their needs Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.\n\nRequest for information or Letter of interest\n\nA Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.\n\nObjectives of a Request for information or Letter of interest\n\nThrough an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.\n\nEngage businesses early in the process to:\n\nreview and comment on the adequacy and clarify of the requirements\n\noffer alternative solutions that may meet the needs\n\nshare insights on the procurement strategy, preliminary basis of payment elements and project timelines\n\ncomment on the draft solicitation when included with the RFI and LOI\n\nUse feedback to help clients:\n\nmake informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines\n\nbecome a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest\n\nexplore alternative solutions concepts that align with their needs\n\nRequest for information or Letter of interest process\n\nRFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
+  "raw_text": "Request for information or Letter of interest\n\nA Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.\n\nObjectives of a Request for information or Letter of interest\n\nThrough an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.\n\nEngage businesses early in the process to:\n\nreview and comment on the adequacy and clarify of the requirements\n\noffer alternative solutions that may meet the needs\n\nshare insights on the procurement strategy, preliminary basis of payment elements and project timelines\n\ncomment on the draft solicitation when included with the RFI and LOI\n\nUse feedback to help clients:\n\nmake informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines\n\nbecome a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest\n\nexplore alternative solutions concepts that align with their needs\n\nRequest for information or Letter of interest process\n\nRFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
+  "markdown_text": "Request for information or Letter of interest\n\nA Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.\n\nObjectives of a Request for information or Letter of interest\n\nThrough an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.\n\nEngage businesses early in the process to:\n\nreview and comment on the adequacy and clarify of the requirements\n\noffer alternative solutions that may meet the needs\n\nshare insights on the procurement strategy, preliminary basis of payment elements and project timelines\n\ncomment on the draft solicitation when included with the RFI and LOI\n\nUse feedback to help clients:\n\nmake informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines\n\nbecome a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest\n\nexplore alternative solutions concepts that align with their needs\n\nRequest for information or Letter of interest process\n\nRFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
   "provenance_paths": {}
 }

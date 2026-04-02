@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:51.352391Z",
-  "content_hash": "871cf89b12c26c7b9af067033bad0b4deb435a12af4631a55113f81a350b21f9",
-  "word_count": 313,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "fcdb0bbce84a09922deed4f4dc92210942ae0bc692a9a6de8b61241898abd4dd",
+  "word_count": 177,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,60 +618,56 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
+      "block_type": "heading",
+      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements"
+        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements Table example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used. Further guidance can be found in Request for supply arrangement . For more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
+      "text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "table_row",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
+      "text": "Table example with colour | Columns: Applicable trade agreements | Minimum solicitation period for ITQs and RFSAs | Minimum solicitation period for urgent procurements",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Table example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.",
+      "text": "Applicable trade agreements: None | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Applicable trade agreements",
+      "text": "Applicable trade agreements: Canadian Free Trade Agreement only | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Minimum solicitation period for ITQs and RFSAs",
+      "text": "Applicable trade agreements: One or more international trade agreements | Minimum solicitation period for ITQs and RFSAs: 25 calendar days | Minimum solicitation period for urgent procurements: 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.",
       "order": 4,
       "metadata": {}
     },
@@ -680,10 +676,9 @@
       "block_type": "paragraph",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
-      "text": "Minimum solicitation period for urgent procurements",
+      "text": "Further guidance can be found in Request for supply arrangement .",
       "order": 5,
       "metadata": {}
     },
@@ -692,148 +687,15 @@
       "block_type": "paragraph",
       "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "None",
-      "order": 6,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "No minimum period",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "Less than 15 calendar days",
-      "order": 8,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "Canadian Free Trade Agreement only",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "No minimum period",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "Less than 15 calendar days",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "One or more international trade agreements",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "25 calendar days",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "Less than 10 calendar days if limited tendering is used.",
-      "order": 15,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
-        "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
-      ],
-      "text": "Further guidance can be found in Request for supply arrangement .",
-      "order": 16,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0017",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation period for ITQs , RFSAs and urgent procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Minimum solicitation periods for ITQs, RFSAs and urgent procurements",
         "Minimum solicitation period for ITQs , RFSAs and urgent procurements"
       ],
       "text": "For more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
-      "order": 17,
+      "order": 6,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements Table example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used. Further guidance can be found in Request for supply arrangement . For more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .\n\nMinimum solicitation period for ITQs , RFSAs and urgent procurements\n\nTable example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.\n\nApplicable trade agreements\n\nMinimum solicitation period for ITQs and RFSAs\n\nMinimum solicitation period for urgent procurements\n\nNone\n\nNo minimum period\n\nLess than 15 calendar days\n\nCanadian Free Trade Agreement only\n\nNo minimum period\n\nLess than 15 calendar days\n\nOne or more international trade agreements\n\n25 calendar days\n\n10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable.\n\nLess than 10 calendar days if limited tendering is used.\n\nFurther guidance can be found in Request for supply arrangement .\n\nFor more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
-  "markdown_text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements Table example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used. Further guidance can be found in Request for supply arrangement . For more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .\n\nMinimum solicitation period for ITQs , RFSAs and urgent procurements\n\nTable example with colour Applicable trade agreements Minimum solicitation period for ITQs and RFSAs Minimum solicitation period for urgent procurements None No minimum period Less than 15 calendar days Canadian Free Trade Agreement only No minimum period Less than 15 calendar days One or more international trade agreements 25 calendar days 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.\n\nApplicable trade agreements\n\nMinimum solicitation period for ITQs and RFSAs\n\nMinimum solicitation period for urgent procurements\n\nNone\n\nNo minimum period\n\nLess than 15 calendar days\n\nCanadian Free Trade Agreement only\n\nNo minimum period\n\nLess than 15 calendar days\n\nOne or more international trade agreements\n\n25 calendar days\n\n10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable.\n\nLess than 10 calendar days if limited tendering is used.\n\nFurther guidance can be found in Request for supply arrangement .\n\nFor more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
+  "raw_text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements\n\nTable example with colour | Columns: Applicable trade agreements | Minimum solicitation period for ITQs and RFSAs | Minimum solicitation period for urgent procurements\n\nApplicable trade agreements: None | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days\n\nApplicable trade agreements: Canadian Free Trade Agreement only | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days\n\nApplicable trade agreements: One or more international trade agreements | Minimum solicitation period for ITQs and RFSAs: 25 calendar days | Minimum solicitation period for urgent procurements: 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.\n\nFurther guidance can be found in Request for supply arrangement .\n\nFor more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
+  "markdown_text": "Minimum solicitation period for ITQs , RFSAs and urgent procurements\n\nTable example with colour | Columns: Applicable trade agreements | Minimum solicitation period for ITQs and RFSAs | Minimum solicitation period for urgent procurements\n\nApplicable trade agreements: None | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days\n\nApplicable trade agreements: Canadian Free Trade Agreement only | Minimum solicitation period for ITQs and RFSAs: No minimum period | Minimum solicitation period for urgent procurements: Less than 15 calendar days\n\nApplicable trade agreements: One or more international trade agreements | Minimum solicitation period for ITQs and RFSAs: 25 calendar days | Minimum solicitation period for urgent procurements: 10 calendar days when an urgent procurement is substantiated and the urgency renders the normal solicitation period impracticable. Less than 10 calendar days if limited tendering is used.\n\nFurther guidance can be found in Request for supply arrangement .\n\nFor more information on trade agreement obligations for lists of prequalified suppliers, refer to Determine the sourcing strategy .",
   "provenance_paths": {}
 }

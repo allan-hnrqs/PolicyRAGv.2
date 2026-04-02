@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:38.623017Z",
   "content_hash": "fef6a5d589cc847158c8778655ce9e00ef8c43def150277d70f18564cec5ea62",
   "word_count": 171,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Revisions to standing offers",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers"
       ],
       "text": "Revisions to standing offers",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Revisions to standing offers",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers"
       ],
       "text": "Standing offers are not contracts and so cannot be amended or assigned. Amendments to the terms or the duration are managed through a process of revisions. The key points regarding revisions are detailed below.",
@@ -796,7 +794,6 @@
       "block_type": "heading",
       "heading": "Withdrawal notification",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Withdrawal notification"
       ],
@@ -809,7 +806,6 @@
       "block_type": "paragraph",
       "heading": "Withdrawal notification",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Withdrawal notification"
       ],
@@ -822,7 +818,6 @@
       "block_type": "heading",
       "heading": "Revision issuance",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Revision issuance"
       ],
@@ -835,7 +830,6 @@
       "block_type": "paragraph",
       "heading": "Revision issuance",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Revision issuance"
       ],
@@ -848,7 +842,6 @@
       "block_type": "heading",
       "heading": "Offeror revisions",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Offeror revisions"
       ],
@@ -861,7 +854,6 @@
       "block_type": "paragraph",
       "heading": "Offeror revisions",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Revisions to standing offers",
         "Revisions to standing offers",
         "Offeror revisions"
       ],

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:30.783513Z",
-  "content_hash": "5e1849b53136811c09e0b6358583bb58d5bd45d3d32ea0fe7c70ed2e790a4539",
-  "word_count": 46,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b9eb3d7fa340fbbc027fbf2ba02421e80752198a26836407edd97108037b2c72",
+  "word_count": 23,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -539,42 +539,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation",
+      "block_type": "heading",
+      "heading": "Offer evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation"
+        "Offer evaluation"
       ],
-      "text": "Offer evaluation This section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
+      "text": "Offer evaluation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Offer evaluation",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation",
-        "Offer evaluation"
-      ],
-      "text": "Offer evaluation",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Offer evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation",
         "Offer evaluation"
       ],
       "text": "This section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Offer evaluation This section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.\n\nOffer evaluation\n\nThis section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
-  "markdown_text": "Offer evaluation This section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.\n\nOffer evaluation\n\nThis section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
+  "raw_text": "Offer evaluation\n\nThis section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
+  "markdown_text": "Offer evaluation\n\nThis section provides information on the process to complete the evaluation of offers according to the procedures outlined in the solicitation.",
   "provenance_paths": {}
 }

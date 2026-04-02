@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:28.687906Z",
-  "content_hash": "427cd3be4194e9622ff02e507e5a0b4f1c9d3726dd14d0d32a0d6136849e7c29",
-  "word_count": 246,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "76b63739dd2de17d59022a37ee8054483ced42f2eeb15d7c0dd4bd900c76fc87",
+  "word_count": 123,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,36 +529,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Consider a peer review - Determine if a peer review is required",
+      "block_type": "heading",
+      "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required"
+        "Determine if a peer review is required"
       ],
-      "text": "Determine if a peer review is required The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list: for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment for complexity level 4 and 5 procurements, a peer review is mandatory informal peer reviews may also take place at your discretion or the applicable approval authority The decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
+      "text": "Determine if a peer review is required",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
         "Determine if a peer review is required"
       ],
-      "text": "Determine if a peer review is required",
+      "text": "The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
         "Determine if a peer review is required"
       ],
-      "text": "The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:",
+      "text": "for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment",
       "order": 2,
       "metadata": {}
     },
@@ -567,10 +565,9 @@
       "block_type": "list_item",
       "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
         "Determine if a peer review is required"
       ],
-      "text": "for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment",
+      "text": "for complexity level 4 and 5 procurements, a peer review is mandatory",
       "order": 3,
       "metadata": {}
     },
@@ -579,40 +576,26 @@
       "block_type": "list_item",
       "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
         "Determine if a peer review is required"
       ],
-      "text": "for complexity level 4 and 5 procurements, a peer review is mandatory",
+      "text": "informal peer reviews may also take place at your discretion or the applicable approval authority",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
-      "heading": "Determine if a peer review is required",
-      "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
-        "Determine if a peer review is required"
-      ],
-      "text": "informal peer reviews may also take place at your discretion or the applicable approval authority",
-      "order": 5,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0006",
       "block_type": "paragraph",
       "heading": "Determine if a peer review is required",
       "heading_path": [
-        "Buyer's Guide Consider a peer review - Determine if a peer review is required",
         "Determine if a peer review is required"
       ],
       "text": "The decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
-      "order": 6,
+      "order": 5,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Determine if a peer review is required The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list: for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment for complexity level 4 and 5 procurements, a peer review is mandatory informal peer reviews may also take place at your discretion or the applicable approval authority The decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.\n\nDetermine if a peer review is required\n\nThe specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:\n\nfor complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment\n\nfor complexity level 4 and 5 procurements, a peer review is mandatory\n\ninformal peer reviews may also take place at your discretion or the applicable approval authority\n\nThe decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
-  "markdown_text": "Determine if a peer review is required The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list: for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment for complexity level 4 and 5 procurements, a peer review is mandatory informal peer reviews may also take place at your discretion or the applicable approval authority The decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.\n\nDetermine if a peer review is required\n\nThe specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:\n\nfor complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment\n\nfor complexity level 4 and 5 procurements, a peer review is mandatory\n\ninformal peer reviews may also take place at your discretion or the applicable approval authority\n\nThe decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
+  "raw_text": "Determine if a peer review is required\n\nThe specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:\n\nfor complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment\n\nfor complexity level 4 and 5 procurements, a peer review is mandatory\n\ninformal peer reviews may also take place at your discretion or the applicable approval authority\n\nThe decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
+  "markdown_text": "Determine if a peer review is required\n\nThe specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:\n\nfor complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment\n\nfor complexity level 4 and 5 procurements, a peer review is mandatory\n\ninformal peer reviews may also take place at your discretion or the applicable approval authority\n\nThe decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.",
   "provenance_paths": {}
 }

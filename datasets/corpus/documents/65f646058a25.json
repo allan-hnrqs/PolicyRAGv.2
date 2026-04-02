@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:03.060527Z",
-  "content_hash": "ad5dd11975cfaad156a4012951ea6aaf204adc4612e246c3be84c90b36066709",
-  "word_count": 988,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "4cd9ff3a3b78e9598abee9a9838e511371688bfb2340f246eab24d2c916bf116",
+  "word_count": 494,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,62 +617,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+      "block_type": "heading",
+      "heading": "Characteristics of procurement complexity levels",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels"
+        "Characteristics of procurement complexity levels"
       ],
-      "text": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise. Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); a common service that is readily available in the marketplace, which may include supplier customized options; procurement methodologies that are tried and proven using existing conventions; departmental standard procurement templates or legally approved templates; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; a requirement which uses existing technology/processes to achieve an innovative solution; services with subjective results (for example, consultations and recommendations); departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; industrial regional benefits (IRBs) or value propositions; vendor pre-qualification (includes establishment of supply arrangements); advance payments Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; an untested procurement strategy Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; contract administration is detailed and extensive and its success is unpredictable; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5. Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; shared decision-making; contract administration that is detailed, extensive and highly unpredictable; ultimate success is determined by the public at large",
+      "text": "Characteristics of procurement complexity levels",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Characteristics of procurement complexity levels",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels"
       ],
-      "text": "Characteristics of procurement complexity levels",
+      "text": "There are five complexity levels, each requiring a different approach and level of expertise.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Characteristics of procurement complexity levels",
+      "block_type": "heading",
+      "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
-        "Characteristics of procurement complexity levels"
+        "Characteristics of procurement complexity levels",
+        "Complexity level 1"
       ],
-      "text": "There are five complexity levels, each requiring a different approach and level of expertise.",
+      "text": "Complexity level 1",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "Complexity level 1",
+      "text": "Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:",
+      "text": "a call-up against a standing offer;",
       "order": 4,
       "metadata": {}
     },
@@ -681,11 +678,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "a call-up against a standing offer;",
+      "text": "a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);",
       "order": 5,
       "metadata": {}
     },
@@ -694,11 +690,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);",
+      "text": "a common service that is readily available in the marketplace, which may include supplier customized options;",
       "order": 6,
       "metadata": {}
     },
@@ -707,11 +702,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "a common service that is readily available in the marketplace, which may include supplier customized options;",
+      "text": "procurement methodologies that are tried and proven using existing conventions;",
       "order": 7,
       "metadata": {}
     },
@@ -720,11 +714,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "procurement methodologies that are tried and proven using existing conventions;",
+      "text": "departmental standard procurement templates or legally approved templates;",
       "order": 8,
       "metadata": {}
     },
@@ -733,50 +726,46 @@
       "block_type": "list_item",
       "heading": "Complexity level 1",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 1"
       ],
-      "text": "departmental standard procurement templates or legally approved templates;",
+      "text": "contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
-      "heading": "Complexity level 1",
+      "block_type": "heading",
+      "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
-        "Complexity level 1"
+        "Complexity level 2"
       ],
-      "text": "contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement",
+      "text": "Complexity level 2",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "Complexity level 2",
+      "text": "Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:",
+      "text": "government-specified performance requirements to commercially available goods;",
       "order": 12,
       "metadata": {}
     },
@@ -785,11 +774,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "government-specified performance requirements to commercially available goods;",
+      "text": "a requirement which uses existing technology/processes to achieve an innovative solution;",
       "order": 13,
       "metadata": {}
     },
@@ -798,11 +786,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "a requirement which uses existing technology/processes to achieve an innovative solution;",
+      "text": "services with subjective results (for example, consultations and recommendations);",
       "order": 14,
       "metadata": {}
     },
@@ -811,11 +798,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "services with subjective results (for example, consultations and recommendations);",
+      "text": "departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;",
       "order": 15,
       "metadata": {}
     },
@@ -824,11 +810,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;",
+      "text": "one or more evaluation criteria to determine the successful offeror and that require subjective judgment;",
       "order": 16,
       "metadata": {}
     },
@@ -837,11 +822,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "one or more evaluation criteria to determine the successful offeror and that require subjective judgment;",
+      "text": "industrial regional benefits (IRBs) or value propositions;",
       "order": 17,
       "metadata": {}
     },
@@ -850,11 +834,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "industrial regional benefits (IRBs) or value propositions;",
+      "text": "vendor pre-qualification (includes establishment of supply arrangements);",
       "order": 18,
       "metadata": {}
     },
@@ -863,50 +846,46 @@
       "block_type": "list_item",
       "heading": "Complexity level 2",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 2"
       ],
-      "text": "vendor pre-qualification (includes establishment of supply arrangements);",
+      "text": "advance payments",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
-      "heading": "Complexity level 2",
+      "block_type": "heading",
+      "heading": "Complexity level 3",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
-        "Complexity level 2"
+        "Complexity level 3"
       ],
-      "text": "advance payments",
+      "text": "Complexity level 3",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Complexity level 3",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 3"
       ],
-      "text": "Complexity level 3",
+      "text": "Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Complexity level 3",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 3"
       ],
-      "text": "Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:",
+      "text": "a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;",
       "order": 22,
       "metadata": {}
     },
@@ -915,11 +894,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 3",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 3"
       ],
-      "text": "a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;",
+      "text": "a requirement or procurement that is highly unpredictable due to a high level of uncertainty;",
       "order": 23,
       "metadata": {}
     },
@@ -928,50 +906,46 @@
       "block_type": "list_item",
       "heading": "Complexity level 3",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 3"
       ],
-      "text": "a requirement or procurement that is highly unpredictable due to a high level of uncertainty;",
+      "text": "an untested procurement strategy",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "list_item",
-      "heading": "Complexity level 3",
+      "block_type": "heading",
+      "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
-        "Complexity level 3"
+        "Complexity level 4"
       ],
-      "text": "an untested procurement strategy",
+      "text": "Complexity level 4",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "Complexity level 4",
+      "text": "Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:",
+      "text": "a high level of uncertainty;",
       "order": 27,
       "metadata": {}
     },
@@ -980,11 +954,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "a high level of uncertainty;",
+      "text": "may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;",
       "order": 28,
       "metadata": {}
     },
@@ -993,11 +966,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;",
+      "text": "contract administration is detailed and extensive and its success is unpredictable;",
       "order": 29,
       "metadata": {}
     },
@@ -1006,63 +978,58 @@
       "block_type": "list_item",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "contract administration is detailed and extensive and its success is unpredictable;",
+      "text": "more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Complexity level 4",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 4"
       ],
-      "text": "more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority",
+      "text": "Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "paragraph",
-      "heading": "Complexity level 4",
+      "block_type": "heading",
+      "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
-        "Complexity level 4"
+        "Complexity level 5"
       ],
-      "text": "Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.",
+      "text": "Complexity level 5",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
-      "text": "Complexity level 5",
+      "text": "Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:",
       "order": 33,
       "metadata": {}
     },
     {
       "block_id": "block_0034",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
-      "text": "Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:",
+      "text": "a high level of uncertainty;",
       "order": 34,
       "metadata": {}
     },
@@ -1071,11 +1038,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
-      "text": "a high level of uncertainty;",
+      "text": "partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;",
       "order": 35,
       "metadata": {}
     },
@@ -1084,11 +1050,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
-      "text": "partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;",
+      "text": "shared decision-making;",
       "order": 36,
       "metadata": {}
     },
@@ -1097,11 +1062,10 @@
       "block_type": "list_item",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
-      "text": "shared decision-making;",
+      "text": "contract administration that is detailed, extensive and highly unpredictable;",
       "order": 37,
       "metadata": {}
     },
@@ -1110,30 +1074,16 @@
       "block_type": "list_item",
       "heading": "Complexity level 5",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
-        "Characteristics of procurement complexity levels",
-        "Complexity level 5"
-      ],
-      "text": "contract administration that is detailed, extensive and highly unpredictable;",
-      "order": 38,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0039",
-      "block_type": "list_item",
-      "heading": "Complexity level 5",
-      "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
         "Characteristics of procurement complexity levels",
         "Complexity level 5"
       ],
       "text": "ultimate success is determined by the public at large",
-      "order": 39,
+      "order": 38,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise. Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); a common service that is readily available in the marketplace, which may include supplier customized options; procurement methodologies that are tried and proven using existing conventions; departmental standard procurement templates or legally approved templates; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; a requirement which uses existing technology/processes to achieve an innovative solution; services with subjective results (for example, consultations and recommendations); departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; industrial regional benefits (IRBs) or value propositions; vendor pre-qualification (includes establishment of supply arrangements); advance payments Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; an untested procurement strategy Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; contract administration is detailed and extensive and its success is unpredictable; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5. Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; shared decision-making; contract administration that is detailed, extensive and highly unpredictable; ultimate success is determined by the public at large\n\nCharacteristics of procurement complexity levels\n\nThere are five complexity levels, each requiring a different approach and level of expertise.\n\nComplexity level 1\n\nComplexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:\n\na call-up against a standing offer;\n\na commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);\n\na common service that is readily available in the marketplace, which may include supplier customized options;\n\nprocurement methodologies that are tried and proven using existing conventions;\n\ndepartmental standard procurement templates or legally approved templates;\n\ncontractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement\n\nComplexity level 2\n\nComplexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:\n\ngovernment-specified performance requirements to commercially available goods;\n\na requirement which uses existing technology/processes to achieve an innovative solution;\n\nservices with subjective results (for example, consultations and recommendations);\n\ndepartmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;\n\none or more evaluation criteria to determine the successful offeror and that require subjective judgment;\n\nindustrial regional benefits (IRBs) or value propositions;\n\nvendor pre-qualification (includes establishment of supply arrangements);\n\nadvance payments\n\nComplexity level 3\n\nComplexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:\n\na requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;\n\na requirement or procurement that is highly unpredictable due to a high level of uncertainty;\n\nan untested procurement strategy\n\nComplexity level 4\n\nComplexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\nmay involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;\n\ncontract administration is detailed and extensive and its success is unpredictable;\n\nmore than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority\n\nNote: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.\n\nComplexity level 5\n\nComplexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\npartnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;\n\nshared decision-making;\n\ncontract administration that is detailed, extensive and highly unpredictable;\n\nultimate success is determined by the public at large",
-  "markdown_text": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise. Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); a common service that is readily available in the marketplace, which may include supplier customized options; procurement methodologies that are tried and proven using existing conventions; departmental standard procurement templates or legally approved templates; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; a requirement which uses existing technology/processes to achieve an innovative solution; services with subjective results (for example, consultations and recommendations); departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; industrial regional benefits (IRBs) or value propositions; vendor pre-qualification (includes establishment of supply arrangements); advance payments Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; an untested procurement strategy Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; contract administration is detailed and extensive and its success is unpredictable; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5. Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; shared decision-making; contract administration that is detailed, extensive and highly unpredictable; ultimate success is determined by the public at large\n\nCharacteristics of procurement complexity levels\n\nThere are five complexity levels, each requiring a different approach and level of expertise.\n\nComplexity level 1\n\nComplexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:\n\na call-up against a standing offer;\n\na commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);\n\na common service that is readily available in the marketplace, which may include supplier customized options;\n\nprocurement methodologies that are tried and proven using existing conventions;\n\ndepartmental standard procurement templates or legally approved templates;\n\ncontractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement\n\nComplexity level 2\n\nComplexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:\n\ngovernment-specified performance requirements to commercially available goods;\n\na requirement which uses existing technology/processes to achieve an innovative solution;\n\nservices with subjective results (for example, consultations and recommendations);\n\ndepartmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;\n\none or more evaluation criteria to determine the successful offeror and that require subjective judgment;\n\nindustrial regional benefits (IRBs) or value propositions;\n\nvendor pre-qualification (includes establishment of supply arrangements);\n\nadvance payments\n\nComplexity level 3\n\nComplexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:\n\na requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;\n\na requirement or procurement that is highly unpredictable due to a high level of uncertainty;\n\nan untested procurement strategy\n\nComplexity level 4\n\nComplexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\nmay involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;\n\ncontract administration is detailed and extensive and its success is unpredictable;\n\nmore than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority\n\nNote: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.\n\nComplexity level 5\n\nComplexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\npartnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;\n\nshared decision-making;\n\ncontract administration that is detailed, extensive and highly unpredictable;\n\nultimate success is determined by the public at large",
+  "raw_text": "Characteristics of procurement complexity levels\n\nThere are five complexity levels, each requiring a different approach and level of expertise.\n\nComplexity level 1\n\nComplexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:\n\na call-up against a standing offer;\n\na commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);\n\na common service that is readily available in the marketplace, which may include supplier customized options;\n\nprocurement methodologies that are tried and proven using existing conventions;\n\ndepartmental standard procurement templates or legally approved templates;\n\ncontractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement\n\nComplexity level 2\n\nComplexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:\n\ngovernment-specified performance requirements to commercially available goods;\n\na requirement which uses existing technology/processes to achieve an innovative solution;\n\nservices with subjective results (for example, consultations and recommendations);\n\ndepartmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;\n\none or more evaluation criteria to determine the successful offeror and that require subjective judgment;\n\nindustrial regional benefits (IRBs) or value propositions;\n\nvendor pre-qualification (includes establishment of supply arrangements);\n\nadvance payments\n\nComplexity level 3\n\nComplexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:\n\na requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;\n\na requirement or procurement that is highly unpredictable due to a high level of uncertainty;\n\nan untested procurement strategy\n\nComplexity level 4\n\nComplexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\nmay involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;\n\ncontract administration is detailed and extensive and its success is unpredictable;\n\nmore than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority\n\nNote: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.\n\nComplexity level 5\n\nComplexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\npartnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;\n\nshared decision-making;\n\ncontract administration that is detailed, extensive and highly unpredictable;\n\nultimate success is determined by the public at large",
+  "markdown_text": "Characteristics of procurement complexity levels\n\nThere are five complexity levels, each requiring a different approach and level of expertise.\n\nComplexity level 1\n\nComplexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:\n\na call-up against a standing offer;\n\na commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);\n\na common service that is readily available in the marketplace, which may include supplier customized options;\n\nprocurement methodologies that are tried and proven using existing conventions;\n\ndepartmental standard procurement templates or legally approved templates;\n\ncontractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement\n\nComplexity level 2\n\nComplexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:\n\ngovernment-specified performance requirements to commercially available goods;\n\na requirement which uses existing technology/processes to achieve an innovative solution;\n\nservices with subjective results (for example, consultations and recommendations);\n\ndepartmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;\n\none or more evaluation criteria to determine the successful offeror and that require subjective judgment;\n\nindustrial regional benefits (IRBs) or value propositions;\n\nvendor pre-qualification (includes establishment of supply arrangements);\n\nadvance payments\n\nComplexity level 3\n\nComplexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:\n\na requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;\n\na requirement or procurement that is highly unpredictable due to a high level of uncertainty;\n\nan untested procurement strategy\n\nComplexity level 4\n\nComplexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\nmay involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;\n\ncontract administration is detailed and extensive and its success is unpredictable;\n\nmore than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority\n\nNote: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.\n\nComplexity level 5\n\nComplexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:\n\na high level of uncertainty;\n\npartnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;\n\nshared decision-making;\n\ncontract administration that is detailed, extensive and highly unpredictable;\n\nultimate success is determined by the public at large",
   "provenance_paths": {}
 }

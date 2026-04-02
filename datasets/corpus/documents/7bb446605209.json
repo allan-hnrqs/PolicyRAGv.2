@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:43.892861Z",
-  "content_hash": "509e6f0746aa66447eb7fc247565c42bfdf55b5176fcc5d8b7c54abf5980e87b",
-  "word_count": 54,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "38516915429b663d693c389afe38e2f7d36e796729fa9102b635f690205f14d1",
+  "word_count": 27,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -817,42 +817,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Complexity and procurement risk assessment",
+      "block_type": "heading",
+      "heading": "Complexity and procurement risk assessment",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment"
+        "Complexity and procurement risk assessment"
       ],
-      "text": "Complexity and procurement risk assessment This section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
+      "text": "Complexity and procurement risk assessment",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Complexity and procurement risk assessment",
-      "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment",
-        "Complexity and procurement risk assessment"
-      ],
-      "text": "Complexity and procurement risk assessment",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Complexity and procurement risk assessment",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment",
         "Complexity and procurement risk assessment"
       ],
       "text": "This section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Complexity and procurement risk assessment This section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.\n\nComplexity and procurement risk assessment\n\nThis section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
-  "markdown_text": "Complexity and procurement risk assessment This section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.\n\nComplexity and procurement risk assessment\n\nThis section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
+  "raw_text": "Complexity and procurement risk assessment\n\nThis section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
+  "markdown_text": "Complexity and procurement risk assessment\n\nThis section provides information on the complexity and procurement risk assessment processes, including how to determine complexity levels and identify risk factors.",
   "provenance_paths": {}
 }

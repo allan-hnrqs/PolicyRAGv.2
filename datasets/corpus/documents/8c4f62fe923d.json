@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:24.057904Z",
-  "content_hash": "9be1eab211ac6a70b59f3503fd0f77aff3b2380f2e01634b7f5acf1b61f52f11",
-  "word_count": 1138,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "916594cc35b42a4cbeb785685d934def442d7d7a53d48edf3682f295d82c186d",
+  "word_count": 569,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,90 +960,86 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
+      "block_type": "heading",
+      "heading": "Security in solicitations of offers",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers"
+        "Security in solicitations of offers"
       ],
-      "text": "Security in solicitations of offers When security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted. Provisional security clearances For activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage. Requesting provisional security clearances Submit the following documents to the Contract Security Program via email to request provisional security clearances: completed Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) solicitation number and associated timelines CSP -approved SRCL statement of work or a substantive description of the work (if not previously provided) Application for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access. For procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances. For more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca. Processing security clearances Once all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include: the completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) the CSP -approved SRCL the completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network) If there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror. Completion of security screenings The CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award. Contractor facility security requirements For work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
+      "text": "Security in solicitations of offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Security in solicitations of offers",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers"
       ],
-      "text": "Security in solicitations of offers",
+      "text": "When security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Security in solicitations of offers",
+      "block_type": "heading",
+      "heading": "Provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
-        "Security in solicitations of offers"
+        "Security in solicitations of offers",
+        "Provisional security clearances"
       ],
-      "text": "When security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.",
+      "text": "Provisional security clearances",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances"
       ],
-      "text": "Provisional security clearances",
+      "text": "For activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Provisional security clearances",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
-        "Security in solicitations of offers",
-        "Provisional security clearances"
-      ],
-      "text": "For activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
       "block_type": "heading",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
       "text": "Requesting provisional security clearances",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     },
     {
-      "block_id": "block_0006",
+      "block_id": "block_0005",
       "block_type": "paragraph",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
       "text": "Submit the following documents to the Contract Security Program via email to request provisional security clearances:",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "list_item",
+      "heading": "Requesting provisional security clearances",
+      "heading_path": [
+        "Security in solicitations of offers",
+        "Provisional security clearances",
+        "Requesting provisional security clearances"
+      ],
+      "text": "completed Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access",
       "order": 6,
       "metadata": {}
     },
@@ -1052,12 +1048,11 @@
       "block_type": "list_item",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
-      "text": "completed Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access",
+      "text": "completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)",
       "order": 7,
       "metadata": {}
     },
@@ -1066,12 +1061,11 @@
       "block_type": "list_item",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
-      "text": "completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)",
+      "text": "solicitation number and associated timelines",
       "order": 8,
       "metadata": {}
     },
@@ -1080,12 +1074,11 @@
       "block_type": "list_item",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
-      "text": "solicitation number and associated timelines",
+      "text": "CSP -approved SRCL",
       "order": 9,
       "metadata": {}
     },
@@ -1094,12 +1087,11 @@
       "block_type": "list_item",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
-      "text": "CSP -approved SRCL",
+      "text": "statement of work or a substantive description of the work (if not previously provided)",
       "order": 10,
       "metadata": {}
     },
@@ -1108,26 +1100,24 @@
       "block_type": "list_item",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
-        "Security in solicitations of offers",
-        "Provisional security clearances",
-        "Requesting provisional security clearances"
-      ],
-      "text": "statement of work or a substantive description of the work (if not previously provided)",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "list_item",
-      "heading": "Requesting provisional security clearances",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
       "text": "Application for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "paragraph",
+      "heading": "Requesting provisional security clearances",
+      "heading_path": [
+        "Security in solicitations of offers",
+        "Provisional security clearances",
+        "Requesting provisional security clearances"
+      ],
+      "text": "For procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.",
       "order": 12,
       "metadata": {}
     },
@@ -1136,52 +1126,47 @@
       "block_type": "paragraph",
       "heading": "Requesting provisional security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
-        "Security in solicitations of offers",
-        "Provisional security clearances",
-        "Requesting provisional security clearances"
-      ],
-      "text": "For procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Requesting provisional security clearances",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Provisional security clearances",
         "Requesting provisional security clearances"
       ],
       "text": "For more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca.",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "heading",
+      "heading": "Processing security clearances",
+      "heading_path": [
+        "Security in solicitations of offers",
+        "Processing security clearances"
+      ],
+      "text": "Processing security clearances",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Processing security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Processing security clearances"
       ],
-      "text": "Processing security clearances",
+      "text": "Once all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Processing security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Processing security clearances"
       ],
-      "text": "Once all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:",
+      "text": "the completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)",
       "order": 16,
       "metadata": {}
     },
@@ -1190,11 +1175,10 @@
       "block_type": "list_item",
       "heading": "Processing security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Processing security clearances"
       ],
-      "text": "the completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)",
+      "text": "the CSP -approved SRCL",
       "order": 17,
       "metadata": {}
     },
@@ -1203,95 +1187,76 @@
       "block_type": "list_item",
       "heading": "Processing security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Processing security clearances"
       ],
-      "text": "the CSP -approved SRCL",
+      "text": "the completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Processing security clearances",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Processing security clearances"
       ],
-      "text": "the completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)",
+      "text": "If there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Processing security clearances",
+      "block_type": "heading",
+      "heading": "Completion of security screenings",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
-        "Processing security clearances"
+        "Completion of security screenings"
       ],
-      "text": "If there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.",
+      "text": "Completion of security screenings",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Completion of security screenings",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Completion of security screenings"
       ],
-      "text": "Completion of security screenings",
+      "text": "The CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Completion of security screenings",
+      "block_type": "heading",
+      "heading": "Contractor facility security requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
-        "Completion of security screenings"
+        "Contractor facility security requirements"
       ],
-      "text": "The CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.",
+      "text": "Contractor facility security requirements",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "heading",
-      "heading": "Contractor facility security requirements",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
-        "Security in solicitations of offers",
-        "Contractor facility security requirements"
-      ],
-      "text": "Contractor facility security requirements",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
       "block_type": "paragraph",
       "heading": "Contractor facility security requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security in solicitations of offers",
         "Security in solicitations of offers",
         "Contractor facility security requirements"
       ],
       "text": "For work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
-      "order": 24,
+      "order": 23,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Security in solicitations of offers When security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted. Provisional security clearances For activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage. Requesting provisional security clearances Submit the following documents to the Contract Security Program via email to request provisional security clearances: completed Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) solicitation number and associated timelines CSP -approved SRCL statement of work or a substantive description of the work (if not previously provided) Application for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access. For procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances. For more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca. Processing security clearances Once all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include: the completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) the CSP -approved SRCL the completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network) If there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror. Completion of security screenings The CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award. Contractor facility security requirements For work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.\n\nSecurity in solicitations of offers\n\nWhen security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.\n\nProvisional security clearances\n\nFor activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.\n\nRequesting provisional security clearances\n\nSubmit the following documents to the Contract Security Program via email to request provisional security clearances:\n\ncompleted Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access\n\ncompleted bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nsolicitation number and associated timelines\n\nCSP -approved SRCL\n\nstatement of work or a substantive description of the work (if not previously provided)\n\nApplication for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access.\n\nFor procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.\n\nFor more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca.\n\nProcessing security clearances\n\nOnce all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:\n\nthe completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nthe CSP -approved SRCL\n\nthe completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)\n\nIf there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.\n\nCompletion of security screenings\n\nThe CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.\n\nContractor facility security requirements\n\nFor work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
-  "markdown_text": "Security in solicitations of offers When security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted. Provisional security clearances For activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage. Requesting provisional security clearances Submit the following documents to the Contract Security Program via email to request provisional security clearances: completed Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) solicitation number and associated timelines CSP -approved SRCL statement of work or a substantive description of the work (if not previously provided) Application for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access. For procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances. For more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca. Processing security clearances Once all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include: the completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network) the CSP -approved SRCL the completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network) If there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror. Completion of security screenings The CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award. Contractor facility security requirements For work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.\n\nSecurity in solicitations of offers\n\nWhen security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.\n\nProvisional security clearances\n\nFor activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.\n\nRequesting provisional security clearances\n\nSubmit the following documents to the Contract Security Program via email to request provisional security clearances:\n\ncompleted Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access\n\ncompleted bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nsolicitation number and associated timelines\n\nCSP -approved SRCL\n\nstatement of work or a substantive description of the work (if not previously provided)\n\nApplication for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access.\n\nFor procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.\n\nFor more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca.\n\nProcessing security clearances\n\nOnce all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:\n\nthe completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nthe CSP -approved SRCL\n\nthe completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)\n\nIf there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.\n\nCompletion of security screenings\n\nThe CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.\n\nContractor facility security requirements\n\nFor work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
+  "raw_text": "Security in solicitations of offers\n\nWhen security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.\n\nProvisional security clearances\n\nFor activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.\n\nRequesting provisional security clearances\n\nSubmit the following documents to the Contract Security Program via email to request provisional security clearances:\n\ncompleted Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access\n\ncompleted bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nsolicitation number and associated timelines\n\nCSP -approved SRCL\n\nstatement of work or a substantive description of the work (if not previously provided)\n\nApplication for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access.\n\nFor procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.\n\nFor more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca.\n\nProcessing security clearances\n\nOnce all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:\n\nthe completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nthe CSP -approved SRCL\n\nthe completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)\n\nIf there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.\n\nCompletion of security screenings\n\nThe CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.\n\nContractor facility security requirements\n\nFor work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
+  "markdown_text": "Security in solicitations of offers\n\nWhen security requirements are involved, the solicitation of offers must clearly outline the specific security needs and the timelines for meeting these requirements. You should be fully aware of the timeframe required for completing security screenings. The completed Security Requirements Check List (SRCL) must be included as an annex to the solicitation of offers, though the signature page may be omitted.\n\nProvisional security clearances\n\nFor activities like offeror’s conferences, site visits or when accessing protected or classified information during the solicitation stage, security clearances may be required for offerors and their personnel. The Contract Security Program (CSP) may grant provisional security clearances to eligible offerors and their respective offer preparation teams if they are not already cleared. These provisional security clearances will only be valid for the duration of the offer solicitation stage.\n\nRequesting provisional security clearances\n\nSubmit the following documents to the Contract Security Program via email to request provisional security clearances:\n\ncompleted Request for private sector organization screening (PSOS) form (PDF, 288 KB) for each offeror requiring access\n\ncompleted bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nsolicitation number and associated timelines\n\nCSP -approved SRCL\n\nstatement of work or a substantive description of the work (if not previously provided)\n\nApplication for Registration ( AFR ) form (PDF, 243 KB) (accessible only on the Government of Canada network) completed by each offeror requiring access.\n\nFor procurements where private sector personnel or organization security screening is mandatory, ensure the AFR form is included in the solicitation of offers documents. Offerors must complete and submit this form with their offer, even if they already have the required clearances.\n\nFor more information on how offerors can obtain security clearances, refer them to the Obtain a security screening for your organization page on Canada.ca.\n\nProcessing security clearances\n\nOnce all offers are received, submit the necessary documents for each offer to the CSP for processing. These documents include:\n\nthe completed bidder cover sheet (PDF, 310 KB) (accessible only on the Government of Canada network)\n\nthe CSP -approved SRCL\n\nthe completed AFR forms (PDF, 243 KB) (accessible only on the Government of Canada network)\n\nIf there are delays due to additional verifications, the CSP will inform the buyer. Urgent contract awards may require consultation with the client’s Chief Security Officer and technical/project authority. CSP will then develop an acceptable risk mitigation strategy, so the contract can be awarded before the security clearance process is completed. If risk mitigation measures cannot be implemented for the successful offeror, or agreed upon by all parties (including the CSP ), you will need to delay contract award until the recommended offeror obtains the appropriate security clearance, or, if they cannot obtain the appropriate clearance, you may need to select the next highest-ranked compliant offeror.\n\nCompletion of security screenings\n\nThe CSP will notify the buyer about the outcome of the security screenings and confirm in writing if offerors meet the security requirements before contract award.\n\nContractor facility security requirements\n\nFor work to be performed or documents to be safeguarded at the contractor’s facilities, security screenings for those facilities are required before work can commence. The CSP needs to be informed, as early as possible in the process, which of the contractor’s facilities will be used. In the solicitation of offers document, include a section under security references titled \"Location(s) of Work Performance\" to be completed by the contractor.",
   "provenance_paths": {}
 }

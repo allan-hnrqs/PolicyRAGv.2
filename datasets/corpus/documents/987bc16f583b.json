@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:19.111682Z",
-  "content_hash": "6e2bbf4e86369b89bf84fce73467c80f4d05b0bdd32911dd20b50c85e1c16a07",
-  "word_count": 104,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e29cb74676232da6a7c99497640959104c4e6f8a539588d2056ff3c6fcafc1e0",
+  "word_count": 52,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,42 +961,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Performance considerations - Holdbacks",
+      "block_type": "heading",
+      "heading": "Holdbacks",
       "heading_path": [
-        "Buyer's Guide Performance considerations - Holdbacks"
+        "Holdbacks"
       ],
-      "text": "Holdbacks Holdbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
+      "text": "Holdbacks",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Holdbacks",
-      "heading_path": [
-        "Buyer's Guide Performance considerations - Holdbacks",
-        "Holdbacks"
-      ],
-      "text": "Holdbacks",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Holdbacks",
       "heading_path": [
-        "Buyer's Guide Performance considerations - Holdbacks",
         "Holdbacks"
       ],
       "text": "Holdbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Holdbacks Holdbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .\n\nHoldbacks\n\nHoldbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
-  "markdown_text": "Holdbacks Holdbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .\n\nHoldbacks\n\nHoldbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
+  "raw_text": "Holdbacks\n\nHoldbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
+  "markdown_text": "Holdbacks\n\nHoldbacks are another tool used to ensure that contract performance meets Canada’s expectations. A portion of the contractor’s payment is withheld until specific performance criteria are met. Holdbacks are often applied to mitigate the risk of incomplete or unsatisfactory work. For more detailed guidance on holdbacks, refer to Manage payments .",
   "provenance_paths": {}
 }

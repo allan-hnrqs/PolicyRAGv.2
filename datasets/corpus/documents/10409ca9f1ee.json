@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:15.577962Z",
   "content_hash": "344898f1c65cfd010600034f64cd38efdb79e43cc6ced0eaee9bafdde7d44fd1",
   "word_count": 132,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals"
       ],
       "text": "Services of foreign nationals",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals"
       ],
       "text": "In performing a contract, contractors may wish to temporarily use employees who are foreign nationals. The responsibility to determine eligibility for entering Canada lies with Immigration, Refugees and Citizenship Canada.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals"
       ],
       "text": "For United States nationals, employment authorization can be applied for at the point of entry. For all other nationals, authorization must be obtained prior to entry. Applicants should contact the nearest Canadian embassy or consulate for the necessary documentation and authorizations.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals"
       ],
       "text": "Canadian citizens living abroad retain the right to work in Canada without restrictions.",
@@ -820,7 +816,6 @@
       "block_type": "heading",
       "heading": "Emergency service requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals",
         "Emergency service requirements"
       ],
@@ -833,7 +828,6 @@
       "block_type": "paragraph",
       "heading": "Emergency service requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Services of foreign nationals",
         "Services of foreign nationals",
         "Emergency service requirements"
       ],

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:36.045553Z",
-  "content_hash": "be99a6469784f6dca8568b716cc2a625c1d270f80f5ad0a3c579ef860cd4fad8",
-  "word_count": 4085,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d25e1399dd86643cf86a1f3c6eb89a844214a5ab9558ef3087f9249f8fe523fb",
+  "word_count": 1950,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,49 +961,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Interim Policy on Reciprocal Procurement",
+      "block_type": "heading",
+      "heading": "Interim Policy on Reciprocal Procurement",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement"
+        "Interim Policy on Reciprocal Procurement"
       ],
-      "text": "Interim Policy on Reciprocal Procurement Canada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases. Procedure for implementing the Policy on Reciprocal Procurement Under the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction. Buyers should follow the steps outlined below. Step 1: Determine trade agreement applicability As an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy. Note: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement. For additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network). Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process Next, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy: If the Policy does not apply, buyers can proceed directly to step 4 If the Policy applies, proceed to step 3 Canada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies. Note : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies. Step 3: Determine if an exception to the Policy applies Exceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary. Applying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements. The list of exceptions to the Policy can be found in the section 4.4 of the Policy. While buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied. An exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents. As per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file. Step 4: Determine which suppliers are eligible under the Policy Buyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement: a. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible. Step 5: Implementation in contractual documents For all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy. Request for Proposals (RFPs) To implement the Policy in RFP s in the tender notice, buyers are to: identify applicable trade agreements as per the usual process include one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\" In the RFP buyers are to: include the appropriate reciprocal procurement clauses adjust as needed for the specific requirement Supply arrangements Existing supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements. To implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA . In the RFSA tender notice, buyers are to: identify applicable trade agreements include this statement in the Description field: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\". In the RFSA buyers are to include the relevant reciprocal procurement clause. For individual solicitations under the supply arrangement, follow the RFP instructions above. Standing offers When renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO): Option A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups). Option B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups). In the RFSO tender notice, buyers are to: identify applicable trade agreements, as normal include one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. In the RFSO , buyers are then to: include reciprocal procurement clauses and adjust as appropriate if using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies. Step 6: Evaluation process For procurements subject to the Policy, suppliers must declare that they are either a Canadian supplier, or a Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s)) This declaration is mandatory and assessed on pass/fail basis. Reciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification. Buyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8. Step 7: Post-award Contractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract. If a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8. Under the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor. Step 8: Verification process Suppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested. Canada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration. If an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network). If the supplier is found to be compliant, no further action is required. If a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include: Disqualifying the offer Declaring the supplier ineligible for contract award Retaining the bid deposit Termination the contract Setting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts Retaining holdbacks Disqualifying the supplier from future procurements under the Ineligibility and Suspension Policy Buyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network). Enquiries Enquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
+      "text": "Interim Policy on Reciprocal Procurement",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Interim Policy on Reciprocal Procurement",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement"
       ],
-      "text": "Interim Policy on Reciprocal Procurement",
+      "text": "Canada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Interim Policy on Reciprocal Procurement",
+      "block_type": "heading",
+      "heading": "Procedure for implementing the Policy on Reciprocal Procurement",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement"
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement"
       ],
-      "text": "Canada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.",
+      "text": "Procedure for implementing the Policy on Reciprocal Procurement",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Procedure for implementing the Policy on Reciprocal Procurement",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement"
       ],
-      "text": "Procedure for implementing the Policy on Reciprocal Procurement",
+      "text": "Under the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.",
       "order": 3,
       "metadata": {}
     },
@@ -1012,38 +1010,36 @@
       "block_type": "paragraph",
       "heading": "Procedure for implementing the Policy on Reciprocal Procurement",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement"
       ],
-      "text": "Under the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.",
+      "text": "Buyers should follow the steps outlined below.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Procedure for implementing the Policy on Reciprocal Procurement",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement"
-      ],
-      "text": "Buyers should follow the steps outlined below.",
-      "order": 5,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0006",
       "block_type": "heading",
       "heading": "Step 1: Determine trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 1: Determine trade agreement applicability"
       ],
       "text": "Step 1: Determine trade agreement applicability",
+      "order": 5,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0006",
+      "block_type": "paragraph",
+      "heading": "Step 1: Determine trade agreement applicability",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 1: Determine trade agreement applicability"
+      ],
+      "text": "As an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.",
       "order": 6,
       "metadata": {}
     },
@@ -1052,12 +1048,11 @@
       "block_type": "paragraph",
       "heading": "Step 1: Determine trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 1: Determine trade agreement applicability"
       ],
-      "text": "As an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.",
+      "text": "Note: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.",
       "order": 7,
       "metadata": {}
     },
@@ -1066,54 +1061,50 @@
       "block_type": "paragraph",
       "heading": "Step 1: Determine trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 1: Determine trade agreement applicability"
-      ],
-      "text": "Note: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.",
-      "order": 8,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Step 1: Determine trade agreement applicability",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 1: Determine trade agreement applicability"
       ],
       "text": "For additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network).",
-      "order": 9,
+      "order": 8,
       "metadata": {}
     },
     {
-      "block_id": "block_0010",
+      "block_id": "block_0009",
       "block_type": "heading",
       "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
       ],
       "text": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     },
     {
-      "block_id": "block_0011",
+      "block_id": "block_0010",
       "block_type": "paragraph",
       "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
       ],
       "text": "Next, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy:",
+      "order": 10,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0011",
+      "block_type": "list_item",
+      "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
+      ],
+      "text": "If the Policy does not apply, buyers can proceed directly to step 4",
       "order": 11,
       "metadata": {}
     },
@@ -1122,26 +1113,24 @@
       "block_type": "list_item",
       "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
-      ],
-      "text": "If the Policy does not apply, buyers can proceed directly to step 4",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "list_item",
-      "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
       ],
       "text": "If the Policy applies, proceed to step 3",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "paragraph",
+      "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
+      ],
+      "text": "Canada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.",
       "order": 13,
       "metadata": {}
     },
@@ -1150,40 +1139,37 @@
       "block_type": "paragraph",
       "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
-      ],
-      "text": "Canada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process"
       ],
       "text": "Note : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies.",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "heading",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
       "text": "Step 3: Determine if an exception to the Policy applies",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Step 3: Determine if an exception to the Policy applies",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 3: Determine if an exception to the Policy applies"
+      ],
+      "text": "Exceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.",
       "order": 16,
       "metadata": {}
     },
@@ -1192,12 +1178,11 @@
       "block_type": "paragraph",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
-      "text": "Exceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.",
+      "text": "Applying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.",
       "order": 17,
       "metadata": {}
     },
@@ -1206,12 +1191,11 @@
       "block_type": "paragraph",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
-      "text": "Applying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.",
+      "text": "The list of exceptions to the Policy can be found in the section 4.4 of the Policy.",
       "order": 18,
       "metadata": {}
     },
@@ -1220,12 +1204,11 @@
       "block_type": "paragraph",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
-      "text": "The list of exceptions to the Policy can be found in the section 4.4 of the Policy.",
+      "text": "While buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.",
       "order": 19,
       "metadata": {}
     },
@@ -1234,12 +1217,11 @@
       "block_type": "paragraph",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
-      "text": "While buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.",
+      "text": "An exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.",
       "order": 20,
       "metadata": {}
     },
@@ -1248,194 +1230,180 @@
       "block_type": "paragraph",
       "heading": "Step 3: Determine if an exception to the Policy applies",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 3: Determine if an exception to the Policy applies"
-      ],
-      "text": "An exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.",
-      "order": 21,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Step 3: Determine if an exception to the Policy applies",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 3: Determine if an exception to the Policy applies"
       ],
       "text": "As per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file.",
-      "order": 22,
+      "order": 21,
       "metadata": {}
     },
     {
-      "block_id": "block_0023",
+      "block_id": "block_0022",
       "block_type": "heading",
       "heading": "Step 4: Determine which suppliers are eligible under the Policy",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 4: Determine which suppliers are eligible under the Policy"
       ],
       "text": "Step 4: Determine which suppliers are eligible under the Policy",
-      "order": 23,
+      "order": 22,
       "metadata": {}
     },
     {
-      "block_id": "block_0024",
+      "block_id": "block_0023",
       "block_type": "paragraph",
       "heading": "Step 4: Determine which suppliers are eligible under the Policy",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 4: Determine which suppliers are eligible under the Policy"
       ],
       "text": "Buyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement:",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "table_row",
+      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 4: Determine which suppliers are eligible under the Policy"
+      ],
+      "text": "a.: b. | Determine which trade agreements apply to the procurement.: Is the procurement subject to the Policy on Reciprocal Procurement? | Proceed to b.: If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c.",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Step 4: Determine which suppliers are eligible under the Policy",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 4: Determine which suppliers are eligible under the Policy"
       ],
-      "text": "a. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.",
+      "text": "a.: c. | Determine which trade agreements apply to the procurement.: Do any exceptions to the Policy apply to the procurement? | Proceed to b.: If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d.",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Step 4: Determine which suppliers are eligible under the Policy",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 4: Determine which suppliers are eligible under the Policy"
       ],
-      "text": "If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible.",
+      "text": "a.: d. | Determine which trade agreements apply to the procurement.: Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) | Proceed to b.: If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "block_type": "heading",
+      "heading": "Step 5: Implementation in contractual documents",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 4: Determine which suppliers are eligible under the Policy"
+        "Step 5: Implementation in contractual documents"
       ],
-      "text": "If “yes”, proceed to c.",
+      "text": "Step 5: Implementation in contractual documents",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
       "block_type": "paragraph",
-      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "heading": "Step 5: Implementation in contractual documents",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 4: Determine which suppliers are eligible under the Policy"
+        "Step 5: Implementation in contractual documents"
       ],
-      "text": "If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible.",
+      "text": "For all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.",
       "order": 28,
       "metadata": {}
     },
     {
       "block_id": "block_0029",
-      "block_type": "paragraph",
-      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "block_type": "heading",
+      "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 4: Determine which suppliers are eligible under the Policy"
+        "Request for Proposals (RFPs)"
       ],
-      "text": "If “no”, proceed to d.",
+      "text": "Request for Proposals (RFPs)",
       "order": 29,
       "metadata": {}
     },
     {
       "block_id": "block_0030",
       "block_type": "paragraph",
-      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 4: Determine which suppliers are eligible under the Policy"
+        "Request for Proposals (RFPs)"
       ],
-      "text": "If “no”, only Canadian Suppliers are eligible.",
+      "text": "To implement the Policy in RFP s in the tender notice, buyers are to:",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "paragraph",
-      "heading": "Step 4: Determine which suppliers are eligible under the Policy",
+      "block_type": "list_item",
+      "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 4: Determine which suppliers are eligible under the Policy"
+        "Request for Proposals (RFPs)"
       ],
-      "text": "If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.",
+      "text": "identify applicable trade agreements as per the usual process",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "heading",
-      "heading": "Step 5: Implementation in contractual documents",
+      "block_type": "list_item",
+      "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 5: Implementation in contractual documents"
+        "Request for Proposals (RFPs)"
       ],
-      "text": "Step 5: Implementation in contractual documents",
+      "text": "include one of the following in the description field of the tender notice:",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
-      "block_type": "paragraph",
-      "heading": "Step 5: Implementation in contractual documents",
+      "block_type": "list_item",
+      "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 5: Implementation in contractual documents"
+        "Request for Proposals (RFPs)"
       ],
-      "text": "For all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.",
+      "text": "If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”",
       "order": 33,
       "metadata": {}
     },
     {
       "block_id": "block_0034",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Request for Proposals (RFPs)"
       ],
-      "text": "Request for Proposals (RFPs)",
+      "text": "If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"",
       "order": 34,
       "metadata": {}
     },
@@ -1444,12 +1412,11 @@
       "block_type": "paragraph",
       "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Request for Proposals (RFPs)"
       ],
-      "text": "To implement the Policy in RFP s in the tender notice, buyers are to:",
+      "text": "In the RFP buyers are to:",
       "order": 35,
       "metadata": {}
     },
@@ -1458,12 +1425,11 @@
       "block_type": "list_item",
       "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Request for Proposals (RFPs)"
       ],
-      "text": "identify applicable trade agreements as per the usual process",
+      "text": "include the appropriate reciprocal procurement clauses",
       "order": 36,
       "metadata": {}
     },
@@ -1472,96 +1438,89 @@
       "block_type": "list_item",
       "heading": "Request for Proposals (RFPs)",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Request for Proposals (RFPs)"
       ],
-      "text": "include one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"",
+      "text": "adjust as needed for the specific requirement",
       "order": 37,
       "metadata": {}
     },
     {
       "block_id": "block_0038",
-      "block_type": "list_item",
-      "heading": "Request for Proposals (RFPs)",
+      "block_type": "heading",
+      "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Request for Proposals (RFPs)"
+        "Supply arrangements"
       ],
-      "text": "If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”",
+      "text": "Supply arrangements",
       "order": 38,
       "metadata": {}
     },
     {
       "block_id": "block_0039",
-      "block_type": "list_item",
-      "heading": "Request for Proposals (RFPs)",
+      "block_type": "paragraph",
+      "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Request for Proposals (RFPs)"
+        "Supply arrangements"
       ],
-      "text": "If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"",
+      "text": "Existing supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.",
       "order": 39,
       "metadata": {}
     },
     {
       "block_id": "block_0040",
       "block_type": "paragraph",
-      "heading": "Request for Proposals (RFPs)",
+      "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Request for Proposals (RFPs)"
+        "Supply arrangements"
       ],
-      "text": "In the RFP buyers are to:",
+      "text": "To implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .",
       "order": 40,
       "metadata": {}
     },
     {
       "block_id": "block_0041",
-      "block_type": "list_item",
-      "heading": "Request for Proposals (RFPs)",
+      "block_type": "paragraph",
+      "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Request for Proposals (RFPs)"
+        "Supply arrangements"
       ],
-      "text": "include the appropriate reciprocal procurement clauses",
+      "text": "In the RFSA tender notice, buyers are to:",
       "order": 41,
       "metadata": {}
     },
     {
       "block_id": "block_0042",
       "block_type": "list_item",
-      "heading": "Request for Proposals (RFPs)",
+      "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Request for Proposals (RFPs)"
+        "Supply arrangements"
       ],
-      "text": "adjust as needed for the specific requirement",
+      "text": "identify applicable trade agreements",
       "order": 42,
       "metadata": {}
     },
     {
       "block_id": "block_0043",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Supply arrangements"
       ],
-      "text": "Supply arrangements",
+      "text": "include this statement in the Description field:",
       "order": 43,
       "metadata": {}
     },
@@ -1570,12 +1529,11 @@
       "block_type": "paragraph",
       "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Supply arrangements"
       ],
-      "text": "Existing supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.",
+      "text": "“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".",
       "order": 44,
       "metadata": {}
     },
@@ -1584,12 +1542,11 @@
       "block_type": "paragraph",
       "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Supply arrangements"
       ],
-      "text": "To implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .",
+      "text": "In the RFSA buyers are to include the relevant reciprocal procurement clause.",
       "order": 45,
       "metadata": {}
     },
@@ -1598,138 +1555,128 @@
       "block_type": "paragraph",
       "heading": "Supply arrangements",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Supply arrangements"
       ],
-      "text": "In the RFSA tender notice, buyers are to:",
+      "text": "For individual solicitations under the supply arrangement, follow the RFP instructions above.",
       "order": 46,
       "metadata": {}
     },
     {
       "block_id": "block_0047",
-      "block_type": "list_item",
-      "heading": "Supply arrangements",
+      "block_type": "heading",
+      "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Supply arrangements"
+        "Standing offers"
       ],
-      "text": "identify applicable trade agreements",
+      "text": "Standing offers",
       "order": 47,
       "metadata": {}
     },
     {
       "block_id": "block_0048",
-      "block_type": "list_item",
-      "heading": "Supply arrangements",
+      "block_type": "paragraph",
+      "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Supply arrangements"
+        "Standing offers"
       ],
-      "text": "include this statement in the Description field:",
+      "text": "When renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):",
       "order": 48,
       "metadata": {}
     },
     {
       "block_id": "block_0049",
       "block_type": "paragraph",
-      "heading": "Supply arrangements",
+      "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Supply arrangements"
+        "Standing offers"
       ],
-      "text": "“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".",
+      "text": "Option A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).",
       "order": 49,
       "metadata": {}
     },
     {
       "block_id": "block_0050",
       "block_type": "paragraph",
-      "heading": "Supply arrangements",
+      "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Supply arrangements"
+        "Standing offers"
       ],
-      "text": "In the RFSA buyers are to include the relevant reciprocal procurement clause.",
+      "text": "Option B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).",
       "order": 50,
       "metadata": {}
     },
     {
       "block_id": "block_0051",
       "block_type": "paragraph",
-      "heading": "Supply arrangements",
+      "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Supply arrangements"
+        "Standing offers"
       ],
-      "text": "For individual solicitations under the supply arrangement, follow the RFP instructions above.",
+      "text": "In the RFSO tender notice, buyers are to:",
       "order": 51,
       "metadata": {}
     },
     {
       "block_id": "block_0052",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "Standing offers",
+      "text": "identify applicable trade agreements, as normal",
       "order": 52,
       "metadata": {}
     },
     {
       "block_id": "block_0053",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "When renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):",
+      "text": "include one of these statements in the description field:",
       "order": 53,
       "metadata": {}
     },
     {
       "block_id": "block_0054",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "Option A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).",
+      "text": "If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”",
       "order": 54,
       "metadata": {}
     },
     {
       "block_id": "block_0055",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "Option B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).",
+      "text": "If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.",
       "order": 55,
       "metadata": {}
     },
@@ -1738,12 +1685,11 @@
       "block_type": "paragraph",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "In the RFSO tender notice, buyers are to:",
+      "text": "In the RFSO , buyers are then to:",
       "order": 56,
       "metadata": {}
     },
@@ -1752,12 +1698,11 @@
       "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "identify applicable trade agreements, as normal",
+      "text": "include reciprocal procurement clauses and adjust as appropriate",
       "order": 57,
       "metadata": {}
     },
@@ -1766,96 +1711,89 @@
       "block_type": "list_item",
       "heading": "Standing offers",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Standing offers"
       ],
-      "text": "include one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.",
+      "text": "if using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.",
       "order": 58,
       "metadata": {}
     },
     {
       "block_id": "block_0059",
-      "block_type": "list_item",
-      "heading": "Standing offers",
+      "block_type": "heading",
+      "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Standing offers"
+        "Step 6: Evaluation process"
       ],
-      "text": "If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”",
+      "text": "Step 6: Evaluation process",
       "order": 59,
       "metadata": {}
     },
     {
       "block_id": "block_0060",
-      "block_type": "list_item",
-      "heading": "Standing offers",
+      "block_type": "paragraph",
+      "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Standing offers"
+        "Step 6: Evaluation process"
       ],
-      "text": "If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.",
+      "text": "For procurements subject to the Policy, suppliers must declare that they are either",
       "order": 60,
       "metadata": {}
     },
     {
       "block_id": "block_0061",
-      "block_type": "paragraph",
-      "heading": "Standing offers",
+      "block_type": "list_item",
+      "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Standing offers"
+        "Step 6: Evaluation process"
       ],
-      "text": "In the RFSO , buyers are then to:",
+      "text": "a Canadian supplier, or",
       "order": 61,
       "metadata": {}
     },
     {
       "block_id": "block_0062",
       "block_type": "list_item",
-      "heading": "Standing offers",
+      "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Standing offers"
+        "Step 6: Evaluation process"
       ],
-      "text": "include reciprocal procurement clauses and adjust as appropriate",
+      "text": "a Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))",
       "order": 62,
       "metadata": {}
     },
     {
       "block_id": "block_0063",
-      "block_type": "list_item",
-      "heading": "Standing offers",
+      "block_type": "paragraph",
+      "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Standing offers"
+        "Step 6: Evaluation process"
       ],
-      "text": "if using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.",
+      "text": "This declaration is mandatory and assessed on pass/fail basis.",
       "order": 63,
       "metadata": {}
     },
     {
       "block_id": "block_0064",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 6: Evaluation process"
       ],
-      "text": "Step 6: Evaluation process",
+      "text": "Reciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.",
       "order": 64,
       "metadata": {}
     },
@@ -1864,222 +1802,206 @@
       "block_type": "paragraph",
       "heading": "Step 6: Evaluation process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 6: Evaluation process"
       ],
-      "text": "For procurements subject to the Policy, suppliers must declare that they are either",
+      "text": "Buyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.",
       "order": 65,
       "metadata": {}
     },
     {
       "block_id": "block_0066",
-      "block_type": "list_item",
-      "heading": "Step 6: Evaluation process",
+      "block_type": "heading",
+      "heading": "Step 7: Post-award",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 6: Evaluation process"
+        "Step 7: Post-award"
       ],
-      "text": "a Canadian supplier, or",
+      "text": "Step 7: Post-award",
       "order": 66,
       "metadata": {}
     },
     {
       "block_id": "block_0067",
-      "block_type": "list_item",
-      "heading": "Step 6: Evaluation process",
+      "block_type": "paragraph",
+      "heading": "Step 7: Post-award",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 6: Evaluation process"
+        "Step 7: Post-award"
       ],
-      "text": "a Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))",
+      "text": "Contractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.",
       "order": 67,
       "metadata": {}
     },
     {
       "block_id": "block_0068",
       "block_type": "paragraph",
-      "heading": "Step 6: Evaluation process",
+      "heading": "Step 7: Post-award",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 6: Evaluation process"
+        "Step 7: Post-award"
       ],
-      "text": "This declaration is mandatory and assessed on pass/fail basis.",
+      "text": "If a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.",
       "order": 68,
       "metadata": {}
     },
     {
       "block_id": "block_0069",
       "block_type": "paragraph",
-      "heading": "Step 6: Evaluation process",
+      "heading": "Step 7: Post-award",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 6: Evaluation process"
+        "Step 7: Post-award"
       ],
-      "text": "Reciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.",
+      "text": "Under the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.",
       "order": 69,
       "metadata": {}
     },
     {
       "block_id": "block_0070",
-      "block_type": "paragraph",
-      "heading": "Step 6: Evaluation process",
+      "block_type": "heading",
+      "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 6: Evaluation process"
+        "Step 8: Verification process"
       ],
-      "text": "Buyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.",
+      "text": "Step 8: Verification process",
       "order": 70,
       "metadata": {}
     },
     {
       "block_id": "block_0071",
-      "block_type": "heading",
-      "heading": "Step 7: Post-award",
+      "block_type": "paragraph",
+      "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 7: Post-award"
+        "Step 8: Verification process"
       ],
-      "text": "Step 7: Post-award",
+      "text": "Suppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.",
       "order": 71,
       "metadata": {}
     },
     {
       "block_id": "block_0072",
       "block_type": "paragraph",
-      "heading": "Step 7: Post-award",
+      "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 7: Post-award"
+        "Step 8: Verification process"
       ],
-      "text": "Contractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.",
+      "text": "Canada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.",
       "order": 72,
       "metadata": {}
     },
     {
       "block_id": "block_0073",
       "block_type": "paragraph",
-      "heading": "Step 7: Post-award",
+      "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 7: Post-award"
+        "Step 8: Verification process"
       ],
-      "text": "If a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.",
+      "text": "If an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).",
       "order": 73,
       "metadata": {}
     },
     {
       "block_id": "block_0074",
       "block_type": "paragraph",
-      "heading": "Step 7: Post-award",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 7: Post-award"
-      ],
-      "text": "Under the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.",
-      "order": 74,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0075",
-      "block_type": "heading",
       "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Step 8: Verification process",
-      "order": 75,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0076",
-      "block_type": "paragraph",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Suppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.",
-      "order": 76,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0077",
-      "block_type": "paragraph",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Canada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.",
-      "order": 77,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0078",
-      "block_type": "paragraph",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "If an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).",
-      "order": 78,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0079",
-      "block_type": "paragraph",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 8: Verification process"
       ],
       "text": "If the supplier is found to be compliant, no further action is required.",
-      "order": 79,
+      "order": 74,
       "metadata": {}
     },
     {
-      "block_id": "block_0080",
+      "block_id": "block_0075",
       "block_type": "paragraph",
       "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 8: Verification process"
       ],
       "text": "If a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include:",
+      "order": 75,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0076",
+      "block_type": "list_item",
+      "heading": "Step 8: Verification process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 8: Verification process"
+      ],
+      "text": "Disqualifying the offer",
+      "order": 76,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0077",
+      "block_type": "list_item",
+      "heading": "Step 8: Verification process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 8: Verification process"
+      ],
+      "text": "Declaring the supplier ineligible for contract award",
+      "order": 77,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0078",
+      "block_type": "list_item",
+      "heading": "Step 8: Verification process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 8: Verification process"
+      ],
+      "text": "Retaining the bid deposit",
+      "order": 78,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0079",
+      "block_type": "list_item",
+      "heading": "Step 8: Verification process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 8: Verification process"
+      ],
+      "text": "Termination the contract",
+      "order": 79,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0080",
+      "block_type": "list_item",
+      "heading": "Step 8: Verification process",
+      "heading_path": [
+        "Interim Policy on Reciprocal Procurement",
+        "Procedure for implementing the Policy on Reciprocal Procurement",
+        "Step 8: Verification process"
+      ],
+      "text": "Setting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts",
       "order": 80,
       "metadata": {}
     },
@@ -2088,12 +2010,11 @@
       "block_type": "list_item",
       "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 8: Verification process"
       ],
-      "text": "Disqualifying the offer",
+      "text": "Retaining holdbacks",
       "order": 81,
       "metadata": {}
     },
@@ -2102,128 +2023,54 @@
       "block_type": "list_item",
       "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Declaring the supplier ineligible for contract award",
-      "order": 82,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0083",
-      "block_type": "list_item",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Retaining the bid deposit",
-      "order": 83,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0084",
-      "block_type": "list_item",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Termination the contract",
-      "order": 84,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0085",
-      "block_type": "list_item",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Setting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts",
-      "order": 85,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0086",
-      "block_type": "list_item",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
-        "Interim Policy on Reciprocal Procurement",
-        "Procedure for implementing the Policy on Reciprocal Procurement",
-        "Step 8: Verification process"
-      ],
-      "text": "Retaining holdbacks",
-      "order": 86,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0087",
-      "block_type": "list_item",
-      "heading": "Step 8: Verification process",
-      "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 8: Verification process"
       ],
       "text": "Disqualifying the supplier from future procurements under the Ineligibility and Suspension Policy",
-      "order": 87,
+      "order": 82,
       "metadata": {}
     },
     {
-      "block_id": "block_0088",
+      "block_id": "block_0083",
       "block_type": "paragraph",
       "heading": "Step 8: Verification process",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Procedure for implementing the Policy on Reciprocal Procurement",
         "Step 8: Verification process"
       ],
       "text": "Buyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network).",
-      "order": 88,
+      "order": 83,
       "metadata": {}
     },
     {
-      "block_id": "block_0089",
+      "block_id": "block_0084",
       "block_type": "heading",
       "heading": "Enquiries",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Enquiries"
       ],
       "text": "Enquiries",
-      "order": 89,
+      "order": 84,
       "metadata": {}
     },
     {
-      "block_id": "block_0090",
+      "block_id": "block_0085",
       "block_type": "paragraph",
       "heading": "Enquiries",
       "heading_path": [
-        "Buyer's Guide Interim Policy on Reciprocal Procurement",
         "Interim Policy on Reciprocal Procurement",
         "Enquiries"
       ],
       "text": "Enquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
-      "order": 90,
+      "order": 85,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Interim Policy on Reciprocal Procurement Canada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases. Procedure for implementing the Policy on Reciprocal Procurement Under the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction. Buyers should follow the steps outlined below. Step 1: Determine trade agreement applicability As an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy. Note: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement. For additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network). Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process Next, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy: If the Policy does not apply, buyers can proceed directly to step 4 If the Policy applies, proceed to step 3 Canada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies. Note : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies. Step 3: Determine if an exception to the Policy applies Exceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary. Applying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements. The list of exceptions to the Policy can be found in the section 4.4 of the Policy. While buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied. An exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents. As per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file. Step 4: Determine which suppliers are eligible under the Policy Buyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement: a. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible. Step 5: Implementation in contractual documents For all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy. Request for Proposals (RFPs) To implement the Policy in RFP s in the tender notice, buyers are to: identify applicable trade agreements as per the usual process include one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\" In the RFP buyers are to: include the appropriate reciprocal procurement clauses adjust as needed for the specific requirement Supply arrangements Existing supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements. To implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA . In the RFSA tender notice, buyers are to: identify applicable trade agreements include this statement in the Description field: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\". In the RFSA buyers are to include the relevant reciprocal procurement clause. For individual solicitations under the supply arrangement, follow the RFP instructions above. Standing offers When renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO): Option A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups). Option B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups). In the RFSO tender notice, buyers are to: identify applicable trade agreements, as normal include one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. In the RFSO , buyers are then to: include reciprocal procurement clauses and adjust as appropriate if using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies. Step 6: Evaluation process For procurements subject to the Policy, suppliers must declare that they are either a Canadian supplier, or a Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s)) This declaration is mandatory and assessed on pass/fail basis. Reciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification. Buyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8. Step 7: Post-award Contractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract. If a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8. Under the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor. Step 8: Verification process Suppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested. Canada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration. If an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network). If the supplier is found to be compliant, no further action is required. If a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include: Disqualifying the offer Declaring the supplier ineligible for contract award Retaining the bid deposit Termination the contract Setting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts Retaining holdbacks Disqualifying the supplier from future procurements under the Ineligibility and Suspension Policy Buyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network). Enquiries Enquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .\n\nInterim Policy on Reciprocal Procurement\n\nCanada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.\n\nProcedure for implementing the Policy on Reciprocal Procurement\n\nUnder the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.\n\nBuyers should follow the steps outlined below.\n\nStep 1: Determine trade agreement applicability\n\nAs an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.\n\nNote: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.\n\nFor additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network).\n\nStep 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process\n\nNext, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy:\n\nIf the Policy does not apply, buyers can proceed directly to step 4\n\nIf the Policy applies, proceed to step 3\n\nCanada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.\n\nNote : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies.\n\nStep 3: Determine if an exception to the Policy applies\n\nExceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.\n\nApplying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.\n\nThe list of exceptions to the Policy can be found in the section 4.4 of the Policy.\n\nWhile buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.\n\nAn exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.\n\nAs per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file.\n\nStep 4: Determine which suppliers are eligible under the Policy\n\nBuyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement:\n\na. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nIf “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible.\n\nIf “yes”, proceed to c.\n\nIf “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible.\n\nIf “no”, proceed to d.\n\nIf “no”, only Canadian Suppliers are eligible.\n\nIf “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nStep 5: Implementation in contractual documents\n\nFor all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.\n\nRequest for Proposals (RFPs)\n\nTo implement the Policy in RFP s in the tender notice, buyers are to:\n\nidentify applicable trade agreements as per the usual process\n\ninclude one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIf the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”\n\nIf the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIn the RFP buyers are to:\n\ninclude the appropriate reciprocal procurement clauses\n\nadjust as needed for the specific requirement\n\nSupply arrangements\n\nExisting supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.\n\nTo implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .\n\nIn the RFSA tender notice, buyers are to:\n\nidentify applicable trade agreements\n\ninclude this statement in the Description field:\n\n“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".\n\nIn the RFSA buyers are to include the relevant reciprocal procurement clause.\n\nFor individual solicitations under the supply arrangement, follow the RFP instructions above.\n\nStanding offers\n\nWhen renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):\n\nOption A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).\n\nOption B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).\n\nIn the RFSO tender notice, buyers are to:\n\nidentify applicable trade agreements, as normal\n\ninclude one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIf the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”\n\nIf the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIn the RFSO , buyers are then to:\n\ninclude reciprocal procurement clauses and adjust as appropriate\n\nif using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.\n\nStep 6: Evaluation process\n\nFor procurements subject to the Policy, suppliers must declare that they are either\n\na Canadian supplier, or\n\na Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))\n\nThis declaration is mandatory and assessed on pass/fail basis.\n\nReciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.\n\nBuyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.\n\nStep 7: Post-award\n\nContractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.\n\nIf a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.\n\nUnder the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.\n\nStep 8: Verification process\n\nSuppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.\n\nCanada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.\n\nIf an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).\n\nIf the supplier is found to be compliant, no further action is required.\n\nIf a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include:\n\nDisqualifying the offer\n\nDeclaring the supplier ineligible for contract award\n\nRetaining the bid deposit\n\nTermination the contract\n\nSetting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts\n\nRetaining holdbacks\n\nDisqualifying the supplier from future procurements under the Ineligibility and Suspension Policy\n\nBuyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network).\n\nEnquiries\n\nEnquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
-  "markdown_text": "Interim Policy on Reciprocal Procurement Canada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases. Procedure for implementing the Policy on Reciprocal Procurement Under the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction. Buyers should follow the steps outlined below. Step 1: Determine trade agreement applicability As an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy. Note: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement. For additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network). Step 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process Next, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy: If the Policy does not apply, buyers can proceed directly to step 4 If the Policy applies, proceed to step 3 Canada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies. Note : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies. Step 3: Determine if an exception to the Policy applies Exceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary. Applying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements. The list of exceptions to the Policy can be found in the section 4.4 of the Policy. While buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied. An exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents. As per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file. Step 4: Determine which suppliers are eligible under the Policy Buyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement: a. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible. Step 5: Implementation in contractual documents For all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy. Request for Proposals (RFPs) To implement the Policy in RFP s in the tender notice, buyers are to: identify applicable trade agreements as per the usual process include one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\" In the RFP buyers are to: include the appropriate reciprocal procurement clauses adjust as needed for the specific requirement Supply arrangements Existing supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements. To implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA . In the RFSA tender notice, buyers are to: identify applicable trade agreements include this statement in the Description field: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\". In the RFSA buyers are to include the relevant reciprocal procurement clause. For individual solicitations under the supply arrangement, follow the RFP instructions above. Standing offers When renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO): Option A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups). Option B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups). In the RFSO tender notice, buyers are to: identify applicable trade agreements, as normal include one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. In the RFSO , buyers are then to: include reciprocal procurement clauses and adjust as appropriate if using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies. Step 6: Evaluation process For procurements subject to the Policy, suppliers must declare that they are either a Canadian supplier, or a Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s)) This declaration is mandatory and assessed on pass/fail basis. Reciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification. Buyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8. Step 7: Post-award Contractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract. If a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8. Under the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor. Step 8: Verification process Suppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested. Canada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration. If an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network). If the supplier is found to be compliant, no further action is required. If a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include: Disqualifying the offer Declaring the supplier ineligible for contract award Retaining the bid deposit Termination the contract Setting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts Retaining holdbacks Disqualifying the supplier from future procurements under the Ineligibility and Suspension Policy Buyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network). Enquiries Enquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .\n\nInterim Policy on Reciprocal Procurement\n\nCanada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.\n\nProcedure for implementing the Policy on Reciprocal Procurement\n\nUnder the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.\n\nBuyers should follow the steps outlined below.\n\nStep 1: Determine trade agreement applicability\n\nAs an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.\n\nNote: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.\n\nFor additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network).\n\nStep 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process\n\nNext, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy:\n\nIf the Policy does not apply, buyers can proceed directly to step 4\n\nIf the Policy applies, proceed to step 3\n\nCanada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.\n\nNote : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies.\n\nStep 3: Determine if an exception to the Policy applies\n\nExceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.\n\nApplying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.\n\nThe list of exceptions to the Policy can be found in the section 4.4 of the Policy.\n\nWhile buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.\n\nAn exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.\n\nAs per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file.\n\nStep 4: Determine which suppliers are eligible under the Policy\n\nBuyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement:\n\na. Determine which trade agreements apply to the procurement. Proceed to b. b. Is the procurement subject to the Policy on Reciprocal Procurement? If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c. c. Do any exceptions to the Policy apply to the procurement? If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d. d. Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nIf “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible.\n\nIf “yes”, proceed to c.\n\nIf “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible.\n\nIf “no”, proceed to d.\n\nIf “no”, only Canadian Suppliers are eligible.\n\nIf “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nStep 5: Implementation in contractual documents\n\nFor all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.\n\nRequest for Proposals (RFPs)\n\nTo implement the Policy in RFP s in the tender notice, buyers are to:\n\nidentify applicable trade agreements as per the usual process\n\ninclude one of the following in the description field of the tender notice: If the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).” If the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIf the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”\n\nIf the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIn the RFP buyers are to:\n\ninclude the appropriate reciprocal procurement clauses\n\nadjust as needed for the specific requirement\n\nSupply arrangements\n\nExisting supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.\n\nTo implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .\n\nIn the RFSA tender notice, buyers are to:\n\nidentify applicable trade agreements\n\ninclude this statement in the Description field:\n\n“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".\n\nIn the RFSA buyers are to include the relevant reciprocal procurement clause.\n\nFor individual solicitations under the supply arrangement, follow the RFP instructions above.\n\nStanding offers\n\nWhen renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):\n\nOption A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).\n\nOption B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).\n\nIn the RFSO tender notice, buyers are to:\n\nidentify applicable trade agreements, as normal\n\ninclude one of these statements in the description field: If the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]” If the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIf the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”\n\nIf the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIn the RFSO , buyers are then to:\n\ninclude reciprocal procurement clauses and adjust as appropriate\n\nif using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.\n\nStep 6: Evaluation process\n\nFor procurements subject to the Policy, suppliers must declare that they are either\n\na Canadian supplier, or\n\na Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))\n\nThis declaration is mandatory and assessed on pass/fail basis.\n\nReciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.\n\nBuyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.\n\nStep 7: Post-award\n\nContractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.\n\nIf a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.\n\nUnder the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.\n\nStep 8: Verification process\n\nSuppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.\n\nCanada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.\n\nIf an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).\n\nIf the supplier is found to be compliant, no further action is required.\n\nIf a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include:\n\nDisqualifying the offer\n\nDeclaring the supplier ineligible for contract award\n\nRetaining the bid deposit\n\nTermination the contract\n\nSetting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts\n\nRetaining holdbacks\n\nDisqualifying the supplier from future procurements under the Ineligibility and Suspension Policy\n\nBuyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network).\n\nEnquiries\n\nEnquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
+  "raw_text": "Interim Policy on Reciprocal Procurement\n\nCanada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.\n\nProcedure for implementing the Policy on Reciprocal Procurement\n\nUnder the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.\n\nBuyers should follow the steps outlined below.\n\nStep 1: Determine trade agreement applicability\n\nAs an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.\n\nNote: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.\n\nFor additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network).\n\nStep 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process\n\nNext, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy:\n\nIf the Policy does not apply, buyers can proceed directly to step 4\n\nIf the Policy applies, proceed to step 3\n\nCanada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.\n\nNote : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies.\n\nStep 3: Determine if an exception to the Policy applies\n\nExceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.\n\nApplying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.\n\nThe list of exceptions to the Policy can be found in the section 4.4 of the Policy.\n\nWhile buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.\n\nAn exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.\n\nAs per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file.\n\nStep 4: Determine which suppliers are eligible under the Policy\n\nBuyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement:\n\na.: b. | Determine which trade agreements apply to the procurement.: Is the procurement subject to the Policy on Reciprocal Procurement? | Proceed to b.: If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c.\n\na.: c. | Determine which trade agreements apply to the procurement.: Do any exceptions to the Policy apply to the procurement? | Proceed to b.: If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d.\n\na.: d. | Determine which trade agreements apply to the procurement.: Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) | Proceed to b.: If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nStep 5: Implementation in contractual documents\n\nFor all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.\n\nRequest for Proposals (RFPs)\n\nTo implement the Policy in RFP s in the tender notice, buyers are to:\n\nidentify applicable trade agreements as per the usual process\n\ninclude one of the following in the description field of the tender notice:\n\nIf the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”\n\nIf the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIn the RFP buyers are to:\n\ninclude the appropriate reciprocal procurement clauses\n\nadjust as needed for the specific requirement\n\nSupply arrangements\n\nExisting supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.\n\nTo implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .\n\nIn the RFSA tender notice, buyers are to:\n\nidentify applicable trade agreements\n\ninclude this statement in the Description field:\n\n“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".\n\nIn the RFSA buyers are to include the relevant reciprocal procurement clause.\n\nFor individual solicitations under the supply arrangement, follow the RFP instructions above.\n\nStanding offers\n\nWhen renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):\n\nOption A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).\n\nOption B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).\n\nIn the RFSO tender notice, buyers are to:\n\nidentify applicable trade agreements, as normal\n\ninclude one of these statements in the description field:\n\nIf the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”\n\nIf the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIn the RFSO , buyers are then to:\n\ninclude reciprocal procurement clauses and adjust as appropriate\n\nif using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.\n\nStep 6: Evaluation process\n\nFor procurements subject to the Policy, suppliers must declare that they are either\n\na Canadian supplier, or\n\na Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))\n\nThis declaration is mandatory and assessed on pass/fail basis.\n\nReciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.\n\nBuyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.\n\nStep 7: Post-award\n\nContractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.\n\nIf a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.\n\nUnder the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.\n\nStep 8: Verification process\n\nSuppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.\n\nCanada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.\n\nIf an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).\n\nIf the supplier is found to be compliant, no further action is required.\n\nIf a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include:\n\nDisqualifying the offer\n\nDeclaring the supplier ineligible for contract award\n\nRetaining the bid deposit\n\nTermination the contract\n\nSetting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts\n\nRetaining holdbacks\n\nDisqualifying the supplier from future procurements under the Ineligibility and Suspension Policy\n\nBuyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network).\n\nEnquiries\n\nEnquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
+  "markdown_text": "Interim Policy on Reciprocal Procurement\n\nCanada’s Interim Policy on Reciprocal Procurement limits access to competitive contracts to Canadian suppliers and suppliers from countries that provide reciprocal access to Canadian suppliers through trade agreements, only when such trade agreements apply. Canadian suppliers remain eligible in all cases.\n\nProcedure for implementing the Policy on Reciprocal Procurement\n\nUnder the Interim Policy on Reciprocal Procurement (referred to as the Policy herein after), a foreign supplier's eligibility will depend on whether the procurement solicitation is subject to a trade agreement between Canada and the supplier's jurisdiction.\n\nBuyers should follow the steps outlined below.\n\nStep 1: Determine trade agreement applicability\n\nAs an initial and mandatory step, buyers must determine which trade agreements, if any, apply to a particular procurement. This helps you assess which suppliers are eligible for the procurement under the Policy.\n\nNote: This step must be completed in all cases, regardless of whether the Policy is ultimately applicable to the procurement.\n\nFor additional guidance, buyers should refer to Trade agreement applicability and to GCpedia trade agreement guidance (accessible only on the Government of Canada network).\n\nStep 2: Determine if the Policy on Reciprocal Procurement applies to the procurement process\n\nNext, buyers are to determine whether this Policy applies, in accordance with Sections 4.1 - 4.3 of the Policy:\n\nIf the Policy does not apply, buyers can proceed directly to step 4\n\nIf the Policy applies, proceed to step 3\n\nCanada reserves the right to apply to the requirements of the Policy to procurements that would normally be excluded. If a business owner requests to apply the Policy to an excluded procurement, then buyers are to proceed as if the Policy applies.\n\nNote : You must continue to comply with all obligations under any applicable trade agreement, regardless of whether the Policy applies.\n\nStep 3: Determine if an exception to the Policy applies\n\nExceptions to the Policy must be applied on a case-by-case basis, and only where strictly necessary.\n\nApplying an exception expands competition for a specific procurement to a broader group of suppliers (i.e. Suppliers of non-trading partners) to ensure that Canada can acquire what it needs. However, applying an exception does not eliminate the requirement to solicit offers, nor does it override the applicability of trade agreements.\n\nThe list of exceptions to the Policy can be found in the section 4.4 of the Policy.\n\nWhile buyers and business owners are expected to collaborate in conducting any necessary market analysis or pre-solicitation activities, the business owner is ultimately responsible for providing sufficient evidence to justify the use of an exception. If the business owner fails to provide sufficient evidence to the satisfaction of the buyer, an exception cannot be applied.\n\nAn exception must be fully documented on the procurement file, including a clear description of the procurement strategy, the rationale for applying the exception, and any other supporting documents.\n\nAs per Section 4.5 of the Policy, the “best value” and “public interest” exceptions must be approved in writing by an assistant deputy minister (ADM), or a person of equivalent rank, who is responsible for awarding the designated contract. This approval must be included in the procurement file.\n\nStep 4: Determine which suppliers are eligible under the Policy\n\nBuyers should next determine, based on the previous steps, which suppliers are eligible for a particular procurement:\n\na.: b. | Determine which trade agreements apply to the procurement.: Is the procurement subject to the Policy on Reciprocal Procurement? | Proceed to b.: If “no”, there are no restrictions on suppliers' eligibility under the Policy – Canadian Suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading partners are all eligible. If “yes”, proceed to c.\n\na.: c. | Determine which trade agreements apply to the procurement.: Do any exceptions to the Policy apply to the procurement? | Proceed to b.: If “yes”, there are no restrictions on a supplier's eligibility under the Policy – Canadian suppliers, Suppliers of an Applicable Trading Partner, and Suppliers of Non-Trading Partners are all eligible. If “no”, proceed to d.\n\na.: d. | Determine which trade agreements apply to the procurement.: Do any international trade agreements apply to the procurement? (refer to Legislation and policies – Trade agreements – General principles of trade agreements for further details) | Proceed to b.: If “no”, only Canadian Suppliers are eligible. If “yes”, only Canadian Suppliers and Suppliers of an Applicable Trading Partner are eligible.\n\nStep 5: Implementation in contractual documents\n\nFor all new procurements, buyers must include the appropriate language and clauses based on which suppliers are eligible under the Policy.\n\nRequest for Proposals (RFPs)\n\nTo implement the Policy in RFP s in the tender notice, buyers are to:\n\nidentify applicable trade agreements as per the usual process\n\ninclude one of the following in the description field of the tender notice:\n\nIf the Policy applies : “Policy on Reciprocal Procurement: This solicitation of offers is open only to Canadian Suppliers (if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner).”\n\nIf the Policy doesn’t apply: “Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading partner and Suppliers of a Non-Trading Partner, are eligible for this solicitation of offers.\"\n\nIn the RFP buyers are to:\n\ninclude the appropriate reciprocal procurement clauses\n\nadjust as needed for the specific requirement\n\nSupply arrangements\n\nExisting supply arrangements are to be amended to include the reciprocal procurement clauses at the next renewal, which must be completed by July 14, 2026. Until the Supply Arrangement is renewed, solicitations issued under existing SA s must not include reciprocal procurement requirements.\n\nTo implement the Policy, the Request for Supply Arrangement (RFSA) should indicate that suppliers from any jurisdiction may prequalify under the RFSA , but include an indication that competition may be limited for individual requirements under the SA .\n\nIn the RFSA tender notice, buyers are to:\n\nidentify applicable trade agreements\n\ninclude this statement in the Description field:\n\n“Policy on Reciprocal Procurement: Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers. Eligibility for individual Requests for Proposals against the Supply Arrangement may be limited to Canadian Suppliers and Suppliers of an Applicable Trading Partner\".\n\nIn the RFSA buyers are to include the relevant reciprocal procurement clause.\n\nFor individual solicitations under the supply arrangement, follow the RFP instructions above.\n\nStanding offers\n\nWhen renewing standing offers, include the reciprocal procurement clauses. Buyers have two options for how to apply the Policy in a Request for Standing Offers (RFSO):\n\nOption A : Limit eligibility to Canadian suppliers, and if any international trade agreements are applicable, Suppliers of an applicable trading partner. Use this approach when you expect all resulting contracts can be fulfilled by those groups (e.g., exceptions are not expected to be applied to call-ups).\n\nOption B : Allow suppliers of any jurisdiction to prequalify under the RFSO but give right of first refusal to Canadian suppliers and if applicable, Suppliers of an applicable trading partner. Use this when some contracts may need to be fulfilled by Suppliers of a Non-Trading Partner (e.g. it is expected the exceptions will be applied to certain call-ups).\n\nIn the RFSO tender notice, buyers are to:\n\nidentify applicable trade agreements, as normal\n\ninclude one of these statements in the description field:\n\nIf the Policy applies to the RFSO (Option A): “This solicitation of offers is open only to Canadian Suppliers, [if subject to any international trade agreement(s): and to Suppliers of an Applicable Trading Partner. ]”\n\nIf the Policy applies to the RFSO via a right of first refusal (Option B) or if the Policy doesn’t apply: “Barring any other conditions or international sanctions, Canadian Suppliers, Suppliers of an Applicable Trading Partner and Suppliers of a Non-Trading Partner are eligible for this solicitation of offers.\n\nIn the RFSO , buyers are then to:\n\ninclude reciprocal procurement clauses and adjust as appropriate\n\nif using Option B, formulate the call-up procedures to sort suppliers into a stream of Canadian Suppliers and, if applicable, Suppliers of an applicable trading partner. The stream of Canadian Suppliers and Suppliers of an applicable trading partner must have a right of first refusal on any call-ups. Suppliers of a non-trading partner can be awarded call-ups only where no Canadian Suppliers or Suppliers of an applicable trading partner can fulfill the requirements of the call-up, or where a reciprocal procurement exception applies.\n\nStep 6: Evaluation process\n\nFor procurements subject to the Policy, suppliers must declare that they are either\n\na Canadian supplier, or\n\na Supplier of an applicable trading partner (if the procurement is subject to any international trade agreement(s))\n\nThis declaration is mandatory and assessed on pass/fail basis.\n\nReciprocal Procurement declarations must be provided before contract award. Buyers may request the declaration at the time of offer closing, but they cannot make it a mandatory requirement at offer closing. If not submitted at offer closing, buyers must notify the supplier to submit it within two business days of the notification.\n\nBuyers should confirm the address provided by the supplier in their declaration is valid. If there are concerns about the accuracy of the declaration, buyers should follow the verification process outlined in Step 8.\n\nStep 7: Post-award\n\nContractors must continue to comply with their declaration and the requirements of the Policy for the entire duration of the contract.\n\nIf a buyer or business owner suspects that a contractor no longer meets these requirements, they are to follow the verification process outlined in Step 8.\n\nUnder the Policy, contractors are required to notify the buyer of any change in location during the contract period. If the relocation results in non-compliance with the requirements of the Policy, the buyer should consult Legal Services to determine the appropriate response. This decision should take into account the operational impact, and any representations made by the contractor.\n\nStep 8: Verification process\n\nSuppliers must remain compliant with their declaration throughout the duration of the tendering period and the resulting contract. Suppliers are not required to provide evidence of eligibility at the time of offer submission; however, suppliers should have evidence of eligibility ready in case it is audited or requested.\n\nCanada reserves the right to verify supplier declarations at any time, including in response to credible complaints, as part of routine reviews, or following contract award. Buyers may request additional documentation to verify a supplier’s declaration.\n\nIf an in-depth verification is initiated, buyers are to send a letter requesting the supplier provide supporting evidence within five business days using the template letter available for download: Letter A and Letter B (accessible only on the Government of Canada network).\n\nIf the supplier is found to be compliant, no further action is required.\n\nIf a supplier fails to provide the requested evidence or is found to have submitted false or misleading information, potential actions may include:\n\nDisqualifying the offer\n\nDeclaring the supplier ineligible for contract award\n\nRetaining the bid deposit\n\nTermination the contract\n\nSetting aside the Standing Offer or Supply Arrangement and terminating any resulting call-ups/contracts\n\nRetaining holdbacks\n\nDisqualifying the supplier from future procurements under the Ineligibility and Suspension Policy\n\nBuyers must consult Legal Services before deciding on a remedy. This decision should take into account the operational impact and any representations made by the supplier. Template letters to inform suppliers whose offer is disqualified due to failing to meet the conditions for participation requirements set out the Policy are available for download Letter A and Letter B accessible only on the Government of Canada network).\n\nEnquiries\n\nEnquiries on the application of the Policy on Reciprocal Procurement should be directed to the Strategic Policy Sector's Trade Agreement Unit .",
   "provenance_paths": {}
 }

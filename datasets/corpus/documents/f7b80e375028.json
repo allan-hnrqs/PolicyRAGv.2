@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:39.975392Z",
-  "content_hash": "98707292cb43b87441c61b2ac6d4427b7540888ed923258c4d45505e7b186442",
-  "word_count": 34,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "29300d94155a4ec7633482d7e5e30c8c7431d615dad6615799d44fbc65ff29fe",
+  "word_count": 17,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -627,42 +627,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations",
+      "block_type": "heading",
+      "heading": "Considerations for solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations"
+        "Considerations for solicitations"
       ],
-      "text": "Considerations for solicitations This section provides information on various key elements to consider when creating a solicitation.",
+      "text": "Considerations for solicitations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Considerations for solicitations",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations",
-        "Considerations for solicitations"
-      ],
-      "text": "Considerations for solicitations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Considerations for solicitations",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations",
         "Considerations for solicitations"
       ],
       "text": "This section provides information on various key elements to consider when creating a solicitation.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Considerations for solicitations This section provides information on various key elements to consider when creating a solicitation.\n\nConsiderations for solicitations\n\nThis section provides information on various key elements to consider when creating a solicitation.",
-  "markdown_text": "Considerations for solicitations This section provides information on various key elements to consider when creating a solicitation.\n\nConsiderations for solicitations\n\nThis section provides information on various key elements to consider when creating a solicitation.",
+  "raw_text": "Considerations for solicitations\n\nThis section provides information on various key elements to consider when creating a solicitation.",
+  "markdown_text": "Considerations for solicitations\n\nThis section provides information on various key elements to consider when creating a solicitation.",
   "provenance_paths": {}
 }

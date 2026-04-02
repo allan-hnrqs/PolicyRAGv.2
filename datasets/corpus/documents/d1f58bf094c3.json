@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:39.036904Z",
-  "content_hash": "8ae9c832fbf9a43462016277847efcfa7d3ad7c8333911478ac890c2af12d4d1",
-  "word_count": 302,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "caa9b79c73c576b12ea7d09a85a9af7fdf1c84147e2b5fab835efa98ed5a5e57",
+  "word_count": 151,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,24 +529,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Prepare for an evaluation",
+      "block_type": "heading",
+      "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation"
+        "Prepare for an evaluation"
       ],
-      "text": "Prepare for an evaluation As the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation. For example, this means verifying: that certifications or securities required at offer closing are included offers are properly signed the offeror is identified (particularly important in the case of joint ventures) acceptance of the terms and conditions of the offer and resulting contract the ability to meet a clearly specified critical delivery schedule whether the offer is conditional (for example, limitation of liability) that all documents required to determine technical responsiveness have been submitted Note : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
+      "text": "Prepare for an evaluation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "Prepare for an evaluation",
+      "text": "As the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.",
       "order": 1,
       "metadata": {}
     },
@@ -555,22 +554,20 @@
       "block_type": "paragraph",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "As the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.",
+      "text": "For example, this means verifying:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "For example, this means verifying:",
+      "text": "that certifications or securities required at offer closing are included",
       "order": 3,
       "metadata": {}
     },
@@ -579,10 +576,9 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "that certifications or securities required at offer closing are included",
+      "text": "offers are properly signed",
       "order": 4,
       "metadata": {}
     },
@@ -591,10 +587,9 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "offers are properly signed",
+      "text": "the offeror is identified (particularly important in the case of joint ventures)",
       "order": 5,
       "metadata": {}
     },
@@ -603,10 +598,9 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "the offeror is identified (particularly important in the case of joint ventures)",
+      "text": "acceptance of the terms and conditions of the offer and resulting contract",
       "order": 6,
       "metadata": {}
     },
@@ -615,10 +609,9 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "acceptance of the terms and conditions of the offer and resulting contract",
+      "text": "the ability to meet a clearly specified critical delivery schedule",
       "order": 7,
       "metadata": {}
     },
@@ -627,10 +620,9 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "the ability to meet a clearly specified critical delivery schedule",
+      "text": "whether the offer is conditional (for example, limitation of liability)",
       "order": 8,
       "metadata": {}
     },
@@ -639,40 +631,26 @@
       "block_type": "list_item",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
-      "text": "whether the offer is conditional (for example, limitation of liability)",
+      "text": "that all documents required to determine technical responsiveness have been submitted",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
-      "heading": "Prepare for an evaluation",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
-        "Prepare for an evaluation"
-      ],
-      "text": "that all documents required to determine technical responsiveness have been submitted",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Prepare for an evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Prepare for an evaluation",
         "Prepare for an evaluation"
       ],
       "text": "Note : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Prepare for an evaluation As the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation. For example, this means verifying: that certifications or securities required at offer closing are included offers are properly signed the offeror is identified (particularly important in the case of joint ventures) acceptance of the terms and conditions of the offer and resulting contract the ability to meet a clearly specified critical delivery schedule whether the offer is conditional (for example, limitation of liability) that all documents required to determine technical responsiveness have been submitted Note : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.\n\nPrepare for an evaluation\n\nAs the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.\n\nFor example, this means verifying:\n\nthat certifications or securities required at offer closing are included\n\noffers are properly signed\n\nthe offeror is identified (particularly important in the case of joint ventures)\n\nacceptance of the terms and conditions of the offer and resulting contract\n\nthe ability to meet a clearly specified critical delivery schedule\n\nwhether the offer is conditional (for example, limitation of liability)\n\nthat all documents required to determine technical responsiveness have been submitted\n\nNote : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
-  "markdown_text": "Prepare for an evaluation As the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation. For example, this means verifying: that certifications or securities required at offer closing are included offers are properly signed the offeror is identified (particularly important in the case of joint ventures) acceptance of the terms and conditions of the offer and resulting contract the ability to meet a clearly specified critical delivery schedule whether the offer is conditional (for example, limitation of liability) that all documents required to determine technical responsiveness have been submitted Note : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.\n\nPrepare for an evaluation\n\nAs the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.\n\nFor example, this means verifying:\n\nthat certifications or securities required at offer closing are included\n\noffers are properly signed\n\nthe offeror is identified (particularly important in the case of joint ventures)\n\nacceptance of the terms and conditions of the offer and resulting contract\n\nthe ability to meet a clearly specified critical delivery schedule\n\nwhether the offer is conditional (for example, limitation of liability)\n\nthat all documents required to determine technical responsiveness have been submitted\n\nNote : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
+  "raw_text": "Prepare for an evaluation\n\nAs the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.\n\nFor example, this means verifying:\n\nthat certifications or securities required at offer closing are included\n\noffers are properly signed\n\nthe offeror is identified (particularly important in the case of joint ventures)\n\nacceptance of the terms and conditions of the offer and resulting contract\n\nthe ability to meet a clearly specified critical delivery schedule\n\nwhether the offer is conditional (for example, limitation of liability)\n\nthat all documents required to determine technical responsiveness have been submitted\n\nNote : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
+  "markdown_text": "Prepare for an evaluation\n\nAs the buyer, you are responsible for determining the completeness of an offer as specified in the solicitation of offers. You must ensure that all information required at offer closing is available and ready to be provided to the evaluators before starting the technical and financial evaluation.\n\nFor example, this means verifying:\n\nthat certifications or securities required at offer closing are included\n\noffers are properly signed\n\nthe offeror is identified (particularly important in the case of joint ventures)\n\nacceptance of the terms and conditions of the offer and resulting contract\n\nthe ability to meet a clearly specified critical delivery schedule\n\nwhether the offer is conditional (for example, limitation of liability)\n\nthat all documents required to determine technical responsiveness have been submitted\n\nNote : It is recommended that buyers create and use a check list of all requirements which can be used throughout the evaluation of each offer.",
   "provenance_paths": {}
 }

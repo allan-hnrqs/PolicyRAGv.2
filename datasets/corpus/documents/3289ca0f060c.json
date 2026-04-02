@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:44.192362Z",
   "content_hash": "6f14a680e84ce8bf6cd9c4c15267a8af03da0e57be396d664deab47b9099a09a",
   "word_count": 41,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Source lists",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Source lists",
         "Source lists"
       ],
       "text": "Source lists",
@@ -784,7 +783,6 @@
       "block_type": "list_item",
       "heading": "Source lists",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Source lists",
         "Source lists"
       ],
       "text": "Terminations for convenience should not result in any adjustment to source lists",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Source lists",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Source lists",
         "Source lists"
       ],
       "text": "Terminations by mutual consent may require corrections to source lists",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Source lists",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Source lists",
         "Source lists"
       ],
       "text": "Terminations for default are usually the cause for the deletion or suspension of contractors from source lists",

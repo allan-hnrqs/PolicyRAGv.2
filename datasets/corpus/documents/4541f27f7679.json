@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:39.816914Z",
   "content_hash": "578c4b2a2d6c4cb4b4317575e6ed039891c6196d43d0da6fcfcc804af53ea7fd",
   "word_count": 39,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -784,7 +784,6 @@
       "block_type": "heading",
       "heading": "Terminate or suspend a contract",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract",
         "Terminate or suspend a contract"
       ],
       "text": "Terminate or suspend a contract",
@@ -796,7 +795,6 @@
       "block_type": "paragraph",
       "heading": "Terminate or suspend a contract",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract",
         "Terminate or suspend a contract"
       ],
       "text": "This section provides information on terminating and suspending contracts. It covers stop work orders, termination for convenience, default, or by mutual consent, as well as actions related to financial security and surety bond compliance.",

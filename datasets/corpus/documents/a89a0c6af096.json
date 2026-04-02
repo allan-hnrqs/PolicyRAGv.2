@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:55.837925Z",
-  "content_hash": "0ed9d33d2185decf7e5eaa45a35661daf6cac4860b02d08cc3065bf91510ac01",
-  "word_count": 390,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "672bb3e4adf18eedc12386581918119258dc5c444a54481cc1e66f21bc86cd33",
+  "word_count": 195,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,49 +511,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contacting businesses directly during the solicitation period",
+      "block_type": "heading",
+      "heading": "Contacting businesses directly during the solicitation period",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period"
+        "Contacting businesses directly during the solicitation period"
       ],
-      "text": "Contacting businesses directly during the solicitation period Sometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time. Prompt and non-preferential communication Written communications will show that all businesses had access to the same information at the same time. The content shared must be limited to providing: only brief information about the goods or services being procured appropriate references (for example reference number, source ID, solicitation number) only include information that is available on GETS The recommended approach for notifying businesses is to provide them with a copy of the NPP . Documentation You must document your file with the date and the names of businesses contacted.",
+      "text": "Contacting businesses directly during the solicitation period",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contacting businesses directly during the solicitation period",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period"
       ],
-      "text": "Contacting businesses directly during the solicitation period",
+      "text": "Sometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Contacting businesses directly during the solicitation period",
+      "block_type": "heading",
+      "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
-        "Contacting businesses directly during the solicitation period"
+        "Contacting businesses directly during the solicitation period",
+        "Prompt and non-preferential communication"
       ],
-      "text": "Sometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.",
+      "text": "Prompt and non-preferential communication",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "Prompt and non-preferential communication",
+      "text": "Written communications will show that all businesses had access to the same information at the same time.",
       "order": 3,
       "metadata": {}
     },
@@ -562,24 +560,22 @@
       "block_type": "paragraph",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "Written communications will show that all businesses had access to the same information at the same time.",
+      "text": "The content shared must be limited to providing:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "The content shared must be limited to providing:",
+      "text": "only brief information about the goods or services being procured",
       "order": 5,
       "metadata": {}
     },
@@ -588,11 +584,10 @@
       "block_type": "list_item",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "only brief information about the goods or services being procured",
+      "text": "appropriate references (for example reference number, source ID, solicitation number)",
       "order": 6,
       "metadata": {}
     },
@@ -601,69 +596,52 @@
       "block_type": "list_item",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "appropriate references (for example reference number, source ID, solicitation number)",
+      "text": "only include information that is available on GETS",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Prompt and non-preferential communication",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Prompt and non-preferential communication"
       ],
-      "text": "only include information that is available on GETS",
+      "text": "The recommended approach for notifying businesses is to provide them with a copy of the NPP .",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Prompt and non-preferential communication",
+      "block_type": "heading",
+      "heading": "Documentation",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
-        "Prompt and non-preferential communication"
+        "Documentation"
       ],
-      "text": "The recommended approach for notifying businesses is to provide them with a copy of the NPP .",
+      "text": "Documentation",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
-      "heading": "Documentation",
-      "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
-        "Contacting businesses directly during the solicitation period",
-        "Documentation"
-      ],
-      "text": "Documentation",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Documentation",
       "heading_path": [
-        "Buyer's Guide Contacting businesses directly during the solicitation period",
         "Contacting businesses directly during the solicitation period",
         "Documentation"
       ],
       "text": "You must document your file with the date and the names of businesses contacted.",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Contacting businesses directly during the solicitation period Sometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time. Prompt and non-preferential communication Written communications will show that all businesses had access to the same information at the same time. The content shared must be limited to providing: only brief information about the goods or services being procured appropriate references (for example reference number, source ID, solicitation number) only include information that is available on GETS The recommended approach for notifying businesses is to provide them with a copy of the NPP . Documentation You must document your file with the date and the names of businesses contacted.\n\nContacting businesses directly during the solicitation period\n\nSometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.\n\nPrompt and non-preferential communication\n\nWritten communications will show that all businesses had access to the same information at the same time.\n\nThe content shared must be limited to providing:\n\nonly brief information about the goods or services being procured\n\nappropriate references (for example reference number, source ID, solicitation number)\n\nonly include information that is available on GETS\n\nThe recommended approach for notifying businesses is to provide them with a copy of the NPP .\n\nDocumentation\n\nYou must document your file with the date and the names of businesses contacted.",
-  "markdown_text": "Contacting businesses directly during the solicitation period Sometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time. Prompt and non-preferential communication Written communications will show that all businesses had access to the same information at the same time. The content shared must be limited to providing: only brief information about the goods or services being procured appropriate references (for example reference number, source ID, solicitation number) only include information that is available on GETS The recommended approach for notifying businesses is to provide them with a copy of the NPP . Documentation You must document your file with the date and the names of businesses contacted.\n\nContacting businesses directly during the solicitation period\n\nSometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.\n\nPrompt and non-preferential communication\n\nWritten communications will show that all businesses had access to the same information at the same time.\n\nThe content shared must be limited to providing:\n\nonly brief information about the goods or services being procured\n\nappropriate references (for example reference number, source ID, solicitation number)\n\nonly include information that is available on GETS\n\nThe recommended approach for notifying businesses is to provide them with a copy of the NPP .\n\nDocumentation\n\nYou must document your file with the date and the names of businesses contacted.",
+  "raw_text": "Contacting businesses directly during the solicitation period\n\nSometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.\n\nPrompt and non-preferential communication\n\nWritten communications will show that all businesses had access to the same information at the same time.\n\nThe content shared must be limited to providing:\n\nonly brief information about the goods or services being procured\n\nappropriate references (for example reference number, source ID, solicitation number)\n\nonly include information that is available on GETS\n\nThe recommended approach for notifying businesses is to provide them with a copy of the NPP .\n\nDocumentation\n\nYou must document your file with the date and the names of businesses contacted.",
+  "markdown_text": "Contacting businesses directly during the solicitation period\n\nSometimes commodity or market knowledge may lead a buyer to conclude that businesses supplying a good or service will not see or respond to a solicitation of offers if it appears only on the Government Electronic Tendering Service (GETS). To stimulate effective competition and seek best value for Canadian taxpayers, you may notify all such known businesses that the solicitation opportunity has been posted. This communication must only occur after the Notice of Proposed Procurement (NPP) has been posted on the GETS . You should contact businesses as soon as possible afterwards so that they do not lose time.\n\nPrompt and non-preferential communication\n\nWritten communications will show that all businesses had access to the same information at the same time.\n\nThe content shared must be limited to providing:\n\nonly brief information about the goods or services being procured\n\nappropriate references (for example reference number, source ID, solicitation number)\n\nonly include information that is available on GETS\n\nThe recommended approach for notifying businesses is to provide them with a copy of the NPP .\n\nDocumentation\n\nYou must document your file with the date and the names of businesses contacted.",
   "provenance_paths": {}
 }

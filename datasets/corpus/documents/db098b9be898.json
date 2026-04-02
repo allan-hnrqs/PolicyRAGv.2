@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:46.381857Z",
-  "content_hash": "bea4c26d41965ba51ba41715fe2608aa086fa291664b8dc53df885294b3f38a9",
-  "word_count": 102,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "3318080dfc0dcc833420fb1323fb7beb84719a87576767b4889ece6f5ba7841c",
+  "word_count": 51,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,42 +960,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Financial considerations - Invoicing instructions",
+      "block_type": "heading",
+      "heading": "Invoicing instructions",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Invoicing instructions"
+        "Invoicing instructions"
       ],
-      "text": "Invoicing instructions When contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
+      "text": "Invoicing instructions",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Invoicing instructions",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Invoicing instructions",
-        "Invoicing instructions"
-      ],
-      "text": "Invoicing instructions",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Invoicing instructions",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Invoicing instructions",
         "Invoicing instructions"
       ],
       "text": "When contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Invoicing instructions When contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.\n\nInvoicing instructions\n\nWhen contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
-  "markdown_text": "Invoicing instructions When contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.\n\nInvoicing instructions\n\nWhen contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
+  "raw_text": "Invoicing instructions\n\nWhen contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
+  "markdown_text": "Invoicing instructions\n\nWhen contracting for goods or services, it is essential that invoicing instructions are clearly outlined to ensure proper and timely payment. Invoices must be submitted in accordance with all details specified under the contract. The contractor cannot submit any invoices until all work identified in the invoice is completed.",
   "provenance_paths": {}
 }

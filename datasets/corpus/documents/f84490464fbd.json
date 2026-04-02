@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:13.944249Z",
-  "content_hash": "cc087a450f4eeefb49e8686921d91f63f6ccbcda6cde1868eb646557b600692d",
-  "word_count": 307,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f0988386bbbbe17e1a13be8e5e334618b8fd3d8c0650ac9d7fdcc36a03ed354a",
+  "word_count": 140,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Types of basis of payment",
+      "block_type": "heading",
+      "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment"
+        "Types of basis of payment"
       ],
-      "text": "Types of basis of payment There are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include: fixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments fixed time/unit rate with or without an economic price adjustment cost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs provisional price When choosing the types of basis of payment to use for a contract there are many items to consider, including: clarity of the scope and requirements market forces contract duration price validation contractor readiness applicability of incentives Note : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
+      "text": "Types of basis of payment",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "Types of basis of payment",
+      "text": "There are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "There are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:",
+      "text": "fixed price options:",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments",
+      "text": "fixed price competitive",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed price competitive",
+      "text": "fixed price non-competitive",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed price non-competitive",
+      "text": "fixed price subject to economic price adjustments",
       "order": 5,
       "metadata": {}
     },
@@ -1034,10 +1029,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed price subject to economic price adjustments",
+      "text": "fixed time/unit rate with or without an economic price adjustment",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed time/unit rate with or without an economic price adjustment",
+      "text": "cost reimbursable options, with:",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "cost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs",
+      "text": "no fee",
       "order": 8,
       "metadata": {}
     },
@@ -1070,10 +1062,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "no fee",
+      "text": "fixed fee",
       "order": 9,
       "metadata": {}
     },
@@ -1082,10 +1073,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fixed fee",
+      "text": "target cost / incentive fee",
       "order": 10,
       "metadata": {}
     },
@@ -1094,10 +1084,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "target cost / incentive fee",
+      "text": "fee based on actual costs",
       "order": 11,
       "metadata": {}
     },
@@ -1106,34 +1095,31 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "fee based on actual costs",
+      "text": "provisional price",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "provisional price",
+      "text": "When choosing the types of basis of payment to use for a contract there are many items to consider, including:",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "When choosing the types of basis of payment to use for a contract there are many items to consider, including:",
+      "text": "clarity of the scope and requirements",
       "order": 14,
       "metadata": {}
     },
@@ -1142,10 +1128,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "clarity of the scope and requirements",
+      "text": "market forces",
       "order": 15,
       "metadata": {}
     },
@@ -1154,10 +1139,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "market forces",
+      "text": "contract duration",
       "order": 16,
       "metadata": {}
     },
@@ -1166,10 +1150,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "contract duration",
+      "text": "price validation",
       "order": 17,
       "metadata": {}
     },
@@ -1178,10 +1161,9 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "price validation",
+      "text": "contractor readiness",
       "order": 18,
       "metadata": {}
     },
@@ -1190,40 +1172,26 @@
       "block_type": "list_item",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
-      "text": "contractor readiness",
+      "text": "applicability of incentives",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
-      "heading": "Types of basis of payment",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
-        "Types of basis of payment"
-      ],
-      "text": "applicability of incentives",
-      "order": 20,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0021",
       "block_type": "paragraph",
       "heading": "Types of basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Types of basis of payment",
         "Types of basis of payment"
       ],
       "text": "Note : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
-      "order": 21,
+      "order": 20,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Types of basis of payment There are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include: fixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments fixed time/unit rate with or without an economic price adjustment cost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs provisional price When choosing the types of basis of payment to use for a contract there are many items to consider, including: clarity of the scope and requirements market forces contract duration price validation contractor readiness applicability of incentives Note : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.\n\nTypes of basis of payment\n\nThere are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:\n\nfixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments\n\nfixed price competitive\n\nfixed price non-competitive\n\nfixed price subject to economic price adjustments\n\nfixed time/unit rate with or without an economic price adjustment\n\ncost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs\n\nno fee\n\nfixed fee\n\ntarget cost / incentive fee\n\nfee based on actual costs\n\nprovisional price\n\nWhen choosing the types of basis of payment to use for a contract there are many items to consider, including:\n\nclarity of the scope and requirements\n\nmarket forces\n\ncontract duration\n\nprice validation\n\ncontractor readiness\n\napplicability of incentives\n\nNote : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
-  "markdown_text": "Types of basis of payment There are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include: fixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments fixed time/unit rate with or without an economic price adjustment cost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs provisional price When choosing the types of basis of payment to use for a contract there are many items to consider, including: clarity of the scope and requirements market forces contract duration price validation contractor readiness applicability of incentives Note : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.\n\nTypes of basis of payment\n\nThere are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:\n\nfixed price options: fixed price competitive fixed price non-competitive fixed price subject to economic price adjustments\n\nfixed price competitive\n\nfixed price non-competitive\n\nfixed price subject to economic price adjustments\n\nfixed time/unit rate with or without an economic price adjustment\n\ncost reimbursable options, with: no fee fixed fee target cost / incentive fee fee based on actual costs\n\nno fee\n\nfixed fee\n\ntarget cost / incentive fee\n\nfee based on actual costs\n\nprovisional price\n\nWhen choosing the types of basis of payment to use for a contract there are many items to consider, including:\n\nclarity of the scope and requirements\n\nmarket forces\n\ncontract duration\n\nprice validation\n\ncontractor readiness\n\napplicability of incentives\n\nNote : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
+  "raw_text": "Types of basis of payment\n\nThere are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:\n\nfixed price options:\n\nfixed price competitive\n\nfixed price non-competitive\n\nfixed price subject to economic price adjustments\n\nfixed time/unit rate with or without an economic price adjustment\n\ncost reimbursable options, with:\n\nno fee\n\nfixed fee\n\ntarget cost / incentive fee\n\nfee based on actual costs\n\nprovisional price\n\nWhen choosing the types of basis of payment to use for a contract there are many items to consider, including:\n\nclarity of the scope and requirements\n\nmarket forces\n\ncontract duration\n\nprice validation\n\ncontractor readiness\n\napplicability of incentives\n\nNote : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
+  "markdown_text": "Types of basis of payment\n\nThere are four main types of basis of payment used in contracts and it is possible to use multiple types in one contract. These include:\n\nfixed price options:\n\nfixed price competitive\n\nfixed price non-competitive\n\nfixed price subject to economic price adjustments\n\nfixed time/unit rate with or without an economic price adjustment\n\ncost reimbursable options, with:\n\nno fee\n\nfixed fee\n\ntarget cost / incentive fee\n\nfee based on actual costs\n\nprovisional price\n\nWhen choosing the types of basis of payment to use for a contract there are many items to consider, including:\n\nclarity of the scope and requirements\n\nmarket forces\n\ncontract duration\n\nprice validation\n\ncontractor readiness\n\napplicability of incentives\n\nNote : A contract using a fixed time/unit rate or a cost reimbursable basis of payment must include either a ceiling price or a limitation of expenditure.",
   "provenance_paths": {}
 }

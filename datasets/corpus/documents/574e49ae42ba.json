@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:21.912656Z",
-  "content_hash": "5c3b2d93f518d6e8ac773adc578cb827c82613f9989ec60537d4c60045c117c8",
-  "word_count": 196,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "ef09111f20aed79e93efe5347a33fba4c387912b48bf3185c9df871dd4225d14",
+  "word_count": 98,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Security and timelines",
+      "block_type": "heading",
+      "heading": "Security and timelines",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and timelines"
+        "Security and timelines"
       ],
-      "text": "Security and timelines You should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression. Consider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
+      "text": "Security and timelines",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Security and timelines",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and timelines",
         "Security and timelines"
       ],
-      "text": "Security and timelines",
+      "text": "You should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Security and timelines",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and timelines",
-        "Security and timelines"
-      ],
-      "text": "You should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Security and timelines",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and timelines",
         "Security and timelines"
       ],
       "text": "Consider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Security and timelines You should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression. Consider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.\n\nSecurity and timelines\n\nYou should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.\n\nConsider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
-  "markdown_text": "Security and timelines You should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression. Consider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.\n\nSecurity and timelines\n\nYou should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.\n\nConsider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
+  "raw_text": "Security and timelines\n\nYou should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.\n\nConsider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
+  "markdown_text": "Security and timelines\n\nYou should consider security requirements when developing procurement strategies and project plans and the procurement schedule. Security screening timelines can affect acquisition milestones and may be relevant throughout the entire project or during specific phases. It is essential that procurement strategies and approval documents clearly identify all security requirements to ensure compliance and timely project progression.\n\nConsider the significant time required for organization, personnel, physical and IT security screenings. Adequate lead time should be given to the CSP to process these screenings and allow offerors sufficient time to implement security recommendations before the contract award.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:22.474465Z",
-  "content_hash": "4b2608272530f00e3d9f77f924ea8670ba52ef443d4432b496e92e8300987b3b",
-  "word_count": 798,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "bae741a6c1726694ef15be3a49321ee9e97902f01cd996f42da439227f7f07cf",
+  "word_count": 399,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Socioeconomic considerations - Accessibility",
+      "block_type": "heading",
+      "heading": "Accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility"
+        "Accessibility"
       ],
-      "text": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+      "text": "Accessibility",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility"
       ],
-      "text": "Accessibility",
+      "text": "Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility"
       ],
-      "text": "Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:",
+      "text": "investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility"
       ],
-      "text": "investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time",
+      "text": "establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria",
       "order": 3,
       "metadata": {}
     },
@@ -1010,90 +1007,85 @@
       "block_type": "list_item",
       "heading": "Accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility"
       ],
-      "text": "establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria",
+      "text": "defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
-      "heading": "Accessibility",
+      "block_type": "heading",
+      "heading": "Evaluation indicators for accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility"
+        "Accessibility",
+        "Evaluation indicators for accessibility"
       ],
-      "text": "defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards",
+      "text": "Evaluation indicators for accessibility",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Evaluation indicators for accessibility",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility"
       ],
-      "text": "Evaluation indicators for accessibility",
+      "text": "Following are examples of indicators that should be examined in developing evaluation criteria.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Evaluation indicators for accessibility",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility"
-      ],
-      "text": "Following are examples of indicators that should be examined in developing evaluation criteria.",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
       "block_type": "heading",
       "heading": "Market capacity",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Market capacity"
       ],
       "text": "Market capacity",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     },
     {
-      "block_id": "block_0009",
+      "block_id": "block_0008",
       "block_type": "paragraph",
       "heading": "Market capacity",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Market capacity"
       ],
       "text": "Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.",
-      "order": 9,
+      "order": 8,
       "metadata": {}
     },
     {
-      "block_id": "block_0010",
+      "block_id": "block_0009",
       "block_type": "heading",
       "heading": "Procurement instruments",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Procurement instruments"
       ],
       "text": "Procurement instruments",
+      "order": 9,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0010",
+      "block_type": "paragraph",
+      "heading": "Procurement instruments",
+      "heading_path": [
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "text": "Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.",
       "order": 10,
       "metadata": {}
     },
@@ -1102,26 +1094,24 @@
       "block_type": "paragraph",
       "heading": "Procurement instruments",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility",
-        "Procurement instruments"
-      ],
-      "text": "Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Procurement instruments",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Procurement instruments"
       ],
       "text": "Performance testing",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "list_item",
+      "heading": "Procurement instruments",
+      "heading_path": [
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "text": "Consider the usefulness of prototypes or product demonstrations to validate accessibility features",
       "order": 12,
       "metadata": {}
     },
@@ -1130,12 +1120,11 @@
       "block_type": "list_item",
       "heading": "Procurement instruments",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Procurement instruments"
       ],
-      "text": "Consider the usefulness of prototypes or product demonstrations to validate accessibility features",
+      "text": "Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility",
       "order": 13,
       "metadata": {}
     },
@@ -1144,40 +1133,37 @@
       "block_type": "list_item",
       "heading": "Procurement instruments",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility",
-        "Procurement instruments"
-      ],
-      "text": "Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "list_item",
-      "heading": "Procurement instruments",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Procurement instruments"
       ],
       "text": "Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "heading",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
       "text": "Adaptability",
+      "order": 15,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0016",
+      "block_type": "paragraph",
+      "heading": "Adaptability",
+      "heading_path": [
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "text": "Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.",
       "order": 16,
       "metadata": {}
     },
@@ -1186,12 +1172,11 @@
       "block_type": "paragraph",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
-      "text": "Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.",
+      "text": "Accessibility Standards",
       "order": 17,
       "metadata": {}
     },
@@ -1200,12 +1185,11 @@
       "block_type": "paragraph",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
-      "text": "Accessibility Standards",
+      "text": "Determine if the goods or services comply with standards for accessibility and if these features are the default settings.",
       "order": 18,
       "metadata": {}
     },
@@ -1214,26 +1198,24 @@
       "block_type": "paragraph",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility",
-        "Adaptability"
-      ],
-      "text": "Determine if the goods or services comply with standards for accessibility and if these features are the default settings.",
-      "order": 19,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Adaptability",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
       "text": "For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "list_item",
+      "heading": "Adaptability",
+      "heading_path": [
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "text": "Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)",
       "order": 20,
       "metadata": {}
     },
@@ -1242,12 +1224,11 @@
       "block_type": "list_item",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
-      "text": "Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)",
+      "text": "Office of Public Service Accessibility webpage (accessible only on the Government of Canada network)",
       "order": 21,
       "metadata": {}
     },
@@ -1256,12 +1237,11 @@
       "block_type": "list_item",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
-      "text": "Office of Public Service Accessibility webpage (accessible only on the Government of Canada network)",
+      "text": "Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement",
       "order": 22,
       "metadata": {}
     },
@@ -1270,68 +1250,63 @@
       "block_type": "list_item",
       "heading": "Adaptability",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility",
-        "Adaptability"
-      ],
-      "text": "Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
-      "block_type": "list_item",
-      "heading": "Adaptability",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Adaptability"
       ],
       "text": "Digital Accessibility Toolkit",
-      "order": 24,
+      "order": 23,
       "metadata": {}
     },
     {
-      "block_id": "block_0025",
+      "block_id": "block_0024",
       "block_type": "heading",
       "heading": "Maintenance",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Maintenance"
       ],
       "text": "Maintenance",
-      "order": 25,
+      "order": 24,
       "metadata": {}
     },
     {
-      "block_id": "block_0026",
+      "block_id": "block_0025",
       "block_type": "paragraph",
       "heading": "Maintenance",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Maintenance"
       ],
       "text": "Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.",
-      "order": 26,
+      "order": 25,
       "metadata": {}
     },
     {
-      "block_id": "block_0027",
+      "block_id": "block_0026",
       "block_type": "heading",
       "heading": "Packaging",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Packaging"
       ],
       "text": "Packaging",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "paragraph",
+      "heading": "Packaging",
+      "heading_path": [
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Packaging"
+      ],
+      "text": "Consider if packaging takes into account accessibility (e.g. easy to open).",
       "order": 27,
       "metadata": {}
     },
@@ -1340,32 +1315,17 @@
       "block_type": "paragraph",
       "heading": "Packaging",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
-        "Accessibility",
-        "Evaluation indicators for accessibility",
-        "Packaging"
-      ],
-      "text": "Consider if packaging takes into account accessibility (e.g. easy to open).",
-      "order": 28,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0029",
-      "block_type": "paragraph",
-      "heading": "Packaging",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Accessibility",
         "Accessibility",
         "Evaluation indicators for accessibility",
         "Packaging"
       ],
       "text": "Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
-      "order": 29,
+      "order": 28,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.\n\nAccessibility\n\nClients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:\n\ninvesting in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time\n\nestablishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria\n\ndefining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards\n\nEvaluation indicators for accessibility\n\nFollowing are examples of indicators that should be examined in developing evaluation criteria.\n\nMarket capacity\n\nAssess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.\n\nProcurement instruments\n\nEnsure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.\n\nPerformance testing\n\nConsider the usefulness of prototypes or product demonstrations to validate accessibility features\n\nCheck the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility\n\nEvaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance\n\nAdaptability\n\nGoods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.\n\nAccessibility Standards\n\nDetermine if the goods or services comply with standards for accessibility and if these features are the default settings.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:\n\nGuide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)\n\nOffice of Public Service Accessibility webpage (accessible only on the Government of Canada network)\n\nGuide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement\n\nDigital Accessibility Toolkit\n\nMaintenance\n\nProducts should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.\n\nPackaging\n\nConsider if packaging takes into account accessibility (e.g. easy to open).\n\nCheck if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
-  "markdown_text": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.\n\nAccessibility\n\nClients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:\n\ninvesting in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time\n\nestablishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria\n\ndefining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards\n\nEvaluation indicators for accessibility\n\nFollowing are examples of indicators that should be examined in developing evaluation criteria.\n\nMarket capacity\n\nAssess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.\n\nProcurement instruments\n\nEnsure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.\n\nPerformance testing\n\nConsider the usefulness of prototypes or product demonstrations to validate accessibility features\n\nCheck the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility\n\nEvaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance\n\nAdaptability\n\nGoods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.\n\nAccessibility Standards\n\nDetermine if the goods or services comply with standards for accessibility and if these features are the default settings.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:\n\nGuide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)\n\nOffice of Public Service Accessibility webpage (accessible only on the Government of Canada network)\n\nGuide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement\n\nDigital Accessibility Toolkit\n\nMaintenance\n\nProducts should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.\n\nPackaging\n\nConsider if packaging takes into account accessibility (e.g. easy to open).\n\nCheck if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+  "raw_text": "Accessibility\n\nClients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:\n\ninvesting in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time\n\nestablishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria\n\ndefining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards\n\nEvaluation indicators for accessibility\n\nFollowing are examples of indicators that should be examined in developing evaluation criteria.\n\nMarket capacity\n\nAssess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.\n\nProcurement instruments\n\nEnsure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.\n\nPerformance testing\n\nConsider the usefulness of prototypes or product demonstrations to validate accessibility features\n\nCheck the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility\n\nEvaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance\n\nAdaptability\n\nGoods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.\n\nAccessibility Standards\n\nDetermine if the goods or services comply with standards for accessibility and if these features are the default settings.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:\n\nGuide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)\n\nOffice of Public Service Accessibility webpage (accessible only on the Government of Canada network)\n\nGuide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement\n\nDigital Accessibility Toolkit\n\nMaintenance\n\nProducts should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.\n\nPackaging\n\nConsider if packaging takes into account accessibility (e.g. easy to open).\n\nCheck if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+  "markdown_text": "Accessibility\n\nClients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:\n\ninvesting in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time\n\nestablishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria\n\ndefining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards\n\nEvaluation indicators for accessibility\n\nFollowing are examples of indicators that should be examined in developing evaluation criteria.\n\nMarket capacity\n\nAssess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.\n\nProcurement instruments\n\nEnsure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.\n\nPerformance testing\n\nConsider the usefulness of prototypes or product demonstrations to validate accessibility features\n\nCheck the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility\n\nEvaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance\n\nAdaptability\n\nGoods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.\n\nAccessibility Standards\n\nDetermine if the goods or services comply with standards for accessibility and if these features are the default settings.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:\n\nGuide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)\n\nOffice of Public Service Accessibility webpage (accessible only on the Government of Canada network)\n\nGuide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement\n\nDigital Accessibility Toolkit\n\nMaintenance\n\nProducts should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.\n\nPackaging\n\nConsider if packaging takes into account accessibility (e.g. easy to open).\n\nCheck if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
   "provenance_paths": {}
 }

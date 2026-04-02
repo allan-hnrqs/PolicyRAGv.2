@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:00.639160Z",
-  "content_hash": "f73eea461f932ba79599ec94a1f9b4a028e6be1cd353bd4f72783c40b850af6b",
-  "word_count": 208,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "fd4ffac8d105c600fcfef3a259ad761c39419d8cdd2969cb3714de94a5e106b8",
+  "word_count": 104,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Compliance with the Canadian electrical code",
+      "block_type": "heading",
+      "heading": "Compliance with the Canadian electrical code",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Compliance with the Canadian electrical code"
+        "Compliance with the Canadian electrical code"
       ],
-      "text": "Compliance with the Canadian electrical code The client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1. If the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
+      "text": "Compliance with the Canadian electrical code",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Compliance with the Canadian electrical code",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Compliance with the Canadian electrical code",
         "Compliance with the Canadian electrical code"
       ],
-      "text": "Compliance with the Canadian electrical code",
+      "text": "The client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Compliance with the Canadian electrical code",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Compliance with the Canadian electrical code",
-        "Compliance with the Canadian electrical code"
-      ],
-      "text": "The client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Compliance with the Canadian electrical code",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Compliance with the Canadian electrical code",
         "Compliance with the Canadian electrical code"
       ],
       "text": "If the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Compliance with the Canadian electrical code The client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1. If the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.\n\nCompliance with the Canadian electrical code\n\nThe client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.\n\nIf the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
-  "markdown_text": "Compliance with the Canadian electrical code The client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1. If the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.\n\nCompliance with the Canadian electrical code\n\nThe client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.\n\nIf the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
+  "raw_text": "Compliance with the Canadian electrical code\n\nThe client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.\n\nIf the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
+  "markdown_text": "Compliance with the Canadian electrical code\n\nThe client must determine if a requirement is subject to the Canadian Electrical Code, Part I. He must identify situations where certification or approval in accordance with the code is necessary. The contractor must comply with all applicable building codes and standards, including the Canadian Electrical Code, Part 1.\n\nIf the electrical equipment must be either certified or approved, include the appropriate clause in the solicitation document. The equipment may need to be specially inspected by an organization acceptable to the Chief Electrical Inspector of the province, territory or city where the equipment will be installed and operated.",
   "provenance_paths": {}
 }

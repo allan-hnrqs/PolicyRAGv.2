@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:03.376054Z",
   "content_hash": "9292afb8fed25947d093e03dc9aefd783f33a39ef37c126ae71876a1265f21ae",
   "word_count": 124,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Contract close-out activities",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities"
       ],
       "text": "Contract close-out activities",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Contract close-out activities",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities"
       ],
       "text": "When closing out a contract, you, the buyer, must ensure all contract activities are completed. A contract is fully completed when all of the following are complete:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Contract close-out activities",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities"
       ],
       "text": "the required deliverables have been received as specified in the contract",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Contract close-out activities",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities"
       ],
       "text": "the client has accepted the deliverables and the invoice has been paid according to the contract price and basis of payment",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Contract close-out activities",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities"
       ],
       "text": "there are no unresolved work deficiencies, changes, payments, or claims requiring formal release action",
@@ -832,7 +827,6 @@
       "block_type": "heading",
       "heading": "Administrative closure",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities",
         "Administrative closure"
       ],
@@ -845,7 +839,6 @@
       "block_type": "paragraph",
       "heading": "Administrative closure",
       "heading_path": [
-        "Buyer's Guide Close out a contract - Contract close-out activities",
         "Contract close-out activities",
         "Administrative closure"
       ],

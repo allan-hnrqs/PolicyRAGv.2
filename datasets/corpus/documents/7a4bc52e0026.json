@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:49.644111Z",
-  "content_hash": "2828d70b9172bb5b0860c4bbe0029824e47beca4ba89f3fc8ad9726a03e371fb",
-  "word_count": 86,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e817c9d5bc7876eb9c487518a23cb15028e69f03de7ac3c5e9a09ec922a16068",
+  "word_count": 43,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -1120,42 +1120,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Define the requirement",
+      "block_type": "heading",
+      "heading": "Define the requirement",
       "heading_path": [
-        "Buyer's Guide Define the requirement"
+        "Define the requirement"
       ],
-      "text": "Define the requirement This section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
+      "text": "Define the requirement",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Define the requirement",
-      "heading_path": [
-        "Buyer's Guide Define the requirement",
-        "Define the requirement"
-      ],
-      "text": "Define the requirement",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Define the requirement",
       "heading_path": [
-        "Buyer's Guide Define the requirement",
         "Define the requirement"
       ],
       "text": "This section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Define the requirement This section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.\n\nDefine the requirement\n\nThis section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
-  "markdown_text": "Define the requirement This section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.\n\nDefine the requirement\n\nThis section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
+  "raw_text": "Define the requirement\n\nThis section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
+  "markdown_text": "Define the requirement\n\nThis section provides information on the essential aspects of defining procurement requirements from requisition receipt to quality assurance and socioeconomic requirements. Defining procurement requirements is a crucial step in the procurement process, as it lays the foundation for successful outcomes.",
   "provenance_paths": {}
 }

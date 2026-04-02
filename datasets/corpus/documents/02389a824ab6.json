@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:44.760727Z",
-  "content_hash": "c0b7f2e748e8d75d70be4b530a1756cb5cad3a8049eef29bf3888f76a07faa37",
-  "word_count": 1268,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "7bd78bbcf6ef084ad350c0004e8f9e01b79c3005d477288ed611c8889c35d3f3",
+  "word_count": 634,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -963,36 +963,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Financial considerations - Financial security",
+      "block_type": "heading",
+      "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security"
+        "Financial security"
       ],
-      "text": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract contract financial security to ensure that a contractor fulfills its obligations payment bond to protect subcontractors and material suppliers Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified. Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value. Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to: confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement . See the following sections of the Buyer’s Guide for more information on financial security: Award: Offer and contract financial security Manage: Financial security Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade the likelihood that offerors will try to withdraw their offers the consequences if an offeror fails or is unable to enter a contract The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000. To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada. The solicitation document must include: a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract the applicable surety bond. Any deviation must be approved in advance by Legal Services. You must instruct the designated offer receiving unit on how to handle the offer financial securities received. Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account: the type of work and custom of the trade the potential consequences of a contractor’s default the costs versus the risks of providing such security As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient. Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
+      "text": "Financial security",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "Financial security",
+      "text": "There are three types of financial security that can be required from an offeror, including:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "There are three types of financial security that can be required from an offeror, including:",
+      "text": "offer financial security to protect Canada against loss if an offeror fails to enter into a contract",
       "order": 2,
       "metadata": {}
     },
@@ -1001,10 +999,9 @@
       "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "offer financial security to protect Canada against loss if an offeror fails to enter into a contract",
+      "text": "contract financial security to ensure that a contractor fulfills its obligations",
       "order": 3,
       "metadata": {}
     },
@@ -1013,22 +1010,20 @@
       "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "contract financial security to ensure that a contractor fulfills its obligations",
+      "text": "payment bond to protect subcontractors and material suppliers",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "payment bond to protect subcontractors and material suppliers",
+      "text": "Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.",
       "order": 5,
       "metadata": {}
     },
@@ -1037,10 +1032,9 @@
       "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.",
+      "text": "Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.",
       "order": 6,
       "metadata": {}
     },
@@ -1049,22 +1043,20 @@
       "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.",
+      "text": "Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:",
+      "text": "confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided",
       "order": 8,
       "metadata": {}
     },
@@ -1073,22 +1065,20 @@
       "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided",
+      "text": "if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit",
+      "text": "You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .",
       "order": 10,
       "metadata": {}
     },
@@ -1097,22 +1087,20 @@
       "block_type": "paragraph",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .",
+      "text": "See the following sections of the Buyer’s Guide for more information on financial security:",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "See the following sections of the Buyer’s Guide for more information on financial security:",
+      "text": "Award: Offer and contract financial security",
       "order": 12,
       "metadata": {}
     },
@@ -1121,48 +1109,45 @@
       "block_type": "list_item",
       "heading": "Financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security"
       ],
-      "text": "Award: Offer and contract financial security",
+      "text": "Manage: Financial security",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Financial security",
+      "block_type": "heading",
+      "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
-        "Financial security"
+        "Financial security",
+        "Offer financial security"
       ],
-      "text": "Manage: Financial security",
+      "text": "Offer financial security",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "Offer financial security",
+      "text": "When deciding to obtain financial security for an offer, consider:",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "When deciding to obtain financial security for an offer, consider:",
+      "text": "the potential for prequalifying offerors",
       "order": 16,
       "metadata": {}
     },
@@ -1171,11 +1156,10 @@
       "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "the potential for prequalifying offerors",
+      "text": "the type of work and custom of the trade",
       "order": 17,
       "metadata": {}
     },
@@ -1184,11 +1168,10 @@
       "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "the type of work and custom of the trade",
+      "text": "the likelihood that offerors will try to withdraw their offers",
       "order": 18,
       "metadata": {}
     },
@@ -1197,24 +1180,22 @@
       "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "the likelihood that offerors will try to withdraw their offers",
+      "text": "the consequences if an offeror fails or is unable to enter a contract",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "the consequences if an offeror fails or is unable to enter a contract",
+      "text": "The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.",
       "order": 20,
       "metadata": {}
     },
@@ -1223,11 +1204,10 @@
       "block_type": "paragraph",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.",
+      "text": "To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.",
       "order": 21,
       "metadata": {}
     },
@@ -1236,24 +1216,22 @@
       "block_type": "paragraph",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.",
+      "text": "The solicitation document must include:",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "The solicitation document must include:",
+      "text": "a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract",
       "order": 23,
       "metadata": {}
     },
@@ -1262,63 +1240,58 @@
       "block_type": "list_item",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract",
+      "text": "the applicable surety bond. Any deviation must be approved in advance by Legal Services.",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Offer financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Offer financial security"
       ],
-      "text": "the applicable surety bond. Any deviation must be approved in advance by Legal Services.",
+      "text": "You must instruct the designated offer receiving unit on how to handle the offer financial securities received.",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
-      "heading": "Offer financial security",
+      "block_type": "heading",
+      "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
-        "Offer financial security"
+        "Contract financial security"
       ],
-      "text": "You must instruct the designated offer receiving unit on how to handle the offer financial securities received.",
+      "text": "Contract financial security",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
-      "text": "Contract financial security",
+      "text": "For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
-      "text": "For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:",
+      "text": "the type of work and custom of the trade",
       "order": 28,
       "metadata": {}
     },
@@ -1327,11 +1300,10 @@
       "block_type": "list_item",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
-      "text": "the type of work and custom of the trade",
+      "text": "the potential consequences of a contractor’s default",
       "order": 29,
       "metadata": {}
     },
@@ -1340,24 +1312,22 @@
       "block_type": "list_item",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
-      "text": "the potential consequences of a contractor’s default",
+      "text": "the costs versus the risks of providing such security",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
-      "text": "the costs versus the risks of providing such security",
+      "text": "As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.",
       "order": 31,
       "metadata": {}
     },
@@ -1366,30 +1336,16 @@
       "block_type": "paragraph",
       "heading": "Contract financial security",
       "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
-        "Financial security",
-        "Contract financial security"
-      ],
-      "text": "As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.",
-      "order": 32,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0033",
-      "block_type": "paragraph",
-      "heading": "Contract financial security",
-      "heading_path": [
-        "Buyer's Guide Financial considerations - Financial security",
         "Financial security",
         "Contract financial security"
       ],
       "text": "Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
-      "order": 33,
+      "order": 32,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract contract financial security to ensure that a contractor fulfills its obligations payment bond to protect subcontractors and material suppliers Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified. Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value. Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to: confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement . See the following sections of the Buyer’s Guide for more information on financial security: Award: Offer and contract financial security Manage: Financial security Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade the likelihood that offerors will try to withdraw their offers the consequences if an offeror fails or is unable to enter a contract The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000. To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada. The solicitation document must include: a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract the applicable surety bond. Any deviation must be approved in advance by Legal Services. You must instruct the designated offer receiving unit on how to handle the offer financial securities received. Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account: the type of work and custom of the trade the potential consequences of a contractor’s default the costs versus the risks of providing such security As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient. Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.\n\nFinancial security\n\nThere are three types of financial security that can be required from an offeror, including:\n\noffer financial security to protect Canada against loss if an offeror fails to enter into a contract\n\ncontract financial security to ensure that a contractor fulfills its obligations\n\npayment bond to protect subcontractors and material suppliers\n\nDecisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.\n\nOfferors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.\n\nLetters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:\n\nconfirm the offeror/contractor has discharged the obligations for which the letter of credit was provided\n\nif the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit\n\nYou must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .\n\nSee the following sections of the Buyer’s Guide for more information on financial security:\n\nAward: Offer and contract financial security\n\nManage: Financial security\n\nOffer financial security\n\nWhen deciding to obtain financial security for an offer, consider:\n\nthe potential for prequalifying offerors\n\nthe type of work and custom of the trade\n\nthe likelihood that offerors will try to withdraw their offers\n\nthe consequences if an offeror fails or is unable to enter a contract\n\nThe amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.\n\nTo prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.\n\nThe solicitation document must include:\n\na list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract\n\nthe applicable surety bond. Any deviation must be approved in advance by Legal Services.\n\nYou must instruct the designated offer receiving unit on how to handle the offer financial securities received.\n\nContract financial security\n\nFor the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:\n\nthe type of work and custom of the trade\n\nthe potential consequences of a contractor’s default\n\nthe costs versus the risks of providing such security\n\nAs some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.\n\nContract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
-  "markdown_text": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract contract financial security to ensure that a contractor fulfills its obligations payment bond to protect subcontractors and material suppliers Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified. Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value. Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to: confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement . See the following sections of the Buyer’s Guide for more information on financial security: Award: Offer and contract financial security Manage: Financial security Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade the likelihood that offerors will try to withdraw their offers the consequences if an offeror fails or is unable to enter a contract The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000. To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada. The solicitation document must include: a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract the applicable surety bond. Any deviation must be approved in advance by Legal Services. You must instruct the designated offer receiving unit on how to handle the offer financial securities received. Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account: the type of work and custom of the trade the potential consequences of a contractor’s default the costs versus the risks of providing such security As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient. Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.\n\nFinancial security\n\nThere are three types of financial security that can be required from an offeror, including:\n\noffer financial security to protect Canada against loss if an offeror fails to enter into a contract\n\ncontract financial security to ensure that a contractor fulfills its obligations\n\npayment bond to protect subcontractors and material suppliers\n\nDecisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.\n\nOfferors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.\n\nLetters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:\n\nconfirm the offeror/contractor has discharged the obligations for which the letter of credit was provided\n\nif the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit\n\nYou must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .\n\nSee the following sections of the Buyer’s Guide for more information on financial security:\n\nAward: Offer and contract financial security\n\nManage: Financial security\n\nOffer financial security\n\nWhen deciding to obtain financial security for an offer, consider:\n\nthe potential for prequalifying offerors\n\nthe type of work and custom of the trade\n\nthe likelihood that offerors will try to withdraw their offers\n\nthe consequences if an offeror fails or is unable to enter a contract\n\nThe amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.\n\nTo prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.\n\nThe solicitation document must include:\n\na list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract\n\nthe applicable surety bond. Any deviation must be approved in advance by Legal Services.\n\nYou must instruct the designated offer receiving unit on how to handle the offer financial securities received.\n\nContract financial security\n\nFor the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:\n\nthe type of work and custom of the trade\n\nthe potential consequences of a contractor’s default\n\nthe costs versus the risks of providing such security\n\nAs some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.\n\nContract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
+  "raw_text": "Financial security\n\nThere are three types of financial security that can be required from an offeror, including:\n\noffer financial security to protect Canada against loss if an offeror fails to enter into a contract\n\ncontract financial security to ensure that a contractor fulfills its obligations\n\npayment bond to protect subcontractors and material suppliers\n\nDecisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.\n\nOfferors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.\n\nLetters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:\n\nconfirm the offeror/contractor has discharged the obligations for which the letter of credit was provided\n\nif the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit\n\nYou must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .\n\nSee the following sections of the Buyer’s Guide for more information on financial security:\n\nAward: Offer and contract financial security\n\nManage: Financial security\n\nOffer financial security\n\nWhen deciding to obtain financial security for an offer, consider:\n\nthe potential for prequalifying offerors\n\nthe type of work and custom of the trade\n\nthe likelihood that offerors will try to withdraw their offers\n\nthe consequences if an offeror fails or is unable to enter a contract\n\nThe amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.\n\nTo prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.\n\nThe solicitation document must include:\n\na list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract\n\nthe applicable surety bond. Any deviation must be approved in advance by Legal Services.\n\nYou must instruct the designated offer receiving unit on how to handle the offer financial securities received.\n\nContract financial security\n\nFor the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:\n\nthe type of work and custom of the trade\n\nthe potential consequences of a contractor’s default\n\nthe costs versus the risks of providing such security\n\nAs some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.\n\nContract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
+  "markdown_text": "Financial security\n\nThere are three types of financial security that can be required from an offeror, including:\n\noffer financial security to protect Canada against loss if an offeror fails to enter into a contract\n\ncontract financial security to ensure that a contractor fulfills its obligations\n\npayment bond to protect subcontractors and material suppliers\n\nDecisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.\n\nOfferors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.\n\nLetters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:\n\nconfirm the offeror/contractor has discharged the obligations for which the letter of credit was provided\n\nif the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit\n\nYou must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .\n\nSee the following sections of the Buyer’s Guide for more information on financial security:\n\nAward: Offer and contract financial security\n\nManage: Financial security\n\nOffer financial security\n\nWhen deciding to obtain financial security for an offer, consider:\n\nthe potential for prequalifying offerors\n\nthe type of work and custom of the trade\n\nthe likelihood that offerors will try to withdraw their offers\n\nthe consequences if an offeror fails or is unable to enter a contract\n\nThe amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below CAD 500,000.\n\nTo prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.\n\nThe solicitation document must include:\n\na list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract\n\nthe applicable surety bond. Any deviation must be approved in advance by Legal Services.\n\nYou must instruct the designated offer receiving unit on how to handle the offer financial securities received.\n\nContract financial security\n\nFor the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:\n\nthe type of work and custom of the trade\n\nthe potential consequences of a contractor’s default\n\nthe costs versus the risks of providing such security\n\nAs some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.\n\nContract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
   "provenance_paths": {}
 }

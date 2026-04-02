@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:54.772822Z",
-  "content_hash": "ae79d15baf5fd115108fc6d259c6924335b114e4333235a739e2be4b033cd9c5",
-  "word_count": 90,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "48d0f57208aaed06c0d88d0e1908a75f6b4fd7de8a22d66c0df7e2593ba8339e",
+  "word_count": 45,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,42 +960,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Method of selection - Including basis of selection",
+      "block_type": "heading",
+      "heading": "Including basis of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection - Including basis of selection"
+        "Including basis of selection"
       ],
-      "text": "Including basis of selection You, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
+      "text": "Including basis of selection",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Including basis of selection",
-      "heading_path": [
-        "Buyer's Guide Method of selection - Including basis of selection",
-        "Including basis of selection"
-      ],
-      "text": "Including basis of selection",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Including basis of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection - Including basis of selection",
         "Including basis of selection"
       ],
       "text": "You, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Including basis of selection You, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.\n\nIncluding basis of selection\n\nYou, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
-  "markdown_text": "Including basis of selection You, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.\n\nIncluding basis of selection\n\nYou, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
+  "raw_text": "Including basis of selection\n\nYou, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
+  "markdown_text": "Including basis of selection\n\nYou, as the buyer, must include the appropriate basis of selection clauses in the solicitation documents. Common examples include the highest combined rating of technical merit and price, lowest evaluated price with mandatory technical criteria, and the highest rated within budget.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:49.420886Z",
-  "content_hash": "c294eacda9f73b0b2eea4cd1a4f85ef31d186779b85a05c8c7845a2045310066",
-  "word_count": 160,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "36ccbe15bcef34afa8a0fddf258c1815921b0fd9cc9857b6f4e3ef7eb5da5d2c",
+  "word_count": 80,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,36 +511,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
+      "block_type": "heading",
+      "heading": "How to cancel a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation"
+        "How to cancel a solicitation"
       ],
-      "text": "How to cancel a solicitation If a solicitation is cancelled before the closing date, you must: issue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS notify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation If a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
+      "text": "How to cancel a solicitation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "How to cancel a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
         "How to cancel a solicitation"
       ],
-      "text": "How to cancel a solicitation",
+      "text": "If a solicitation is cancelled before the closing date, you must:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "How to cancel a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
         "How to cancel a solicitation"
       ],
-      "text": "If a solicitation is cancelled before the closing date, you must:",
+      "text": "issue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS",
       "order": 2,
       "metadata": {}
     },
@@ -549,40 +547,26 @@
       "block_type": "list_item",
       "heading": "How to cancel a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
         "How to cancel a solicitation"
       ],
-      "text": "issue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS",
+      "text": "notify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "list_item",
-      "heading": "How to cancel a solicitation",
-      "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
-        "How to cancel a solicitation"
-      ],
-      "text": "notify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
       "block_type": "paragraph",
       "heading": "How to cancel a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to cancel a solicitation",
         "How to cancel a solicitation"
       ],
       "text": "If a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "How to cancel a solicitation If a solicitation is cancelled before the closing date, you must: issue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS notify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation If a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.\n\nHow to cancel a solicitation\n\nIf a solicitation is cancelled before the closing date, you must:\n\nissue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS\n\nnotify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation\n\nIf a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
-  "markdown_text": "How to cancel a solicitation If a solicitation is cancelled before the closing date, you must: issue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS notify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation If a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.\n\nHow to cancel a solicitation\n\nIf a solicitation is cancelled before the closing date, you must:\n\nissue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS\n\nnotify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation\n\nIf a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
+  "raw_text": "How to cancel a solicitation\n\nIf a solicitation is cancelled before the closing date, you must:\n\nissue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS\n\nnotify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation\n\nIf a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
+  "markdown_text": "How to cancel a solicitation\n\nIf a solicitation is cancelled before the closing date, you must:\n\nissue a cancellation notice on the Government Electronic Tendering Service (GETS), which will mark the notice of proposed procurement (NPP) as ‘cancelled’ on GETS\n\nnotify the Offer Receiving Unit (ORU) of the cancellation and provide disposal instructions for any responses to the original solicitation\n\nIf a solicitation is cancelled after the closing date, you should inform businesses within 10 calendar days of the cancellation.",
   "provenance_paths": {}
 }

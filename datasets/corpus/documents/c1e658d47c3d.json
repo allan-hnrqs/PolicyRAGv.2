@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:25.636198Z",
-  "content_hash": "912582b2a0d8e82848b08506078326f1e2ce91390407d082e0338440ff809e5e",
-  "word_count": 100,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "5c3cf0c49ced398dec3e4f8127d10be5259c1032ffc8fb2c1127e1a45ecbe749",
+  "word_count": 50,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -427,42 +427,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Award a contract",
+      "block_type": "heading",
+      "heading": "Award a contract",
       "heading_path": [
-        "Buyer's Guide Award a contract"
+        "Award a contract"
       ],
-      "text": "Award a contract This section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
+      "text": "Award a contract",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Award a contract",
-      "heading_path": [
-        "Buyer's Guide Award a contract",
-        "Award a contract"
-      ],
-      "text": "Award a contract",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Award a contract",
       "heading_path": [
-        "Buyer's Guide Award a contract",
         "Award a contract"
       ],
       "text": "This section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Award a contract This section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.\n\nAward a contract\n\nThis section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
-  "markdown_text": "Award a contract This section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.\n\nAward a contract\n\nThis section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
+  "raw_text": "Award a contract\n\nThis section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
+  "markdown_text": "Award a contract\n\nThis section provides information on the processes to follow before and after awarding a contract or issuing a standing offer (SO) or supply arrangement (SA). It focusses on compliance with all relevant key considerations, such as securing proper authorization, meeting disclosure and reporting requirements, managing exceptions, etc.",
   "provenance_paths": {}
 }

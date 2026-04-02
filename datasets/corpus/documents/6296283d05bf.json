@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:19.948493Z",
   "content_hash": "d76e2f6f451e0a73f94b9c8966bfd176f3d2c7e13d6e0a8ac763a768c40dda07",
   "word_count": 739,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Vendor performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance"
       ],
       "text": "Vendor performance",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Vendor performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance"
       ],
       "text": "This section outlines how to manage vendor performance effectively to protect Canada's interests. By following these guidelines, you can ensure that contracts are fulfilled as agreed and address any issues promptly to maintain high standards of performance.",
@@ -796,7 +794,6 @@
       "block_type": "heading",
       "heading": "Contract performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract performance"
       ],
@@ -809,7 +806,6 @@
       "block_type": "paragraph",
       "heading": "Contract performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract performance"
       ],
@@ -822,7 +818,6 @@
       "block_type": "paragraph",
       "heading": "Contract performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract performance"
       ],
@@ -835,7 +830,6 @@
       "block_type": "heading",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -848,7 +842,6 @@
       "block_type": "paragraph",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -861,7 +854,6 @@
       "block_type": "paragraph",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -874,7 +866,6 @@
       "block_type": "paragraph",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -887,7 +878,6 @@
       "block_type": "paragraph",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -900,7 +890,6 @@
       "block_type": "list_item",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -913,7 +902,6 @@
       "block_type": "list_item",
       "heading": "Timely performance",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Timely performance"
       ],
@@ -926,7 +914,6 @@
       "block_type": "heading",
       "heading": "Contract administration",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration"
       ],
@@ -939,7 +926,6 @@
       "block_type": "paragraph",
       "heading": "Contract administration",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration"
       ],
@@ -952,7 +938,6 @@
       "block_type": "heading",
       "heading": "Enforcement of contract terms",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Enforcement of contract terms"
@@ -966,7 +951,6 @@
       "block_type": "paragraph",
       "heading": "Enforcement of contract terms",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Enforcement of contract terms"
@@ -980,7 +964,6 @@
       "block_type": "list_item",
       "heading": "Enforcement of contract terms",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Enforcement of contract terms"
@@ -994,7 +977,6 @@
       "block_type": "list_item",
       "heading": "Enforcement of contract terms",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Enforcement of contract terms"
@@ -1008,7 +990,6 @@
       "block_type": "list_item",
       "heading": "Enforcement of contract terms",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Enforcement of contract terms"
@@ -1022,7 +1003,6 @@
       "block_type": "heading",
       "heading": "Documentation requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Documentation requirements"
@@ -1036,7 +1016,6 @@
       "block_type": "paragraph",
       "heading": "Documentation requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Documentation requirements"
@@ -1050,7 +1029,6 @@
       "block_type": "list_item",
       "heading": "Documentation requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Documentation requirements"
@@ -1064,7 +1042,6 @@
       "block_type": "list_item",
       "heading": "Documentation requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Documentation requirements"
@@ -1078,7 +1055,6 @@
       "block_type": "list_item",
       "heading": "Documentation requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Documentation requirements"
@@ -1092,7 +1068,6 @@
       "block_type": "heading",
       "heading": "Handling terminations and amendments",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Handling terminations and amendments"
@@ -1106,7 +1081,6 @@
       "block_type": "paragraph",
       "heading": "Handling terminations and amendments",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Handling terminations and amendments"
@@ -1120,7 +1094,6 @@
       "block_type": "paragraph",
       "heading": "Handling terminations and amendments",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Handling terminations and amendments"
@@ -1134,7 +1107,6 @@
       "block_type": "paragraph",
       "heading": "Handling terminations and amendments",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Handling terminations and amendments"
@@ -1148,7 +1120,6 @@
       "block_type": "paragraph",
       "heading": "Handling terminations and amendments",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Contract administration",
         "Handling terminations and amendments"
@@ -1162,7 +1133,6 @@
       "block_type": "heading",
       "heading": "Vendor Performance Corrective Measure Assessment process",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Vendor Performance Corrective Measure Assessment process"
       ],
@@ -1175,7 +1145,6 @@
       "block_type": "paragraph",
       "heading": "Vendor Performance Corrective Measure Assessment process",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Vendor Performance Corrective Measure Assessment process"
       ],
@@ -1188,7 +1157,6 @@
       "block_type": "paragraph",
       "heading": "Vendor Performance Corrective Measure Assessment process",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Vendor Performance Corrective Measure Assessment process"
       ],
@@ -1201,7 +1169,6 @@
       "block_type": "paragraph",
       "heading": "Vendor Performance Corrective Measure Assessment process",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Vendor Performance Corrective Measure Assessment process"
       ],
@@ -1214,7 +1181,6 @@
       "block_type": "paragraph",
       "heading": "Vendor Performance Corrective Measure Assessment process",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Vendor Performance Corrective Measure Assessment process"
       ],
@@ -1227,7 +1193,6 @@
       "block_type": "heading",
       "heading": "Recordkeeping in the VIM system",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Recordkeeping in the VIM system"
       ],
@@ -1240,7 +1205,6 @@
       "block_type": "paragraph",
       "heading": "Recordkeeping in the VIM system",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Recordkeeping in the VIM system"
       ],
@@ -1253,7 +1217,6 @@
       "block_type": "paragraph",
       "heading": "Recordkeeping in the VIM system",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Recordkeeping in the VIM system"
       ],
@@ -1266,7 +1229,6 @@
       "block_type": "heading",
       "heading": "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
       ],
@@ -1279,7 +1241,6 @@
       "block_type": "paragraph",
       "heading": "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Vendor performance",
         "Vendor performance",
         "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
       ],

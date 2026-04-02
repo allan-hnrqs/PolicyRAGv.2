@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:46.235796Z",
-  "content_hash": "7b3844604da3ddc4b93c77eae79b74a33e1b7ff1d0aebf092396266b210e19eb",
-  "word_count": 38,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "a4b7a7f770746e188bdf79f33b182ebf2e569f81edbe846da1c2e6303997f5c9",
+  "word_count": 19,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -823,42 +823,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Choose a solicitation method",
+      "block_type": "heading",
+      "heading": "Choose a solicitation method",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method"
+        "Choose a solicitation method"
       ],
-      "text": "Choose a solicitation method This section provides information on various solicitation methods, their particularities and how to use them.",
+      "text": "Choose a solicitation method",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Choose a solicitation method",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method",
-        "Choose a solicitation method"
-      ],
-      "text": "Choose a solicitation method",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Choose a solicitation method",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method",
         "Choose a solicitation method"
       ],
       "text": "This section provides information on various solicitation methods, their particularities and how to use them.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Choose a solicitation method This section provides information on various solicitation methods, their particularities and how to use them.\n\nChoose a solicitation method\n\nThis section provides information on various solicitation methods, their particularities and how to use them.",
-  "markdown_text": "Choose a solicitation method This section provides information on various solicitation methods, their particularities and how to use them.\n\nChoose a solicitation method\n\nThis section provides information on various solicitation methods, their particularities and how to use them.",
+  "raw_text": "Choose a solicitation method\n\nThis section provides information on various solicitation methods, their particularities and how to use them.",
+  "markdown_text": "Choose a solicitation method\n\nThis section provides information on various solicitation methods, their particularities and how to use them.",
   "provenance_paths": {}
 }

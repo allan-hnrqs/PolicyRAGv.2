@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:19.899644Z",
-  "content_hash": "cee93e48292b1c12478a32b416f9e42b0f5cfcea62a4132ad1f94dc2e397e311",
-  "word_count": 1208,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "66b9f6c3da648842390a5d5755753b050f24631cefa39b03e68ccec5289d6924",
+  "word_count": 558,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,36 +617,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Special considerations - Procurement process initiated by client",
+      "block_type": "heading",
+      "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client"
+        "Procurement process initiated by client"
       ],
-      "text": "Procurement process initiated by client As a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include: sourcing receipt of offers offer evaluation contractor selection Ratification by Treasury Board If a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible. The request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request. Ratifications within PSPC departmental authorities For most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement. As a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following: ratification of contractual commitments a contract or amendment which includes a pre-contractual work clause any other retroactive elements Complexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch For a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM. Confirming orders and contracts involving pre-contractual work PSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example). Requests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration. If the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include: the parties involved the work performed the dates the amount a release a transfer of intellectual property rights (if required) If the work has started but has not been completed, you must: prepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.",
+      "text": "Procurement process initiated by client",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client"
       ],
-      "text": "Procurement process initiated by client",
+      "text": "As a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client"
       ],
-      "text": "As a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:",
+      "text": "sourcing",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "list_item",
       "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client"
       ],
-      "text": "sourcing",
+      "text": "receipt of offers",
       "order": 3,
       "metadata": {}
     },
@@ -667,10 +664,9 @@
       "block_type": "list_item",
       "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client"
       ],
-      "text": "receipt of offers",
+      "text": "offer evaluation",
       "order": 4,
       "metadata": {}
     },
@@ -679,35 +675,33 @@
       "block_type": "list_item",
       "heading": "Procurement process initiated by client",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client"
       ],
-      "text": "offer evaluation",
+      "text": "contractor selection",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "list_item",
-      "heading": "Procurement process initiated by client",
+      "block_type": "heading",
+      "heading": "Ratification by Treasury Board",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
-        "Procurement process initiated by client"
+        "Procurement process initiated by client",
+        "Ratification by Treasury Board"
       ],
-      "text": "contractor selection",
+      "text": "Ratification by Treasury Board",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Ratification by Treasury Board",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratification by Treasury Board"
       ],
-      "text": "Ratification by Treasury Board",
+      "text": "If a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.",
       "order": 7,
       "metadata": {}
     },
@@ -716,37 +710,34 @@
       "block_type": "paragraph",
       "heading": "Ratification by Treasury Board",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratification by Treasury Board"
       ],
-      "text": "If a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.",
+      "text": "The request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Ratification by Treasury Board",
+      "block_type": "heading",
+      "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
-        "Ratification by Treasury Board"
+        "Ratifications within PSPC departmental authorities"
       ],
-      "text": "The request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.",
+      "text": "Ratifications within PSPC departmental authorities",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "Ratifications within PSPC departmental authorities",
+      "text": "For most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.",
       "order": 10,
       "metadata": {}
     },
@@ -755,24 +746,22 @@
       "block_type": "paragraph",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "For most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.",
+      "text": "As a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "As a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:",
+      "text": "ratification of contractual commitments",
       "order": 12,
       "metadata": {}
     },
@@ -781,11 +770,10 @@
       "block_type": "list_item",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "ratification of contractual commitments",
+      "text": "a contract or amendment which includes a pre-contractual work clause",
       "order": 13,
       "metadata": {}
     },
@@ -794,37 +782,34 @@
       "block_type": "list_item",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "a contract or amendment which includes a pre-contractual work clause",
+      "text": "any other retroactive elements",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "any other retroactive elements",
+      "text": "Complexity level: 1,2,3 | Approval authority: in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
-      "text": "Complexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch",
+      "text": "Complexity level: 4,5 | Approval authority: Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch",
       "order": 16,
       "metadata": {}
     },
@@ -833,7 +818,6 @@
       "block_type": "paragraph",
       "heading": "Ratifications within PSPC departmental authorities",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Ratifications within PSPC departmental authorities"
       ],
@@ -846,7 +830,6 @@
       "block_type": "heading",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -859,7 +842,6 @@
       "block_type": "paragraph",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -872,7 +854,6 @@
       "block_type": "paragraph",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -885,7 +866,6 @@
       "block_type": "paragraph",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -898,7 +878,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -911,7 +890,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -924,7 +902,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -937,7 +914,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -950,7 +926,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -963,7 +938,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -976,7 +950,6 @@
       "block_type": "paragraph",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -989,11 +962,10 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
-      "text": "prepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.",
+      "text": "prepare a contract that addresses only the work not properly authorized",
       "order": 29,
       "metadata": {}
     },
@@ -1002,11 +974,10 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
-      "text": "use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances.",
+      "text": "use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated",
       "order": 30,
       "metadata": {}
     },
@@ -1015,7 +986,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -1028,11 +998,10 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
-      "text": "include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.",
+      "text": "include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract.",
       "order": 32,
       "metadata": {}
     },
@@ -1041,7 +1010,6 @@
       "block_type": "list_item",
       "heading": "Confirming orders and contracts involving pre-contractual work",
       "heading_path": [
-        "Buyer's Guide Special considerations - Procurement process initiated by client",
         "Procurement process initiated by client",
         "Confirming orders and contracts involving pre-contractual work"
       ],
@@ -1051,7 +1019,7 @@
     }
   ],
   "metadata": {},
-  "raw_text": "Procurement process initiated by client As a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include: sourcing receipt of offers offer evaluation contractor selection Ratification by Treasury Board If a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible. The request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request. Ratifications within PSPC departmental authorities For most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement. As a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following: ratification of contractual commitments a contract or amendment which includes a pre-contractual work clause any other retroactive elements Complexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch For a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM. Confirming orders and contracts involving pre-contractual work PSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example). Requests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration. If the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include: the parties involved the work performed the dates the amount a release a transfer of intellectual property rights (if required) If the work has started but has not been completed, you must: prepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nProcurement process initiated by client\n\nAs a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:\n\nsourcing\n\nreceipt of offers\n\noffer evaluation\n\ncontractor selection\n\nRatification by Treasury Board\n\nIf a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.\n\nThe request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.\n\nRatifications within PSPC departmental authorities\n\nFor most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.\n\nAs a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:\n\nratification of contractual commitments\n\na contract or amendment which includes a pre-contractual work clause\n\nany other retroactive elements\n\nComplexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch\n\nFor a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM.\n\nConfirming orders and contracts involving pre-contractual work\n\nPSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example).\n\nRequests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration.\n\nIf the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include:\n\nthe parties involved\n\nthe work performed\n\nthe dates\n\nthe amount\n\na release\n\na transfer of intellectual property rights (if required)\n\nIf the work has started but has not been completed, you must:\n\nprepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nuse the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances.\n\nNote : The contract cannot be backdated or retroactive under any circumstances.\n\ninclude a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nNote: the client will remain liable for any complaints resulting from their actions.",
-  "markdown_text": "Procurement process initiated by client As a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include: sourcing receipt of offers offer evaluation contractor selection Ratification by Treasury Board If a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible. The request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request. Ratifications within PSPC departmental authorities For most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement. As a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following: ratification of contractual commitments a contract or amendment which includes a pre-contractual work clause any other retroactive elements Complexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch For a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM. Confirming orders and contracts involving pre-contractual work PSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example). Requests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration. If the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include: the parties involved the work performed the dates the amount a release a transfer of intellectual property rights (if required) If the work has started but has not been completed, you must: prepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nProcurement process initiated by client\n\nAs a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:\n\nsourcing\n\nreceipt of offers\n\noffer evaluation\n\ncontractor selection\n\nRatification by Treasury Board\n\nIf a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.\n\nThe request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.\n\nRatifications within PSPC departmental authorities\n\nFor most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.\n\nAs a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:\n\nratification of contractual commitments\n\na contract or amendment which includes a pre-contractual work clause\n\nany other retroactive elements\n\nComplexity level Approval authority 1,2,3 in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits 4,5 Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch\n\nFor a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM.\n\nConfirming orders and contracts involving pre-contractual work\n\nPSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example).\n\nRequests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration.\n\nIf the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include:\n\nthe parties involved\n\nthe work performed\n\nthe dates\n\nthe amount\n\na release\n\na transfer of intellectual property rights (if required)\n\nIf the work has started but has not been completed, you must:\n\nprepare a contract that addresses only the work not properly authorized use the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances. include a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nuse the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated Note : The contract cannot be backdated or retroactive under any circumstances.\n\nNote : The contract cannot be backdated or retroactive under any circumstances.\n\ninclude a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract. Note: the client will remain liable for any complaints resulting from their actions.\n\nNote: the client will remain liable for any complaints resulting from their actions.",
+  "raw_text": "Procurement process initiated by client\n\nAs a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:\n\nsourcing\n\nreceipt of offers\n\noffer evaluation\n\ncontractor selection\n\nRatification by Treasury Board\n\nIf a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.\n\nThe request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.\n\nRatifications within PSPC departmental authorities\n\nFor most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.\n\nAs a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:\n\nratification of contractual commitments\n\na contract or amendment which includes a pre-contractual work clause\n\nany other retroactive elements\n\nComplexity level: 1,2,3 | Approval authority: in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits\n\nComplexity level: 4,5 | Approval authority: Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch\n\nFor a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM.\n\nConfirming orders and contracts involving pre-contractual work\n\nPSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example).\n\nRequests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration.\n\nIf the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include:\n\nthe parties involved\n\nthe work performed\n\nthe dates\n\nthe amount\n\na release\n\na transfer of intellectual property rights (if required)\n\nIf the work has started but has not been completed, you must:\n\nprepare a contract that addresses only the work not properly authorized\n\nuse the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated\n\nNote : The contract cannot be backdated or retroactive under any circumstances.\n\ninclude a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract.\n\nNote: the client will remain liable for any complaints resulting from their actions.",
+  "markdown_text": "Procurement process initiated by client\n\nAs a PSPC buyer, you may sometimes be asked to process a requirement after the procurement process has already been initiated by the client. Examples of these requirements include:\n\nsourcing\n\nreceipt of offers\n\noffer evaluation\n\ncontractor selection\n\nRatification by Treasury Board\n\nIf a contracting authority enters into a contract without TB approval when such approval should have been obtained, ratification by TB must be sought as soon as possible.\n\nThe request for TB approval must include details on the circumstances, the type and value of the contact awarded, and whether it was possible to solicit offers. If contract approval is being sought for work already commenced, you must also include the client's certification that they had agreed with the commencement of work before the receipt of the TB approval . Where ratification is required due to an administration oversight, the corrective measures taken to minimize administrative oversights must be outlined in the request.\n\nRatifications within PSPC departmental authorities\n\nFor most ratifications of a PSPC procurement within PSPC ’s departmental authority, the approval authority level is based on the complexity level of the procurement.\n\nAs a PSPC buyer, you must seek approval from the approval authority level shown in the table below, if your procurement involves any of the following:\n\nratification of contractual commitments\n\na contract or amendment which includes a pre-contractual work clause\n\nany other retroactive elements\n\nComplexity level: 1,2,3 | Approval authority: in accordance with the procurement risk assessment and the PSPC non-competitive contract approval authority limits\n\nComplexity level: 4,5 | Approval authority: Assistant Deputy Minister (ADM) – Procurement Branch or Defence and Marine Procurement Branch\n\nFor a confirming order, you must obtain approval at the director level or higher, as determined by the contract value and non-competitive contract approval authority limits. The limitation to non-competitive contract approval authority limits applies to all positions below the ADM.\n\nConfirming orders and contracts involving pre-contractual work\n\nPSPC does not normally place contracts to confirm the actions of the client and actively discourages this practice. However, as a PSPC buyer, you might have to become involved due to PSPC 's exclusive authorities for some types of procurements (goods, for example).\n\nRequests for confirming orders and contracts for pre-contractual work are considered non-competitive and must be evaluated and processed based on the circumstances of each instance. Where the request is the result of attempts to circumvent normal procurement procedures, return of the request to the client should be a prime consideration.\n\nIf the work has been completed, Legal Services will prepare a confirming order to capture only the essential transaction details. These details include:\n\nthe parties involved\n\nthe work performed\n\nthe dates\n\nthe amount\n\na release\n\na transfer of intellectual property rights (if required)\n\nIf the work has started but has not been completed, you must:\n\nprepare a contract that addresses only the work not properly authorized\n\nuse the award date of your written contract as the start date for the contract period clause. Even though the work started before a required contract authorization, the contract must not be backdated\n\nNote : The contract cannot be backdated or retroactive under any circumstances.\n\ninclude a pre-contractual work clause so the contractor can be paid for work done before the award of the written contract.\n\nNote: the client will remain liable for any complaints resulting from their actions.",
   "provenance_paths": {}
 }

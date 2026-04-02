@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:17.830536Z",
   "content_hash": "e19f079f69ea77d88babed8144982000a0caf3a664269c0e73f9de7020af55ea",
   "word_count": 110,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Subcontracting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Subcontracting",
         "Subcontracting"
       ],
       "text": "Subcontracting",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Subcontracting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Subcontracting",
         "Subcontracting"
       ],
       "text": "A contractor must first use the permission to subcontract form to obtain consent from the buyer before subcontracting. Subsequently, the contractor must certify that the subcontract follow the same conditions as the main contract. Approval from the buyer depends on their satisfaction with both the subcontractor and the proposed subcontract.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Subcontracting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Subcontracting",
         "Subcontracting"
       ],
       "text": "Note: The award of a subcontract does not transfer any of the contractor's obligations under the main contract to Canada or confer any of Canada's rights under the main contract to the subcontractor. Any deviation from these stipulations by the contractor is undertaken at their own risk and does not alter their responsibilities or liabilities under the main contract.",

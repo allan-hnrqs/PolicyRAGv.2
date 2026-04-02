@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:43.726616Z",
-  "content_hash": "8c3078d907252a0b3a8bdd404540397caa10cd4c8876f0d63f201e9c02b00165",
-  "word_count": 32,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "bdf4aa29d2b41451d26aa3aab9eb83e7f400c89313f5a1d7fbd9556f457c8869",
+  "word_count": 16,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -964,42 +964,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Financial considerations",
+      "block_type": "heading",
+      "heading": "Financial considerations",
       "heading_path": [
-        "Buyer's Guide Financial considerations"
+        "Financial considerations"
       ],
-      "text": "Financial considerations This section provides information on various financial elements to address in the procurement process.",
+      "text": "Financial considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Financial considerations",
-      "heading_path": [
-        "Buyer's Guide Financial considerations",
-        "Financial considerations"
-      ],
-      "text": "Financial considerations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Financial considerations",
       "heading_path": [
-        "Buyer's Guide Financial considerations",
         "Financial considerations"
       ],
       "text": "This section provides information on various financial elements to address in the procurement process.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Financial considerations This section provides information on various financial elements to address in the procurement process.\n\nFinancial considerations\n\nThis section provides information on various financial elements to address in the procurement process.",
-  "markdown_text": "Financial considerations This section provides information on various financial elements to address in the procurement process.\n\nFinancial considerations\n\nThis section provides information on various financial elements to address in the procurement process.",
+  "raw_text": "Financial considerations\n\nThis section provides information on various financial elements to address in the procurement process.",
+  "markdown_text": "Financial considerations\n\nThis section provides information on various financial elements to address in the procurement process.",
   "provenance_paths": {}
 }

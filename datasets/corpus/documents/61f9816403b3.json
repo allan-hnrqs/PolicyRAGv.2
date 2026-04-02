@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:06.388300Z",
-  "content_hash": "943e7cea51f7e419ecd13baaafbb0c346b90387363e380b8d0dc28fa895b6049",
-  "word_count": 720,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b41df65bd784585c93375594f9314b67f398c83946069ed0581e1c4028d3d817",
+  "word_count": 360,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Fairness monitoring",
+      "block_type": "heading",
+      "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring"
+        "Fairness monitoring"
       ],
-      "text": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval level of Minister or above Procurement Complexity Assessment of level 4 or 5 Procurement Risk Assessment of 'medium high' or 'high' During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation. For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch. For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only). Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process. Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support. Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight. Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
+      "text": "Fairness monitoring",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "Fairness monitoring",
+      "text": "As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:",
+      "text": "approval level of Minister or above",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "approval level of Minister or above",
+      "text": "Procurement Complexity Assessment of level 4 or 5",
       "order": 3,
       "metadata": {}
     },
@@ -1010,22 +1007,20 @@
       "block_type": "list_item",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "Procurement Complexity Assessment of level 4 or 5",
+      "text": "Procurement Risk Assessment of 'medium high' or 'high'",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "Procurement Risk Assessment of 'medium high' or 'high'",
+      "text": "During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.",
       "order": 5,
       "metadata": {}
     },
@@ -1034,10 +1029,9 @@
       "block_type": "paragraph",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.",
+      "text": "For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.",
       "order": 6,
       "metadata": {}
     },
@@ -1046,138 +1040,117 @@
       "block_type": "paragraph",
       "heading": "Fairness monitoring",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring"
       ],
-      "text": "For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.",
+      "text": "For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Fairness monitoring",
+      "block_type": "heading",
+      "heading": "Responsibilities of a fairness monitor",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
-        "Fairness monitoring"
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor"
       ],
-      "text": "For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).",
+      "text": "Responsibilities of a fairness monitor",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Responsibilities of a fairness monitor",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor"
       ],
-      "text": "Responsibilities of a fairness monitor",
+      "text": "A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Responsibilities of a fairness monitor",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
-        "Fairness monitoring",
-        "Responsibilities of a fairness monitor"
-      ],
-      "text": "A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
       "block_type": "heading",
       "heading": "Reporting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Reporting"
       ],
       "text": "Reporting",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Reporting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Reporting"
       ],
       "text": "A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     },
     {
-      "block_id": "block_0013",
+      "block_id": "block_0012",
       "block_type": "heading",
       "heading": "Observation and action",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Observation and action"
       ],
       "text": "Observation and action",
-      "order": 13,
+      "order": 12,
       "metadata": {}
     },
     {
-      "block_id": "block_0014",
+      "block_id": "block_0013",
       "block_type": "paragraph",
       "heading": "Observation and action",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Observation and action"
       ],
       "text": "If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.",
-      "order": 14,
+      "order": 13,
       "metadata": {}
     },
     {
-      "block_id": "block_0015",
+      "block_id": "block_0014",
       "block_type": "heading",
       "heading": "Final reporting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Final reporting"
       ],
       "text": "Final reporting",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "paragraph",
       "heading": "Final reporting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Fairness monitoring",
         "Fairness monitoring",
         "Responsibilities of a fairness monitor",
         "Final reporting"
       ],
       "text": "A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
-      "order": 16,
+      "order": 15,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval level of Minister or above Procurement Complexity Assessment of level 4 or 5 Procurement Risk Assessment of 'medium high' or 'high' During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation. For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch. For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only). Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process. Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support. Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight. Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.\n\nFairness monitoring\n\nAs a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:\n\napproval level of Minister or above\n\nProcurement Complexity Assessment of level 4 or 5\n\nProcurement Risk Assessment of 'medium high' or 'high'\n\nDuring the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.\n\nFor both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.\n\nFor more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).\n\nResponsibilities of a fairness monitor\n\nA fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.\n\nReporting\n\nA fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.\n\nObservation and action\n\nIf a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.\n\nFinal reporting\n\nA fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
-  "markdown_text": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval level of Minister or above Procurement Complexity Assessment of level 4 or 5 Procurement Risk Assessment of 'medium high' or 'high' During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation. For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch. For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only). Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process. Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support. Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight. Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.\n\nFairness monitoring\n\nAs a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:\n\napproval level of Minister or above\n\nProcurement Complexity Assessment of level 4 or 5\n\nProcurement Risk Assessment of 'medium high' or 'high'\n\nDuring the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.\n\nFor both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.\n\nFor more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).\n\nResponsibilities of a fairness monitor\n\nA fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.\n\nReporting\n\nA fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.\n\nObservation and action\n\nIf a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.\n\nFinal reporting\n\nA fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
+  "raw_text": "Fairness monitoring\n\nAs a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:\n\napproval level of Minister or above\n\nProcurement Complexity Assessment of level 4 or 5\n\nProcurement Risk Assessment of 'medium high' or 'high'\n\nDuring the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.\n\nFor both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.\n\nFor more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).\n\nResponsibilities of a fairness monitor\n\nA fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.\n\nReporting\n\nA fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.\n\nObservation and action\n\nIf a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.\n\nFinal reporting\n\nA fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
+  "markdown_text": "Fairness monitoring\n\nAs a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:\n\napproval level of Minister or above\n\nProcurement Complexity Assessment of level 4 or 5\n\nProcurement Risk Assessment of 'medium high' or 'high'\n\nDuring the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.\n\nFor both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form’s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.\n\nFor more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).\n\nResponsibilities of a fairness monitor\n\nA fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.\n\nReporting\n\nA fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.\n\nObservation and action\n\nIf a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.\n\nFinal reporting\n\nA fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
   "provenance_paths": {}
 }

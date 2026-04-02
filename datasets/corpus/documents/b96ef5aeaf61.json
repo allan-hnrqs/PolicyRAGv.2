@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:41.373834Z",
-  "content_hash": "02abd2975a7635692f2e25f97e34973c77e5edb9244a2d74b00d0eb3f1af3ff0",
-  "word_count": 829,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f4e4e88fa60b13535dde0d120976b545417f75048713dabb445e905f585be92c",
+  "word_count": 378,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,62 +529,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Receive offers - Handle late or delayed offers",
+      "block_type": "heading",
+      "heading": "Handle late or delayed offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers"
+        "Handle late or delayed offers"
       ],
-      "text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+      "text": "Handle late or delayed offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Handle late or delayed offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers"
       ],
-      "text": "Handle late or delayed offers",
+      "text": "The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Handle late or delayed offers",
+      "block_type": "heading",
+      "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
-        "Handle late or delayed offers"
+        "Handle late or delayed offers",
+        "Late and delayed offer submission"
       ],
-      "text": "The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.",
+      "text": "Late and delayed offer submission",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "Late and delayed offer submission",
+      "text": "The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:",
+      "text": "for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm",
       "order": 4,
       "metadata": {}
     },
@@ -593,11 +590,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm",
+      "text": "offerors are responsible for ensuring their offer reaches the appropriate location on time",
       "order": 5,
       "metadata": {}
     },
@@ -606,11 +602,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "offerors are responsible for ensuring their offer reaches the appropriate location on time",
+      "text": "the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit",
       "order": 6,
       "metadata": {}
     },
@@ -619,11 +614,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit",
+      "text": "the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a:",
       "order": 7,
       "metadata": {}
     },
@@ -632,11 +626,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)",
+      "text": "CPC cancellation date stamp",
       "order": 8,
       "metadata": {}
     },
@@ -645,11 +638,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "CPC cancellation date stamp",
+      "text": "CPC Priority Courier bill of lading",
       "order": 9,
       "metadata": {}
     },
@@ -658,11 +650,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "CPC Priority Courier bill of lading",
+      "text": "CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)",
       "order": 10,
       "metadata": {}
     },
@@ -671,11 +662,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)",
+      "text": "the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record",
       "order": 11,
       "metadata": {}
     },
@@ -684,11 +674,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time",
+      "text": "the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time",
       "order": 12,
       "metadata": {}
     },
@@ -697,11 +686,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time",
+      "text": "for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers",
       "order": 13,
       "metadata": {}
     },
@@ -710,11 +698,10 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers",
+      "text": "for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer",
       "order": 14,
       "metadata": {}
     },
@@ -723,56 +710,40 @@
       "block_type": "list_item",
       "heading": "Late and delayed offer submission",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Late and delayed offer submission"
       ],
-      "text": "for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained",
+      "text": "documentation of the transaction history for all late offers submitted using this service will be maintained",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
-      "heading": "Late and delayed offer submission",
+      "block_type": "heading",
+      "heading": "Equipment calibration for timely submission verification",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
-        "Late and delayed offer submission"
+        "Equipment calibration for timely submission verification"
       ],
-      "text": "documentation of the transaction history for all late offers submitted using this service will be maintained",
+      "text": "Equipment calibration for timely submission verification",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
-      "heading": "Equipment calibration for timely submission verification",
-      "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
-        "Handle late or delayed offers",
-        "Equipment calibration for timely submission verification"
-      ],
-      "text": "Equipment calibration for timely submission verification",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
       "block_type": "paragraph",
       "heading": "Equipment calibration for timely submission verification",
       "heading_path": [
-        "Buyer's Guide Receive offers - Handle late or delayed offers",
         "Handle late or delayed offers",
         "Equipment calibration for timely submission verification"
       ],
       "text": "To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
-      "order": 18,
+      "order": 17,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.\n\nHandle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
-  "markdown_text": "Handle late or delayed offers The guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors. Late and delayed offer submission The timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline: for all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm offerors are responsible for ensuring their offer reaches the appropriate location on time the only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit the only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date) the only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time for competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers for all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained Equipment calibration for timely submission verification To ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.\n\nHandle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a: CPC cancellation date stamp CPC Priority Courier bill of lading CPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record the evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer documentation of the transaction history for all late offers submitted using this service will be maintained\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+  "raw_text": "Handle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a:\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
+  "markdown_text": "Handle late or delayed offers\n\nThe guidelines below address offers against competitive solicitations of offers that are submitted after the closing date and time. They also address offers that may be delayed due to specific reasons, ensuring a fair, transparent, and equitable process for all offerors.\n\nLate and delayed offer submission\n\nThe timely submission of offers is critical to maintaining the integrity of the procurement process. Below are the procedures for handling offers that do not meet the specified deadline:\n\nfor all competitive solicitations of offers, the specified closing date and time outlined in the solicitation documents are firm\n\nofferors are responsible for ensuring their offer reaches the appropriate location on time\n\nthe only acceptable evidence to show timely receipt of the offer at a specified offer receiving unit is the receipt issued by the specified offer receiving unit\n\nthe only pieces of evidence relating to a delay in the Canada Post Corporate (CPC) system that are acceptable to PSPC are a:\n\nCPC cancellation date stamp\n\nCPC Priority Courier bill of lading\n\nCPC Xpresspost label (note: the evidence provided must also clearly indicate that the offer was sent before the solicitation closing date)\n\nthe only piece of evidence relating to a delay in the CPC Connect service provided by the CPC system that is acceptable to PSPC is a CPC Connect service date and time record\n\nthe evidence must be indicated in the CPC Connect conversation history and clearly show that the offer was sent before the solicitation closing date and time\n\nfor competitive solicitations of offers, late offers delivered using methods other than CPC 's Connect service or other electronic delivery methods will be returned unless they qualify as delayed offers\n\nfor all competitive solicitations of offers, offers submitted via CPC 's Connect service that are deemed late will result in the deletion of any related conversation initiated by offer receiving units concerning the late offer\n\ndocumentation of the transaction history for all late offers submitted using this service will be maintained\n\nEquipment calibration for timely submission verification\n\nTo ensure the accuracy of official time-keeping equipment used to verify the timely submission of offers, offer receiving units must calibrate this equipment against the National Research Council (NRC) official time standard at least once every two working days.",
   "provenance_paths": {}
 }

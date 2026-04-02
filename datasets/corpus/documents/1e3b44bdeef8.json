@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:15.709379Z",
-  "content_hash": "3de87c6d1da400f2022b63dba6d93d38c20f16174cdb06f90896f9a9e1718aa2",
-  "word_count": 290,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "dbbd832ae99e64d0d99d2bae2e732c3632eb1d5c24d6a9a8bbac47dee340bbc1",
+  "word_count": 145,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Application for registration",
+      "block_type": "heading",
+      "heading": "Application for registration",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Application for registration"
+        "Application for registration"
       ],
-      "text": "Application for registration For all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website. If potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
+      "text": "Application for registration",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Application for registration",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Application for registration",
         "Application for registration"
       ],
-      "text": "Application for registration",
+      "text": "For all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Application for registration",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Application for registration",
-        "Application for registration"
-      ],
-      "text": "For all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Application for registration",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Application for registration",
         "Application for registration"
       ],
       "text": "If potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Application for registration For all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website. If potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.\n\nApplication for registration\n\nFor all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.\n\nIf potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
-  "markdown_text": "Application for registration For all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website. If potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.\n\nApplication for registration\n\nFor all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.\n\nIf potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
+  "raw_text": "Application for registration\n\nFor all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.\n\nIf potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
+  "markdown_text": "Application for registration\n\nFor all procurements with security screening requirements, you must include the Application for Registration ( AFR ) form (PDF, accessible only on the Government of Canada network), with the solicitation of offer documents. Offerors are required to complete and submit the AFR form with their offer. Buyers must forward completed AFR forms to the CSP . For more information on the AFR process, please visit the CSP website.\n\nIf potential foreign-based offerors are identified by the client when issuing the requisition, the client must contact the CSP ’s International Industrial Security Directorate ( IISD ) for the applicable clauses. You must also contact the CSP prior to contract award for verification of security with foreign government partners, as appropriate. If security clearances are required for foreign-based suppliers, the timeframes required to provide them could have a significant impact on the procurement schedule.",
   "provenance_paths": {}
 }

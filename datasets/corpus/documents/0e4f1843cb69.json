@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:09.093240Z",
-  "content_hash": "31fca83977dad531af7fd19b81ab01dc07bcdf1dd4c2bb97c687224e88ae270e",
-  "word_count": 1016,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "96bfc4cfe0b1b7f99fe8f0d0978fd7cf357ede3eb0bd811950fccaff5b21d78e",
+  "word_count": 577,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+      "block_type": "heading",
+      "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright"
+        "Intellectual property and copyright"
       ],
-      "text": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes. IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced. Refer to the following policy and guide for the complete details on IP in procurement: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Implementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Canada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above. At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely. The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP . The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership. Contractual options for IP ownership Table example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract For additional guidance, PSPC buyers may contact their subject matter expert on IP .",
+      "text": "Intellectual property and copyright",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Intellectual property and copyright",
+      "text": "Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.",
       "order": 1,
       "metadata": {}
     },
@@ -986,10 +985,9 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.",
+      "text": "IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.",
       "order": 2,
       "metadata": {}
     },
@@ -998,22 +996,20 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.",
+      "text": "Refer to the following policy and guide for the complete details on IP in procurement:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Refer to the following policy and guide for the complete details on IP in procurement:",
+      "text": "Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts",
       "order": 4,
       "metadata": {}
     },
@@ -1022,22 +1018,20 @@
       "block_type": "list_item",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts",
+      "text": "Implementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Implementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts",
+      "text": "Canada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Canada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.",
+      "text": "At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.",
+      "text": "The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .",
       "order": 8,
       "metadata": {}
     },
@@ -1070,10 +1062,9 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .",
+      "text": "The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.",
       "order": 9,
       "metadata": {}
     },
@@ -1082,52 +1073,70 @@
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.",
+      "text": "Contractual options for IP ownership",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Contractual options for IP ownership",
+      "text": "Table example with colour | Columns: IP options | R&D | Goods with associated R&D | Goods with no R&D expected | Services with no R&D expected",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
-      "text": "Table example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract",
+      "text": "IP options: Default | R&D: Contractor to own IP | Goods with associated R&D: Contractor to own IP | Goods with no R&D expected: Canada to own copyright | Services with no R&D expected: Canada to own copyright",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
+      "block_type": "table_row",
+      "heading": "Intellectual property and copyright",
+      "heading_path": [
+        "Intellectual property and copyright"
+      ],
+      "text": "IP options: Option | R&D: Canada to own IP | Goods with associated R&D: Canada to own IP | Goods with no R&D expected: Contractor to own IP , including copyright | Services with no R&D expected: Contractor to own IP , including copyright",
+      "order": 13,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0014",
+      "block_type": "table_row",
+      "heading": "Intellectual property and copyright",
+      "heading_path": [
+        "Intellectual property and copyright"
+      ],
+      "text": "IP options: Client says no IP | R&D: Not applicable | Goods with associated R&D: Not applicable | Goods with no R&D expected: No IP terms in the contract | Services with no R&D expected: No IP terms in the contract",
+      "order": 14,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0015",
       "block_type": "paragraph",
       "heading": "Intellectual property and copyright",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
         "Intellectual property and copyright"
       ],
       "text": "For additional guidance, PSPC buyers may contact their subject matter expert on IP .",
-      "order": 13,
+      "order": 15,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes. IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced. Refer to the following policy and guide for the complete details on IP in procurement: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Implementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Canada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above. At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely. The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP . The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership. Contractual options for IP ownership Table example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract For additional guidance, PSPC buyers may contact their subject matter expert on IP .\n\nIntellectual property and copyright\n\nBefore issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.\n\nIP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.\n\nRefer to the following policy and guide for the complete details on IP in procurement:\n\nPolicy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nImplementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nCanada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.\n\nAt the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.\n\nThe client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .\n\nThe client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.\n\nContractual options for IP ownership\n\nTable example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract\n\nFor additional guidance, PSPC buyers may contact their subject matter expert on IP .",
-  "markdown_text": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes. IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced. Refer to the following policy and guide for the complete details on IP in procurement: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Implementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts Canada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above. At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely. The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP . The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership. Contractual options for IP ownership Table example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract For additional guidance, PSPC buyers may contact their subject matter expert on IP .\n\nIntellectual property and copyright\n\nBefore issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.\n\nIP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.\n\nRefer to the following policy and guide for the complete details on IP in procurement:\n\nPolicy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nImplementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nCanada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.\n\nAt the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.\n\nThe client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .\n\nThe client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.\n\nContractual options for IP ownership\n\nTable example with colour IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract\n\nFor additional guidance, PSPC buyers may contact their subject matter expert on IP .",
+  "raw_text": "Intellectual property and copyright\n\nBefore issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.\n\nIP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.\n\nRefer to the following policy and guide for the complete details on IP in procurement:\n\nPolicy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nImplementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nCanada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.\n\nAt the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.\n\nThe client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .\n\nThe client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.\n\nContractual options for IP ownership\n\nTable example with colour | Columns: IP options | R&D | Goods with associated R&D | Goods with no R&D expected | Services with no R&D expected\n\nIP options: Default | R&D: Contractor to own IP | Goods with associated R&D: Contractor to own IP | Goods with no R&D expected: Canada to own copyright | Services with no R&D expected: Canada to own copyright\n\nIP options: Option | R&D: Canada to own IP | Goods with associated R&D: Canada to own IP | Goods with no R&D expected: Contractor to own IP , including copyright | Services with no R&D expected: Contractor to own IP , including copyright\n\nIP options: Client says no IP | R&D: Not applicable | Goods with associated R&D: Not applicable | Goods with no R&D expected: No IP terms in the contract | Services with no R&D expected: No IP terms in the contract\n\nFor additional guidance, PSPC buyers may contact their subject matter expert on IP .",
+  "markdown_text": "Intellectual property and copyright\n\nBefore issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.\n\nIP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.\n\nRefer to the following policy and guide for the complete details on IP in procurement:\n\nPolicy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nImplementation Guide: Policy on Title to Intellectual Property Arising Under Crown Procurement Contracts\n\nCanada’s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector’s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.\n\nAt the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.\n\nThe client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .\n\nThe client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC ’s contractual options for IP ownership.\n\nContractual options for IP ownership\n\nTable example with colour | Columns: IP options | R&D | Goods with associated R&D | Goods with no R&D expected | Services with no R&D expected\n\nIP options: Default | R&D: Contractor to own IP | Goods with associated R&D: Contractor to own IP | Goods with no R&D expected: Canada to own copyright | Services with no R&D expected: Canada to own copyright\n\nIP options: Option | R&D: Canada to own IP | Goods with associated R&D: Canada to own IP | Goods with no R&D expected: Contractor to own IP , including copyright | Services with no R&D expected: Contractor to own IP , including copyright\n\nIP options: Client says no IP | R&D: Not applicable | Goods with associated R&D: Not applicable | Goods with no R&D expected: No IP terms in the contract | Services with no R&D expected: No IP terms in the contract\n\nFor additional guidance, PSPC buyers may contact their subject matter expert on IP .",
   "provenance_paths": {}
 }

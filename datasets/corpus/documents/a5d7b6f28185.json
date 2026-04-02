@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:13.370382Z",
-  "content_hash": "4c293f3afe610d62fafeb0113d9993086b8bfee5f5e433dffb2a4d836780951d",
-  "word_count": 144,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "2133dd3ff9be1e68d42ee1a21fddbf51cd016b595ef35625aa81946c0530cbc0",
+  "word_count": 72,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Official Languages obligation",
+      "block_type": "heading",
+      "heading": "Official languages obligations",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Official Languages obligation"
+        "Official languages obligations"
       ],
-      "text": "Official languages obligations The government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations . Any member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
+      "text": "Official languages obligations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Official languages obligations",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Official Languages obligation",
         "Official languages obligations"
       ],
-      "text": "Official languages obligations",
+      "text": "The government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Official languages obligations",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Official Languages obligation",
-        "Official languages obligations"
-      ],
-      "text": "The government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Official languages obligations",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Official Languages obligation",
         "Official languages obligations"
       ],
       "text": "Any member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Official languages obligations The government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations . Any member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.\n\nOfficial languages obligations\n\nThe government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .\n\nAny member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
-  "markdown_text": "Official languages obligations The government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations . Any member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.\n\nOfficial languages obligations\n\nThe government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .\n\nAny member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
+  "raw_text": "Official languages obligations\n\nThe government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .\n\nAny member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
+  "markdown_text": "Official languages obligations\n\nThe government must serve and communicate with the public in both official languages, as required by the Official Languages Act and its regulations, including the Official Languages (Communications with and Services to the Public) Regulations .\n\nAny member of the public in Canada has the right to communicate and receive available services in either official language. Refer to the Providing content in Canada’s official languages page for more information.",
   "provenance_paths": {}
 }

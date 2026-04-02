@@ -154,12 +154,44 @@ def _render_evidence_sections(chunks: list[ChunkRecord]) -> str:
     return "\n\n---\n\n".join(sections)
 
 
-def _build_inline_evidence_prompt(question: str, chunks: list[ChunkRecord]) -> str:
+def _build_inline_evidence_prompt(question: str, evidence: EvidenceBundle | list[ChunkRecord]) -> str:
+    if isinstance(evidence, EvidenceBundle):
+        chunks = evidence.packed_chunks
+        retrieved_aspects = [query.strip() for query in evidence.retrieval_queries[1:] if query.strip()]
+    else:
+        chunks = evidence
+        retrieved_aspects = []
     joined = _render_evidence_sections(chunks)
+    aspect_block = ""
+    if retrieved_aspects:
+        aspect_block = "Retrieved aspects to cover when supported:\n" + "\n".join(
+            f"- {query}" for query in retrieved_aspects
+        ) + "\n\n"
+    supporting_sources_present = any(chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in chunks)
+    supporting_source_rule = (
+        "If you rely on supporting policy or directive evidence, mention that briefly only where needed.\n"
+        if supporting_sources_present
+        else "Do not mention supporting sources unless they are needed for the answer.\n"
+    )
     return (
-        "You are a procurement policy assistant. Answer using only the evidence below. "
-        "Be explicit when supporting sources are being used. Cite chunk IDs in square brackets.\n\n"
-        f"Question:\n{question}\n\nEvidence:\n{joined}"
+        "You are a procurement policy assistant. Answer using only the evidence below.\n"
+        "Requirements:\n"
+        "1. Start with the direct answer to the user's actual question.\n"
+        "2. Resolve every distinct part of the question explicitly.\n"
+        "3. If retrieved aspects are listed below, cover each supported aspect explicitly.\n"
+        "4. Preserve prerequisites, branch conditions, deadlines, exceptions, follow-on requirements, and what happens if a condition is or is not met.\n"
+        "5. If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.\n"
+        "6. If the user asks for an exact identifier, contact detail, form number, template name, or file name and the evidence does not establish it, say that directly in the first sentence and then give only the closest supported context.\n"
+        "7. Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the evidence explicitly ties them to the user's request.\n"
+        "8. Preserve force: if the evidence says must, only, cannot, required, or mandatory, keep that force.\n"
+        "9. Use short bullets only when they help cover multiple branches or steps; otherwise keep the answer compact.\n"
+        "10. Cite chunk IDs in square brackets after the statements they support.\n"
+        "11. Do not say 'the provided evidence' or refer to internal retrieval mechanics in the answer.\n"
+        "12. Do not end with an unfinished heading, bullet, or partial sentence.\n"
+        f"13. {supporting_source_rule.strip()}\n\n"
+        f"Original question:\n{question}\n\n"
+        f"{aspect_block}"
+        f"Evidence:\n{joined}"
     )
 
 
@@ -1734,7 +1766,7 @@ def _select_mode_aware_answer_route(
             abstained=False,
         )
     return SelectiveAnswerPlanRoute(
-        prompt=_build_inline_evidence_prompt(question, evidence.packed_chunks),
+        prompt=_build_inline_evidence_prompt(question, evidence),
         selected_path="inline_direct_rule",
         abstained=False,
     )
@@ -1817,11 +1849,85 @@ def _build_citations(chunks: list[ChunkRecord]) -> list[AnswerCitation]:
     return [AnswerCitation(chunk_id=chunk.chunk_id, canonical_url=chunk.canonical_url) for chunk in chunks]
 
 
+def _truncate_document_snippet(text: str, *, max_words: int = 300, max_chars: int | None = None) -> str:
+    words = text.split()
+    if len(words) > max_words:
+        text = " ".join(words[:max_words])
+    if max_chars is not None and len(text) > max_chars:
+        clipped = text[:max_chars].rstrip()
+        if " " in clipped:
+            clipped = clipped.rsplit(" ", 1)[0]
+        text = clipped
+    return text.strip()
+
+
+def _build_cohere_documents(
+    settings: Settings,
+    chunks: list[ChunkRecord],
+) -> tuple[list[ct.Document], dict[str, AnswerCitation]]:
+    documents: list[ct.Document] = []
+    citation_lookup: dict[str, AnswerCitation] = {}
+    for chunk in chunks:
+        heading = " > ".join(chunk.heading_path) if chunk.heading_path else chunk.title
+        snippet = _truncate_document_snippet(
+            chunk.text,
+            max_words=300,
+            max_chars=min(settings.max_doc_chars, 1800),
+        )
+        document = ct.Document(
+            id=chunk.chunk_id,
+            data={
+                "title": heading,
+                "snippet": snippet,
+                "url": chunk.canonical_url,
+                "source_family": chunk.source_family.value,
+            },
+        )
+        documents.append(document)
+        citation_lookup[chunk.chunk_id] = AnswerCitation(
+            chunk_id=chunk.chunk_id,
+            canonical_url=chunk.canonical_url,
+            snippet=snippet,
+        )
+    return documents, citation_lookup
+
+
+def _build_response_citations(
+    response: object,
+    citation_lookup: dict[str, AnswerCitation],
+) -> list[AnswerCitation]:
+    message = getattr(response, "message", None)
+    raw_citations = getattr(message, "citations", None) or []
+    resolved: list[AnswerCitation] = []
+    seen: set[str] = set()
+    for citation in raw_citations:
+        for document_id in getattr(citation, "document_ids", []) or []:
+            if document_id in seen:
+                continue
+            source = citation_lookup.get(str(document_id))
+            if source is None:
+                continue
+            resolved.append(source)
+            seen.add(str(document_id))
+    return resolved
+
+
+def _documents_system_prompt() -> str:
+    return (
+        "You are a procurement policy assistant.\n"
+        "Answer using only the supplied grounded documents.\n"
+        "If the documents do not establish an exact detail, say so clearly.\n"
+        "Do not invent identifiers, forms, contact details, or workflow steps.\n"
+        "Give a direct answer first, then short bullets only when they genuinely help.\n"
+        "Do not mention internal chunk IDs or say 'the provided evidence' in the answer.\n"
+    )
+
+
 def inline_evidence_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
     client = cohere.ClientV2(settings.cohere_api_key)
     response = client.chat(
         model=settings.cohere_chat_model,
-        messages=[ct.UserChatMessageV2(content=_build_inline_evidence_prompt(question, evidence.packed_chunks))],
+        messages=[ct.UserChatMessageV2(content=_build_inline_evidence_prompt(question, evidence))],
         temperature=settings.chat_temperature,
         max_tokens=settings.chat_max_output_tokens,
     )
@@ -1855,14 +1961,15 @@ def structured_inline_evidence_chat(settings: Settings, question: str, evidence:
 
 def documents_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
     client = cohere.ClientV2(settings.cohere_api_key)
-    documents = [
-        f"[{chunk.chunk_id}] {chunk.title}\nURL: {chunk.canonical_url}\n{chunk.text[: settings.max_doc_chars]}"
-        for chunk in evidence.packed_chunks
-    ]
+    documents, citation_lookup = _build_cohere_documents(settings, evidence.packed_chunks)
     response = client.chat(
         model=settings.cohere_chat_model,
-        messages=[ct.UserChatMessageV2(content=question)],
+        messages=[
+            ct.SystemChatMessageV2(content=_documents_system_prompt()),
+            ct.UserChatMessageV2(content=question),
+        ],
         documents=documents,
+        citation_options=ct.CitationOptions(mode="ENABLED"),
         temperature=settings.chat_temperature,
         max_tokens=settings.chat_max_output_tokens,
     )
@@ -1871,8 +1978,9 @@ def documents_chat(settings: Settings, question: str, evidence: EvidenceBundle) 
         answer_text=_extract_text_from_chat_response(response),
         strategy_name="documents_chat",
         model_name=settings.cohere_chat_model,
-        citations=_build_citations(evidence.packed_chunks),
+        citations=_build_response_citations(response, citation_lookup),
         evidence_bundle=evidence,
+        raw_response={"citations": [getattr(item, "document_ids", []) for item in getattr(getattr(response, "message", None), "citations", []) or []]},
     )
 
 

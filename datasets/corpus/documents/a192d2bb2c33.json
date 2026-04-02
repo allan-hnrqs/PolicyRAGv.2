@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:30.784471Z",
-  "content_hash": "01d94238be094678b4183435667693e23653a6030c13274534cb1a2ec0e70658",
-  "word_count": 1424,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d9e4d2c351dca62b906cb9f043bcad192991bb9e42c4289d22eef8361dd6a4ef",
+  "word_count": 712,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,24 +618,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
+      "block_type": "heading",
+      "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents"
+        "Preparing the solicitation documents"
       ],
-      "text": "Preparing the solicitation documents To ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents. You must ensure that the solicitation documents: align with the approved procurement strategy clearly outline the process for submitting offers include a closing date for offers that matches the notice of proposed procurement It's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear. Identifying and addressing conflicts of interest You must proactively identify potential conflicts of interest. This involves: asking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation asking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism consulting standard procurement clauses on conflict of interest Solicitations and land claims settlement areas For solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating: “This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].” If additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties. Solicitations and the Procurement Strategy for Indigenous Business When a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows: Insert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\". Include a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive. Ensure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement. Include the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision. Certifying businesses under the Procurement Strategy for Indigenous Business For each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration. Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides When creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state: “Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.” Ensuring value for money You must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility. Integrating accessibility You are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement. For more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult: the Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and the Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit Contracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
+      "text": "Preparing the solicitation documents",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "Preparing the solicitation documents",
+      "text": "To ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.",
       "order": 1,
       "metadata": {}
     },
@@ -644,22 +643,20 @@
       "block_type": "paragraph",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "To ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.",
+      "text": "You must ensure that the solicitation documents:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "You must ensure that the solicitation documents:",
+      "text": "align with the approved procurement strategy",
       "order": 3,
       "metadata": {}
     },
@@ -668,10 +665,9 @@
       "block_type": "list_item",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "align with the approved procurement strategy",
+      "text": "clearly outline the process for submitting offers",
       "order": 4,
       "metadata": {}
     },
@@ -680,60 +676,56 @@
       "block_type": "list_item",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "clearly outline the process for submitting offers",
+      "text": "include a closing date for offers that matches the notice of proposed procurement",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Preparing the solicitation documents",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents"
       ],
-      "text": "include a closing date for offers that matches the notice of proposed procurement",
+      "text": "It's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Preparing the solicitation documents",
+      "block_type": "heading",
+      "heading": "Identifying and addressing conflicts of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
-        "Preparing the solicitation documents"
+        "Preparing the solicitation documents",
+        "Identifying and addressing conflicts of interest"
       ],
-      "text": "It's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.",
+      "text": "Identifying and addressing conflicts of interest",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Identifying and addressing conflicts of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Identifying and addressing conflicts of interest"
       ],
-      "text": "Identifying and addressing conflicts of interest",
+      "text": "You must proactively identify potential conflicts of interest. This involves:",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Identifying and addressing conflicts of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Identifying and addressing conflicts of interest"
       ],
-      "text": "You must proactively identify potential conflicts of interest. This involves:",
+      "text": "asking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation",
       "order": 9,
       "metadata": {}
     },
@@ -742,11 +734,10 @@
       "block_type": "list_item",
       "heading": "Identifying and addressing conflicts of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Identifying and addressing conflicts of interest"
       ],
-      "text": "asking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation",
+      "text": "asking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism",
       "order": 10,
       "metadata": {}
     },
@@ -755,37 +746,34 @@
       "block_type": "list_item",
       "heading": "Identifying and addressing conflicts of interest",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Identifying and addressing conflicts of interest"
       ],
-      "text": "asking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism",
+      "text": "consulting standard procurement clauses on conflict of interest",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
-      "heading": "Identifying and addressing conflicts of interest",
+      "block_type": "heading",
+      "heading": "Solicitations and land claims settlement areas",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
-        "Identifying and addressing conflicts of interest"
+        "Solicitations and land claims settlement areas"
       ],
-      "text": "consulting standard procurement clauses on conflict of interest",
+      "text": "Solicitations and land claims settlement areas",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Solicitations and land claims settlement areas",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and land claims settlement areas"
       ],
-      "text": "Solicitations and land claims settlement areas",
+      "text": "For solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:",
       "order": 13,
       "metadata": {}
     },
@@ -794,11 +782,10 @@
       "block_type": "paragraph",
       "heading": "Solicitations and land claims settlement areas",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and land claims settlement areas"
       ],
-      "text": "For solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:",
+      "text": "“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”",
       "order": 14,
       "metadata": {}
     },
@@ -807,50 +794,46 @@
       "block_type": "paragraph",
       "heading": "Solicitations and land claims settlement areas",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and land claims settlement areas"
       ],
-      "text": "“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”",
+      "text": "If additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Solicitations and land claims settlement areas",
+      "block_type": "heading",
+      "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
-        "Solicitations and land claims settlement areas"
+        "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "If additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.",
+      "text": "Solicitations and the Procurement Strategy for Indigenous Business",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "Solicitations and the Procurement Strategy for Indigenous Business",
+      "text": "When a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "When a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:",
+      "text": "Insert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".",
       "order": 18,
       "metadata": {}
     },
@@ -859,11 +842,10 @@
       "block_type": "list_item",
       "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "Insert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".",
+      "text": "Include a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.",
       "order": 19,
       "metadata": {}
     },
@@ -872,11 +854,10 @@
       "block_type": "list_item",
       "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "Include a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.",
+      "text": "Ensure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.",
       "order": 20,
       "metadata": {}
     },
@@ -885,66 +866,62 @@
       "block_type": "list_item",
       "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business"
       ],
-      "text": "Ensure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.",
+      "text": "Include the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "list_item",
-      "heading": "Solicitations and the Procurement Strategy for Indigenous Business",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
-        "Preparing the solicitation documents",
-        "Solicitations and the Procurement Strategy for Indigenous Business"
-      ],
-      "text": "Include the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.",
-      "order": 22,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0023",
       "block_type": "heading",
       "heading": "Certifying businesses under the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business",
         "Certifying businesses under the Procurement Strategy for Indigenous Business"
       ],
       "text": "Certifying businesses under the Procurement Strategy for Indigenous Business",
-      "order": 23,
+      "order": 22,
       "metadata": {}
     },
     {
-      "block_id": "block_0024",
+      "block_id": "block_0023",
       "block_type": "paragraph",
       "heading": "Certifying businesses under the Procurement Strategy for Indigenous Business",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business",
         "Certifying businesses under the Procurement Strategy for Indigenous Business"
       ],
       "text": "For each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration.",
-      "order": 24,
+      "order": 23,
       "metadata": {}
     },
     {
-      "block_id": "block_0025",
+      "block_id": "block_0024",
       "block_type": "heading",
       "heading": "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business",
         "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides"
       ],
       "text": "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "paragraph",
+      "heading": "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides",
+      "heading_path": [
+        "Preparing the solicitation documents",
+        "Solicitations and the Procurement Strategy for Indigenous Business",
+        "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides"
+      ],
+      "text": "When creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:",
       "order": 25,
       "metadata": {}
     },
@@ -953,65 +930,59 @@
       "block_type": "paragraph",
       "heading": "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
-        "Preparing the solicitation documents",
-        "Solicitations and the Procurement Strategy for Indigenous Business",
-        "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides"
-      ],
-      "text": "When creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:",
-      "order": 26,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Solicitations and the Procurement Strategy for Indigenous Business",
         "Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides"
       ],
       "text": "“Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.”",
+      "order": 26,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0027",
+      "block_type": "heading",
+      "heading": "Ensuring value for money",
+      "heading_path": [
+        "Preparing the solicitation documents",
+        "Ensuring value for money"
+      ],
+      "text": "Ensuring value for money",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Ensuring value for money",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Ensuring value for money"
       ],
-      "text": "Ensuring value for money",
+      "text": "You must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.",
       "order": 28,
       "metadata": {}
     },
     {
       "block_id": "block_0029",
-      "block_type": "paragraph",
-      "heading": "Ensuring value for money",
+      "block_type": "heading",
+      "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
-        "Ensuring value for money"
+        "Integrating accessibility"
       ],
-      "text": "You must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.",
+      "text": "Integrating accessibility",
       "order": 29,
       "metadata": {}
     },
     {
       "block_id": "block_0030",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
-      "text": "Integrating accessibility",
+      "text": "You are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.",
       "order": 30,
       "metadata": {}
     },
@@ -1020,11 +991,10 @@
       "block_type": "paragraph",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
-      "text": "You are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.",
+      "text": "For more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.",
       "order": 31,
       "metadata": {}
     },
@@ -1033,24 +1003,22 @@
       "block_type": "paragraph",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
-      "text": "For more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.",
+      "text": "For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
-      "text": "For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:",
+      "text": "the Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and",
       "order": 33,
       "metadata": {}
     },
@@ -1059,43 +1027,28 @@
       "block_type": "list_item",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
-      "text": "the Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and",
+      "text": "the Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
-      "block_type": "list_item",
-      "heading": "Integrating accessibility",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
-        "Preparing the solicitation documents",
-        "Integrating accessibility"
-      ],
-      "text": "the Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit",
-      "order": 35,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0036",
       "block_type": "paragraph",
       "heading": "Integrating accessibility",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Preparing the solicitation documents",
         "Preparing the solicitation documents",
         "Integrating accessibility"
       ],
       "text": "Contracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
-      "order": 36,
+      "order": 35,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Preparing the solicitation documents To ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents. You must ensure that the solicitation documents: align with the approved procurement strategy clearly outline the process for submitting offers include a closing date for offers that matches the notice of proposed procurement It's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear. Identifying and addressing conflicts of interest You must proactively identify potential conflicts of interest. This involves: asking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation asking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism consulting standard procurement clauses on conflict of interest Solicitations and land claims settlement areas For solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating: “This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].” If additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties. Solicitations and the Procurement Strategy for Indigenous Business When a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows: Insert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\". Include a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive. Ensure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement. Include the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision. Certifying businesses under the Procurement Strategy for Indigenous Business For each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration. Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides When creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state: “Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.” Ensuring value for money You must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility. Integrating accessibility You are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement. For more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult: the Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and the Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit Contracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.\n\nPreparing the solicitation documents\n\nTo ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.\n\nYou must ensure that the solicitation documents:\n\nalign with the approved procurement strategy\n\nclearly outline the process for submitting offers\n\ninclude a closing date for offers that matches the notice of proposed procurement\n\nIt's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.\n\nIdentifying and addressing conflicts of interest\n\nYou must proactively identify potential conflicts of interest. This involves:\n\nasking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation\n\nasking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism\n\nconsulting standard procurement clauses on conflict of interest\n\nSolicitations and land claims settlement areas\n\nFor solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:\n\n“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”\n\nIf additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.\n\nSolicitations and the Procurement Strategy for Indigenous Business\n\nWhen a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:\n\nInsert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".\n\nInclude a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.\n\nEnsure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.\n\nInclude the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.\n\nCertifying businesses under the Procurement Strategy for Indigenous Business\n\nFor each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration.\n\nSourcing of requirements under the Procurement Strategy for Indigenous Business set-asides\n\nWhen creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:\n\n“Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.”\n\nEnsuring value for money\n\nYou must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.\n\nIntegrating accessibility\n\nYou are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.\n\nFor more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:\n\nthe Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and\n\nthe Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit\n\nContracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
-  "markdown_text": "Preparing the solicitation documents To ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents. You must ensure that the solicitation documents: align with the approved procurement strategy clearly outline the process for submitting offers include a closing date for offers that matches the notice of proposed procurement It's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear. Identifying and addressing conflicts of interest You must proactively identify potential conflicts of interest. This involves: asking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation asking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism consulting standard procurement clauses on conflict of interest Solicitations and land claims settlement areas For solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating: “This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].” If additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties. Solicitations and the Procurement Strategy for Indigenous Business When a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows: Insert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\". Include a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive. Ensure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement. Include the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision. Certifying businesses under the Procurement Strategy for Indigenous Business For each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration. Sourcing of requirements under the Procurement Strategy for Indigenous Business set-asides When creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state: “Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.” Ensuring value for money You must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility. Integrating accessibility You are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement. For more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult: the Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and the Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit Contracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.\n\nPreparing the solicitation documents\n\nTo ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.\n\nYou must ensure that the solicitation documents:\n\nalign with the approved procurement strategy\n\nclearly outline the process for submitting offers\n\ninclude a closing date for offers that matches the notice of proposed procurement\n\nIt's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.\n\nIdentifying and addressing conflicts of interest\n\nYou must proactively identify potential conflicts of interest. This involves:\n\nasking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation\n\nasking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism\n\nconsulting standard procurement clauses on conflict of interest\n\nSolicitations and land claims settlement areas\n\nFor solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:\n\n“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”\n\nIf additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.\n\nSolicitations and the Procurement Strategy for Indigenous Business\n\nWhen a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:\n\nInsert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".\n\nInclude a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.\n\nEnsure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.\n\nInclude the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.\n\nCertifying businesses under the Procurement Strategy for Indigenous Business\n\nFor each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration.\n\nSourcing of requirements under the Procurement Strategy for Indigenous Business set-asides\n\nWhen creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:\n\n“Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.”\n\nEnsuring value for money\n\nYou must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.\n\nIntegrating accessibility\n\nYou are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.\n\nFor more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:\n\nthe Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and\n\nthe Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit\n\nContracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
+  "raw_text": "Preparing the solicitation documents\n\nTo ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.\n\nYou must ensure that the solicitation documents:\n\nalign with the approved procurement strategy\n\nclearly outline the process for submitting offers\n\ninclude a closing date for offers that matches the notice of proposed procurement\n\nIt's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.\n\nIdentifying and addressing conflicts of interest\n\nYou must proactively identify potential conflicts of interest. This involves:\n\nasking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation\n\nasking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism\n\nconsulting standard procurement clauses on conflict of interest\n\nSolicitations and land claims settlement areas\n\nFor solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:\n\n“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”\n\nIf additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.\n\nSolicitations and the Procurement Strategy for Indigenous Business\n\nWhen a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:\n\nInsert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".\n\nInclude a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.\n\nEnsure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.\n\nInclude the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.\n\nCertifying businesses under the Procurement Strategy for Indigenous Business\n\nFor each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration.\n\nSourcing of requirements under the Procurement Strategy for Indigenous Business set-asides\n\nWhen creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:\n\n“Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.”\n\nEnsuring value for money\n\nYou must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.\n\nIntegrating accessibility\n\nYou are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.\n\nFor more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:\n\nthe Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and\n\nthe Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit\n\nContracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
+  "markdown_text": "Preparing the solicitation documents\n\nTo ensure a successful procurement process, it is essential to develop detailed and well-structured solicitation documents.\n\nYou must ensure that the solicitation documents:\n\nalign with the approved procurement strategy\n\nclearly outline the process for submitting offers\n\ninclude a closing date for offers that matches the notice of proposed procurement\n\nIt's advisable to have the solicitation documents reviewed before release to ensure they are comprehensive and clear.\n\nIdentifying and addressing conflicts of interest\n\nYou must proactively identify potential conflicts of interest. This involves:\n\nasking the client if anyone who is not an employee of Canada is or will be involved in preparing the statement of work or requirement, evaluation criteria and the evaluation\n\nasking the client if any employees or former public servants have connections in their personal or professional life, which may lead to businesses asking questions about favoritism\n\nconsulting standard procurement clauses on conflict of interest\n\nSolicitations and land claims settlement areas\n\nFor solicitations involving unspecified final delivery locations within land claims settlement areas, you must ensure to include the relevant clauses to address this requirement. For example, you must include a clause in both the solicitation document and the resulting contract stating:\n\n“This procurement is subject to the following Comprehensive Land Claims Agreement(s) (CLCA): [indicate the applicable CLCA (s)].”\n\nIf additional support is needed regarding the clauses for land claims settlement areas, you should seek assistance as per the guidelines on modern treaties.\n\nSolicitations and the Procurement Strategy for Indigenous Business\n\nWhen a procurement requirement is being set aside under the Procurement Strategy for Indigenous Business (PSIB), the solicitation of offers s must include clauses detailing the requirements for Indigenous set-asides, as follows:\n\nInsert clauses related to the definitions of an \"Indigenous business\" and \"Indigenous person\".\n\nInclude a mandatory certification form with the solicitation of offers package, as offers submitted without this completed form will render the offer non-responsive.\n\nEnsure that any contract awarded on the basis of the business being Indigenous includes the relevant clause affirming this requirement.\n\nInclude the liquidated damages clause designed for these types of contracts. If a contractor is later found ineligible, this clause helps Canada recover part of the payment if the contractor doesn't meet the eligibility requirements. You must document all steps and consult Legal Services before making a final decision.\n\nCertifying businesses under the Procurement Strategy for Indigenous Business\n\nFor each procurement set aside under the PSIB , businesses are required to submit a certification with their offer stating that they meet the definition of an Indigenous business, according to the definition provided, on the date the offer was submitted, and will continue to meet this definition throughout the contract duration.\n\nSourcing of requirements under the Procurement Strategy for Indigenous Business set-asides\n\nWhen creating a SO or SA that includes both a source list for Indigenous set-asides and a general source list, ensure the solicitation documents clearly state:\n\n“Indigenous offerors who qualify for the Indigenous source list will be automatically placed on the general source list if the procurement requirements are identical. In such cases, it is not necessary for Indigenous offerors to submit separate offers for each list.”\n\nEnsuring value for money\n\nYou must ensure that value for money is achieved for Canada, considering multiple factors such as cost, performance, availability, quality and accessibility.\n\nIntegrating accessibility\n\nYou are required to consider accessibility in the preparation of solicitation of offers and resulting contracts, as well as RFSO and RFSA , to ensure that accessibility criteria, if appropriate, are included in the procurement.\n\nFor more information see the Treasury Board Secretariat’s Directive on the Management of Procurement . Support is available at your accessibility office to obtain assistance with integrating accessibility considerations in solicitation documents.\n\nFor guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, contracting authorities can consult:\n\nthe Guide to Considering Accessibility When Procuring Goods and Services available on the Office of Public Service Accessibility webpage (accessible only on the Government of Canada network); and\n\nthe Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement available on the Digital Accessibility Toolkit\n\nContracting authorities can contact the Accessible Procurement Resource Centre (APRC) to obtain assistance with integrating accessibility considerations in their solicitation documents.",
   "provenance_paths": {}
 }

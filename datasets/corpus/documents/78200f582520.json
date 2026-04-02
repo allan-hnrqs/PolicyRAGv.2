@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:48.210743Z",
-  "content_hash": "235e6a4072446bb7571a24fecac4d8d98f393f8a7b612f6934b0c26e5773a0d5",
-  "word_count": 456,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "624b4b4cf6d07800e4e69e830bfa550235b829ac024d970b6d2564a96efc67d6",
+  "word_count": 228,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,62 +617,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+      "block_type": "heading",
+      "heading": "Phased offer compliance",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance"
+        "Phased offer compliance"
       ],
-      "text": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
+      "text": "Phased offer compliance",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Phased offer compliance",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance"
       ],
-      "text": "Phased offer compliance",
+      "text": "The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Phased offer compliance",
+      "block_type": "heading",
+      "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
-        "Phased offer compliance"
+        "Phased offer compliance",
+        "When to use"
       ],
-      "text": "The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.",
+      "text": "When to use",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "When to use",
+      "text": "The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:",
+      "text": "four or fewer offers are anticipated",
       "order": 4,
       "metadata": {}
     },
@@ -681,11 +678,10 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "four or fewer offers are anticipated",
+      "text": "the requirement is complicated",
       "order": 5,
       "metadata": {}
     },
@@ -694,11 +690,10 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "the requirement is complicated",
+      "text": "the Industrial and Technological Benefits Policy (ITB) applies",
       "order": 6,
       "metadata": {}
     },
@@ -707,11 +702,10 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "the Industrial and Technological Benefits Policy (ITB) applies",
+      "text": "a socio-economic objective is a rated requirement with a mandatory minimum threshold",
       "order": 7,
       "metadata": {}
     },
@@ -720,11 +714,10 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "a socio-economic objective is a rated requirement with a mandatory minimum threshold",
+      "text": "the work involves significant innovation",
       "order": 8,
       "metadata": {}
     },
@@ -733,11 +726,10 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "the work involves significant innovation",
+      "text": "a mandatory requirement is unfamiliar to industry",
       "order": 9,
       "metadata": {}
     },
@@ -746,37 +738,34 @@
       "block_type": "list_item",
       "heading": "When to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "When to use"
       ],
-      "text": "a mandatory requirement is unfamiliar to industry",
+      "text": "the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
-      "heading": "When to use",
+      "block_type": "heading",
+      "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
-        "When to use"
+        "Exceptions"
       ],
-      "text": "the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold",
+      "text": "Exceptions",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "Exceptions"
       ],
-      "text": "Exceptions",
+      "text": "Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.",
       "order": 12,
       "metadata": {}
     },
@@ -785,24 +774,22 @@
       "block_type": "paragraph",
       "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "Exceptions"
       ],
-      "text": "Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.",
+      "text": "Public Services and Procurement Canada (PSPC) directors may decide to:",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "Exceptions"
       ],
-      "text": "Public Services and Procurement Canada (PSPC) directors may decide to:",
+      "text": "not apply the POCP when the above conditions are met",
       "order": 14,
       "metadata": {}
     },
@@ -811,56 +798,40 @@
       "block_type": "list_item",
       "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "Exceptions"
       ],
-      "text": "not apply the POCP when the above conditions are met",
+      "text": "apply the POCP when the above conditions are not met",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
-      "heading": "Exceptions",
+      "block_type": "heading",
+      "heading": "How to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
-        "Exceptions"
+        "How to use"
       ],
-      "text": "apply the POCP when the above conditions are not met",
+      "text": "How to use",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
-      "heading": "How to use",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
-        "Phased offer compliance",
-        "How to use"
-      ],
-      "text": "How to use",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
       "block_type": "paragraph",
       "heading": "How to use",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
         "Phased offer compliance",
         "How to use"
       ],
       "text": "In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
-      "order": 18,
+      "order": 17,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.\n\nPhased offer compliance\n\nThe phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.\n\nWhen to use\n\nThe POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:\n\nfour or fewer offers are anticipated\n\nthe requirement is complicated\n\nthe Industrial and Technological Benefits Policy (ITB) applies\n\na socio-economic objective is a rated requirement with a mandatory minimum threshold\n\nthe work involves significant innovation\n\na mandatory requirement is unfamiliar to industry\n\nthe procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold\n\nExceptions\n\nAny deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.\n\nPublic Services and Procurement Canada (PSPC) directors may decide to:\n\nnot apply the POCP when the above conditions are met\n\napply the POCP when the above conditions are not met\n\nHow to use\n\nIn collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
-  "markdown_text": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.\n\nPhased offer compliance\n\nThe phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.\n\nWhen to use\n\nThe POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:\n\nfour or fewer offers are anticipated\n\nthe requirement is complicated\n\nthe Industrial and Technological Benefits Policy (ITB) applies\n\na socio-economic objective is a rated requirement with a mandatory minimum threshold\n\nthe work involves significant innovation\n\na mandatory requirement is unfamiliar to industry\n\nthe procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold\n\nExceptions\n\nAny deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.\n\nPublic Services and Procurement Canada (PSPC) directors may decide to:\n\nnot apply the POCP when the above conditions are met\n\napply the POCP when the above conditions are not met\n\nHow to use\n\nIn collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
+  "raw_text": "Phased offer compliance\n\nThe phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.\n\nWhen to use\n\nThe POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:\n\nfour or fewer offers are anticipated\n\nthe requirement is complicated\n\nthe Industrial and Technological Benefits Policy (ITB) applies\n\na socio-economic objective is a rated requirement with a mandatory minimum threshold\n\nthe work involves significant innovation\n\na mandatory requirement is unfamiliar to industry\n\nthe procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold\n\nExceptions\n\nAny deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.\n\nPublic Services and Procurement Canada (PSPC) directors may decide to:\n\nnot apply the POCP when the above conditions are met\n\napply the POCP when the above conditions are not met\n\nHow to use\n\nIn collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
+  "markdown_text": "Phased offer compliance\n\nThe phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.\n\nWhen to use\n\nThe POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:\n\nfour or fewer offers are anticipated\n\nthe requirement is complicated\n\nthe Industrial and Technological Benefits Policy (ITB) applies\n\na socio-economic objective is a rated requirement with a mandatory minimum threshold\n\nthe work involves significant innovation\n\na mandatory requirement is unfamiliar to industry\n\nthe procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold\n\nExceptions\n\nAny deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.\n\nPublic Services and Procurement Canada (PSPC) directors may decide to:\n\nnot apply the POCP when the above conditions are met\n\napply the POCP when the above conditions are not met\n\nHow to use\n\nIn collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
   "provenance_paths": {}
 }

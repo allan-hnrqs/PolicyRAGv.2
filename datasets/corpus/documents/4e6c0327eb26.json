@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:52.292599Z",
-  "content_hash": "88f25495d223e24ff27ff2727bd3a2c8d0e30d19a24704dcb620fe4970043d9f",
-  "word_count": 168,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d03d4eb22c708f21617c78a20f428b50cda13b465b2ad315abe78d584a52ebba",
+  "word_count": 84,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Method of selection - Communicating the method of selection",
+      "block_type": "heading",
+      "heading": "Communicating the method of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection - Communicating the method of selection"
+        "Communicating the method of selection"
       ],
-      "text": "Communicating the method of selection A Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity. Read more about the evaluation procedures by consulting Receive and evaluate .",
+      "text": "Communicating the method of selection",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Communicating the method of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection - Communicating the method of selection",
         "Communicating the method of selection"
       ],
-      "text": "Communicating the method of selection",
+      "text": "A Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Communicating the method of selection",
       "heading_path": [
-        "Buyer's Guide Method of selection - Communicating the method of selection",
-        "Communicating the method of selection"
-      ],
-      "text": "A Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Communicating the method of selection",
-      "heading_path": [
-        "Buyer's Guide Method of selection - Communicating the method of selection",
         "Communicating the method of selection"
       ],
       "text": "Read more about the evaluation procedures by consulting Receive and evaluate .",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Communicating the method of selection A Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity. Read more about the evaluation procedures by consulting Receive and evaluate .\n\nCommunicating the method of selection\n\nA Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.\n\nRead more about the evaluation procedures by consulting Receive and evaluate .",
-  "markdown_text": "Communicating the method of selection A Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity. Read more about the evaluation procedures by consulting Receive and evaluate .\n\nCommunicating the method of selection\n\nA Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.\n\nRead more about the evaluation procedures by consulting Receive and evaluate .",
+  "raw_text": "Communicating the method of selection\n\nA Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.\n\nRead more about the evaluation procedures by consulting Receive and evaluate .",
+  "markdown_text": "Communicating the method of selection\n\nA Canadian International Trade Tribunal (CITT) ruling emphasizes the importance of clearly communicating the method of selection in the solicitation documents. Even if it awarding contracts to the lowest responsive offeror is a recognized practice, you must still state the method of selection. If there is an intent to rely on a publicly available policy, you must incorporate it into the solicitation documents to avoid any ambiguity.\n\nRead more about the evaluation procedures by consulting Receive and evaluate .",
   "provenance_paths": {}
 }

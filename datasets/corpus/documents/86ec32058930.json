@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:40.105254Z",
-  "content_hash": "27dc285dc6b6071bdac0eef0f63f893e4af2c878fd25edbb346c93d56900aca7",
-  "word_count": 2652,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "be83b7ce3c3b9663df9455138e0f5269b7d9be4a876db6547c572742d74a7a0d",
+  "word_count": 1326,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,213 +960,199 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Engage - Engage with businesses",
+      "block_type": "heading",
+      "heading": "Engage with businesses",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses"
+        "Engage with businesses"
       ],
-      "text": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes. Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process. Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding. Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate. Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process. Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process. Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts. Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers issues or concerns related to the process and how they will be addressed the final decision regarding the POCP 's inclusion in the solicitation documents. Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below. Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process. The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents. The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation You can adopt technical means such as: video conferencing teleconferencing webcasting Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings. While the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences. Note: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer. Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include: the location date time any required level of security clearance request the names of the representatives attending request for any issues they wish to discuss This is crucial for preparing a focused and effective agenda outlining elements to be discussed. During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements. After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents. Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site. You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client. When scheduling a site visit, you must consider a date that will allow sufficient time for: offerors to review the solicitation documents offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must : indicate the location, date and time state the optional or mandatory nature of the site visit For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive For optional visits, specify non-attendance isn’t required to submit an offer specify the level of clearance required (if the location requires that participants hold a valid security clearance) The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site. Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers . You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss. Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
+      "text": "Engage with businesses",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Engage with businesses",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses"
       ],
-      "text": "Engage with businesses",
+      "text": "Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Engage with businesses",
+      "block_type": "heading",
+      "heading": "Key principles for business engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses"
+        "Engage with businesses",
+        "Key principles for business engagement"
       ],
-      "text": "Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.",
+      "text": "Key principles for business engagement",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Key principles for business engagement",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement"
       ],
-      "text": "Key principles for business engagement",
+      "text": "When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Key principles for business engagement",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Key principles for business engagement"
-      ],
-      "text": "When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
       "block_type": "heading",
       "heading": "Clarity and transparency",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Clarity and transparency"
       ],
       "text": "Clarity and transparency",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     },
     {
-      "block_id": "block_0006",
+      "block_id": "block_0005",
       "block_type": "paragraph",
       "heading": "Clarity and transparency",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Clarity and transparency"
       ],
       "text": "Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.",
-      "order": 6,
+      "order": 5,
       "metadata": {}
     },
     {
-      "block_id": "block_0007",
+      "block_id": "block_0006",
       "block_type": "heading",
       "heading": "Fairness",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Fairness"
       ],
       "text": "Fairness",
-      "order": 7,
+      "order": 6,
       "metadata": {}
     },
     {
-      "block_id": "block_0008",
+      "block_id": "block_0007",
       "block_type": "paragraph",
       "heading": "Fairness",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Fairness"
       ],
       "text": "Treat all potential offerors equally, providing them with the same information and opportunities to participate.",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     },
     {
-      "block_id": "block_0009",
+      "block_id": "block_0008",
       "block_type": "heading",
       "heading": "Openness",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Openness"
       ],
       "text": "Openness",
-      "order": 9,
+      "order": 8,
       "metadata": {}
     },
     {
-      "block_id": "block_0010",
+      "block_id": "block_0009",
       "block_type": "paragraph",
       "heading": "Openness",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Openness"
       ],
       "text": "Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     },
     {
-      "block_id": "block_0011",
+      "block_id": "block_0010",
       "block_type": "heading",
       "heading": "Collaboration",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Collaboration"
       ],
       "text": "Collaboration",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "paragraph",
       "heading": "Collaboration",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Key principles for business engagement",
         "Collaboration"
       ],
       "text": "Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.",
+      "order": 11,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0012",
+      "block_type": "heading",
+      "heading": "Price and availability enquiry",
+      "heading_path": [
+        "Engage with businesses",
+        "Price and availability enquiry"
+      ],
+      "text": "Price and availability enquiry",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Price and availability enquiry",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Price and availability enquiry"
       ],
-      "text": "Price and availability enquiry",
+      "text": "You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Price and availability enquiry",
+      "block_type": "heading",
+      "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
-        "Price and availability enquiry"
+        "Engaging using the POCP"
       ],
-      "text": "You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.",
+      "text": "Engaging using the POCP",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "Engaging using the POCP",
+      "text": "You should engage with the industry, including potential offerors in the context of the POCP .",
       "order": 15,
       "metadata": {}
     },
@@ -1175,24 +1161,22 @@
       "block_type": "paragraph",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "You should engage with the industry, including potential offerors in the context of the POCP .",
+      "text": "You should provide the following information about the POCP :",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "You should provide the following information about the POCP :",
+      "text": "its purpose and how it works",
       "order": 17,
       "metadata": {}
     },
@@ -1201,11 +1185,10 @@
       "block_type": "list_item",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "its purpose and how it works",
+      "text": "the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers",
       "order": 18,
       "metadata": {}
     },
@@ -1214,11 +1197,10 @@
       "block_type": "list_item",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers",
+      "text": "issues or concerns related to the process and how they will be addressed",
       "order": 19,
       "metadata": {}
     },
@@ -1227,64 +1209,60 @@
       "block_type": "list_item",
       "heading": "Engaging using the POCP",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Engaging using the POCP"
       ],
-      "text": "issues or concerns related to the process and how they will be addressed",
+      "text": "the final decision regarding the POCP 's inclusion in the solicitation documents.",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
-      "heading": "Engaging using the POCP",
+      "block_type": "heading",
+      "heading": "Offerors' conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
-        "Engaging using the POCP"
+        "Offerors' conference"
       ],
-      "text": "the final decision regarding the POCP 's inclusion in the solicitation documents.",
+      "text": "Offerors' conference",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Offerors' conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference"
       ],
-      "text": "Offerors' conference",
+      "text": "Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
-      "heading": "Offerors' conference",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Offerors' conference"
-      ],
-      "text": "Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
       "block_type": "heading",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
       "text": "Key procedures and guidelines",
+      "order": 23,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0024",
+      "block_type": "paragraph",
+      "heading": "Key procedures and guidelines",
+      "heading_path": [
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "text": "A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.",
       "order": 24,
       "metadata": {}
     },
@@ -1293,12 +1271,11 @@
       "block_type": "paragraph",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
-      "text": "A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.",
+      "text": "The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.",
       "order": 25,
       "metadata": {}
     },
@@ -1307,12 +1284,11 @@
       "block_type": "paragraph",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
-      "text": "The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.",
+      "text": "The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation",
       "order": 26,
       "metadata": {}
     },
@@ -1321,26 +1297,24 @@
       "block_type": "paragraph",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Offerors' conference",
-        "Key procedures and guidelines"
-      ],
-      "text": "The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation",
-      "order": 27,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0028",
-      "block_type": "paragraph",
-      "heading": "Key procedures and guidelines",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
       "text": "You can adopt technical means such as:",
+      "order": 27,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0028",
+      "block_type": "list_item",
+      "heading": "Key procedures and guidelines",
+      "heading_path": [
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "text": "video conferencing",
       "order": 28,
       "metadata": {}
     },
@@ -1349,12 +1323,11 @@
       "block_type": "list_item",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
-      "text": "video conferencing",
+      "text": "teleconferencing",
       "order": 29,
       "metadata": {}
     },
@@ -1363,26 +1336,24 @@
       "block_type": "list_item",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Offerors' conference",
-        "Key procedures and guidelines"
-      ],
-      "text": "teleconferencing",
-      "order": 30,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0031",
-      "block_type": "list_item",
-      "heading": "Key procedures and guidelines",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
       "text": "webcasting",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "paragraph",
+      "heading": "Key procedures and guidelines",
+      "heading_path": [
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "text": "Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.",
       "order": 31,
       "metadata": {}
     },
@@ -1391,12 +1362,11 @@
       "block_type": "paragraph",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
-      "text": "Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.",
+      "text": "While the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.",
       "order": 32,
       "metadata": {}
     },
@@ -1405,54 +1375,50 @@
       "block_type": "paragraph",
       "heading": "Key procedures and guidelines",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Offerors' conference",
-        "Key procedures and guidelines"
-      ],
-      "text": "While the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.",
-      "order": 33,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0034",
-      "block_type": "paragraph",
-      "heading": "Key procedures and guidelines",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Key procedures and guidelines"
       ],
       "text": "Note: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer.",
-      "order": 34,
+      "order": 33,
       "metadata": {}
     },
     {
-      "block_id": "block_0035",
+      "block_id": "block_0034",
       "block_type": "heading",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
       "text": "Before the conference",
-      "order": 35,
+      "order": 34,
       "metadata": {}
     },
     {
-      "block_id": "block_0036",
+      "block_id": "block_0035",
       "block_type": "paragraph",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
       "text": "You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:",
+      "order": 35,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0036",
+      "block_type": "list_item",
+      "heading": "Before the conference",
+      "heading_path": [
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "text": "the location",
       "order": 36,
       "metadata": {}
     },
@@ -1461,12 +1427,11 @@
       "block_type": "list_item",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
-      "text": "the location",
+      "text": "date",
       "order": 37,
       "metadata": {}
     },
@@ -1475,12 +1440,11 @@
       "block_type": "list_item",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
-      "text": "date",
+      "text": "time",
       "order": 38,
       "metadata": {}
     },
@@ -1489,12 +1453,11 @@
       "block_type": "list_item",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
-      "text": "time",
+      "text": "any required level of security clearance",
       "order": 39,
       "metadata": {}
     },
@@ -1503,12 +1466,11 @@
       "block_type": "list_item",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
-      "text": "any required level of security clearance",
+      "text": "request the names of the representatives attending",
       "order": 40,
       "metadata": {}
     },
@@ -1517,109 +1479,100 @@
       "block_type": "list_item",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Offerors' conference",
-        "Before the conference"
-      ],
-      "text": "request the names of the representatives attending",
-      "order": 41,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0042",
-      "block_type": "list_item",
-      "heading": "Before the conference",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
       "text": "request for any issues they wish to discuss",
-      "order": 42,
+      "order": 41,
       "metadata": {}
     },
     {
-      "block_id": "block_0043",
+      "block_id": "block_0042",
       "block_type": "paragraph",
       "heading": "Before the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "Before the conference"
       ],
       "text": "This is crucial for preparing a focused and effective agenda outlining elements to be discussed.",
-      "order": 43,
+      "order": 42,
       "metadata": {}
     },
     {
-      "block_id": "block_0044",
+      "block_id": "block_0043",
       "block_type": "heading",
       "heading": "During the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "During the conference"
       ],
       "text": "During the conference",
-      "order": 44,
+      "order": 43,
       "metadata": {}
     },
     {
-      "block_id": "block_0045",
+      "block_id": "block_0044",
       "block_type": "paragraph",
       "heading": "During the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "During the conference"
       ],
       "text": "As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.",
-      "order": 45,
+      "order": 44,
       "metadata": {}
     },
     {
-      "block_id": "block_0046",
+      "block_id": "block_0045",
       "block_type": "heading",
       "heading": "After the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "After the conference"
       ],
       "text": "After the conference",
-      "order": 46,
+      "order": 45,
       "metadata": {}
     },
     {
-      "block_id": "block_0047",
+      "block_id": "block_0046",
       "block_type": "paragraph",
       "heading": "After the conference",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Offerors' conference",
         "After the conference"
       ],
       "text": "You must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.",
+      "order": 46,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0047",
+      "block_type": "heading",
+      "heading": "Site visits",
+      "heading_path": [
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "text": "Site visits",
       "order": 47,
       "metadata": {}
     },
     {
       "block_id": "block_0048",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "Site visits",
+      "text": "Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.",
       "order": 48,
       "metadata": {}
     },
@@ -1628,11 +1581,10 @@
       "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.",
+      "text": "You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.",
       "order": 49,
       "metadata": {}
     },
@@ -1641,24 +1593,22 @@
       "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.",
+      "text": "When scheduling a site visit, you must consider a date that will allow sufficient time for:",
       "order": 50,
       "metadata": {}
     },
     {
       "block_id": "block_0051",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "When scheduling a site visit, you must consider a date that will allow sufficient time for:",
+      "text": "offerors to review the solicitation documents",
       "order": 51,
       "metadata": {}
     },
@@ -1667,11 +1617,10 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "offerors to review the solicitation documents",
+      "text": "offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance",
       "order": 52,
       "metadata": {}
     },
@@ -1680,37 +1629,34 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance",
+      "text": "you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary",
       "order": 53,
       "metadata": {}
     },
     {
       "block_id": "block_0054",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary",
+      "text": "Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :",
       "order": 54,
       "metadata": {}
     },
     {
       "block_id": "block_0055",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :",
+      "text": "indicate the location, date and time",
       "order": 55,
       "metadata": {}
     },
@@ -1719,11 +1665,10 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "indicate the location, date and time",
+      "text": "state the optional or mandatory nature of the site visit",
       "order": 56,
       "metadata": {}
     },
@@ -1732,11 +1677,10 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "state the optional or mandatory nature of the site visit",
+      "text": "For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive",
       "order": 57,
       "metadata": {}
     },
@@ -1745,11 +1689,10 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive",
+      "text": "For optional visits, specify non-attendance isn’t required to submit an offer",
       "order": 58,
       "metadata": {}
     },
@@ -1758,24 +1701,22 @@
       "block_type": "list_item",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "For optional visits, specify non-attendance isn’t required to submit an offer",
+      "text": "specify the level of clearance required (if the location requires that participants hold a valid security clearance)",
       "order": 59,
       "metadata": {}
     },
     {
       "block_id": "block_0060",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "specify the level of clearance required (if the location requires that participants hold a valid security clearance)",
+      "text": "The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.",
       "order": 60,
       "metadata": {}
     },
@@ -1784,11 +1725,10 @@
       "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.",
+      "text": "Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .",
       "order": 61,
       "metadata": {}
     },
@@ -1797,11 +1737,10 @@
       "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
-      "text": "Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .",
+      "text": "You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.",
       "order": 62,
       "metadata": {}
     },
@@ -1810,30 +1749,16 @@
       "block_type": "paragraph",
       "heading": "Site visits",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
-        "Engage with businesses",
-        "Site visits"
-      ],
-      "text": "You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.",
-      "order": 63,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0064",
-      "block_type": "paragraph",
-      "heading": "Site visits",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with businesses",
         "Engage with businesses",
         "Site visits"
       ],
       "text": "Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
-      "order": 64,
+      "order": 63,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes. Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process. Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding. Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate. Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process. Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process. Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts. Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers issues or concerns related to the process and how they will be addressed the final decision regarding the POCP 's inclusion in the solicitation documents. Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below. Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process. The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents. The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation You can adopt technical means such as: video conferencing teleconferencing webcasting Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings. While the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences. Note: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer. Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include: the location date time any required level of security clearance request the names of the representatives attending request for any issues they wish to discuss This is crucial for preparing a focused and effective agenda outlining elements to be discussed. During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements. After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents. Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site. You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client. When scheduling a site visit, you must consider a date that will allow sufficient time for: offerors to review the solicitation documents offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must : indicate the location, date and time state the optional or mandatory nature of the site visit For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive For optional visits, specify non-attendance isn’t required to submit an offer specify the level of clearance required (if the location requires that participants hold a valid security clearance) The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site. Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers . You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss. Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.\n\nEngage with businesses\n\nEngaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.\n\nKey principles for business engagement\n\nWhen engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.\n\nClarity and transparency\n\nEnsure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.\n\nFairness\n\nTreat all potential offerors equally, providing them with the same information and opportunities to participate.\n\nOpenness\n\nBe open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.\n\nCollaboration\n\nEncourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.\n\nPrice and availability enquiry\n\nYou can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.\n\nEngaging using the POCP\n\nYou should engage with the industry, including potential offerors in the context of the POCP .\n\nYou should provide the following information about the POCP :\n\nits purpose and how it works\n\nthe contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers\n\nissues or concerns related to the process and how they will be addressed\n\nthe final decision regarding the POCP 's inclusion in the solicitation documents.\n\nOfferors' conference\n\nOfferors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.\n\nKey procedures and guidelines\n\nA conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.\n\nThe announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.\n\nThe venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation\n\nYou can adopt technical means such as:\n\nvideo conferencing\n\nteleconferencing\n\nwebcasting\n\nVideo or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.\n\nWhile the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.\n\nNote: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer.\n\nBefore the conference\n\nYou must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:\n\nthe location\n\ndate\n\ntime\n\nany required level of security clearance\n\nrequest the names of the representatives attending\n\nrequest for any issues they wish to discuss\n\nThis is crucial for preparing a focused and effective agenda outlining elements to be discussed.\n\nDuring the conference\n\nAs the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.\n\nAfter the conference\n\nYou must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.\n\nSite visits\n\nSite visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.\n\nYou should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.\n\nWhen scheduling a site visit, you must consider a date that will allow sufficient time for:\n\nofferors to review the solicitation documents\n\nofferors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance\n\nyou to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary\n\nWhenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :\n\nindicate the location, date and time\n\nstate the optional or mandatory nature of the site visit\n\nFor mandatory visits, specify that failure to attend will result in the offer being declared non-responsive\n\nFor optional visits, specify non-attendance isn’t required to submit an offer\n\nspecify the level of clearance required (if the location requires that participants hold a valid security clearance)\n\nThe requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.\n\nPrior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .\n\nYou are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.\n\nFollowing the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
-  "markdown_text": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes. Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process. Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding. Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate. Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process. Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process. Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts. Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers issues or concerns related to the process and how they will be addressed the final decision regarding the POCP 's inclusion in the solicitation documents. Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below. Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process. The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents. The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation You can adopt technical means such as: video conferencing teleconferencing webcasting Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings. While the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences. Note: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer. Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include: the location date time any required level of security clearance request the names of the representatives attending request for any issues they wish to discuss This is crucial for preparing a focused and effective agenda outlining elements to be discussed. During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements. After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents. Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site. You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client. When scheduling a site visit, you must consider a date that will allow sufficient time for: offerors to review the solicitation documents offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must : indicate the location, date and time state the optional or mandatory nature of the site visit For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive For optional visits, specify non-attendance isn’t required to submit an offer specify the level of clearance required (if the location requires that participants hold a valid security clearance) The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site. Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers . You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss. Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.\n\nEngage with businesses\n\nEngaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.\n\nKey principles for business engagement\n\nWhen engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.\n\nClarity and transparency\n\nEnsure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.\n\nFairness\n\nTreat all potential offerors equally, providing them with the same information and opportunities to participate.\n\nOpenness\n\nBe open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.\n\nCollaboration\n\nEncourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.\n\nPrice and availability enquiry\n\nYou can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.\n\nEngaging using the POCP\n\nYou should engage with the industry, including potential offerors in the context of the POCP .\n\nYou should provide the following information about the POCP :\n\nits purpose and how it works\n\nthe contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers\n\nissues or concerns related to the process and how they will be addressed\n\nthe final decision regarding the POCP 's inclusion in the solicitation documents.\n\nOfferors' conference\n\nOfferors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.\n\nKey procedures and guidelines\n\nA conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.\n\nThe announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.\n\nThe venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation\n\nYou can adopt technical means such as:\n\nvideo conferencing\n\nteleconferencing\n\nwebcasting\n\nVideo or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.\n\nWhile the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.\n\nNote: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer.\n\nBefore the conference\n\nYou must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:\n\nthe location\n\ndate\n\ntime\n\nany required level of security clearance\n\nrequest the names of the representatives attending\n\nrequest for any issues they wish to discuss\n\nThis is crucial for preparing a focused and effective agenda outlining elements to be discussed.\n\nDuring the conference\n\nAs the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.\n\nAfter the conference\n\nYou must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.\n\nSite visits\n\nSite visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.\n\nYou should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.\n\nWhen scheduling a site visit, you must consider a date that will allow sufficient time for:\n\nofferors to review the solicitation documents\n\nofferors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance\n\nyou to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary\n\nWhenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :\n\nindicate the location, date and time\n\nstate the optional or mandatory nature of the site visit\n\nFor mandatory visits, specify that failure to attend will result in the offer being declared non-responsive\n\nFor optional visits, specify non-attendance isn’t required to submit an offer\n\nspecify the level of clearance required (if the location requires that participants hold a valid security clearance)\n\nThe requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.\n\nPrior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .\n\nYou are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.\n\nFollowing the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
+  "raw_text": "Engage with businesses\n\nEngaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.\n\nKey principles for business engagement\n\nWhen engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.\n\nClarity and transparency\n\nEnsure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.\n\nFairness\n\nTreat all potential offerors equally, providing them with the same information and opportunities to participate.\n\nOpenness\n\nBe open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.\n\nCollaboration\n\nEncourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.\n\nPrice and availability enquiry\n\nYou can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.\n\nEngaging using the POCP\n\nYou should engage with the industry, including potential offerors in the context of the POCP .\n\nYou should provide the following information about the POCP :\n\nits purpose and how it works\n\nthe contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers\n\nissues or concerns related to the process and how they will be addressed\n\nthe final decision regarding the POCP 's inclusion in the solicitation documents.\n\nOfferors' conference\n\nOfferors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.\n\nKey procedures and guidelines\n\nA conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.\n\nThe announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.\n\nThe venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation\n\nYou can adopt technical means such as:\n\nvideo conferencing\n\nteleconferencing\n\nwebcasting\n\nVideo or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.\n\nWhile the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.\n\nNote: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer.\n\nBefore the conference\n\nYou must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:\n\nthe location\n\ndate\n\ntime\n\nany required level of security clearance\n\nrequest the names of the representatives attending\n\nrequest for any issues they wish to discuss\n\nThis is crucial for preparing a focused and effective agenda outlining elements to be discussed.\n\nDuring the conference\n\nAs the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.\n\nAfter the conference\n\nYou must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.\n\nSite visits\n\nSite visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.\n\nYou should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.\n\nWhen scheduling a site visit, you must consider a date that will allow sufficient time for:\n\nofferors to review the solicitation documents\n\nofferors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance\n\nyou to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary\n\nWhenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :\n\nindicate the location, date and time\n\nstate the optional or mandatory nature of the site visit\n\nFor mandatory visits, specify that failure to attend will result in the offer being declared non-responsive\n\nFor optional visits, specify non-attendance isn’t required to submit an offer\n\nspecify the level of clearance required (if the location requires that participants hold a valid security clearance)\n\nThe requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.\n\nPrior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .\n\nYou are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.\n\nFollowing the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
+  "markdown_text": "Engage with businesses\n\nEngaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.\n\nKey principles for business engagement\n\nWhen engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.\n\nClarity and transparency\n\nEnsure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.\n\nFairness\n\nTreat all potential offerors equally, providing them with the same information and opportunities to participate.\n\nOpenness\n\nBe open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.\n\nCollaboration\n\nEncourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.\n\nPrice and availability enquiry\n\nYou can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.\n\nEngaging using the POCP\n\nYou should engage with the industry, including potential offerors in the context of the POCP .\n\nYou should provide the following information about the POCP :\n\nits purpose and how it works\n\nthe contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers\n\nissues or concerns related to the process and how they will be addressed\n\nthe final decision regarding the POCP 's inclusion in the solicitation documents.\n\nOfferors' conference\n\nOfferors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.\n\nKey procedures and guidelines\n\nA conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.\n\nThe announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.\n\nThe venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation\n\nYou can adopt technical means such as:\n\nvideo conferencing\n\nteleconferencing\n\nwebcasting\n\nVideo or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.\n\nWhile the offeror’s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.\n\nNote: Offeror’s attendance is optional. Non-attendance at the offeror’s conference is not a requirement to submit an offer.\n\nBefore the conference\n\nYou must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:\n\nthe location\n\ndate\n\ntime\n\nany required level of security clearance\n\nrequest the names of the representatives attending\n\nrequest for any issues they wish to discuss\n\nThis is crucial for preparing a focused and effective agenda outlining elements to be discussed.\n\nDuring the conference\n\nAs the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.\n\nAfter the conference\n\nYou must prepare and distribute the minutes of the conference to all attendees and to the offeror’s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.\n\nSite visits\n\nSite visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.\n\nYou should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.\n\nWhen scheduling a site visit, you must consider a date that will allow sufficient time for:\n\nofferors to review the solicitation documents\n\nofferors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance\n\nyou to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary\n\nWhenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :\n\nindicate the location, date and time\n\nstate the optional or mandatory nature of the site visit\n\nFor mandatory visits, specify that failure to attend will result in the offer being declared non-responsive\n\nFor optional visits, specify non-attendance isn’t required to submit an offer\n\nspecify the level of clearance required (if the location requires that participants hold a valid security clearance)\n\nThe requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.\n\nPrior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers .\n\nYou are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.\n\nFollowing the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
   "provenance_paths": {}
 }

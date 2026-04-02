@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:07.867475Z",
   "content_hash": "42a6501c472aae704900e7f8398440499d78aa8c80a1c5f85728a3226087913d",
   "word_count": 182,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications"
       ],
       "text": "Certifications",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications"
       ],
       "text": "When certifications are provided in an offer, they are subject to verification by Canada throughout the period of the contract, standing offer or supply arrangement. If the contractor, offeror or business does not comply with any certification, or if any certification is found to be false, Canada may:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications"
       ],
       "text": "terminate the contract for default",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications"
       ],
       "text": "set aside the standing offer or supply arrangement",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Certifications",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications"
       ],
       "text": "remove the business from the qualified business list",
@@ -832,7 +827,6 @@
       "block_type": "heading",
       "heading": "Indigenous business certification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications",
         "Indigenous business certification"
       ],
@@ -845,7 +839,6 @@
       "block_type": "paragraph",
       "heading": "Indigenous business certification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications",
         "Indigenous business certification"
       ],
@@ -858,7 +851,6 @@
       "block_type": "paragraph",
       "heading": "Indigenous business certification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications",
         "Indigenous business certification"
       ],
@@ -871,7 +863,6 @@
       "block_type": "paragraph",
       "heading": "Indigenous business certification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Certifications",
         "Certifications",
         "Indigenous business certification"
       ],

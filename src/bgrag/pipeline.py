@@ -9,8 +9,9 @@ from pathlib import Path
 import bgrag.answering.strategies  # Ensure answer strategies are registered.
 from bgrag.answering.strategies import inline_evidence_chat
 from bgrag.chunking.chunkers import section_chunker
-from bgrag.collect.collector import DEFAULT_SEED_URLS, crawl_scope, write_raw_snapshot
+from bgrag.collect.collector import DEFAULT_SEED_URLS, crawl_scope, raw_snapshot_stem, write_raw_snapshot
 from bgrag.config import Settings
+from bgrag.corpus_audit import build_corpus_audit, write_corpus_audit
 from bgrag.indexing.corpus_store import read_chunks, read_normalized_documents, write_chunks, write_normalized_documents
 from bgrag.indexing.elastic import build_es_client, index_chunks, require_es_available
 from bgrag.indexing.embedder import CohereEmbedder, read_embedding_store, write_embedding_store
@@ -28,7 +29,7 @@ from bgrag.registry import answer_strategy_registry, chunker_registry
 from bgrag.retrieval.mode_selection import CohereRetrievalModeSelector
 from bgrag.retrieval.query_expansion import CohereQueryExpander
 from bgrag.retrieval.retriever import HybridRetriever
-from bgrag.types import AnswerResult, ChunkRecord, NormalizedDocument
+from bgrag.types import AnswerResult, ChunkRecord, NormalizedDocument, SourceDocument
 
 
 def run_collect(
@@ -77,7 +78,33 @@ def run_build_corpus(settings: Settings, profile_name: str) -> list[ChunkRecord]
             )
         )
     write_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")), chunks)
+    write_corpus_audit(
+        settings.resolve(Path("datasets/corpus/chunk_audit.json")),
+        build_corpus_audit(documents, chunks),
+    )
     return chunks
+
+
+def run_refresh_normalized_from_raw(settings: Settings) -> list[NormalizedDocument]:
+    raw_dir = settings.resolve(Path("datasets/raw"))
+    existing = read_normalized_documents(settings.resolve(Path("datasets/corpus/documents")))
+    refreshed: list[NormalizedDocument] = []
+    for document in existing:
+        raw_path = raw_dir / f"{raw_snapshot_stem(document.canonical_url)}.html"
+        if not raw_path.exists():
+            raise RuntimeError(f"Missing raw snapshot for {document.canonical_url}: {raw_path}")
+        source_document = SourceDocument(
+            source_url=document.source_url,
+            fetched_at=document.fetched_at,
+            final_url=document.canonical_url,
+            status_code=200,
+            html=raw_path.read_text(encoding="utf-8"),
+            discovered_links=list(document.graph.outgoing_in_scope_links),
+        )
+        refreshed.append(normalize_document(source_document))
+    refreshed = assign_graph_relationships(refreshed)
+    write_normalized_documents(settings.resolve(Path("datasets/corpus/documents")), refreshed)
+    return refreshed
 
 
 def run_build_index(

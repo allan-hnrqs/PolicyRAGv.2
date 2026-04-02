@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:33.074752Z",
-  "content_hash": "737a4a367705169db6be6de73c967899b561ad631f0caeb23d3ccbfea31bcaaf",
-  "word_count": 530,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "1ec4a6fed4ff5fe3e61a4afc5cefc13e6c5a6224120c4e29f582108682f63364",
+  "word_count": 265,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,24 +618,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Choose a solicitation method - Request for quotation",
+      "block_type": "heading",
+      "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation"
+        "Request for quotation"
       ],
-      "text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+      "text": "Request for quotation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "Request for quotation",
+      "text": "A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.",
       "order": 1,
       "metadata": {}
     },
@@ -644,22 +643,20 @@
       "block_type": "paragraph",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.",
+      "text": "Before initiating an RFQ , you must ensure:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "Before initiating an RFQ , you must ensure:",
+      "text": "the offeror is not listed on the Ineligibility and Suspension List",
       "order": 3,
       "metadata": {}
     },
@@ -668,10 +665,9 @@
       "block_type": "list_item",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "the offeror is not listed on the Ineligibility and Suspension List",
+      "text": "the RFQ contains the Ineligibility and Suspension Policy clauses",
       "order": 4,
       "metadata": {}
     },
@@ -680,10 +676,9 @@
       "block_type": "list_item",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "the RFQ contains the Ineligibility and Suspension Policy clauses",
+      "text": "the requirements is clearly defined to facilitate evaluation based on price and delivery",
       "order": 5,
       "metadata": {}
     },
@@ -692,47 +687,44 @@
       "block_type": "list_item",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "the requirements is clearly defined to facilitate evaluation based on price and delivery",
+      "text": "contract award may be determined based on the lowest-priced offer that meets the requirements",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Request for quotation",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation"
       ],
-      "text": "contract award may be determined based on the lowest-priced offer that meets the requirements",
+      "text": "RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
-      "heading": "Request for quotation",
+      "block_type": "heading",
+      "heading": "Telephone buy",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
-        "Request for quotation"
+        "Request for quotation",
+        "Telephone buy"
       ],
-      "text": "RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.",
+      "text": "Telephone buy",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Telephone buy",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation",
         "Telephone buy"
       ],
-      "text": "Telephone buy",
+      "text": "A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.",
       "order": 9,
       "metadata": {}
     },
@@ -741,11 +733,10 @@
       "block_type": "paragraph",
       "heading": "Telephone buy",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation",
         "Telephone buy"
       ],
-      "text": "A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.",
+      "text": "Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.",
       "order": 10,
       "metadata": {}
     },
@@ -754,30 +745,16 @@
       "block_type": "paragraph",
       "heading": "Telephone buy",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
-        "Request for quotation",
-        "Telephone buy"
-      ],
-      "text": "Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Telephone buy",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for quotation",
         "Request for quotation",
         "Telephone buy"
       ],
       "text": "You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.\n\nRequest for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
-  "markdown_text": "Request for quotation A Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes. Before initiating an RFQ , you must ensure: the offeror is not listed on the Ineligibility and Suspension List the RFQ contains the Ineligibility and Suspension Policy clauses the requirements is clearly defined to facilitate evaluation based on price and delivery contract award may be determined based on the lowest-priced offer that meets the requirements RFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order. Telephone buy A Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes. Prior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy. You may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.\n\nRequest for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+  "raw_text": "Request for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
+  "markdown_text": "Request for quotation\n\nA Request for quotation (RFQ) may be used to solicit offers for requirements valued below $25,000 for goods and $40,000 for construction and services, including applicable taxes.\n\nBefore initiating an RFQ , you must ensure:\n\nthe offeror is not listed on the Ineligibility and Suspension List\n\nthe RFQ contains the Ineligibility and Suspension Policy clauses\n\nthe requirements is clearly defined to facilitate evaluation based on price and delivery\n\ncontract award may be determined based on the lowest-priced offer that meets the requirements\n\nRFQ s are not publicly posted. Offers can be directly submitted to you by a specified date and time. consult the Buyer’s Guide section on Integrity compliance for the steps to follow before contract award or before issuing a purchase order.\n\nTelephone buy\n\nA Telephone buy (T-buy) is a specific type of RFQ that involves soliciting offers from one or more offerors verbally, either in person or over the telephone. This is used for requirements under $25,000 for goods and under $40,000 for construction and services, including all applicable taxes.\n\nPrior to soliciting a telephone offer, you must ensure the offeror is informed they will be subject to the Ineligibility and Suspension List and must be compliant in order to be awarded a contract. You must ensure the offeror is familiar with the Policy.\n\nYou may enter into a verbal contract if you have the proper authority. Although written confirmation from the offeror for telephone offers is not required, you must document the offer details and confirm the order in writing by issuing the applicable contract document to the contractor.",
   "provenance_paths": {}
 }

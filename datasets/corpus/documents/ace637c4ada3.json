@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:10.453720Z",
-  "content_hash": "7cb34a69ce44d9d441d4e288cf713eab1266eac8b8f6ab01b23b0243dadec23e",
-  "word_count": 1450,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f9a2fae5113387f5dbb43a5888a53a7e1e827d5a0e8e12bad83d235f22ed586a",
+  "word_count": 725,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Liability and risk management",
+      "block_type": "heading",
+      "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management"
+        "Liability and risk management"
       ],
-      "text": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis examination of risk management techniques selection of appropriate techniques implementation of selected techniques monitoring of results Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making. Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding. Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include: property assets legal liabilities personnel reputation Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps. Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits. Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing. Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs. Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract. See Indemnification . Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses. Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available. Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures. Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance. Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain. Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
+      "text": "Liability and risk management",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "Liability and risk management",
+      "text": "The risk management process involves several of the following steps:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "The risk management process involves several of the following steps:",
+      "text": "risk identification and analysis",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "risk identification and analysis",
+      "text": "examination of risk management techniques",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "examination of risk management techniques",
+      "text": "selection of appropriate techniques",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "selection of appropriate techniques",
+      "text": "implementation of selected techniques",
       "order": 5,
       "metadata": {}
     },
@@ -1034,104 +1029,98 @@
       "block_type": "list_item",
       "heading": "Liability and risk management",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management"
       ],
-      "text": "implementation of selected techniques",
+      "text": "monitoring of results",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
-      "heading": "Liability and risk management",
+      "block_type": "heading",
+      "heading": "Risk assessment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management"
+        "Liability and risk management",
+        "Risk assessment"
       ],
-      "text": "monitoring of results",
+      "text": "Risk assessment",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk assessment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment"
       ],
-      "text": "Risk assessment",
+      "text": "Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Risk assessment",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management",
-        "Risk assessment"
-      ],
-      "text": "Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
       "block_type": "heading",
       "heading": "Execution of risk assessments",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Execution of risk assessments"
       ],
       "text": "Execution of risk assessments",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     },
     {
-      "block_id": "block_0011",
+      "block_id": "block_0010",
       "block_type": "paragraph",
       "heading": "Execution of risk assessments",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Execution of risk assessments"
       ],
       "text": "Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "heading",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
       "text": "Focus",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     },
     {
-      "block_id": "block_0013",
+      "block_id": "block_0012",
       "block_type": "paragraph",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
       "text": "The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:",
+      "order": 12,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0013",
+      "block_type": "list_item",
+      "heading": "Focus",
+      "heading_path": [
+        "Liability and risk management",
+        "Risk assessment",
+        "Focus"
+      ],
+      "text": "property",
       "order": 13,
       "metadata": {}
     },
@@ -1140,12 +1129,11 @@
       "block_type": "list_item",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
-      "text": "property",
+      "text": "assets",
       "order": 14,
       "metadata": {}
     },
@@ -1154,12 +1142,11 @@
       "block_type": "list_item",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
-      "text": "assets",
+      "text": "legal liabilities",
       "order": 15,
       "metadata": {}
     },
@@ -1168,12 +1155,11 @@
       "block_type": "list_item",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
-      "text": "legal liabilities",
+      "text": "personnel",
       "order": 16,
       "metadata": {}
     },
@@ -1182,67 +1168,61 @@
       "block_type": "list_item",
       "heading": "Focus",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management",
-        "Risk assessment",
-        "Focus"
-      ],
-      "text": "personnel",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
-      "block_type": "list_item",
-      "heading": "Focus",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Focus"
       ],
       "text": "reputation",
-      "order": 18,
+      "order": 17,
       "metadata": {}
     },
     {
-      "block_id": "block_0019",
+      "block_id": "block_0018",
       "block_type": "heading",
       "heading": "Information sources for risk identification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Information sources for risk identification"
       ],
       "text": "Information sources for risk identification",
-      "order": 19,
+      "order": 18,
       "metadata": {}
     },
     {
-      "block_id": "block_0020",
+      "block_id": "block_0019",
       "block_type": "paragraph",
       "heading": "Information sources for risk identification",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk assessment",
         "Information sources for risk identification"
       ],
       "text": "The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "heading",
+      "heading": "Risk control",
+      "heading_path": [
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "text": "Risk control",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Risk control",
+      "text": "Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.",
       "order": 21,
       "metadata": {}
     },
@@ -1251,11 +1231,10 @@
       "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.",
+      "text": "Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.",
       "order": 22,
       "metadata": {}
     },
@@ -1264,11 +1243,10 @@
       "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.",
+      "text": "Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.",
       "order": 23,
       "metadata": {}
     },
@@ -1277,11 +1255,10 @@
       "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.",
+      "text": "Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.",
       "order": 24,
       "metadata": {}
     },
@@ -1290,11 +1267,10 @@
       "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.",
+      "text": "Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.",
       "order": 25,
       "metadata": {}
     },
@@ -1303,37 +1279,34 @@
       "block_type": "paragraph",
       "heading": "Risk control",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk control"
       ],
-      "text": "Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.",
+      "text": "See Indemnification .",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Risk control",
+      "block_type": "heading",
+      "heading": "Risk financing",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
-        "Risk control"
+        "Risk financing"
       ],
-      "text": "See Indemnification .",
+      "text": "Risk financing",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk financing",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing"
       ],
-      "text": "Risk financing",
+      "text": "Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.",
       "order": 28,
       "metadata": {}
     },
@@ -1342,11 +1315,10 @@
       "block_type": "paragraph",
       "heading": "Risk financing",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing"
       ],
-      "text": "Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.",
+      "text": "Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.",
       "order": 29,
       "metadata": {}
     },
@@ -1355,38 +1327,36 @@
       "block_type": "paragraph",
       "heading": "Risk financing",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing"
       ],
-      "text": "Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.",
+      "text": "Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "paragraph",
-      "heading": "Risk financing",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management",
-        "Risk financing"
-      ],
-      "text": "Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.",
-      "order": 31,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0032",
       "block_type": "heading",
       "heading": "Risk financing models for contractors",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing",
         "Risk financing models for contractors"
       ],
       "text": "Risk financing models for contractors",
+      "order": 31,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0032",
+      "block_type": "paragraph",
+      "heading": "Risk financing models for contractors",
+      "heading_path": [
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "text": "Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.",
       "order": 32,
       "metadata": {}
     },
@@ -1395,12 +1365,11 @@
       "block_type": "paragraph",
       "heading": "Risk financing models for contractors",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing",
         "Risk financing models for contractors"
       ],
-      "text": "Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.",
+      "text": "Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.",
       "order": 33,
       "metadata": {}
     },
@@ -1409,39 +1378,35 @@
       "block_type": "paragraph",
       "heading": "Risk financing models for contractors",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management",
-        "Risk financing",
-        "Risk financing models for contractors"
-      ],
-      "text": "Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.",
-      "order": 34,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0035",
-      "block_type": "paragraph",
-      "heading": "Risk financing models for contractors",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing",
         "Risk financing models for contractors"
       ],
       "text": "Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance.",
+      "order": 34,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0035",
+      "block_type": "heading",
+      "heading": "Risk financing options exercised by Canada in contracting",
+      "heading_path": [
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "text": "Risk financing options exercised by Canada in contracting",
       "order": 35,
       "metadata": {}
     },
     {
       "block_id": "block_0036",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk financing options exercised by Canada in contracting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing options exercised by Canada in contracting"
       ],
-      "text": "Risk financing options exercised by Canada in contracting",
+      "text": "Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.",
       "order": 36,
       "metadata": {}
     },
@@ -1450,11 +1415,10 @@
       "block_type": "paragraph",
       "heading": "Risk financing options exercised by Canada in contracting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing options exercised by Canada in contracting"
       ],
-      "text": "Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.",
+      "text": "Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.",
       "order": 37,
       "metadata": {}
     },
@@ -1463,30 +1427,16 @@
       "block_type": "paragraph",
       "heading": "Risk financing options exercised by Canada in contracting",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
-        "Liability and risk management",
-        "Risk financing options exercised by Canada in contracting"
-      ],
-      "text": "Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.",
-      "order": 38,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0039",
-      "block_type": "paragraph",
-      "heading": "Risk financing options exercised by Canada in contracting",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Liability and risk management",
         "Liability and risk management",
         "Risk financing options exercised by Canada in contracting"
       ],
       "text": "Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
-      "order": 39,
+      "order": 38,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis examination of risk management techniques selection of appropriate techniques implementation of selected techniques monitoring of results Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making. Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding. Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include: property assets legal liabilities personnel reputation Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps. Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits. Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing. Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs. Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract. See Indemnification . Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses. Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available. Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures. Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance. Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain. Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.\n\nLiability and risk management\n\nThe risk management process involves several of the following steps:\n\nrisk identification and analysis\n\nexamination of risk management techniques\n\nselection of appropriate techniques\n\nimplementation of selected techniques\n\nmonitoring of results\n\nRisk assessment\n\nRisk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.\n\nExecution of risk assessments\n\nRisk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.\n\nFocus\n\nThe assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:\n\nproperty\n\nassets\n\nlegal liabilities\n\npersonnel\n\nreputation\n\nInformation sources for risk identification\n\nThe risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.\n\nRisk control\n\nEffective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.\n\nLoss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.\n\nLoss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.\n\nLoss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.\n\nTransference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.\n\nSee Indemnification .\n\nRisk financing\n\nRisk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.\n\nSelf-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.\n\nContractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.\n\nRisk financing models for contractors\n\nInsurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.\n\nSelf-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.\n\nAlternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance.\n\nRisk financing options exercised by Canada in contracting\n\nContractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.\n\nGovernment specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.\n\nGovernment controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
-  "markdown_text": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis examination of risk management techniques selection of appropriate techniques implementation of selected techniques monitoring of results Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making. Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding. Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include: property assets legal liabilities personnel reputation Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps. Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits. Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing. Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs. Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract. See Indemnification . Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses. Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available. Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures. Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance. Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain. Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.\n\nLiability and risk management\n\nThe risk management process involves several of the following steps:\n\nrisk identification and analysis\n\nexamination of risk management techniques\n\nselection of appropriate techniques\n\nimplementation of selected techniques\n\nmonitoring of results\n\nRisk assessment\n\nRisk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.\n\nExecution of risk assessments\n\nRisk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.\n\nFocus\n\nThe assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:\n\nproperty\n\nassets\n\nlegal liabilities\n\npersonnel\n\nreputation\n\nInformation sources for risk identification\n\nThe risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.\n\nRisk control\n\nEffective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.\n\nLoss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.\n\nLoss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.\n\nLoss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.\n\nTransference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.\n\nSee Indemnification .\n\nRisk financing\n\nRisk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.\n\nSelf-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.\n\nContractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.\n\nRisk financing models for contractors\n\nInsurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.\n\nSelf-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.\n\nAlternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance.\n\nRisk financing options exercised by Canada in contracting\n\nContractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.\n\nGovernment specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.\n\nGovernment controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
+  "raw_text": "Liability and risk management\n\nThe risk management process involves several of the following steps:\n\nrisk identification and analysis\n\nexamination of risk management techniques\n\nselection of appropriate techniques\n\nimplementation of selected techniques\n\nmonitoring of results\n\nRisk assessment\n\nRisk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.\n\nExecution of risk assessments\n\nRisk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.\n\nFocus\n\nThe assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:\n\nproperty\n\nassets\n\nlegal liabilities\n\npersonnel\n\nreputation\n\nInformation sources for risk identification\n\nThe risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.\n\nRisk control\n\nEffective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.\n\nLoss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.\n\nLoss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.\n\nLoss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.\n\nTransference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.\n\nSee Indemnification .\n\nRisk financing\n\nRisk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.\n\nSelf-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.\n\nContractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.\n\nRisk financing models for contractors\n\nInsurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.\n\nSelf-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.\n\nAlternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance.\n\nRisk financing options exercised by Canada in contracting\n\nContractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.\n\nGovernment specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.\n\nGovernment controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
+  "markdown_text": "Liability and risk management\n\nThe risk management process involves several of the following steps:\n\nrisk identification and analysis\n\nexamination of risk management techniques\n\nselection of appropriate techniques\n\nimplementation of selected techniques\n\nmonitoring of results\n\nRisk assessment\n\nRisk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.\n\nExecution of risk assessments\n\nRisk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.\n\nFocus\n\nThe assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:\n\nproperty\n\nassets\n\nlegal liabilities\n\npersonnel\n\nreputation\n\nInformation sources for risk identification\n\nThe risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.\n\nRisk control\n\nEffective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.\n\nLoss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.\n\nLoss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.\n\nLoss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.\n\nTransference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.\n\nSee Indemnification .\n\nRisk financing\n\nRisk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.\n\nSelf-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.\n\nContractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.\n\nRisk financing models for contractors\n\nInsurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.\n\nSelf-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.\n\nAlternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or “captive” insurance.\n\nRisk financing options exercised by Canada in contracting\n\nContractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.\n\nGovernment specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.\n\nGovernment controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
   "provenance_paths": {}
 }

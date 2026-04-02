@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:22.877360Z",
-  "content_hash": "50adb6d8417269d0eca4be0f464f68502afcff306aba042cd774d77ad7475cec",
-  "word_count": 700,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "298a62e95763508e0d0107fbd5d21b1d47204e8ae81951a663d0cecd329f2de8",
+  "word_count": 350,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -601,24 +601,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Conduct an offer clarification",
+      "block_type": "heading",
+      "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification"
+        "Conduct an offer clarification"
       ],
-      "text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+      "text": "Conduct an offer clarification",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "Conduct an offer clarification",
+      "text": "When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.",
       "order": 1,
       "metadata": {}
     },
@@ -627,10 +626,9 @@
       "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.",
+      "text": "Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.",
       "order": 2,
       "metadata": {}
     },
@@ -639,10 +637,9 @@
       "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.",
+      "text": "In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.",
       "order": 3,
       "metadata": {}
     },
@@ -651,22 +648,20 @@
       "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.",
+      "text": "The following points outline the permissible scope and process for clarifications:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "The following points outline the permissible scope and process for clarifications:",
+      "text": "clarifications can only pertain to aspects of the offer that do not alter its substance or price",
       "order": 5,
       "metadata": {}
     },
@@ -675,10 +670,9 @@
       "block_type": "list_item",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "clarifications can only pertain to aspects of the offer that do not alter its substance or price",
+      "text": "requests for clarification and the corresponding responses must be documented in writing",
       "order": 6,
       "metadata": {}
     },
@@ -687,10 +681,9 @@
       "block_type": "list_item",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "requests for clarification and the corresponding responses must be documented in writing",
+      "text": "any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.",
       "order": 7,
       "metadata": {}
     },
@@ -699,22 +692,20 @@
       "block_type": "list_item",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.",
+      "text": "clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision",
+      "text": "In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.",
       "order": 9,
       "metadata": {}
     },
@@ -723,10 +714,9 @@
       "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
-      "text": "In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.",
+      "text": "Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.",
       "order": 10,
       "metadata": {}
     },
@@ -735,28 +725,15 @@
       "block_type": "paragraph",
       "heading": "Conduct an offer clarification",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
-        "Conduct an offer clarification"
-      ],
-      "text": "Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Conduct an offer clarification",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Conduct an offer clarification",
         "Conduct an offer clarification"
       ],
       "text": "Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.\n\nConduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
-  "markdown_text": "Conduct an offer clarification When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so. Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer. In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements. The following points outline the permissible scope and process for clarifications: clarifications can only pertain to aspects of the offer that do not alter its substance or price requests for clarification and the corresponding responses must be documented in writing any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process. clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing. Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply. Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.\n\nConduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+  "raw_text": "Conduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
+  "markdown_text": "Conduct an offer clarification\n\nWhen pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.\n\nPursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.\n\nIn instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.\n\nThe following points outline the permissible scope and process for clarifications:\n\nclarifications can only pertain to aspects of the offer that do not alter its substance or price\n\nrequests for clarification and the corresponding responses must be documented in writing\n\nany response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.\n\nclarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision\n\nIn evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.\n\nOnce confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.\n\nOfferors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:52.554289Z",
-  "content_hash": "92dab1ad67be4390290dbef0fce1d6d3f0ac150fc1e36b755b6a811ac38fb1c9",
-  "word_count": 670,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "1094dca197ddc03e258240c78d5ae34f0d9b5d68fbbb29ec76dc0e88226515fe",
+  "word_count": 326,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,11 +618,9 @@
     {
       "block_id": "block_0000",
       "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period"
-      ],
-      "text": "Normal minimum solicitation periods Regardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement: the nature and complexity of the procurement the extent of subcontracting anticipated the time necessary for transmitting tenders by non-electronic means Minimum solicitation periods for procurements Normal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
+      "heading": null,
+      "heading_path": [],
+      "text": ".table td { border: 1px solid #704d2d !important; padding: 8px; } .table th[scope=\"col\"] { border: 1px solid #704d2d !important; color:white; background-color: #704d2d; padding: 20px 8px !important; }",
       "order": 0,
       "metadata": {}
     },
@@ -631,7 +629,6 @@
       "block_type": "heading",
       "heading": "Normal minimum solicitation periods",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods"
       ],
       "text": "Normal minimum solicitation periods",
@@ -643,7 +640,6 @@
       "block_type": "paragraph",
       "heading": "Normal minimum solicitation periods",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods"
       ],
       "text": "Regardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:",
@@ -655,7 +651,6 @@
       "block_type": "list_item",
       "heading": "Normal minimum solicitation periods",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods"
       ],
       "text": "the nature and complexity of the procurement",
@@ -667,7 +662,6 @@
       "block_type": "list_item",
       "heading": "Normal minimum solicitation periods",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods"
       ],
       "text": "the extent of subcontracting anticipated",
@@ -679,7 +673,6 @@
       "block_type": "list_item",
       "heading": "Normal minimum solicitation periods",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods"
       ],
       "text": "the time necessary for transmitting tenders by non-electronic means",
@@ -691,7 +684,6 @@
       "block_type": "heading",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
@@ -701,189 +693,79 @@
     },
     {
       "block_id": "block_0007",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "Normal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
+      "text": "Normal minimum solicitation periods table | Columns: Procurement type | Normal minimum solicitation period",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "May be less than 15 calendar days for efficiency and cost effectiveness:",
+      "text": "Procurement type: No trade agreement—Low dollar value | Normal minimum solicitation period: May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes)",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "Goods: below $25K (including taxes)",
+      "text": "Procurement type: No trade agreement—Not low dollar value | Normal minimum solicitation period: 15 calendar days",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "Construction: below $40K (including taxes)",
+      "text": "Procurement type: Canadian Free Trade Agreement only | Normal minimum solicitation period: 15 calendar days",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "Services: below $40K (including taxes)",
+      "text": "Procurement type: One or more international trade agreements—Commercial goods and/or services | Normal minimum solicitation period: 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Minimum solicitation periods for procurements",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
         "Normal minimum solicitation periods",
         "Minimum solicitation periods for procurements"
       ],
-      "text": "15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically",
+      "text": "Procurement type: One or more international trade agreements—Non-commercial goods and/or services | Normal minimum solicitation period: 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
       "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "13 calendar days if 15 calendar days is impracticable",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "10 calendar days if offers are accepted electronically",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.",
-      "order": 15,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions:",
-      "order": 16,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0017",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "the NPP is published electronically",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "all tender documents are available electronically from the NPP date of publication",
-      "order": 18,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0019",
-      "block_type": "list_item",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "the procuring entity accepts tenders electronically",
-      "order": 19,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Minimum solicitation periods for procurements",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Figure 1: Normal minimum solicitation period",
-        "Normal minimum solicitation periods",
-        "Minimum solicitation periods for procurements"
-      ],
-      "text": "Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
-      "order": 20,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Normal minimum solicitation periods Regardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement: the nature and complexity of the procurement the extent of subcontracting anticipated the time necessary for transmitting tenders by non-electronic means Minimum solicitation periods for procurements Normal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.\n\nNormal minimum solicitation periods\n\nRegardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:\n\nthe nature and complexity of the procurement\n\nthe extent of subcontracting anticipated\n\nthe time necessary for transmitting tenders by non-electronic means\n\nMinimum solicitation periods for procurements\n\nNormal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.\n\nMay be less than 15 calendar days for efficiency and cost effectiveness:\n\nGoods: below $25K (including taxes)\n\nConstruction: below $40K (including taxes)\n\nServices: below $40K (including taxes)\n\n15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically\n\n13 calendar days if 15 calendar days is impracticable\n\n10 calendar days if offers are accepted electronically\n\nNote: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.\n\n40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions:\n\nthe NPP is published electronically\n\nall tender documents are available electronically from the NPP date of publication\n\nthe procuring entity accepts tenders electronically\n\nNote: If using limited tendering, the solicitation period should be at least 15 calendar days.",
-  "markdown_text": "Normal minimum solicitation periods Regardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement: the nature and complexity of the procurement the extent of subcontracting anticipated the time necessary for transmitting tenders by non-electronic means Minimum solicitation periods for procurements Normal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.\n\nNormal minimum solicitation periods\n\nRegardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:\n\nthe nature and complexity of the procurement\n\nthe extent of subcontracting anticipated\n\nthe time necessary for transmitting tenders by non-electronic means\n\nMinimum solicitation periods for procurements\n\nNormal minimum solicitation periods table Procurement type Normal minimum solicitation period No trade agreement—Low dollar value May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes) No trade agreement—Not low dollar value 15 calendar days Canadian Free Trade Agreement only 15 calendar days One or more international trade agreements—Commercial goods and/or services 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies. One or more international trade agreements—Non-commercial goods and/or services 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.\n\nMay be less than 15 calendar days for efficiency and cost effectiveness:\n\nGoods: below $25K (including taxes)\n\nConstruction: below $40K (including taxes)\n\nServices: below $40K (including taxes)\n\n15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically\n\n13 calendar days if 15 calendar days is impracticable\n\n10 calendar days if offers are accepted electronically\n\nNote: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.\n\n40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions:\n\nthe NPP is published electronically\n\nall tender documents are available electronically from the NPP date of publication\n\nthe procuring entity accepts tenders electronically\n\nNote: If using limited tendering, the solicitation period should be at least 15 calendar days.",
+  "raw_text": ".table td { border: 1px solid #704d2d !important; padding: 8px; } .table th[scope=\"col\"] { border: 1px solid #704d2d !important; color:white; background-color: #704d2d; padding: 20px 8px !important; }\n\nNormal minimum solicitation periods\n\nRegardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:\n\nthe nature and complexity of the procurement\n\nthe extent of subcontracting anticipated\n\nthe time necessary for transmitting tenders by non-electronic means\n\nMinimum solicitation periods for procurements\n\nNormal minimum solicitation periods table | Columns: Procurement type | Normal minimum solicitation period\n\nProcurement type: No trade agreement—Low dollar value | Normal minimum solicitation period: May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes)\n\nProcurement type: No trade agreement—Not low dollar value | Normal minimum solicitation period: 15 calendar days\n\nProcurement type: Canadian Free Trade Agreement only | Normal minimum solicitation period: 15 calendar days\n\nProcurement type: One or more international trade agreements—Commercial goods and/or services | Normal minimum solicitation period: 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.\n\nProcurement type: One or more international trade agreements—Non-commercial goods and/or services | Normal minimum solicitation period: 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
+  "markdown_text": ".table td { border: 1px solid #704d2d !important; padding: 8px; } .table th[scope=\"col\"] { border: 1px solid #704d2d !important; color:white; background-color: #704d2d; padding: 20px 8px !important; }\n\nNormal minimum solicitation periods\n\nRegardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:\n\nthe nature and complexity of the procurement\n\nthe extent of subcontracting anticipated\n\nthe time necessary for transmitting tenders by non-electronic means\n\nMinimum solicitation periods for procurements\n\nNormal minimum solicitation periods table | Columns: Procurement type | Normal minimum solicitation period\n\nProcurement type: No trade agreement—Low dollar value | Normal minimum solicitation period: May be less than 15 calendar days for efficiency and cost effectiveness: Goods: below $25K (including taxes) Construction: below $40K (including taxes) Services: below $40K (including taxes)\n\nProcurement type: No trade agreement—Not low dollar value | Normal minimum solicitation period: 15 calendar days\n\nProcurement type: Canadian Free Trade Agreement only | Normal minimum solicitation period: 15 calendar days\n\nProcurement type: One or more international trade agreements—Commercial goods and/or services | Normal minimum solicitation period: 15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically 13 calendar days if 15 calendar days is impracticable 10 calendar days if offers are accepted electronically Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.\n\nProcurement type: One or more international trade agreements—Non-commercial goods and/or services | Normal minimum solicitation period: 40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions: the NPP is published electronically all tender documents are available electronically from the NPP date of publication the procuring entity accepts tenders electronically Note: If using limited tendering, the solicitation period should be at least 15 calendar days.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:35.495751Z",
-  "content_hash": "9a6b98f44575eea4523fc2315e9ab94170e77ab76ed4ea09462d5513ee644b67",
-  "word_count": 170,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "abc7e1823ac5b0335ae4104afc786bff86cc4b2da9ff02c2e5922258e4279926",
+  "word_count": 85,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,24 +529,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Decision-making and approvals",
+      "block_type": "heading",
+      "heading": "Decision-making and approvals",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Decision-making and approvals"
+        "Decision-making and approvals"
       ],
-      "text": "Decision-making and approvals Upon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested. The successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
+      "text": "Decision-making and approvals",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Decision-making and approvals",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Decision-making and approvals",
         "Decision-making and approvals"
       ],
-      "text": "Decision-making and approvals",
+      "text": "Upon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.",
       "order": 1,
       "metadata": {}
     },
@@ -555,28 +554,15 @@
       "block_type": "paragraph",
       "heading": "Decision-making and approvals",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Decision-making and approvals",
-        "Decision-making and approvals"
-      ],
-      "text": "Upon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Decision-making and approvals",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Decision-making and approvals",
         "Decision-making and approvals"
       ],
       "text": "The successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Decision-making and approvals Upon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested. The successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.\n\nDecision-making and approvals\n\nUpon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.\n\nThe successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
-  "markdown_text": "Decision-making and approvals Upon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested. The successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.\n\nDecision-making and approvals\n\nUpon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.\n\nThe successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
+  "raw_text": "Decision-making and approvals\n\nUpon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.\n\nThe successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
+  "markdown_text": "Decision-making and approvals\n\nUpon completion of the evaluation, a comprehensive review is undertaken. It often involves a peer review process or consultation with subject matter experts to validate the findings and conclusions of the evaluators. This step is crucial for complex procurements or when the evaluation results are closely contested.\n\nThe successful offer is then selected based on a holistic consideration of technical compliance, financial viability, and adherence to contractual terms that ensures alignment with the procurement objectives and the best overall value for Canada.",
   "provenance_paths": {}
 }

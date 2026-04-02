@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:06.443667Z",
-  "content_hash": "2b94f327bf315fb3a1ace46abcba3c291c809c826291d4188a6172488d9bae6d",
-  "word_count": 1066,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "2ff209538f4a9696e0a1275f55197e78adcee32f46fcf76a89ff88905b77ce81",
+  "word_count": 482,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Fixed price",
+      "block_type": "heading",
+      "heading": "Fixed price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price"
+        "Fixed price"
       ],
-      "text": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized. See the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type. Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements the schedule is relatively certain and achievable it is appropriate for the contractor to bear the risk of cost uncertainty Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology. Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
+      "text": "Fixed price",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Fixed price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price"
       ],
-      "text": "Fixed price",
+      "text": "Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.",
       "order": 1,
       "metadata": {}
     },
@@ -986,48 +985,45 @@
       "block_type": "paragraph",
       "heading": "Fixed price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price"
       ],
-      "text": "Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.",
+      "text": "See the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Fixed price",
+      "block_type": "heading",
+      "heading": "Options",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
-        "Fixed price"
+        "Fixed price",
+        "Options"
       ],
-      "text": "See the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.",
+      "text": "Options",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Options",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Options"
       ],
-      "text": "Options",
+      "text": "There are three options for the fixed price basis of payment:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Options",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Options"
       ],
-      "text": "There are three options for the fixed price basis of payment:",
+      "text": "fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value",
       "order": 5,
       "metadata": {}
     },
@@ -1036,11 +1032,10 @@
       "block_type": "list_item",
       "heading": "Options",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Options"
       ],
-      "text": "fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value",
+      "text": "fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued",
       "order": 6,
       "metadata": {}
     },
@@ -1049,50 +1044,46 @@
       "block_type": "list_item",
       "heading": "Options",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Options"
       ],
-      "text": "fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued",
+      "text": "fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Options",
+      "block_type": "heading",
+      "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
-        "Options"
+        "Appropriate use"
       ],
-      "text": "fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control",
+      "text": "Appropriate use",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "Appropriate use",
+      "text": "Use the fixed price basis of payment when:",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "Use the fixed price basis of payment when:",
+      "text": "you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from:",
       "order": 10,
       "metadata": {}
     },
@@ -1101,11 +1092,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract",
+      "text": "a competitive process with multiple compliant offerors",
       "order": 11,
       "metadata": {}
     },
@@ -1114,11 +1104,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "a competitive process with multiple compliant offerors",
+      "text": "benchmarking and should-cost information to validate the price",
       "order": 12,
       "metadata": {}
     },
@@ -1127,11 +1116,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "benchmarking and should-cost information to validate the price",
+      "text": "robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract",
       "order": 13,
       "metadata": {}
     },
@@ -1140,11 +1128,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract",
+      "text": "the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven",
       "order": 14,
       "metadata": {}
     },
@@ -1153,11 +1140,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven",
+      "text": "the contract has a medium or short duration to ensure that:",
       "order": 15,
       "metadata": {}
     },
@@ -1166,11 +1152,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements",
+      "text": "the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs",
       "order": 16,
       "metadata": {}
     },
@@ -1179,11 +1164,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs",
+      "text": "you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements",
       "order": 17,
       "metadata": {}
     },
@@ -1192,11 +1176,10 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements",
+      "text": "the schedule is relatively certain and achievable",
       "order": 18,
       "metadata": {}
     },
@@ -1205,82 +1188,64 @@
       "block_type": "list_item",
       "heading": "Appropriate use",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Appropriate use"
       ],
-      "text": "the schedule is relatively certain and achievable",
+      "text": "it is appropriate for the contractor to bear the risk of cost uncertainty",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
-      "heading": "Appropriate use",
+      "block_type": "heading",
+      "heading": "Limitations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
-        "Appropriate use"
+        "Limitations"
       ],
-      "text": "it is appropriate for the contractor to bear the risk of cost uncertainty",
+      "text": "Limitations",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Limitations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Limitations"
       ],
-      "text": "Limitations",
+      "text": "A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Limitations",
+      "block_type": "heading",
+      "heading": "Audits",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
-        "Limitations"
+        "Audits"
       ],
-      "text": "A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.",
+      "text": "Audits",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "heading",
-      "heading": "Audits",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
-        "Fixed price",
-        "Audits"
-      ],
-      "text": "Audits",
-      "order": 23,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0024",
       "block_type": "paragraph",
       "heading": "Audits",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Fixed price",
         "Fixed price",
         "Audits"
       ],
       "text": "Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
-      "order": 24,
+      "order": 23,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized. See the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type. Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements the schedule is relatively certain and achievable it is appropriate for the contractor to bear the risk of cost uncertainty Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology. Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.\n\nFixed price\n\nFixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.\n\nSee the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.\n\nOptions\n\nThere are three options for the fixed price basis of payment:\n\nfixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value\n\nfixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued\n\nfixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control\n\nAppropriate use\n\nUse the fixed price basis of payment when:\n\nyou have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\na competitive process with multiple compliant offerors\n\nbenchmarking and should-cost information to validate the price\n\nrobust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\nthe requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven\n\nthe contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs\n\nyou have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe schedule is relatively certain and achievable\n\nit is appropriate for the contractor to bear the risk of cost uncertainty\n\nLimitations\n\nA fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.\n\nAudits\n\nFixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
-  "markdown_text": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized. See the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type. Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements the schedule is relatively certain and achievable it is appropriate for the contractor to bear the risk of cost uncertainty Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology. Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.\n\nFixed price\n\nFixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.\n\nSee the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.\n\nOptions\n\nThere are three options for the fixed price basis of payment:\n\nfixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value\n\nfixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued\n\nfixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control\n\nAppropriate use\n\nUse the fixed price basis of payment when:\n\nyou have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\na competitive process with multiple compliant offerors\n\nbenchmarking and should-cost information to validate the price\n\nrobust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\nthe requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven\n\nthe contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs\n\nyou have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe schedule is relatively certain and achievable\n\nit is appropriate for the contractor to bear the risk of cost uncertainty\n\nLimitations\n\nA fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.\n\nAudits\n\nFixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
+  "raw_text": "Fixed price\n\nFixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.\n\nSee the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.\n\nOptions\n\nThere are three options for the fixed price basis of payment:\n\nfixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value\n\nfixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued\n\nfixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control\n\nAppropriate use\n\nUse the fixed price basis of payment when:\n\nyou have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from:\n\na competitive process with multiple compliant offerors\n\nbenchmarking and should-cost information to validate the price\n\nrobust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\nthe requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven\n\nthe contract has a medium or short duration to ensure that:\n\nthe contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs\n\nyou have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe schedule is relatively certain and achievable\n\nit is appropriate for the contractor to bear the risk of cost uncertainty\n\nLimitations\n\nA fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.\n\nAudits\n\nFixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
+  "markdown_text": "Fixed price\n\nFixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.\n\nSee the section 4.1.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.\n\nOptions\n\nThere are three options for the fixed price basis of payment:\n\nfixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value\n\nfixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued\n\nfixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor’s control\n\nAppropriate use\n\nUse the fixed price basis of payment when:\n\nyou have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from:\n\na competitive process with multiple compliant offerors\n\nbenchmarking and should-cost information to validate the price\n\nrobust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract\n\nthe requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven\n\nthe contract has a medium or short duration to ensure that:\n\nthe contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs\n\nyou have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements\n\nthe schedule is relatively certain and achievable\n\nit is appropriate for the contractor to bear the risk of cost uncertainty\n\nLimitations\n\nA fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.\n\nAudits\n\nFixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
   "provenance_paths": {}
 }

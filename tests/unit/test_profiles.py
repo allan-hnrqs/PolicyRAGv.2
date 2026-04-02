@@ -90,6 +90,20 @@ def test_selective_mode_aware_answer_repair_profile_loads() -> None:
     assert profile.answering.strategy == "selective_mode_aware_answer_repair_inline_evidence_chat"
 
 
+def test_demo_documents_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("demo_documents", settings)
+    assert profile.answering.strategy == "documents_chat"
+    assert profile.retrieval.enable_query_decomposition is False
+
+
+def test_baseline_documents_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_documents", settings)
+    assert profile.answering.strategy == "documents_chat"
+    assert profile.retrieval.enable_query_decomposition is True
+
+
 def test_hierarchical_context_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("hierarchical_context_expansion", settings)

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:53.716352Z",
-  "content_hash": "0ad1c183d2f0b51f4d964d33f80f747d18ea472cdc3d35e3b144dcebcd2ba1b3",
-  "word_count": 92,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "6052fb9fd38aeea8359d48953803c6dd5ba7ab90bdf365824f439cff4b30956a",
+  "word_count": 46,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Method of selection - Developing selection criteria",
+      "block_type": "heading",
+      "heading": "Developing selection criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Developing selection criteria"
+        "Developing selection criteria"
       ],
-      "text": "Developing selection criteria For detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network: Basic Guide for Bid Evaluation Process (PDF, 468 KB) Phased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
+      "text": "Developing selection criteria",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Developing selection criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Developing selection criteria",
         "Developing selection criteria"
       ],
-      "text": "Developing selection criteria",
+      "text": "For detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Developing selection criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Developing selection criteria",
         "Developing selection criteria"
       ],
-      "text": "For detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:",
+      "text": "Basic Guide for Bid Evaluation Process (PDF, 468 KB)",
       "order": 2,
       "metadata": {}
     },
@@ -998,28 +996,15 @@
       "block_type": "list_item",
       "heading": "Developing selection criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Developing selection criteria",
-        "Developing selection criteria"
-      ],
-      "text": "Basic Guide for Bid Evaluation Process (PDF, 468 KB)",
-      "order": 3,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0004",
-      "block_type": "list_item",
-      "heading": "Developing selection criteria",
-      "heading_path": [
-        "Buyer's Guide Method of selection - Developing selection criteria",
         "Developing selection criteria"
       ],
       "text": "Phased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
-      "order": 4,
+      "order": 3,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Developing selection criteria For detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network: Basic Guide for Bid Evaluation Process (PDF, 468 KB) Phased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)\n\nDeveloping selection criteria\n\nFor detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:\n\nBasic Guide for Bid Evaluation Process (PDF, 468 KB)\n\nPhased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
-  "markdown_text": "Developing selection criteria For detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network: Basic Guide for Bid Evaluation Process (PDF, 468 KB) Phased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)\n\nDeveloping selection criteria\n\nFor detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:\n\nBasic Guide for Bid Evaluation Process (PDF, 468 KB)\n\nPhased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
+  "raw_text": "Developing selection criteria\n\nFor detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:\n\nBasic Guide for Bid Evaluation Process (PDF, 468 KB)\n\nPhased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
+  "markdown_text": "Developing selection criteria\n\nFor detailed guidance on how to develop evaluation and selection criteria, consult the following documents that are accessible only on the Government of Canada network:\n\nBasic Guide for Bid Evaluation Process (PDF, 468 KB)\n\nPhased Bid Compliance Process (PBCP) Handbook (PDF, 345 KB)",
   "provenance_paths": {}
 }

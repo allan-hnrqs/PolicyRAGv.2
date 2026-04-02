@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:42.130614Z",
   "content_hash": "ac79cc603dd8d9ff2b6d19dd0bf6f2825d14f08c5f58c00fcbd6c0901ae4ccab",
   "word_count": 84,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "Legal Services",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "The following terminations must not be issued without a written legal opinion:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "all terminations for default",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "terminations by mutual consent",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "terminations for convenience",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Legal Services",
       "heading_path": [
-        "Buyer's Guide Terminate or suspend a contract - Legal services",
         "Legal Services"
       ],
       "text": "In seeking the opinion of legal services, you should submit the procurement file with a chronological index of the documents forming the basis for the termination request. A short note outlining the events leading to termination must also be included. Based on this information, legal services will render an opinion and advise as to the appropriate method of termination.",

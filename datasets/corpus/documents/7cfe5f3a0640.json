@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:58.827104Z",
-  "content_hash": "e24a78975a84798f7a42c0c72e8a0f3cea29c25d898438ad8ddbc0d201b72be3",
-  "word_count": 628,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "dcf0debcae46a90d0370a73e358d93a35f073c531144669fa2d93055e90a38ea",
+  "word_count": 314,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
+      "block_type": "heading",
+      "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides"
+        "Tender notices and Procurement Strategy for Indigenous Business set-asides"
       ],
-      "text": "Tender notices and Procurement Strategy for Indigenous Business set-asides When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements: For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .” For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.” You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements. Tender notices and Comprehensive Land Claims Agreements When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs . For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.” If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows: “This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
+      "text": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides"
       ],
-      "text": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
+      "text": "When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:",
       "order": 1,
       "metadata": {}
     },
@@ -643,10 +642,9 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides"
       ],
-      "text": "When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:",
+      "text": "For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides"
       ],
-      "text": "For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”",
+      "text": "For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”",
       "order": 3,
       "metadata": {}
     },
@@ -667,35 +664,33 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides"
       ],
-      "text": "For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”",
+      "text": "You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Tender notices and Procurement Strategy for Indigenous Business set-asides",
+      "block_type": "heading",
+      "heading": "Tender notices and Comprehensive Land Claims Agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
-        "Tender notices and Procurement Strategy for Indigenous Business set-asides"
+        "Tender notices and Procurement Strategy for Indigenous Business set-asides",
+        "Tender notices and Comprehensive Land Claims Agreements"
       ],
-      "text": "You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.",
+      "text": "Tender notices and Comprehensive Land Claims Agreements",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Tender notices and Comprehensive Land Claims Agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Comprehensive Land Claims Agreements"
       ],
-      "text": "Tender notices and Comprehensive Land Claims Agreements",
+      "text": "When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .",
       "order": 6,
       "metadata": {}
     },
@@ -704,11 +699,10 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Comprehensive Land Claims Agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Comprehensive Land Claims Agreements"
       ],
-      "text": "When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .",
+      "text": "For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”",
       "order": 7,
       "metadata": {}
     },
@@ -717,11 +711,10 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Comprehensive Land Claims Agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Comprehensive Land Claims Agreements"
       ],
-      "text": "For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”",
+      "text": "If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:",
       "order": 8,
       "metadata": {}
     },
@@ -730,30 +723,16 @@
       "block_type": "paragraph",
       "heading": "Tender notices and Comprehensive Land Claims Agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
-        "Tender notices and Procurement Strategy for Indigenous Business set-asides",
-        "Tender notices and Comprehensive Land Claims Agreements"
-      ],
-      "text": "If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Tender notices and Comprehensive Land Claims Agreements",
-      "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Procurement Strategy for Indigenous Business set-asides",
         "Tender notices and Comprehensive Land Claims Agreements"
       ],
       "text": "“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Tender notices and Procurement Strategy for Indigenous Business set-asides When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements: For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .” For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.” You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements. Tender notices and Comprehensive Land Claims Agreements When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs . For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.” If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows: “This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”\n\nTender notices and Procurement Strategy for Indigenous Business set-asides\n\nWhen publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:\n\nFor NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”\n\nFor ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”\n\nYou must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.\n\nTender notices and Comprehensive Land Claims Agreements\n\nWhen issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .\n\nFor any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”\n\nIf the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:\n\n“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
-  "markdown_text": "Tender notices and Procurement Strategy for Indigenous Business set-asides When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements: For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .” For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.” You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements. Tender notices and Comprehensive Land Claims Agreements When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs . For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.” If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows: “This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”\n\nTender notices and Procurement Strategy for Indigenous Business set-asides\n\nWhen publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:\n\nFor NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”\n\nFor ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”\n\nYou must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.\n\nTender notices and Comprehensive Land Claims Agreements\n\nWhen issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .\n\nFor any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”\n\nIf the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:\n\n“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
+  "raw_text": "Tender notices and Procurement Strategy for Indigenous Business set-asides\n\nWhen publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:\n\nFor NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”\n\nFor ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”\n\nYou must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.\n\nTender notices and Comprehensive Land Claims Agreements\n\nWhen issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .\n\nFor any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”\n\nIf the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:\n\n“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
+  "markdown_text": "Tender notices and Procurement Strategy for Indigenous Business set-asides\n\nWhen publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:\n\nFor NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”\n\nFor ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”\n\nYou must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.\n\nTender notices and Comprehensive Land Claims Agreements\n\nWhen issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .\n\nFor any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”\n\nIf the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:\n\n“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”",
   "provenance_paths": {}
 }

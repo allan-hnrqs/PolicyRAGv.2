@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:24.738280Z",
-  "content_hash": "63c4b06ba760b695809edcce663f8ed4132b74ae4fab67790af1e72783b7d47a",
-  "word_count": 50,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "e993c4e666207a532aec79c726a610d69d54abe43e581d42212c79e20ba9624d",
+  "word_count": 25,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -722,42 +722,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Release the solicitation document",
+      "block_type": "heading",
+      "heading": "Release the solicitation document",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document"
+        "Release the solicitation document"
       ],
-      "text": "Release the solicitation document This section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
+      "text": "Release the solicitation document",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Release the solicitation document",
-      "heading_path": [
-        "Buyer's Guide Release the solicitation document",
-        "Release the solicitation document"
-      ],
-      "text": "Release the solicitation document",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Release the solicitation document",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document",
         "Release the solicitation document"
       ],
       "text": "This section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Release the solicitation document This section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.\n\nRelease the solicitation document\n\nThis section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
-  "markdown_text": "Release the solicitation document This section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.\n\nRelease the solicitation document\n\nThis section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
+  "raw_text": "Release the solicitation document\n\nThis section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
+  "markdown_text": "Release the solicitation document\n\nThis section provides information on the rules and procedures for posting competitive solicitation documents publicly on the Government Electronic Tendering Service.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:07.622323Z",
-  "content_hash": "b703557f509fa844631508f6fda7a1fa8b46ce57b789b6b3cf8ce2b4f6bb1f4b",
-  "word_count": 1123,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "410f93c2883109ee4027446e0fe9b208fae215c5129c4a08ad2accab8318f93d",
+  "word_count": 656,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,49 +960,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Insurance",
+      "block_type": "heading",
+      "heading": "Insurance",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance"
+        "Insurance"
       ],
-      "text": "Insurance Include applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement. Insurance of government-owned or leased vehicles The following tables provide additional information on the insurance of government-owned or leased vehicles. Government-owned vehicles Table example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option Other vehicles, including those leased by the government Table example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible Insurance of government-owned equipment For government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table. Table example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor Insurance of equipment leased from a dealer For equipment leased from a dealer, refer to the following table. Table example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment",
+      "text": "Insurance",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Insurance",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance"
       ],
-      "text": "Insurance",
+      "text": "Include applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Insurance",
+      "block_type": "heading",
+      "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance"
+        "Insurance",
+        "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Include applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.",
+      "text": "Insurance of government-owned or leased vehicles",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Insurance of government-owned or leased vehicles",
+      "text": "The following tables provide additional information on the insurance of government-owned or leased vehicles.",
       "order": 3,
       "metadata": {}
     },
@@ -1011,459 +1009,304 @@
       "block_type": "paragraph",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "The following tables provide additional information on the insurance of government-owned or leased vehicles.",
+      "text": "Government-owned vehicles",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Government-owned vehicles",
+      "text": "Table example with colour | Columns: Country | Period | Policy requirement",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Table example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option",
+      "text": "Country: Canada | Period: long-term | Policy requirement: self-underwriting option",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "self-underwriting option",
+      "text": "Country: United States (US); | Period: long-term, or; for trips to US | Policy requirement: third party liability and collision: commercial insurance damage to vehicle: self-underwriting option",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "third party liability and collision: commercial insurance",
+      "text": "Other vehicles, including those leased by the government",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "damage to vehicle: self-underwriting option",
+      "text": "Table example with colour | Columns: Type of vehicle | Country | Term of lease | Policy requirement",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Other vehicles, including those leased by the government",
+      "text": "Type of vehicle: executive | Country: Canada | Term of lease: long-term or short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "Table example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible",
+      "text": "Type of vehicle: executive | Country: US | Term of lease: long-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "comprehensive commercial insurance, including collision and third party liability",
+      "text": "Type of vehicle: executive | Country: US | Term of lease: short-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "self-underwrite the deductible",
+      "text": "Type of vehicle: non-executive | Country: Canada | Term of lease: long-term | Policy requirement: self-underwrite except if provincial legislation applies",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "comprehensive commercial insurance, including collision and third party liability",
+      "text": "Type of vehicle: non-executive | Country: Canada | Term of lease: short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "self-underwrite the deductible",
+      "text": "Type of vehicle: non-executive | Country: US | Term of lease: long-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Insurance of government-owned or leased vehicles",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
         "Insurance of government-owned or leased vehicles"
       ],
-      "text": "purchase additional commercial insurance to cover third party liability and collision for the US risks",
+      "text": "Type of vehicle: non-executive | Country: US | Term of lease: short-term | Policy requirement: use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "heading",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "self-underwrite the deductibles",
+      "text": "Insurance of government-owned equipment",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "paragraph",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "self-underwrite except if provincial legislation applies",
+      "text": "For government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "table_row",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "comprehensive commercial insurance, including collision and third party liability",
+      "text": "Table example with colour | Columns: Who will control the work of the operator or driver? | Policy requirement",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "table_row",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "self-underwrite the deductible",
+      "text": "Who will control the work of the operator or driver?: there is no operator or driver | Policy requirement: equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "table_row",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "purchase additional commercial insurance to cover third party liability and collision for the US risks",
+      "text": "Who will control the work of the operator or driver?: government | Policy requirement: self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "table_row",
+      "heading": "Insurance of government-owned equipment",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of government-owned equipment"
       ],
-      "text": "self-underwrite any damage to government vehicle",
+      "text": "Who will control the work of the operator or driver?: contractor | Policy requirement: the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "heading",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "short-term",
+      "text": "Insurance of equipment leased from a dealer",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "paragraph",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP",
+      "text": "For equipment leased from a dealer, refer to the following table.",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned or leased vehicles",
+      "block_type": "table_row",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned or leased vehicles"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "self-underwrite the deductible",
+      "text": "Table example with colour | Columns: Who employs the operator or driver? | Who will control the work of the operator or driver? | Policy requirement",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "heading",
-      "heading": "Insurance of government-owned equipment",
+      "block_type": "table_row",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned equipment"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "Insurance of government-owned equipment",
+      "text": "Who employs the operator or driver?: government | Who will control the work of the operator or driver?: government | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Insurance of government-owned equipment",
+      "block_type": "table_row",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned equipment"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "For government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.",
+      "text": "Who employs the operator or driver?: government | Who will control the work of the operator or driver?: government (employer-employee relationship) | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "table",
-      "heading": "Insurance of government-owned equipment",
+      "block_type": "table_row",
+      "heading": "Insurance of equipment leased from a dealer",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
         "Insurance",
-        "Insurance of government-owned equipment"
+        "Insurance of equipment leased from a dealer"
       ],
-      "text": "Table example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor",
+      "text": "Who employs the operator or driver?: contractor | Who will control the work of the operator or driver?: dealer | Policy requirement: the contractor’s insurance must cover any loss or damage to the equipment",
       "order": 28,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0029",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned equipment",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of government-owned equipment"
-      ],
-      "text": "equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment",
-      "order": 29,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0030",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned equipment",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of government-owned equipment"
-      ],
-      "text": "self-underwriting option covers any loss or damage while operated by government employees",
-      "order": 30,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0031",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned equipment",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of government-owned equipment"
-      ],
-      "text": "the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control",
-      "order": 31,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0032",
-      "block_type": "list_item",
-      "heading": "Insurance of government-owned equipment",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of government-owned equipment"
-      ],
-      "text": "the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor",
-      "order": 32,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0033",
-      "block_type": "heading",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "Insurance of equipment leased from a dealer",
-      "order": 33,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0034",
-      "block_type": "paragraph",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "For equipment leased from a dealer, refer to the following table.",
-      "order": 34,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0035",
-      "block_type": "table",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "Table example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment",
-      "order": 35,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0036",
-      "block_type": "list_item",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "use the self-underwriting option to cover any loss or damage to the equipment",
-      "order": 36,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0037",
-      "block_type": "list_item",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "use the self-underwriting option to cover any loss or damage to the equipment",
-      "order": 37,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0038",
-      "block_type": "list_item",
-      "heading": "Insurance of equipment leased from a dealer",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Insurance",
-        "Insurance",
-        "Insurance of equipment leased from a dealer"
-      ],
-      "text": "the contractor’s insurance must cover any loss or damage to the equipment",
-      "order": 38,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Insurance Include applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement. Insurance of government-owned or leased vehicles The following tables provide additional information on the insurance of government-owned or leased vehicles. Government-owned vehicles Table example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option Other vehicles, including those leased by the government Table example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible Insurance of government-owned equipment For government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table. Table example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor Insurance of equipment leased from a dealer For equipment leased from a dealer, refer to the following table. Table example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment\n\nInsurance\n\nInclude applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.\n\nInsurance of government-owned or leased vehicles\n\nThe following tables provide additional information on the insurance of government-owned or leased vehicles.\n\nGovernment-owned vehicles\n\nTable example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option\n\nself-underwriting option\n\nthird party liability and collision: commercial insurance\n\ndamage to vehicle: self-underwriting option\n\nOther vehicles, including those leased by the government\n\nTable example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\npurchase additional commercial insurance to cover third party liability and collision for the US risks\n\nself-underwrite the deductibles\n\nself-underwrite except if provincial legislation applies\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\npurchase additional commercial insurance to cover third party liability and collision for the US risks\n\nself-underwrite any damage to government vehicle\n\nshort-term\n\nuse commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP\n\nself-underwrite the deductible\n\nInsurance of government-owned equipment\n\nFor government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.\n\nTable example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nequipment floater insurance or equivalent coverage is required for any loss or damage to the equipment\n\nself-underwriting option covers any loss or damage while operated by government employees\n\nthe contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control\n\nthe contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nInsurance of equipment leased from a dealer\n\nFor equipment leased from a dealer, refer to the following table.\n\nTable example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment\n\nuse the self-underwriting option to cover any loss or damage to the equipment\n\nuse the self-underwriting option to cover any loss or damage to the equipment\n\nthe contractor’s insurance must cover any loss or damage to the equipment",
-  "markdown_text": "Insurance Include applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement. Insurance of government-owned or leased vehicles The following tables provide additional information on the insurance of government-owned or leased vehicles. Government-owned vehicles Table example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option Other vehicles, including those leased by the government Table example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible Insurance of government-owned equipment For government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table. Table example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor Insurance of equipment leased from a dealer For equipment leased from a dealer, refer to the following table. Table example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment\n\nInsurance\n\nInclude applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.\n\nInsurance of government-owned or leased vehicles\n\nThe following tables provide additional information on the insurance of government-owned or leased vehicles.\n\nGovernment-owned vehicles\n\nTable example with colour Country Period Policy requirement Canada long-term self-underwriting option United States (US); long-term, or; for trips to US third party liability and collision: commercial insurance damage to vehicle: self-underwriting option\n\nself-underwriting option\n\nthird party liability and collision: commercial insurance\n\ndamage to vehicle: self-underwriting option\n\nOther vehicles, including those leased by the government\n\nTable example with colour Type of vehicle Country Term of lease Policy requirement executive Canada long-term or short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US long-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible executive US short-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles non-executive Canada long-term self-underwrite except if provincial legislation applies non-executive Canada short-term comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible non-executive US long-term purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle non-executive US short-term use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\npurchase additional commercial insurance to cover third party liability and collision for the US risks\n\nself-underwrite the deductibles\n\nself-underwrite except if provincial legislation applies\n\ncomprehensive commercial insurance, including collision and third party liability\n\nself-underwrite the deductible\n\npurchase additional commercial insurance to cover third party liability and collision for the US risks\n\nself-underwrite any damage to government vehicle\n\nshort-term\n\nuse commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP\n\nself-underwrite the deductible\n\nInsurance of government-owned equipment\n\nFor government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.\n\nTable example with colour Who will control the work of the operator or driver? Policy requirement there is no operator or driver equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment government self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control contractor the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nequipment floater insurance or equivalent coverage is required for any loss or damage to the equipment\n\nself-underwriting option covers any loss or damage while operated by government employees\n\nthe contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control\n\nthe contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nInsurance of equipment leased from a dealer\n\nFor equipment leased from a dealer, refer to the following table.\n\nTable example with colour Who employs the operator or driver? Who will control the work of the operator or driver? Policy requirement government government use the self-underwriting option to cover any loss or damage to the equipment government government (employer-employee relationship) use the self-underwriting option to cover any loss or damage to the equipment contractor dealer the contractor’s insurance must cover any loss or damage to the equipment\n\nuse the self-underwriting option to cover any loss or damage to the equipment\n\nuse the self-underwriting option to cover any loss or damage to the equipment\n\nthe contractor’s insurance must cover any loss or damage to the equipment",
+  "raw_text": "Insurance\n\nInclude applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.\n\nInsurance of government-owned or leased vehicles\n\nThe following tables provide additional information on the insurance of government-owned or leased vehicles.\n\nGovernment-owned vehicles\n\nTable example with colour | Columns: Country | Period | Policy requirement\n\nCountry: Canada | Period: long-term | Policy requirement: self-underwriting option\n\nCountry: United States (US); | Period: long-term, or; for trips to US | Policy requirement: third party liability and collision: commercial insurance damage to vehicle: self-underwriting option\n\nOther vehicles, including those leased by the government\n\nTable example with colour | Columns: Type of vehicle | Country | Term of lease | Policy requirement\n\nType of vehicle: executive | Country: Canada | Term of lease: long-term or short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: executive | Country: US | Term of lease: long-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: executive | Country: US | Term of lease: short-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles\n\nType of vehicle: non-executive | Country: Canada | Term of lease: long-term | Policy requirement: self-underwrite except if provincial legislation applies\n\nType of vehicle: non-executive | Country: Canada | Term of lease: short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: non-executive | Country: US | Term of lease: long-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle\n\nType of vehicle: non-executive | Country: US | Term of lease: short-term | Policy requirement: use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible\n\nInsurance of government-owned equipment\n\nFor government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.\n\nTable example with colour | Columns: Who will control the work of the operator or driver? | Policy requirement\n\nWho will control the work of the operator or driver?: there is no operator or driver | Policy requirement: equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment\n\nWho will control the work of the operator or driver?: government | Policy requirement: self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control\n\nWho will control the work of the operator or driver?: contractor | Policy requirement: the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nInsurance of equipment leased from a dealer\n\nFor equipment leased from a dealer, refer to the following table.\n\nTable example with colour | Columns: Who employs the operator or driver? | Who will control the work of the operator or driver? | Policy requirement\n\nWho employs the operator or driver?: government | Who will control the work of the operator or driver?: government | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment\n\nWho employs the operator or driver?: government | Who will control the work of the operator or driver?: government (employer-employee relationship) | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment\n\nWho employs the operator or driver?: contractor | Who will control the work of the operator or driver?: dealer | Policy requirement: the contractor’s insurance must cover any loss or damage to the equipment",
+  "markdown_text": "Insurance\n\nInclude applicable insurance clause(s) in the solicitation document and resulting contract that are appropriate for your procurement.\n\nInsurance of government-owned or leased vehicles\n\nThe following tables provide additional information on the insurance of government-owned or leased vehicles.\n\nGovernment-owned vehicles\n\nTable example with colour | Columns: Country | Period | Policy requirement\n\nCountry: Canada | Period: long-term | Policy requirement: self-underwriting option\n\nCountry: United States (US); | Period: long-term, or; for trips to US | Policy requirement: third party liability and collision: commercial insurance damage to vehicle: self-underwriting option\n\nOther vehicles, including those leased by the government\n\nTable example with colour | Columns: Type of vehicle | Country | Term of lease | Policy requirement\n\nType of vehicle: executive | Country: Canada | Term of lease: long-term or short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: executive | Country: US | Term of lease: long-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: executive | Country: US | Term of lease: short-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite the deductibles\n\nType of vehicle: non-executive | Country: Canada | Term of lease: long-term | Policy requirement: self-underwrite except if provincial legislation applies\n\nType of vehicle: non-executive | Country: Canada | Term of lease: short-term | Policy requirement: comprehensive commercial insurance, including collision and third party liability self-underwrite the deductible\n\nType of vehicle: non-executive | Country: US | Term of lease: long-term | Policy requirement: purchase additional commercial insurance to cover third party liability and collision for the US risks self-underwrite any damage to government vehicle\n\nType of vehicle: non-executive | Country: US | Term of lease: short-term | Policy requirement: use commercial insurance coverage (third party liability and collision for the US risks) administered by the Real Property and Commercial Acquisitions Sector of PSP self-underwrite the deductible\n\nInsurance of government-owned equipment\n\nFor government-owned equipment that will be operated by government employees, use the self-underwriting option for any loss or damage. For government-owned equipment that will be leased to a contractor, refer to the following table.\n\nTable example with colour | Columns: Who will control the work of the operator or driver? | Policy requirement\n\nWho will control the work of the operator or driver?: there is no operator or driver | Policy requirement: equipment floater insurance or equivalent coverage is required for any loss or damage to the equipment\n\nWho will control the work of the operator or driver?: government | Policy requirement: self-underwriting option covers any loss or damage while operated by government employees the contractor’s insurance must cover any loss or damage to the equipment while it’s under the contractor's care, custody and control\n\nWho will control the work of the operator or driver?: contractor | Policy requirement: the contractor's insurance must cover any loss or damage to the equipment because it’s in the care, custody and control of the contractor\n\nInsurance of equipment leased from a dealer\n\nFor equipment leased from a dealer, refer to the following table.\n\nTable example with colour | Columns: Who employs the operator or driver? | Who will control the work of the operator or driver? | Policy requirement\n\nWho employs the operator or driver?: government | Who will control the work of the operator or driver?: government | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment\n\nWho employs the operator or driver?: government | Who will control the work of the operator or driver?: government (employer-employee relationship) | Policy requirement: use the self-underwriting option to cover any loss or damage to the equipment\n\nWho employs the operator or driver?: contractor | Who will control the work of the operator or driver?: dealer | Policy requirement: the contractor’s insurance must cover any loss or damage to the equipment",
   "provenance_paths": {}
 }

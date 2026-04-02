@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:37.348569Z",
-  "content_hash": "0324d22b6e13557e81a29993aa506d7440bdebcf80c88409d27ab3c71b932632",
-  "word_count": 5057,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "976d2a6d730a3ed9db89d5ca5361900f6bf6225487b4bf2213d117284f812780",
+  "word_count": 2418,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -965,11 +965,9 @@
     {
       "block_id": "block_0000",
       "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
-      "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability"
-      ],
-      "text": "Trade agreement applicability When determining if a procurement falls under a trade agreement you must consider: its value the requesting entity the type of requirement applicable exclusions or exceptions set-asides Indigenous Peoples For complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance. Procurement value You must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years. Valuation rules and thresholds You must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example: CFTA : Government Procurement Chapter, “Valuation” (PDF) WTO-AGP : Article II Scope and Coverage CETA : Chapter 19 , Article 19.2 – Scope and Coverage Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope You must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage. Lowest thresholds The Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement. Contracting without trade agreement obligations Tender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded. Coverage by entity You must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter. For instance: all federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter federal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A all crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter crown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C Coverage of procurement requirements You must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter. Goods: all goods are covered by the CFTA unless specified otherwise in general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B Services: all services are covered by the CFTA unless otherwise specified coverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4 for the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered Construction Services: all construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified in general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA) for examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F Addressing exclusions and exceptions You must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G You must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses. For the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Article III – Security and General Exceptions CETA : Chapter 19 , Article 19.3: Security and General Exceptions CPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions Set-asides You should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations. You may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see: CFTA : Government Procurement Chapter, “Set-asides” WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G Indigenous Peoples All trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ). If a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations. Coverage of dredging services under the trade agreements The coverage of dredging services is described below. Applicable trade agreements The CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component. Conditions for coverage Dredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply. Equipment and vessel requirements For dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply: equipment and vessels must be of Canadian, EU or UK make or manufacture equipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission Vessel registration and licensing The following requirements apply: vessels used must be registered in Canada, the UK or an EU Member State if not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements the usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases Applicability of trade agreements to standing offers and supply arrangements You must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors: whether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements whether the good or service categories involved are subject to the trade agreements whether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds If trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements. For standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed. For supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement . Invoking a national security exception The section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements. Client responsibilities When a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority. This letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s: “national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security “essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions First, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests. The ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only . Clients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply. Buyer responsibilities Once an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement: \"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\" You must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded. You must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions. By following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .",
+      "heading": null,
+      "heading_path": [],
+      "text": "Equipment and vessel requirements",
       "order": 0,
       "metadata": {}
     },
@@ -978,7 +976,6 @@
       "block_type": "heading",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "Trade agreement applicability",
@@ -990,7 +987,6 @@
       "block_type": "paragraph",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "When determining if a procurement falls under a trade agreement you must consider:",
@@ -1002,7 +998,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "its value",
@@ -1014,7 +1009,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "the requesting entity",
@@ -1026,7 +1020,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "the type of requirement",
@@ -1038,7 +1031,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "applicable exclusions or exceptions",
@@ -1050,7 +1042,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "set-asides",
@@ -1062,7 +1053,6 @@
       "block_type": "list_item",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "Indigenous Peoples",
@@ -1074,7 +1064,6 @@
       "block_type": "paragraph",
       "heading": "Trade agreement applicability",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability"
       ],
       "text": "For complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance.",
@@ -1086,7 +1075,6 @@
       "block_type": "heading",
       "heading": "Procurement value",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value"
       ],
@@ -1099,7 +1087,6 @@
       "block_type": "paragraph",
       "heading": "Procurement value",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value"
       ],
@@ -1112,7 +1099,6 @@
       "block_type": "heading",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1126,7 +1112,6 @@
       "block_type": "paragraph",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1140,7 +1125,6 @@
       "block_type": "list_item",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1154,7 +1138,6 @@
       "block_type": "list_item",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1168,7 +1151,6 @@
       "block_type": "list_item",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1182,7 +1164,6 @@
       "block_type": "list_item",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1196,7 +1177,6 @@
       "block_type": "paragraph",
       "heading": "Valuation rules and thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Valuation rules and thresholds"
@@ -1210,7 +1190,6 @@
       "block_type": "heading",
       "heading": "Lowest thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Lowest thresholds"
@@ -1224,7 +1203,6 @@
       "block_type": "paragraph",
       "heading": "Lowest thresholds",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Lowest thresholds"
@@ -1238,7 +1216,6 @@
       "block_type": "heading",
       "heading": "Contracting without trade agreement obligations",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Contracting without trade agreement obligations"
@@ -1252,7 +1229,6 @@
       "block_type": "paragraph",
       "heading": "Contracting without trade agreement obligations",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Contracting without trade agreement obligations"
@@ -1266,7 +1242,6 @@
       "block_type": "heading",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1280,7 +1255,6 @@
       "block_type": "paragraph",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1294,7 +1268,6 @@
       "block_type": "paragraph",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1308,7 +1281,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1322,12 +1294,11 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
       ],
-      "text": "federal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A",
+      "text": "federal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see:",
       "order": 27,
       "metadata": {}
     },
@@ -1336,7 +1307,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1350,7 +1320,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1364,7 +1333,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1378,7 +1346,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1392,12 +1359,11 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
       ],
-      "text": "crown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C",
+      "text": "crown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see:",
       "order": 32,
       "metadata": {}
     },
@@ -1406,7 +1372,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1420,7 +1385,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1434,7 +1398,6 @@
       "block_type": "list_item",
       "heading": "Coverage by entity",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage by entity"
@@ -1448,7 +1411,6 @@
       "block_type": "heading",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1462,7 +1424,6 @@
       "block_type": "paragraph",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1476,7 +1437,6 @@
       "block_type": "paragraph",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1490,7 +1450,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1504,12 +1463,11 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
       ],
-      "text": "in general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B",
+      "text": "in general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see:",
       "order": 40,
       "metadata": {}
     },
@@ -1518,7 +1476,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1532,7 +1489,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1546,7 +1502,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1560,7 +1515,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1574,7 +1528,6 @@
       "block_type": "paragraph",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1588,7 +1541,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1602,12 +1554,11 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
       ],
-      "text": "coverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4",
+      "text": "coverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see:",
       "order": 47,
       "metadata": {}
     },
@@ -1616,7 +1567,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1630,7 +1580,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1644,7 +1593,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1658,7 +1606,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1672,7 +1619,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1686,7 +1632,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1700,7 +1645,6 @@
       "block_type": "paragraph",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1714,7 +1658,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1728,12 +1671,11 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
       ],
-      "text": "in general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)",
+      "text": "in general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for:",
       "order": 56,
       "metadata": {}
     },
@@ -1742,7 +1684,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1756,7 +1697,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1770,12 +1710,11 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
       ],
-      "text": "for examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F",
+      "text": "for examples, see:",
       "order": 59,
       "metadata": {}
     },
@@ -1784,7 +1723,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1798,7 +1736,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1812,7 +1749,6 @@
       "block_type": "list_item",
       "heading": "Coverage of procurement requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Procurement value",
         "Coverage of procurement requirements"
@@ -1826,7 +1762,6 @@
       "block_type": "heading",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1839,7 +1774,6 @@
       "block_type": "paragraph",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1852,7 +1786,6 @@
       "block_type": "paragraph",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1865,7 +1798,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1878,7 +1810,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1891,7 +1822,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1904,7 +1834,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1917,7 +1846,6 @@
       "block_type": "paragraph",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1930,7 +1858,6 @@
       "block_type": "paragraph",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1943,7 +1870,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1956,7 +1882,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1969,7 +1894,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1982,7 +1906,6 @@
       "block_type": "list_item",
       "heading": "Addressing exclusions and exceptions",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Addressing exclusions and exceptions"
       ],
@@ -1995,7 +1918,6 @@
       "block_type": "heading",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2008,7 +1930,6 @@
       "block_type": "paragraph",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2021,7 +1942,6 @@
       "block_type": "paragraph",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2034,7 +1954,6 @@
       "block_type": "list_item",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2047,7 +1966,6 @@
       "block_type": "list_item",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2060,7 +1978,6 @@
       "block_type": "list_item",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2073,7 +1990,6 @@
       "block_type": "list_item",
       "heading": "Set-asides",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Set-asides"
       ],
@@ -2086,7 +2002,6 @@
       "block_type": "heading",
       "heading": "Indigenous Peoples",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Indigenous Peoples"
       ],
@@ -2099,7 +2014,6 @@
       "block_type": "paragraph",
       "heading": "Indigenous Peoples",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Indigenous Peoples"
       ],
@@ -2112,7 +2026,6 @@
       "block_type": "paragraph",
       "heading": "Indigenous Peoples",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Indigenous Peoples"
       ],
@@ -2125,7 +2038,6 @@
       "block_type": "heading",
       "heading": "Coverage of dredging services under the trade agreements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements"
       ],
@@ -2138,7 +2050,6 @@
       "block_type": "paragraph",
       "heading": "Coverage of dredging services under the trade agreements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements"
       ],
@@ -2151,7 +2062,6 @@
       "block_type": "heading",
       "heading": "Applicable trade agreements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Applicable trade agreements"
@@ -2165,7 +2075,6 @@
       "block_type": "paragraph",
       "heading": "Applicable trade agreements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Applicable trade agreements"
@@ -2179,7 +2088,6 @@
       "block_type": "heading",
       "heading": "Conditions for coverage",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Conditions for coverage"
@@ -2193,7 +2101,6 @@
       "block_type": "paragraph",
       "heading": "Conditions for coverage",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Conditions for coverage"
@@ -2207,7 +2114,6 @@
       "block_type": "paragraph",
       "heading": "Conditions for coverage",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Conditions for coverage"
@@ -2221,7 +2127,6 @@
       "block_type": "list_item",
       "heading": "Conditions for coverage",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Conditions for coverage"
@@ -2235,7 +2140,6 @@
       "block_type": "list_item",
       "heading": "Conditions for coverage",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Conditions for coverage"
@@ -2249,7 +2153,6 @@
       "block_type": "heading",
       "heading": "Vessel registration and licensing",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Vessel registration and licensing"
@@ -2263,7 +2166,6 @@
       "block_type": "paragraph",
       "heading": "Vessel registration and licensing",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Vessel registration and licensing"
@@ -2277,7 +2179,6 @@
       "block_type": "list_item",
       "heading": "Vessel registration and licensing",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Vessel registration and licensing"
@@ -2291,7 +2192,6 @@
       "block_type": "list_item",
       "heading": "Vessel registration and licensing",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Vessel registration and licensing"
@@ -2305,7 +2205,6 @@
       "block_type": "list_item",
       "heading": "Vessel registration and licensing",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Coverage of dredging services under the trade agreements",
         "Vessel registration and licensing"
@@ -2319,7 +2218,6 @@
       "block_type": "heading",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2332,7 +2230,6 @@
       "block_type": "paragraph",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2345,7 +2242,6 @@
       "block_type": "list_item",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2358,7 +2254,6 @@
       "block_type": "list_item",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2371,7 +2266,6 @@
       "block_type": "list_item",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2384,7 +2278,6 @@
       "block_type": "paragraph",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2397,7 +2290,6 @@
       "block_type": "paragraph",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2410,7 +2302,6 @@
       "block_type": "paragraph",
       "heading": "Applicability of trade agreements to standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Applicability of trade agreements to standing offers and supply arrangements"
       ],
@@ -2423,7 +2314,6 @@
       "block_type": "heading",
       "heading": "Invoking a national security exception",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception"
       ],
@@ -2436,7 +2326,6 @@
       "block_type": "paragraph",
       "heading": "Invoking a national security exception",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception"
       ],
@@ -2449,7 +2338,6 @@
       "block_type": "heading",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2463,7 +2351,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2477,7 +2364,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2491,7 +2377,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2505,12 +2390,11 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
       ],
-      "text": "“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions",
+      "text": "“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below):",
       "order": 114,
       "metadata": {}
     },
@@ -2519,7 +2403,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2533,7 +2416,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2547,7 +2429,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2561,7 +2442,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2575,7 +2455,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2589,7 +2468,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2603,7 +2481,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2617,7 +2494,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2631,7 +2507,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2645,7 +2520,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2659,7 +2533,6 @@
       "block_type": "list_item",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2673,7 +2546,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2687,7 +2559,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2701,7 +2572,6 @@
       "block_type": "paragraph",
       "heading": "Client responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Client responsibilities"
@@ -2715,7 +2585,6 @@
       "block_type": "heading",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2729,7 +2598,6 @@
       "block_type": "paragraph",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2743,7 +2611,6 @@
       "block_type": "paragraph",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2757,7 +2624,6 @@
       "block_type": "paragraph",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2771,7 +2637,6 @@
       "block_type": "paragraph",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2785,7 +2650,6 @@
       "block_type": "paragraph",
       "heading": "Buyer responsibilities",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Trade agreement applicability",
         "Trade agreement applicability",
         "Invoking a national security exception",
         "Buyer responsibilities"
@@ -2796,7 +2660,7 @@
     }
   ],
   "metadata": {},
-  "raw_text": "Trade agreement applicability When determining if a procurement falls under a trade agreement you must consider: its value the requesting entity the type of requirement applicable exclusions or exceptions set-asides Indigenous Peoples For complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance. Procurement value You must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years. Valuation rules and thresholds You must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example: CFTA : Government Procurement Chapter, “Valuation” (PDF) WTO-AGP : Article II Scope and Coverage CETA : Chapter 19 , Article 19.2 – Scope and Coverage Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope You must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage. Lowest thresholds The Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement. Contracting without trade agreement obligations Tender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded. Coverage by entity You must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter. For instance: all federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter federal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A all crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter crown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C Coverage of procurement requirements You must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter. Goods: all goods are covered by the CFTA unless specified otherwise in general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B Services: all services are covered by the CFTA unless otherwise specified coverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4 for the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered Construction Services: all construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified in general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA) for examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F Addressing exclusions and exceptions You must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G You must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses. For the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Article III – Security and General Exceptions CETA : Chapter 19 , Article 19.3: Security and General Exceptions CPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions Set-asides You should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations. You may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see: CFTA : Government Procurement Chapter, “Set-asides” WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G Indigenous Peoples All trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ). If a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations. Coverage of dredging services under the trade agreements The coverage of dredging services is described below. Applicable trade agreements The CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component. Conditions for coverage Dredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply. Equipment and vessel requirements For dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply: equipment and vessels must be of Canadian, EU or UK make or manufacture equipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission Vessel registration and licensing The following requirements apply: vessels used must be registered in Canada, the UK or an EU Member State if not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements the usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases Applicability of trade agreements to standing offers and supply arrangements You must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors: whether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements whether the good or service categories involved are subject to the trade agreements whether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds If trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements. For standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed. For supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement . Invoking a national security exception The section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements. Client responsibilities When a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority. This letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s: “national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security “essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions First, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests. The ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only . Clients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply. Buyer responsibilities Once an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement: \"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\" You must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded. You must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions. By following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .\n\nTrade agreement applicability\n\nWhen determining if a procurement falls under a trade agreement you must consider:\n\nits value\n\nthe requesting entity\n\nthe type of requirement\n\napplicable exclusions or exceptions\n\nset-asides\n\nIndigenous Peoples\n\nFor complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance.\n\nProcurement value\n\nYou must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years.\n\nValuation rules and thresholds\n\nYou must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example:\n\nCFTA : Government Procurement Chapter, “Valuation” (PDF)\n\nWTO-AGP : Article II Scope and Coverage\n\nCETA : Chapter 19 , Article 19.2 – Scope and Coverage\n\nComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope\n\nYou must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage.\n\nLowest thresholds\n\nThe Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement.\n\nContracting without trade agreement obligations\n\nTender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded.\n\nCoverage by entity\n\nYou must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter.\n\nFor instance:\n\nall federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\nfederal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A\n\nWTO-AGP : Annex 1 – Central Government Entities\n\nCETA : Annex 19-1\n\nCPTPP : Annex 15-A , Section A\n\nall crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\ncrown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C\n\nWTO-AGP : Annex 3 – Other Entities\n\nCETA : Annex 19-3\n\nCPTPP : Annex 15-A , Section C\n\nCoverage of procurement requirements\n\nYou must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter.\n\nGoods:\n\nall goods are covered by the CFTA unless specified otherwise\n\nin general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nWTO-AGP : Annex 4 – Goods\n\nCETA : Annex 19-4\n\nCPTPP : Annex 15-A , Section D\n\nCanada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nServices:\n\nall services are covered by the CFTA unless otherwise specified\n\ncoverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4\n\nWTO-AGP : Annex 5 - Services\n\nCETA : Annex 19-5\n\nCPTPP : Annex 15-A , Section E\n\nCKFTA : Chapter 14 , Annex 14-C\n\nCCFTA : Annex K bis-01.1-4\n\nfor the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered\n\nConstruction Services:\n\nall construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified\n\nin general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nconstruction services procured by or on behalf of the Department of Transport\n\ndredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nfor examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F\n\nWTO-AGP : Annex 6 – Construction Services\n\nCETA : Annex 19-6\n\nCPTPP : Annex 15-A , Section F\n\nAddressing exclusions and exceptions\n\nYou must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists.\n\nFor examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nYou must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses.\n\nFor the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Article III – Security and General Exceptions\n\nCETA : Chapter 19 , Article 19.3: Security and General Exceptions\n\nCPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions\n\nSet-asides\n\nYou should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations.\n\nYou may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see:\n\nCFTA : Government Procurement Chapter, “Set-asides”\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nIndigenous Peoples\n\nAll trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ).\n\nIf a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations.\n\nCoverage of dredging services under the trade agreements\n\nThe coverage of dredging services is described below.\n\nApplicable trade agreements\n\nThe CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component.\n\nConditions for coverage\n\nDredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply.\n\nFor dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply:\n\nequipment and vessels must be of Canadian, EU or UK make or manufacture\n\nequipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission\n\nVessel registration and licensing\n\nThe following requirements apply:\n\nvessels used must be registered in Canada, the UK or an EU Member State\n\nif not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements\n\nthe usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases\n\nApplicability of trade agreements to standing offers and supply arrangements\n\nYou must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors:\n\nwhether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements\n\nwhether the good or service categories involved are subject to the trade agreements\n\nwhether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds\n\nIf trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements.\n\nFor standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed.\n\nFor supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement .\n\nInvoking a national security exception\n\nThe section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements.\n\nClient responsibilities\n\nWhen a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority.\n\nThis letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s:\n\n“national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security\n\n“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nCETA , Article 19.3 (1): Security and general exceptions\n\nWTO-AGP , Article III (1): Security and General Exceptions\n\nCPTPP , Article 29.2: Security Exceptions\n\nCanada-Chile , Article Kbis-16 (1): Exceptions\n\nCanada-Columbia , Article 1402 (1): Security and General Exceptions\n\nCanada-Honduras , Article 17.3 (1): Security and General Exceptions\n\nCanada-Korea , Article 22.2: National Security\n\nCanada-Panama , Article 16.03 (1): Security and General Exceptions\n\nCanada-Peru , Article 1402 (1): Security and General Exceptions\n\nCanada-UK TCA , Article I\n\nCanada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nFirst, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests.\n\nThe ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only .\n\nClients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply.\n\nBuyer responsibilities\n\nOnce an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement:\n\n\"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\"\n\nYou must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded.\n\nYou must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions.\n\nBy following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .",
-  "markdown_text": "Trade agreement applicability When determining if a procurement falls under a trade agreement you must consider: its value the requesting entity the type of requirement applicable exclusions or exceptions set-asides Indigenous Peoples For complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance. Procurement value You must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years. Valuation rules and thresholds You must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example: CFTA : Government Procurement Chapter, “Valuation” (PDF) WTO-AGP : Article II Scope and Coverage CETA : Chapter 19 , Article 19.2 – Scope and Coverage Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope You must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage. Lowest thresholds The Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement. Contracting without trade agreement obligations Tender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded. Coverage by entity You must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter. For instance: all federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter federal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A all crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter crown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C Coverage of procurement requirements You must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter. Goods: all goods are covered by the CFTA unless specified otherwise in general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B Services: all services are covered by the CFTA unless otherwise specified coverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4 for the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered Construction Services: all construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified in general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA) for examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F Addressing exclusions and exceptions You must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G You must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses. For the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see: CFTA : General Exceptions Chapter WTO-AGP : Article III – Security and General Exceptions CETA : Chapter 19 , Article 19.3: Security and General Exceptions CPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions Set-asides You should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations. You may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see: CFTA : Government Procurement Chapter, “Set-asides” WTO-AGP : Annex 7 – General Notes CETA : Annex 19-7 CPTPP : Annex 15-A , Section G Indigenous Peoples All trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ). If a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations. Coverage of dredging services under the trade agreements The coverage of dredging services is described below. Applicable trade agreements The CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component. Conditions for coverage Dredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply. Equipment and vessel requirements For dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply: equipment and vessels must be of Canadian, EU or UK make or manufacture equipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission Vessel registration and licensing The following requirements apply: vessels used must be registered in Canada, the UK or an EU Member State if not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements the usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases Applicability of trade agreements to standing offers and supply arrangements You must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors: whether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements whether the good or service categories involved are subject to the trade agreements whether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds If trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements. For standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed. For supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement . Invoking a national security exception The section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements. Client responsibilities When a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority. This letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s: “national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security “essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions First, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests. The ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only . Clients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply. Buyer responsibilities Once an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement: \"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\" You must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded. You must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions. By following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .\n\nTrade agreement applicability\n\nWhen determining if a procurement falls under a trade agreement you must consider:\n\nits value\n\nthe requesting entity\n\nthe type of requirement\n\napplicable exclusions or exceptions\n\nset-asides\n\nIndigenous Peoples\n\nFor complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance.\n\nProcurement value\n\nYou must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years.\n\nValuation rules and thresholds\n\nYou must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example:\n\nCFTA : Government Procurement Chapter, “Valuation” (PDF)\n\nWTO-AGP : Article II Scope and Coverage\n\nCETA : Chapter 19 , Article 19.2 – Scope and Coverage\n\nComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope\n\nYou must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage.\n\nLowest thresholds\n\nThe Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement.\n\nContracting without trade agreement obligations\n\nTender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded.\n\nCoverage by entity\n\nYou must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter.\n\nFor instance:\n\nall federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\nfederal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 1 – Central Government Entities CETA : Annex 19-1 CPTPP : Annex 15-A , Section A\n\nWTO-AGP : Annex 1 – Central Government Entities\n\nCETA : Annex 19-1\n\nCPTPP : Annex 15-A , Section A\n\nall crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\ncrown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see: WTO-AGP : Annex 3 – Other Entities CETA : Annex 19-3 CPTPP : Annex 15-A , Section C\n\nWTO-AGP : Annex 3 – Other Entities\n\nCETA : Annex 19-3\n\nCPTPP : Annex 15-A , Section C\n\nCoverage of procurement requirements\n\nYou must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter.\n\nGoods:\n\nall goods are covered by the CFTA unless specified otherwise\n\nin general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see: WTO-AGP : Annex 4 – Goods CETA : Annex 19-4 CPTPP : Annex 15-A , Section D Canada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nWTO-AGP : Annex 4 – Goods\n\nCETA : Annex 19-4\n\nCPTPP : Annex 15-A , Section D\n\nCanada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nServices:\n\nall services are covered by the CFTA unless otherwise specified\n\ncoverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see: WTO-AGP : Annex 5 - Services CETA : Annex 19-5 CPTPP : Annex 15-A , Section E CKFTA : Chapter 14 , Annex 14-C CCFTA : Annex K bis-01.1-4\n\nWTO-AGP : Annex 5 - Services\n\nCETA : Annex 19-5\n\nCPTPP : Annex 15-A , Section E\n\nCKFTA : Chapter 14 , Annex 14-C\n\nCCFTA : Annex K bis-01.1-4\n\nfor the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered\n\nConstruction Services:\n\nall construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified\n\nin general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for: construction services procured by or on behalf of the Department of Transport dredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nconstruction services procured by or on behalf of the Department of Transport\n\ndredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nfor examples, see: WTO-AGP : Annex 6 – Construction Services CETA : Annex 19-6 CPTPP : Annex 15-A , Section F\n\nWTO-AGP : Annex 6 – Construction Services\n\nCETA : Annex 19-6\n\nCPTPP : Annex 15-A , Section F\n\nAddressing exclusions and exceptions\n\nYou must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists.\n\nFor examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nYou must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses.\n\nFor the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Article III – Security and General Exceptions\n\nCETA : Chapter 19 , Article 19.3: Security and General Exceptions\n\nCPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions\n\nSet-asides\n\nYou should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations.\n\nYou may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see:\n\nCFTA : Government Procurement Chapter, “Set-asides”\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nIndigenous Peoples\n\nAll trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ).\n\nIf a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations.\n\nCoverage of dredging services under the trade agreements\n\nThe coverage of dredging services is described below.\n\nApplicable trade agreements\n\nThe CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component.\n\nConditions for coverage\n\nDredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply.\n\nFor dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply:\n\nequipment and vessels must be of Canadian, EU or UK make or manufacture\n\nequipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission\n\nVessel registration and licensing\n\nThe following requirements apply:\n\nvessels used must be registered in Canada, the UK or an EU Member State\n\nif not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements\n\nthe usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases\n\nApplicability of trade agreements to standing offers and supply arrangements\n\nYou must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors:\n\nwhether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements\n\nwhether the good or service categories involved are subject to the trade agreements\n\nwhether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds\n\nIf trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements.\n\nFor standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed.\n\nFor supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement .\n\nInvoking a national security exception\n\nThe section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements.\n\nClient responsibilities\n\nWhen a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority.\n\nThis letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s:\n\n“national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security\n\n“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below): CETA , Article 19.3 (1): Security and general exceptions WTO-AGP , Article III (1): Security and General Exceptions CPTPP , Article 29.2: Security Exceptions Canada-Chile , Article Kbis-16 (1): Exceptions Canada-Columbia , Article 1402 (1): Security and General Exceptions Canada-Honduras , Article 17.3 (1): Security and General Exceptions Canada-Korea , Article 22.2: National Security Canada-Panama , Article 16.03 (1): Security and General Exceptions Canada-Peru , Article 1402 (1): Security and General Exceptions Canada-UK TCA , Article I Canada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nCETA , Article 19.3 (1): Security and general exceptions\n\nWTO-AGP , Article III (1): Security and General Exceptions\n\nCPTPP , Article 29.2: Security Exceptions\n\nCanada-Chile , Article Kbis-16 (1): Exceptions\n\nCanada-Columbia , Article 1402 (1): Security and General Exceptions\n\nCanada-Honduras , Article 17.3 (1): Security and General Exceptions\n\nCanada-Korea , Article 22.2: National Security\n\nCanada-Panama , Article 16.03 (1): Security and General Exceptions\n\nCanada-Peru , Article 1402 (1): Security and General Exceptions\n\nCanada-UK TCA , Article I\n\nCanada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nFirst, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests.\n\nThe ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only .\n\nClients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply.\n\nBuyer responsibilities\n\nOnce an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement:\n\n\"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\"\n\nYou must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded.\n\nYou must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions.\n\nBy following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .",
+  "raw_text": "Equipment and vessel requirements\n\nTrade agreement applicability\n\nWhen determining if a procurement falls under a trade agreement you must consider:\n\nits value\n\nthe requesting entity\n\nthe type of requirement\n\napplicable exclusions or exceptions\n\nset-asides\n\nIndigenous Peoples\n\nFor complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance.\n\nProcurement value\n\nYou must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years.\n\nValuation rules and thresholds\n\nYou must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example:\n\nCFTA : Government Procurement Chapter, “Valuation” (PDF)\n\nWTO-AGP : Article II Scope and Coverage\n\nCETA : Chapter 19 , Article 19.2 – Scope and Coverage\n\nComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope\n\nYou must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage.\n\nLowest thresholds\n\nThe Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement.\n\nContracting without trade agreement obligations\n\nTender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded.\n\nCoverage by entity\n\nYou must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter.\n\nFor instance:\n\nall federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\nfederal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see:\n\nWTO-AGP : Annex 1 – Central Government Entities\n\nCETA : Annex 19-1\n\nCPTPP : Annex 15-A , Section A\n\nall crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\ncrown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see:\n\nWTO-AGP : Annex 3 – Other Entities\n\nCETA : Annex 19-3\n\nCPTPP : Annex 15-A , Section C\n\nCoverage of procurement requirements\n\nYou must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter.\n\nGoods:\n\nall goods are covered by the CFTA unless specified otherwise\n\nin general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see:\n\nWTO-AGP : Annex 4 – Goods\n\nCETA : Annex 19-4\n\nCPTPP : Annex 15-A , Section D\n\nCanada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nServices:\n\nall services are covered by the CFTA unless otherwise specified\n\ncoverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see:\n\nWTO-AGP : Annex 5 - Services\n\nCETA : Annex 19-5\n\nCPTPP : Annex 15-A , Section E\n\nCKFTA : Chapter 14 , Annex 14-C\n\nCCFTA : Annex K bis-01.1-4\n\nfor the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered\n\nConstruction Services:\n\nall construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified\n\nin general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for:\n\nconstruction services procured by or on behalf of the Department of Transport\n\ndredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nfor examples, see:\n\nWTO-AGP : Annex 6 – Construction Services\n\nCETA : Annex 19-6\n\nCPTPP : Annex 15-A , Section F\n\nAddressing exclusions and exceptions\n\nYou must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists.\n\nFor examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nYou must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses.\n\nFor the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Article III – Security and General Exceptions\n\nCETA : Chapter 19 , Article 19.3: Security and General Exceptions\n\nCPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions\n\nSet-asides\n\nYou should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations.\n\nYou may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see:\n\nCFTA : Government Procurement Chapter, “Set-asides”\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nIndigenous Peoples\n\nAll trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ).\n\nIf a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations.\n\nCoverage of dredging services under the trade agreements\n\nThe coverage of dredging services is described below.\n\nApplicable trade agreements\n\nThe CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component.\n\nConditions for coverage\n\nDredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply.\n\nFor dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply:\n\nequipment and vessels must be of Canadian, EU or UK make or manufacture\n\nequipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission\n\nVessel registration and licensing\n\nThe following requirements apply:\n\nvessels used must be registered in Canada, the UK or an EU Member State\n\nif not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements\n\nthe usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases\n\nApplicability of trade agreements to standing offers and supply arrangements\n\nYou must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors:\n\nwhether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements\n\nwhether the good or service categories involved are subject to the trade agreements\n\nwhether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds\n\nIf trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements.\n\nFor standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed.\n\nFor supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement .\n\nInvoking a national security exception\n\nThe section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements.\n\nClient responsibilities\n\nWhen a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority.\n\nThis letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s:\n\n“national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security\n\n“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below):\n\nCETA , Article 19.3 (1): Security and general exceptions\n\nWTO-AGP , Article III (1): Security and General Exceptions\n\nCPTPP , Article 29.2: Security Exceptions\n\nCanada-Chile , Article Kbis-16 (1): Exceptions\n\nCanada-Columbia , Article 1402 (1): Security and General Exceptions\n\nCanada-Honduras , Article 17.3 (1): Security and General Exceptions\n\nCanada-Korea , Article 22.2: National Security\n\nCanada-Panama , Article 16.03 (1): Security and General Exceptions\n\nCanada-Peru , Article 1402 (1): Security and General Exceptions\n\nCanada-UK TCA , Article I\n\nCanada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nFirst, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests.\n\nThe ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only .\n\nClients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply.\n\nBuyer responsibilities\n\nOnce an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement:\n\n\"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\"\n\nYou must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded.\n\nYou must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions.\n\nBy following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .",
+  "markdown_text": "Equipment and vessel requirements\n\nTrade agreement applicability\n\nWhen determining if a procurement falls under a trade agreement you must consider:\n\nits value\n\nthe requesting entity\n\nthe type of requirement\n\napplicable exclusions or exceptions\n\nset-asides\n\nIndigenous Peoples\n\nFor complex procurements, determining coverage can be challenging . For example, a procurement may involve various clients and product and service categories with some being covered and others not. You should contact the PSPC trade agreement unit for guidance.\n\nProcurement value\n\nYou must begin by estimating the procurement’s value in Canadian dollars, including options and applicable taxes. If the value is equal to or greater than the thresholds defined in the applicable Treasury Board Contracting Policy Notice , then the procurement might be subject to trade agreements. These thresholds are updated by the TB Secretariat every two years.\n\nValuation rules and thresholds\n\nYou must follow the rules set out in the Government Procurement Chapter of each trade agreement, for example:\n\nCFTA : Government Procurement Chapter, “Valuation” (PDF)\n\nWTO-AGP : Article II Scope and Coverage\n\nCETA : Chapter 19 , Article 19.2 – Scope and Coverage\n\nComprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP): Chapter 15 , Article 15.2: Scope\n\nYou must not divide a procurement, or select or use a particular valuation method, as a tactic to exclude procurements from trade agreement coverage.\n\nLowest thresholds\n\nThe Canada–Korea Free Trade Agreement (CKFTA) currently provides the lowest threshold for services at $100,000. When the procedural obligations of the WTO-AGP are met, CKFTA obligations will also be met. Therefore, you must ensure compliance with WTO-AGP for all service procurements valued at or above $100,000 that are covered by the CKFTA . The determination of whether or not a procurement is covered by the CKFTA must still be made pursuant to the Market Access Schedules of the Government Procurement Chapter of that agreement.\n\nContracting without trade agreement obligations\n\nTender and contract provisions must be included for procurements with an uncertain maximum value likely to fall below applicable trade agreement thresholds, and where you wish to proceed without following trade agreement obligations. These tender and contract provisions must be included in the solicitation of offers and resulting contract(s) to limit Canada's total potential financial liability to less than these thresholds. Conversely, if the procurement has an uncertain maximum value likely to meet or exceed applicable trade agreement thresholds, you must treat it as covered by the applicable trade agreements, unless explicitly excluded.\n\nCoverage by entity\n\nYou must determine if the client is covered by looking at the applicable trade agreement’s Market Access Schedule of Canada found in the annexes to the Government Procurement chapter.\n\nFor instance:\n\nall federal departments and agencies are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\nfederal government entities covered by the international trade agreements are generally indicated in the first Annex or Section of Canada's Market Access Schedule, for examples, see:\n\nWTO-AGP : Annex 1 – Central Government Entities\n\nCETA : Annex 19-1\n\nCPTPP : Annex 15-A , Section A\n\nall crown corporations are subject to the CFTA procurement obligations, save for those listed as excepted in the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter\n\ncrown corporations covered by the international trade agreements are generally indicated in the third Annex or Section of Canada's Market Access Schedule, for examples, see:\n\nWTO-AGP : Annex 3 – Other Entities\n\nCETA : Annex 19-3\n\nCPTPP : Annex 15-A , Section C\n\nCoverage of procurement requirements\n\nYou must determine whether the requirement is covered by a trade agreement. Coverage specifics for goods, services and construction are generally found in fourth, fifth and sixth Annexes or Sections of Canada’s Market Access Schedule. For CFTA , the requirements that are not covered are specified in the Non-Application provision of the Government Procurement Chapter or the Schedule of Canada in the Party-Specific Exceptions Annex to the Government Procurement Chapter.\n\nGoods:\n\nall goods are covered by the CFTA unless specified otherwise\n\nin general, all goods are covered by international trade agreements; however, for the Department of National Defence, the Royal Canadian Mounted Police and the Canadian Coast Guard, only certain goods are covered, for examples, see:\n\nWTO-AGP : Annex 4 – Goods\n\nCETA : Annex 19-4\n\nCPTPP : Annex 15-A , Section D\n\nCanada-Korea Free Trade Agreement: Chapter 14 , Annex 14-B\n\nServices:\n\nall services are covered by the CFTA unless otherwise specified\n\ncoverage of services varies between international trade agreements some typically cover only expressly listed services, while others cover all services except those expressly listed, for examples, see:\n\nWTO-AGP : Annex 5 - Services\n\nCETA : Annex 19-5\n\nCPTPP : Annex 15-A , Section E\n\nCKFTA : Chapter 14 , Annex 14-C\n\nCCFTA : Annex K bis-01.1-4\n\nfor the DND , the RCMP and the Canadian Coast Guard, services related to goods are only covered if the goods they relate to are covered\n\nConstruction Services:\n\nall construction services, including dredging services and construction services procured by or on behalf of the Department of Transport, are covered by the CFTA unless otherwise specified\n\nin general, those identified in Division 51 of the United Nations Central Product Classification (CPC) are covered by international trade agreements, except for:\n\nconstruction services procured by or on behalf of the Department of Transport\n\ndredging services are only covered by CETA and the Canada-United Kingdom Trade Continuity Agreement (Canada-UK TCA)\n\nfor examples, see:\n\nWTO-AGP : Annex 6 – Construction Services\n\nCETA : Annex 19-6\n\nCPTPP : Annex 15-A , Section F\n\nAddressing exclusions and exceptions\n\nYou must determine if any exclusions from trade agreement obligations apply to the procurement by reviewing the list of exclusions found in Canada’s Market Access Schedule. Trade agreements do not apply to any procurement where an express exclusion exists.\n\nFor examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nYou must decide if any exceptions, such as a national security exception (NSE) or the general exception for human life and safety, will be invoked for the requirement. If you invoke an exception, this could exempt some or all aspects of the procurement from certain trade agreement obligations. To mitigate risk, you should follow the trade agreement obligations as much as possible. Only deviate where necessary to achieve the purposes of the exception or set-aside, or to implement the measures for Indigenous Peoples or businesses.\n\nFor the list of general exceptions refer to the Security and General Exceptions Article of the Government Procurement Chapter. Some trade agreements, such as the CPTPP , also include exceptions in a specific “Exceptions” Chapter. For examples, see:\n\nCFTA : General Exceptions Chapter\n\nWTO-AGP : Article III – Security and General Exceptions\n\nCETA : Chapter 19 , Article 19.3: Security and General Exceptions\n\nCPTPP : Chapter 15 , Article 15.3: Exceptions and Chapter 29 , Article 29.2: Security Exceptions\n\nSet-asides\n\nYou should decide if any set-asides, such as the set-aside for minority businesses, will be applied to the procurement. You may apply the set-asides to the entire procurement or only part of it. This means that all or some aspects may not be subject to certain trade agreement obligations.\n\nYou may refer to Canada's Market Access Schedule for Canada’s set-asides. For examples, see:\n\nCFTA : Government Procurement Chapter, “Set-asides”\n\nWTO-AGP : Annex 7 – General Notes\n\nCETA : Annex 19-7\n\nCPTPP : Annex 15-A , Section G\n\nIndigenous Peoples\n\nAll trade agreements contain mechanisms that allow Canada to add measures, including but not limited to set-asides, for the benefit of Indigenous Peoples or businesses in a procurement. This includes procurement obligations under Modern Treaties (Comprehensive Land Claims Agreements ).\n\nIf a measure is adopted or maintained for Indigenous Peoples in a procurement that is otherwise covered by trade agreements, some or all aspects of it may not be subject to trade agreement obligations.\n\nCoverage of dredging services under the trade agreements\n\nThe coverage of dredging services is described below.\n\nApplicable trade agreements\n\nThe CETA and the Canada-UK TCA are the only international trade agreements that cover dredging services (see CETA Annex 19-6 - Construction services and Canada-UK TCA Article I. As such, when CETA and the Canada-UK TCA apply, in addition to dredging equipment of Canadian make and manufacture, dredging equipment and vessels of European Union (EU) member state and United Kingdom (UK) make and manufacture are permitted on the work, whether in dredging procurements or construction services procurements with dredging as a component.\n\nConditions for coverage\n\nDredging services incidental to construction services contracts are only covered for central government entities. The CETA and Canada-UK TCA construction services thresholds for central government entities apply.\n\nFor dredging procurements under CETA and the Canada-UK TCA , or dredging services incidental to CETA and Canada-UK TCA covered construction services contracts, one of the following requirements apply:\n\nequipment and vessels must be of Canadian, EU or UK make or manufacture\n\nequipment and vessels must have been predominantly modified in Canada, the EU or the UK and has been owned by a person located in Canada, the EU or the UK for at least a year before offer submission\n\nVessel registration and licensing\n\nThe following requirements apply:\n\nvessels used must be registered in Canada, the UK or an EU Member State\n\nif not registered in Canada, the vessel must have a temporary licence under the Coasting Trade Act , granted based on specific non-discretionary requirements\n\nthe usual requirement, that a temporary licence is only issued if no Canadian vessel is available, does not apply in these cases\n\nApplicability of trade agreements to standing offers and supply arrangements\n\nYou must assess the applicability of the trade agreements related to standing offers and supply arrangements. In your assessment, you must consider the following three factors:\n\nwhether the department for which the standing offer or supply arrangement is intended is covered under the trade agreements\n\nwhether the good or service categories involved are subject to the trade agreements\n\nwhether the total estimated value of all the call-ups (contracts) against an standing offer or all contracts under an supply arrangement meets or exceeds the trade agreement thresholds\n\nIf trade agreements are applicable, solicitations for standing offers and supply arrangements must comply with these agreements.\n\nFor standing offer, individual call-ups are not considered separate procurements under the trade agreements. They can proceed without following trade agreement procedures, provided that the procedures specified in the standing offer for making call-ups are followed.\n\nFor supply arrangements, each individual contract cannot be made under the supply arrangements without having considered trade agreement applicability and procedural obligations, whether at the RFSA stage or at the point of placing an individual contract. For more information refer to Request for supply arrangement .\n\nInvoking a national security exception\n\nThe section below provides guidance on how to proceed when invoking a national security exception to exclude a procurement from one or more trade agreements.\n\nClient responsibilities\n\nWhen a client wants to invoke an NSE to exclude the procurement from a trade agreement on a PSPC Acquisitions Program (AP) requisition they must prepare a letter of request from the responsible Assistant Deputy Minister (ADM) or equivalent at their department to the ADM/AP for approval, regardless of dollar value, where PSPC/AP is the contracting authority.\n\nThis letter must explain the nature of the proposed procurement and, depending on the applicable trade agreement(s), how it relates to Canada’s:\n\n“national security interests” or international obligations, the “maintenance of international peace and security,” CFTA (PDF), Article 801: National Security\n\n“essential security interests for the procurement of arms, ammunition or war materials, or to procurement indispensable for national security or for national defence purposes” (see the relevant text in the trade agreements below):\n\nCETA , Article 19.3 (1): Security and general exceptions\n\nWTO-AGP , Article III (1): Security and General Exceptions\n\nCPTPP , Article 29.2: Security Exceptions\n\nCanada-Chile , Article Kbis-16 (1): Exceptions\n\nCanada-Columbia , Article 1402 (1): Security and General Exceptions\n\nCanada-Honduras , Article 17.3 (1): Security and General Exceptions\n\nCanada-Korea , Article 22.2: National Security\n\nCanada-Panama , Article 16.03 (1): Security and General Exceptions\n\nCanada-Peru , Article 1402 (1): Security and General Exceptions\n\nCanada-UK TCA , Article I\n\nCanada-Ukraine (CUFTA) , Article 10.4 (1): Security and General Exceptions\n\nFirst, the client should submit a draft of the NSE request letter to the PSPC Specialized Services for Procurement Group (SSPG) for review before it is signed by their responsible ADM or equivalent. The PSPC SSPG reviews all NSE requests before seeking PSPC ADM / AP approval. Then, the client submits the request to the PSPC ADM / AP responsible for approving NSE requests.\n\nThe ADM reviews the issue of invoking the NSE , not other procurement matters such as methods, plans or contract authority. Once the ADM makes a decision, they will inform the client in writing. For the approval process for NSE , you may refer to Approval authorities for Acquisition Program client's programs only .\n\nClients should collaborate with you to determine the appropriate procurement method, in parallel with any request for approval of an NSE . Even if an NSE is invoked, it is government policy to compete the requirement, unless exceptions to competitive contracting in the GCRs apply.\n\nBuyer responsibilities\n\nOnce an NSE is invoked and applied to the requirement, you must include a statement in all procurement documents indicating this. Use the statement:\n\n\"This procurement is subject to a national security exception and is, therefore, excluded from all of the obligations of the trade agreements.\"\n\nYou must specify in approval documents the rationale for invoking the NSE and the trade agreements from which the procurement is being excluded.\n\nYou must keep a copy of the NSE approval letter on file and ensure that all procurement documents reflect the invocation of the NSE . You are to maintain proper documentation as required by the GCRs and other relevant policies. Invoking an NSE does not exempt you from complying with the GCRs and other relevant regulations and policies. This may include posting an NPP or an Advance Contract Award Notice (ACAN) on the Tender opportunities page, unless security requirements prevent such actions.\n\nBy following these procedures, clients can properly request an NSE , and you can ensure all necessary steps and documentation are in place for compliance. For advice on assisting clients in properly framing and requesting an NSE , and for an NSE letter template, contact the Specialized Services for Procurement Group .",
   "provenance_paths": {}
 }

@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:32.633765Z",
   "content_hash": "57b23171b1e2aa7876f73280d2790cc43811a919e61d166e7f9d330b528cbcaf",
   "word_count": 30,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -778,7 +778,6 @@
       "block_type": "heading",
       "heading": "Modify a contract",
       "heading_path": [
-        "Buyer's Guide Modify a contract",
         "Modify a contract"
       ],
       "text": "Modify a contract",
@@ -790,7 +789,6 @@
       "block_type": "paragraph",
       "heading": "Modify a contract",
       "heading_path": [
-        "Buyer's Guide Modify a contract",
         "Modify a contract"
       ],
       "text": "This section provides information on modifying contracts, including consideration for amending contracts, revising standing offers and supply arrangements, managing design changes or deviations and exercising contract options.",

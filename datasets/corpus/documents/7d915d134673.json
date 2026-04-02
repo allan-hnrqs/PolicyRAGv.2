@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:05.665884Z",
   "content_hash": "d56557d34c8e02a63178f8c1c2a13914dc0b349caaedcb206bc78e7c0b509b38",
   "word_count": 523,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -773,7 +773,6 @@
       "block_type": "heading",
       "heading": "Assignment of contracts",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts"
       ],
       "text": "Assignment of contracts",
@@ -785,7 +784,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of contracts",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts"
       ],
       "text": "Consult the guidelines below when considering a contract assignment. These guidelines include security requirements, eligibility verification and contractual obligations for the contractor.",
@@ -797,7 +795,6 @@
       "block_type": "heading",
       "heading": "Security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Security requirements"
       ],
@@ -810,7 +807,6 @@
       "block_type": "paragraph",
       "heading": "Security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Security requirements"
       ],
@@ -823,7 +819,6 @@
       "block_type": "heading",
       "heading": "Integrity and suspension policy",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Integrity and suspension policy"
       ],
@@ -836,7 +831,6 @@
       "block_type": "paragraph",
       "heading": "Integrity and suspension policy",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Integrity and suspension policy"
       ],
@@ -849,7 +843,6 @@
       "block_type": "paragraph",
       "heading": "Integrity and suspension policy",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Integrity and suspension policy"
       ],
@@ -862,7 +855,6 @@
       "block_type": "heading",
       "heading": "Eligibility verification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Eligibility verification"
       ],
@@ -875,7 +867,6 @@
       "block_type": "paragraph",
       "heading": "Eligibility verification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Eligibility verification"
       ],
@@ -888,7 +879,6 @@
       "block_type": "paragraph",
       "heading": "Eligibility verification",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Eligibility verification"
       ],
@@ -901,7 +891,6 @@
       "block_type": "heading",
       "heading": "Cost analyst review",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Cost analyst review"
       ],
@@ -914,7 +903,6 @@
       "block_type": "paragraph",
       "heading": "Cost analyst review",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Cost analyst review"
       ],
@@ -927,7 +915,6 @@
       "block_type": "heading",
       "heading": "Legal consultation",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Legal consultation"
       ],
@@ -940,7 +927,6 @@
       "block_type": "paragraph",
       "heading": "Legal consultation",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Legal consultation"
       ],
@@ -953,7 +939,6 @@
       "block_type": "list_item",
       "heading": "Legal consultation",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Legal consultation"
       ],
@@ -966,7 +951,6 @@
       "block_type": "list_item",
       "heading": "Legal consultation",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Legal consultation"
       ],
@@ -979,7 +963,6 @@
       "block_type": "list_item",
       "heading": "Legal consultation",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Legal consultation"
       ],
@@ -992,7 +975,6 @@
       "block_type": "heading",
       "heading": "Contractual obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Contractual obligations"
       ],
@@ -1005,7 +987,6 @@
       "block_type": "paragraph",
       "heading": "Contractual obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Contractual obligations"
       ],
@@ -1018,7 +999,6 @@
       "block_type": "heading",
       "heading": "Liabilities and rights transfer",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Liabilities and rights transfer"
       ],
@@ -1031,7 +1011,6 @@
       "block_type": "paragraph",
       "heading": "Liabilities and rights transfer",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Liabilities and rights transfer"
       ],
@@ -1044,7 +1023,6 @@
       "block_type": "heading",
       "heading": "Assignment agreement",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Assignment agreement"
       ],
@@ -1057,7 +1035,6 @@
       "block_type": "paragraph",
       "heading": "Assignment agreement",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Assignment agreement"
       ],
@@ -1070,7 +1047,6 @@
       "block_type": "heading",
       "heading": "Special considerations for Canadian Commercial Corporation (CCC) contracts",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Special considerations for Canadian Commercial Corporation (CCC) contracts"
       ],
@@ -1083,7 +1059,6 @@
       "block_type": "paragraph",
       "heading": "Special considerations for Canadian Commercial Corporation (CCC) contracts",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Assignment of contracts",
         "Assignment of contracts",
         "Special considerations for Canadian Commercial Corporation (CCC) contracts"
       ],

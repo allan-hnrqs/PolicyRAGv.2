@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:14.775284Z",
-  "content_hash": "54df59495c0b42947fc57886177153dc638119a9552f6f4a7a993342cfeead2e",
-  "word_count": 106,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "df60f75c6918ccba0ac182920ab854743bf0a6bad30a1127665cedd0d47964d7",
+  "word_count": 53,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Services of foreign nationals",
+      "block_type": "heading",
+      "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Services of foreign nationals"
+        "Services of foreign nationals"
       ],
-      "text": "Services of foreign nationals The Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government. If the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
+      "text": "Services of foreign nationals",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Services of foreign nationals",
         "Services of foreign nationals"
       ],
-      "text": "Services of foreign nationals",
+      "text": "The Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Services of foreign nationals",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Services of foreign nationals",
-        "Services of foreign nationals"
-      ],
-      "text": "The Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Services of foreign nationals",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Services of foreign nationals",
         "Services of foreign nationals"
       ],
       "text": "If the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Services of foreign nationals The Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government. If the procurement might require foreign nationals to work in Canada, include the appropriate clause.\n\nServices of foreign nationals\n\nThe Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.\n\nIf the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
-  "markdown_text": "Services of foreign nationals The Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government. If the procurement might require foreign nationals to work in Canada, include the appropriate clause.\n\nServices of foreign nationals\n\nThe Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.\n\nIf the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
+  "raw_text": "Services of foreign nationals\n\nThe Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.\n\nIf the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
+  "markdown_text": "Services of foreign nationals\n\nThe Immigration and Refugee Protection Act and its regulations outline how foreign nationals obtain employment authorization before being allowed to enter Canada for temporary work, including performing work under contract to the federal government.\n\nIf the procurement might require foreign nationals to work in Canada, include the appropriate clause.",
   "provenance_paths": {}
 }

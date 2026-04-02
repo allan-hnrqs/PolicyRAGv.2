@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:11.994592Z",
-  "content_hash": "2ecd0b275825304d5b20125253882cab6af5206b17afa694349727003794d956",
-  "word_count": 489,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "df70d2447ee460577c05239a59fe487918b8b288067244f96b13c37dc9bdb813",
+  "word_count": 237,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
+      "block_type": "heading",
+      "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions"
+        "Managing urgent aquisitions"
       ],
-      "text": "Managing urgent aquisitions An urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives. To effectively manage a requirement that has been identified as an urgent acquisition: form an integrated team of dedicated personnel from PSPC and the client consider assigning a single point of contact in each organization when there are multiple urgent requirements set up clear communication channels between all stakeholders early on prioritize the requirement and apply concurrent review processes where possible provide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A) If Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
+      "text": "Managing urgent aquisitions",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "Managing urgent aquisitions",
+      "text": "An urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.",
       "order": 1,
       "metadata": {}
     },
@@ -986,22 +985,20 @@
       "block_type": "paragraph",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "An urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.",
+      "text": "To effectively manage a requirement that has been identified as an urgent acquisition:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "To effectively manage a requirement that has been identified as an urgent acquisition:",
+      "text": "form an integrated team of dedicated personnel from PSPC and the client",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "form an integrated team of dedicated personnel from PSPC and the client",
+      "text": "consider assigning a single point of contact in each organization when there are multiple urgent requirements",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "consider assigning a single point of contact in each organization when there are multiple urgent requirements",
+      "text": "set up clear communication channels between all stakeholders early on",
       "order": 5,
       "metadata": {}
     },
@@ -1034,10 +1029,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "set up clear communication channels between all stakeholders early on",
+      "text": "prioritize the requirement and apply concurrent review processes where possible",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "prioritize the requirement and apply concurrent review processes where possible",
+      "text": "provide information with the industry as early as you can, using tools such as:",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "provide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A)",
+      "text": "Request for Information (RFI)",
       "order": 8,
       "metadata": {}
     },
@@ -1070,10 +1062,9 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "Request for Information (RFI)",
+      "text": "Solicitation of Interest and Qualification (SOIQ)",
       "order": 9,
       "metadata": {}
     },
@@ -1082,40 +1073,26 @@
       "block_type": "list_item",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
-      "text": "Solicitation of Interest and Qualification (SOIQ)",
+      "text": "Price and Availability Enquiry (P&A)",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
-      "heading": "Managing urgent aquisitions",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
-        "Managing urgent aquisitions"
-      ],
-      "text": "Price and Availability Enquiry (P&A)",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
       "block_type": "paragraph",
       "heading": "Managing urgent aquisitions",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Managing urgent acquisitions",
         "Managing urgent aquisitions"
       ],
       "text": "If Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Managing urgent aquisitions An urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives. To effectively manage a requirement that has been identified as an urgent acquisition: form an integrated team of dedicated personnel from PSPC and the client consider assigning a single point of contact in each organization when there are multiple urgent requirements set up clear communication channels between all stakeholders early on prioritize the requirement and apply concurrent review processes where possible provide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A) If Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.\n\nManaging urgent aquisitions\n\nAn urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.\n\nTo effectively manage a requirement that has been identified as an urgent acquisition:\n\nform an integrated team of dedicated personnel from PSPC and the client\n\nconsider assigning a single point of contact in each organization when there are multiple urgent requirements\n\nset up clear communication channels between all stakeholders early on\n\nprioritize the requirement and apply concurrent review processes where possible\n\nprovide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A)\n\nRequest for Information (RFI)\n\nSolicitation of Interest and Qualification (SOIQ)\n\nPrice and Availability Enquiry (P&A)\n\nIf Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
-  "markdown_text": "Managing urgent aquisitions An urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives. To effectively manage a requirement that has been identified as an urgent acquisition: form an integrated team of dedicated personnel from PSPC and the client consider assigning a single point of contact in each organization when there are multiple urgent requirements set up clear communication channels between all stakeholders early on prioritize the requirement and apply concurrent review processes where possible provide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A) If Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.\n\nManaging urgent aquisitions\n\nAn urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.\n\nTo effectively manage a requirement that has been identified as an urgent acquisition:\n\nform an integrated team of dedicated personnel from PSPC and the client\n\nconsider assigning a single point of contact in each organization when there are multiple urgent requirements\n\nset up clear communication channels between all stakeholders early on\n\nprioritize the requirement and apply concurrent review processes where possible\n\nprovide information with the industry as early as you can, using tools such as: Request for Information (RFI) Solicitation of Interest and Qualification (SOIQ) Price and Availability Enquiry (P&A)\n\nRequest for Information (RFI)\n\nSolicitation of Interest and Qualification (SOIQ)\n\nPrice and Availability Enquiry (P&A)\n\nIf Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
+  "raw_text": "Managing urgent aquisitions\n\nAn urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.\n\nTo effectively manage a requirement that has been identified as an urgent acquisition:\n\nform an integrated team of dedicated personnel from PSPC and the client\n\nconsider assigning a single point of contact in each organization when there are multiple urgent requirements\n\nset up clear communication channels between all stakeholders early on\n\nprioritize the requirement and apply concurrent review processes where possible\n\nprovide information with the industry as early as you can, using tools such as:\n\nRequest for Information (RFI)\n\nSolicitation of Interest and Qualification (SOIQ)\n\nPrice and Availability Enquiry (P&A)\n\nIf Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
+  "markdown_text": "Managing urgent aquisitions\n\nAn urgent requirement is one that needs immediate action. Defining a requirement as urgent depends on the priorities of the client and government. Urgency might be based on avoiding significant economic impact, protecting health and safety programs, or meeting key project deadlines. The buyer will decide, in consultation with the client and PSPC management as required, if the requirement is to be treated as an urgent acquisition. Early engagement between PSPC and the client is important to develop a procurement strategy that meets the client’s operational objectives.\n\nTo effectively manage a requirement that has been identified as an urgent acquisition:\n\nform an integrated team of dedicated personnel from PSPC and the client\n\nconsider assigning a single point of contact in each organization when there are multiple urgent requirements\n\nset up clear communication channels between all stakeholders early on\n\nprioritize the requirement and apply concurrent review processes where possible\n\nprovide information with the industry as early as you can, using tools such as:\n\nRequest for Information (RFI)\n\nSolicitation of Interest and Qualification (SOIQ)\n\nPrice and Availability Enquiry (P&A)\n\nIf Treasury Board (TB) approval is required but hasn’t been obtained by the client, consider preparing a joint submission signed by both ministers to seek advance contract approval at the same time. You should consult the Treasury Board Secretariat Program Sector analyst while drafting this submission to get advice and guidance on the content and approval process.",
   "provenance_paths": {}
 }

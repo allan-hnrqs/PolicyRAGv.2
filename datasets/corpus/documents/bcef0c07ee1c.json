@@ -7,9 +7,9 @@
   "authority_rank": 2,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:41.368706Z",
-  "content_hash": "ce27a3abe625c7c105df4b09662d5bc7aacde8c61b24ead5a75ea0a606f8fd89",
-  "word_count": 707,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d99d8ee8f2da41096d22effe0cda9f7e727cd6b8983a8a1fc8c26d160c65e89b",
+  "word_count": 190,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -530,259 +530,105 @@
     {
       "block_id": "block_0000",
       "block_type": "heading",
-      "heading": "SAP Ariba system maintenance",
+      "heading": "Your input and ideas matter",
       "heading_path": [
-        "SAP Ariba system maintenance"
+        "Your input and ideas matter"
       ],
-      "text": "SAP Ariba system maintenance",
+      "text": "Your input and ideas matter",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
       "block_type": "paragraph",
-      "heading": "SAP Ariba system maintenance",
+      "heading": "Your input and ideas matter",
       "heading_path": [
-        "SAP Ariba system maintenance"
+        "Your input and ideas matter"
       ],
-      "text": "SAP Ariba will be unavailable for scheduled maintenance at the times listed below. We apologize for any inconvenience.",
+      "text": "PSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "list_item",
-      "heading": "SAP Ariba system maintenance",
+      "block_type": "paragraph",
+      "heading": "Your input and ideas matter",
       "heading_path": [
-        "SAP Ariba system maintenance"
+        "Your input and ideas matter"
       ],
-      "text": "Saturday, March 21 from 8:00 pm until 11:59 pm (EDT)",
+      "text": "By working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
-      "heading": "Buy Canadian Policy",
+      "block_type": "paragraph",
+      "heading": "Your input and ideas matter",
       "heading_path": [
-        "SAP Ariba system maintenance",
-        "Buy Canadian Policy"
+        "Your input and ideas matter"
       ],
-      "text": "Buy Canadian Policy",
+      "text": "Please visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Buy Canadian Policy",
+      "block_type": "heading",
+      "heading": "Questions and answers for suppliers",
       "heading_path": [
-        "SAP Ariba system maintenance",
-        "Buy Canadian Policy"
+        "Questions and answers for suppliers"
       ],
-      "text": "The Government of Canada has introduced new policies to protect, build, and transform Canadian industries. Check out Buy Canadian Policy for more information on what this could mean for you.",
+      "text": "Questions and answers for suppliers",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
-      "heading": "Buy Canadian Policy",
+      "block_type": "paragraph",
+      "heading": "Questions and answers for suppliers",
       "heading_path": [
-        "Buy Canadian Policy"
+        "Questions and answers for suppliers"
       ],
-      "text": "Buy Canadian Policy",
+      "text": "Discover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Buy Canadian Policy",
+      "block_type": "heading",
+      "heading": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
       "heading_path": [
-        "Buy Canadian Policy"
+        "Buy Canadian: Accessing Federal Procurement Opportunities Sessions"
       ],
-      "text": "On September 5, 2025, the Government of Canada announced new measures to protect, build, and transform Canadian strategic industries. Central to this plan is the introduction of a new Buy Canadian Policy suite, designed to help make Canada’s economy stronger, more resilient to global shocks, and better able to support Canadian workers and businesses.",
+      "text": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
       "block_type": "paragraph",
-      "heading": "Buy Canadian Policy",
+      "heading": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
       "heading_path": [
-        "Buy Canadian Policy"
+        "Buy Canadian: Accessing Federal Procurement Opportunities Sessions"
       ],
-      "text": "The Government of Canada is strengthening opportunities for Canadian businesses in federal procurement through the following measures:",
+      "text": "Over the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Buy Canadian Policy",
-      "heading_path": [
-        "Buy Canadian Policy"
-      ],
-      "text": "Buy Canadian Procurement Policy Framework . The Framework sets the foundation for implementing Canadian preference measures across federal procurement. Its purpose is to strengthen Canada’s economic resilience by prioritizing Canadian materials, suppliers, and content in government purchasing, while supporting reciprocal procurement with trusted trade partners and improving access for Canadian small and medium businesses (SMBs).",
-      "order": 8,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0009",
-      "block_type": "list_item",
-      "heading": "Buy Canadian Policy",
-      "heading_path": [
-        "Buy Canadian Policy"
-      ],
-      "text": "Policy on Prioritizing Canadian Materials in Federal Procurements . The Government of Canada is taking new steps to ensure federal procurement spending supports Canadian jobs and industries. This policy requires the use of Canadian-produced materials in major federal construction and defence projects. It begins with three pillars of Canada’s industrial base: steel, aluminum, and wood products, and applies defined thresholds for each material. The policy also provides flexibility to expand to other key materials, as needed, to strengthen domestic supply chains and support Canadian industry.",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
-      "block_type": "list_item",
-      "heading": "Buy Canadian Policy",
-      "heading_path": [
-        "Buy Canadian Policy"
-      ],
-      "text": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements . The Government of Canada is taking action to ensure federal procurement spending delivers for Canadians. New measures under this policy encourage the participation of Canadian suppliers, and incentivize the use of Canadian Content in Strategic Federal Procurements so that every dollar spent by the federal government supports Canadian workers, businesses, and communities. This approach will strengthen our supply chains, create good jobs across the country, diversify our economy, and ensure that federal investments benefit Canadian industries and workers even when foreign suppliers are involved.",
-      "order": 10,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0011",
-      "block_type": "list_item",
-      "heading": "Buy Canadian Policy",
-      "heading_path": [
-        "Buy Canadian Policy"
-      ],
-      "text": "Interim Policy on Reciprocal Procurement . The Government of Canada is putting fairness and reciprocity at the heart of federal contracting. Under this policy, Canadian suppliers and those from countries that provide Canada with equivalent procurement market access through trade agreements are prioritized for federal contracts. By Spring 2026, this policy will be fully implemented, ensuring that non-defence contracts are only awarded to Canadian suppliers, goods, and services, or to those from trusted partners with reciprocal procurement market access. This approach protects and supports Canadian workers and businesses, strengthens supply chains, and ensures that federal procurement spending truly benefits Canada’s economy.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "list_item",
-      "heading": "Buy Canadian Policy",
-      "heading_path": [
-        "Buy Canadian Policy"
-      ],
-      "text": "Supporting Small and Medium Businesses . A new Small and Medium Business Procurement Program will create tailored streams for SMBs , provide dedicated support to help them navigate the federal system, and ensure they can compete effectively for federal contracts.",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "heading",
-      "heading": "Your input and ideas matter",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Your input and ideas matter"
-      ],
-      "text": "Your input and ideas matter",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Your input and ideas matter",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Your input and ideas matter"
-      ],
-      "text": "PSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Your input and ideas matter",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Your input and ideas matter"
-      ],
-      "text": "By working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.",
-      "order": 15,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Your input and ideas matter",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Your input and ideas matter"
-      ],
-      "text": "Please visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.",
-      "order": 16,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0017",
-      "block_type": "heading",
-      "heading": "Questions and answers for suppliers",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Questions and answers for suppliers"
-      ],
-      "text": "Questions and answers for suppliers",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "Questions and answers for suppliers",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Questions and answers for suppliers"
-      ],
-      "text": "Discover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.",
-      "order": 18,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0019",
-      "block_type": "heading",
-      "heading": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
-      "heading_path": [
-        "Buy Canadian Policy",
-        "Buy Canadian: Accessing Federal Procurement Opportunities Sessions"
-      ],
-      "text": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
-      "order": 19,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0020",
       "block_type": "paragraph",
       "heading": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
       "heading_path": [
-        "Buy Canadian Policy",
-        "Buy Canadian: Accessing Federal Procurement Opportunities Sessions"
-      ],
-      "text": "Over the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .",
-      "order": 20,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Buy Canadian: Accessing Federal Procurement Opportunities Sessions",
-      "heading_path": [
-        "Buy Canadian Policy",
         "Buy Canadian: Accessing Federal Procurement Opportunities Sessions"
       ],
       "text": "PSPC looks forward to working with you to make the Buy Canadian Policy a success - for Canadian businesses, Canadian workers, and the Canadian economy.",
-      "order": 21,
+      "order": 8,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "SAP Ariba system maintenance\n\nSAP Ariba will be unavailable for scheduled maintenance at the times listed below. We apologize for any inconvenience.\n\nSaturday, March 21 from 8:00 pm until 11:59 pm (EDT)\n\nBuy Canadian Policy\n\nThe Government of Canada has introduced new policies to protect, build, and transform Canadian industries. Check out Buy Canadian Policy for more information on what this could mean for you.\n\nBuy Canadian Policy\n\nOn September 5, 2025, the Government of Canada announced new measures to protect, build, and transform Canadian strategic industries. Central to this plan is the introduction of a new Buy Canadian Policy suite, designed to help make Canada’s economy stronger, more resilient to global shocks, and better able to support Canadian workers and businesses.\n\nThe Government of Canada is strengthening opportunities for Canadian businesses in federal procurement through the following measures:\n\nBuy Canadian Procurement Policy Framework . The Framework sets the foundation for implementing Canadian preference measures across federal procurement. Its purpose is to strengthen Canada’s economic resilience by prioritizing Canadian materials, suppliers, and content in government purchasing, while supporting reciprocal procurement with trusted trade partners and improving access for Canadian small and medium businesses (SMBs).\n\nPolicy on Prioritizing Canadian Materials in Federal Procurements . The Government of Canada is taking new steps to ensure federal procurement spending supports Canadian jobs and industries. This policy requires the use of Canadian-produced materials in major federal construction and defence projects. It begins with three pillars of Canada’s industrial base: steel, aluminum, and wood products, and applies defined thresholds for each material. The policy also provides flexibility to expand to other key materials, as needed, to strengthen domestic supply chains and support Canadian industry.\n\nPolicy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements . The Government of Canada is taking action to ensure federal procurement spending delivers for Canadians. New measures under this policy encourage the participation of Canadian suppliers, and incentivize the use of Canadian Content in Strategic Federal Procurements so that every dollar spent by the federal government supports Canadian workers, businesses, and communities. This approach will strengthen our supply chains, create good jobs across the country, diversify our economy, and ensure that federal investments benefit Canadian industries and workers even when foreign suppliers are involved.\n\nInterim Policy on Reciprocal Procurement . The Government of Canada is putting fairness and reciprocity at the heart of federal contracting. Under this policy, Canadian suppliers and those from countries that provide Canada with equivalent procurement market access through trade agreements are prioritized for federal contracts. By Spring 2026, this policy will be fully implemented, ensuring that non-defence contracts are only awarded to Canadian suppliers, goods, and services, or to those from trusted partners with reciprocal procurement market access. This approach protects and supports Canadian workers and businesses, strengthens supply chains, and ensures that federal procurement spending truly benefits Canada’s economy.\n\nSupporting Small and Medium Businesses . A new Small and Medium Business Procurement Program will create tailored streams for SMBs , provide dedicated support to help them navigate the federal system, and ensure they can compete effectively for federal contracts.\n\nYour input and ideas matter\n\nPSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.\n\nBy working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.\n\nPlease visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.\n\nQuestions and answers for suppliers\n\nDiscover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.\n\nBuy Canadian: Accessing Federal Procurement Opportunities Sessions\n\nOver the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .\n\nPSPC looks forward to working with you to make the Buy Canadian Policy a success - for Canadian businesses, Canadian workers, and the Canadian economy.",
-  "markdown_text": "SAP Ariba system maintenance\n\nSAP Ariba will be unavailable for scheduled maintenance at the times listed below. We apologize for any inconvenience.\n\nSaturday, March 21 from 8:00 pm until 11:59 pm (EDT)\n\nBuy Canadian Policy\n\nThe Government of Canada has introduced new policies to protect, build, and transform Canadian industries. Check out Buy Canadian Policy for more information on what this could mean for you.\n\nBuy Canadian Policy\n\nOn September 5, 2025, the Government of Canada announced new measures to protect, build, and transform Canadian strategic industries. Central to this plan is the introduction of a new Buy Canadian Policy suite, designed to help make Canada’s economy stronger, more resilient to global shocks, and better able to support Canadian workers and businesses.\n\nThe Government of Canada is strengthening opportunities for Canadian businesses in federal procurement through the following measures:\n\nBuy Canadian Procurement Policy Framework . The Framework sets the foundation for implementing Canadian preference measures across federal procurement. Its purpose is to strengthen Canada’s economic resilience by prioritizing Canadian materials, suppliers, and content in government purchasing, while supporting reciprocal procurement with trusted trade partners and improving access for Canadian small and medium businesses (SMBs).\n\nPolicy on Prioritizing Canadian Materials in Federal Procurements . The Government of Canada is taking new steps to ensure federal procurement spending supports Canadian jobs and industries. This policy requires the use of Canadian-produced materials in major federal construction and defence projects. It begins with three pillars of Canada’s industrial base: steel, aluminum, and wood products, and applies defined thresholds for each material. The policy also provides flexibility to expand to other key materials, as needed, to strengthen domestic supply chains and support Canadian industry.\n\nPolicy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements . The Government of Canada is taking action to ensure federal procurement spending delivers for Canadians. New measures under this policy encourage the participation of Canadian suppliers, and incentivize the use of Canadian Content in Strategic Federal Procurements so that every dollar spent by the federal government supports Canadian workers, businesses, and communities. This approach will strengthen our supply chains, create good jobs across the country, diversify our economy, and ensure that federal investments benefit Canadian industries and workers even when foreign suppliers are involved.\n\nInterim Policy on Reciprocal Procurement . The Government of Canada is putting fairness and reciprocity at the heart of federal contracting. Under this policy, Canadian suppliers and those from countries that provide Canada with equivalent procurement market access through trade agreements are prioritized for federal contracts. By Spring 2026, this policy will be fully implemented, ensuring that non-defence contracts are only awarded to Canadian suppliers, goods, and services, or to those from trusted partners with reciprocal procurement market access. This approach protects and supports Canadian workers and businesses, strengthens supply chains, and ensures that federal procurement spending truly benefits Canada’s economy.\n\nSupporting Small and Medium Businesses . A new Small and Medium Business Procurement Program will create tailored streams for SMBs , provide dedicated support to help them navigate the federal system, and ensure they can compete effectively for federal contracts.\n\nYour input and ideas matter\n\nPSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.\n\nBy working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.\n\nPlease visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.\n\nQuestions and answers for suppliers\n\nDiscover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.\n\nBuy Canadian: Accessing Federal Procurement Opportunities Sessions\n\nOver the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .\n\nPSPC looks forward to working with you to make the Buy Canadian Policy a success - for Canadian businesses, Canadian workers, and the Canadian economy.",
+  "raw_text": "Your input and ideas matter\n\nPSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.\n\nBy working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.\n\nPlease visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.\n\nQuestions and answers for suppliers\n\nDiscover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.\n\nBuy Canadian: Accessing Federal Procurement Opportunities Sessions\n\nOver the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .\n\nPSPC looks forward to working with you to make the Buy Canadian Policy a success - for Canadian businesses, Canadian workers, and the Canadian economy.",
+  "markdown_text": "Your input and ideas matter\n\nPSPC is seeking your feedback on how to optimize these initiatives to achieve their full potential, from supporting small and medium-sized enterprises, to strengthening Canadian content requirements, to prioritizing Canadian materials in federal procurement and guide the continued development of measures that support Canadian industries and workers.\n\nBy working together, we can ensure that federal procurement delivers lasting economic benefits and strengthens communities across Canada.\n\nPlease visit the “We want to hear from you” section of PSPC 's Buy Canadian webpage to provide your feedback.\n\nQuestions and answers for suppliers\n\nDiscover more about the implementation and ongoing rollout of Buy Canadian. Look through our frequently asked questions for suppliers.\n\nBuy Canadian: Accessing Federal Procurement Opportunities Sessions\n\nOver the coming months, sessions will be available to give Canadian businesses practical tools, insights, and strategies needed to take advantage of the new measures and grow opportunities as prime contractors, subcontractors, or supply-chain partners. For more details on these sessions, click here .\n\nPSPC looks forward to working with you to make the Buy Canadian Policy a success - for Canadian businesses, Canadian workers, and the Canadian economy.",
   "provenance_paths": {}
 }

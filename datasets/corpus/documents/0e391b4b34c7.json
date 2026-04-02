@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:57.020547Z",
-  "content_hash": "131a1001429fa25d774fc533519c00b2e1fbdd378da2f1f4e4bcda3a8c541729",
-  "word_count": 442,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "47eb08613c9c67089ef4f74dc0dcf6e3dfc9ae7baf9dd927a8c12ff0811cab86",
+  "word_count": 221,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,24 +511,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
+      "block_type": "heading",
+      "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation"
+        "Modifying the solicitation"
       ],
-      "text": "Modifying the solicitation Any significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents. Buyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document. When a solicitation is cancelled and reissued, a new NPP must be posted on GETS . Significant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately. You have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
+      "text": "Modifying the solicitation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
         "Modifying the solicitation"
       ],
-      "text": "Modifying the solicitation",
+      "text": "Any significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.",
       "order": 1,
       "metadata": {}
     },
@@ -537,10 +536,9 @@
       "block_type": "paragraph",
       "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
         "Modifying the solicitation"
       ],
-      "text": "Any significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.",
+      "text": "Buyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.",
       "order": 2,
       "metadata": {}
     },
@@ -549,10 +547,9 @@
       "block_type": "paragraph",
       "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
         "Modifying the solicitation"
       ],
-      "text": "Buyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.",
+      "text": "When a solicitation is cancelled and reissued, a new NPP must be posted on GETS .",
       "order": 3,
       "metadata": {}
     },
@@ -561,10 +558,9 @@
       "block_type": "paragraph",
       "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
         "Modifying the solicitation"
       ],
-      "text": "When a solicitation is cancelled and reissued, a new NPP must be posted on GETS .",
+      "text": "Significant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.",
       "order": 4,
       "metadata": {}
     },
@@ -573,28 +569,15 @@
       "block_type": "paragraph",
       "heading": "Modifying the solicitation",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
-        "Modifying the solicitation"
-      ],
-      "text": "Significant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.",
-      "order": 5,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0006",
-      "block_type": "paragraph",
-      "heading": "Modifying the solicitation",
-      "heading_path": [
-        "Buyer's Guide Manage the solicitation period - Modifying the solicitation",
         "Modifying the solicitation"
       ],
       "text": "You have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
-      "order": 6,
+      "order": 5,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Modifying the solicitation Any significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents. Buyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document. When a solicitation is cancelled and reissued, a new NPP must be posted on GETS . Significant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately. You have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .\n\nModifying the solicitation\n\nAny significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.\n\nBuyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.\n\nWhen a solicitation is cancelled and reissued, a new NPP must be posted on GETS .\n\nSignificant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.\n\nYou have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
-  "markdown_text": "Modifying the solicitation Any significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents. Buyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document. When a solicitation is cancelled and reissued, a new NPP must be posted on GETS . Significant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately. You have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .\n\nModifying the solicitation\n\nAny significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.\n\nBuyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.\n\nWhen a solicitation is cancelled and reissued, a new NPP must be posted on GETS .\n\nSignificant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.\n\nYou have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
+  "raw_text": "Modifying the solicitation\n\nAny significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.\n\nBuyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.\n\nWhen a solicitation is cancelled and reissued, a new NPP must be posted on GETS .\n\nSignificant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.\n\nYou have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
+  "markdown_text": "Modifying the solicitation\n\nAny significant change in the information provided in the Notice of Proposed Procurement (NPP) or solicitation documents before the solicitation closing date, requires an amendment to the NPP and/or solicitation document. All amendments must be given the same circulation as the original NPP and/or solicitation documents.\n\nBuyers must ensure that the amendments to the NPP and/or solicitation documents are complete. The business may then view the actual solicitation amendment document on the Government Electronic Tendering Service (GETS) and/or download it electronically. The update will then form part of the solicitation document.\n\nWhen a solicitation is cancelled and reissued, a new NPP must be posted on GETS .\n\nSignificant information about a proposed procurement shared with one business must also be shared with all interested businesses in a timely manner. When posting amendments, you should allow enough time for businesses to review and respond to the new information. If the time left is insufficient, you may extend the solicitation period or cancel and reissue the solicitation to ensure all potential offerors can respond appropriately.\n\nYou have the authority to extend the solicitation period based on the procurement's specific circumstances. You must inform the Offer Receiving Unit (ORU) of any changes to solicitation closing dates or times and must ensure that such notification has been received by the ORU .",
   "provenance_paths": {}
 }

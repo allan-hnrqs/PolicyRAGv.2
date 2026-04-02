@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:51.615710Z",
-  "content_hash": "90e9623c1709a7c0f1e60b0d9c6c085c8edaf5db885b56c039ba7219a29a7890",
-  "word_count": 320,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "22d3c1f36f4d2872f213d3985552cbb42b0becd47c9b6697183ad1b060cb3c02",
+  "word_count": 142,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,36 +511,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
+      "block_type": "heading",
+      "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue"
+        "When to cancel or reissue a solicitation"
       ],
-      "text": "When to cancel or reissue a solicitation You may cancel and reissue a solicitation if: a contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired one of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation You must cancel a competitive solicitation if no compliant offers are received. A reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client. Anytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
+      "text": "When to cancel or reissue a solicitation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "When to cancel or reissue a solicitation",
+      "text": "You may cancel and reissue a solicitation if:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "You may cancel and reissue a solicitation if:",
+      "text": "a contract, standing offer, or supply arrangement hasn’t been issued and:",
       "order": 2,
       "metadata": {}
     },
@@ -549,10 +547,9 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "a contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired",
+      "text": "a significant change has occurred in the requirement, or",
       "order": 3,
       "metadata": {}
     },
@@ -561,10 +558,9 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "a significant change has occurred in the requirement, or",
+      "text": "the acceptance period for the offer has expired",
       "order": 4,
       "metadata": {}
     },
@@ -573,10 +569,9 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "the acceptance period for the offer has expired",
+      "text": "one of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued:",
       "order": 5,
       "metadata": {}
     },
@@ -585,10 +580,9 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "one of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation",
+      "text": "no offers are compliant",
       "order": 6,
       "metadata": {}
     },
@@ -597,10 +591,9 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "no offers are compliant",
+      "text": "no offers represent fair value",
       "order": 7,
       "metadata": {}
     },
@@ -609,22 +602,20 @@
       "block_type": "list_item",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "no offers represent fair value",
+      "text": "no offers were received in response to a competitive solicitation",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "no offers were received in response to a competitive solicitation",
+      "text": "You must cancel a competitive solicitation if no compliant offers are received.",
       "order": 9,
       "metadata": {}
     },
@@ -633,10 +624,9 @@
       "block_type": "paragraph",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
-      "text": "You must cancel a competitive solicitation if no compliant offers are received.",
+      "text": "A reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.",
       "order": 10,
       "metadata": {}
     },
@@ -645,28 +635,15 @@
       "block_type": "paragraph",
       "heading": "When to cancel or reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
-        "When to cancel or reissue a solicitation"
-      ],
-      "text": "A reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "When to cancel or reissue a solicitation",
-      "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - When to cancel or reissue",
         "When to cancel or reissue a solicitation"
       ],
       "text": "Anytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "When to cancel or reissue a solicitation You may cancel and reissue a solicitation if: a contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired one of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation You must cancel a competitive solicitation if no compliant offers are received. A reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client. Anytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.\n\nWhen to cancel or reissue a solicitation\n\nYou may cancel and reissue a solicitation if:\n\na contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired\n\na significant change has occurred in the requirement, or\n\nthe acceptance period for the offer has expired\n\none of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation\n\nno offers are compliant\n\nno offers represent fair value\n\nno offers were received in response to a competitive solicitation\n\nYou must cancel a competitive solicitation if no compliant offers are received.\n\nA reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.\n\nAnytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
-  "markdown_text": "When to cancel or reissue a solicitation You may cancel and reissue a solicitation if: a contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired one of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation You must cancel a competitive solicitation if no compliant offers are received. A reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client. Anytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.\n\nWhen to cancel or reissue a solicitation\n\nYou may cancel and reissue a solicitation if:\n\na contract, standing offer, or supply arrangement hasn’t been issued and: a significant change has occurred in the requirement, or the acceptance period for the offer has expired\n\na significant change has occurred in the requirement, or\n\nthe acceptance period for the offer has expired\n\none of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued: no offers are compliant no offers represent fair value no offers were received in response to a competitive solicitation\n\nno offers are compliant\n\nno offers represent fair value\n\nno offers were received in response to a competitive solicitation\n\nYou must cancel a competitive solicitation if no compliant offers are received.\n\nA reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.\n\nAnytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
+  "raw_text": "When to cancel or reissue a solicitation\n\nYou may cancel and reissue a solicitation if:\n\na contract, standing offer, or supply arrangement hasn’t been issued and:\n\na significant change has occurred in the requirement, or\n\nthe acceptance period for the offer has expired\n\none of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued:\n\nno offers are compliant\n\nno offers represent fair value\n\nno offers were received in response to a competitive solicitation\n\nYou must cancel a competitive solicitation if no compliant offers are received.\n\nA reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.\n\nAnytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
+  "markdown_text": "When to cancel or reissue a solicitation\n\nYou may cancel and reissue a solicitation if:\n\na contract, standing offer, or supply arrangement hasn’t been issued and:\n\na significant change has occurred in the requirement, or\n\nthe acceptance period for the offer has expired\n\none of the following applies, in which case the trade agreements allow the limited tendering procedure to be applied if the solicitation is reissued:\n\nno offers are compliant\n\nno offers represent fair value\n\nno offers were received in response to a competitive solicitation\n\nYou must cancel a competitive solicitation if no compliant offers are received.\n\nA reminder that you are responsible for internal distribution of solicitations and updates within Public Services and Procurement Canada (PSPC) and to the client.\n\nAnytime a solicitation is cancelled or reissued, you must document the procurement file accordingly, including the rationale for the decision.",
   "provenance_paths": {}
 }

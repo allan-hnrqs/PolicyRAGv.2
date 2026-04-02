@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:05.080728Z",
-  "content_hash": "3ec24512a529177aa9c6198e81f18a7e5c6bc67ea318dfa3684d53f73d839b40",
-  "word_count": 688,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "d3a1c9868d530ae53e79bd68f1889ed2b6c47d1280b335681c3bfef498845fbb",
+  "word_count": 344,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Firm price",
+      "block_type": "heading",
+      "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price"
+        "Firm price"
       ],
-      "text": "Firm price Fixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered: firm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments the discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes contractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium Firm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor. This basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies: the contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications the statement of work could have a cost applied to it in terms of quantities of material and labour time required the cost of materials, labour and overhead can be accurately forecasted If a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification. Subsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached. For further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
+      "text": "Firm price",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "Firm price",
+      "text": "Fixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "Fixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:",
+      "text": "firm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "firm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments",
+      "text": "the discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes",
       "order": 3,
       "metadata": {}
     },
@@ -1010,22 +1007,20 @@
       "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "the discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes",
+      "text": "contractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "contractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium",
+      "text": "Firm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.",
       "order": 5,
       "metadata": {}
     },
@@ -1034,22 +1029,20 @@
       "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "Firm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.",
+      "text": "This basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "This basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:",
+      "text": "the contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "the contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications",
+      "text": "the statement of work could have a cost applied to it in terms of quantities of material and labour time required",
       "order": 8,
       "metadata": {}
     },
@@ -1070,22 +1062,20 @@
       "block_type": "list_item",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "the statement of work could have a cost applied to it in terms of quantities of material and labour time required",
+      "text": "the cost of materials, labour and overhead can be accurately forecasted",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "the cost of materials, labour and overhead can be accurately forecasted",
+      "text": "If a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.",
       "order": 10,
       "metadata": {}
     },
@@ -1094,10 +1084,9 @@
       "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
-      "text": "If a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.",
+      "text": "Subsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.",
       "order": 11,
       "metadata": {}
     },
@@ -1106,28 +1095,15 @@
       "block_type": "paragraph",
       "heading": "Firm price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
-        "Firm price"
-      ],
-      "text": "Subsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Firm price",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Firm price",
         "Firm price"
       ],
       "text": "For further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
-      "order": 13,
+      "order": 12,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Firm price Fixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered: firm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments the discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes contractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium Firm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor. This basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies: the contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications the statement of work could have a cost applied to it in terms of quantities of material and labour time required the cost of materials, labour and overhead can be accurately forecasted If a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification. Subsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached. For further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .\n\nFirm price\n\nFixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:\n\nfirm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments\n\nthe discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes\n\ncontractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium\n\nFirm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.\n\nThis basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:\n\nthe contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications\n\nthe statement of work could have a cost applied to it in terms of quantities of material and labour time required\n\nthe cost of materials, labour and overhead can be accurately forecasted\n\nIf a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.\n\nSubsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.\n\nFor further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
-  "markdown_text": "Firm price Fixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered: firm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments the discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes contractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium Firm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor. This basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies: the contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications the statement of work could have a cost applied to it in terms of quantities of material and labour time required the cost of materials, labour and overhead can be accurately forecasted If a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification. Subsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached. For further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .\n\nFirm price\n\nFixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:\n\nfirm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments\n\nthe discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes\n\ncontractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium\n\nFirm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.\n\nThis basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:\n\nthe contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications\n\nthe statement of work could have a cost applied to it in terms of quantities of material and labour time required\n\nthe cost of materials, labour and overhead can be accurately forecasted\n\nIf a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.\n\nSubsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.\n\nFor further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
+  "raw_text": "Firm price\n\nFixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:\n\nfirm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments\n\nthe discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes\n\ncontractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium\n\nFirm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.\n\nThis basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:\n\nthe contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications\n\nthe statement of work could have a cost applied to it in terms of quantities of material and labour time required\n\nthe cost of materials, labour and overhead can be accurately forecasted\n\nIf a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.\n\nSubsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.\n\nFor further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
+  "markdown_text": "Firm price\n\nFixed price should be used over firm price basis of payment when there is not additional need to audit the contract price or modify requirements after award. The following should be considered:\n\nfirm price removes all incentive for the contractor to improve processes and to gain efficiencies because Canada has the right to audit and recover overpayments\n\nthe discretionary audit clause may not be applied consistently and when applied, the audit and resulting recovery appear punitive, potentially leading to disputes\n\ncontractors are awarded a premium for firm price at the beginning of a contract, and then if the requirements change, the nature of the contract resembles that of a cost reimbursable contract, with Canada bearing the risk of cost uncertainty and the contractor earning a higher than necessary profit premium\n\nFirm price provide a price that is not subject to adjustment for performance of the contract. It gives maximum profit incentive to the contractor for cost control in that the contractor assumes full responsibility for all costs under or above the firm price. Furthermore, it places minimal administrative demands on both the buyer and the contractor.\n\nThis basis of payment is used to buy commercially available goods or services that are easily quantifiable when all the following applies:\n\nthe contractor has experience in manufacturing or providing the specific goods or services, which allows for a realistic statement of work based on firm specifications\n\nthe statement of work could have a cost applied to it in terms of quantities of material and labour time required\n\nthe cost of materials, labour and overhead can be accurately forecasted\n\nIf a firm price basis of payment is used, a discretionary audit clause must be included in the contract, subsequent to the receipt of a price certification.\n\nSubsequent to the negotiation of a firm price basis of payment for a non-competitive requirement, the contractor must resubmit the price bid based on the agreement reached.\n\nFor further guidance, consult Annex 6.1 of the Practitioner’s Guide for Procurement Pricing , or contact the group responsible for price support .",
   "provenance_paths": {}
 }

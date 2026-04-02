@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:51.560655Z",
-  "content_hash": "ffad1334a2b32bf8fcc446168b411096841d2307ce1dcc39362df231ef1f1c7f",
-  "word_count": 216,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "34712fed9daac4742f6359e3346bc25b912453e89879110cfd80742c64c670a6",
+  "word_count": 108,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -473,24 +473,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract negotiation - How to negotiate",
+      "block_type": "heading",
+      "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate"
+        "How to negotiate"
       ],
-      "text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+      "text": "How to negotiate",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
-      "text": "How to negotiate",
+      "text": "It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.",
       "order": 1,
       "metadata": {}
     },
@@ -499,22 +498,20 @@
       "block_type": "paragraph",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
-      "text": "It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.",
+      "text": "During negotiations:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
-      "text": "During negotiations:",
+      "text": "all offerors must be treated fairly and impartially",
       "order": 3,
       "metadata": {}
     },
@@ -523,22 +520,20 @@
       "block_type": "list_item",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
-      "text": "all offerors must be treated fairly and impartially",
+      "text": "confidentiality of each offeror's negotiating position must be assured",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
-      "text": "confidentiality of each offeror's negotiating position must be assured",
+      "text": "Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.",
       "order": 5,
       "metadata": {}
     },
@@ -547,28 +542,15 @@
       "block_type": "paragraph",
       "heading": "How to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
-        "How to negotiate"
-      ],
-      "text": "Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.",
-      "order": 6,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "How to negotiate",
-      "heading_path": [
-        "Buyer's Guide Contract negotiation - How to negotiate",
         "How to negotiate"
       ],
       "text": "Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
-      "order": 7,
+      "order": 6,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.\n\nHow to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
-  "markdown_text": "How to negotiate It is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client. During negotiations: all offerors must be treated fairly and impartially confidentiality of each offeror's negotiating position must be assured Note: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions. Upon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.\n\nHow to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+  "raw_text": "How to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
+  "markdown_text": "How to negotiate\n\nIt is your responsibility to conduct all negotiations. If the negotiations are of a technical nature, you will work with the client.\n\nDuring negotiations:\n\nall offerors must be treated fairly and impartially\n\nconfidentiality of each offeror's negotiating position must be assured\n\nNote: Negotiations should not become an auction where offerors continuously enhance their offers based on insights into their competitors' positions.\n\nUpon conclusion, you must include a negotiation report in the procurement file. At a minimum, the report must describe the following elements: date and participants; a summary of the discussions; any changes to the offer; the agreements that were reached; and the final decision.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:24.746207Z",
-  "content_hash": "2818cf06fc560f31ca95b2ef45b4e2c04c84a07a5aec4ca9c14cdda40616c226",
-  "word_count": 4053,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "3b41ad7f13e9a2fa2e1e78874bdd6ebca791aec867dd1b755e189ae516b6cf19",
+  "word_count": 1758,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,75 +960,71 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Socioeconomic considerations - Green procurement",
+      "block_type": "heading",
+      "heading": "Green procurement",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement"
+        "Green procurement"
       ],
-      "text": "Green procurement The greening aspects that you must take into consideration throughout the procurement process are described as follows. Life cycle costing Life cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability. Standard language for environmentally preferable packaging In order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement. For the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement. Option 1: Mandatory requirements language This is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Option 2: Optional requirements language Use Option 2 for requirements where: the delivered products require specialized packaging products are to be delivered in an area with limited recycling options adding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. * Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise. Green procurement evaluation indicators Environmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include: Environmental certification, as follows: certification through an independent program like the Environmental Choice Program or Energy Star studies on the environmental attributes of the good or service presence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body Energy and resource efficiency, as follows: use of used, remanufactured, rebuilt or refurbished goods and/or materials efficient resource and energy use throughout the product lifecycle waste reduction capabilities features that save energy, water or fuel, such as Power Down Mode measures to extend the product's life, such as reuse, refill, recharge or recondition Recycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used. Hazardous replacement, as follows: availability of non-hazardous alternatives or replacements requirement for Safety Data Sheets Performance testing, as follows: feasibility of pre-purchase testing compliance with performance specifications availability of documented past performance, such as environmental performance reports Packaging, as follows: inclusion of language for environmentally preferable packaging in the solicitation minimal packaging to ensure safe delivery options for bulk or concentrated form purchase offeror removal of packaging post-installation use of reusable, recyclable packaging materials returnable to the contractor, or recyclable at delivery location(s) reduction or elimination of single-use plastics On-site waste management, as follows: source separation and recycling of waste on-site use of environmentally certified haulers and sites design of goods or services to minimize waste, such as using biodegradable or reusable dishes Return for disassembly and recycling, as follows: manufacturer policies for product return for recycling local recycling capabilities for the product acceptance of consumables like toner cartridges for recycling ease of disassembly Warranties, as follows: expected lifespan of the product warranty duration and the advisability of purchasing extended warranties Maintenance, as follows: design conducive to easy maintenance and repair availability of reasonably priced maintenance and replacement parts ease and cost-effectiveness of upgrades Environmental attributes of the offeror, as follows: environmental certifications or registrations, such as ISO 14001 history of regulatory environmental compliance. participation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge Disclosure of greenhouse gas emissions and the setting of reduction targets You must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation: “This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.” You should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input. There are five ways to apply the standard, depending on how ready the market is: Mandatory or point-rated criteria Certification before contract award Conditionally limited solicitation Contract clause requiring future compliance Deliverable in the statement of work For procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed. Amend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard. You can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file. Offerors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
+      "text": "Green procurement",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Green procurement",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement"
       ],
-      "text": "Green procurement",
+      "text": "The greening aspects that you must take into consideration throughout the procurement process are described as follows.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Green procurement",
+      "block_type": "heading",
+      "heading": "Life cycle costing",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement"
+        "Green procurement",
+        "Life cycle costing"
       ],
-      "text": "The greening aspects that you must take into consideration throughout the procurement process are described as follows.",
+      "text": "Life cycle costing",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Life cycle costing",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Life cycle costing"
       ],
-      "text": "Life cycle costing",
+      "text": "Life cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Life cycle costing",
+      "block_type": "heading",
+      "heading": "Standard language for environmentally preferable packaging",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Life cycle costing"
+        "Standard language for environmentally preferable packaging"
       ],
-      "text": "Life cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.",
+      "text": "Standard language for environmentally preferable packaging",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Standard language for environmentally preferable packaging",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging"
       ],
-      "text": "Standard language for environmentally preferable packaging",
+      "text": "In order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.",
       "order": 5,
       "metadata": {}
     },
@@ -1037,234 +1033,218 @@
       "block_type": "paragraph",
       "heading": "Standard language for environmentally preferable packaging",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging"
       ],
-      "text": "In order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.",
+      "text": "For the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Standard language for environmentally preferable packaging",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Standard language for environmentally preferable packaging"
-      ],
-      "text": "For the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
       "block_type": "heading",
       "heading": "Option 1: Mandatory requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 1: Mandatory requirements language"
       ],
       "text": "Option 1: Mandatory requirements language",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     },
     {
-      "block_id": "block_0009",
+      "block_id": "block_0008",
       "block_type": "paragraph",
       "heading": "Option 1: Mandatory requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 1: Mandatory requirements language"
       ],
       "text": "This is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).",
+      "order": 8,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0009",
+      "block_type": "table_row",
+      "heading": "Option 1: Mandatory requirements language",
+      "heading_path": [
+        "Green procurement",
+        "Standard language for environmentally preferable packaging",
+        "Option 1: Mandatory requirements language"
+      ],
+      "text": "Table example with colour | Columns: Procurement document | Language to integrate into procurement documents",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Option 1: Mandatory requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 1: Mandatory requirements language"
       ],
-      "text": "Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
+      "text": "Procurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Option 1: Mandatory requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 1: Mandatory requirements language"
       ],
-      "text": "Green Procurement - Environmentally Preferable Packaging",
+      "text": "Procurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
+      "block_type": "table_row",
       "heading": "Option 1: Mandatory requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 1: Mandatory requirements language"
       ],
-      "text": "Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.",
+      "text": "Procurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Option 1: Mandatory requirements language",
+      "block_type": "heading",
+      "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
-        "Option 1: Mandatory requirements language"
+        "Option 2: Optional requirements language"
       ],
-      "text": "Part 1 of RFx - Section 1.2 Statement of Work or Requirement",
+      "text": "Option 2: Optional requirements language",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
       "block_type": "paragraph",
-      "heading": "Option 1: Mandatory requirements language",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 1: Mandatory requirements language"
-      ],
-      "text": "The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
-      "block_type": "paragraph",
-      "heading": "Option 1: Mandatory requirements language",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 1: Mandatory requirements language"
-      ],
-      "text": "In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
-      "order": 15,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0016",
-      "block_type": "heading",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
-      ],
-      "text": "Option 2: Optional requirements language",
-      "order": 16,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0017",
-      "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
       "text": "Use Option 2 for requirements where:",
-      "order": 17,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0018",
+      "block_id": "block_0015",
       "block_type": "list_item",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
       "text": "the delivered products require specialized packaging",
-      "order": 18,
+      "order": 15,
       "metadata": {}
     },
     {
-      "block_id": "block_0019",
+      "block_id": "block_0016",
       "block_type": "list_item",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
       "text": "products are to be delivered in an area with limited recycling options",
-      "order": 19,
+      "order": 16,
       "metadata": {}
     },
     {
-      "block_id": "block_0020",
+      "block_id": "block_0017",
       "block_type": "list_item",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
       "text": "adding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security",
-      "order": 20,
+      "order": 17,
       "metadata": {}
     },
     {
-      "block_id": "block_0021",
+      "block_id": "block_0018",
       "block_type": "paragraph",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
       "text": "For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).",
+      "order": 18,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0019",
+      "block_type": "table_row",
+      "heading": "Option 2: Optional requirements language",
+      "heading_path": [
+        "Green procurement",
+        "Standard language for environmentally preferable packaging",
+        "Option 2: Optional requirements language"
+      ],
+      "text": "Table example with colour | Columns: Procurement document | Language to integrate into procurement documents",
+      "order": 19,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0020",
+      "block_type": "table_row",
+      "heading": "Option 2: Optional requirements language",
+      "heading_path": [
+        "Green procurement",
+        "Standard language for environmentally preferable packaging",
+        "Option 2: Optional requirements language"
+      ],
+      "text": "Procurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.",
+      "order": 20,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0021",
+      "block_type": "table_row",
+      "heading": "Option 2: Optional requirements language",
+      "heading_path": [
+        "Green procurement",
+        "Standard language for environmentally preferable packaging",
+        "Option 2: Optional requirements language"
+      ],
+      "text": "Procurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
-      "text": "Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
+      "text": "Procurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
       "order": 22,
       "metadata": {}
     },
@@ -1273,95 +1253,83 @@
       "block_type": "paragraph",
       "heading": "Option 2: Optional requirements language",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Standard language for environmentally preferable packaging",
         "Option 2: Optional requirements language"
       ],
-      "text": "Green Procurement - Environmentally Preferable Packaging",
+      "text": "* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
+      "block_type": "heading",
+      "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
+        "Green procurement evaluation indicators"
       ],
-      "text": "Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.",
+      "text": "Green procurement evaluation indicators",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
       "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
+      "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
+        "Green procurement evaluation indicators"
       ],
-      "text": "Part 1 of RFx - Section 1.2 Statement of Work or Requirement",
+      "text": "Environmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
       "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
+      "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
+        "Green procurement evaluation indicators"
       ],
-      "text": "The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
+      "text": "Environmental certification, as follows:",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
+      "block_type": "list_item",
+      "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
+        "Green procurement evaluation indicators"
       ],
-      "text": "In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.",
+      "text": "certification through an independent program like the Environmental Choice Program or Energy Star",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "paragraph",
-      "heading": "Option 2: Optional requirements language",
+      "block_type": "list_item",
+      "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Standard language for environmentally preferable packaging",
-        "Option 2: Optional requirements language"
+        "Green procurement evaluation indicators"
       ],
-      "text": "* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.",
+      "text": "studies on the environmental attributes of the good or service",
       "order": 28,
       "metadata": {}
     },
     {
       "block_id": "block_0029",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Green procurement evaluation indicators",
+      "text": "presence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body",
       "order": 29,
       "metadata": {}
     },
@@ -1370,24 +1338,22 @@
       "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Environmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:",
+      "text": "Energy and resource efficiency, as follows:",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Environmental certification, as follows:",
+      "text": "use of used, remanufactured, rebuilt or refurbished goods and/or materials",
       "order": 31,
       "metadata": {}
     },
@@ -1396,11 +1362,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "certification through an independent program like the Environmental Choice Program or Energy Star",
+      "text": "efficient resource and energy use throughout the product lifecycle",
       "order": 32,
       "metadata": {}
     },
@@ -1409,11 +1374,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "studies on the environmental attributes of the good or service",
+      "text": "waste reduction capabilities",
       "order": 33,
       "metadata": {}
     },
@@ -1422,50 +1386,46 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "presence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body",
+      "text": "features that save energy, water or fuel, such as Power Down Mode",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Energy and resource efficiency, as follows:",
+      "text": "measures to extend the product's life, such as reuse, refill, recharge or recondition",
       "order": 35,
       "metadata": {}
     },
     {
       "block_id": "block_0036",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "use of used, remanufactured, rebuilt or refurbished goods and/or materials",
+      "text": "Recycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.",
       "order": 36,
       "metadata": {}
     },
     {
       "block_id": "block_0037",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "efficient resource and energy use throughout the product lifecycle",
+      "text": "Hazardous replacement, as follows:",
       "order": 37,
       "metadata": {}
     },
@@ -1474,11 +1434,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "waste reduction capabilities",
+      "text": "availability of non-hazardous alternatives or replacements",
       "order": 38,
       "metadata": {}
     },
@@ -1487,50 +1446,46 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "features that save energy, water or fuel, such as Power Down Mode",
+      "text": "requirement for Safety Data Sheets",
       "order": 39,
       "metadata": {}
     },
     {
       "block_id": "block_0040",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "measures to extend the product's life, such as reuse, refill, recharge or recondition",
+      "text": "Performance testing, as follows:",
       "order": 40,
       "metadata": {}
     },
     {
       "block_id": "block_0041",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Recycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.",
+      "text": "feasibility of pre-purchase testing",
       "order": 41,
       "metadata": {}
     },
     {
       "block_id": "block_0042",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Hazardous replacement, as follows:",
+      "text": "compliance with performance specifications",
       "order": 42,
       "metadata": {}
     },
@@ -1539,37 +1494,34 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "availability of non-hazardous alternatives or replacements",
+      "text": "availability of documented past performance, such as environmental performance reports",
       "order": 43,
       "metadata": {}
     },
     {
       "block_id": "block_0044",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "requirement for Safety Data Sheets",
+      "text": "Packaging, as follows:",
       "order": 44,
       "metadata": {}
     },
     {
       "block_id": "block_0045",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Performance testing, as follows:",
+      "text": "inclusion of language for environmentally preferable packaging in the solicitation",
       "order": 45,
       "metadata": {}
     },
@@ -1578,11 +1530,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "feasibility of pre-purchase testing",
+      "text": "minimal packaging to ensure safe delivery",
       "order": 46,
       "metadata": {}
     },
@@ -1591,11 +1542,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "compliance with performance specifications",
+      "text": "options for bulk or concentrated form purchase",
       "order": 47,
       "metadata": {}
     },
@@ -1604,24 +1554,22 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "availability of documented past performance, such as environmental performance reports",
+      "text": "offeror removal of packaging post-installation",
       "order": 48,
       "metadata": {}
     },
     {
       "block_id": "block_0049",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Packaging, as follows:",
+      "text": "use of reusable, recyclable packaging materials",
       "order": 49,
       "metadata": {}
     },
@@ -1630,11 +1578,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "inclusion of language for environmentally preferable packaging in the solicitation",
+      "text": "returnable to the contractor, or recyclable at delivery location(s)",
       "order": 50,
       "metadata": {}
     },
@@ -1643,24 +1590,22 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "minimal packaging to ensure safe delivery",
+      "text": "reduction or elimination of single-use plastics",
       "order": 51,
       "metadata": {}
     },
     {
       "block_id": "block_0052",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "options for bulk or concentrated form purchase",
+      "text": "On-site waste management, as follows:",
       "order": 52,
       "metadata": {}
     },
@@ -1669,11 +1614,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "offeror removal of packaging post-installation",
+      "text": "source separation and recycling of waste on-site",
       "order": 53,
       "metadata": {}
     },
@@ -1682,11 +1626,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "use of reusable, recyclable packaging materials",
+      "text": "use of environmentally certified haulers and sites",
       "order": 54,
       "metadata": {}
     },
@@ -1695,37 +1638,34 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "returnable to the contractor, or recyclable at delivery location(s)",
+      "text": "design of goods or services to minimize waste, such as using biodegradable or reusable dishes",
       "order": 55,
       "metadata": {}
     },
     {
       "block_id": "block_0056",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "reduction or elimination of single-use plastics",
+      "text": "Return for disassembly and recycling, as follows:",
       "order": 56,
       "metadata": {}
     },
     {
       "block_id": "block_0057",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "On-site waste management, as follows:",
+      "text": "manufacturer policies for product return for recycling",
       "order": 57,
       "metadata": {}
     },
@@ -1734,11 +1674,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "source separation and recycling of waste on-site",
+      "text": "local recycling capabilities for the product",
       "order": 58,
       "metadata": {}
     },
@@ -1747,11 +1686,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "use of environmentally certified haulers and sites",
+      "text": "acceptance of consumables like toner cartridges for recycling",
       "order": 59,
       "metadata": {}
     },
@@ -1760,11 +1698,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "design of goods or services to minimize waste, such as using biodegradable or reusable dishes",
+      "text": "ease of disassembly",
       "order": 60,
       "metadata": {}
     },
@@ -1773,11 +1710,10 @@
       "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Return for disassembly and recycling, as follows:",
+      "text": "Warranties, as follows:",
       "order": 61,
       "metadata": {}
     },
@@ -1786,11 +1722,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "manufacturer policies for product return for recycling",
+      "text": "expected lifespan of the product",
       "order": 62,
       "metadata": {}
     },
@@ -1799,24 +1734,22 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "local recycling capabilities for the product",
+      "text": "warranty duration and the advisability of purchasing extended warranties",
       "order": 63,
       "metadata": {}
     },
     {
       "block_id": "block_0064",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "acceptance of consumables like toner cartridges for recycling",
+      "text": "Maintenance, as follows:",
       "order": 64,
       "metadata": {}
     },
@@ -1825,24 +1758,22 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "ease of disassembly",
+      "text": "design conducive to easy maintenance and repair",
       "order": 65,
       "metadata": {}
     },
     {
       "block_id": "block_0066",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Warranties, as follows:",
+      "text": "availability of reasonably priced maintenance and replacement parts",
       "order": 66,
       "metadata": {}
     },
@@ -1851,37 +1782,34 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "expected lifespan of the product",
+      "text": "ease and cost-effectiveness of upgrades",
       "order": 67,
       "metadata": {}
     },
     {
       "block_id": "block_0068",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "warranty duration and the advisability of purchasing extended warranties",
+      "text": "Environmental attributes of the offeror, as follows:",
       "order": 68,
       "metadata": {}
     },
     {
       "block_id": "block_0069",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "Maintenance, as follows:",
+      "text": "environmental certifications or registrations, such as ISO 14001",
       "order": 69,
       "metadata": {}
     },
@@ -1890,11 +1818,10 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "design conducive to easy maintenance and repair",
+      "text": "history of regulatory environmental compliance.",
       "order": 70,
       "metadata": {}
     },
@@ -1903,264 +1830,184 @@
       "block_type": "list_item",
       "heading": "Green procurement evaluation indicators",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Green procurement evaluation indicators"
       ],
-      "text": "availability of reasonably priced maintenance and replacement parts",
+      "text": "participation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge",
       "order": 71,
       "metadata": {}
     },
     {
       "block_id": "block_0072",
-      "block_type": "list_item",
-      "heading": "Green procurement evaluation indicators",
+      "block_type": "heading",
+      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Green procurement evaluation indicators"
+        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "ease and cost-effectiveness of upgrades",
+      "text": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "order": 72,
       "metadata": {}
     },
     {
       "block_id": "block_0073",
       "block_type": "paragraph",
-      "heading": "Green procurement evaluation indicators",
+      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Green procurement evaluation indicators"
+        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "Environmental attributes of the offeror, as follows:",
+      "text": "You must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:",
       "order": 73,
       "metadata": {}
     },
     {
       "block_id": "block_0074",
-      "block_type": "list_item",
-      "heading": "Green procurement evaluation indicators",
+      "block_type": "paragraph",
+      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Green procurement evaluation indicators"
+        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "environmental certifications or registrations, such as ISO 14001",
+      "text": "“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”",
       "order": 74,
       "metadata": {}
     },
     {
       "block_id": "block_0075",
-      "block_type": "list_item",
-      "heading": "Green procurement evaluation indicators",
+      "block_type": "paragraph",
+      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Green procurement evaluation indicators"
+        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "history of regulatory environmental compliance.",
+      "text": "You should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.",
       "order": 75,
       "metadata": {}
     },
     {
       "block_id": "block_0076",
-      "block_type": "list_item",
-      "heading": "Green procurement evaluation indicators",
+      "block_type": "paragraph",
+      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
-        "Green procurement evaluation indicators"
+        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "participation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge",
+      "text": "There are five ways to apply the standard, depending on how ready the market is:",
       "order": 76,
       "metadata": {}
     },
     {
       "block_id": "block_0077",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
+      "text": "Mandatory or point-rated criteria",
       "order": 77,
       "metadata": {}
     },
     {
       "block_id": "block_0078",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "You must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:",
+      "text": "Certification before contract award",
       "order": 78,
       "metadata": {}
     },
     {
       "block_id": "block_0079",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”",
+      "text": "Conditionally limited solicitation",
       "order": 79,
       "metadata": {}
     },
     {
       "block_id": "block_0080",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "You should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.",
+      "text": "Contract clause requiring future compliance",
       "order": 80,
       "metadata": {}
     },
     {
       "block_id": "block_0081",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "There are five ways to apply the standard, depending on how ready the market is:",
+      "text": "Deliverable in the statement of work",
       "order": 81,
       "metadata": {}
     },
     {
       "block_id": "block_0082",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "Mandatory or point-rated criteria",
+      "text": "For procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.",
       "order": 82,
       "metadata": {}
     },
     {
       "block_id": "block_0083",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "Certification before contract award",
+      "text": "Amend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.",
       "order": 83,
       "metadata": {}
     },
     {
       "block_id": "block_0084",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
-      "text": "Conditionally limited solicitation",
+      "text": "You can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.",
       "order": 84,
       "metadata": {}
     },
     {
       "block_id": "block_0085",
-      "block_type": "list_item",
-      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
-      ],
-      "text": "Contract clause requiring future compliance",
-      "order": 85,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0086",
-      "block_type": "list_item",
-      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
-      ],
-      "text": "Deliverable in the statement of work",
-      "order": 86,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0087",
       "block_type": "paragraph",
       "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
-      ],
-      "text": "For procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.",
-      "order": 87,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0088",
-      "block_type": "paragraph",
-      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
-      ],
-      "text": "Amend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.",
-      "order": 88,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0089",
-      "block_type": "paragraph",
-      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
-        "Green procurement",
-        "Disclosure of greenhouse gas emissions and the setting of reduction targets"
-      ],
-      "text": "You can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.",
-      "order": 89,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0090",
-      "block_type": "paragraph",
-      "heading": "Disclosure of greenhouse gas emissions and the setting of reduction targets",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Green procurement",
         "Green procurement",
         "Disclosure of greenhouse gas emissions and the setting of reduction targets"
       ],
       "text": "Offerors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
-      "order": 90,
+      "order": 85,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Green procurement The greening aspects that you must take into consideration throughout the procurement process are described as follows. Life cycle costing Life cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability. Standard language for environmentally preferable packaging In order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement. For the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement. Option 1: Mandatory requirements language This is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Option 2: Optional requirements language Use Option 2 for requirements where: the delivered products require specialized packaging products are to be delivered in an area with limited recycling options adding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. * Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise. Green procurement evaluation indicators Environmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include: Environmental certification, as follows: certification through an independent program like the Environmental Choice Program or Energy Star studies on the environmental attributes of the good or service presence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body Energy and resource efficiency, as follows: use of used, remanufactured, rebuilt or refurbished goods and/or materials efficient resource and energy use throughout the product lifecycle waste reduction capabilities features that save energy, water or fuel, such as Power Down Mode measures to extend the product's life, such as reuse, refill, recharge or recondition Recycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used. Hazardous replacement, as follows: availability of non-hazardous alternatives or replacements requirement for Safety Data Sheets Performance testing, as follows: feasibility of pre-purchase testing compliance with performance specifications availability of documented past performance, such as environmental performance reports Packaging, as follows: inclusion of language for environmentally preferable packaging in the solicitation minimal packaging to ensure safe delivery options for bulk or concentrated form purchase offeror removal of packaging post-installation use of reusable, recyclable packaging materials returnable to the contractor, or recyclable at delivery location(s) reduction or elimination of single-use plastics On-site waste management, as follows: source separation and recycling of waste on-site use of environmentally certified haulers and sites design of goods or services to minimize waste, such as using biodegradable or reusable dishes Return for disassembly and recycling, as follows: manufacturer policies for product return for recycling local recycling capabilities for the product acceptance of consumables like toner cartridges for recycling ease of disassembly Warranties, as follows: expected lifespan of the product warranty duration and the advisability of purchasing extended warranties Maintenance, as follows: design conducive to easy maintenance and repair availability of reasonably priced maintenance and replacement parts ease and cost-effectiveness of upgrades Environmental attributes of the offeror, as follows: environmental certifications or registrations, such as ISO 14001 history of regulatory environmental compliance. participation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge Disclosure of greenhouse gas emissions and the setting of reduction targets You must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation: “This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.” You should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input. There are five ways to apply the standard, depending on how ready the market is: Mandatory or point-rated criteria Certification before contract award Conditionally limited solicitation Contract clause requiring future compliance Deliverable in the statement of work For procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed. Amend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard. You can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file. Offerors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .\n\nGreen procurement\n\nThe greening aspects that you must take into consideration throughout the procurement process are described as follows.\n\nLife cycle costing\n\nLife cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.\n\nStandard language for environmentally preferable packaging\n\nIn order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.\n\nFor the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.\n\nOption 1: Mandatory requirements language\n\nThis is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nGreen Procurement - Environmentally Preferable Packaging\n\nPublic Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.\n\nPart 1 of RFx - Section 1.2 Statement of Work or Requirement\n\nThe Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nIn accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nOption 2: Optional requirements language\n\nUse Option 2 for requirements where:\n\nthe delivered products require specialized packaging\n\nproducts are to be delivered in an area with limited recycling options\n\nadding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security\n\nFor implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nGreen Procurement - Environmentally Preferable Packaging\n\nPublic Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.\n\nPart 1 of RFx - Section 1.2 Statement of Work or Requirement\n\nThe Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nIn accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\n* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.\n\nGreen procurement evaluation indicators\n\nEnvironmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:\n\nEnvironmental certification, as follows:\n\ncertification through an independent program like the Environmental Choice Program or Energy Star\n\nstudies on the environmental attributes of the good or service\n\npresence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body\n\nEnergy and resource efficiency, as follows:\n\nuse of used, remanufactured, rebuilt or refurbished goods and/or materials\n\nefficient resource and energy use throughout the product lifecycle\n\nwaste reduction capabilities\n\nfeatures that save energy, water or fuel, such as Power Down Mode\n\nmeasures to extend the product's life, such as reuse, refill, recharge or recondition\n\nRecycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.\n\nHazardous replacement, as follows:\n\navailability of non-hazardous alternatives or replacements\n\nrequirement for Safety Data Sheets\n\nPerformance testing, as follows:\n\nfeasibility of pre-purchase testing\n\ncompliance with performance specifications\n\navailability of documented past performance, such as environmental performance reports\n\nPackaging, as follows:\n\ninclusion of language for environmentally preferable packaging in the solicitation\n\nminimal packaging to ensure safe delivery\n\noptions for bulk or concentrated form purchase\n\nofferor removal of packaging post-installation\n\nuse of reusable, recyclable packaging materials\n\nreturnable to the contractor, or recyclable at delivery location(s)\n\nreduction or elimination of single-use plastics\n\nOn-site waste management, as follows:\n\nsource separation and recycling of waste on-site\n\nuse of environmentally certified haulers and sites\n\ndesign of goods or services to minimize waste, such as using biodegradable or reusable dishes\n\nReturn for disassembly and recycling, as follows:\n\nmanufacturer policies for product return for recycling\n\nlocal recycling capabilities for the product\n\nacceptance of consumables like toner cartridges for recycling\n\nease of disassembly\n\nWarranties, as follows:\n\nexpected lifespan of the product\n\nwarranty duration and the advisability of purchasing extended warranties\n\nMaintenance, as follows:\n\ndesign conducive to easy maintenance and repair\n\navailability of reasonably priced maintenance and replacement parts\n\nease and cost-effectiveness of upgrades\n\nEnvironmental attributes of the offeror, as follows:\n\nenvironmental certifications or registrations, such as ISO 14001\n\nhistory of regulatory environmental compliance.\n\nparticipation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge\n\nDisclosure of greenhouse gas emissions and the setting of reduction targets\n\nYou must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:\n\n“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”\n\nYou should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.\n\nThere are five ways to apply the standard, depending on how ready the market is:\n\nMandatory or point-rated criteria\n\nCertification before contract award\n\nConditionally limited solicitation\n\nContract clause requiring future compliance\n\nDeliverable in the statement of work\n\nFor procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.\n\nAmend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.\n\nYou can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.\n\nOfferors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
-  "markdown_text": "Green procurement The greening aspects that you must take into consideration throughout the procurement process are described as follows. Life cycle costing Life cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability. Standard language for environmentally preferable packaging In order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement. For the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement. Option 1: Mandatory requirements language This is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Option 2: Optional requirements language Use Option 2 for requirements where: the delivered products require specialized packaging products are to be delivered in an area with limited recycling options adding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network). Table example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. * Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise. Green procurement evaluation indicators Environmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include: Environmental certification, as follows: certification through an independent program like the Environmental Choice Program or Energy Star studies on the environmental attributes of the good or service presence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body Energy and resource efficiency, as follows: use of used, remanufactured, rebuilt or refurbished goods and/or materials efficient resource and energy use throughout the product lifecycle waste reduction capabilities features that save energy, water or fuel, such as Power Down Mode measures to extend the product's life, such as reuse, refill, recharge or recondition Recycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used. Hazardous replacement, as follows: availability of non-hazardous alternatives or replacements requirement for Safety Data Sheets Performance testing, as follows: feasibility of pre-purchase testing compliance with performance specifications availability of documented past performance, such as environmental performance reports Packaging, as follows: inclusion of language for environmentally preferable packaging in the solicitation minimal packaging to ensure safe delivery options for bulk or concentrated form purchase offeror removal of packaging post-installation use of reusable, recyclable packaging materials returnable to the contractor, or recyclable at delivery location(s) reduction or elimination of single-use plastics On-site waste management, as follows: source separation and recycling of waste on-site use of environmentally certified haulers and sites design of goods or services to minimize waste, such as using biodegradable or reusable dishes Return for disassembly and recycling, as follows: manufacturer policies for product return for recycling local recycling capabilities for the product acceptance of consumables like toner cartridges for recycling ease of disassembly Warranties, as follows: expected lifespan of the product warranty duration and the advisability of purchasing extended warranties Maintenance, as follows: design conducive to easy maintenance and repair availability of reasonably priced maintenance and replacement parts ease and cost-effectiveness of upgrades Environmental attributes of the offeror, as follows: environmental certifications or registrations, such as ISO 14001 history of regulatory environmental compliance. participation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge Disclosure of greenhouse gas emissions and the setting of reduction targets You must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation: “This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.” You should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input. There are five ways to apply the standard, depending on how ready the market is: Mandatory or point-rated criteria Certification before contract award Conditionally limited solicitation Contract clause requiring future compliance Deliverable in the statement of work For procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed. Amend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard. You can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file. Offerors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .\n\nGreen procurement\n\nThe greening aspects that you must take into consideration throughout the procurement process are described as follows.\n\nLife cycle costing\n\nLife cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.\n\nStandard language for environmentally preferable packaging\n\nIn order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.\n\nFor the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.\n\nOption 1: Mandatory requirements language\n\nThis is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nGreen Procurement - Environmentally Preferable Packaging\n\nPublic Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.\n\nPart 1 of RFx - Section 1.2 Statement of Work or Requirement\n\nThe Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nIn accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nOption 2: Optional requirements language\n\nUse Option 2 for requirements where:\n\nthe delivered products require specialized packaging\n\nproducts are to be delivered in an area with limited recycling options\n\nadding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security\n\nFor implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour Procurement document Language to integrate into procurement documents Notice of Proposed Procurement (NPP) and Request for Information (RFI) Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada. Statement of Work (SOW) or Statement of Requirement (SOR) In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nGreen Procurement - Environmentally Preferable Packaging\n\nPublic Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.\n\nPart 1 of RFx - Section 1.2 Statement of Work or Requirement\n\nThe Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nIn accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\n* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.\n\nGreen procurement evaluation indicators\n\nEnvironmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:\n\nEnvironmental certification, as follows:\n\ncertification through an independent program like the Environmental Choice Program or Energy Star\n\nstudies on the environmental attributes of the good or service\n\npresence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body\n\nEnergy and resource efficiency, as follows:\n\nuse of used, remanufactured, rebuilt or refurbished goods and/or materials\n\nefficient resource and energy use throughout the product lifecycle\n\nwaste reduction capabilities\n\nfeatures that save energy, water or fuel, such as Power Down Mode\n\nmeasures to extend the product's life, such as reuse, refill, recharge or recondition\n\nRecycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.\n\nHazardous replacement, as follows:\n\navailability of non-hazardous alternatives or replacements\n\nrequirement for Safety Data Sheets\n\nPerformance testing, as follows:\n\nfeasibility of pre-purchase testing\n\ncompliance with performance specifications\n\navailability of documented past performance, such as environmental performance reports\n\nPackaging, as follows:\n\ninclusion of language for environmentally preferable packaging in the solicitation\n\nminimal packaging to ensure safe delivery\n\noptions for bulk or concentrated form purchase\n\nofferor removal of packaging post-installation\n\nuse of reusable, recyclable packaging materials\n\nreturnable to the contractor, or recyclable at delivery location(s)\n\nreduction or elimination of single-use plastics\n\nOn-site waste management, as follows:\n\nsource separation and recycling of waste on-site\n\nuse of environmentally certified haulers and sites\n\ndesign of goods or services to minimize waste, such as using biodegradable or reusable dishes\n\nReturn for disassembly and recycling, as follows:\n\nmanufacturer policies for product return for recycling\n\nlocal recycling capabilities for the product\n\nacceptance of consumables like toner cartridges for recycling\n\nease of disassembly\n\nWarranties, as follows:\n\nexpected lifespan of the product\n\nwarranty duration and the advisability of purchasing extended warranties\n\nMaintenance, as follows:\n\ndesign conducive to easy maintenance and repair\n\navailability of reasonably priced maintenance and replacement parts\n\nease and cost-effectiveness of upgrades\n\nEnvironmental attributes of the offeror, as follows:\n\nenvironmental certifications or registrations, such as ISO 14001\n\nhistory of regulatory environmental compliance.\n\nparticipation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge\n\nDisclosure of greenhouse gas emissions and the setting of reduction targets\n\nYou must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:\n\n“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”\n\nYou should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.\n\nThere are five ways to apply the standard, depending on how ready the market is:\n\nMandatory or point-rated criteria\n\nCertification before contract award\n\nConditionally limited solicitation\n\nContract clause requiring future compliance\n\nDeliverable in the statement of work\n\nFor procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.\n\nAmend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.\n\nYou can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.\n\nOfferors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
+  "raw_text": "Green procurement\n\nThe greening aspects that you must take into consideration throughout the procurement process are described as follows.\n\nLife cycle costing\n\nLife cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.\n\nStandard language for environmentally preferable packaging\n\nIn order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.\n\nFor the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.\n\nOption 1: Mandatory requirements language\n\nThis is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour | Columns: Procurement document | Language to integrate into procurement documents\n\nProcurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.\n\nProcurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nProcurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nOption 2: Optional requirements language\n\nUse Option 2 for requirements where:\n\nthe delivered products require specialized packaging\n\nproducts are to be delivered in an area with limited recycling options\n\nadding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security\n\nFor implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour | Columns: Procurement document | Language to integrate into procurement documents\n\nProcurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.\n\nProcurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nProcurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\n* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.\n\nGreen procurement evaluation indicators\n\nEnvironmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:\n\nEnvironmental certification, as follows:\n\ncertification through an independent program like the Environmental Choice Program or Energy Star\n\nstudies on the environmental attributes of the good or service\n\npresence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body\n\nEnergy and resource efficiency, as follows:\n\nuse of used, remanufactured, rebuilt or refurbished goods and/or materials\n\nefficient resource and energy use throughout the product lifecycle\n\nwaste reduction capabilities\n\nfeatures that save energy, water or fuel, such as Power Down Mode\n\nmeasures to extend the product's life, such as reuse, refill, recharge or recondition\n\nRecycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.\n\nHazardous replacement, as follows:\n\navailability of non-hazardous alternatives or replacements\n\nrequirement for Safety Data Sheets\n\nPerformance testing, as follows:\n\nfeasibility of pre-purchase testing\n\ncompliance with performance specifications\n\navailability of documented past performance, such as environmental performance reports\n\nPackaging, as follows:\n\ninclusion of language for environmentally preferable packaging in the solicitation\n\nminimal packaging to ensure safe delivery\n\noptions for bulk or concentrated form purchase\n\nofferor removal of packaging post-installation\n\nuse of reusable, recyclable packaging materials\n\nreturnable to the contractor, or recyclable at delivery location(s)\n\nreduction or elimination of single-use plastics\n\nOn-site waste management, as follows:\n\nsource separation and recycling of waste on-site\n\nuse of environmentally certified haulers and sites\n\ndesign of goods or services to minimize waste, such as using biodegradable or reusable dishes\n\nReturn for disassembly and recycling, as follows:\n\nmanufacturer policies for product return for recycling\n\nlocal recycling capabilities for the product\n\nacceptance of consumables like toner cartridges for recycling\n\nease of disassembly\n\nWarranties, as follows:\n\nexpected lifespan of the product\n\nwarranty duration and the advisability of purchasing extended warranties\n\nMaintenance, as follows:\n\ndesign conducive to easy maintenance and repair\n\navailability of reasonably priced maintenance and replacement parts\n\nease and cost-effectiveness of upgrades\n\nEnvironmental attributes of the offeror, as follows:\n\nenvironmental certifications or registrations, such as ISO 14001\n\nhistory of regulatory environmental compliance.\n\nparticipation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge\n\nDisclosure of greenhouse gas emissions and the setting of reduction targets\n\nYou must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:\n\n“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”\n\nYou should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.\n\nThere are five ways to apply the standard, depending on how ready the market is:\n\nMandatory or point-rated criteria\n\nCertification before contract award\n\nConditionally limited solicitation\n\nContract clause requiring future compliance\n\nDeliverable in the statement of work\n\nFor procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.\n\nAmend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.\n\nYou can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.\n\nOfferors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
+  "markdown_text": "Green procurement\n\nThe greening aspects that you must take into consideration throughout the procurement process are described as follows.\n\nLife cycle costing\n\nLife cycle costing pertains to all four stages of the procurement process: planning, acquisition, utilization, and disposal of goods and services. The Policy on Green Procurement applies to all federal government procurement activities. It requires that environmental performance considerations be embedded in procurement decisions, in the same manner as price, performance, quality and availability.\n\nStandard language for environmentally preferable packaging\n\nIn order to meet our federal commitments to a more sustainable approach to producing, using and managing plastics, including reducing plastic waste and marine litter, PSPC is taking concrete steps to address packaging waste in procurement.\n\nFor the procurement of goods that come in packaging, buyers must include standard language on environmentally preferable packaging. Please refer to the table below to select the appropriate options to integrate into your procurement.\n\nOption 1: Mandatory requirements language\n\nThis is the recommended option. Use this option when products are delivered in commercially available packaging. For implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour | Columns: Procurement document | Language to integrate into procurement documents\n\nProcurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste, and is taking concrete steps to better manage the use and disposal of plastics in its own operations as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Environmentally preferable packaging specifications are mandatory requirements in this procurement.\n\nProcurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor must meet the mandatory environmentally preferable packaging specifications as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor must ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and must verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor will be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nProcurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to supporting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by integrating environmentally preferable packaging specifications in procurement and contract documents. All packaging material related to this requirement must be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nOption 2: Optional requirements language\n\nUse Option 2 for requirements where:\n\nthe delivered products require specialized packaging\n\nproducts are to be delivered in an area with limited recycling options\n\nadding a requirement for environmentally preferable packaging could be a major barrier to adequate supplier participation, to accessibility for persons with disabilities, or a risk to health, safety or national security\n\nFor implementation questions, see Frequently asked questions (FAQ) regarding standard language (accessible only on the Government of Canada network).\n\nTable example with colour | Columns: Procurement document | Language to integrate into procurement documents\n\nProcurement document: Notice of Proposed Procurement (NPP) and Request for Information (RFI) | Language to integrate into procurement documents: Green Procurement - Environmentally Preferable Packaging Public Works and Government Services Canada (PWGSC) is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste as per the Policy on Green Procurement , the Greening Government Strategy: A Government of Canada Directive , and the Ocean Plastics Charter . Offerors/Contractors are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement.\n\nProcurement document: Request for X (RFx); where X is Standing Offer, Supply Arrangement or Proposal | Language to integrate into procurement documents: Part 1 of RFx - Section 1.2 Statement of Work or Requirement The Offeror/Contractor should meet the environmentally preferable packaging specifications for this procurement, as indicated in the Statement of Work (SOW) or Statement of Requirement (SOR). The Offeror/Contractor should ensure that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and should verify with the contracting authority whether their reusable packaging can be reused by the end user. The Offeror/Contractor should be responsible for taking back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\nProcurement document: Statement of Work (SOW) or Statement of Requirement (SOR) | Language to integrate into procurement documents: In accordance with the Policy on Green Procurement and the Greening Government Strategy: A Government of Canada Directive , the Government of Canada is committed to promoting the procurement of environmentally preferable plastic products and the reduction of plastic packaging waste by considering environmentally preferable packaging specifications in procurement and contracts. All packaging material related to this requirement should be reusable, returnable or recyclable in accordance with the definitions set forth in Annex X . Excluded material * can also be found in Annex X . The Contractor is responsible for ensuring that their recyclable packaging is accepted at the local recycling facilities of the delivery location(s) and to verify with the contracting authority whether their reusable packaging can be reused by the end user. The Contractor must take back any packaging that cannot be recycled or reused by the end user at no additional cost to Canada.\n\n* Note on Excluded material: Environmentally preferable material alternatives for packaging tape are not widely available. As a result, packaging tape is excluded from the environmentally preferable packaging specifications until the market has progressed and studies become available to determine otherwise.\n\nGreen procurement evaluation indicators\n\nEnvironmental evaluation indicators play a crucial role in developing evaluation criteria for green procurement. These indicators include:\n\nEnvironmental certification, as follows:\n\ncertification through an independent program like the Environmental Choice Program or Energy Star\n\nstudies on the environmental attributes of the good or service\n\npresence of a certified Environmental Product Declaration by bodies like the Canadian Standards Association or Underwriters laboratories of Canada (UL Solutions) or another accredited certification body\n\nEnergy and resource efficiency, as follows:\n\nuse of used, remanufactured, rebuilt or refurbished goods and/or materials\n\nefficient resource and energy use throughout the product lifecycle\n\nwaste reduction capabilities\n\nfeatures that save energy, water or fuel, such as Power Down Mode\n\nmeasures to extend the product's life, such as reuse, refill, recharge or recondition\n\nRecycled content: inclusion of post-consumer recycled content and the types and percentages of recycled materials used.\n\nHazardous replacement, as follows:\n\navailability of non-hazardous alternatives or replacements\n\nrequirement for Safety Data Sheets\n\nPerformance testing, as follows:\n\nfeasibility of pre-purchase testing\n\ncompliance with performance specifications\n\navailability of documented past performance, such as environmental performance reports\n\nPackaging, as follows:\n\ninclusion of language for environmentally preferable packaging in the solicitation\n\nminimal packaging to ensure safe delivery\n\noptions for bulk or concentrated form purchase\n\nofferor removal of packaging post-installation\n\nuse of reusable, recyclable packaging materials\n\nreturnable to the contractor, or recyclable at delivery location(s)\n\nreduction or elimination of single-use plastics\n\nOn-site waste management, as follows:\n\nsource separation and recycling of waste on-site\n\nuse of environmentally certified haulers and sites\n\ndesign of goods or services to minimize waste, such as using biodegradable or reusable dishes\n\nReturn for disassembly and recycling, as follows:\n\nmanufacturer policies for product return for recycling\n\nlocal recycling capabilities for the product\n\nacceptance of consumables like toner cartridges for recycling\n\nease of disassembly\n\nWarranties, as follows:\n\nexpected lifespan of the product\n\nwarranty duration and the advisability of purchasing extended warranties\n\nMaintenance, as follows:\n\ndesign conducive to easy maintenance and repair\n\navailability of reasonably priced maintenance and replacement parts\n\nease and cost-effectiveness of upgrades\n\nEnvironmental attributes of the offeror, as follows:\n\nenvironmental certifications or registrations, such as ISO 14001\n\nhistory of regulatory environmental compliance.\n\nparticipation in a greenhouse gas (GHG) emission target-setting, reduction and disclosure programs like the GHG emission Net-Zero Challenge\n\nDisclosure of greenhouse gas emissions and the setting of reduction targets\n\nYou must ensure that any procurement over $25 million, including taxes and set-asides induces suppliers to measure and report their greenhouse gas emissions and set a science-based target to cut emissions. This includes contracts, standing offers, supply arrangements, and call-ups. When the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets applies, include this language in the solicitation:\n\n“This procurement is subject to the Standard on the Disclosure of Greenhouse Gas Emissions and the Setting of Reduction Targets.”\n\nYou should also consider applying the standard for procurements between $1 million and $25 million, based on market readiness and client input.\n\nThere are five ways to apply the standard, depending on how ready the market is:\n\nMandatory or point-rated criteria\n\nCertification before contract award\n\nConditionally limited solicitation\n\nContract clause requiring future compliance\n\nDeliverable in the statement of work\n\nFor procurements under standing offers and supply arrangements over $25 million, you must choose a pathway and include it at the appropriate stage. For contracts under $5 million issued under these instruments, the standard can be excluded, and no exemption is needed.\n\nAmend contracts issued before April 1, 2023, that exceed $25 million and have three or more years remaining to incorporate the standard.\n\nYou can request an exemption from the standard if there's a risk of no offers or if it's not feasible. Exemptions must be approved by the responsible senior official and recorded in the file.\n\nOfferors can show compliance by participating in the Net-Zero Challenge or an equivalent initiative .",
   "provenance_paths": {}
 }

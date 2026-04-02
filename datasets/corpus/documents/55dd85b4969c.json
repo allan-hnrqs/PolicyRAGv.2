@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:34.594034Z",
   "content_hash": "c22d3f4fe85e2d40c422ea4cf30a03fd69ce79410c59828f34a11873ded280c5",
   "word_count": 107,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Considerations when making amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Considerations when making amendments",
         "Considerations when making amendments"
       ],
       "text": "Considerations when making amendments",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Considerations when making amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Considerations when making amendments",
         "Considerations when making amendments"
       ],
       "text": "Contract amendments are used to formally delete, modify or introduce new conditions to the original contract. The need for an amendment may arise from ongoing negotiations or to deal with an unforeseen circumstances. Amendments must always consider Canada's best interests and require the agreement of both parties to the contract. Where the vendor is subject to a relevant Vendor Performance Corrective Measure Policy (VPCMP), the length of the contract cannot be extended either by an amendment or through the exercise of an option unless:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Considerations when making amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Considerations when making amendments",
         "Considerations when making amendments"
       ],
       "text": "there is insufficient time to recompete",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Considerations when making amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Considerations when making amendments",
         "Considerations when making amendments"
       ],
       "text": "there are other exceptional circumstances",
@@ -820,7 +816,6 @@
       "block_type": "paragraph",
       "heading": "Considerations when making amendments",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Considerations when making amendments",
         "Considerations when making amendments"
       ],
       "text": "Both will require Assistant Deputy Minister (ADM) approval.",

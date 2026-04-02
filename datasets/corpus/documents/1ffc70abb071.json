@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:21.017213Z",
-  "content_hash": "17ad3b3c3b8f39af39299cc29c447262387d593e069a2f368ddacd16d303c1e7",
-  "word_count": 630,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "04060679ee3e8d4505847ae9a2a91913ec358790bcac2423dc2e56e3b08768da",
+  "word_count": 315,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
+      "block_type": "heading",
+      "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts"
+        "Security and international contracts"
       ],
-      "text": "Security and international contracts As part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets. When a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to: Submission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments. Informing CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement. The CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you. The CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information. Handling of sensitive information Before and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements. For further details or to initiate a review, contact IISD .",
+      "text": "Security and international contracts",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "Security and international contracts",
+      "text": "As part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.",
       "order": 1,
       "metadata": {}
     },
@@ -986,22 +985,20 @@
       "block_type": "paragraph",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "As part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.",
+      "text": "When a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "When a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:",
+      "text": "Submission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.",
       "order": 3,
       "metadata": {}
     },
@@ -1010,22 +1007,20 @@
       "block_type": "list_item",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "Submission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.",
+      "text": "Informing CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "Informing CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.",
+      "text": "The CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.",
       "order": 5,
       "metadata": {}
     },
@@ -1034,35 +1029,33 @@
       "block_type": "paragraph",
       "heading": "Security and international contracts",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts"
       ],
-      "text": "The CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.",
+      "text": "The CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Security and international contracts",
+      "block_type": "heading",
+      "heading": "Handling of sensitive information",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
-        "Security and international contracts"
+        "Security and international contracts",
+        "Handling of sensitive information"
       ],
-      "text": "The CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.",
+      "text": "Handling of sensitive information",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Handling of sensitive information",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts",
         "Handling of sensitive information"
       ],
-      "text": "Handling of sensitive information",
+      "text": "Before and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.",
       "order": 8,
       "metadata": {}
     },
@@ -1071,30 +1064,16 @@
       "block_type": "paragraph",
       "heading": "Handling of sensitive information",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
-        "Security and international contracts",
-        "Handling of sensitive information"
-      ],
-      "text": "Before and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Handling of sensitive information",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements - Security and international contracts",
         "Security and international contracts",
         "Handling of sensitive information"
       ],
       "text": "For further details or to initiate a review, contact IISD .",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Security and international contracts As part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets. When a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to: Submission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments. Informing CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement. The CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you. The CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information. Handling of sensitive information Before and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements. For further details or to initiate a review, contact IISD .\n\nSecurity and international contracts\n\nAs part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.\n\nWhen a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:\n\nSubmission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.\n\nInforming CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.\n\nThe CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.\n\nThe CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.\n\nHandling of sensitive information\n\nBefore and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.\n\nFor further details or to initiate a review, contact IISD .",
-  "markdown_text": "Security and international contracts As part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets. When a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to: Submission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments. Informing CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement. The CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you. The CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information. Handling of sensitive information Before and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements. For further details or to initiate a review, contact IISD .\n\nSecurity and international contracts\n\nAs part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.\n\nWhen a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:\n\nSubmission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.\n\nInforming CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.\n\nThe CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.\n\nThe CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.\n\nHandling of sensitive information\n\nBefore and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.\n\nFor further details or to initiate a review, contact IISD .",
+  "raw_text": "Security and international contracts\n\nAs part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.\n\nWhen a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:\n\nSubmission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.\n\nInforming CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.\n\nThe CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.\n\nThe CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.\n\nHandling of sensitive information\n\nBefore and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.\n\nFor further details or to initiate a review, contact IISD .",
+  "markdown_text": "Security and international contracts\n\nAs part of Canada's international security commitments, the Designated Security Authority (DSA) for Canada is the Director of the International Industrial Security Directorate ( IISD ) within the CSP . Canada’s DSA is the authority responsible for confirming compliance with international security requirements involving foreign-based businesses and/or foreign classified information and assets.\n\nWhen a procurement involves foreign-based entities, or when the contracted work requires access to foreign classified information, assets, sites or international organizations (such as North Atlantic Treaty Organization [ NATO ]), you must ensure the following procedures are adhered to:\n\nSubmission of statement of work : The statement of work must be submitted for review by the CSP 's IISD via email as soon as possible to ensure that the security provisions comply with Canada's international security commitments.\n\nInforming CSP of foreign-based entities : Upon becoming aware of potential contracts involving foreign-based businesses, promptly inform the CSP 's IISD of the country of origin of each foreign-based business interested in participating in the procurement.\n\nThe CSP 's IISD will confirm the specific international security screening requirements based on the international bilateral security instrument in effect with the respective foreign entity and other Canadian international security commitments. If the exchange of sensitive information is permitted under these international security commitments, country-specific security clauses will be provided to you.\n\nThe CSP 's IISD will facilitate liaisons with foreign security authorities to confirm that the foreign-based business has fulfilled the necessary security screening requirements before they are authorized to access sensitive Canadian information.\n\nHandling of sensitive information\n\nBefore and during the contract, any transmission of Canada’s sensitive information or assets out of Canada, or sharing of NATO or foreign classified information within Canada, must receive approval. They are normally exchanged through the CSP 's IISD , per Canada’s international security requirements.\n\nFor further details or to initiate a review, contact IISD .",
   "provenance_paths": {}
 }

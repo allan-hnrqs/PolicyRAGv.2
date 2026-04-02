@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:27.804114Z",
-  "content_hash": "0097361204f9b8a0c5c6d1aca223fa8f1fdd8d4b7f8717e882f0c995b3544680",
-  "word_count": 78,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "0887a822fc42a1dc536e8512da19df4b488dee38bec9885b9484f4dbc48c3496",
+  "word_count": 39,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -527,42 +527,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Consider a peer review",
+      "block_type": "heading",
+      "heading": "Consider a peer review",
       "heading_path": [
-        "Buyer's Guide Consider a peer review"
+        "Consider a peer review"
       ],
-      "text": "Consider a peer review This section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
+      "text": "Consider a peer review",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Consider a peer review",
-      "heading_path": [
-        "Buyer's Guide Consider a peer review",
-        "Consider a peer review"
-      ],
-      "text": "Consider a peer review",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Consider a peer review",
       "heading_path": [
-        "Buyer's Guide Consider a peer review",
         "Consider a peer review"
       ],
       "text": "This section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Consider a peer review This section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.\n\nConsider a peer review\n\nThis section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
-  "markdown_text": "Consider a peer review This section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.\n\nConsider a peer review\n\nThis section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
+  "raw_text": "Consider a peer review\n\nThis section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
+  "markdown_text": "Consider a peer review\n\nThis section provides information on peer review and when it is required based on the complexity and risk of the procurement. It also covers the roles and responsibilities of both the buyer and the reviewer.",
   "provenance_paths": {}
 }

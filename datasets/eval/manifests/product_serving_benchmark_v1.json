@@ -1,0 +1,159 @@
+{
+  "name": "product_serving_benchmark_v1",
+  "version": 1,
+  "description": "Small product-facing prompt bank for quality, latency, and short multi-turn behavior checks.",
+  "notes": [
+    "This is not a canonical promotion benchmark.",
+    "Use it to inspect serving behavior across direct questions, follow-ups, exactness-sensitive prompts, and chat-shell expectations.",
+    "This manifest does not encode automatic pass or fail rules."
+  ],
+  "cases": [
+    {
+      "id": "CHAT_001",
+      "question": "Hello there",
+      "description": "Greeting behavior should be inspected as product chat behavior rather than benchmarked through retrieval claims.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello there"
+        }
+      ],
+      "tags": ["chat_shell", "greeting", "first_turn"],
+      "quality_focus": ["non_rag_chat_shell"],
+      "notes": "Review whether the product responds conversationally or falls into evidence-backed abstention."
+    },
+    {
+      "id": "CHAT_002",
+      "question": "What can you help me with?",
+      "description": "Capability/help behavior should be inspected as product chat behavior.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What can you help me with?"
+        }
+      ],
+      "tags": ["chat_shell", "capability_help", "first_turn"],
+      "quality_focus": ["non_rag_chat_shell"]
+    },
+    {
+      "id": "SO_001",
+      "question": "What is the actual contractual difference between a standing offer and a supply arrangement? When does Canada become legally bound under each one?",
+      "description": "Compound first-turn procurement question with important contractual distinctions.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the actual contractual difference between a standing offer and a supply arrangement? When does Canada become legally bound under each one?"
+        }
+      ],
+      "tags": ["first_turn", "compound", "method_of_supply"],
+      "quality_focus": ["compound_coverage", "contractual_exactness"]
+    },
+    {
+      "id": "SO_002",
+      "question": "What about under each one, when is Canada legally bound?",
+      "description": "Follow-up should preserve standing-offer vs supply-arrangement context.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the actual contractual difference between a standing offer and a supply arrangement?"
+        },
+        {
+          "role": "assistant",
+          "content": "A standing offer is not itself a contract, while a supply arrangement is also not a contract but a framework for future solicitations."
+        },
+        {
+          "role": "user",
+          "content": "What about under each one, when is Canada legally bound?"
+        }
+      ],
+      "tags": ["follow_up", "multi_turn", "method_of_supply"],
+      "quality_focus": ["follow_up_resolution", "contractual_exactness"]
+    },
+    {
+      "id": "HR_001",
+      "question": "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?",
+      "description": "Compound late-offer workflow case.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?"
+        }
+      ],
+      "tags": ["first_turn", "compound", "workflow", "late_offer"],
+      "quality_focus": ["workflow_coverage", "deadline_handling"]
+    },
+    {
+      "id": "HR_002",
+      "question": "What if it came through CPC Connect instead?",
+      "description": "Follow-up should preserve the late-offer context and resolve the delivery-method branch correctly.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "We received a bid after the deadline and the supplier says they sent it on time. What proof counts, and what are we supposed to do with the offer?"
+        },
+        {
+          "role": "assistant",
+          "content": "You need acceptable proof of timely receipt or delayed-offer evidence. Otherwise the late offer is returned or rejected."
+        },
+        {
+          "role": "user",
+          "content": "What if it came through CPC Connect instead?"
+        }
+      ],
+      "tags": ["follow_up", "multi_turn", "workflow", "late_offer"],
+      "quality_focus": ["follow_up_resolution", "delivery_method_branch"]
+    },
+    {
+      "id": "HR_019",
+      "question": "The Buy Canadian policy page sounds stricter than the Buyer's Guide. Can I just rely on the policy page and skip the Buyer's Guide reciprocal procurement workflow?",
+      "description": "Source-boundary and workflow-authority case.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "The Buy Canadian policy page sounds stricter than the Buyer's Guide. Can I just rely on the policy page and skip the Buyer's Guide reciprocal procurement workflow?"
+        }
+      ],
+      "tags": ["first_turn", "source_boundary", "workflow"],
+      "quality_focus": ["source_authority", "workflow_boundary"]
+    },
+    {
+      "id": "EX_001",
+      "question": "What exact form number or file name do I need for the specimen signature card template when approvals go beyond delegated authority?",
+      "description": "Exactness-sensitive case where the system should avoid inventing an exact identifier.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What exact form number or file name do I need for the specimen signature card template when approvals go beyond delegated authority?"
+        }
+      ],
+      "tags": ["first_turn", "exactness", "abstention_sensitive"],
+      "quality_focus": ["unsupported_exact_detail", "abstention"]
+    },
+    {
+      "id": "NAV_001",
+      "question": "Where in the Buyer's Guide do I find the minimum solicitation periods for ITQs, RFSAs, and urgent procurements?",
+      "description": "Navigation question should point clearly to the relevant Buyer’s Guide location.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Where in the Buyer's Guide do I find the minimum solicitation periods for ITQs, RFSAs, and urgent procurements?"
+        }
+      ],
+      "tags": ["first_turn", "navigation"],
+      "quality_focus": ["navigation", "citation_quality"]
+    },
+    {
+      "id": "SEC_001",
+      "question": "If we use a standing offer or supply arrangement for work with security requirements, what has to be specified up front and what do we have to verify or attach before a call-up or contract goes out?",
+      "description": "Multi-claim method-of-supply security workflow question.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "If we use a standing offer or supply arrangement for work with security requirements, what has to be specified up front and what do we have to verify or attach before a call-up or contract goes out?"
+        }
+      ],
+      "tags": ["first_turn", "compound", "security", "method_of_supply"],
+      "quality_focus": ["multi_claim_workflow", "security_requirements"]
+    }
+  ]
+}

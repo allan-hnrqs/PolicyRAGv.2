@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:34.398134Z",
-  "content_hash": "a6ca8782aac78aee3ee3462951b17ebf9c0565011b9b2571b54841a21b53fbfa",
-  "word_count": 824,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "7a6a042065504417dd71e13a1ce623d173988ff555cc9c407387214be5bd99d4",
+  "word_count": 412,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,24 +618,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Choose a solicitation method - Request for standing offer",
+      "block_type": "heading",
+      "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer"
+        "Request for standing offers"
       ],
-      "text": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met. When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s. You must include the following key elements in an RFSO , as a minimum: a clear definition of the requirement and the period for making call-ups the anticipated number of SO s to be authorized for use instructions for offer preparation clear evaluation criteria and procedures, including basis of selection methodology for informing offerors about the evaluation outcomes of their offers a clear ranking methodology where applicable precise call-up procedures, including the work allocation method among multiple SO s a notification to offerors about the disclosure of their unit prices conditions specific to the RFSO and the SO resulting contract clauses applicable to ensuing call-ups the estimated utilization, whenever practical Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups. Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements. Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act . Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
+      "text": "Request for standing offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "Request for standing offers",
+      "text": "A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.",
       "order": 1,
       "metadata": {}
     },
@@ -644,10 +643,9 @@
       "block_type": "paragraph",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.",
+      "text": "When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.",
       "order": 2,
       "metadata": {}
     },
@@ -656,22 +654,20 @@
       "block_type": "paragraph",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.",
+      "text": "You must include the following key elements in an RFSO , as a minimum:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "You must include the following key elements in an RFSO , as a minimum:",
+      "text": "a clear definition of the requirement and the period for making call-ups",
       "order": 4,
       "metadata": {}
     },
@@ -680,10 +676,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "a clear definition of the requirement and the period for making call-ups",
+      "text": "the anticipated number of SO s to be authorized for use",
       "order": 5,
       "metadata": {}
     },
@@ -692,10 +687,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "the anticipated number of SO s to be authorized for use",
+      "text": "instructions for offer preparation",
       "order": 6,
       "metadata": {}
     },
@@ -704,10 +698,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "instructions for offer preparation",
+      "text": "clear evaluation criteria and procedures, including basis of selection",
       "order": 7,
       "metadata": {}
     },
@@ -716,10 +709,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "clear evaluation criteria and procedures, including basis of selection",
+      "text": "methodology for informing offerors about the evaluation outcomes of their offers",
       "order": 8,
       "metadata": {}
     },
@@ -728,10 +720,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "methodology for informing offerors about the evaluation outcomes of their offers",
+      "text": "a clear ranking methodology where applicable",
       "order": 9,
       "metadata": {}
     },
@@ -740,10 +731,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "a clear ranking methodology where applicable",
+      "text": "precise call-up procedures, including the work allocation method among multiple SO s",
       "order": 10,
       "metadata": {}
     },
@@ -752,10 +742,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "precise call-up procedures, including the work allocation method among multiple SO s",
+      "text": "a notification to offerors about the disclosure of their unit prices",
       "order": 11,
       "metadata": {}
     },
@@ -764,10 +753,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "a notification to offerors about the disclosure of their unit prices",
+      "text": "conditions specific to the RFSO and the SO",
       "order": 12,
       "metadata": {}
     },
@@ -776,10 +764,9 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "conditions specific to the RFSO and the SO",
+      "text": "resulting contract clauses applicable to ensuing call-ups",
       "order": 13,
       "metadata": {}
     },
@@ -788,35 +775,33 @@
       "block_type": "list_item",
       "heading": "Request for standing offers",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers"
       ],
-      "text": "resulting contract clauses applicable to ensuing call-ups",
+      "text": "the estimated utilization, whenever practical",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
-      "heading": "Request for standing offers",
+      "block_type": "heading",
+      "heading": "Standing offer procedures",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
-        "Request for standing offers"
+        "Request for standing offers",
+        "Standing offer procedures"
       ],
-      "text": "the estimated utilization, whenever practical",
+      "text": "Standing offer procedures",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Standing offer procedures",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers",
         "Standing offer procedures"
       ],
-      "text": "Standing offer procedures",
+      "text": "Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.",
       "order": 16,
       "metadata": {}
     },
@@ -825,11 +810,10 @@
       "block_type": "paragraph",
       "heading": "Standing offer procedures",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers",
         "Standing offer procedures"
       ],
-      "text": "Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.",
+      "text": "Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.",
       "order": 17,
       "metadata": {}
     },
@@ -838,11 +822,10 @@
       "block_type": "paragraph",
       "heading": "Standing offer procedures",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers",
         "Standing offer procedures"
       ],
-      "text": "Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.",
+      "text": "Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .",
       "order": 18,
       "metadata": {}
     },
@@ -851,30 +834,16 @@
       "block_type": "paragraph",
       "heading": "Standing offer procedures",
       "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
-        "Request for standing offers",
-        "Standing offer procedures"
-      ],
-      "text": "Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .",
-      "order": 19,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Standing offer procedures",
-      "heading_path": [
-        "Buyer's Guide Choose a solicitation method - Request for standing offer",
         "Request for standing offers",
         "Standing offer procedures"
       ],
       "text": "Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
-      "order": 20,
+      "order": 19,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met. When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s. You must include the following key elements in an RFSO , as a minimum: a clear definition of the requirement and the period for making call-ups the anticipated number of SO s to be authorized for use instructions for offer preparation clear evaluation criteria and procedures, including basis of selection methodology for informing offerors about the evaluation outcomes of their offers a clear ranking methodology where applicable precise call-up procedures, including the work allocation method among multiple SO s a notification to offerors about the disclosure of their unit prices conditions specific to the RFSO and the SO resulting contract clauses applicable to ensuing call-ups the estimated utilization, whenever practical Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups. Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements. Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act . Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.\n\nRequest for standing offers\n\nA Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.\n\nWhen creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.\n\nYou must include the following key elements in an RFSO , as a minimum:\n\na clear definition of the requirement and the period for making call-ups\n\nthe anticipated number of SO s to be authorized for use\n\ninstructions for offer preparation\n\nclear evaluation criteria and procedures, including basis of selection\n\nmethodology for informing offerors about the evaluation outcomes of their offers\n\na clear ranking methodology where applicable\n\nprecise call-up procedures, including the work allocation method among multiple SO s\n\na notification to offerors about the disclosure of their unit prices\n\nconditions specific to the RFSO and the SO\n\nresulting contract clauses applicable to ensuing call-ups\n\nthe estimated utilization, whenever practical\n\nStanding offer procedures\n\nCall-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.\n\nFinancial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.\n\nIdentified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .\n\nReporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
-  "markdown_text": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met. When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s. You must include the following key elements in an RFSO , as a minimum: a clear definition of the requirement and the period for making call-ups the anticipated number of SO s to be authorized for use instructions for offer preparation clear evaluation criteria and procedures, including basis of selection methodology for informing offerors about the evaluation outcomes of their offers a clear ranking methodology where applicable precise call-up procedures, including the work allocation method among multiple SO s a notification to offerors about the disclosure of their unit prices conditions specific to the RFSO and the SO resulting contract clauses applicable to ensuing call-ups the estimated utilization, whenever practical Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups. Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements. Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act . Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.\n\nRequest for standing offers\n\nA Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.\n\nWhen creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.\n\nYou must include the following key elements in an RFSO , as a minimum:\n\na clear definition of the requirement and the period for making call-ups\n\nthe anticipated number of SO s to be authorized for use\n\ninstructions for offer preparation\n\nclear evaluation criteria and procedures, including basis of selection\n\nmethodology for informing offerors about the evaluation outcomes of their offers\n\na clear ranking methodology where applicable\n\nprecise call-up procedures, including the work allocation method among multiple SO s\n\na notification to offerors about the disclosure of their unit prices\n\nconditions specific to the RFSO and the SO\n\nresulting contract clauses applicable to ensuing call-ups\n\nthe estimated utilization, whenever practical\n\nStanding offer procedures\n\nCall-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.\n\nFinancial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.\n\nIdentified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .\n\nReporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
+  "raw_text": "Request for standing offers\n\nA Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.\n\nWhen creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.\n\nYou must include the following key elements in an RFSO , as a minimum:\n\na clear definition of the requirement and the period for making call-ups\n\nthe anticipated number of SO s to be authorized for use\n\ninstructions for offer preparation\n\nclear evaluation criteria and procedures, including basis of selection\n\nmethodology for informing offerors about the evaluation outcomes of their offers\n\na clear ranking methodology where applicable\n\nprecise call-up procedures, including the work allocation method among multiple SO s\n\na notification to offerors about the disclosure of their unit prices\n\nconditions specific to the RFSO and the SO\n\nresulting contract clauses applicable to ensuing call-ups\n\nthe estimated utilization, whenever practical\n\nStanding offer procedures\n\nCall-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.\n\nFinancial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.\n\nIdentified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .\n\nReporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
+  "markdown_text": "Request for standing offers\n\nA Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.\n\nWhen creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.\n\nYou must include the following key elements in an RFSO , as a minimum:\n\na clear definition of the requirement and the period for making call-ups\n\nthe anticipated number of SO s to be authorized for use\n\ninstructions for offer preparation\n\nclear evaluation criteria and procedures, including basis of selection\n\nmethodology for informing offerors about the evaluation outcomes of their offers\n\na clear ranking methodology where applicable\n\nprecise call-up procedures, including the work allocation method among multiple SO s\n\na notification to offerors about the disclosure of their unit prices\n\nconditions specific to the RFSO and the SO\n\nresulting contract clauses applicable to ensuing call-ups\n\nthe estimated utilization, whenever practical\n\nStanding offer procedures\n\nCall-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A – Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.\n\nFinancial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.\n\nIdentified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .\n\nReporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
   "provenance_paths": {}
 }

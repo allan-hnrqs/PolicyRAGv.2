@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:59.938346Z",
-  "content_hash": "d4ecd06a3eb81f54d30ca8ed2ab00bc8b6a103b29f66b68950d2bccc4b5d75b8",
-  "word_count": 438,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "236686a868258af50642a922e33ecbf98832b980e0b53875263c0a4e41dd2d5f",
+  "word_count": 219,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -619,49 +619,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Tender notices - Tender notices and trade agreements",
+      "block_type": "heading",
+      "heading": "Tender notices and trade agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements"
+        "Tender notices and trade agreements"
       ],
-      "text": "Tender notices and trade agreements For procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement. Key procedures and provisions All procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors . The provisions for public advertisement/notification are described in each of the trade agreements, including: Canada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices World Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices Canadian Free Trade Agreement (CFTA): refer to “Tender Notices” article The procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
+      "text": "Tender notices and trade agreements",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Tender notices and trade agreements",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements"
       ],
-      "text": "Tender notices and trade agreements",
+      "text": "For procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Tender notices and trade agreements",
+      "block_type": "heading",
+      "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
-        "Tender notices and trade agreements"
+        "Tender notices and trade agreements",
+        "Key procedures and provisions"
       ],
-      "text": "For procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.",
+      "text": "Key procedures and provisions",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
-      "text": "Key procedures and provisions",
+      "text": "All procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .",
       "order": 3,
       "metadata": {}
     },
@@ -670,24 +668,22 @@
       "block_type": "paragraph",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
-      "text": "All procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .",
+      "text": "The provisions for public advertisement/notification are described in each of the trade agreements, including:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
-      "text": "The provisions for public advertisement/notification are described in each of the trade agreements, including:",
+      "text": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices",
       "order": 5,
       "metadata": {}
     },
@@ -696,11 +692,10 @@
       "block_type": "list_item",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
-      "text": "Canada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices",
+      "text": "World Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices",
       "order": 6,
       "metadata": {}
     },
@@ -709,43 +704,28 @@
       "block_type": "list_item",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
-      "text": "World Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices",
+      "text": "Canadian Free Trade Agreement (CFTA): refer to “Tender Notices” article",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "list_item",
-      "heading": "Key procedures and provisions",
-      "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
-        "Tender notices and trade agreements",
-        "Key procedures and provisions"
-      ],
-      "text": "Canadian Free Trade Agreement (CFTA): refer to “Tender Notices” article",
-      "order": 8,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0009",
       "block_type": "paragraph",
       "heading": "Key procedures and provisions",
       "heading_path": [
-        "Buyer's Guide Tender notices - Tender notices and trade agreements",
         "Tender notices and trade agreements",
         "Key procedures and provisions"
       ],
       "text": "The procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
-      "order": 9,
+      "order": 8,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Tender notices and trade agreements For procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement. Key procedures and provisions All procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors . The provisions for public advertisement/notification are described in each of the trade agreements, including: Canada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices World Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices Canadian Free Trade Agreement (CFTA): refer to “Tender Notices” article The procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .\n\nTender notices and trade agreements\n\nFor procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.\n\nKey procedures and provisions\n\nAll procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .\n\nThe provisions for public advertisement/notification are described in each of the trade agreements, including:\n\nCanada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices\n\nWorld Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices\n\nCanadian Free Trade Agreement (CFTA): refer to “Tender Notices” article\n\nThe procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
-  "markdown_text": "Tender notices and trade agreements For procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement. Key procedures and provisions All procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors . The provisions for public advertisement/notification are described in each of the trade agreements, including: Canada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices World Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices Canadian Free Trade Agreement (CFTA): refer to “Tender Notices” article The procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .\n\nTender notices and trade agreements\n\nFor procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.\n\nKey procedures and provisions\n\nAll procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .\n\nThe provisions for public advertisement/notification are described in each of the trade agreements, including:\n\nCanada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices\n\nWorld Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices\n\nCanadian Free Trade Agreement (CFTA): refer to “Tender Notices” article\n\nThe procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
+  "raw_text": "Tender notices and trade agreements\n\nFor procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.\n\nKey procedures and provisions\n\nAll procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .\n\nThe provisions for public advertisement/notification are described in each of the trade agreements, including:\n\nCanada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices\n\nWorld Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices\n\nCanadian Free Trade Agreement (CFTA): refer to “Tender Notices” article\n\nThe procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
+  "markdown_text": "Tender notices and trade agreements\n\nFor procurements subject to one or more of Canada's trade agreements, you must adhere to the public advertisement and notification provisions specified within these agreements. This includes any mini-tenders for procurements made against a supply arrangement.\n\nKey procedures and provisions\n\nAll procedures related to public advertisement and notification must comply with the terms outlined in the relevant trade agreements. Unless specific exceptions apply, competitive procurements covered by trade agreements must be advertised on Government Electronic Tendering Service (GETS). Following the posting of a notice, there may be circumstances where it is appropriate to contact potential businesses directly, as detailed in Communicate with offerors .\n\nThe provisions for public advertisement/notification are described in each of the trade agreements, including:\n\nCanada-European Union Comprehensive Economic and Trade Agreement (CETA): Article 19.6: Notices\n\nWorld Trade Organization - Agreement on Government Procurement (WTO-AGP): Article VII: Notices\n\nCanadian Free Trade Agreement (CFTA): refer to “Tender Notices” article\n\nThe procedures to be followed are generally consistent for all of the agreements. In cases of inconsistency among agreements, you must choose the provisions that exemplify the highest standard of openness, such as opting for the longer of two solicitation periods. For detailed guidance on when trade agreements apply, refer to the relevant sections that outline the coverage under a trade agreement .",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:23.400867Z",
-  "content_hash": "0f56f54b6998a27e5a6d22e4833497479ef25d2d2a323071cd484e00a9fedf1f",
-  "word_count": 138,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "42263e7bd5fc838658da3485101b2b05ee70774a87a474f311ddad63b628831c",
+  "word_count": 69,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,42 +617,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Special considerations - Waiver of interest",
+      "block_type": "heading",
+      "heading": "Waiver of interest",
       "heading_path": [
-        "Buyer's Guide Special considerations - Waiver of interest"
+        "Waiver of interest"
       ],
-      "text": "Waiver of interest No PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
+      "text": "Waiver of interest",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Waiver of interest",
-      "heading_path": [
-        "Buyer's Guide Special considerations - Waiver of interest",
-        "Waiver of interest"
-      ],
-      "text": "Waiver of interest",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Waiver of interest",
       "heading_path": [
-        "Buyer's Guide Special considerations - Waiver of interest",
         "Waiver of interest"
       ],
       "text": "No PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Waiver of interest No PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.\n\nWaiver of interest\n\nNo PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
-  "markdown_text": "Waiver of interest No PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.\n\nWaiver of interest\n\nNo PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
+  "raw_text": "Waiver of interest\n\nNo PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
+  "markdown_text": "Waiver of interest\n\nNo PSPC employee is authorized to waive interest owed to Canada without the appropriate delegated authority. For more information on waiver of interest see the TB Interest and Administrative Change Regulations . PSPC buyers should also refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) for information on the process and authority to waive interest charges.",
   "provenance_paths": {}
 }

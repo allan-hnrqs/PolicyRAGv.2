@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:25.970428Z",
   "content_hash": "b5f13fa6fbeb93113480e70f97f2e0326a2ce7d409a9c0d583bace42a0ef174d",
   "word_count": 78,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Final payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Final payments",
         "Final payments"
       ],
       "text": "Final payments",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Final payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Final payments",
         "Final payments"
       ],
       "text": "The total time charged under a fixed-rate contract should be verified for acceptability and accuracy before processing the final claim for payment. Findings should be documented in the procurement file.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Final payments",
       "heading_path": [
-        "Buyer's Guide Manage payments - Final payments",
         "Final payments"
       ],
       "text": "As the buyer, you or a designated qualified personnel from the relevant sector or region should verify the acceptability of the time charged. Personnel from the financial division or another approved qualified individual should ensure the accuracy of recording, following verification standards set by the director.",

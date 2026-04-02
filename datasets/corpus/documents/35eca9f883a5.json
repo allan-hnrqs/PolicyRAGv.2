@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:35.917623Z",
-  "content_hash": "180d311f4b2f9ebdb6fdddabdf62a9797477a288e334f780dcacc035413b1a2a",
-  "word_count": 1164,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c6ef7c6be90780cd91d431d2b91dd960a7192becd8db1e8595f9d6b0555e1a4a",
+  "word_count": 582,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,24 +961,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
+      "block_type": "heading",
+      "heading": "Developing a procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy"
+        "Developing a procurement strategy"
       ],
-      "text": "Developing a procurement strategy The development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition. You must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy. Meeting operational and legal requirements Ensure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives. Conducting complete pricing and risk assessment Assess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information. Providing a challenge function To maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness. Examples of applying this function include: advocating for early engagement with industry when possible challenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny ensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition confirming the appropriate solicitation method is used using advanced contract award notices only when suitable documenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations Considerations for the procurement strategy In developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must: choose the most suitable method of supply for the procurement assess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement determine the contract period, including any options for extension consider delivery requirements, including specific delivery timelines or milestones plan the procurement schedule, detailing the procurement activities can help the project stay on time establish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier consider the environmental impact of procurement decisions weigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions identify potential risks associated with the procurement and mitigation strategies set clear terms for liability and indemnification decide on the involvement of a fairness monitor to ensure the integrity of the procurement process allow small and medium enterprises to participate incorporate opportunities for Indigenous businesses ensure the procurement meets accessibility standards align the procurement with broader government national objectives ensure new procurements are compatible with existing systems or solutions look for opportunities to consolidate procurements for efficiency and cost savings consider the end-of-life disposal of the product plan for the renewal or replacement of goods or services, including all transfer costs Approval process You must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents . Note : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
+      "text": "Developing a procurement strategy",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Developing a procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy"
       ],
-      "text": "Developing a procurement strategy",
+      "text": "The development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.",
       "order": 1,
       "metadata": {}
     },
@@ -987,87 +986,81 @@
       "block_type": "paragraph",
       "heading": "Developing a procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy"
       ],
-      "text": "The development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.",
+      "text": "You must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Developing a procurement strategy",
+      "block_type": "heading",
+      "heading": "Meeting operational and legal requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
-        "Developing a procurement strategy"
+        "Developing a procurement strategy",
+        "Meeting operational and legal requirements"
       ],
-      "text": "You must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.",
+      "text": "Meeting operational and legal requirements",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Meeting operational and legal requirements",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Meeting operational and legal requirements"
       ],
-      "text": "Meeting operational and legal requirements",
+      "text": "Ensure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Meeting operational and legal requirements",
+      "block_type": "heading",
+      "heading": "Conducting complete pricing and risk assessment",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
-        "Meeting operational and legal requirements"
+        "Conducting complete pricing and risk assessment"
       ],
-      "text": "Ensure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.",
+      "text": "Conducting complete pricing and risk assessment",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Conducting complete pricing and risk assessment",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Conducting complete pricing and risk assessment"
       ],
-      "text": "Conducting complete pricing and risk assessment",
+      "text": "Assess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Conducting complete pricing and risk assessment",
+      "block_type": "heading",
+      "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
-        "Conducting complete pricing and risk assessment"
+        "Providing a challenge function"
       ],
-      "text": "Assess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.",
+      "text": "Providing a challenge function",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "Providing a challenge function",
+      "text": "To maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.",
       "order": 8,
       "metadata": {}
     },
@@ -1076,24 +1069,22 @@
       "block_type": "paragraph",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "To maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.",
+      "text": "Examples of applying this function include:",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "Examples of applying this function include:",
+      "text": "advocating for early engagement with industry when possible",
       "order": 10,
       "metadata": {}
     },
@@ -1102,11 +1093,10 @@
       "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "advocating for early engagement with industry when possible",
+      "text": "challenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny",
       "order": 11,
       "metadata": {}
     },
@@ -1115,11 +1105,10 @@
       "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "challenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny",
+      "text": "ensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition",
       "order": 12,
       "metadata": {}
     },
@@ -1128,11 +1117,10 @@
       "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "ensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition",
+      "text": "confirming the appropriate solicitation method is used",
       "order": 13,
       "metadata": {}
     },
@@ -1141,11 +1129,10 @@
       "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "confirming the appropriate solicitation method is used",
+      "text": "using advanced contract award notices only when suitable",
       "order": 14,
       "metadata": {}
     },
@@ -1154,50 +1141,46 @@
       "block_type": "list_item",
       "heading": "Providing a challenge function",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Providing a challenge function"
       ],
-      "text": "using advanced contract award notices only when suitable",
+      "text": "documenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
-      "heading": "Providing a challenge function",
+      "block_type": "heading",
+      "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
-        "Providing a challenge function"
+        "Considerations for the procurement strategy"
       ],
-      "text": "documenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations",
+      "text": "Considerations for the procurement strategy",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "Considerations for the procurement strategy",
+      "text": "In developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "In developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:",
+      "text": "choose the most suitable method of supply for the procurement",
       "order": 18,
       "metadata": {}
     },
@@ -1206,11 +1189,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "choose the most suitable method of supply for the procurement",
+      "text": "assess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement",
       "order": 19,
       "metadata": {}
     },
@@ -1219,11 +1201,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "assess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement",
+      "text": "determine the contract period, including any options for extension",
       "order": 20,
       "metadata": {}
     },
@@ -1232,11 +1213,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "determine the contract period, including any options for extension",
+      "text": "consider delivery requirements, including specific delivery timelines or milestones",
       "order": 21,
       "metadata": {}
     },
@@ -1245,11 +1225,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "consider delivery requirements, including specific delivery timelines or milestones",
+      "text": "plan the procurement schedule, detailing the procurement activities can help the project stay on time",
       "order": 22,
       "metadata": {}
     },
@@ -1258,11 +1237,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "plan the procurement schedule, detailing the procurement activities can help the project stay on time",
+      "text": "establish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier",
       "order": 23,
       "metadata": {}
     },
@@ -1271,11 +1249,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "establish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier",
+      "text": "consider the environmental impact of procurement decisions",
       "order": 24,
       "metadata": {}
     },
@@ -1284,11 +1261,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "consider the environmental impact of procurement decisions",
+      "text": "weigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions",
       "order": 25,
       "metadata": {}
     },
@@ -1297,11 +1273,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "weigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions",
+      "text": "identify potential risks associated with the procurement and mitigation strategies",
       "order": 26,
       "metadata": {}
     },
@@ -1310,11 +1285,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "identify potential risks associated with the procurement and mitigation strategies",
+      "text": "set clear terms for liability and indemnification",
       "order": 27,
       "metadata": {}
     },
@@ -1323,11 +1297,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "set clear terms for liability and indemnification",
+      "text": "decide on the involvement of a fairness monitor to ensure the integrity of the procurement process",
       "order": 28,
       "metadata": {}
     },
@@ -1336,11 +1309,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "decide on the involvement of a fairness monitor to ensure the integrity of the procurement process",
+      "text": "allow small and medium enterprises to participate",
       "order": 29,
       "metadata": {}
     },
@@ -1349,11 +1321,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "allow small and medium enterprises to participate",
+      "text": "incorporate opportunities for Indigenous businesses",
       "order": 30,
       "metadata": {}
     },
@@ -1362,11 +1333,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "incorporate opportunities for Indigenous businesses",
+      "text": "ensure the procurement meets accessibility standards",
       "order": 31,
       "metadata": {}
     },
@@ -1375,11 +1345,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "ensure the procurement meets accessibility standards",
+      "text": "align the procurement with broader government national objectives",
       "order": 32,
       "metadata": {}
     },
@@ -1388,11 +1357,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "align the procurement with broader government national objectives",
+      "text": "ensure new procurements are compatible with existing systems or solutions",
       "order": 33,
       "metadata": {}
     },
@@ -1401,11 +1369,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "ensure new procurements are compatible with existing systems or solutions",
+      "text": "look for opportunities to consolidate procurements for efficiency and cost savings",
       "order": 34,
       "metadata": {}
     },
@@ -1414,11 +1381,10 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "look for opportunities to consolidate procurements for efficiency and cost savings",
+      "text": "consider the end-of-life disposal of the product",
       "order": 35,
       "metadata": {}
     },
@@ -1427,37 +1393,34 @@
       "block_type": "list_item",
       "heading": "Considerations for the procurement strategy",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Considerations for the procurement strategy"
       ],
-      "text": "consider the end-of-life disposal of the product",
+      "text": "plan for the renewal or replacement of goods or services, including all transfer costs",
       "order": 36,
       "metadata": {}
     },
     {
       "block_id": "block_0037",
-      "block_type": "list_item",
-      "heading": "Considerations for the procurement strategy",
+      "block_type": "heading",
+      "heading": "Approval process",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
-        "Considerations for the procurement strategy"
+        "Approval process"
       ],
-      "text": "plan for the renewal or replacement of goods or services, including all transfer costs",
+      "text": "Approval process",
       "order": 37,
       "metadata": {}
     },
     {
       "block_id": "block_0038",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Approval process",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Approval process"
       ],
-      "text": "Approval process",
+      "text": "You must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .",
       "order": 38,
       "metadata": {}
     },
@@ -1466,30 +1429,16 @@
       "block_type": "paragraph",
       "heading": "Approval process",
       "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
-        "Developing a procurement strategy",
-        "Approval process"
-      ],
-      "text": "You must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .",
-      "order": 39,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0040",
-      "block_type": "paragraph",
-      "heading": "Approval process",
-      "heading_path": [
-        "Buyer's Guide Determine the procurement strategy - Developing a procurement strategy",
         "Developing a procurement strategy",
         "Approval process"
       ],
       "text": "Note : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
-      "order": 40,
+      "order": 39,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Developing a procurement strategy The development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition. You must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy. Meeting operational and legal requirements Ensure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives. Conducting complete pricing and risk assessment Assess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information. Providing a challenge function To maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness. Examples of applying this function include: advocating for early engagement with industry when possible challenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny ensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition confirming the appropriate solicitation method is used using advanced contract award notices only when suitable documenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations Considerations for the procurement strategy In developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must: choose the most suitable method of supply for the procurement assess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement determine the contract period, including any options for extension consider delivery requirements, including specific delivery timelines or milestones plan the procurement schedule, detailing the procurement activities can help the project stay on time establish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier consider the environmental impact of procurement decisions weigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions identify potential risks associated with the procurement and mitigation strategies set clear terms for liability and indemnification decide on the involvement of a fairness monitor to ensure the integrity of the procurement process allow small and medium enterprises to participate incorporate opportunities for Indigenous businesses ensure the procurement meets accessibility standards align the procurement with broader government national objectives ensure new procurements are compatible with existing systems or solutions look for opportunities to consolidate procurements for efficiency and cost savings consider the end-of-life disposal of the product plan for the renewal or replacement of goods or services, including all transfer costs Approval process You must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents . Note : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.\n\nDeveloping a procurement strategy\n\nThe development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.\n\nYou must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.\n\nMeeting operational and legal requirements\n\nEnsure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.\n\nConducting complete pricing and risk assessment\n\nAssess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.\n\nProviding a challenge function\n\nTo maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.\n\nExamples of applying this function include:\n\nadvocating for early engagement with industry when possible\n\nchallenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny\n\nensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition\n\nconfirming the appropriate solicitation method is used\n\nusing advanced contract award notices only when suitable\n\ndocumenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations\n\nConsiderations for the procurement strategy\n\nIn developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:\n\nchoose the most suitable method of supply for the procurement\n\nassess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement\n\ndetermine the contract period, including any options for extension\n\nconsider delivery requirements, including specific delivery timelines or milestones\n\nplan the procurement schedule, detailing the procurement activities can help the project stay on time\n\nestablish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier\n\nconsider the environmental impact of procurement decisions\n\nweigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions\n\nidentify potential risks associated with the procurement and mitigation strategies\n\nset clear terms for liability and indemnification\n\ndecide on the involvement of a fairness monitor to ensure the integrity of the procurement process\n\nallow small and medium enterprises to participate\n\nincorporate opportunities for Indigenous businesses\n\nensure the procurement meets accessibility standards\n\nalign the procurement with broader government national objectives\n\nensure new procurements are compatible with existing systems or solutions\n\nlook for opportunities to consolidate procurements for efficiency and cost savings\n\nconsider the end-of-life disposal of the product\n\nplan for the renewal or replacement of goods or services, including all transfer costs\n\nApproval process\n\nYou must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .\n\nNote : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
-  "markdown_text": "Developing a procurement strategy The development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition. You must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy. Meeting operational and legal requirements Ensure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives. Conducting complete pricing and risk assessment Assess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information. Providing a challenge function To maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness. Examples of applying this function include: advocating for early engagement with industry when possible challenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny ensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition confirming the appropriate solicitation method is used using advanced contract award notices only when suitable documenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations Considerations for the procurement strategy In developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must: choose the most suitable method of supply for the procurement assess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement determine the contract period, including any options for extension consider delivery requirements, including specific delivery timelines or milestones plan the procurement schedule, detailing the procurement activities can help the project stay on time establish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier consider the environmental impact of procurement decisions weigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions identify potential risks associated with the procurement and mitigation strategies set clear terms for liability and indemnification decide on the involvement of a fairness monitor to ensure the integrity of the procurement process allow small and medium enterprises to participate incorporate opportunities for Indigenous businesses ensure the procurement meets accessibility standards align the procurement with broader government national objectives ensure new procurements are compatible with existing systems or solutions look for opportunities to consolidate procurements for efficiency and cost savings consider the end-of-life disposal of the product plan for the renewal or replacement of goods or services, including all transfer costs Approval process You must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents . Note : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.\n\nDeveloping a procurement strategy\n\nThe development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.\n\nYou must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.\n\nMeeting operational and legal requirements\n\nEnsure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.\n\nConducting complete pricing and risk assessment\n\nAssess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.\n\nProviding a challenge function\n\nTo maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.\n\nExamples of applying this function include:\n\nadvocating for early engagement with industry when possible\n\nchallenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny\n\nensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition\n\nconfirming the appropriate solicitation method is used\n\nusing advanced contract award notices only when suitable\n\ndocumenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations\n\nConsiderations for the procurement strategy\n\nIn developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:\n\nchoose the most suitable method of supply for the procurement\n\nassess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement\n\ndetermine the contract period, including any options for extension\n\nconsider delivery requirements, including specific delivery timelines or milestones\n\nplan the procurement schedule, detailing the procurement activities can help the project stay on time\n\nestablish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier\n\nconsider the environmental impact of procurement decisions\n\nweigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions\n\nidentify potential risks associated with the procurement and mitigation strategies\n\nset clear terms for liability and indemnification\n\ndecide on the involvement of a fairness monitor to ensure the integrity of the procurement process\n\nallow small and medium enterprises to participate\n\nincorporate opportunities for Indigenous businesses\n\nensure the procurement meets accessibility standards\n\nalign the procurement with broader government national objectives\n\nensure new procurements are compatible with existing systems or solutions\n\nlook for opportunities to consolidate procurements for efficiency and cost savings\n\nconsider the end-of-life disposal of the product\n\nplan for the renewal or replacement of goods or services, including all transfer costs\n\nApproval process\n\nYou must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .\n\nNote : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
+  "raw_text": "Developing a procurement strategy\n\nThe development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.\n\nYou must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.\n\nMeeting operational and legal requirements\n\nEnsure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.\n\nConducting complete pricing and risk assessment\n\nAssess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.\n\nProviding a challenge function\n\nTo maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.\n\nExamples of applying this function include:\n\nadvocating for early engagement with industry when possible\n\nchallenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny\n\nensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition\n\nconfirming the appropriate solicitation method is used\n\nusing advanced contract award notices only when suitable\n\ndocumenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations\n\nConsiderations for the procurement strategy\n\nIn developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:\n\nchoose the most suitable method of supply for the procurement\n\nassess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement\n\ndetermine the contract period, including any options for extension\n\nconsider delivery requirements, including specific delivery timelines or milestones\n\nplan the procurement schedule, detailing the procurement activities can help the project stay on time\n\nestablish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier\n\nconsider the environmental impact of procurement decisions\n\nweigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions\n\nidentify potential risks associated with the procurement and mitigation strategies\n\nset clear terms for liability and indemnification\n\ndecide on the involvement of a fairness monitor to ensure the integrity of the procurement process\n\nallow small and medium enterprises to participate\n\nincorporate opportunities for Indigenous businesses\n\nensure the procurement meets accessibility standards\n\nalign the procurement with broader government national objectives\n\nensure new procurements are compatible with existing systems or solutions\n\nlook for opportunities to consolidate procurements for efficiency and cost savings\n\nconsider the end-of-life disposal of the product\n\nplan for the renewal or replacement of goods or services, including all transfer costs\n\nApproval process\n\nYou must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .\n\nNote : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
+  "markdown_text": "Developing a procurement strategy\n\nThe development of the procurement strategy begins with initial discussions between you as the buyer and the client. It is the most important step in the procurement process, as it influences the scope of the requirement and determines the level of competition.\n\nYou must consider the Public Services and Procurement Canada’s ( PSPC ) Guiding principles when developing a procurement strategy.\n\nMeeting operational and legal requirements\n\nEnsure the procurement strategy satisfies the client's operational requirements. Make sure it also complies with legal requirements, while achieving best value, and advancing national objectives.\n\nConducting complete pricing and risk assessment\n\nAssess pricing considerations, options and potential risks early on and throughout the acquisition lifecycle. Align the pricing strategy to the procurement strategy. Refer to sections 1, 2 and 3 of the Practitioner’s Guide for Procurement Pricing for more information.\n\nProviding a challenge function\n\nTo maintain the integrity of the procurement process, you should provide a challenge function during the procurement strategy stage. This function helps ensure transparency and fairness.\n\nExamples of applying this function include:\n\nadvocating for early engagement with industry when possible\n\nchallenging any proposed non-competitive procurements to ensure the justification is well-supported and can withstand public scrutiny\n\nensuring specific requirements aren't overly restrictive, which could unnecessarily limit competition\n\nconfirming the appropriate solicitation method is used\n\nusing advanced contract award notices only when suitable\n\ndocumenting all decisions related to dividing or unbundling a requirement into smaller parts, ensuring these decisions aren't intended to bypass financial approval thresholds or policy requirements, such as contract entry limits or trade agreement obligations\n\nConsiderations for the procurement strategy\n\nIn developing the most effective procurement strategy, you and the client must consider a few factors. If applicable, you must:\n\nchoose the most suitable method of supply for the procurement\n\nassess the total estimated cost, including all options, maintenance, and storage costs, ensuring a comprehensive understanding of the financial implications of the entire lifecycle cost of the procurement\n\ndetermine the contract period, including any options for extension\n\nconsider delivery requirements, including specific delivery timelines or milestones\n\nplan the procurement schedule, detailing the procurement activities can help the project stay on time\n\nestablish evaluation procedures and a method of selection, detailing the criteria for evaluating offers and selecting the supplier\n\nconsider the environmental impact of procurement decisions\n\nweigh the benefits of procuring commercial (off-the-shelf products) products against customized solutions\n\nidentify potential risks associated with the procurement and mitigation strategies\n\nset clear terms for liability and indemnification\n\ndecide on the involvement of a fairness monitor to ensure the integrity of the procurement process\n\nallow small and medium enterprises to participate\n\nincorporate opportunities for Indigenous businesses\n\nensure the procurement meets accessibility standards\n\nalign the procurement with broader government national objectives\n\nensure new procurements are compatible with existing systems or solutions\n\nlook for opportunities to consolidate procurements for efficiency and cost savings\n\nconsider the end-of-life disposal of the product\n\nplan for the renewal or replacement of goods or services, including all transfer costs\n\nApproval process\n\nYou must give the approval authority the opportunity to approve or reject the proposed procurement strategy as early as possible in the process. Preventing them from investing significant effort and time in a strategy that may not be approved. The procurement strategy must identify any deviations to contracting policies. Learn more about how to Prepare approval documents .\n\nNote : To ensure alignment with original objectives and compliance with policy, you must seek re-approval for any major changes to the procurement strategy during the process.",
   "provenance_paths": {}
 }

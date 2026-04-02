@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:47.194459Z",
-  "content_hash": "122fd264b9ab5d9fc9b9128909ef0e568cbc4d014aa85fbfa307b0c8bd61c97c",
-  "word_count": 344,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "3923d9a780873e40aaa26b2417486aba66ca432f7b3b7dedae48ef38906b30fa",
+  "word_count": 156,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Offer receipt",
+      "block_type": "heading",
+      "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt"
+        "Offer receipt"
       ],
-      "text": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: applicable for all ($) dollar values In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit By facsimile Canada Post Corporation’s Connect service In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
+      "text": "Offer receipt",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "Offer receipt",
+      "text": "The method and location of bid receipt must be specified in the solicitation of offers.",
       "order": 1,
       "metadata": {}
     },
@@ -643,22 +642,20 @@
       "block_type": "paragraph",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "The method and location of bid receipt must be specified in the solicitation of offers.",
+      "text": "Here are the acceptable methods for offer submission and their conditions:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "Here are the acceptable methods for offer submission and their conditions:",
+      "text": "In writing and submitted to the specified receiving unit: applicable for all ($) dollar values",
       "order": 3,
       "metadata": {}
     },
@@ -667,10 +664,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "In writing and submitted to the specified receiving unit: applicable for all ($) dollar values",
+      "text": "In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes",
       "order": 4,
       "metadata": {}
     },
@@ -679,10 +675,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes",
+      "text": "Verbal submission by telephone:",
       "order": 5,
       "metadata": {}
     },
@@ -691,10 +686,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory",
+      "text": "for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes",
       "order": 6,
       "metadata": {}
     },
@@ -703,10 +697,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes",
+      "text": "for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory",
       "order": 7,
       "metadata": {}
     },
@@ -715,10 +708,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory",
+      "text": "On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit",
       "order": 8,
       "metadata": {}
     },
@@ -727,10 +719,9 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit",
+      "text": "By facsimile",
       "order": 9,
       "metadata": {}
     },
@@ -739,40 +730,26 @@
       "block_type": "list_item",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
-      "text": "By facsimile",
+      "text": "Canada Post Corporation’s Connect service",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
-      "heading": "Offer receipt",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
-        "Offer receipt"
-      ],
-      "text": "Canada Post Corporation’s Connect service",
-      "order": 11,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0012",
       "block_type": "paragraph",
       "heading": "Offer receipt",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Offer receipt",
         "Offer receipt"
       ],
       "text": "In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: applicable for all ($) dollar values In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit By facsimile Canada Post Corporation’s Connect service In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).\n\nOffer receipt\n\nThe method and location of bid receipt must be specified in the solicitation of offers.\n\nHere are the acceptable methods for offer submission and their conditions:\n\nIn writing and submitted to the specified receiving unit: applicable for all ($) dollar values\n\nIn writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nVerbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nfor offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nfor any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nOn electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit\n\nBy facsimile\n\nCanada Post Corporation’s Connect service\n\nIn situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
-  "markdown_text": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: applicable for all ($) dollar values In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit By facsimile Canada Post Corporation’s Connect service In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).\n\nOffer receipt\n\nThe method and location of bid receipt must be specified in the solicitation of offers.\n\nHere are the acceptable methods for offer submission and their conditions:\n\nIn writing and submitted to the specified receiving unit: applicable for all ($) dollar values\n\nIn writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nVerbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nfor offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nfor any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nOn electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit\n\nBy facsimile\n\nCanada Post Corporation’s Connect service\n\nIn situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
+  "raw_text": "Offer receipt\n\nThe method and location of bid receipt must be specified in the solicitation of offers.\n\nHere are the acceptable methods for offer submission and their conditions:\n\nIn writing and submitted to the specified receiving unit: applicable for all ($) dollar values\n\nIn writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nVerbal submission by telephone:\n\nfor offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nfor any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nOn electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit\n\nBy facsimile\n\nCanada Post Corporation’s Connect service\n\nIn situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
+  "markdown_text": "Offer receipt\n\nThe method and location of bid receipt must be specified in the solicitation of offers.\n\nHere are the acceptable methods for offer submission and their conditions:\n\nIn writing and submitted to the specified receiving unit: applicable for all ($) dollar values\n\nIn writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nVerbal submission by telephone:\n\nfor offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n\nfor any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory\n\nOn electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit\n\nBy facsimile\n\nCanada Post Corporation’s Connect service\n\nIn situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
   "provenance_paths": {}
 }

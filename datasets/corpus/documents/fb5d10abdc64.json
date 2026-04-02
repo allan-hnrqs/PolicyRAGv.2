@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:04.666036Z",
   "content_hash": "43644a06cf8093fd94bf131849e79b44db49b1f813a6936fe792d227bdd05667",
   "word_count": 136,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "Alternative dispute resolution",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "You and a contractor can access Alternative Dispute Resolution (ADR) services available through the Office of the Procurement Ombud (OPO). These services can help resolve contractual disputes related to the interpretation or application of terms and conditions of a federal contract.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "OPO ’s ADR services:",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "are available to most federal departments and agencies",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "are facilitated by certified mediators",
@@ -832,7 +827,6 @@
       "block_type": "list_item",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "apply to contractual disputes relating to the interpretation or application of the terms and conditions of a contract",
@@ -844,7 +838,6 @@
       "block_type": "list_item",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "are only conducted when both parties voluntarily agree to participate",
@@ -856,7 +849,6 @@
       "block_type": "paragraph",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "If you're a buyer at Public Services and Procurement Canada (PSPC) and want to use ADR services, you need director-level approval before submitting a request to OPO .",
@@ -868,7 +860,6 @@
       "block_type": "paragraph",
       "heading": "Alternative dispute resolution",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Alternative dispute resolution",
         "Alternative dispute resolution"
       ],
       "text": "To learn more or submit a request, Please visit: Dispute resolution services - Office of the Procurement Ombud .",

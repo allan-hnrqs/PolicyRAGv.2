@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:23.854498Z",
   "content_hash": "621fe4623b27eb87b8eed1d015837e2e48f1cb04cadc1f4f5624c444f311cf58",
   "word_count": 501,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "Cost reimbursable contracts",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "In cost reimbursable contracts, contractors are compensated for costs that are both reasonable and properly incurred in the performance of the work.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "Upon completion of the work, on all cost reimbursable contracts meeting the cost threshold, you must place on the procurement file a certification to the effect that the final amount paid represents a reasonable price. This certification should be based on the findings of a cost audit, if one was done.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "The agreed final price, after all reconciliations, is then formalized through a contract amendment known as the \"finalization of cost amendment\", which adjusts the total contract price to reflect the final price and specifies that no further claims may be submitted.",
@@ -820,7 +816,6 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "The audit provision in contracts exceeding $50,000 with Canadian businesses, allows for the determination of the actual costs incurred to determine the final contract cost of cost reimbursable contracts, and if it is reasonable.",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable contracts",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts"
       ],
       "text": "All cost reimbursable contract require a cost submission at the completion of the contract. All multi-year cost reimbursable contracts, except repair and overhaul services, will include a provision for an annual cost submission as a mandatory deliverable. For repair and overhaul service contracts, an annual cost submission is at your discretion and the audit agency’s.",
@@ -844,7 +838,6 @@
       "block_type": "heading",
       "heading": "Cost audit",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit"
       ],
@@ -857,7 +850,6 @@
       "block_type": "paragraph",
       "heading": "Cost audit",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit"
       ],
@@ -870,7 +862,6 @@
       "block_type": "heading",
       "heading": "Audit selection",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Audit selection"
@@ -884,7 +875,6 @@
       "block_type": "paragraph",
       "heading": "Audit selection",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Audit selection"
@@ -898,7 +888,6 @@
       "block_type": "heading",
       "heading": "Documentation submission",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Documentation submission"
@@ -912,7 +901,6 @@
       "block_type": "paragraph",
       "heading": "Documentation submission",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Documentation submission"
@@ -926,7 +914,6 @@
       "block_type": "heading",
       "heading": "Audit report",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Audit report"
@@ -940,7 +927,6 @@
       "block_type": "paragraph",
       "heading": "Audit report",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Audit report"
@@ -954,7 +940,6 @@
       "block_type": "heading",
       "heading": "Final price determination",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Final price determination"
@@ -968,7 +953,6 @@
       "block_type": "paragraph",
       "heading": "Final price determination",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Final price determination"
@@ -982,7 +966,6 @@
       "block_type": "heading",
       "heading": "Certification of final price",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Certification of final price"
@@ -996,7 +979,6 @@
       "block_type": "paragraph",
       "heading": "Certification of final price",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Cost audit",
         "Certification of final price"
@@ -1010,7 +992,6 @@
       "block_type": "heading",
       "heading": "Receipt and deposit of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Receipt and deposit of monies"
       ],
@@ -1023,7 +1004,6 @@
       "block_type": "paragraph",
       "heading": "Receipt and deposit of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Receipt and deposit of monies"
       ],
@@ -1036,7 +1016,6 @@
       "block_type": "paragraph",
       "heading": "Receipt and deposit of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Receipt and deposit of monies"
       ],
@@ -1049,7 +1028,6 @@
       "block_type": "paragraph",
       "heading": "Receipt and deposit of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Cost reimbursable contracts",
         "Cost reimbursable contracts",
         "Receipt and deposit of monies"
       ],

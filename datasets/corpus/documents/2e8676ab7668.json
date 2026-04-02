@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:01.245163Z",
-  "content_hash": "29c4aa33fa508e70769f14834c3f1ddf50de946212277739007e47d63a576d5d",
-  "word_count": 66,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "74cad5206d84056ca9aabec8e3b1cb06a99e8c7823914629496efd3d0f7495f2",
+  "word_count": 33,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -974,42 +974,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment",
+      "block_type": "heading",
+      "heading": "Basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment"
+        "Basis of payment"
       ],
-      "text": "Basis of payment The basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
+      "text": "Basis of payment",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Basis of payment",
-      "heading_path": [
-        "Buyer's Guide Basis of payment",
-        "Basis of payment"
-      ],
-      "text": "Basis of payment",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment",
         "Basis of payment"
       ],
       "text": "The basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Basis of payment The basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.\n\nBasis of payment\n\nThe basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
-  "markdown_text": "Basis of payment The basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.\n\nBasis of payment\n\nThe basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
+  "raw_text": "Basis of payment\n\nThe basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
+  "markdown_text": "Basis of payment\n\nThe basis of payment is a critical component of a contract. This section provides information on the various types of basis of payment, and when and how to use them.",
   "provenance_paths": {}
 }

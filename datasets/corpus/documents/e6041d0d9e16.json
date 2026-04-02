@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:09.012201Z",
-  "content_hash": "bee80d0f9f38184f10f9f06245ef4b90f2f6474254e93c0f140d2f883af7b228",
-  "word_count": 120,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "14b2cbf5e085de8f9c772fee45c601273e7444a66517a8faa63a1169e81ed1e2",
+  "word_count": 60,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Overview of key pricing considerations",
+      "block_type": "heading",
+      "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations"
+        "Overview of key pricing considerations"
       ],
-      "text": "Overview of key pricing considerations To support effective procurement, you should consider: managing pricing throughout the acquisition lifecycle engaging expert advice, as needed documenting and justifying all key pricing decisions and then incorporating them in the contract developing a validation strategy capturing and tracking lessons learned See the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
+      "text": "Overview of key pricing considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "Overview of key pricing considerations",
+      "text": "To support effective procurement, you should consider:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "To support effective procurement, you should consider:",
+      "text": "managing pricing throughout the acquisition lifecycle",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "managing pricing throughout the acquisition lifecycle",
+      "text": "engaging expert advice, as needed",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "engaging expert advice, as needed",
+      "text": "documenting and justifying all key pricing decisions and then incorporating them in the contract",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "documenting and justifying all key pricing decisions and then incorporating them in the contract",
+      "text": "developing a validation strategy",
       "order": 5,
       "metadata": {}
     },
@@ -1034,40 +1029,26 @@
       "block_type": "list_item",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
-      "text": "developing a validation strategy",
+      "text": "capturing and tracking lessons learned",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
-      "heading": "Overview of key pricing considerations",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
-        "Overview of key pricing considerations"
-      ],
-      "text": "capturing and tracking lessons learned",
-      "order": 7,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0008",
       "block_type": "paragraph",
       "heading": "Overview of key pricing considerations",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Overview of key pricing considerations",
         "Overview of key pricing considerations"
       ],
       "text": "See the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
-      "order": 8,
+      "order": 7,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Overview of key pricing considerations To support effective procurement, you should consider: managing pricing throughout the acquisition lifecycle engaging expert advice, as needed documenting and justifying all key pricing decisions and then incorporating them in the contract developing a validation strategy capturing and tracking lessons learned See the section 3 of the Practitioner's Guide for Procurement Pricing for more information.\n\nOverview of key pricing considerations\n\nTo support effective procurement, you should consider:\n\nmanaging pricing throughout the acquisition lifecycle\n\nengaging expert advice, as needed\n\ndocumenting and justifying all key pricing decisions and then incorporating them in the contract\n\ndeveloping a validation strategy\n\ncapturing and tracking lessons learned\n\nSee the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
-  "markdown_text": "Overview of key pricing considerations To support effective procurement, you should consider: managing pricing throughout the acquisition lifecycle engaging expert advice, as needed documenting and justifying all key pricing decisions and then incorporating them in the contract developing a validation strategy capturing and tracking lessons learned See the section 3 of the Practitioner's Guide for Procurement Pricing for more information.\n\nOverview of key pricing considerations\n\nTo support effective procurement, you should consider:\n\nmanaging pricing throughout the acquisition lifecycle\n\nengaging expert advice, as needed\n\ndocumenting and justifying all key pricing decisions and then incorporating them in the contract\n\ndeveloping a validation strategy\n\ncapturing and tracking lessons learned\n\nSee the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
+  "raw_text": "Overview of key pricing considerations\n\nTo support effective procurement, you should consider:\n\nmanaging pricing throughout the acquisition lifecycle\n\nengaging expert advice, as needed\n\ndocumenting and justifying all key pricing decisions and then incorporating them in the contract\n\ndeveloping a validation strategy\n\ncapturing and tracking lessons learned\n\nSee the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
+  "markdown_text": "Overview of key pricing considerations\n\nTo support effective procurement, you should consider:\n\nmanaging pricing throughout the acquisition lifecycle\n\nengaging expert advice, as needed\n\ndocumenting and justifying all key pricing decisions and then incorporating them in the contract\n\ndeveloping a validation strategy\n\ncapturing and tracking lessons learned\n\nSee the section 3 of the Practitioner's Guide for Procurement Pricing for more information.",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:45.130577Z",
-  "content_hash": "67cc6fb6cf94a56acfb97e80bde991a2d10922ca28386a23fc1892b93c6d718e",
-  "word_count": 52,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "3d347f56cb6ef16748a7270ddf8c1bbd7f95941ed298d725e9fdb4bb2fa4e5d9",
+  "word_count": 26,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -651,42 +651,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Manage evaluation results",
+      "block_type": "heading",
+      "heading": "Manage evaluation results",
       "heading_path": [
-        "Buyer's Guide Manage evaluation results"
+        "Manage evaluation results"
       ],
-      "text": "Manage evaluation results This section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
+      "text": "Manage evaluation results",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Manage evaluation results",
-      "heading_path": [
-        "Buyer's Guide Manage evaluation results",
-        "Manage evaluation results"
-      ],
-      "text": "Manage evaluation results",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Manage evaluation results",
       "heading_path": [
-        "Buyer's Guide Manage evaluation results",
         "Manage evaluation results"
       ],
       "text": "This section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Manage evaluation results This section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.\n\nManage evaluation results\n\nThis section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
-  "markdown_text": "Manage evaluation results This section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.\n\nManage evaluation results\n\nThis section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
+  "raw_text": "Manage evaluation results\n\nThis section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
+  "markdown_text": "Manage evaluation results\n\nThis section provides information on how to communicate evaluation outcomes to offerors, conduct debriefings and feedback sessions, ensure fairness and address potential disputes.",
   "provenance_paths": {}
 }

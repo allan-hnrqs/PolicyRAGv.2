@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:35.488104Z",
   "content_hash": "d5efc5f0174f906f24bfd3ce89a21c9ed711718834fdffafd0932ac344eed305",
   "word_count": 580,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "Design change or deviation",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "If there is no provision in the contract for design changes or deviations, the procedure may be initiated upon receipt of an authorization document from the client. The authorization must be incorporated into the contract through an amendment. Adequate funding must be authorized and set aside for changes. If additional funds are required, a requisition amendment must be submitted.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "The responsibilities and considerations involved in managing changes or deviations are listed below:",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "each design change must have technical approval by the technical authority or project authority as specified in the contract and be approved by the buyer",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "a design change requiring a price adjustment, should be negotiated before the change in work is made",
@@ -832,7 +827,6 @@
       "block_type": "list_item",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "after approval by the client, you are responsible for prompt negotiation of price adjustments and updating the total contract price",
@@ -844,7 +838,6 @@
       "block_type": "list_item",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "The form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) support all deviations and changes",
@@ -856,7 +849,6 @@
       "block_type": "list_item",
       "heading": "Design change or deviation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation"
       ],
       "text": "surplus materials from an authorized design change or deviation must be accounted for and reported to you, the buyer",
@@ -868,7 +860,6 @@
       "block_type": "heading",
       "heading": "Design change or deviation procedure",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure"
       ],
@@ -881,7 +872,6 @@
       "block_type": "paragraph",
       "heading": "Design change or deviation procedure",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure"
       ],
@@ -894,7 +884,6 @@
       "block_type": "heading",
       "heading": "Initiation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Initiation"
@@ -908,7 +897,6 @@
       "block_type": "paragraph",
       "heading": "Initiation",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Initiation"
@@ -922,7 +910,6 @@
       "block_type": "heading",
       "heading": "Contractor's role",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Contractor's role"
@@ -936,7 +923,6 @@
       "block_type": "paragraph",
       "heading": "Contractor's role",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Contractor's role"
@@ -950,7 +936,6 @@
       "block_type": "heading",
       "heading": "Subcontractor submission",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Subcontractor submission"
@@ -964,7 +949,6 @@
       "block_type": "paragraph",
       "heading": "Subcontractor submission",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Subcontractor submission"
@@ -978,7 +962,6 @@
       "block_type": "heading",
       "heading": "Approval process",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Approval process"
@@ -992,7 +975,6 @@
       "block_type": "paragraph",
       "heading": "Approval process",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Approval process"
@@ -1006,7 +988,6 @@
       "block_type": "heading",
       "heading": "Authority initiated changes",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Authority initiated changes"
@@ -1020,7 +1001,6 @@
       "block_type": "paragraph",
       "heading": "Authority initiated changes",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Authority initiated changes"
@@ -1034,7 +1014,6 @@
       "block_type": "heading",
       "heading": "Multiple contracts",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Multiple contracts"
@@ -1048,7 +1027,6 @@
       "block_type": "paragraph",
       "heading": "Multiple contracts",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Multiple contracts"
@@ -1062,7 +1040,6 @@
       "block_type": "heading",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1076,7 +1053,6 @@
       "block_type": "paragraph",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1090,7 +1066,6 @@
       "block_type": "list_item",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1104,7 +1079,6 @@
       "block_type": "list_item",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1118,7 +1092,6 @@
       "block_type": "list_item",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1132,7 +1105,6 @@
       "block_type": "list_item",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1146,7 +1118,6 @@
       "block_type": "list_item",
       "heading": "Buyer's responsibilities",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Buyer's responsibilities"
@@ -1160,7 +1131,6 @@
       "block_type": "heading",
       "heading": "Contractor inquiries",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Contractor inquiries"
@@ -1174,7 +1144,6 @@
       "block_type": "paragraph",
       "heading": "Contractor inquiries",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Design change or deviation",
         "Design change or deviation",
         "Design change or deviation procedure",
         "Contractor inquiries"

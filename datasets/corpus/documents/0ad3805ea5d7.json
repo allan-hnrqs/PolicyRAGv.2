@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:53.734120Z",
-  "content_hash": "3f1e41adfa8be0656cc99cd19b74df78c930e462a2a5aed480ba789b4a947e3b",
-  "word_count": 254,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b01cdc0635ae4c0b992583904ce546282ee78d66cb36d1293391c903a9915858",
+  "word_count": 127,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,36 +617,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
+      "block_type": "heading",
+      "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest."
+        "Solicitations following a request for expressions of interest"
       ],
-      "text": "Solicitations following a request for expressions of interest If a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced: a description of the procurement the approximate final dates to submit offers or requests to participate a request that businesses express their interest to the procuring entity the address to obtain the procurement documents as much of the information required for the new NPP , as is available",
+      "text": "Solicitations following a request for expressions of interest",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
-      "text": "Solicitations following a request for expressions of interest",
+      "text": "If a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
-      "text": "If a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:",
+      "text": "a description of the procurement",
       "order": 2,
       "metadata": {}
     },
@@ -655,10 +653,9 @@
       "block_type": "list_item",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
-      "text": "a description of the procurement",
+      "text": "the approximate final dates to submit offers or requests to participate",
       "order": 3,
       "metadata": {}
     },
@@ -667,10 +664,9 @@
       "block_type": "list_item",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
-      "text": "the approximate final dates to submit offers or requests to participate",
+      "text": "a request that businesses express their interest to the procuring entity",
       "order": 4,
       "metadata": {}
     },
@@ -679,10 +675,9 @@
       "block_type": "list_item",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
-      "text": "a request that businesses express their interest to the procuring entity",
+      "text": "the address to obtain the procurement documents",
       "order": 5,
       "metadata": {}
     },
@@ -691,28 +686,15 @@
       "block_type": "list_item",
       "heading": "Solicitations following a request for expressions of interest",
       "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
-        "Solicitations following a request for expressions of interest"
-      ],
-      "text": "the address to obtain the procurement documents",
-      "order": 6,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0007",
-      "block_type": "list_item",
-      "heading": "Solicitations following a request for expressions of interest",
-      "heading_path": [
-        "Buyer's Guide Determine the solicitation period - Solicitations following a request for expressions of interest.",
         "Solicitations following a request for expressions of interest"
       ],
       "text": "as much of the information required for the new NPP , as is available",
-      "order": 7,
+      "order": 6,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Solicitations following a request for expressions of interest If a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced: a description of the procurement the approximate final dates to submit offers or requests to participate a request that businesses express their interest to the procuring entity the address to obtain the procurement documents as much of the information required for the new NPP , as is available\n\nSolicitations following a request for expressions of interest\n\nIf a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:\n\na description of the procurement\n\nthe approximate final dates to submit offers or requests to participate\n\na request that businesses express their interest to the procuring entity\n\nthe address to obtain the procurement documents\n\nas much of the information required for the new NPP , as is available",
-  "markdown_text": "Solicitations following a request for expressions of interest If a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced: a description of the procurement the approximate final dates to submit offers or requests to participate a request that businesses express their interest to the procuring entity the address to obtain the procurement documents as much of the information required for the new NPP , as is available\n\nSolicitations following a request for expressions of interest\n\nIf a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:\n\na description of the procurement\n\nthe approximate final dates to submit offers or requests to participate\n\na request that businesses express their interest to the procuring entity\n\nthe address to obtain the procurement documents\n\nas much of the information required for the new NPP , as is available",
+  "raw_text": "Solicitations following a request for expressions of interest\n\nIf a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:\n\na description of the procurement\n\nthe approximate final dates to submit offers or requests to participate\n\na request that businesses express their interest to the procuring entity\n\nthe address to obtain the procurement documents\n\nas much of the information required for the new NPP , as is available",
+  "markdown_text": "Solicitations following a request for expressions of interest\n\nIf a solicitation that follows a request for expressions of interest is subject to one or more international trade agreements, the solicitation period may be reduced to 15 calendar days if a previous NPP was published at least 40 days, but no more than 12 months, before the publication of the new NPP . The previously published NPP must have contained the following elements for the solicitation period to be reduced:\n\na description of the procurement\n\nthe approximate final dates to submit offers or requests to participate\n\na request that businesses express their interest to the procuring entity\n\nthe address to obtain the procurement documents\n\nas much of the information required for the new NPP , as is available",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:53.594822Z",
-  "content_hash": "7d53be964cee0018d5e4133155a708e8292bb2ad9e46fdbba9d4437053062d94",
-  "word_count": 58,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "7567b9a91eac639e19a7e64b28825dd39d7bb9e0771cedcb479b8ec422532f38",
+  "word_count": 29,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -513,42 +513,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Manage the solicitation period",
+      "block_type": "heading",
+      "heading": "Manage the solicitation period",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period"
+        "Manage the solicitation period"
       ],
-      "text": "Manage the solicitation period This section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
+      "text": "Manage the solicitation period",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Manage the solicitation period",
-      "heading_path": [
-        "Buyer's Guide Manage the solicitation period",
-        "Manage the solicitation period"
-      ],
-      "text": "Manage the solicitation period",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Manage the solicitation period",
       "heading_path": [
-        "Buyer's Guide Manage the solicitation period",
         "Manage the solicitation period"
       ],
       "text": "This section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Manage the solicitation period This section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.\n\nManage the solicitation period\n\nThis section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
-  "markdown_text": "Manage the solicitation period This section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.\n\nManage the solicitation period\n\nThis section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
+  "raw_text": "Manage the solicitation period\n\nThis section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
+  "markdown_text": "Manage the solicitation period\n\nThis section provides information on activities during the solicitation period, including communications with businesses, notifying land claimant groups, as well as modifications to the solicitation.",
   "provenance_paths": {}
 }

@@ -8,6 +8,12 @@ from bgrag.types import SourceDocument, SourceFamily
 def test_infer_source_family() -> None:
     assert infer_source_family("https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide") == SourceFamily.BUYERS_GUIDE
     assert infer_source_family("https://canadabuys.canada.ca/en/buy-canadian-policy") == SourceFamily.BUY_CANADIAN_POLICY
+    assert (
+        infer_source_family(
+            "https://canadabuys.canada.ca/en/buyer-s-portal/legislation-and-policies/trade-agreements/interim-policy-reciprocal-procurement"
+        )
+        == SourceFamily.BUY_CANADIAN_POLICY
+    )
     assert infer_source_family("https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692") == SourceFamily.TBS_DIRECTIVE
 
 

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:02.465476Z",
-  "content_hash": "86f7fd2c837413a61f250d72424c00be4f1e61b44904ad95d005132fb20ece32",
-  "word_count": 84,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c0b7505b5a0f70482b8cee491a0b5b6838d26d1dbee1542ae0a0869071fa073a",
+  "word_count": 42,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,42 +961,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Cost accounting and pricing",
+      "block_type": "heading",
+      "heading": "Cost accounting and pricing",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost accounting and pricing"
+        "Cost accounting and pricing"
       ],
-      "text": "Cost accounting and pricing If the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
+      "text": "Cost accounting and pricing",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Cost accounting and pricing",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost accounting and pricing",
-        "Cost accounting and pricing"
-      ],
-      "text": "Cost accounting and pricing",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Cost accounting and pricing",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost accounting and pricing",
         "Cost accounting and pricing"
       ],
       "text": "If the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Cost accounting and pricing If the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.\n\nCost accounting and pricing\n\nIf the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
-  "markdown_text": "Cost accounting and pricing If the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.\n\nCost accounting and pricing\n\nIf the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
+  "raw_text": "Cost accounting and pricing\n\nIf the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
+  "markdown_text": "Cost accounting and pricing\n\nIf the contract price will be based on estimated or actual costs, you, in consultation with a price advisor, may require a Cost Accounting Practices Submission. See the Buyer's Guide section Cost and profit negotiations for more information.",
   "provenance_paths": {}
 }

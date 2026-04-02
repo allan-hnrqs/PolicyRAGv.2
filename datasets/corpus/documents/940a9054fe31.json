@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:50.714526Z",
-  "content_hash": "f7f63e0e2c4280d647f6edaca21125505f8b480e4a381c1163d0d370df861706",
-  "word_count": 62,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "afc45c9e39518c423e88b7ba0ed58e5389055d192c36906b9dfd2c51ffb4150b",
+  "word_count": 31,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -738,42 +738,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Receive offers",
+      "block_type": "heading",
+      "heading": "Receive offers",
       "heading_path": [
-        "Buyer's Guide Receive offers"
+        "Receive offers"
       ],
-      "text": "Receive offers This section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
+      "text": "Receive offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Receive offers",
-      "heading_path": [
-        "Buyer's Guide Receive offers",
-        "Receive offers"
-      ],
-      "text": "Receive offers",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Receive offers",
       "heading_path": [
-        "Buyer's Guide Receive offers",
         "Receive offers"
       ],
       "text": "This section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Receive offers This section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.\n\nReceive offers\n\nThis section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
-  "markdown_text": "Receive offers This section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.\n\nReceive offers\n\nThis section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
+  "raw_text": "Receive offers\n\nThis section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
+  "markdown_text": "Receive offers\n\nThis section provides information on the procedures for receiving, handling, and verifying offers. It covers proper logging, secure storage, and the management of late, delayed, modified, or withdrawn offers.",
   "provenance_paths": {}
 }

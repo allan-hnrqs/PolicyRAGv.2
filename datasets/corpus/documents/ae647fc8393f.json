@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:36.658534Z",
-  "content_hash": "5912b3995dc7cd11b17f146512792498ce3b342962bc2b65eb06c20952856e8c",
-  "word_count": 2128,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "af18685fe62453e00af1e161f65e6c115d5ac9e90e6383f89824b4c557b75b6b",
+  "word_count": 1064,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -529,24 +529,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
+      "block_type": "heading",
+      "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability"
+        "Evaluate an offeror’s financial capability"
       ],
-      "text": "Evaluate an offeror’s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business’ history information on the business’ operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
+      "text": "Evaluate an offeror’s financial capability",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Evaluate an offeror’s financial capability",
+      "text": "Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.",
       "order": 1,
       "metadata": {}
     },
@@ -555,10 +554,9 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.",
+      "text": "Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.",
       "order": 2,
       "metadata": {}
     },
@@ -567,10 +565,9 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.",
+      "text": "Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.",
       "order": 3,
       "metadata": {}
     },
@@ -579,10 +576,9 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.",
+      "text": "SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .",
       "order": 4,
       "metadata": {}
     },
@@ -591,10 +587,9 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .",
+      "text": "Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.",
       "order": 5,
       "metadata": {}
     },
@@ -603,22 +598,20 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.",
+      "text": "Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for:",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for:",
+      "text": "assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )",
       "order": 7,
       "metadata": {}
     },
@@ -627,10 +620,9 @@
       "block_type": "list_item",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )",
+      "text": "contracts involving educational institutions, Crown corporations, government departments and agencies",
       "order": 8,
       "metadata": {}
     },
@@ -639,10 +631,9 @@
       "block_type": "list_item",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "contracts involving educational institutions, Crown corporations, government departments and agencies",
+      "text": "contracts for the services of individuals",
       "order": 9,
       "metadata": {}
     },
@@ -651,22 +642,20 @@
       "block_type": "list_item",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "contracts for the services of individuals",
+      "text": "contracts for generally available commercial goods or services from offerors selected by competition",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "contracts for generally available commercial goods or services from offerors selected by competition",
+      "text": "Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.",
       "order": 11,
       "metadata": {}
     },
@@ -675,35 +664,33 @@
       "block_type": "paragraph",
       "heading": "Evaluate an offeror’s financial capability",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability"
       ],
-      "text": "Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.",
+      "text": "Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Evaluate an offeror’s financial capability",
+      "block_type": "heading",
+      "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
-        "Evaluate an offeror’s financial capability"
+        "Evaluate an offeror’s financial capability",
+        "Verify offer financial security"
       ],
-      "text": "Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.",
+      "text": "Verify offer financial security",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Verify offer financial security",
+      "text": "Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.",
       "order": 14,
       "metadata": {}
     },
@@ -712,11 +699,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.",
+      "text": "Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.",
       "order": 15,
       "metadata": {}
     },
@@ -725,11 +711,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.",
+      "text": "Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.",
       "order": 16,
       "metadata": {}
     },
@@ -738,11 +723,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.",
+      "text": "Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.",
       "order": 17,
       "metadata": {}
     },
@@ -751,11 +735,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.",
+      "text": "Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.",
       "order": 18,
       "metadata": {}
     },
@@ -764,11 +747,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.",
+      "text": "Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.",
       "order": 19,
       "metadata": {}
     },
@@ -777,11 +759,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.",
+      "text": "Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.",
       "order": 20,
       "metadata": {}
     },
@@ -790,11 +771,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.",
+      "text": "Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.",
       "order": 21,
       "metadata": {}
     },
@@ -803,11 +783,10 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.",
+      "text": "Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.",
       "order": 22,
       "metadata": {}
     },
@@ -816,50 +795,46 @@
       "block_type": "paragraph",
       "heading": "Verify offer financial security",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Verify offer financial security"
       ],
-      "text": "Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.",
+      "text": "Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "paragraph",
-      "heading": "Verify offer financial security",
+      "block_type": "heading",
+      "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
-        "Verify offer financial security"
+        "Business credit services"
       ],
-      "text": "Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.",
+      "text": "Business credit services",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "Business credit services",
+      "text": "Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:",
+      "text": "simplified financial statements",
       "order": 26,
       "metadata": {}
     },
@@ -868,11 +843,10 @@
       "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "simplified financial statements",
+      "text": "details of maximum credit obtained from the business",
       "order": 27,
       "metadata": {}
     },
@@ -881,11 +855,10 @@
       "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "details of maximum credit obtained from the business",
+      "text": "promptness of payments made",
       "order": 28,
       "metadata": {}
     },
@@ -894,11 +867,10 @@
       "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "promptness of payments made",
+      "text": "banking information",
       "order": 29,
       "metadata": {}
     },
@@ -907,11 +879,10 @@
       "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "banking information",
+      "text": "business’ history",
       "order": 30,
       "metadata": {}
     },
@@ -920,24 +891,22 @@
       "block_type": "list_item",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "business’ history",
+      "text": "information on the business’ operations",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "information on the business’ operations",
+      "text": "Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.",
       "order": 32,
       "metadata": {}
     },
@@ -946,11 +915,10 @@
       "block_type": "paragraph",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.",
+      "text": "Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.",
       "order": 33,
       "metadata": {}
     },
@@ -959,56 +927,40 @@
       "block_type": "paragraph",
       "heading": "Business credit services",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Business credit services"
       ],
-      "text": "Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.",
+      "text": "Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
-      "block_type": "paragraph",
-      "heading": "Business credit services",
+      "block_type": "heading",
+      "heading": "Contractual terms and conditions evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
-        "Business credit services"
+        "Contractual terms and conditions evaluation"
       ],
-      "text": "Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.",
+      "text": "Contractual terms and conditions evaluation",
       "order": 35,
       "metadata": {}
     },
     {
       "block_id": "block_0036",
-      "block_type": "heading",
-      "heading": "Contractual terms and conditions evaluation",
-      "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
-        "Evaluate an offeror’s financial capability",
-        "Contractual terms and conditions evaluation"
-      ],
-      "text": "Contractual terms and conditions evaluation",
-      "order": 36,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0037",
       "block_type": "paragraph",
       "heading": "Contractual terms and conditions evaluation",
       "heading_path": [
-        "Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability",
         "Evaluate an offeror’s financial capability",
         "Contractual terms and conditions evaluation"
       ],
       "text": "You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
-      "order": 37,
+      "order": 36,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Evaluate an offeror’s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business’ history information on the business’ operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.\n\nEvaluate an offeror’s financial capability\n\nEvaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.\n\nRequirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.\n\nConsultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .\n\nRisk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.\n\nExceptions : Assessing the financial capability of potential and existing offerors is not normally required for:\n\nassistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )\n\ncontracts involving educational institutions, Crown corporations, government departments and agencies\n\ncontracts for the services of individuals\n\ncontracts for generally available commercial goods or services from offerors selected by competition\n\nDealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.\n\nFormal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.\n\nVerify offer financial security\n\nVerifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.\n\nRetention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.\n\nInsufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.\n\nGovernment guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.\n\nSurety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.\n\nHandling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.\n\nInstructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.\n\nExamination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.\n\nProvision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.\n\nLetters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.\n\nBusiness credit services\n\nBusiness credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:\n\nsimplified financial statements\n\ndetails of maximum credit obtained from the business\n\npromptness of payments made\n\nbanking information\n\nbusiness’ history\n\ninformation on the business’ operations\n\nObtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.\n\nConfidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.\n\nAccess and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.\n\nContractual terms and conditions evaluation\n\nYou are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
-  "markdown_text": "Evaluate an offeror’s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business’ history information on the business’ operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.\n\nEvaluate an offeror’s financial capability\n\nEvaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.\n\nRequirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.\n\nConsultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .\n\nRisk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.\n\nExceptions : Assessing the financial capability of potential and existing offerors is not normally required for:\n\nassistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )\n\ncontracts involving educational institutions, Crown corporations, government departments and agencies\n\ncontracts for the services of individuals\n\ncontracts for generally available commercial goods or services from offerors selected by competition\n\nDealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.\n\nFormal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.\n\nVerify offer financial security\n\nVerifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.\n\nRetention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.\n\nInsufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.\n\nGovernment guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.\n\nSurety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.\n\nHandling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.\n\nInstructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.\n\nExamination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.\n\nProvision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.\n\nLetters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.\n\nBusiness credit services\n\nBusiness credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:\n\nsimplified financial statements\n\ndetails of maximum credit obtained from the business\n\npromptness of payments made\n\nbanking information\n\nbusiness’ history\n\ninformation on the business’ operations\n\nObtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.\n\nConfidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.\n\nAccess and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.\n\nContractual terms and conditions evaluation\n\nYou are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
+  "raw_text": "Evaluate an offeror’s financial capability\n\nEvaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.\n\nRequirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.\n\nConsultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .\n\nRisk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.\n\nExceptions : Assessing the financial capability of potential and existing offerors is not normally required for:\n\nassistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )\n\ncontracts involving educational institutions, Crown corporations, government departments and agencies\n\ncontracts for the services of individuals\n\ncontracts for generally available commercial goods or services from offerors selected by competition\n\nDealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.\n\nFormal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.\n\nVerify offer financial security\n\nVerifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.\n\nRetention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.\n\nInsufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.\n\nGovernment guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.\n\nSurety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.\n\nHandling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.\n\nInstructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.\n\nExamination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.\n\nProvision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.\n\nLetters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.\n\nBusiness credit services\n\nBusiness credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:\n\nsimplified financial statements\n\ndetails of maximum credit obtained from the business\n\npromptness of payments made\n\nbanking information\n\nbusiness’ history\n\ninformation on the business’ operations\n\nObtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.\n\nConfidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.\n\nAccess and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.\n\nContractual terms and conditions evaluation\n\nYou are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
+  "markdown_text": "Evaluate an offeror’s financial capability\n\nEvaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.\n\nRequirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.\n\nConsultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.\n\nSA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .\n\nRisk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.\n\nExceptions : Assessing the financial capability of potential and existing offerors is not normally required for:\n\nassistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )\n\ncontracts involving educational institutions, Crown corporations, government departments and agencies\n\ncontracts for the services of individuals\n\ncontracts for generally available commercial goods or services from offerors selected by competition\n\nDealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.\n\nFormal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.\n\nVerify offer financial security\n\nVerifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.\n\nRetention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.\n\nInsufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.\n\nGovernment guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.\n\nSurety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.\n\nHandling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.\n\nInstructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.\n\nExamination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.\n\nProvision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.\n\nLetters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.\n\nBusiness credit services\n\nBusiness credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:\n\nsimplified financial statements\n\ndetails of maximum credit obtained from the business\n\npromptness of payments made\n\nbanking information\n\nbusiness’ history\n\ninformation on the business’ operations\n\nObtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.\n\nConfidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.\n\nAccess and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.\n\nContractual terms and conditions evaluation\n\nYou are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
   "provenance_paths": {}
 }

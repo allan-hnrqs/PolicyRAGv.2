@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:14.488474Z",
   "content_hash": "e6052aa3e363586d1bf76c816a4652e3c5f3e75e2696c47cd52b5d9ef9641237",
   "word_count": 605,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -773,7 +773,6 @@
       "block_type": "heading",
       "heading": "Security",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security"
       ],
       "text": "Security",
@@ -785,7 +784,6 @@
       "block_type": "paragraph",
       "heading": "Security",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security"
       ],
       "text": "When a security requirement is specified in the Security Requirements Check List (SRCL), clients must verify that the contractor and their personnel maintain valid security statuses throughout the contract. This is essential before they access any protected or classified information, assets or sites. For procurements using standing offers or supply arrangements, clients must coordinate with the directorate responsible for the Contract Security Program (CSP) to ensure the necessary security levels are met before issuing call-ups and contracts.",
@@ -797,7 +795,6 @@
       "block_type": "paragraph",
       "heading": "Security",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security"
       ],
       "text": "Clients are responsible for confirming that everyone accessing the work sites has the appropriate security clearance. Buyers are required to communicate the security status of the organization to the client at the time of contract award and must update the client on any changes in security statuses identified by the CSP throughout the duration of the contract.",
@@ -809,7 +806,6 @@
       "block_type": "heading",
       "heading": "Verifying compliance with security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Verifying compliance with security requirements"
       ],
@@ -822,7 +818,6 @@
       "block_type": "paragraph",
       "heading": "Verifying compliance with security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Verifying compliance with security requirements"
       ],
@@ -835,7 +830,6 @@
       "block_type": "paragraph",
       "heading": "Verifying compliance with security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Verifying compliance with security requirements"
       ],
@@ -848,7 +842,6 @@
       "block_type": "heading",
       "heading": "Compliance and enforcement with industrial security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements"
       ],
@@ -861,7 +854,6 @@
       "block_type": "paragraph",
       "heading": "Compliance and enforcement with industrial security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements"
       ],
@@ -874,7 +866,6 @@
       "block_type": "paragraph",
       "heading": "Compliance and enforcement with industrial security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements"
       ],
@@ -887,7 +878,6 @@
       "block_type": "paragraph",
       "heading": "Compliance and enforcement with industrial security requirements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements"
       ],
@@ -900,7 +890,6 @@
       "block_type": "heading",
       "heading": "Level 1 Warning",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 1 Warning"
@@ -914,7 +903,6 @@
       "block_type": "paragraph",
       "heading": "Level 1 Warning",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 1 Warning"
@@ -928,7 +916,6 @@
       "block_type": "heading",
       "heading": "Level 2 Second warning",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 2 Second warning"
@@ -942,7 +929,6 @@
       "block_type": "paragraph",
       "heading": "Level 2 Second warning",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 2 Second warning"
@@ -956,7 +942,6 @@
       "block_type": "heading",
       "heading": "Level 3 Revocation of security status",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 3 Revocation of security status"
@@ -970,7 +955,6 @@
       "block_type": "paragraph",
       "heading": "Level 3 Revocation of security status",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 3 Revocation of security status"
@@ -984,7 +968,6 @@
       "block_type": "list_item",
       "heading": "Level 3 Revocation of security status",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 3 Revocation of security status"
@@ -998,7 +981,6 @@
       "block_type": "list_item",
       "heading": "Level 3 Revocation of security status",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 3 Revocation of security status"
@@ -1012,7 +994,6 @@
       "block_type": "paragraph",
       "heading": "Level 3 Revocation of security status",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Security",
         "Security",
         "Compliance and enforcement with industrial security requirements",
         "Level 3 Revocation of security status"

@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:22.870007Z",
   "content_hash": "b19982b26e1c09deec5988c19d613c435a01d1457d5bd3dead24ffae74dc24d3",
   "word_count": 279,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "Claims for progress payments and invoicing",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "No payment, other than a progress payment, may be made under a contract unless a person authorized by the appropriate minister certifies that:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "the work has been performed",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "the goods have been supplied or the services rendered as the case may be",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "the price charged is according to the contract or, if not specified by the contract, is reasonable",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "When a payment must be made before the completion of the work the payment must be in accordance with the contract.",
@@ -844,7 +838,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "Claims for progress payments are normally routed through you to the client for verification and authorization of payment. You must process claims for payment within 30 days after invoicing or the receipt of goods, whichever is later. Sectors and regions should set acceptable performance standards to allow adequate time for the client to certify the claim.",
@@ -856,7 +849,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "A claim for progress payment must include a completed version of the Claim for progress payment form identified in the contract which requires a certification of contract expenditures.",
@@ -868,7 +860,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "The contractor normally sends invoices directly to the client. You must also receive a copy to be kept on file.",
@@ -880,7 +871,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "An invoice that includes billings for undelivered items is not considered due until all items are received. If a contractor wants payment for a partial shipment, they must submit an invoice for only the delivered items and in accordance with the conditions outlined in the contract.",
@@ -892,7 +882,6 @@
       "block_type": "paragraph",
       "heading": "Claims for progress payments and invoicing",
       "heading_path": [
-        "Buyer's Guide Manage payments - Claims for progress payments and invoicing",
         "Claims for progress payments and invoicing"
       ],
       "text": "If an invoice or a supporting document contains an error or is missing information, the client must contact the contractor within 15 days of receipt and return any invoice not in accordance with the terms of the contract to the contractor for resubmission.",

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:21.473843Z",
-  "content_hash": "9c8ad8bc01285ed00c9aceca7da7ef20b08b93c1aac703da442eac523d1679ab",
-  "word_count": 100,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c54eba791284f750cef8268dcbcefda9299e15c9b1151f2d7a380a20a807e249",
+  "word_count": 50,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -962,42 +962,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Socioeconomic considerations",
+      "block_type": "heading",
+      "heading": "Socioeconomic considerations",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations"
+        "Socioeconomic considerations"
       ],
-      "text": "Socioeconomic considerations In the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
+      "text": "Socioeconomic considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Socioeconomic considerations",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations",
-        "Socioeconomic considerations"
-      ],
-      "text": "Socioeconomic considerations",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Socioeconomic considerations",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations",
         "Socioeconomic considerations"
       ],
       "text": "In the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Socioeconomic considerations In the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.\n\nSocioeconomic considerations\n\nIn the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
-  "markdown_text": "Socioeconomic considerations In the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.\n\nSocioeconomic considerations\n\nIn the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
+  "raw_text": "Socioeconomic considerations\n\nIn the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
+  "markdown_text": "Socioeconomic considerations\n\nIn the procurement planning phase, consideration must be given to various socioeconomic programs, as applicable. This section provides information on socioeconomic programs and insights into their significance and potential impacts on the procurement process. It provides practical guidance on how to effectively incorporate these factors into procurement strategies.",
   "provenance_paths": {}
 }

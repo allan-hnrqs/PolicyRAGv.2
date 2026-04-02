@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:14.881756Z",
-  "content_hash": "1dfd479cb3fefb9c22010cffa253dbaa38fc36cfd94e5b73bbf066f52cf02759",
-  "word_count": 54,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "ed97bc4e32071d23482e6bf3e100dbec0bada5e4acfdf62973d4c82c7339189a",
+  "word_count": 27,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -978,42 +978,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract security and privacy requirements",
+      "block_type": "heading",
+      "heading": "Contract security and privacy requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements"
+        "Contract security and privacy requirements"
       ],
-      "text": "Contract security and privacy requirements This section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
+      "text": "Contract security and privacy requirements",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Contract security and privacy requirements",
-      "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements",
-        "Contract security and privacy requirements"
-      ],
-      "text": "Contract security and privacy requirements",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Contract security and privacy requirements",
       "heading_path": [
-        "Buyer's Guide Contract security and privacy requirements",
         "Contract security and privacy requirements"
       ],
       "text": "This section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Contract security and privacy requirements This section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.\n\nContract security and privacy requirements\n\nThis section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
-  "markdown_text": "Contract security and privacy requirements This section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.\n\nContract security and privacy requirements\n\nThis section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
+  "raw_text": "Contract security and privacy requirements\n\nThis section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
+  "markdown_text": "Contract security and privacy requirements\n\nThis section provides information on security and privacy requirements as they apply to contracts, solicitations of offers, standing offers and supply arrangements.",
   "provenance_paths": {}
 }

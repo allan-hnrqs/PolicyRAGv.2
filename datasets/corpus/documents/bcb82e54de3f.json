@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:36.411090Z",
   "content_hash": "7b4415e9a2430021adceca92cb162c80863fe0d674bcda7230a0d5c374c3577c",
   "word_count": 80,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -773,7 +773,6 @@
       "block_type": "heading",
       "heading": "Exercise options",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Exercise options",
         "Exercise options"
       ],
       "text": "Exercise options",
@@ -785,7 +784,6 @@
       "block_type": "paragraph",
       "heading": "Exercise options",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Exercise options",
         "Exercise options"
       ],
       "text": "Before exercising a contract option, you must verify if the option was pre-approved. If the option was not pre-approved, you need to obtain approval from the appropriate authority before amending the contract. This ensures that the necessary oversight and due diligence are maintained.",
@@ -797,7 +795,6 @@
       "block_type": "paragraph",
       "heading": "Exercise options",
       "heading_path": [
-        "Buyer's Guide Modify a contract - Exercise options",
         "Exercise options"
       ],
       "text": "Additionally, you should ensure that the option's pricing is still fair and reasonable. If market pricing for the goods or services has decreased significantly since the contract award, negotiating a lower price may be appropriate.",

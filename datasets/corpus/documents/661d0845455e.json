@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:43.682310Z",
-  "content_hash": "d1fd04cb883f66a7552cfb0abe35c808882bee780cce34682d42eb7a5bc91062",
-  "word_count": 1910,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "200a4e9144b53dd50798e07bb21a7b14ab7b8ae747efb8dc0ea4b19297b341d8",
+  "word_count": 955,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -530,49 +530,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Receive offers - Verify offers",
+      "block_type": "heading",
+      "heading": "Verify offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers"
+        "Verify offers"
       ],
-      "text": "Verify offers Verifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process. Certifications, declarations, and proofs Certifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking. You may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required. Should these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification. You will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration. Exceptions These exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission. Integrity Provisions The offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy . Procurement Strategy for Indigenous Businesses (PSIB) Offerors must include with their offer certification that they meet the PSIB definition of an Indigenous Business. Canadian Content Policy The offeror must provide certification in accordance with conditions defined in the Canadian Content Policy. Registry and Pre-qualification of Floating Plant The offeror must provide certification with the offer. Financial capability documentation Buyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information. Solicitations using Public Openings The offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation. Verification of offeror’s certification As the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors. Managing offers under vendor performance and corrective measures When managing offers under vendor performance and corrective measures (VPCM), consider the following: you must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements) you must set aside any standing offer or supply arrangement for vendors under a relevant VPCM you may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement check the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement when accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM Authority to reject offers The authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required: bankruptcy or inoperability of the offeror evidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws prior contractual remedies exercised by Canada, such as suspension or termination for default poor performance on previous contracts jeopardizing successful completion of the current offer When you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection. You must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer. Review and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM . A review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome. Bid rigging, collusion, fraud You must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act . The following are examples of possible bid-rigging activities: offer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason winning offerors subcontracting to those with higher offers on the same project identical descriptions for non-standard items by different offerors indications of unusual pre-offer communications among competitors about pricing or market division before offer submission a single offeror's consistent success under specific conditions a pattern of offer rotation among a group of offerors",
+      "text": "Verify offers",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Verify offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers"
       ],
-      "text": "Verify offers",
+      "text": "Verifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Verify offers",
+      "block_type": "heading",
+      "heading": "Certifications, declarations, and proofs",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
-        "Verify offers"
+        "Verify offers",
+        "Certifications, declarations, and proofs"
       ],
-      "text": "Verifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.",
+      "text": "Certifications, declarations, and proofs",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Certifications, declarations, and proofs",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Certifications, declarations, and proofs"
       ],
-      "text": "Certifications, declarations, and proofs",
+      "text": "Certifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.",
       "order": 3,
       "metadata": {}
     },
@@ -581,11 +579,10 @@
       "block_type": "paragraph",
       "heading": "Certifications, declarations, and proofs",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Certifications, declarations, and proofs"
       ],
-      "text": "Certifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.",
+      "text": "You may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.",
       "order": 4,
       "metadata": {}
     },
@@ -594,11 +591,10 @@
       "block_type": "paragraph",
       "heading": "Certifications, declarations, and proofs",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Certifications, declarations, and proofs"
       ],
-      "text": "You may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.",
+      "text": "Should these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.",
       "order": 5,
       "metadata": {}
     },
@@ -607,272 +603,252 @@
       "block_type": "paragraph",
       "heading": "Certifications, declarations, and proofs",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Certifications, declarations, and proofs"
       ],
-      "text": "Should these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.",
+      "text": "You will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "paragraph",
-      "heading": "Certifications, declarations, and proofs",
+      "block_type": "heading",
+      "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
-        "Certifications, declarations, and proofs"
+        "Exceptions"
       ],
-      "text": "You will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.",
+      "text": "Exceptions",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Exceptions",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions"
       ],
-      "text": "Exceptions",
+      "text": "These exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Exceptions",
-      "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
-        "Verify offers",
-        "Exceptions"
-      ],
-      "text": "These exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.",
-      "order": 9,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0010",
       "block_type": "heading",
       "heading": "Integrity Provisions",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Integrity Provisions"
       ],
       "text": "Integrity Provisions",
-      "order": 10,
+      "order": 9,
       "metadata": {}
     },
     {
-      "block_id": "block_0011",
+      "block_id": "block_0010",
       "block_type": "paragraph",
       "heading": "Integrity Provisions",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Integrity Provisions"
       ],
       "text": "The offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy .",
-      "order": 11,
+      "order": 10,
       "metadata": {}
     },
     {
-      "block_id": "block_0012",
+      "block_id": "block_0011",
       "block_type": "heading",
       "heading": "Procurement Strategy for Indigenous Businesses (PSIB)",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Procurement Strategy for Indigenous Businesses (PSIB)"
       ],
       "text": "Procurement Strategy for Indigenous Businesses (PSIB)",
-      "order": 12,
+      "order": 11,
       "metadata": {}
     },
     {
-      "block_id": "block_0013",
+      "block_id": "block_0012",
       "block_type": "paragraph",
       "heading": "Procurement Strategy for Indigenous Businesses (PSIB)",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Procurement Strategy for Indigenous Businesses (PSIB)"
       ],
       "text": "Offerors must include with their offer certification that they meet the PSIB definition of an Indigenous Business.",
-      "order": 13,
+      "order": 12,
       "metadata": {}
     },
     {
-      "block_id": "block_0014",
+      "block_id": "block_0013",
       "block_type": "heading",
       "heading": "Canadian Content Policy",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Canadian Content Policy"
       ],
       "text": "Canadian Content Policy",
-      "order": 14,
+      "order": 13,
       "metadata": {}
     },
     {
-      "block_id": "block_0015",
+      "block_id": "block_0014",
       "block_type": "paragraph",
       "heading": "Canadian Content Policy",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Canadian Content Policy"
       ],
       "text": "The offeror must provide certification in accordance with conditions defined in the Canadian Content Policy.",
-      "order": 15,
+      "order": 14,
       "metadata": {}
     },
     {
-      "block_id": "block_0016",
+      "block_id": "block_0015",
       "block_type": "heading",
       "heading": "Registry and Pre-qualification of Floating Plant",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Registry and Pre-qualification of Floating Plant"
       ],
       "text": "Registry and Pre-qualification of Floating Plant",
-      "order": 16,
+      "order": 15,
       "metadata": {}
     },
     {
-      "block_id": "block_0017",
+      "block_id": "block_0016",
       "block_type": "paragraph",
       "heading": "Registry and Pre-qualification of Floating Plant",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Registry and Pre-qualification of Floating Plant"
       ],
       "text": "The offeror must provide certification with the offer.",
-      "order": 17,
+      "order": 16,
       "metadata": {}
     },
     {
-      "block_id": "block_0018",
+      "block_id": "block_0017",
       "block_type": "heading",
       "heading": "Financial capability documentation",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Financial capability documentation"
       ],
       "text": "Financial capability documentation",
-      "order": 18,
+      "order": 17,
       "metadata": {}
     },
     {
-      "block_id": "block_0019",
+      "block_id": "block_0018",
       "block_type": "paragraph",
       "heading": "Financial capability documentation",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Financial capability documentation"
       ],
       "text": "Buyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information.",
-      "order": 19,
+      "order": 18,
       "metadata": {}
     },
     {
-      "block_id": "block_0020",
+      "block_id": "block_0019",
       "block_type": "heading",
       "heading": "Solicitations using Public Openings",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Solicitations using Public Openings"
       ],
       "text": "Solicitations using Public Openings",
-      "order": 20,
+      "order": 19,
       "metadata": {}
     },
     {
-      "block_id": "block_0021",
+      "block_id": "block_0020",
       "block_type": "paragraph",
       "heading": "Solicitations using Public Openings",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Solicitations using Public Openings"
       ],
       "text": "The offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation.",
-      "order": 21,
+      "order": 20,
       "metadata": {}
     },
     {
-      "block_id": "block_0022",
+      "block_id": "block_0021",
       "block_type": "heading",
       "heading": "Verification of offeror’s certification",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Verification of offeror’s certification"
       ],
       "text": "Verification of offeror’s certification",
-      "order": 22,
+      "order": 21,
       "metadata": {}
     },
     {
-      "block_id": "block_0023",
+      "block_id": "block_0022",
       "block_type": "paragraph",
       "heading": "Verification of offeror’s certification",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Exceptions",
         "Verification of offeror’s certification"
       ],
       "text": "As the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors.",
+      "order": 22,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0023",
+      "block_type": "heading",
+      "heading": "Managing offers under vendor performance and corrective measures",
+      "heading_path": [
+        "Verify offers",
+        "Managing offers under vendor performance and corrective measures"
+      ],
+      "text": "Managing offers under vendor performance and corrective measures",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "Managing offers under vendor performance and corrective measures",
+      "text": "When managing offers under vendor performance and corrective measures (VPCM), consider the following:",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "When managing offers under vendor performance and corrective measures (VPCM), consider the following:",
+      "text": "you must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)",
       "order": 25,
       "metadata": {}
     },
@@ -881,11 +857,10 @@
       "block_type": "list_item",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "you must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)",
+      "text": "you must set aside any standing offer or supply arrangement for vendors under a relevant VPCM",
       "order": 26,
       "metadata": {}
     },
@@ -894,11 +869,10 @@
       "block_type": "list_item",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "you must set aside any standing offer or supply arrangement for vendors under a relevant VPCM",
+      "text": "you may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement",
       "order": 27,
       "metadata": {}
     },
@@ -907,11 +881,10 @@
       "block_type": "list_item",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "you may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement",
+      "text": "check the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement",
       "order": 28,
       "metadata": {}
     },
@@ -920,50 +893,46 @@
       "block_type": "list_item",
       "heading": "Managing offers under vendor performance and corrective measures",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Managing offers under vendor performance and corrective measures"
       ],
-      "text": "check the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement",
+      "text": "when accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM",
       "order": 29,
       "metadata": {}
     },
     {
       "block_id": "block_0030",
-      "block_type": "list_item",
-      "heading": "Managing offers under vendor performance and corrective measures",
+      "block_type": "heading",
+      "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
-        "Managing offers under vendor performance and corrective measures"
+        "Authority to reject offers"
       ],
-      "text": "when accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM",
+      "text": "Authority to reject offers",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "Authority to reject offers",
+      "text": "The authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "The authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:",
+      "text": "bankruptcy or inoperability of the offeror",
       "order": 32,
       "metadata": {}
     },
@@ -972,11 +941,10 @@
       "block_type": "list_item",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "bankruptcy or inoperability of the offeror",
+      "text": "evidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws",
       "order": 33,
       "metadata": {}
     },
@@ -985,11 +953,10 @@
       "block_type": "list_item",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "evidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws",
+      "text": "prior contractual remedies exercised by Canada, such as suspension or termination for default",
       "order": 34,
       "metadata": {}
     },
@@ -998,24 +965,22 @@
       "block_type": "list_item",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "prior contractual remedies exercised by Canada, such as suspension or termination for default",
+      "text": "poor performance on previous contracts jeopardizing successful completion of the current offer",
       "order": 35,
       "metadata": {}
     },
     {
       "block_id": "block_0036",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "poor performance on previous contracts jeopardizing successful completion of the current offer",
+      "text": "When you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.",
       "order": 36,
       "metadata": {}
     },
@@ -1024,11 +989,10 @@
       "block_type": "paragraph",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "When you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.",
+      "text": "You must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.",
       "order": 37,
       "metadata": {}
     },
@@ -1037,11 +1001,10 @@
       "block_type": "paragraph",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "You must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.",
+      "text": "Review and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .",
       "order": 38,
       "metadata": {}
     },
@@ -1050,37 +1013,34 @@
       "block_type": "paragraph",
       "heading": "Authority to reject offers",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Authority to reject offers"
       ],
-      "text": "Review and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .",
+      "text": "A review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.",
       "order": 39,
       "metadata": {}
     },
     {
       "block_id": "block_0040",
-      "block_type": "paragraph",
-      "heading": "Authority to reject offers",
+      "block_type": "heading",
+      "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
-        "Authority to reject offers"
+        "Bid rigging, collusion, fraud"
       ],
-      "text": "A review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.",
+      "text": "Bid rigging, collusion, fraud",
       "order": 40,
       "metadata": {}
     },
     {
       "block_id": "block_0041",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "Bid rigging, collusion, fraud",
+      "text": "You must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .",
       "order": 41,
       "metadata": {}
     },
@@ -1089,24 +1049,22 @@
       "block_type": "paragraph",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "You must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .",
+      "text": "The following are examples of possible bid-rigging activities:",
       "order": 42,
       "metadata": {}
     },
     {
       "block_id": "block_0043",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "The following are examples of possible bid-rigging activities:",
+      "text": "offer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason",
       "order": 43,
       "metadata": {}
     },
@@ -1115,11 +1073,10 @@
       "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "offer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason",
+      "text": "winning offerors subcontracting to those with higher offers on the same project",
       "order": 44,
       "metadata": {}
     },
@@ -1128,11 +1085,10 @@
       "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "winning offerors subcontracting to those with higher offers on the same project",
+      "text": "identical descriptions for non-standard items by different offerors",
       "order": 45,
       "metadata": {}
     },
@@ -1141,11 +1097,10 @@
       "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "identical descriptions for non-standard items by different offerors",
+      "text": "indications of unusual pre-offer communications among competitors about pricing or market division before offer submission",
       "order": 46,
       "metadata": {}
     },
@@ -1154,11 +1109,10 @@
       "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
-      "text": "indications of unusual pre-offer communications among competitors about pricing or market division before offer submission",
+      "text": "a single offeror's consistent success under specific conditions",
       "order": 47,
       "metadata": {}
     },
@@ -1167,30 +1121,16 @@
       "block_type": "list_item",
       "heading": "Bid rigging, collusion, fraud",
       "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
-        "Verify offers",
-        "Bid rigging, collusion, fraud"
-      ],
-      "text": "a single offeror's consistent success under specific conditions",
-      "order": 48,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0049",
-      "block_type": "list_item",
-      "heading": "Bid rigging, collusion, fraud",
-      "heading_path": [
-        "Buyer's Guide Receive offers - Verify offers",
         "Verify offers",
         "Bid rigging, collusion, fraud"
       ],
       "text": "a pattern of offer rotation among a group of offerors",
-      "order": 49,
+      "order": 48,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Verify offers Verifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process. Certifications, declarations, and proofs Certifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking. You may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required. Should these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification. You will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration. Exceptions These exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission. Integrity Provisions The offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy . Procurement Strategy for Indigenous Businesses (PSIB) Offerors must include with their offer certification that they meet the PSIB definition of an Indigenous Business. Canadian Content Policy The offeror must provide certification in accordance with conditions defined in the Canadian Content Policy. Registry and Pre-qualification of Floating Plant The offeror must provide certification with the offer. Financial capability documentation Buyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information. Solicitations using Public Openings The offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation. Verification of offeror’s certification As the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors. Managing offers under vendor performance and corrective measures When managing offers under vendor performance and corrective measures (VPCM), consider the following: you must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements) you must set aside any standing offer or supply arrangement for vendors under a relevant VPCM you may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement check the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement when accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM Authority to reject offers The authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required: bankruptcy or inoperability of the offeror evidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws prior contractual remedies exercised by Canada, such as suspension or termination for default poor performance on previous contracts jeopardizing successful completion of the current offer When you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection. You must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer. Review and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM . A review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome. Bid rigging, collusion, fraud You must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act . The following are examples of possible bid-rigging activities: offer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason winning offerors subcontracting to those with higher offers on the same project identical descriptions for non-standard items by different offerors indications of unusual pre-offer communications among competitors about pricing or market division before offer submission a single offeror's consistent success under specific conditions a pattern of offer rotation among a group of offerors\n\nVerify offers\n\nVerifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.\n\nCertifications, declarations, and proofs\n\nCertifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.\n\nYou may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.\n\nShould these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.\n\nYou will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.\n\nExceptions\n\nThese exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.\n\nIntegrity Provisions\n\nThe offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy .\n\nProcurement Strategy for Indigenous Businesses (PSIB)\n\nOfferors must include with their offer certification that they meet the PSIB definition of an Indigenous Business.\n\nCanadian Content Policy\n\nThe offeror must provide certification in accordance with conditions defined in the Canadian Content Policy.\n\nRegistry and Pre-qualification of Floating Plant\n\nThe offeror must provide certification with the offer.\n\nFinancial capability documentation\n\nBuyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information.\n\nSolicitations using Public Openings\n\nThe offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation.\n\nVerification of offeror’s certification\n\nAs the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors.\n\nManaging offers under vendor performance and corrective measures\n\nWhen managing offers under vendor performance and corrective measures (VPCM), consider the following:\n\nyou must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)\n\nyou must set aside any standing offer or supply arrangement for vendors under a relevant VPCM\n\nyou may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement\n\ncheck the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement\n\nwhen accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM\n\nAuthority to reject offers\n\nThe authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:\n\nbankruptcy or inoperability of the offeror\n\nevidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws\n\nprior contractual remedies exercised by Canada, such as suspension or termination for default\n\npoor performance on previous contracts jeopardizing successful completion of the current offer\n\nWhen you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.\n\nYou must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.\n\nReview and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .\n\nA review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.\n\nBid rigging, collusion, fraud\n\nYou must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .\n\nThe following are examples of possible bid-rigging activities:\n\noffer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason\n\nwinning offerors subcontracting to those with higher offers on the same project\n\nidentical descriptions for non-standard items by different offerors\n\nindications of unusual pre-offer communications among competitors about pricing or market division before offer submission\n\na single offeror's consistent success under specific conditions\n\na pattern of offer rotation among a group of offerors",
-  "markdown_text": "Verify offers Verifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process. Certifications, declarations, and proofs Certifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking. You may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required. Should these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification. You will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration. Exceptions These exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission. Integrity Provisions The offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy . Procurement Strategy for Indigenous Businesses (PSIB) Offerors must include with their offer certification that they meet the PSIB definition of an Indigenous Business. Canadian Content Policy The offeror must provide certification in accordance with conditions defined in the Canadian Content Policy. Registry and Pre-qualification of Floating Plant The offeror must provide certification with the offer. Financial capability documentation Buyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information. Solicitations using Public Openings The offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation. Verification of offeror’s certification As the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors. Managing offers under vendor performance and corrective measures When managing offers under vendor performance and corrective measures (VPCM), consider the following: you must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements) you must set aside any standing offer or supply arrangement for vendors under a relevant VPCM you may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement check the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement when accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM Authority to reject offers The authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required: bankruptcy or inoperability of the offeror evidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws prior contractual remedies exercised by Canada, such as suspension or termination for default poor performance on previous contracts jeopardizing successful completion of the current offer When you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection. You must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer. Review and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM . A review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome. Bid rigging, collusion, fraud You must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act . The following are examples of possible bid-rigging activities: offer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason winning offerors subcontracting to those with higher offers on the same project identical descriptions for non-standard items by different offerors indications of unusual pre-offer communications among competitors about pricing or market division before offer submission a single offeror's consistent success under specific conditions a pattern of offer rotation among a group of offerors\n\nVerify offers\n\nVerifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.\n\nCertifications, declarations, and proofs\n\nCertifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.\n\nYou may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.\n\nShould these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.\n\nYou will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.\n\nExceptions\n\nThese exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.\n\nIntegrity Provisions\n\nThe offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy .\n\nProcurement Strategy for Indigenous Businesses (PSIB)\n\nOfferors must include with their offer certification that they meet the PSIB definition of an Indigenous Business.\n\nCanadian Content Policy\n\nThe offeror must provide certification in accordance with conditions defined in the Canadian Content Policy.\n\nRegistry and Pre-qualification of Floating Plant\n\nThe offeror must provide certification with the offer.\n\nFinancial capability documentation\n\nBuyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information.\n\nSolicitations using Public Openings\n\nThe offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation.\n\nVerification of offeror’s certification\n\nAs the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors.\n\nManaging offers under vendor performance and corrective measures\n\nWhen managing offers under vendor performance and corrective measures (VPCM), consider the following:\n\nyou must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)\n\nyou must set aside any standing offer or supply arrangement for vendors under a relevant VPCM\n\nyou may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement\n\ncheck the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement\n\nwhen accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM\n\nAuthority to reject offers\n\nThe authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:\n\nbankruptcy or inoperability of the offeror\n\nevidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws\n\nprior contractual remedies exercised by Canada, such as suspension or termination for default\n\npoor performance on previous contracts jeopardizing successful completion of the current offer\n\nWhen you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.\n\nYou must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.\n\nReview and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .\n\nA review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.\n\nBid rigging, collusion, fraud\n\nYou must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .\n\nThe following are examples of possible bid-rigging activities:\n\noffer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason\n\nwinning offerors subcontracting to those with higher offers on the same project\n\nidentical descriptions for non-standard items by different offerors\n\nindications of unusual pre-offer communications among competitors about pricing or market division before offer submission\n\na single offeror's consistent success under specific conditions\n\na pattern of offer rotation among a group of offerors",
+  "raw_text": "Verify offers\n\nVerifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.\n\nCertifications, declarations, and proofs\n\nCertifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.\n\nYou may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.\n\nShould these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.\n\nYou will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.\n\nExceptions\n\nThese exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.\n\nIntegrity Provisions\n\nThe offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy .\n\nProcurement Strategy for Indigenous Businesses (PSIB)\n\nOfferors must include with their offer certification that they meet the PSIB definition of an Indigenous Business.\n\nCanadian Content Policy\n\nThe offeror must provide certification in accordance with conditions defined in the Canadian Content Policy.\n\nRegistry and Pre-qualification of Floating Plant\n\nThe offeror must provide certification with the offer.\n\nFinancial capability documentation\n\nBuyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information.\n\nSolicitations using Public Openings\n\nThe offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation.\n\nVerification of offeror’s certification\n\nAs the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors.\n\nManaging offers under vendor performance and corrective measures\n\nWhen managing offers under vendor performance and corrective measures (VPCM), consider the following:\n\nyou must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)\n\nyou must set aside any standing offer or supply arrangement for vendors under a relevant VPCM\n\nyou may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement\n\ncheck the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement\n\nwhen accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM\n\nAuthority to reject offers\n\nThe authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:\n\nbankruptcy or inoperability of the offeror\n\nevidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws\n\nprior contractual remedies exercised by Canada, such as suspension or termination for default\n\npoor performance on previous contracts jeopardizing successful completion of the current offer\n\nWhen you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.\n\nYou must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.\n\nReview and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .\n\nA review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.\n\nBid rigging, collusion, fraud\n\nYou must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .\n\nThe following are examples of possible bid-rigging activities:\n\noffer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason\n\nwinning offerors subcontracting to those with higher offers on the same project\n\nidentical descriptions for non-standard items by different offerors\n\nindications of unusual pre-offer communications among competitors about pricing or market division before offer submission\n\na single offeror's consistent success under specific conditions\n\na pattern of offer rotation among a group of offerors",
+  "markdown_text": "Verify offers\n\nVerifying offers ensures that all required documents and certifications are accurate and complete, maintaining the integrity of the procurement process.\n\nCertifications, declarations, and proofs\n\nCertifications, declarations, and proofs are standalone documents that substantiate information submitted with an offer. Standalone documents are mandatory to finalize the evaluation process. Personal references may be included provided they do not alter the offer's substance or introduce information that could improve a score or ranking.\n\nYou may request mandatory certifications, declarations, or proof documents at offer closing. However, you must not require offerors to provide these documents at offer closing unless the documentation being requested is included in the Exceptions list . You must ensure that all solicitation documents identify which certifications, declarations and proofs are required.\n\nShould these documents be absent at the solicitation of offers’ closing, you will notify the offeror who then must submit the missing documents within two business days following this notification.\n\nYou will inform offerors who fail to provide the required documents within the two-business-day timeframe that their offer is non-responsive and that it will be given no further consideration.\n\nExceptions\n\nThese exceptions outline specific cases where additional certifications, declarations, or proof documents are required at the time of offer submission.\n\nIntegrity Provisions\n\nThe offeror must provide a completed Declaration Form or a list of directors or owners in accordance with conditions defined in Ineligibility and Suspension Policy .\n\nProcurement Strategy for Indigenous Businesses (PSIB)\n\nOfferors must include with their offer certification that they meet the PSIB definition of an Indigenous Business.\n\nCanadian Content Policy\n\nThe offeror must provide certification in accordance with conditions defined in the Canadian Content Policy.\n\nRegistry and Pre-qualification of Floating Plant\n\nThe offeror must provide certification with the offer.\n\nFinancial capability documentation\n\nBuyers, in consultation with the Cost and Price Analysis Group, determine what financial information will be required from a subset of offerors during the offer evaluation phase and the time frame for providing the information.\n\nSolicitations using Public Openings\n\nThe offeror must provide certifications, declarations, and proofs with the offer as specified in the solicitation.\n\nVerification of offeror’s certification\n\nAs the buyer, it is not your responsibility to verify the validity of the offeror's certifications for procurements set-aside under the PSIB . If you question the validity of a certification, the particulars must be referred to the Business Development Directorate, Indigenous Services Canada (ISC) for audit by third party auditors.\n\nManaging offers under vendor performance and corrective measures\n\nWhen managing offers under vendor performance and corrective measures (VPCM), consider the following:\n\nyou must not evaluate offers received from an offeror if the offeror is subject to a vendor performance and corrective measures (VPCM) relevant to the procurement (offers include offers for contracts under supply arrangements)\n\nyou must set aside any standing offer or supply arrangement for vendors under a relevant VPCM\n\nyou may reject offers due to a VPCM at any point up to the contract award or issuance of a standing offer or supply arrangement\n\ncheck the Vendor Information Management (VIM) system for a VPCM at closing for competitive solicitations and before contact for sole sourcing. Recheck VIM before awarding a contract or issuing a standing offer or supply arrangement\n\nwhen accessing the VIM file on an offeror, you will have a clear notice of any VPCM . It is up to you to verify whether the vendor is subject to a VPCM\n\nAuthority to reject offers\n\nThe authority to reject an offer rests with you except in the case of offers being considered for rejection in the following circumstances where Director General approval is required:\n\nbankruptcy or inoperability of the offeror\n\nevidence of fraud, bribery, misrepresentation, or failure to comply with anti-discrimination laws\n\nprior contractual remedies exercised by Canada, such as suspension or termination for default\n\npoor performance on previous contracts jeopardizing successful completion of the current offer\n\nWhen you intend to reject an offer, you must inform the offeror verbally by telephone call. The telephone call serves as the official notification. You should record the date, time of the call, and the person spoken to while also stating the reasons for rejection.\n\nYou must also provide written confirmation of the rejection setting out the facts and the reasons for the decision to reject the offer.\n\nReview and challenge process: Offerors, excluded as per the instructions in the procurement guidelines, have the right to request a review by the Assistant Deputy Minister (ADM) responsible for the procurement if their offer is rejected. The decision to pause the evaluation and contract award process to allow additional time for this review lies solely with the ADM .\n\nA review by the ADM will result in an investigation and a decision will be made. This decision could impact not just the specific procurement in question but potentially broader procurement practices. Offerors will be notified in writing of the review outcome.\n\nBid rigging, collusion, fraud\n\nYou must immediately alert Legal Services and their immediate director whenever there is an indication of possible bid-rigging activities, collusion, or fraud. When necessary, Legal Services will facilitate discussions with Competition Bureau Canada, a federal independent law enforcement agency responsible for the Competition Act. Bid rigging is specifically addressed under section 47 of the Competition Act .\n\nThe following are examples of possible bid-rigging activities:\n\noffer rates/prices are much higher than published price lists, engineering cost estimates, or previous offer rates/prices by the same suppliers for no apparent reason\n\nwinning offerors subcontracting to those with higher offers on the same project\n\nidentical descriptions for non-standard items by different offerors\n\nindications of unusual pre-offer communications among competitors about pricing or market division before offer submission\n\na single offeror's consistent success under specific conditions\n\na pattern of offer rotation among a group of offerors",
   "provenance_paths": {}
 }

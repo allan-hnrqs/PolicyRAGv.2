@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:50.501917Z",
-  "content_hash": "126d644689abbd1c7d11b91fc08b2fac4a67ce7ecbec98e84e0cd8aa34153fc0",
-  "word_count": 242,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f28dfdbbe98a27695d6f99d8d8a782ce57178c8e2303d8e64de2df15eb03d5d2",
+  "word_count": 121,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,24 +511,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
+      "block_type": "heading",
+      "heading": "How to reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation"
+        "How to reissue a solicitation"
       ],
-      "text": "How to reissue a solicitation You must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents. If canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you: consider reposting the NPP to enhance openness and transparency state in the NPP that some businesses will be invited directly",
+      "text": "How to reissue a solicitation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "How to reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
         "How to reissue a solicitation"
       ],
-      "text": "How to reissue a solicitation",
+      "text": "You must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.",
       "order": 1,
       "metadata": {}
     },
@@ -537,22 +536,20 @@
       "block_type": "paragraph",
       "heading": "How to reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
         "How to reissue a solicitation"
       ],
-      "text": "You must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.",
+      "text": "If canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "How to reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
         "How to reissue a solicitation"
       ],
-      "text": "If canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:",
+      "text": "consider reposting the NPP to enhance openness and transparency",
       "order": 3,
       "metadata": {}
     },
@@ -561,28 +558,15 @@
       "block_type": "list_item",
       "heading": "How to reissue a solicitation",
       "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
-        "How to reissue a solicitation"
-      ],
-      "text": "consider reposting the NPP to enhance openness and transparency",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
-      "block_type": "list_item",
-      "heading": "How to reissue a solicitation",
-      "heading_path": [
-        "Buyer's Guide Cancel or reissue a solicitation - How to reissue a solicitation",
         "How to reissue a solicitation"
       ],
       "text": "state in the NPP that some businesses will be invited directly",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "How to reissue a solicitation You must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents. If canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you: consider reposting the NPP to enhance openness and transparency state in the NPP that some businesses will be invited directly\n\nHow to reissue a solicitation\n\nYou must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.\n\nIf canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:\n\nconsider reposting the NPP to enhance openness and transparency\n\nstate in the NPP that some businesses will be invited directly",
-  "markdown_text": "How to reissue a solicitation You must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents. If canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you: consider reposting the NPP to enhance openness and transparency state in the NPP that some businesses will be invited directly\n\nHow to reissue a solicitation\n\nYou must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.\n\nIf canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:\n\nconsider reposting the NPP to enhance openness and transparency\n\nstate in the NPP that some businesses will be invited directly",
+  "raw_text": "How to reissue a solicitation\n\nYou must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.\n\nIf canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:\n\nconsider reposting the NPP to enhance openness and transparency\n\nstate in the NPP that some businesses will be invited directly",
+  "markdown_text": "How to reissue a solicitation\n\nYou must include a clause about the reissuance of the solicitation of offers at the beginning of the reissued solicitation and NPP documents.\n\nIf canceling and reissuing a solicitation that is subject to the international trade agreements and the Canadian Free Trade Agreement (CFTA), you should publish a new NPP . If no compliant offers were received under the original competitive solicitation, and the requirement is not being changed significantly, you may send the reissued solicitation directly to businesses without publishing a new NPP . However, when following this approach, it is strongly recommended that you:\n\nconsider reposting the NPP to enhance openness and transparency\n\nstate in the NPP that some businesses will be invited directly",
   "provenance_paths": {}
 }

@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:55.657162Z",
-  "content_hash": "95a86c216f330684faf8420d651f77397d9cf9bc50d08470b3420a43bd3c1b9d",
-  "word_count": 62,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c9967f9c89c6a176899c9e3df92fc9672a942b1252c9fb9e37e485f12a899033",
+  "word_count": 31,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -619,42 +619,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Tender notices",
+      "block_type": "heading",
+      "heading": "Tender notices",
       "heading_path": [
-        "Buyer's Guide Tender notices"
+        "Tender notices"
       ],
-      "text": "Tender notices This section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
+      "text": "Tender notices",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Tender notices",
-      "heading_path": [
-        "Buyer's Guide Tender notices",
-        "Tender notices"
-      ],
-      "text": "Tender notices",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Tender notices",
       "heading_path": [
-        "Buyer's Guide Tender notices",
         "Tender notices"
       ],
       "text": "This section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Tender notices This section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.\n\nTender notices\n\nThis section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
-  "markdown_text": "Tender notices This section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.\n\nTender notices\n\nThis section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
+  "raw_text": "Tender notices\n\nThis section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
+  "markdown_text": "Tender notices\n\nThis section provides information on tender notices including Notice of Proposed Procurement and Advance Contract Award Notice, and the requirements related to applicable trade agreements and Indigenous business set-asides.",
   "provenance_paths": {}
 }

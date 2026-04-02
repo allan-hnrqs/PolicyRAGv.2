@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:30.782530Z",
   "content_hash": "65a342017b92e39df9be229af4dc9d8b53104996544f2764ed496d01b52656cf",
   "word_count": 166,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "Payments",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "Except for progress payments, payments may only be made if a person authorized by the appropriate minister certifies that:",
@@ -796,7 +794,6 @@
       "block_type": "list_item",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "the work has been performed",
@@ -808,7 +805,6 @@
       "block_type": "list_item",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "the goods have been supplied or services rendered as the case may be",
@@ -820,7 +816,6 @@
       "block_type": "list_item",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "the price charged is according to the contract or is reasonable if not specified by the contract",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "When a payment must be made before the completion of the work or delivery of the goods or rendering of the service, the payment must be made in accordance with the contract.",
@@ -844,7 +838,6 @@
       "block_type": "paragraph",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "Payments for work performed or goods received in accordance with the contract are made per the Treasury Board Directive on Payments . The standard due date for payment is 30 days, after invoicing or receipt of goods, whichever is later.",
@@ -856,7 +849,6 @@
       "block_type": "paragraph",
       "heading": "Payments",
       "heading_path": [
-        "Buyer's Guide Manage - Manage payments",
         "Payments"
       ],
       "text": "The payment period is measured from the date that the goods or services were received, in acceptable condition, at the location(s) specified in the contract, or the date that an invoice in proper form was received, whichever is later.",

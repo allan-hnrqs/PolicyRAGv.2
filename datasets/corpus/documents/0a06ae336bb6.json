@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:24.938600Z",
   "content_hash": "5536eb6d78b59841a6bf80cf6c8542aa3b2a10142d6429f2039c387ec80d6ae8",
   "word_count": 54,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Exchange rate fluctuation",
       "heading_path": [
-        "Buyer's Guide Manage payments - Exchange rate fluctuations",
         "Exchange rate fluctuation"
       ],
       "text": "Exchange rate fluctuation",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Exchange rate fluctuation",
       "heading_path": [
-        "Buyer's Guide Manage payments - Exchange rate fluctuations",
         "Exchange rate fluctuation"
       ],
       "text": "For contracts with an exchange rate fluctuation provision, you and the client must ensure that this provision is applied during invoicing and payment.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Exchange rate fluctuation",
       "heading_path": [
-        "Buyer's Guide Manage payments - Exchange rate fluctuations",
         "Exchange rate fluctuation"
       ],
       "text": "Invoices must indicate the adjustment required and typically include the PSPC Claim for exchange rate adjustments form showing the adjustment calculations, all in line with the contract terms.",

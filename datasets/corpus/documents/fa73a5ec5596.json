@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:16.762637Z",
-  "content_hash": "e5504ad8c70b6aa02feadd198696392b3429d4908e895ffc635bc8a34e340ade",
-  "word_count": 415,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f69a8a8aae663ce803bb289a812124e10c91cea3282c84a8dcb240b68e1d3130",
+  "word_count": 429,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements"
       ],
       "text": "Standing offers and supply arrangements",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Standing offers and supply arrangements",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements"
       ],
       "text": "The methods outlined below are used to manage standing offers and supply arrangements.",
@@ -796,7 +794,6 @@
       "block_type": "heading",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -809,7 +806,6 @@
       "block_type": "paragraph",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -822,7 +818,6 @@
       "block_type": "paragraph",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -835,7 +830,6 @@
       "block_type": "list_item",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -848,7 +842,6 @@
       "block_type": "list_item",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -861,7 +854,6 @@
       "block_type": "list_item",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
@@ -871,274 +863,253 @@
     },
     {
       "block_id": "block_0008",
-      "block_type": "table",
+      "block_type": "table_row",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
-      "text": "Standing offer procurement strategy Call-up authorities Call-up coding competitive RFSO single SO competitive competitive competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking competitive competitive competitive RFSO multiple SO s no ranking methodology non-competitive non-competitive non-competitive RFSO ACAN competitive non-competitive non-competitive RFSO no ACAN non-competitive non-competitive",
+      "text": "Standing offer procurement strategy: competitive RFSO single SO | Call-up authorities: competitive | Call-up coding: competitive",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
-      "text": "competitive RFSO",
+      "text": "Standing offer procurement strategy: competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking | Call-up authorities: competitive | Call-up coding: competitive",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
-      "text": "single SO",
+      "text": "Standing offer procurement strategy: competitive RFSO multiple SO s no ranking methodology | Call-up authorities: non-competitive | Call-up coding: non-competitive",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
-      "text": "competitive RFSO",
+      "text": "Standing offer procurement strategy: non-competitive RFSO ACAN | Call-up authorities: competitive | Call-up coding: non-competitive",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
+      "block_type": "table_row",
       "heading": "Approval and coding of call-ups",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Approval and coding of call-ups"
       ],
-      "text": "multiple SO s",
+      "text": "Standing offer procurement strategy: non-competitive RFSO no ACAN | Call-up authorities: non-competitive | Call-up coding: non-competitive",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "heading",
+      "heading": "Managing a proportional basis of selection for a standing offer",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Managing a proportional basis of selection for a standing offer"
       ],
-      "text": "right-of-first-refusal or proportional-basis ranking",
+      "text": "Managing a proportional basis of selection for a standing offer",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "paragraph",
+      "heading": "Managing a proportional basis of selection for a standing offer",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Managing a proportional basis of selection for a standing offer"
       ],
-      "text": "competitive RFSO",
+      "text": "When a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "paragraph",
+      "heading": "Managing a proportional basis of selection for a standing offer",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Managing a proportional basis of selection for a standing offer"
       ],
-      "text": "multiple SO s",
+      "text": "The offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "heading",
+      "heading": "Call-ups against standing offers with no ranking methodology",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Call-ups against standing offers with no ranking methodology"
       ],
-      "text": "no ranking methodology",
+      "text": "Call-ups against standing offers with no ranking methodology",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "paragraph",
+      "heading": "Call-ups against standing offers with no ranking methodology",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Call-ups against standing offers with no ranking methodology"
       ],
-      "text": "non-competitive RFSO",
+      "text": "When multiple standing offers are available without a ranking, the client must justify each call-up.",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "heading",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Offerors' reporting obligations"
       ],
-      "text": "ACAN",
+      "text": "Offerors' reporting obligations",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "paragraph",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Offerors' reporting obligations"
       ],
-      "text": "non-competitive RFSO",
+      "text": "You must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
-      "heading": "Approval and coding of call-ups",
+      "block_type": "paragraph",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Approval and coding of call-ups"
+        "Offerors' reporting obligations"
       ],
-      "text": "no ACAN",
+      "text": "These reports may include, but are not limited to:",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
-      "heading": "Managing a proportional basis of selection for a standing offer",
+      "block_type": "list_item",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Managing a proportional basis of selection for a standing offer"
+        "Offerors' reporting obligations"
       ],
-      "text": "Managing a proportional basis of selection for a standing offer",
+      "text": "standing offer or supply arrangement number",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
-      "heading": "Managing a proportional basis of selection for a standing offer",
+      "block_type": "list_item",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Managing a proportional basis of selection for a standing offer"
+        "Offerors' reporting obligations"
       ],
-      "text": "When a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.",
+      "text": "business name",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
-      "heading": "Managing a proportional basis of selection for a standing offer",
+      "block_type": "list_item",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Managing a proportional basis of selection for a standing offer"
+        "Offerors' reporting obligations"
       ],
-      "text": "The offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.",
+      "text": "reporting period",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "heading",
-      "heading": "Call-ups against standing offers with no ranking methodology",
+      "block_type": "list_item",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Call-ups against standing offers with no ranking methodology"
+        "Offerors' reporting obligations"
       ],
-      "text": "Call-ups against standing offers with no ranking methodology",
+      "text": "each call-up or contract number, including any amendments",
       "order": 24,
       "metadata": {}
     },
     {
       "block_id": "block_0025",
-      "block_type": "paragraph",
-      "heading": "Call-ups against standing offers with no ranking methodology",
+      "block_type": "list_item",
+      "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Call-ups against standing offers with no ranking methodology"
+        "Offerors' reporting obligations"
       ],
-      "text": "When multiple standing offers are available without a ranking, the client must justify each call-up.",
+      "text": "client department",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Offerors' reporting obligations"
       ],
-      "text": "Offerors' reporting obligations",
+      "text": "contracting authority",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Offerors' reporting obligations"
       ],
-      "text": "You must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.",
+      "text": "date of call-up or contract",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Offerors' reporting obligations"
       ],
-      "text": "These reports may include, but are not limited to:",
+      "text": "period of call-up or contract",
       "order": 28,
       "metadata": {}
     },
@@ -1147,11 +1118,10 @@
       "block_type": "list_item",
       "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Offerors' reporting obligations"
       ],
-      "text": "standing offer or supply arrangement number",
+      "text": "line items acquired or services provided",
       "order": 29,
       "metadata": {}
     },
@@ -1160,186 +1130,76 @@
       "block_type": "list_item",
       "heading": "Offerors' reporting obligations",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Offerors' reporting obligations"
       ],
-      "text": "business name",
+      "text": "total value of each call-up or contract, including applicable taxes",
       "order": 30,
       "metadata": {}
     },
     {
       "block_id": "block_0031",
-      "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
+      "block_type": "heading",
+      "heading": "Client reporting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
+        "Client reporting"
       ],
-      "text": "reporting period",
+      "text": "Client reporting",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
+      "block_type": "paragraph",
+      "heading": "Client reporting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
+        "Client reporting"
       ],
-      "text": "each call-up or contract number, including any amendments",
+      "text": "You must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
       "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
+      "heading": "Client reporting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
+        "Client reporting"
       ],
-      "text": "client department",
+      "text": "the solicitation of offers",
       "order": 33,
       "metadata": {}
     },
     {
       "block_id": "block_0034",
       "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
+      "heading": "Client reporting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
+        "Client reporting"
       ],
-      "text": "contracting authority",
+      "text": "the responses from offerors",
       "order": 34,
       "metadata": {}
     },
     {
       "block_id": "block_0035",
       "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
-      ],
-      "text": "date of call-up or contract",
-      "order": 35,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0036",
-      "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
-      ],
-      "text": "period of call-up or contract",
-      "order": 36,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0037",
-      "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
-      ],
-      "text": "line items acquired or services provided",
-      "order": 37,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0038",
-      "block_type": "list_item",
-      "heading": "Offerors' reporting obligations",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Offerors' reporting obligations"
-      ],
-      "text": "total value of each call-up or contract, including applicable taxes",
-      "order": 38,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0039",
-      "block_type": "heading",
       "heading": "Client reporting",
       "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Client reporting"
-      ],
-      "text": "Client reporting",
-      "order": 39,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0040",
-      "block_type": "paragraph",
-      "heading": "Client reporting",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Client reporting"
-      ],
-      "text": "You must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:",
-      "order": 40,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0041",
-      "block_type": "list_item",
-      "heading": "Client reporting",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Client reporting"
-      ],
-      "text": "the solicitation of offers",
-      "order": 41,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0042",
-      "block_type": "list_item",
-      "heading": "Client reporting",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
-        "Standing offers and supply arrangements",
-        "Client reporting"
-      ],
-      "text": "the responses from offerors",
-      "order": 42,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0043",
-      "block_type": "list_item",
-      "heading": "Client reporting",
-      "heading_path": [
-        "Buyer's Guide Manage a contract - Standing offers and supply arrangements",
         "Standing offers and supply arrangements",
         "Client reporting"
       ],
       "text": "the selection of successful offerors",
-      "order": 43,
+      "order": 35,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Standing offers and supply arrangements\n\nThe methods outlined below are used to manage standing offers and supply arrangements.\n\nApproval and coding of call-ups\n\nThe authorities and coding of a call-up depend on the procurement strategy used for the associated standing offer (SO).\n\nThe table below includes various factors including:\n\nthe sourcing strategy of the Request For Standing Offer (RFSO)\n\nthe use of a ranking methodology for a competitive RFSO resulting in multiple SO s\n\nthe use of an Advance Contract Award Notice (ACAN) for a non-competitive RFSO\n\nStanding offer procurement strategy Call-up authorities Call-up coding competitive RFSO single SO competitive competitive competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking competitive competitive competitive RFSO multiple SO s no ranking methodology non-competitive non-competitive non-competitive RFSO ACAN competitive non-competitive non-competitive RFSO no ACAN non-competitive non-competitive\n\ncompetitive RFSO\n\nsingle SO\n\ncompetitive RFSO\n\nmultiple SO s\n\nright-of-first-refusal or proportional-basis ranking\n\ncompetitive RFSO\n\nmultiple SO s\n\nno ranking methodology\n\nnon-competitive RFSO\n\nACAN\n\nnon-competitive RFSO\n\nno ACAN\n\nManaging a proportional basis of selection for a standing offer\n\nWhen a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.\n\nThe offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.\n\nCall-ups against standing offers with no ranking methodology\n\nWhen multiple standing offers are available without a ranking, the client must justify each call-up.\n\nOfferors' reporting obligations\n\nYou must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.\n\nThese reports may include, but are not limited to:\n\nstanding offer or supply arrangement number\n\nbusiness name\n\nreporting period\n\neach call-up or contract number, including any amendments\n\nclient department\n\ncontracting authority\n\ndate of call-up or contract\n\nperiod of call-up or contract\n\nline items acquired or services provided\n\ntotal value of each call-up or contract, including applicable taxes\n\nClient reporting\n\nYou must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:\n\nthe solicitation of offers\n\nthe responses from offerors\n\nthe selection of successful offerors",
-  "markdown_text": "Standing offers and supply arrangements\n\nThe methods outlined below are used to manage standing offers and supply arrangements.\n\nApproval and coding of call-ups\n\nThe authorities and coding of a call-up depend on the procurement strategy used for the associated standing offer (SO).\n\nThe table below includes various factors including:\n\nthe sourcing strategy of the Request For Standing Offer (RFSO)\n\nthe use of a ranking methodology for a competitive RFSO resulting in multiple SO s\n\nthe use of an Advance Contract Award Notice (ACAN) for a non-competitive RFSO\n\nStanding offer procurement strategy Call-up authorities Call-up coding competitive RFSO single SO competitive competitive competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking competitive competitive competitive RFSO multiple SO s no ranking methodology non-competitive non-competitive non-competitive RFSO ACAN competitive non-competitive non-competitive RFSO no ACAN non-competitive non-competitive\n\ncompetitive RFSO\n\nsingle SO\n\ncompetitive RFSO\n\nmultiple SO s\n\nright-of-first-refusal or proportional-basis ranking\n\ncompetitive RFSO\n\nmultiple SO s\n\nno ranking methodology\n\nnon-competitive RFSO\n\nACAN\n\nnon-competitive RFSO\n\nno ACAN\n\nManaging a proportional basis of selection for a standing offer\n\nWhen a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.\n\nThe offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.\n\nCall-ups against standing offers with no ranking methodology\n\nWhen multiple standing offers are available without a ranking, the client must justify each call-up.\n\nOfferors' reporting obligations\n\nYou must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.\n\nThese reports may include, but are not limited to:\n\nstanding offer or supply arrangement number\n\nbusiness name\n\nreporting period\n\neach call-up or contract number, including any amendments\n\nclient department\n\ncontracting authority\n\ndate of call-up or contract\n\nperiod of call-up or contract\n\nline items acquired or services provided\n\ntotal value of each call-up or contract, including applicable taxes\n\nClient reporting\n\nYou must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:\n\nthe solicitation of offers\n\nthe responses from offerors\n\nthe selection of successful offerors",
+  "raw_text": "Standing offers and supply arrangements\n\nThe methods outlined below are used to manage standing offers and supply arrangements.\n\nApproval and coding of call-ups\n\nThe authorities and coding of a call-up depend on the procurement strategy used for the associated standing offer (SO).\n\nThe table below includes various factors including:\n\nthe sourcing strategy of the Request For Standing Offer (RFSO)\n\nthe use of a ranking methodology for a competitive RFSO resulting in multiple SO s\n\nthe use of an Advance Contract Award Notice (ACAN) for a non-competitive RFSO\n\nStanding offer procurement strategy: competitive RFSO single SO | Call-up authorities: competitive | Call-up coding: competitive\n\nStanding offer procurement strategy: competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking | Call-up authorities: competitive | Call-up coding: competitive\n\nStanding offer procurement strategy: competitive RFSO multiple SO s no ranking methodology | Call-up authorities: non-competitive | Call-up coding: non-competitive\n\nStanding offer procurement strategy: non-competitive RFSO ACAN | Call-up authorities: competitive | Call-up coding: non-competitive\n\nStanding offer procurement strategy: non-competitive RFSO no ACAN | Call-up authorities: non-competitive | Call-up coding: non-competitive\n\nManaging a proportional basis of selection for a standing offer\n\nWhen a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.\n\nThe offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.\n\nCall-ups against standing offers with no ranking methodology\n\nWhen multiple standing offers are available without a ranking, the client must justify each call-up.\n\nOfferors' reporting obligations\n\nYou must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.\n\nThese reports may include, but are not limited to:\n\nstanding offer or supply arrangement number\n\nbusiness name\n\nreporting period\n\neach call-up or contract number, including any amendments\n\nclient department\n\ncontracting authority\n\ndate of call-up or contract\n\nperiod of call-up or contract\n\nline items acquired or services provided\n\ntotal value of each call-up or contract, including applicable taxes\n\nClient reporting\n\nYou must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:\n\nthe solicitation of offers\n\nthe responses from offerors\n\nthe selection of successful offerors",
+  "markdown_text": "Standing offers and supply arrangements\n\nThe methods outlined below are used to manage standing offers and supply arrangements.\n\nApproval and coding of call-ups\n\nThe authorities and coding of a call-up depend on the procurement strategy used for the associated standing offer (SO).\n\nThe table below includes various factors including:\n\nthe sourcing strategy of the Request For Standing Offer (RFSO)\n\nthe use of a ranking methodology for a competitive RFSO resulting in multiple SO s\n\nthe use of an Advance Contract Award Notice (ACAN) for a non-competitive RFSO\n\nStanding offer procurement strategy: competitive RFSO single SO | Call-up authorities: competitive | Call-up coding: competitive\n\nStanding offer procurement strategy: competitive RFSO multiple SO s right-of-first-refusal or proportional-basis ranking | Call-up authorities: competitive | Call-up coding: competitive\n\nStanding offer procurement strategy: competitive RFSO multiple SO s no ranking methodology | Call-up authorities: non-competitive | Call-up coding: non-competitive\n\nStanding offer procurement strategy: non-competitive RFSO ACAN | Call-up authorities: competitive | Call-up coding: non-competitive\n\nStanding offer procurement strategy: non-competitive RFSO no ACAN | Call-up authorities: non-competitive | Call-up coding: non-competitive\n\nManaging a proportional basis of selection for a standing offer\n\nWhen a proportional basis of selection is used to select the contractor among multiple standing offers, you must ensure that identified users are aware of their obligation to follow the predetermined work distributions specified in the standing offers.\n\nThe offeror whose actual work received is furthest below the predetermined ideal percentage detailed in the standing offer will be selected for the next call-up. A spreadsheet may be used to track all call-ups and to maintain a cumulative total for each offeror.\n\nCall-ups against standing offers with no ranking methodology\n\nWhen multiple standing offers are available without a ranking, the client must justify each call-up.\n\nOfferors' reporting obligations\n\nYou must ensure that offerors submit reports as required in the standing offer or supply arrangement. Typically, offerors must report on a quarterly basis on their call-up or contract activities.\n\nThese reports may include, but are not limited to:\n\nstanding offer or supply arrangement number\n\nbusiness name\n\nreporting period\n\neach call-up or contract number, including any amendments\n\nclient department\n\ncontracting authority\n\ndate of call-up or contract\n\nperiod of call-up or contract\n\nline items acquired or services provided\n\ntotal value of each call-up or contract, including applicable taxes\n\nClient reporting\n\nYou must also ensure that clients promptly fulfill their reporting responsibilities as identified users of the standing offer or supply arrangement. These reports may require more detail than those from offerors and include information on:\n\nthe solicitation of offers\n\nthe responses from offerors\n\nthe selection of successful offerors",
   "provenance_paths": {}
 }

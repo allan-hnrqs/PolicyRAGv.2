@@ -96,6 +96,11 @@ def should_follow_links(url: str) -> bool:
     return False
 
 
+def raw_snapshot_stem(url: str) -> str:
+    final_url = canonicalize_url(url)
+    return final_url.replace("https://", "").replace("http://", "").replace("/", "_").replace("?", "_")[:160]
+
+
 def extract_links(base_url: str, html: str) -> list[str]:
     soup = BeautifulSoup(html, "html.parser")
     links: set[str] = set()
@@ -161,6 +166,5 @@ def write_raw_snapshot(raw_dir: Path, results: list[FetchResult]) -> None:
         existing.unlink()
     for result in results:
         final_url = str(result.document.final_url or result.document.source_url)
-        stem = final_url.replace("https://", "").replace("http://", "").replace("/", "_").replace("?", "_")
-        path = raw_dir / f"{stem[:160]}.html"
+        path = raw_dir / f"{raw_snapshot_stem(final_url)}.html"
         path.write_text(result.document.html, encoding="utf-8")

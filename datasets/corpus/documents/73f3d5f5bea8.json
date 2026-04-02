@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:59.007301Z",
-  "content_hash": "79ccfcac3b371701523a3e8c52d69f98343f947e62dea8b874e9f8601483c546",
-  "word_count": 497,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b700d5abe4a7ebcb2873aeddeb16c933e461059a169e5531220eba4fc5d43f06",
+  "word_count": 243,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,72 +961,66 @@
     {
       "block_id": "block_0000",
       "block_type": "heading",
-      "heading": "Other planning considerations - Canadian General Standards Board",
+      "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Other planning considerations - Canadian General Standards Board"
+        "Canadian General Standards Board"
       ],
-      "text": "Other planning considerations - Canadian General Standards Board",
+      "text": "Canadian General Standards Board",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
       "block_type": "paragraph",
-      "heading": "Other planning considerations - Canadian General Standards Board",
+      "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Other planning considerations - Canadian General Standards Board"
+        "Canadian General Standards Board"
       ],
-      "text": "Published date: [current-page:metatag:dcterms_date]",
+      "text": "The Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
       "block_type": "paragraph",
-      "heading": "Other planning considerations - Canadian General Standards Board",
+      "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Other planning considerations - Canadian General Standards Board"
+        "Canadian General Standards Board"
       ],
-      "text": "Canadian General Standards Board The Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers. For certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on: national and international standardization the assessment of the suitability of standards quality and environmental management systems registration qualification/certification of listing programs for specific products and services By visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view: the CGSB catalogue of approximately 60 standards information on the listing programs documentation required to apply for a listing Initiating new standards, specifications or listings When a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
+      "text": "For certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "Canadian General Standards Board",
+      "text": "national and international standardization",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "The Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.",
+      "text": "the assessment of the suitability of standards",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "For certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:",
+      "text": "quality and environmental management systems registration",
       "order": 5,
       "metadata": {}
     },
@@ -1035,22 +1029,20 @@
       "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "national and international standardization",
+      "text": "qualification/certification of listing programs for specific products and services",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "the assessment of the suitability of standards",
+      "text": "By visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:",
       "order": 7,
       "metadata": {}
     },
@@ -1059,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "quality and environmental management systems registration",
+      "text": "the CGSB catalogue of approximately 60 standards",
       "order": 8,
       "metadata": {}
     },
@@ -1071,90 +1062,50 @@
       "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "qualification/certification of listing programs for specific products and services",
+      "text": "information on the listing programs",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Canadian General Standards Board",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board"
       ],
-      "text": "By visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:",
+      "text": "documentation required to apply for a listing",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
-      "heading": "Canadian General Standards Board",
+      "block_type": "heading",
+      "heading": "Initiating new standards, specifications or listings",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Canadian General Standards Board"
+        "Canadian General Standards Board",
+        "Initiating new standards, specifications or listings"
       ],
-      "text": "the CGSB catalogue of approximately 60 standards",
+      "text": "Initiating new standards, specifications or listings",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "list_item",
-      "heading": "Canadian General Standards Board",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Canadian General Standards Board"
-      ],
-      "text": "information on the listing programs",
-      "order": 12,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0013",
-      "block_type": "list_item",
-      "heading": "Canadian General Standards Board",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Canadian General Standards Board"
-      ],
-      "text": "documentation required to apply for a listing",
-      "order": 13,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0014",
-      "block_type": "heading",
-      "heading": "Initiating new standards, specifications or listings",
-      "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
-        "Canadian General Standards Board",
-        "Initiating new standards, specifications or listings"
-      ],
-      "text": "Initiating new standards, specifications or listings",
-      "order": 14,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0015",
       "block_type": "paragraph",
       "heading": "Initiating new standards, specifications or listings",
       "heading_path": [
-        "Buyer's Guide Other planning considerations - Canadian General Standards Board",
         "Canadian General Standards Board",
         "Initiating new standards, specifications or listings"
       ],
       "text": "When a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
-      "order": 15,
+      "order": 12,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Other planning considerations - Canadian General Standards Board\n\nPublished date: [current-page:metatag:dcterms_date]\n\nCanadian General Standards Board The Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers. For certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on: national and international standardization the assessment of the suitability of standards quality and environmental management systems registration qualification/certification of listing programs for specific products and services By visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view: the CGSB catalogue of approximately 60 standards information on the listing programs documentation required to apply for a listing Initiating new standards, specifications or listings When a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.\n\nCanadian General Standards Board\n\nThe Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.\n\nFor certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:\n\nnational and international standardization\n\nthe assessment of the suitability of standards\n\nquality and environmental management systems registration\n\nqualification/certification of listing programs for specific products and services\n\nBy visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:\n\nthe CGSB catalogue of approximately 60 standards\n\ninformation on the listing programs\n\ndocumentation required to apply for a listing\n\nInitiating new standards, specifications or listings\n\nWhen a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
-  "markdown_text": "Other planning considerations - Canadian General Standards Board\n\nPublished date: [current-page:metatag:dcterms_date]\n\nCanadian General Standards Board The Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers. For certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on: national and international standardization the assessment of the suitability of standards quality and environmental management systems registration qualification/certification of listing programs for specific products and services By visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view: the CGSB catalogue of approximately 60 standards information on the listing programs documentation required to apply for a listing Initiating new standards, specifications or listings When a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.\n\nCanadian General Standards Board\n\nThe Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.\n\nFor certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:\n\nnational and international standardization\n\nthe assessment of the suitability of standards\n\nquality and environmental management systems registration\n\nqualification/certification of listing programs for specific products and services\n\nBy visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:\n\nthe CGSB catalogue of approximately 60 standards\n\ninformation on the listing programs\n\ndocumentation required to apply for a listing\n\nInitiating new standards, specifications or listings\n\nWhen a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
+  "raw_text": "Canadian General Standards Board\n\nThe Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.\n\nFor certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:\n\nnational and international standardization\n\nthe assessment of the suitability of standards\n\nquality and environmental management systems registration\n\nqualification/certification of listing programs for specific products and services\n\nBy visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:\n\nthe CGSB catalogue of approximately 60 standards\n\ninformation on the listing programs\n\ndocumentation required to apply for a listing\n\nInitiating new standards, specifications or listings\n\nWhen a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
+  "markdown_text": "Canadian General Standards Board\n\nThe Canadian General Standards Board (CGSB) is an organization within Public Services and Procurement Canada (PSPC), accredited by the Standards Council of Canada. CGSB offers standards development and conformity assessment services in support of the economic, regulatory, procurement, health, safety and environmental interests of our stakeholders, including government, industry and consumers.\n\nFor certain procurements, offerors may be required to meet CGSB standards and to reference this compliance in their offers and resulting contracts. CGSB also provides expertise and information on:\n\nnational and international standardization\n\nthe assessment of the suitability of standards\n\nquality and environmental management systems registration\n\nqualification/certification of listing programs for specific products and services\n\nBy visiting the Canadian General Standards Board website, government organizations, contractors and the general public can view:\n\nthe CGSB catalogue of approximately 60 standards\n\ninformation on the listing programs\n\ndocumentation required to apply for a listing\n\nInitiating new standards, specifications or listings\n\nWhen a need for a new standard, specification or listing is identified, and nothing suitable is under development, you should suggest that that the client contact CGSB . If the need is specific to a single client, sector or region, they may establish a qualification program specific to them. The client, sector or region should establish procedures that promote open competition and equal opportunity for all businesses. If criteria other than technical performance are applied, the distribution of listings should be restricted. Any distributed listings should clearly state the qualification criteria.",
   "provenance_paths": {}
 }

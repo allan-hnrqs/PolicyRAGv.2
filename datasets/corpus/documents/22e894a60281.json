@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:56:47.299069Z",
-  "content_hash": "593ee80a5a12b8dfe4ce5f4ff31d1b22bd367565633410a487717b4bbc38d00b",
-  "word_count": 58,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "0dfc4d857fc84c2c29f5c1f03ee15012de699eef083665e6d2d845fa8483694e",
+  "word_count": 29,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -972,42 +972,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Manage a contract",
+      "block_type": "heading",
+      "heading": "Manage a contract",
       "heading_path": [
-        "Buyer's Guide Manage a contract"
+        "Manage a contract"
       ],
-      "text": "Manage a contract This section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
+      "text": "Manage a contract",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Manage a contract",
-      "heading_path": [
-        "Buyer's Guide Manage a contract",
-        "Manage a contract"
-      ],
-      "text": "Manage a contract",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Manage a contract",
       "heading_path": [
-        "Buyer's Guide Manage a contract",
         "Manage a contract"
       ],
       "text": "This section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Manage a contract This section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.\n\nManage a contract\n\nThis section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
-  "markdown_text": "Manage a contract This section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.\n\nManage a contract\n\nThis section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
+  "raw_text": "Manage a contract\n\nThis section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
+  "markdown_text": "Manage a contract\n\nThis section provides information on how to manage a contract, covering buyer and client responsibilities, dispute resolution, certifications, financial security, protecting Canada's interests, security, and performance.",
   "provenance_paths": {}
 }

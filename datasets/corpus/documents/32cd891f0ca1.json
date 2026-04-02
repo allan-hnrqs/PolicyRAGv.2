@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:59.763637Z",
-  "content_hash": "b4c40ffb63876745d51621ecfbf3d76364e5433dbdb396259520fe8b6fc45618",
-  "word_count": 288,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "1a05b0c368982b1a0c4290ebf241d2a8876fbf32feb370055575f79be73d0ffa",
+  "word_count": 144,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,24 +511,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
+      "block_type": "heading",
+      "heading": "Distribution of solicitation material to invited businesses",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses"
+        "Distribution of solicitation material to invited businesses"
       ],
-      "text": "Distribution of solicitation material to invited businesses If a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses. You must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers. When the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients. For sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
+      "text": "Distribution of solicitation material to invited businesses",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Distribution of solicitation material to invited businesses",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
         "Distribution of solicitation material to invited businesses"
       ],
-      "text": "Distribution of solicitation material to invited businesses",
+      "text": "If a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.",
       "order": 1,
       "metadata": {}
     },
@@ -537,10 +536,9 @@
       "block_type": "paragraph",
       "heading": "Distribution of solicitation material to invited businesses",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
         "Distribution of solicitation material to invited businesses"
       ],
-      "text": "If a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.",
+      "text": "You must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.",
       "order": 2,
       "metadata": {}
     },
@@ -549,10 +547,9 @@
       "block_type": "paragraph",
       "heading": "Distribution of solicitation material to invited businesses",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
         "Distribution of solicitation material to invited businesses"
       ],
-      "text": "You must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.",
+      "text": "When the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.",
       "order": 3,
       "metadata": {}
     },
@@ -561,28 +558,15 @@
       "block_type": "paragraph",
       "heading": "Distribution of solicitation material to invited businesses",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
-        "Distribution of solicitation material to invited businesses"
-      ],
-      "text": "When the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.",
-      "order": 4,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0005",
-      "block_type": "paragraph",
-      "heading": "Distribution of solicitation material to invited businesses",
-      "heading_path": [
-        "Buyer's Guide Release the solicitation document - Distribution to invited businesses",
         "Distribution of solicitation material to invited businesses"
       ],
       "text": "For sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
-      "order": 5,
+      "order": 4,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Distribution of solicitation material to invited businesses If a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses. You must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers. When the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients. For sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.\n\nDistribution of solicitation material to invited businesses\n\nIf a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.\n\nYou must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.\n\nWhen the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.\n\nFor sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
-  "markdown_text": "Distribution of solicitation material to invited businesses If a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses. You must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers. When the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients. For sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.\n\nDistribution of solicitation material to invited businesses\n\nIf a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.\n\nYou must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.\n\nWhen the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.\n\nFor sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
+  "raw_text": "Distribution of solicitation material to invited businesses\n\nIf a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.\n\nYou must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.\n\nWhen the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.\n\nFor sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
+  "markdown_text": "Distribution of solicitation material to invited businesses\n\nIf a procurement is not to be advertised publicly on the Government Electronic Tendering Service (GETS), you must then distribute the solicitation of offers documentation, and any additional technical documentation, to invited businesses.\n\nYou must also release the list of invited businesses simultaneously to all businesses on that list, at the time of solicitation. Lists should be updated and redistributed as new businesses request the solicitation of offers.\n\nWhen the client is responsible for distributing additional technical documentation accompanying the solicitation of offers, you must forward the names and addresses of the invited businesses to the client. The client must, in turn, document that the technical material was distributed to the correct recipients.\n\nFor sensitive or classified requirements, you should direct requests for the list of invited businesses to the appropriate access to information and privacy office.",
   "provenance_paths": {}
 }

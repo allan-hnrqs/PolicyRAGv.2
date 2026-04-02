@@ -1,3 +1,7 @@
+from pathlib import Path
+from types import SimpleNamespace
+
+from bgrag.answering import strategies
 from bgrag.answering.strategies import (
     AnswerRewriteVerdictPayload,
     ContractSlotCoverageVerdictPayload,
@@ -18,6 +22,7 @@ from bgrag.answering.strategies import (
     _build_answer_repair_plan_prompt,
     _build_answer_revision_prompt,
     _build_contextual_missing_detail_prompt,
+    _build_inline_evidence_prompt,
     _build_mode_aware_answer_plan_prompt,
     _build_navigation_answer_prompt,
     _collect_contract_citations,
@@ -43,8 +48,12 @@ from bgrag.answering.strategies import (
     _select_compact_mode_aware_answer_route,
     _select_mode_aware_answer_route,
     _select_structured_contract_answer_route,
+    documents_chat,
 )
+from bgrag.config import Settings
 from bgrag.types import ChunkRecord, EvidenceBundle, SourceFamily
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def _chunk(chunk_id: str, text: str = "text") -> ChunkRecord:
@@ -79,6 +88,74 @@ def test_query_guided_prompt_includes_retrieval_aspects() -> None:
     assert "- prerequisite requirement" in prompt
     assert "- expiry consequence" in prompt
     assert "- original question" not in prompt
+
+
+def test_inline_prompt_includes_retrieved_aspects_and_exactness_rules() -> None:
+    evidence = EvidenceBundle(
+        query="original question",
+        packed_chunks=[_chunk("c1")],
+        retrieval_queries=[
+            "original question",
+            "exact form number requirement",
+            "written approval on file",
+        ],
+    )
+
+    prompt = _build_inline_evidence_prompt("original question", evidence)
+
+    assert "Retrieved aspects to cover when supported:" in prompt
+    assert "- exact form number requirement" in prompt
+    assert "- written approval on file" in prompt
+    assert "If the user asks for an exact identifier" in prompt
+    assert "Do not present nearby identifiers" in prompt
+    assert "- original question" not in prompt
+
+
+def test_inline_prompt_supports_plain_chunk_list_for_direct_rule_route() -> None:
+    prompt = _build_inline_evidence_prompt("question", [_chunk("c1")])
+
+    assert "Retrieved aspects to cover when supported:" not in prompt
+    assert "Original question:\nquestion" in prompt
+    assert "Evidence:\n[c1]" in prompt
+
+
+def test_documents_chat_uses_structured_documents_and_response_citations(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeClient:
+        def __init__(self, api_key: str) -> None:
+            captured["api_key"] = api_key
+
+        def chat(self, **kwargs):
+            captured["kwargs"] = kwargs
+            return SimpleNamespace(
+                message=SimpleNamespace(
+                    content=[SimpleNamespace(text="Grounded answer.")],
+                    citations=[SimpleNamespace(document_ids=["c1"])],
+                )
+            )
+
+    monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
+
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    evidence = EvidenceBundle(query="q", packed_chunks=[_chunk("c1", text="word " * 500)])
+
+    result = documents_chat(settings, "What is the rule?", evidence)
+
+    assert result.answer_text == "Grounded answer."
+    assert len(result.citations) == 1
+    assert result.citations[0].chunk_id == "c1"
+    assert result.citations[0].canonical_url == "https://example.com/c1"
+    assert result.citations[0].snippet is not None
+
+    kwargs = captured["kwargs"]
+    documents = kwargs["documents"]
+    assert len(documents) == 1
+    assert documents[0].id == "c1"
+    assert "snippet" in documents[0].data
+    assert len(documents[0].data["snippet"].split()) <= 300
+    assert kwargs["messages"][0].role == "system"
+    assert kwargs["messages"][1].content == "What is the rule?"
 
 
 def test_answer_plan_prompt_includes_aspects_and_json_shape() -> None:

@@ -13,6 +13,7 @@ from rich.table import Table
 from bgrag.config import Settings, detect_project_root
 from bgrag.eval.pairwise import compare_pairwise_runs
 from bgrag.eval.runner import run_eval
+from bgrag.indexing.corpus_store import read_chunks, read_normalized_documents
 from bgrag.manifests import (
     build_eval_run_manifest,
     build_pairwise_run_manifest,
@@ -21,8 +22,9 @@ from bgrag.manifests import (
     write_run_artifact_manifest,
 )
 from bgrag.parity import freeze_feat_parity_inputs
-from bgrag.pipeline import build_answer_callback, run_build_corpus, run_build_index, run_collect
+from bgrag.pipeline import build_answer_callback, run_build_corpus, run_build_index, run_collect, run_refresh_normalized_from_raw
 from bgrag.profiles.loader import list_profiles, load_profile
+from bgrag.corpus_audit import build_corpus_audit, write_corpus_audit
 
 app = typer.Typer(help="Buyer’s Guide-first RAG backend.")
 console = Console()
@@ -53,6 +55,26 @@ def build_corpus_command(profile: str = "baseline") -> None:
     settings = _settings()
     chunks = run_build_corpus(settings, profile)
     console.print(f"Built {len(chunks)} chunks with profile {profile}.")
+    console.print(f"Wrote chunk audit to {settings.resolve(Path('datasets/corpus/chunk_audit.json'))}")
+
+
+@app.command("refresh-normalized")
+def refresh_normalized_command() -> None:
+    settings = _settings()
+    documents = run_refresh_normalized_from_raw(settings)
+    console.print(f"Rebuilt {len(documents)} normalized documents from raw snapshots.")
+
+
+@app.command("audit-corpus")
+def audit_corpus_command() -> None:
+    settings = _settings()
+    documents = read_normalized_documents(settings.resolve(Path("datasets/corpus/documents")))
+    chunks = read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
+    audit = build_corpus_audit(documents, chunks)
+    output_path = settings.resolve(Path("datasets/corpus/chunk_audit.json"))
+    write_corpus_audit(output_path, audit)
+    console.print(f"Wrote corpus audit to {output_path}")
+    console.print(json.dumps(audit["chunk_char_stats"], indent=2))
 
 
 @app.command("build-index")

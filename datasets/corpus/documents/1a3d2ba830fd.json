@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:41.217242Z",
-  "content_hash": "9d472e6e1f1ef3bef786984ddeda3d36653f335133e35e31fbb91a31860415f6",
-  "word_count": 751,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "4aef10b3905ae60affce5eb118b7b0b889025f361cd2e9355ac1c07d0e87c1cc",
+  "word_count": 365,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,36 +960,34 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Engage - Engage with clients",
+      "block_type": "heading",
+      "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients"
+        "Engage with clients"
       ],
-      "text": "Engage with clients You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to: review and analyse the client's requirements complete the Request for Information process assess the level of approval required, and prepare approval documents obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval prepare the solicitation documents, factoring in translation requirements prepare, receive and review offers, including time for site visits and offerors’ conferences publish the solicitation, including any extensions conduct the technical evaluation, which may include pre-award testing such as benchmarking conduct the financial evaluation obtain recommendations from legal and conduct financial reviews comply with the requirement for negotiation obtain security clearances consider any other factors that may affect the procurement schedule Treasury Board (TB) approval Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration. A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received. Phased Offer Compliance Process (POCP) You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall. Elements to go over: ensure that the client understands the POCP provide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network) address any concerns or issues the client might have clarify the eligibility of the procurement for the POCP",
+      "text": "Engage with clients",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "Engage with clients",
+      "text": "You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:",
+      "text": "review and analyse the client's requirements",
       "order": 2,
       "metadata": {}
     },
@@ -998,10 +996,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "review and analyse the client's requirements",
+      "text": "complete the Request for Information process",
       "order": 3,
       "metadata": {}
     },
@@ -1010,10 +1007,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "complete the Request for Information process",
+      "text": "assess the level of approval required, and prepare approval documents",
       "order": 4,
       "metadata": {}
     },
@@ -1022,10 +1018,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "assess the level of approval required, and prepare approval documents",
+      "text": "obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval",
       "order": 5,
       "metadata": {}
     },
@@ -1034,10 +1029,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval",
+      "text": "prepare the solicitation documents, factoring in translation requirements",
       "order": 6,
       "metadata": {}
     },
@@ -1046,10 +1040,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "prepare the solicitation documents, factoring in translation requirements",
+      "text": "prepare, receive and review offers, including time for site visits and offerors’ conferences",
       "order": 7,
       "metadata": {}
     },
@@ -1058,10 +1051,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "prepare, receive and review offers, including time for site visits and offerors’ conferences",
+      "text": "publish the solicitation, including any extensions",
       "order": 8,
       "metadata": {}
     },
@@ -1070,10 +1062,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "publish the solicitation, including any extensions",
+      "text": "conduct the technical evaluation, which may include pre-award testing such as benchmarking",
       "order": 9,
       "metadata": {}
     },
@@ -1082,10 +1073,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "conduct the technical evaluation, which may include pre-award testing such as benchmarking",
+      "text": "conduct the financial evaluation",
       "order": 10,
       "metadata": {}
     },
@@ -1094,10 +1084,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "conduct the financial evaluation",
+      "text": "obtain recommendations from legal and conduct financial reviews",
       "order": 11,
       "metadata": {}
     },
@@ -1106,10 +1095,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "obtain recommendations from legal and conduct financial reviews",
+      "text": "comply with the requirement for negotiation",
       "order": 12,
       "metadata": {}
     },
@@ -1118,10 +1106,9 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "comply with the requirement for negotiation",
+      "text": "obtain security clearances",
       "order": 13,
       "metadata": {}
     },
@@ -1130,35 +1117,33 @@
       "block_type": "list_item",
       "heading": "Engage with clients",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients"
       ],
-      "text": "obtain security clearances",
+      "text": "consider any other factors that may affect the procurement schedule",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "list_item",
-      "heading": "Engage with clients",
+      "block_type": "heading",
+      "heading": "Treasury Board (TB) approval",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
-        "Engage with clients"
+        "Engage with clients",
+        "Treasury Board (TB) approval"
       ],
-      "text": "consider any other factors that may affect the procurement schedule",
+      "text": "Treasury Board (TB) approval",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Treasury Board (TB) approval",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Treasury Board (TB) approval"
       ],
-      "text": "Treasury Board (TB) approval",
+      "text": "Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.",
       "order": 16,
       "metadata": {}
     },
@@ -1167,37 +1152,34 @@
       "block_type": "paragraph",
       "heading": "Treasury Board (TB) approval",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Treasury Board (TB) approval"
       ],
-      "text": "Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.",
+      "text": "A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "Treasury Board (TB) approval",
+      "block_type": "heading",
+      "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
-        "Treasury Board (TB) approval"
+        "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.",
+      "text": "Phased Offer Compliance Process (POCP)",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "Phased Offer Compliance Process (POCP)",
+      "text": "You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.",
       "order": 19,
       "metadata": {}
     },
@@ -1206,24 +1188,22 @@
       "block_type": "paragraph",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.",
+      "text": "Elements to go over:",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "Elements to go over:",
+      "text": "ensure that the client understands the POCP",
       "order": 21,
       "metadata": {}
     },
@@ -1232,11 +1212,10 @@
       "block_type": "list_item",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "ensure that the client understands the POCP",
+      "text": "provide further guidance on how to apply the POCP",
       "order": 22,
       "metadata": {}
     },
@@ -1245,11 +1224,10 @@
       "block_type": "list_item",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "provide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)",
+      "text": "refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)",
       "order": 23,
       "metadata": {}
     },
@@ -1258,11 +1236,10 @@
       "block_type": "list_item",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
-      "text": "refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)",
+      "text": "address any concerns or issues the client might have",
       "order": 24,
       "metadata": {}
     },
@@ -1271,30 +1248,16 @@
       "block_type": "list_item",
       "heading": "Phased Offer Compliance Process (POCP)",
       "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
-        "Engage with clients",
-        "Phased Offer Compliance Process (POCP)"
-      ],
-      "text": "address any concerns or issues the client might have",
-      "order": 25,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0026",
-      "block_type": "list_item",
-      "heading": "Phased Offer Compliance Process (POCP)",
-      "heading_path": [
-        "Buyer's Guide Engage - Engage with clients",
         "Engage with clients",
         "Phased Offer Compliance Process (POCP)"
       ],
       "text": "clarify the eligibility of the procurement for the POCP",
-      "order": 26,
+      "order": 25,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Engage with clients You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to: review and analyse the client's requirements complete the Request for Information process assess the level of approval required, and prepare approval documents obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval prepare the solicitation documents, factoring in translation requirements prepare, receive and review offers, including time for site visits and offerors’ conferences publish the solicitation, including any extensions conduct the technical evaluation, which may include pre-award testing such as benchmarking conduct the financial evaluation obtain recommendations from legal and conduct financial reviews comply with the requirement for negotiation obtain security clearances consider any other factors that may affect the procurement schedule Treasury Board (TB) approval Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration. A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received. Phased Offer Compliance Process (POCP) You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall. Elements to go over: ensure that the client understands the POCP provide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network) address any concerns or issues the client might have clarify the eligibility of the procurement for the POCP\n\nEngage with clients\n\nYou should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:\n\nreview and analyse the client's requirements\n\ncomplete the Request for Information process\n\nassess the level of approval required, and prepare approval documents\n\nobtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval\n\nprepare the solicitation documents, factoring in translation requirements\n\nprepare, receive and review offers, including time for site visits and offerors’ conferences\n\npublish the solicitation, including any extensions\n\nconduct the technical evaluation, which may include pre-award testing such as benchmarking\n\nconduct the financial evaluation\n\nobtain recommendations from legal and conduct financial reviews\n\ncomply with the requirement for negotiation\n\nobtain security clearances\n\nconsider any other factors that may affect the procurement schedule\n\nTreasury Board (TB) approval\n\nClients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.\n\nA minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.\n\nPhased Offer Compliance Process (POCP)\n\nYou should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.\n\nElements to go over:\n\nensure that the client understands the POCP\n\nprovide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\nrefer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\naddress any concerns or issues the client might have\n\nclarify the eligibility of the procurement for the POCP",
-  "markdown_text": "Engage with clients You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to: review and analyse the client's requirements complete the Request for Information process assess the level of approval required, and prepare approval documents obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval prepare the solicitation documents, factoring in translation requirements prepare, receive and review offers, including time for site visits and offerors’ conferences publish the solicitation, including any extensions conduct the technical evaluation, which may include pre-award testing such as benchmarking conduct the financial evaluation obtain recommendations from legal and conduct financial reviews comply with the requirement for negotiation obtain security clearances consider any other factors that may affect the procurement schedule Treasury Board (TB) approval Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration. A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received. Phased Offer Compliance Process (POCP) You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall. Elements to go over: ensure that the client understands the POCP provide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network) address any concerns or issues the client might have clarify the eligibility of the procurement for the POCP\n\nEngage with clients\n\nYou should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:\n\nreview and analyse the client's requirements\n\ncomplete the Request for Information process\n\nassess the level of approval required, and prepare approval documents\n\nobtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval\n\nprepare the solicitation documents, factoring in translation requirements\n\nprepare, receive and review offers, including time for site visits and offerors’ conferences\n\npublish the solicitation, including any extensions\n\nconduct the technical evaluation, which may include pre-award testing such as benchmarking\n\nconduct the financial evaluation\n\nobtain recommendations from legal and conduct financial reviews\n\ncomply with the requirement for negotiation\n\nobtain security clearances\n\nconsider any other factors that may affect the procurement schedule\n\nTreasury Board (TB) approval\n\nClients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.\n\nA minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.\n\nPhased Offer Compliance Process (POCP)\n\nYou should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.\n\nElements to go over:\n\nensure that the client understands the POCP\n\nprovide further guidance on how to apply the POCP refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\nrefer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\naddress any concerns or issues the client might have\n\nclarify the eligibility of the procurement for the POCP",
+  "raw_text": "Engage with clients\n\nYou should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:\n\nreview and analyse the client's requirements\n\ncomplete the Request for Information process\n\nassess the level of approval required, and prepare approval documents\n\nobtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval\n\nprepare the solicitation documents, factoring in translation requirements\n\nprepare, receive and review offers, including time for site visits and offerors’ conferences\n\npublish the solicitation, including any extensions\n\nconduct the technical evaluation, which may include pre-award testing such as benchmarking\n\nconduct the financial evaluation\n\nobtain recommendations from legal and conduct financial reviews\n\ncomply with the requirement for negotiation\n\nobtain security clearances\n\nconsider any other factors that may affect the procurement schedule\n\nTreasury Board (TB) approval\n\nClients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.\n\nA minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.\n\nPhased Offer Compliance Process (POCP)\n\nYou should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.\n\nElements to go over:\n\nensure that the client understands the POCP\n\nprovide further guidance on how to apply the POCP\n\nrefer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\naddress any concerns or issues the client might have\n\nclarify the eligibility of the procurement for the POCP",
+  "markdown_text": "Engage with clients\n\nYou should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:\n\nreview and analyse the client's requirements\n\ncomplete the Request for Information process\n\nassess the level of approval required, and prepare approval documents\n\nobtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval\n\nprepare the solicitation documents, factoring in translation requirements\n\nprepare, receive and review offers, including time for site visits and offerors’ conferences\n\npublish the solicitation, including any extensions\n\nconduct the technical evaluation, which may include pre-award testing such as benchmarking\n\nconduct the financial evaluation\n\nobtain recommendations from legal and conduct financial reviews\n\ncomply with the requirement for negotiation\n\nobtain security clearances\n\nconsider any other factors that may affect the procurement schedule\n\nTreasury Board (TB) approval\n\nClients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.\n\nA minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.\n\nPhased Offer Compliance Process (POCP)\n\nYou should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.\n\nElements to go over:\n\nensure that the client understands the POCP\n\nprovide further guidance on how to apply the POCP\n\nrefer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)\n\naddress any concerns or issues the client might have\n\nclarify the eligibility of the procurement for the POCP",
   "provenance_paths": {}
 }

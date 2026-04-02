@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:18.942171Z",
-  "content_hash": "4fdd0eb299e2f13b360e460eb439ef4477ab3169aaa852fb8e99c02dbfb9d2d5",
-  "word_count": 144,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "6940ef3f4142f47fc9c586615d76ae27813cd84fcad58f6912ec03c10bdccec4",
+  "word_count": 72,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -618,42 +618,29 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Special considerations - Forgiveness of debts",
+      "block_type": "heading",
+      "heading": "Forgiveness of debts",
       "heading_path": [
-        "Buyer's Guide Special considerations - Forgiveness of debts"
+        "Forgiveness of debts"
       ],
-      "text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+      "text": "Forgiveness of debts",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
-      "heading": "Forgiveness of debts",
-      "heading_path": [
-        "Buyer's Guide Special considerations - Forgiveness of debts",
-        "Forgiveness of debts"
-      ],
-      "text": "Forgiveness of debts",
-      "order": 1,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0002",
       "block_type": "paragraph",
       "heading": "Forgiveness of debts",
       "heading_path": [
-        "Buyer's Guide Special considerations - Forgiveness of debts",
         "Forgiveness of debts"
       ],
       "text": "Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
-      "order": 2,
+      "order": 1,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.\n\nForgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
-  "markdown_text": "Forgiveness of debts Without the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.\n\nForgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+  "raw_text": "Forgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
+  "markdown_text": "Forgiveness of debts\n\nWithout the appropriate delegated authority, no Public Services and Procurement Canada (PSPC) employee is authorized to forgive debts owed to Canada arising from contractual actions. For additional information, refer to the Debt Write-Off Regulations (1994) . Buyers at PSPC can refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) to determine the appropriate delegated authority for a debt write-off.",
   "provenance_paths": {}
 }

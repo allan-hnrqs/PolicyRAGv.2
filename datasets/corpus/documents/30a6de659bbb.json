@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:56.210238Z",
-  "content_hash": "802c3924bdf4b2ee248bbf0592df419a093a86fbf8dd50684fa45265240c2dd1",
-  "word_count": 1030,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "34f41dbe438dd0752f5bda15c77cf0e92e03936a95c32ac93427bcb388c34037",
+  "word_count": 515,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,49 +960,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Method of selection - Specifying evaluation criteria",
+      "block_type": "heading",
+      "heading": "Specifying evaluation criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria"
+        "Specifying evaluation criteria"
       ],
-      "text": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate. Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers. Mandatory criteria must be clearly specified in the solicitation document and may include: licensing requirements minimum performance characteristics of equipment requirements for delivery dates or conditions essential minimum qualifications or experience of proposed personnel budget limitations Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds. When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria. You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members. Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers. Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
+      "text": "Specifying evaluation criteria",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Specifying evaluation criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria"
       ],
-      "text": "Specifying evaluation criteria",
+      "text": "You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Specifying evaluation criteria",
+      "block_type": "heading",
+      "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
-        "Specifying evaluation criteria"
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
       ],
-      "text": "You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.",
+      "text": "Mandatory criteria",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "Mandatory criteria",
+      "text": "You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.",
       "order": 3,
       "metadata": {}
     },
@@ -1011,24 +1009,22 @@
       "block_type": "paragraph",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.",
+      "text": "Mandatory criteria must be clearly specified in the solicitation document and may include:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "Mandatory criteria must be clearly specified in the solicitation document and may include:",
+      "text": "licensing requirements",
       "order": 5,
       "metadata": {}
     },
@@ -1037,11 +1033,10 @@
       "block_type": "list_item",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "licensing requirements",
+      "text": "minimum performance characteristics of equipment",
       "order": 6,
       "metadata": {}
     },
@@ -1050,11 +1045,10 @@
       "block_type": "list_item",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "minimum performance characteristics of equipment",
+      "text": "requirements for delivery dates or conditions",
       "order": 7,
       "metadata": {}
     },
@@ -1063,11 +1057,10 @@
       "block_type": "list_item",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "requirements for delivery dates or conditions",
+      "text": "essential minimum qualifications or experience of proposed personnel",
       "order": 8,
       "metadata": {}
     },
@@ -1076,37 +1069,34 @@
       "block_type": "list_item",
       "heading": "Mandatory criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Mandatory criteria"
       ],
-      "text": "essential minimum qualifications or experience of proposed personnel",
+      "text": "budget limitations",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "list_item",
-      "heading": "Mandatory criteria",
+      "block_type": "heading",
+      "heading": "Rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
-        "Mandatory criteria"
+        "Rated criteria"
       ],
-      "text": "budget limitations",
+      "text": "Rated criteria",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Rated criteria"
       ],
-      "text": "Rated criteria",
+      "text": "Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.",
       "order": 11,
       "metadata": {}
     },
@@ -1115,11 +1105,10 @@
       "block_type": "paragraph",
       "heading": "Rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Rated criteria"
       ],
-      "text": "Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.",
+      "text": "When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.",
       "order": 12,
       "metadata": {}
     },
@@ -1128,37 +1117,34 @@
       "block_type": "paragraph",
       "heading": "Rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Rated criteria"
       ],
-      "text": "When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.",
+      "text": "You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
-      "heading": "Rated criteria",
+      "block_type": "heading",
+      "heading": "Technical rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
-        "Rated criteria"
+        "Technical rated criteria"
       ],
-      "text": "You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.",
+      "text": "Technical rated criteria",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Technical rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Technical rated criteria"
       ],
-      "text": "Technical rated criteria",
+      "text": "Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.",
       "order": 15,
       "metadata": {}
     },
@@ -1167,30 +1153,16 @@
       "block_type": "paragraph",
       "heading": "Technical rated criteria",
       "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
-        "Specifying evaluation criteria",
-        "Technical rated criteria"
-      ],
-      "text": "Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.",
-      "order": 16,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0017",
-      "block_type": "paragraph",
-      "heading": "Technical rated criteria",
-      "heading_path": [
-        "Buyer's Guide Method of selection - Specifying evaluation criteria",
         "Specifying evaluation criteria",
         "Technical rated criteria"
       ],
       "text": "Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
-      "order": 17,
+      "order": 16,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate. Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers. Mandatory criteria must be clearly specified in the solicitation document and may include: licensing requirements minimum performance characteristics of equipment requirements for delivery dates or conditions essential minimum qualifications or experience of proposed personnel budget limitations Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds. When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria. You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members. Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers. Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.\n\nSpecifying evaluation criteria\n\nYou must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.\n\nMandatory criteria\n\nYou must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.\n\nMandatory criteria must be clearly specified in the solicitation document and may include:\n\nlicensing requirements\n\nminimum performance characteristics of equipment\n\nrequirements for delivery dates or conditions\n\nessential minimum qualifications or experience of proposed personnel\n\nbudget limitations\n\nRated criteria\n\nOnly offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.\n\nWhen assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.\n\nYou must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.\n\nTechnical rated criteria\n\nRated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.\n\nNote: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
-  "markdown_text": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate. Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers. Mandatory criteria must be clearly specified in the solicitation document and may include: licensing requirements minimum performance characteristics of equipment requirements for delivery dates or conditions essential minimum qualifications or experience of proposed personnel budget limitations Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds. When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria. You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members. Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers. Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.\n\nSpecifying evaluation criteria\n\nYou must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.\n\nMandatory criteria\n\nYou must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.\n\nMandatory criteria must be clearly specified in the solicitation document and may include:\n\nlicensing requirements\n\nminimum performance characteristics of equipment\n\nrequirements for delivery dates or conditions\n\nessential minimum qualifications or experience of proposed personnel\n\nbudget limitations\n\nRated criteria\n\nOnly offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.\n\nWhen assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.\n\nYou must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.\n\nTechnical rated criteria\n\nRated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.\n\nNote: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
+  "raw_text": "Specifying evaluation criteria\n\nYou must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.\n\nMandatory criteria\n\nYou must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.\n\nMandatory criteria must be clearly specified in the solicitation document and may include:\n\nlicensing requirements\n\nminimum performance characteristics of equipment\n\nrequirements for delivery dates or conditions\n\nessential minimum qualifications or experience of proposed personnel\n\nbudget limitations\n\nRated criteria\n\nOnly offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.\n\nWhen assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.\n\nYou must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.\n\nTechnical rated criteria\n\nRated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.\n\nNote: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
+  "markdown_text": "Specifying evaluation criteria\n\nYou must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.\n\nMandatory criteria\n\nYou must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.\n\nMandatory criteria must be clearly specified in the solicitation document and may include:\n\nlicensing requirements\n\nminimum performance characteristics of equipment\n\nrequirements for delivery dates or conditions\n\nessential minimum qualifications or experience of proposed personnel\n\nbudget limitations\n\nRated criteria\n\nOnly offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.\n\nWhen assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.\n\nYou must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.\n\nTechnical rated criteria\n\nRated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.\n\nNote: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
   "provenance_paths": {}
 }

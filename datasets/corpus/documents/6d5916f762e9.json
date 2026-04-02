@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:58:53.900786Z",
-  "content_hash": "a32642ab4c4df8b60ef7e39dab4e9fa27266007cbb4c99472361766b19e54e66",
-  "word_count": 920,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "27178397cae7236cf9c0b76de85673d31c53e61472212d17f798ab54f5092b4b",
+  "word_count": 417,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -473,24 +473,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Contract negotiation - When to negotiate",
+      "block_type": "heading",
+      "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate"
+        "When to negotiate"
       ],
-      "text": "When to negotiate When two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations. For procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see: Article 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement Article XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP) the 'Negotiation' provision of the Canadian Free Trade Agreement Note: Canada's other free trade agreements have similar rules to the WTO-AGP . For procurements not subject to trade agreements, when a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome The ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers. when an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply when a request for quotation was used for a competitive procurement, negotiations should be avoided. As contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods. Whenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
+      "text": "When to negotiate",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "When to negotiate",
+      "text": "When two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.",
       "order": 1,
       "metadata": {}
     },
@@ -499,22 +498,20 @@
       "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "When two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.",
+      "text": "For procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "For procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:",
+      "text": "Article 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement",
       "order": 3,
       "metadata": {}
     },
@@ -523,10 +520,9 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "Article 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement",
+      "text": "Article XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)",
       "order": 4,
       "metadata": {}
     },
@@ -535,22 +531,20 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "Article XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)",
+      "text": "the 'Negotiation' provision of the Canadian Free Trade Agreement",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "the 'Negotiation' provision of the Canadian Free Trade Agreement",
+      "text": "Note: Canada's other free trade agreements have similar rules to the WTO-AGP .",
       "order": 6,
       "metadata": {}
     },
@@ -559,22 +553,20 @@
       "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "Note: Canada's other free trade agreements have similar rules to the WTO-AGP .",
+      "text": "For procurements not subject to trade agreements,",
       "order": 7,
       "metadata": {}
     },
     {
       "block_id": "block_0008",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "For procurements not subject to trade agreements,",
+      "text": "when a solicitation of offers was used, you may negotiate:",
       "order": 8,
       "metadata": {}
     },
@@ -583,10 +575,9 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "when a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome",
+      "text": "before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers",
       "order": 9,
       "metadata": {}
     },
@@ -595,10 +586,9 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers",
+      "text": "after offer evaluation, with only one offeror if they:",
       "order": 10,
       "metadata": {}
     },
@@ -607,10 +597,9 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome",
+      "text": "submitted the only compliant offer",
       "order": 11,
       "metadata": {}
     },
@@ -619,34 +608,31 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "submitted the only compliant offer",
+      "text": "were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome",
+      "text": "The ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "The ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.",
+      "text": "when an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply",
       "order": 14,
       "metadata": {}
     },
@@ -655,22 +641,20 @@
       "block_type": "list_item",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "when an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply",
+      "text": "when a request for quotation was used for a competitive procurement, negotiations should be avoided.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
-      "text": "when a request for quotation was used for a competitive procurement, negotiations should be avoided.",
+      "text": "As contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.",
       "order": 16,
       "metadata": {}
     },
@@ -679,28 +663,15 @@
       "block_type": "paragraph",
       "heading": "When to negotiate",
       "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
-        "When to negotiate"
-      ],
-      "text": "As contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.",
-      "order": 17,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "When to negotiate",
-      "heading_path": [
-        "Buyer's Guide Contract negotiation - When to negotiate",
         "When to negotiate"
       ],
       "text": "Whenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
-      "order": 18,
+      "order": 17,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "When to negotiate When two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations. For procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see: Article 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement Article XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP) the 'Negotiation' provision of the Canadian Free Trade Agreement Note: Canada's other free trade agreements have similar rules to the WTO-AGP . For procurements not subject to trade agreements, when a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome The ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers. when an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply when a request for quotation was used for a competitive procurement, negotiations should be avoided. As contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods. Whenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.\n\nWhen to negotiate\n\nWhen two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.\n\nFor procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:\n\nArticle 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement\n\nArticle XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)\n\nthe 'Negotiation' provision of the Canadian Free Trade Agreement\n\nNote: Canada's other free trade agreements have similar rules to the WTO-AGP .\n\nFor procurements not subject to trade agreements,\n\nwhen a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nbefore the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers\n\nafter offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nsubmitted the only compliant offer\n\nwere selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nThe ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.\n\nwhen an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply\n\nwhen a request for quotation was used for a competitive procurement, negotiations should be avoided.\n\nAs contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.\n\nWhenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
-  "markdown_text": "When to negotiate When two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations. For procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see: Article 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement Article XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP) the 'Negotiation' provision of the Canadian Free Trade Agreement Note: Canada's other free trade agreements have similar rules to the WTO-AGP . For procurements not subject to trade agreements, when a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome The ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers. when an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply when a request for quotation was used for a competitive procurement, negotiations should be avoided. As contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods. Whenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.\n\nWhen to negotiate\n\nWhen two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.\n\nFor procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:\n\nArticle 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement\n\nArticle XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)\n\nthe 'Negotiation' provision of the Canadian Free Trade Agreement\n\nNote: Canada's other free trade agreements have similar rules to the WTO-AGP .\n\nFor procurements not subject to trade agreements,\n\nwhen a solicitation of offers was used, you may negotiate: before the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers after offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nbefore the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers\n\nafter offer evaluation, with only one offeror if they: submitted the only compliant offer were selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nsubmitted the only compliant offer\n\nwere selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nThe ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.\n\nwhen an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply\n\nwhen a request for quotation was used for a competitive procurement, negotiations should be avoided.\n\nAs contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.\n\nWhenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
+  "raw_text": "When to negotiate\n\nWhen two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.\n\nFor procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:\n\nArticle 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement\n\nArticle XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)\n\nthe 'Negotiation' provision of the Canadian Free Trade Agreement\n\nNote: Canada's other free trade agreements have similar rules to the WTO-AGP .\n\nFor procurements not subject to trade agreements,\n\nwhen a solicitation of offers was used, you may negotiate:\n\nbefore the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers\n\nafter offer evaluation, with only one offeror if they:\n\nsubmitted the only compliant offer\n\nwere selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nThe ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.\n\nwhen an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply\n\nwhen a request for quotation was used for a competitive procurement, negotiations should be avoided.\n\nAs contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.\n\nWhenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
+  "markdown_text": "When to negotiate\n\nWhen two or more compliant offers are received following a solicitation of offers and no offer represents fair value, you should examine the solicitation document to determine possible causes. You may then consider either negotiating with all compliant offerors or cancelling and reissuing the solicitation. If urgency is a major factor, it may be possible to use the results of the original solicitation of offers as a basis for negotiations.\n\nFor procurements subject to the trade agreements, you must conduct negotiations in accordance with the conditions of these agreements. For example see:\n\nArticle 19.11: Negotiation of the Canada-European Union Comprehensive Economic and Trade Agreement\n\nArticle XII: Negotiation of the World Trade Organization Agreement on Government Procurement (WTO-AGP)\n\nthe 'Negotiation' provision of the Canadian Free Trade Agreement\n\nNote: Canada's other free trade agreements have similar rules to the WTO-AGP .\n\nFor procurements not subject to trade agreements,\n\nwhen a solicitation of offers was used, you may negotiate:\n\nbefore the completion of offer evaluation, provided negotiations are held with all offerors who submitted compliant offers\n\nafter offer evaluation, with only one offeror if they:\n\nsubmitted the only compliant offer\n\nwere selected after evaluating multiple compliant offers, but it can be demonstrated that negotiations with all compliant offerors would not have altered the selection outcome\n\nThe ability to prove that the same offeror will be selected, regardless of whether negotiations are conducted with all compliant offerors, assumes that the requirement will not change during negotiations meaning that other offerors, given the same opportunity, could not submit different or better offers.\n\nwhen an invitation to tender (ITT) was used and there is more than one compliant offer, but neither the lowest offer nor the other offers represent fair value, the buyer must have determined, before considering entering into negotiations, that it would not be more effective to cancel the solicitation and meet the requirement using another method of supply\n\nwhen a request for quotation was used for a competitive procurement, negotiations should be avoided.\n\nAs contracts are awarded competitively and non-competitively, contract pricing can be determined by market based pricing, commercial pricing or pricing principles. When neither market pricing (established through competition) nor commercial pricing are possible, negotiated pricing is to be applied. See the Buyer’s Guide - Cost and profit negotiations for more information on pricing methods.\n\nWhenever a contract requires any type of price negotiation (that is, negotiated pricing), the pricing principles found in section 5.0 of the Practitioner's Guide for Procurement Pricing should be applied.",
   "provenance_paths": {}
 }

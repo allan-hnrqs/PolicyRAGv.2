@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:27.474144Z",
-  "content_hash": "b8381345339a569373dda04b0c1e9064bd074750393f401001be4a78817fb24e",
-  "word_count": 784,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "6d0a5325e4422de76f281c26d5d4bb1afd310ec9cffe73d91f66559a3b36b156",
+  "word_count": 392,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -431,62 +431,59 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Communicate results",
+      "block_type": "heading",
+      "heading": "Communicate results",
       "heading_path": [
-        "Buyer's Guide Communicate results"
+        "Communicate results"
       ],
-      "text": "Communicate results You must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors. Successful offeror(s) After the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state: confirmation of their successful offer the terms of the contract award, including key conditions and next steps any additional documents required to finalize the contract Ensure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management. You should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract. Unsuccessful offerors You should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process. Sample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner. Refer to available samples of regret letters . Recourse Upon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following: Canadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal . Office of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud . An action in a Provincial/Territorial Superior Court or in Federal Court. There are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
+      "text": "Communicate results",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Communicate results",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results"
       ],
-      "text": "Communicate results",
+      "text": "You must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Communicate results",
+      "block_type": "heading",
+      "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
-        "Communicate results"
+        "Communicate results",
+        "Successful offeror(s)"
       ],
-      "text": "You must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.",
+      "text": "Successful offeror(s)",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "Successful offeror(s)",
+      "text": "After the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "After the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:",
+      "text": "confirmation of their successful offer",
       "order": 4,
       "metadata": {}
     },
@@ -495,11 +492,10 @@
       "block_type": "list_item",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "confirmation of their successful offer",
+      "text": "the terms of the contract award, including key conditions and next steps",
       "order": 5,
       "metadata": {}
     },
@@ -508,24 +504,22 @@
       "block_type": "list_item",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "the terms of the contract award, including key conditions and next steps",
+      "text": "any additional documents required to finalize the contract",
       "order": 6,
       "metadata": {}
     },
     {
       "block_id": "block_0007",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "any additional documents required to finalize the contract",
+      "text": "Ensure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.",
       "order": 7,
       "metadata": {}
     },
@@ -534,37 +528,34 @@
       "block_type": "paragraph",
       "heading": "Successful offeror(s)",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Successful offeror(s)"
       ],
-      "text": "Ensure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.",
+      "text": "You should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "paragraph",
-      "heading": "Successful offeror(s)",
+      "block_type": "heading",
+      "heading": "Unsuccessful offerors",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
-        "Successful offeror(s)"
+        "Unsuccessful offerors"
       ],
-      "text": "You should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.",
+      "text": "Unsuccessful offerors",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Unsuccessful offerors",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Unsuccessful offerors"
       ],
-      "text": "Unsuccessful offerors",
+      "text": "You should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.",
       "order": 10,
       "metadata": {}
     },
@@ -573,11 +564,10 @@
       "block_type": "paragraph",
       "heading": "Unsuccessful offerors",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Unsuccessful offerors"
       ],
-      "text": "You should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.",
+      "text": "Sample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.",
       "order": 11,
       "metadata": {}
     },
@@ -586,50 +576,46 @@
       "block_type": "paragraph",
       "heading": "Unsuccessful offerors",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Unsuccessful offerors"
       ],
-      "text": "Sample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.",
+      "text": "Refer to available samples of regret letters .",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "paragraph",
-      "heading": "Unsuccessful offerors",
+      "block_type": "heading",
+      "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
-        "Unsuccessful offerors"
+        "Recourse"
       ],
-      "text": "Refer to available samples of regret letters .",
+      "text": "Recourse",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Recourse"
       ],
-      "text": "Recourse",
+      "text": "Upon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Recourse"
       ],
-      "text": "Upon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:",
+      "text": "Canadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .",
       "order": 15,
       "metadata": {}
     },
@@ -638,11 +624,10 @@
       "block_type": "list_item",
       "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Recourse"
       ],
-      "text": "Canadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .",
+      "text": "Office of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .",
       "order": 16,
       "metadata": {}
     },
@@ -651,43 +636,28 @@
       "block_type": "list_item",
       "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Recourse"
       ],
-      "text": "Office of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .",
+      "text": "An action in a Provincial/Territorial Superior Court or in Federal Court.",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "list_item",
-      "heading": "Recourse",
-      "heading_path": [
-        "Buyer's Guide Communicate results",
-        "Communicate results",
-        "Recourse"
-      ],
-      "text": "An action in a Provincial/Territorial Superior Court or in Federal Court.",
-      "order": 18,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0019",
       "block_type": "paragraph",
       "heading": "Recourse",
       "heading_path": [
-        "Buyer's Guide Communicate results",
         "Communicate results",
         "Recourse"
       ],
       "text": "There are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
-      "order": 19,
+      "order": 18,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Communicate results You must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors. Successful offeror(s) After the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state: confirmation of their successful offer the terms of the contract award, including key conditions and next steps any additional documents required to finalize the contract Ensure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management. You should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract. Unsuccessful offerors You should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process. Sample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner. Refer to available samples of regret letters . Recourse Upon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following: Canadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal . Office of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud . An action in a Provincial/Territorial Superior Court or in Federal Court. There are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.\n\nCommunicate results\n\nYou must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.\n\nSuccessful offeror(s)\n\nAfter the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:\n\nconfirmation of their successful offer\n\nthe terms of the contract award, including key conditions and next steps\n\nany additional documents required to finalize the contract\n\nEnsure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.\n\nYou should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.\n\nUnsuccessful offerors\n\nYou should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.\n\nSample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.\n\nRefer to available samples of regret letters .\n\nRecourse\n\nUpon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:\n\nCanadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .\n\nOffice of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .\n\nAn action in a Provincial/Territorial Superior Court or in Federal Court.\n\nThere are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
-  "markdown_text": "Communicate results You must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors. Successful offeror(s) After the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state: confirmation of their successful offer the terms of the contract award, including key conditions and next steps any additional documents required to finalize the contract Ensure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management. You should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract. Unsuccessful offerors You should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process. Sample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner. Refer to available samples of regret letters . Recourse Upon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following: Canadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal . Office of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud . An action in a Provincial/Territorial Superior Court or in Federal Court. There are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.\n\nCommunicate results\n\nYou must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.\n\nSuccessful offeror(s)\n\nAfter the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:\n\nconfirmation of their successful offer\n\nthe terms of the contract award, including key conditions and next steps\n\nany additional documents required to finalize the contract\n\nEnsure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.\n\nYou should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.\n\nUnsuccessful offerors\n\nYou should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.\n\nSample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.\n\nRefer to available samples of regret letters .\n\nRecourse\n\nUpon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:\n\nCanadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .\n\nOffice of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .\n\nAn action in a Provincial/Territorial Superior Court or in Federal Court.\n\nThere are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
+  "raw_text": "Communicate results\n\nYou must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.\n\nSuccessful offeror(s)\n\nAfter the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:\n\nconfirmation of their successful offer\n\nthe terms of the contract award, including key conditions and next steps\n\nany additional documents required to finalize the contract\n\nEnsure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.\n\nYou should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.\n\nUnsuccessful offerors\n\nYou should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.\n\nSample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.\n\nRefer to available samples of regret letters .\n\nRecourse\n\nUpon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:\n\nCanadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .\n\nOffice of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .\n\nAn action in a Provincial/Territorial Superior Court or in Federal Court.\n\nThere are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
+  "markdown_text": "Communicate results\n\nYou must communicate the results of the evaluation of offers received as part of the solicitation process. Results must be communicated to the client, the successful offeror and the unsuccessful offerors.\n\nSuccessful offeror(s)\n\nAfter the evaluation process is complete, notify the successful offeror(s) as soon as possible. The notification should clearly state:\n\nconfirmation of their successful offer\n\nthe terms of the contract award, including key conditions and next steps\n\nany additional documents required to finalize the contract\n\nEnsure that the successful offeror understands their obligations and the expected timelines for contract performance. Clear communication at this stage helps avoid misunderstandings and sets the foundation for effective contract management.\n\nYou should also inform the client of the successful offer and provide details to ensure the smooth implementation of the contract.\n\nUnsuccessful offerors\n\nYou should notify unsuccessful offerors as soon as possible after contract award or the issuance of a standing offer or supply arrangement. It is essential to communicate this information promptly to maintain a transparent and fair procurement process.\n\nSample letters are provided as templates for structuring the notification to unsuccessful offerors in a respectful and professional manner.\n\nRefer to available samples of regret letters .\n\nRecourse\n\nUpon request, you should provide general information to offerors about the avenues that may be available for recourse, including judicial and quasi-judicial bodies to which offer protests can be made, such as the following:\n\nCanadian International Trade Tribunal (CITT): Whether or not the CITT has jurisdiction to conduct an inquiry regarding any particular procurement will depend on factors such as the government institution conducting the procurement, the estimated value of the procurement, and the nature of the goods, services, or construction services being procured. More information can be obtained by visiting Canadian International Trade Tribunal .\n\nOffice of the Procurement Ombudsman (OPO): If the value of the procurement is below the monetary thresholds established under the Canadian Free Trade Agreement (CFTA) the OPO may have jurisdiction to conduct a review. More information can be obtained by visiting The Office of the Procurement Ombud .\n\nAn action in a Provincial/Territorial Superior Court or in Federal Court.\n\nThere are strict deadlines for bringing offer protests, and the time periods vary depending on where the offer protest is brought. Offerors may wish to consult their own lawyers on the appropriate forum for bringing an offer protest.",
   "provenance_paths": {}
 }

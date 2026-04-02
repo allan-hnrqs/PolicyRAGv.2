@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:59:03.829494Z",
-  "content_hash": "66e4ed1ca54aec10b7491dcdb6545c2585f3b88be0f9a742910474a32300c508",
-  "word_count": 2726,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c8596c245de6ad2fd19c17dabc40fe0d0778d20e4c084008219d3da0613598d9",
+  "word_count": 1345,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -961,24 +961,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Basis of payment - Cost reimbursable",
+      "block_type": "heading",
+      "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable"
+        "Cost reimbursable"
       ],
-      "text": "Cost reimbursable A cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain. Cost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The appropriate scenarios for cost reimbursable pricing include: research and development major system development prototype development and testing low rate initial production immature industry, platform, service or product minimal competition poorly defined concepts or understanding of requirements Conditions for using cost reimbursable basis of payment are as follows: the contractor’s accounting system is adequate for determining costs applicable to the contract adequate government resources are in place to manage the contract which includes reviewing and validating costs claimed appropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used it is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities a commercial price is unavailable Refer to Contract Cost Principles for a description of allowable costs. Cost reimbursable with target cost/incentive fee This basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria. Use this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively. There are 2 main types of target cost/incentive fee basis of payment: with no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred with maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price Setting up the target cost/incentive fee basis of payment It may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment. The target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). When setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract. The sharing formula provides for: an increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target a reduction of the fee below the target, for actual acceptable costs above the target Cost reimbursable with a fixed fee This basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown. Determining a fixed fee The fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance. Fixed fee and ceiling price In a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor. Cost reimbursable with fee based on actual costs This basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type. Calculating fee based on actual costs The amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit. Ceiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts. Cost reimbursable with no fee This basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance. Exclude ceiling prices A contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract. Validate costs claimed Since the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts. Incorporating contractual clauses When using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include: a limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price a ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price the appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration For guidance on the inclusion of audit clauses, refer to Audit .",
+      "text": "Cost reimbursable",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "Cost reimbursable",
+      "text": "A cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.",
       "order": 1,
       "metadata": {}
     },
@@ -987,10 +986,9 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "A cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.",
+      "text": "Cost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
       "order": 2,
       "metadata": {}
     },
@@ -999,22 +997,20 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "Cost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
+      "text": "The appropriate scenarios for cost reimbursable pricing include:",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "The appropriate scenarios for cost reimbursable pricing include:",
+      "text": "research and development",
       "order": 4,
       "metadata": {}
     },
@@ -1023,10 +1019,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "research and development",
+      "text": "major system development",
       "order": 5,
       "metadata": {}
     },
@@ -1035,10 +1030,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "major system development",
+      "text": "prototype development and testing",
       "order": 6,
       "metadata": {}
     },
@@ -1047,10 +1041,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "prototype development and testing",
+      "text": "low rate initial production",
       "order": 7,
       "metadata": {}
     },
@@ -1059,10 +1052,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "low rate initial production",
+      "text": "immature industry, platform, service or product",
       "order": 8,
       "metadata": {}
     },
@@ -1071,10 +1063,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "immature industry, platform, service or product",
+      "text": "minimal competition",
       "order": 9,
       "metadata": {}
     },
@@ -1083,34 +1074,31 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "minimal competition",
+      "text": "poorly defined concepts or understanding of requirements",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "poorly defined concepts or understanding of requirements",
+      "text": "Conditions for using cost reimbursable basis of payment are as follows:",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "Conditions for using cost reimbursable basis of payment are as follows:",
+      "text": "the contractor’s accounting system is adequate for determining costs applicable to the contract",
       "order": 12,
       "metadata": {}
     },
@@ -1119,10 +1107,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "the contractor’s accounting system is adequate for determining costs applicable to the contract",
+      "text": "adequate government resources are in place to manage the contract which includes reviewing and validating costs claimed",
       "order": 13,
       "metadata": {}
     },
@@ -1131,10 +1118,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "adequate government resources are in place to manage the contract which includes reviewing and validating costs claimed",
+      "text": "appropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used",
       "order": 14,
       "metadata": {}
     },
@@ -1143,10 +1129,9 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "appropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used",
+      "text": "it is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities",
       "order": 15,
       "metadata": {}
     },
@@ -1155,47 +1140,44 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "it is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities",
+      "text": "a commercial price is unavailable",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable"
       ],
-      "text": "a commercial price is unavailable",
+      "text": "Refer to Contract Cost Principles for a description of allowable costs.",
       "order": 17,
       "metadata": {}
     },
     {
       "block_id": "block_0018",
-      "block_type": "paragraph",
-      "heading": "Cost reimbursable",
+      "block_type": "heading",
+      "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable"
+        "Cost reimbursable",
+        "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "Refer to Contract Cost Principles for a description of allowable costs.",
+      "text": "Cost reimbursable with target cost/incentive fee",
       "order": 18,
       "metadata": {}
     },
     {
       "block_id": "block_0019",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "Cost reimbursable with target cost/incentive fee",
+      "text": "This basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.",
       "order": 19,
       "metadata": {}
     },
@@ -1204,11 +1186,10 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "This basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.",
+      "text": "Use this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.",
       "order": 20,
       "metadata": {}
     },
@@ -1217,24 +1198,22 @@
       "block_type": "paragraph",
       "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "Use this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.",
+      "text": "There are 2 main types of target cost/incentive fee basis of payment:",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "There are 2 main types of target cost/incentive fee basis of payment:",
+      "text": "with no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred",
       "order": 22,
       "metadata": {}
     },
@@ -1243,38 +1222,36 @@
       "block_type": "list_item",
       "heading": "Cost reimbursable with target cost/incentive fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee"
       ],
-      "text": "with no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred",
+      "text": "with maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price",
       "order": 23,
       "metadata": {}
     },
     {
       "block_id": "block_0024",
-      "block_type": "list_item",
-      "heading": "Cost reimbursable with target cost/incentive fee",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with target cost/incentive fee"
-      ],
-      "text": "with maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price",
-      "order": 24,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0025",
       "block_type": "heading",
       "heading": "Setting up the target cost/incentive fee basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee",
         "Setting up the target cost/incentive fee basis of payment"
       ],
       "text": "Setting up the target cost/incentive fee basis of payment",
+      "order": 24,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0025",
+      "block_type": "paragraph",
+      "heading": "Setting up the target cost/incentive fee basis of payment",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with target cost/incentive fee",
+        "Setting up the target cost/incentive fee basis of payment"
+      ],
+      "text": "It may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.",
       "order": 25,
       "metadata": {}
     },
@@ -1283,12 +1260,11 @@
       "block_type": "paragraph",
       "heading": "Setting up the target cost/incentive fee basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee",
         "Setting up the target cost/incentive fee basis of payment"
       ],
-      "text": "It may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.",
+      "text": "The target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
       "order": 26,
       "metadata": {}
     },
@@ -1297,12 +1273,11 @@
       "block_type": "paragraph",
       "heading": "Setting up the target cost/incentive fee basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee",
         "Setting up the target cost/incentive fee basis of payment"
       ],
-      "text": "The target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).",
+      "text": "When setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.",
       "order": 27,
       "metadata": {}
     },
@@ -1311,26 +1286,24 @@
       "block_type": "paragraph",
       "heading": "Setting up the target cost/incentive fee basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with target cost/incentive fee",
-        "Setting up the target cost/incentive fee basis of payment"
-      ],
-      "text": "When setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.",
-      "order": 28,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0029",
-      "block_type": "paragraph",
-      "heading": "Setting up the target cost/incentive fee basis of payment",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee",
         "Setting up the target cost/incentive fee basis of payment"
       ],
       "text": "The sharing formula provides for:",
+      "order": 28,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0029",
+      "block_type": "list_item",
+      "heading": "Setting up the target cost/incentive fee basis of payment",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with target cost/incentive fee",
+        "Setting up the target cost/incentive fee basis of payment"
+      ],
+      "text": "an increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target",
       "order": 29,
       "metadata": {}
     },
@@ -1339,148 +1312,137 @@
       "block_type": "list_item",
       "heading": "Setting up the target cost/incentive fee basis of payment",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with target cost/incentive fee",
-        "Setting up the target cost/incentive fee basis of payment"
-      ],
-      "text": "an increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target",
-      "order": 30,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0031",
-      "block_type": "list_item",
-      "heading": "Setting up the target cost/incentive fee basis of payment",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with target cost/incentive fee",
         "Setting up the target cost/incentive fee basis of payment"
       ],
       "text": "a reduction of the fee below the target, for actual acceptable costs above the target",
+      "order": 30,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0031",
+      "block_type": "heading",
+      "heading": "Cost reimbursable with a fixed fee",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with a fixed fee"
+      ],
+      "text": "Cost reimbursable with a fixed fee",
       "order": 31,
       "metadata": {}
     },
     {
       "block_id": "block_0032",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable with a fixed fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with a fixed fee"
       ],
-      "text": "Cost reimbursable with a fixed fee",
+      "text": "This basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.",
       "order": 32,
       "metadata": {}
     },
     {
       "block_id": "block_0033",
-      "block_type": "paragraph",
-      "heading": "Cost reimbursable with a fixed fee",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with a fixed fee"
-      ],
-      "text": "This basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.",
-      "order": 33,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0034",
       "block_type": "heading",
       "heading": "Determining a fixed fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with a fixed fee",
         "Determining a fixed fee"
       ],
       "text": "Determining a fixed fee",
-      "order": 34,
+      "order": 33,
       "metadata": {}
     },
     {
-      "block_id": "block_0035",
+      "block_id": "block_0034",
       "block_type": "paragraph",
       "heading": "Determining a fixed fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with a fixed fee",
         "Determining a fixed fee"
       ],
       "text": "The fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance.",
-      "order": 35,
+      "order": 34,
       "metadata": {}
     },
     {
-      "block_id": "block_0036",
+      "block_id": "block_0035",
       "block_type": "heading",
       "heading": "Fixed fee and ceiling price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with a fixed fee",
         "Fixed fee and ceiling price"
       ],
       "text": "Fixed fee and ceiling price",
-      "order": 36,
+      "order": 35,
       "metadata": {}
     },
     {
-      "block_id": "block_0037",
+      "block_id": "block_0036",
       "block_type": "paragraph",
       "heading": "Fixed fee and ceiling price",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with a fixed fee",
         "Fixed fee and ceiling price"
       ],
       "text": "In a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor.",
+      "order": 36,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0037",
+      "block_type": "heading",
+      "heading": "Cost reimbursable with fee based on actual costs",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with fee based on actual costs"
+      ],
+      "text": "Cost reimbursable with fee based on actual costs",
       "order": 37,
       "metadata": {}
     },
     {
       "block_id": "block_0038",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable with fee based on actual costs",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with fee based on actual costs"
       ],
-      "text": "Cost reimbursable with fee based on actual costs",
+      "text": "This basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.",
       "order": 38,
       "metadata": {}
     },
     {
       "block_id": "block_0039",
-      "block_type": "paragraph",
-      "heading": "Cost reimbursable with fee based on actual costs",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with fee based on actual costs"
-      ],
-      "text": "This basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.",
-      "order": 39,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0040",
       "block_type": "heading",
       "heading": "Calculating fee based on actual costs",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with fee based on actual costs",
         "Calculating fee based on actual costs"
       ],
       "text": "Calculating fee based on actual costs",
+      "order": 39,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0040",
+      "block_type": "paragraph",
+      "heading": "Calculating fee based on actual costs",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with fee based on actual costs",
+        "Calculating fee based on actual costs"
+      ],
+      "text": "The amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.",
       "order": 40,
       "metadata": {}
     },
@@ -1489,136 +1451,126 @@
       "block_type": "paragraph",
       "heading": "Calculating fee based on actual costs",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with fee based on actual costs",
-        "Calculating fee based on actual costs"
-      ],
-      "text": "The amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.",
-      "order": 41,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0042",
-      "block_type": "paragraph",
-      "heading": "Calculating fee based on actual costs",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with fee based on actual costs",
         "Calculating fee based on actual costs"
       ],
       "text": "Ceiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts.",
+      "order": 41,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0042",
+      "block_type": "heading",
+      "heading": "Cost reimbursable with no fee",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with no fee"
+      ],
+      "text": "Cost reimbursable with no fee",
       "order": 42,
       "metadata": {}
     },
     {
       "block_id": "block_0043",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Cost reimbursable with no fee",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee"
       ],
-      "text": "Cost reimbursable with no fee",
+      "text": "This basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.",
       "order": 43,
       "metadata": {}
     },
     {
       "block_id": "block_0044",
-      "block_type": "paragraph",
-      "heading": "Cost reimbursable with no fee",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with no fee"
-      ],
-      "text": "This basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.",
-      "order": 44,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0045",
       "block_type": "heading",
       "heading": "Exclude ceiling prices",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Exclude ceiling prices"
       ],
       "text": "Exclude ceiling prices",
-      "order": 45,
+      "order": 44,
       "metadata": {}
     },
     {
-      "block_id": "block_0046",
+      "block_id": "block_0045",
       "block_type": "paragraph",
       "heading": "Exclude ceiling prices",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Exclude ceiling prices"
       ],
       "text": "A contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract.",
-      "order": 46,
+      "order": 45,
       "metadata": {}
     },
     {
-      "block_id": "block_0047",
+      "block_id": "block_0046",
       "block_type": "heading",
       "heading": "Validate costs claimed",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Validate costs claimed"
       ],
       "text": "Validate costs claimed",
-      "order": 47,
+      "order": 46,
       "metadata": {}
     },
     {
-      "block_id": "block_0048",
+      "block_id": "block_0047",
       "block_type": "paragraph",
       "heading": "Validate costs claimed",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Validate costs claimed"
       ],
       "text": "Since the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts.",
-      "order": 48,
+      "order": 47,
       "metadata": {}
     },
     {
-      "block_id": "block_0049",
+      "block_id": "block_0048",
       "block_type": "heading",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
       "text": "Incorporating contractual clauses",
-      "order": 49,
+      "order": 48,
       "metadata": {}
     },
     {
-      "block_id": "block_0050",
+      "block_id": "block_0049",
       "block_type": "paragraph",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
       "text": "When using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include:",
+      "order": 49,
+      "metadata": {}
+    },
+    {
+      "block_id": "block_0050",
+      "block_type": "list_item",
+      "heading": "Incorporating contractual clauses",
+      "heading_path": [
+        "Cost reimbursable",
+        "Cost reimbursable with no fee",
+        "Incorporating contractual clauses"
+      ],
+      "text": "a limitation of expenditure clause for:",
       "order": 50,
       "metadata": {}
     },
@@ -1627,12 +1579,11 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
-      "text": "a limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price",
+      "text": "cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice",
       "order": 51,
       "metadata": {}
     },
@@ -1641,12 +1592,11 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
-      "text": "cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice",
+      "text": "cost reimbursable contracts with fee based on actual costs",
       "order": 52,
       "metadata": {}
     },
@@ -1655,12 +1605,11 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
-      "text": "cost reimbursable contracts with fee based on actual costs",
+      "text": "cost reimbursable contracts with no fee",
       "order": 53,
       "metadata": {}
     },
@@ -1669,12 +1618,11 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
-      "text": "cost reimbursable contracts with no fee",
+      "text": "cost reimbursable contracts without a ceiling price",
       "order": 54,
       "metadata": {}
     },
@@ -1683,12 +1631,11 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
-      "text": "cost reimbursable contracts without a ceiling price",
+      "text": "a ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price",
       "order": 55,
       "metadata": {}
     },
@@ -1697,46 +1644,30 @@
       "block_type": "list_item",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
-        "Cost reimbursable",
-        "Cost reimbursable with no fee",
-        "Incorporating contractual clauses"
-      ],
-      "text": "a ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price",
-      "order": 56,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0057",
-      "block_type": "list_item",
-      "heading": "Incorporating contractual clauses",
-      "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
       "text": "the appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration",
-      "order": 57,
+      "order": 56,
       "metadata": {}
     },
     {
-      "block_id": "block_0058",
+      "block_id": "block_0057",
       "block_type": "paragraph",
       "heading": "Incorporating contractual clauses",
       "heading_path": [
-        "Buyer's Guide Basis of payment - Cost reimbursable",
         "Cost reimbursable",
         "Cost reimbursable with no fee",
         "Incorporating contractual clauses"
       ],
       "text": "For guidance on the inclusion of audit clauses, refer to Audit .",
-      "order": 58,
+      "order": 57,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Cost reimbursable A cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain. Cost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The appropriate scenarios for cost reimbursable pricing include: research and development major system development prototype development and testing low rate initial production immature industry, platform, service or product minimal competition poorly defined concepts or understanding of requirements Conditions for using cost reimbursable basis of payment are as follows: the contractor’s accounting system is adequate for determining costs applicable to the contract adequate government resources are in place to manage the contract which includes reviewing and validating costs claimed appropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used it is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities a commercial price is unavailable Refer to Contract Cost Principles for a description of allowable costs. Cost reimbursable with target cost/incentive fee This basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria. Use this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively. There are 2 main types of target cost/incentive fee basis of payment: with no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred with maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price Setting up the target cost/incentive fee basis of payment It may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment. The target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). When setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract. The sharing formula provides for: an increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target a reduction of the fee below the target, for actual acceptable costs above the target Cost reimbursable with a fixed fee This basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown. Determining a fixed fee The fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance. Fixed fee and ceiling price In a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor. Cost reimbursable with fee based on actual costs This basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type. Calculating fee based on actual costs The amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit. Ceiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts. Cost reimbursable with no fee This basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance. Exclude ceiling prices A contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract. Validate costs claimed Since the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts. Incorporating contractual clauses When using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include: a limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price a ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price the appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration For guidance on the inclusion of audit clauses, refer to Audit .\n\nCost reimbursable\n\nA cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.\n\nCost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nThe appropriate scenarios for cost reimbursable pricing include:\n\nresearch and development\n\nmajor system development\n\nprototype development and testing\n\nlow rate initial production\n\nimmature industry, platform, service or product\n\nminimal competition\n\npoorly defined concepts or understanding of requirements\n\nConditions for using cost reimbursable basis of payment are as follows:\n\nthe contractor’s accounting system is adequate for determining costs applicable to the contract\n\nadequate government resources are in place to manage the contract which includes reviewing and validating costs claimed\n\nappropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used\n\nit is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities\n\na commercial price is unavailable\n\nRefer to Contract Cost Principles for a description of allowable costs.\n\nCost reimbursable with target cost/incentive fee\n\nThis basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.\n\nUse this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.\n\nThere are 2 main types of target cost/incentive fee basis of payment:\n\nwith no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred\n\nwith maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price\n\nSetting up the target cost/incentive fee basis of payment\n\nIt may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.\n\nThe target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nWhen setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.\n\nThe sharing formula provides for:\n\nan increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target\n\na reduction of the fee below the target, for actual acceptable costs above the target\n\nCost reimbursable with a fixed fee\n\nThis basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.\n\nDetermining a fixed fee\n\nThe fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance.\n\nFixed fee and ceiling price\n\nIn a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor.\n\nCost reimbursable with fee based on actual costs\n\nThis basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.\n\nCalculating fee based on actual costs\n\nThe amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.\n\nCeiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts.\n\nCost reimbursable with no fee\n\nThis basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.\n\nExclude ceiling prices\n\nA contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract.\n\nValidate costs claimed\n\nSince the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts.\n\nIncorporating contractual clauses\n\nWhen using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include:\n\na limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price\n\ncost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice\n\ncost reimbursable contracts with fee based on actual costs\n\ncost reimbursable contracts with no fee\n\ncost reimbursable contracts without a ceiling price\n\na ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price\n\nthe appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration\n\nFor guidance on the inclusion of audit clauses, refer to Audit .",
-  "markdown_text": "Cost reimbursable A cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain. Cost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The appropriate scenarios for cost reimbursable pricing include: research and development major system development prototype development and testing low rate initial production immature industry, platform, service or product minimal competition poorly defined concepts or understanding of requirements Conditions for using cost reimbursable basis of payment are as follows: the contractor’s accounting system is adequate for determining costs applicable to the contract adequate government resources are in place to manage the contract which includes reviewing and validating costs claimed appropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used it is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities a commercial price is unavailable Refer to Contract Cost Principles for a description of allowable costs. Cost reimbursable with target cost/incentive fee This basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria. Use this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively. There are 2 main types of target cost/incentive fee basis of payment: with no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred with maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price Setting up the target cost/incentive fee basis of payment It may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment. The target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). When setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract. The sharing formula provides for: an increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target a reduction of the fee below the target, for actual acceptable costs above the target Cost reimbursable with a fixed fee This basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown. Determining a fixed fee The fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance. Fixed fee and ceiling price In a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor. Cost reimbursable with fee based on actual costs This basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type. Calculating fee based on actual costs The amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit. Ceiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts. Cost reimbursable with no fee This basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance. Exclude ceiling prices A contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract. Validate costs claimed Since the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts. Incorporating contractual clauses When using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include: a limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price a ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price the appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration For guidance on the inclusion of audit clauses, refer to Audit .\n\nCost reimbursable\n\nA cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.\n\nCost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nThe appropriate scenarios for cost reimbursable pricing include:\n\nresearch and development\n\nmajor system development\n\nprototype development and testing\n\nlow rate initial production\n\nimmature industry, platform, service or product\n\nminimal competition\n\npoorly defined concepts or understanding of requirements\n\nConditions for using cost reimbursable basis of payment are as follows:\n\nthe contractor’s accounting system is adequate for determining costs applicable to the contract\n\nadequate government resources are in place to manage the contract which includes reviewing and validating costs claimed\n\nappropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used\n\nit is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities\n\na commercial price is unavailable\n\nRefer to Contract Cost Principles for a description of allowable costs.\n\nCost reimbursable with target cost/incentive fee\n\nThis basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.\n\nUse this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.\n\nThere are 2 main types of target cost/incentive fee basis of payment:\n\nwith no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred\n\nwith maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price\n\nSetting up the target cost/incentive fee basis of payment\n\nIt may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.\n\nThe target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nWhen setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.\n\nThe sharing formula provides for:\n\nan increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target\n\na reduction of the fee below the target, for actual acceptable costs above the target\n\nCost reimbursable with a fixed fee\n\nThis basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.\n\nDetermining a fixed fee\n\nThe fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance.\n\nFixed fee and ceiling price\n\nIn a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor.\n\nCost reimbursable with fee based on actual costs\n\nThis basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.\n\nCalculating fee based on actual costs\n\nThe amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.\n\nCeiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts.\n\nCost reimbursable with no fee\n\nThis basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.\n\nExclude ceiling prices\n\nA contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract.\n\nValidate costs claimed\n\nSince the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts.\n\nIncorporating contractual clauses\n\nWhen using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include:\n\na limitation of expenditure clause for: cost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice cost reimbursable contracts with fee based on actual costs cost reimbursable contracts with no fee cost reimbursable contracts without a ceiling price\n\ncost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice\n\ncost reimbursable contracts with fee based on actual costs\n\ncost reimbursable contracts with no fee\n\ncost reimbursable contracts without a ceiling price\n\na ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price\n\nthe appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration\n\nFor guidance on the inclusion of audit clauses, refer to Audit .",
+  "raw_text": "Cost reimbursable\n\nA cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.\n\nCost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nThe appropriate scenarios for cost reimbursable pricing include:\n\nresearch and development\n\nmajor system development\n\nprototype development and testing\n\nlow rate initial production\n\nimmature industry, platform, service or product\n\nminimal competition\n\npoorly defined concepts or understanding of requirements\n\nConditions for using cost reimbursable basis of payment are as follows:\n\nthe contractor’s accounting system is adequate for determining costs applicable to the contract\n\nadequate government resources are in place to manage the contract which includes reviewing and validating costs claimed\n\nappropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used\n\nit is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities\n\na commercial price is unavailable\n\nRefer to Contract Cost Principles for a description of allowable costs.\n\nCost reimbursable with target cost/incentive fee\n\nThis basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.\n\nUse this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.\n\nThere are 2 main types of target cost/incentive fee basis of payment:\n\nwith no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred\n\nwith maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price\n\nSetting up the target cost/incentive fee basis of payment\n\nIt may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.\n\nThe target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nWhen setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.\n\nThe sharing formula provides for:\n\nan increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target\n\na reduction of the fee below the target, for actual acceptable costs above the target\n\nCost reimbursable with a fixed fee\n\nThis basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.\n\nDetermining a fixed fee\n\nThe fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance.\n\nFixed fee and ceiling price\n\nIn a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor.\n\nCost reimbursable with fee based on actual costs\n\nThis basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.\n\nCalculating fee based on actual costs\n\nThe amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.\n\nCeiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts.\n\nCost reimbursable with no fee\n\nThis basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.\n\nExclude ceiling prices\n\nA contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract.\n\nValidate costs claimed\n\nSince the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts.\n\nIncorporating contractual clauses\n\nWhen using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include:\n\na limitation of expenditure clause for:\n\ncost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice\n\ncost reimbursable contracts with fee based on actual costs\n\ncost reimbursable contracts with no fee\n\ncost reimbursable contracts without a ceiling price\n\na ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price\n\nthe appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration\n\nFor guidance on the inclusion of audit clauses, refer to Audit .",
+  "markdown_text": "Cost reimbursable\n\nA cost reimbursable basis of payment reimburses the contractor for allowable costs incurred during the performance of the contract. You should use this type of basis of payment primarily when the scope and requirements of the work are uncertain.\n\nCost reimbursable pricing is suitable for negotiated contracts but may not motivate a contractor to limit costs unless paired with a cost control incentive. These incentives, in a cost reimbursable with a target cost basis of payment, are described in section 4.1.3 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nThe appropriate scenarios for cost reimbursable pricing include:\n\nresearch and development\n\nmajor system development\n\nprototype development and testing\n\nlow rate initial production\n\nimmature industry, platform, service or product\n\nminimal competition\n\npoorly defined concepts or understanding of requirements\n\nConditions for using cost reimbursable basis of payment are as follows:\n\nthe contractor’s accounting system is adequate for determining costs applicable to the contract\n\nadequate government resources are in place to manage the contract which includes reviewing and validating costs claimed\n\nappropriate validation mechanisms are in place both during contract performance and after contract completion ensuring efficient methods and cost controls are used\n\nit is not possible to reasonably estimate a price for the work that both Canada and the contractor can agree on for equitable sharing of risks and responsibilities\n\na commercial price is unavailable\n\nRefer to Contract Cost Principles for a description of allowable costs.\n\nCost reimbursable with target cost/incentive fee\n\nThis basis of payment involves gain or pain sharing, where cost efficiencies or losses are rewarded and shared through fee arrangements in which both the contractor and Canada share the rewards or risks of meeting or not meeting contract performance criteria.\n\nUse this basis of payment when a fixed or firm price basis of payment is not suitable, and the nature of the goods or services justifies a shared financial responsibility incentivizing the contractor to manage costs and contract performance effectively.\n\nThere are 2 main types of target cost/incentive fee basis of payment:\n\nwith no maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract, with no limit to the losses or gains incurred\n\nwith maximum price, where both parties share in cost savings or costs exceeding the target in the performance of the contract up to a set maximum price\n\nSetting up the target cost/incentive fee basis of payment\n\nIt may be necessary to negotiate in advance a target cost, target fee, maximum fee and a formula for fee adjustment in advance, depending on the type of target cost incentive fee basis of payment.\n\nThe target cost should be the estimated costs of performing the work computed in accordance with costing principles and standards of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The target fee and maximum fee should be no greater than that calculated in accordance with Contract Cost Principles and Costing Standard in section 5.2 of Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB).\n\nWhen setting targets and percentages for gain/pain sharing formulas you should assess the likelihood of deviations from the established target. Actual experience may indicate that changes to the contractor’s underlying business solution or Canada’s requirements could necessitate amending the sharing agreement and the contract.\n\nThe sharing formula provides for:\n\nan increase in fee above the target, up to the maximum fee, for actual acceptable costs below the target\n\na reduction of the fee below the target, for actual acceptable costs above the target\n\nCost reimbursable with a fixed fee\n\nThis basis of payment option reimburses the contractor for the actual costs incurred in the performance of the contract. The fixed fee remains unchanged regardless of the actual costs incurred but you may renegotiate under certain circumstances. Use this approach when a fixed price basis of payment is unsuitable and where the possible savings from a cost reimbursable with target cost/incentive fee contract are likely offset by the complexities of contract administration. This is used primarily for research and advanced development or in projects where the required effort level is unknown.\n\nDetermining a fixed fee\n\nThe fixed fee is based on estimated costs to be incurred and should not exceed reasonable profit. If there is difficulty in agreeing on the estimated cost, use swing points as a basis for calculating the fixed fee. Swing points refer to estimated costs thresholds, one higher and one lower than the amount used for the calculation of the fixed fee. If costs move beyond these points, the fixed fee will be renegotiated. Refer to the section 4.1.3.2 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for guidance.\n\nFixed fee and ceiling price\n\nIn a cost reimbursable contract (or part of a contract) with a fixed fee and a ceiling price, the contractor must complete the prescribed work without additional payment, even if actual costs exceed the ceiling price. When a contract does not include a ceiling price, limitation of expenditure must be used. A clear agreement on what constitutes prescribed work is essential and you must provide advance approval for any changes or additional work by the contractor.\n\nCost reimbursable with fee based on actual costs\n\nThis basis of payment, which compensates the contractor based on actual costs incurred plus a fixed percentage fee, is not recommended because it provides little or no costs control and actually encourages contractors to raise costs to increase profit. Use this basis of payment only when no other basis of payment are available. Section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) provides further guidance on the decision process for this basis of payment type.\n\nCalculating fee based on actual costs\n\nThe amount of fee is based on actual costs incurred, as determined by the contract cost principles and/or the costing standard in section 4.1.3.4 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB). The total fee should be no greater than the appropriate level of profit. Costs and fees are subject to government audit.\n\nCeiling prices are not applicable when this basis of payment is used, as the fee is based on actual costs incurred. Since the fee is based on actual costs incurred, it is important to validate the costs claimed by the contractor upon completion of the contract or periodically, for example annually in the case of multi-year contracts.\n\nCost reimbursable with no fee\n\nThis basis of payment reimburses the contractor solely for actual costs incurred, without any additional fee for profit, as may be determined by government audit. It is primarily used in contracts that assist the contractor and is rarely employed due to the lack of profitability for the contractor. You may refer to section 4.1.3.1 of the Practitioner’s Guide for Procurement Pricing (PDF, 6.50 MB) for further guidance.\n\nExclude ceiling prices\n\nA contract, or part of a contract, with a cost reimbursable with no fee basis of payment should not include a ceiling price. The intent is to cover actual costs without profit. Instead, a limitation of expenditure clause must be included in the contract.\n\nValidate costs claimed\n\nSince the price is based on actual costs incurred, it is important to validate the costs claimed by the contractor through audit upon completion of the contract or periodically, for example in the case of multi-year contracts.\n\nIncorporating contractual clauses\n\nWhen using cost reimbursable basis of payments, you must include appropriate clauses related to cost limits and audit in the contract. Specifically, you must include:\n\na limitation of expenditure clause for:\n\ncost reimbursable contracts with target cost/incentive fee basis of payment with no maximum rice\n\ncost reimbursable contracts with fee based on actual costs\n\ncost reimbursable contracts with no fee\n\ncost reimbursable contracts without a ceiling price\n\na ceiling price clause for contracts with a cost reimbursable target cost/incentive fee basis of payment with a maximum price\n\nthe appropriate audit clause in all cost reimbursable contracts to enable periodic validation of costs, ensuring compliance and accountability throughout the contract duration\n\nFor guidance on the inclusion of audit clauses, refer to Audit .",
   "provenance_paths": {}
 }

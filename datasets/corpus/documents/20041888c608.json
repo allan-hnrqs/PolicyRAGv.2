@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:49.153850Z",
-  "content_hash": "ee2a8c644a90e93865cae217678cda918868cd2283c1f47526459bfd7f2cb645",
-  "word_count": 974,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "78841a6d066328648de5a003f894b0066237c287da2d0c4a0be45e0436c3a4a7",
+  "word_count": 487,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,49 +617,47 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Considerations for solicitations - Translation",
+      "block_type": "heading",
+      "heading": "Translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation"
+        "Translation"
       ],
-      "text": "Translation All notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied. Procurement documents requiring translation Ensure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page. This includes: Notices of proposed procurement (NPP) Solicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs) Advance contract award notices (ACANs) Requests for information (RFI) and Letters of interest (LOI) Invitations to qualify (ITQ) Invitation to tender (ITT) Request for quotation (RFQ) Forms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages Additional notices and amendments posted on the GETS tender opportunities page Translation services You and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services . Translation of documents with professional seals For documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting. With respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements. Translation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license). Buyer recommendations to client You should advise the client to verify the provincial or territorial requirements and seek legal advice when required. Legal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including: issues related to intellectual property (e.g. copyright) requirements with a final delivery point covered by a comprehensive land claims agreement (CLCA) concerns related to contractor liability on documents with professional seals that are translated by third parties Special considerations for tendering from pre-qualified offeror lists In all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list. Tendering that is national in scope AP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
+      "text": "Translation",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation"
       ],
-      "text": "Translation",
+      "text": "All notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.",
       "order": 1,
       "metadata": {}
     },
     {
       "block_id": "block_0002",
-      "block_type": "paragraph",
-      "heading": "Translation",
+      "block_type": "heading",
+      "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
-        "Translation"
+        "Translation",
+        "Procurement documents requiring translation"
       ],
-      "text": "All notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.",
+      "text": "Procurement documents requiring translation",
       "order": 2,
       "metadata": {}
     },
     {
       "block_id": "block_0003",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Procurement documents requiring translation",
+      "text": "Ensure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.",
       "order": 3,
       "metadata": {}
     },
@@ -668,24 +666,22 @@
       "block_type": "paragraph",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Ensure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.",
+      "text": "This includes:",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "This includes:",
+      "text": "Notices of proposed procurement (NPP)",
       "order": 5,
       "metadata": {}
     },
@@ -694,11 +690,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Notices of proposed procurement (NPP)",
+      "text": "Solicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)",
       "order": 6,
       "metadata": {}
     },
@@ -707,11 +702,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Solicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)",
+      "text": "Advance contract award notices (ACANs)",
       "order": 7,
       "metadata": {}
     },
@@ -720,11 +714,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Advance contract award notices (ACANs)",
+      "text": "Requests for information (RFI) and Letters of interest (LOI)",
       "order": 8,
       "metadata": {}
     },
@@ -733,11 +726,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Requests for information (RFI) and Letters of interest (LOI)",
+      "text": "Invitations to qualify (ITQ)",
       "order": 9,
       "metadata": {}
     },
@@ -746,11 +738,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Invitations to qualify (ITQ)",
+      "text": "Invitation to tender (ITT)",
       "order": 10,
       "metadata": {}
     },
@@ -759,11 +750,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Invitation to tender (ITT)",
+      "text": "Request for quotation (RFQ)",
       "order": 11,
       "metadata": {}
     },
@@ -772,11 +762,10 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Request for quotation (RFQ)",
+      "text": "Forms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages",
       "order": 12,
       "metadata": {}
     },
@@ -785,63 +774,58 @@
       "block_type": "list_item",
       "heading": "Procurement documents requiring translation",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Procurement documents requiring translation"
       ],
-      "text": "Forms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages",
+      "text": "Additional notices and amendments posted on the GETS tender opportunities page",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "list_item",
-      "heading": "Procurement documents requiring translation",
+      "block_type": "heading",
+      "heading": "Translation services",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
-        "Procurement documents requiring translation"
+        "Translation services"
       ],
-      "text": "Additional notices and amendments posted on the GETS tender opportunities page",
+      "text": "Translation services",
       "order": 14,
       "metadata": {}
     },
     {
       "block_id": "block_0015",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Translation services",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Translation services"
       ],
-      "text": "Translation services",
+      "text": "You and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "paragraph",
-      "heading": "Translation services",
+      "block_type": "heading",
+      "heading": "Translation of documents with professional seals",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
-        "Translation services"
+        "Translation of documents with professional seals"
       ],
-      "text": "You and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .",
+      "text": "Translation of documents with professional seals",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Translation of documents with professional seals",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Translation of documents with professional seals"
       ],
-      "text": "Translation of documents with professional seals",
+      "text": "For documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.",
       "order": 17,
       "metadata": {}
     },
@@ -850,11 +834,10 @@
       "block_type": "paragraph",
       "heading": "Translation of documents with professional seals",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Translation of documents with professional seals"
       ],
-      "text": "For documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.",
+      "text": "With respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.",
       "order": 18,
       "metadata": {}
     },
@@ -863,37 +846,34 @@
       "block_type": "paragraph",
       "heading": "Translation of documents with professional seals",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Translation of documents with professional seals"
       ],
-      "text": "With respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.",
+      "text": "Translation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "paragraph",
-      "heading": "Translation of documents with professional seals",
+      "block_type": "heading",
+      "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
-        "Translation of documents with professional seals"
+        "Buyer recommendations to client"
       ],
-      "text": "Translation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).",
+      "text": "Buyer recommendations to client",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Buyer recommendations to client"
       ],
-      "text": "Buyer recommendations to client",
+      "text": "You should advise the client to verify the provincial or territorial requirements and seek legal advice when required.",
       "order": 21,
       "metadata": {}
     },
@@ -902,24 +882,22 @@
       "block_type": "paragraph",
       "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Buyer recommendations to client"
       ],
-      "text": "You should advise the client to verify the provincial or territorial requirements and seek legal advice when required.",
+      "text": "Legal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:",
       "order": 22,
       "metadata": {}
     },
     {
       "block_id": "block_0023",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Buyer recommendations to client"
       ],
-      "text": "Legal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:",
+      "text": "issues related to intellectual property (e.g. copyright)",
       "order": 23,
       "metadata": {}
     },
@@ -928,11 +906,10 @@
       "block_type": "list_item",
       "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Buyer recommendations to client"
       ],
-      "text": "issues related to intellectual property (e.g. copyright)",
+      "text": "requirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)",
       "order": 24,
       "metadata": {}
     },
@@ -941,82 +918,64 @@
       "block_type": "list_item",
       "heading": "Buyer recommendations to client",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Buyer recommendations to client"
       ],
-      "text": "requirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)",
+      "text": "concerns related to contractor liability on documents with professional seals that are translated by third parties",
       "order": 25,
       "metadata": {}
     },
     {
       "block_id": "block_0026",
-      "block_type": "list_item",
-      "heading": "Buyer recommendations to client",
+      "block_type": "heading",
+      "heading": "Special considerations for tendering from pre-qualified offeror lists",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
-        "Buyer recommendations to client"
+        "Special considerations for tendering from pre-qualified offeror lists"
       ],
-      "text": "concerns related to contractor liability on documents with professional seals that are translated by third parties",
+      "text": "Special considerations for tendering from pre-qualified offeror lists",
       "order": 26,
       "metadata": {}
     },
     {
       "block_id": "block_0027",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Special considerations for tendering from pre-qualified offeror lists",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Special considerations for tendering from pre-qualified offeror lists"
       ],
-      "text": "Special considerations for tendering from pre-qualified offeror lists",
+      "text": "In all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.",
       "order": 27,
       "metadata": {}
     },
     {
       "block_id": "block_0028",
-      "block_type": "paragraph",
-      "heading": "Special considerations for tendering from pre-qualified offeror lists",
+      "block_type": "heading",
+      "heading": "Tendering that is national in scope",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
-        "Special considerations for tendering from pre-qualified offeror lists"
+        "Tendering that is national in scope"
       ],
-      "text": "In all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.",
+      "text": "Tendering that is national in scope",
       "order": 28,
       "metadata": {}
     },
     {
       "block_id": "block_0029",
-      "block_type": "heading",
-      "heading": "Tendering that is national in scope",
-      "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
-        "Translation",
-        "Tendering that is national in scope"
-      ],
-      "text": "Tendering that is national in scope",
-      "order": 29,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0030",
       "block_type": "paragraph",
       "heading": "Tendering that is national in scope",
       "heading_path": [
-        "Buyer's Guide Considerations for solicitations - Translation",
         "Translation",
         "Tendering that is national in scope"
       ],
       "text": "AP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
-      "order": 30,
+      "order": 29,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Translation All notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied. Procurement documents requiring translation Ensure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page. This includes: Notices of proposed procurement (NPP) Solicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs) Advance contract award notices (ACANs) Requests for information (RFI) and Letters of interest (LOI) Invitations to qualify (ITQ) Invitation to tender (ITT) Request for quotation (RFQ) Forms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages Additional notices and amendments posted on the GETS tender opportunities page Translation services You and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services . Translation of documents with professional seals For documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting. With respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements. Translation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license). Buyer recommendations to client You should advise the client to verify the provincial or territorial requirements and seek legal advice when required. Legal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including: issues related to intellectual property (e.g. copyright) requirements with a final delivery point covered by a comprehensive land claims agreement (CLCA) concerns related to contractor liability on documents with professional seals that are translated by third parties Special considerations for tendering from pre-qualified offeror lists In all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list. Tendering that is national in scope AP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .\n\nTranslation\n\nAll notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.\n\nProcurement documents requiring translation\n\nEnsure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.\n\nThis includes:\n\nNotices of proposed procurement (NPP)\n\nSolicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)\n\nAdvance contract award notices (ACANs)\n\nRequests for information (RFI) and Letters of interest (LOI)\n\nInvitations to qualify (ITQ)\n\nInvitation to tender (ITT)\n\nRequest for quotation (RFQ)\n\nForms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages\n\nAdditional notices and amendments posted on the GETS tender opportunities page\n\nTranslation services\n\nYou and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .\n\nTranslation of documents with professional seals\n\nFor documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.\n\nWith respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.\n\nTranslation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).\n\nBuyer recommendations to client\n\nYou should advise the client to verify the provincial or territorial requirements and seek legal advice when required.\n\nLegal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:\n\nissues related to intellectual property (e.g. copyright)\n\nrequirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)\n\nconcerns related to contractor liability on documents with professional seals that are translated by third parties\n\nSpecial considerations for tendering from pre-qualified offeror lists\n\nIn all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.\n\nTendering that is national in scope\n\nAP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
-  "markdown_text": "Translation All notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied. Procurement documents requiring translation Ensure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page. This includes: Notices of proposed procurement (NPP) Solicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs) Advance contract award notices (ACANs) Requests for information (RFI) and Letters of interest (LOI) Invitations to qualify (ITQ) Invitation to tender (ITT) Request for quotation (RFQ) Forms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages Additional notices and amendments posted on the GETS tender opportunities page Translation services You and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services . Translation of documents with professional seals For documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting. With respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements. Translation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license). Buyer recommendations to client You should advise the client to verify the provincial or territorial requirements and seek legal advice when required. Legal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including: issues related to intellectual property (e.g. copyright) requirements with a final delivery point covered by a comprehensive land claims agreement (CLCA) concerns related to contractor liability on documents with professional seals that are translated by third parties Special considerations for tendering from pre-qualified offeror lists In all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list. Tendering that is national in scope AP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .\n\nTranslation\n\nAll notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.\n\nProcurement documents requiring translation\n\nEnsure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.\n\nThis includes:\n\nNotices of proposed procurement (NPP)\n\nSolicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)\n\nAdvance contract award notices (ACANs)\n\nRequests for information (RFI) and Letters of interest (LOI)\n\nInvitations to qualify (ITQ)\n\nInvitation to tender (ITT)\n\nRequest for quotation (RFQ)\n\nForms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages\n\nAdditional notices and amendments posted on the GETS tender opportunities page\n\nTranslation services\n\nYou and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .\n\nTranslation of documents with professional seals\n\nFor documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.\n\nWith respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.\n\nTranslation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).\n\nBuyer recommendations to client\n\nYou should advise the client to verify the provincial or territorial requirements and seek legal advice when required.\n\nLegal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:\n\nissues related to intellectual property (e.g. copyright)\n\nrequirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)\n\nconcerns related to contractor liability on documents with professional seals that are translated by third parties\n\nSpecial considerations for tendering from pre-qualified offeror lists\n\nIn all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.\n\nTendering that is national in scope\n\nAP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
+  "raw_text": "Translation\n\nAll notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.\n\nProcurement documents requiring translation\n\nEnsure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.\n\nThis includes:\n\nNotices of proposed procurement (NPP)\n\nSolicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)\n\nAdvance contract award notices (ACANs)\n\nRequests for information (RFI) and Letters of interest (LOI)\n\nInvitations to qualify (ITQ)\n\nInvitation to tender (ITT)\n\nRequest for quotation (RFQ)\n\nForms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages\n\nAdditional notices and amendments posted on the GETS tender opportunities page\n\nTranslation services\n\nYou and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .\n\nTranslation of documents with professional seals\n\nFor documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.\n\nWith respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.\n\nTranslation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).\n\nBuyer recommendations to client\n\nYou should advise the client to verify the provincial or territorial requirements and seek legal advice when required.\n\nLegal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:\n\nissues related to intellectual property (e.g. copyright)\n\nrequirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)\n\nconcerns related to contractor liability on documents with professional seals that are translated by third parties\n\nSpecial considerations for tendering from pre-qualified offeror lists\n\nIn all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.\n\nTendering that is national in scope\n\nAP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
+  "markdown_text": "Translation\n\nAll notices and documents are given equal treatment under the Official Languages Act , ensuring that translation obligations are uniformly applied.\n\nProcurement documents requiring translation\n\nEnsure that procurement notices and related tender documents are translated in both official languages before posting them on the Government Electronic Tendering Service (GETS) tender opportunities page.\n\nThis includes:\n\nNotices of proposed procurement (NPP)\n\nSolicitations of offers, including requests for standing offers (RFSOs) and Requests for supply arrangements (RFSAs)\n\nAdvance contract award notices (ACANs)\n\nRequests for information (RFI) and Letters of interest (LOI)\n\nInvitations to qualify (ITQ)\n\nInvitation to tender (ITT)\n\nRequest for quotation (RFQ)\n\nForms, standards, purchase descriptions, statements of work, resulting contracts, blueprints, architectural drawings, reports, graphics, and other documentation included in tender packages\n\nAdditional notices and amendments posted on the GETS tender opportunities page\n\nTranslation services\n\nYou and your clients are encouraged to leverage the Translation Bureau for translation, revision, and editing services. For more information, consult Request translation, comparative revision or editing services .\n\nTranslation of documents with professional seals\n\nFor documents (e.g. architectural or construction documents and drawings) requiring a professional seal, the client and project authority may identify special translation requirements, which may require expertise in a specific type of document in order to ensure that their translation would be carried out and certified for equal quality in both official languages prior to posting.\n\nWith respect to translated documents being of equal quality, provincial and territorial jurisdictions will often have their own stringent provisions for how professionally sealed documents must be translated. Such provisions could include specific professional association standards and/or related legislative or regulatory requirements.\n\nTranslation errors, or failure to follow provincial or territorial requirements for translation these documents can pose serious consequences for Canada and other parties (e.g. construction errors, loss of professional license).\n\nBuyer recommendations to client\n\nYou should advise the client to verify the provincial or territorial requirements and seek legal advice when required.\n\nLegal advice may also be sought regarding the legality of translating third-party documents and documents with professional seals, including:\n\nissues related to intellectual property (e.g. copyright)\n\nrequirements with a final delivery point covered by a comprehensive land claims agreement (CLCA)\n\nconcerns related to contractor liability on documents with professional seals that are translated by third parties\n\nSpecial considerations for tendering from pre-qualified offeror lists\n\nIn all cases where all offerors are pre-qualified through a two-stage tendering process (e,g, through a supply arrangement) and all have indicated the same (unilingual) language preference, Acquisitions Program (AP ) buyers may provide documents which meet that language preference directly to those offerors on the pre-qualified list.\n\nTendering that is national in scope\n\nAP buyers should be aware and take into consideration that the Official Languages Act (OLA) does not make a distinction regarding whether tendering is national in scope where procurement notices and related documents are concerned. All notices or documents must be given the same consideration under the OLA .",
   "provenance_paths": {}
 }

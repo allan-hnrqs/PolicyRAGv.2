@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:04.361941Z",
-  "content_hash": "e3cadb969a59d79c8f4cff9a7bbdf1dc99da880ccdb4298373d213c09d967bf5",
-  "word_count": 164,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "f2002eb3f6bb44b93d730a8f002904acdbf75c67b85c40f083586e997caa1205",
+  "word_count": 82,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+      "block_type": "heading",
+      "heading": "Determining complexity",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity"
+        "Determining complexity"
       ],
-      "text": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed. Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
+      "text": "Determining complexity",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Determining complexity",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
         "Determining complexity"
       ],
-      "text": "Determining complexity",
+      "text": "Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.",
       "order": 1,
       "metadata": {}
     },
@@ -643,10 +642,9 @@
       "block_type": "paragraph",
       "heading": "Determining complexity",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
         "Determining complexity"
       ],
-      "text": "Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.",
+      "text": "The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.",
       "order": 2,
       "metadata": {}
     },
@@ -655,28 +653,15 @@
       "block_type": "paragraph",
       "heading": "Determining complexity",
       "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
-        "Determining complexity"
-      ],
-      "text": "The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.",
-      "order": 3,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Determining complexity",
-      "heading_path": [
-        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
         "Determining complexity"
       ],
       "text": "Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
-      "order": 4,
+      "order": 3,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed. Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.\n\nDetermining complexity\n\nEach requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.\n\nThe manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.\n\nAny changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
-  "markdown_text": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed. Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.\n\nDetermining complexity\n\nEach requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.\n\nThe manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.\n\nAny changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
+  "raw_text": "Determining complexity\n\nEach requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.\n\nThe manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.\n\nAny changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
+  "markdown_text": "Determining complexity\n\nEach requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.\n\nThe manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.\n\nAny changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
   "provenance_paths": {}
 }

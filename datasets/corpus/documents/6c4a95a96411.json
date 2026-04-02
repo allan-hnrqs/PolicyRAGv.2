@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:00.941496Z",
   "content_hash": "6589a763c4abafea4f7daebde6aeeb4efe3c5390eb72f00771bef1982f29aa45",
   "word_count": 26,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -770,7 +770,6 @@
       "block_type": "heading",
       "heading": "Close out a contract",
       "heading_path": [
-        "Buyer's Guide Close out a contract",
         "Close out a contract"
       ],
       "text": "Close out a contract",
@@ -782,7 +781,6 @@
       "block_type": "paragraph",
       "heading": "Close out a contract",
       "heading_path": [
-        "Buyer's Guide Close out a contract",
         "Close out a contract"
       ],
       "text": "This section provides information on contract closeout. It covers the receipt, acceptance and payment of deliverables, reporting, asset return, and file archiving.",

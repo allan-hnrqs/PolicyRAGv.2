@@ -9,7 +9,7 @@
   "fetched_at": "2026-03-23T01:58:21.876374Z",
   "content_hash": "3b21ab190840996bcf3028c0e71e58b811953a4e1d3f51404f9394c187c48195",
   "word_count": 189,
-  "extraction_method": "html_regions_v2_main_root",
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -772,7 +772,6 @@
       "block_type": "heading",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "Assignment of monies",
@@ -784,7 +783,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "Assignment of monies involves the redirection of payment under a contract to a third party. This process is strictly regulated and must adhere to certain guidelines to ensure fairness, legality, and transparency.",
@@ -796,7 +794,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "You may receive statements or documents from contractors, banks, other financial institutions or other sources indicating that persons or companies, other than the contractor, are claiming to be entitled to receive payments under a contract.",
@@ -808,7 +805,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "Payments to persons other than those named in the contract will only be made in cases of bankruptcy, the appointment of a receiver-manager, or an assignment of debt under Part VII of the Financial Administration Act . In cases of bankruptcy, receivership or insolvency, follow the guidance found in Protecting Canada’s interests.",
@@ -820,7 +816,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "This does not include cases where the contractor owes a debt to Canada for tax arrears where Canada Revenue Agency has obtained Treasury Board (TB) approval to collect taxes due or has requested a deduction for taxes due to Canada.",
@@ -832,7 +827,6 @@
       "block_type": "paragraph",
       "heading": "Assignment of monies",
       "heading_path": [
-        "Buyer's Guide Manage payments - Assignment of monies",
         "Assignment of monies"
       ],
       "text": "Upon receiving a notice of money assignment under a contract, immediately, you should seek instruction on processing the assignment from the Payment Products and Services directorate .",

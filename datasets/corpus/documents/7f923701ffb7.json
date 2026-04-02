@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:01:04.670114Z",
-  "content_hash": "4c8a11bcfa67a0408da072c4caf25cd78a1f7b62d3e55f5a2df3d9190b27760f",
-  "word_count": 214,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "c51353f94abdfce7ddf907d91dae980e72ed898091c5bdebd7f0c93473ec1258",
+  "word_count": 107,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -511,24 +511,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page",
+      "block_type": "heading",
+      "heading": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page"
+        "Procedures for posting solicitation documents on the Government Electronic Tendering Service"
       ],
-      "text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service Public Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS). When posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted. Buyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
+      "text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page",
         "Procedures for posting solicitation documents on the Government Electronic Tendering Service"
       ],
-      "text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
+      "text": "Public Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).",
       "order": 1,
       "metadata": {}
     },
@@ -537,10 +536,9 @@
       "block_type": "paragraph",
       "heading": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page",
         "Procedures for posting solicitation documents on the Government Electronic Tendering Service"
       ],
-      "text": "Public Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).",
+      "text": "When posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.",
       "order": 2,
       "metadata": {}
     },
@@ -549,28 +547,15 @@
       "block_type": "paragraph",
       "heading": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
       "heading_path": [
-        "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page",
-        "Procedures for posting solicitation documents on the Government Electronic Tendering Service"
-      ],
-      "text": "When posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.",
-      "order": 3,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Procedures for posting solicitation documents on the Government Electronic Tendering Service",
-      "heading_path": [
-        "Buyer's Guide Release the solicitation document - Posting on the Tender opportunities page",
         "Procedures for posting solicitation documents on the Government Electronic Tendering Service"
       ],
       "text": "Buyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
-      "order": 4,
+      "order": 3,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service Public Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS). When posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted. Buyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .\n\nProcedures for posting solicitation documents on the Government Electronic Tendering Service\n\nPublic Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).\n\nWhen posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.\n\nBuyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
-  "markdown_text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service Public Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS). When posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted. Buyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .\n\nProcedures for posting solicitation documents on the Government Electronic Tendering Service\n\nPublic Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).\n\nWhen posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.\n\nBuyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
+  "raw_text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service\n\nPublic Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).\n\nWhen posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.\n\nBuyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
+  "markdown_text": "Procedures for posting solicitation documents on the Government Electronic Tendering Service\n\nPublic Services and Procurement Canada (PSPC) buyers use the Electronic Procurement Solution (EPS) to create their solicitations of offers for each publicly advertised competitive solicitation that are then posted on the Government Electronic Tendering Service (GETS).\n\nWhen posting on GETS , you must ensure that the notice and all related solicitation documents, including attachments, are accurate, complete and successfully posted.\n\nBuyers should check for any discrepancies on GETS the day after issuing a notice. You are responsible for making any required corrections to the solicitation of offers, with the assistance of the CanadaBuys Service Desk .",
   "provenance_paths": {}
 }

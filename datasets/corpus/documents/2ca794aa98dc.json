@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T02:00:23.612257Z",
-  "content_hash": "62860978ae293b9a4cd7569923b921524ce404a51a41fcbd133a3c5bf9efa94f",
-  "word_count": 86,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "5541768c359a156a65abbea489b01fb2920d39d686be88885c46f72d8cc57bc4",
+  "word_count": 43,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -960,24 +960,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Socioeconomic considerations - Anti-forced labour considerations",
+      "block_type": "heading",
+      "heading": "Anti-forced labour considerations",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Anti-forced labour considerations"
+        "Anti-forced labour considerations"
       ],
-      "text": "Anti-forced labour considerations The anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts. For more information see the Ethical Procurement .",
+      "text": "Anti-forced labour considerations",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Anti-forced labour considerations",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Anti-forced labour considerations",
         "Anti-forced labour considerations"
       ],
-      "text": "Anti-forced labour considerations",
+      "text": "The anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.",
       "order": 1,
       "metadata": {}
     },
@@ -986,28 +985,15 @@
       "block_type": "paragraph",
       "heading": "Anti-forced labour considerations",
       "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Anti-forced labour considerations",
-        "Anti-forced labour considerations"
-      ],
-      "text": "The anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.",
-      "order": 2,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0003",
-      "block_type": "paragraph",
-      "heading": "Anti-forced labour considerations",
-      "heading_path": [
-        "Buyer's Guide Socioeconomic considerations - Anti-forced labour considerations",
         "Anti-forced labour considerations"
       ],
       "text": "For more information see the Ethical Procurement .",
-      "order": 3,
+      "order": 2,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Anti-forced labour considerations The anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts. For more information see the Ethical Procurement .\n\nAnti-forced labour considerations\n\nThe anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.\n\nFor more information see the Ethical Procurement .",
-  "markdown_text": "Anti-forced labour considerations The anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts. For more information see the Ethical Procurement .\n\nAnti-forced labour considerations\n\nThe anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.\n\nFor more information see the Ethical Procurement .",
+  "raw_text": "Anti-forced labour considerations\n\nThe anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.\n\nFor more information see the Ethical Procurement .",
+  "markdown_text": "Anti-forced labour considerations\n\nThe anti-forced labour clauses are mandatory for PSPC procurements, and must be included with the solicitations. Buyers may need to incorporate the clauses manually into custom templates, solicitation documents, and resulting contracts.\n\nFor more information see the Ethical Procurement .",
   "provenance_paths": {}
 }

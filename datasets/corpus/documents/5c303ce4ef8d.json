@@ -7,9 +7,9 @@
   "authority_rank": 3,
   "date_modified": null,
   "fetched_at": "2026-03-23T01:57:16.658557Z",
-  "content_hash": "0adf4afa78ec540caac0d170a23aa013b6fc5b05debf8b113e16b1379492fc25",
-  "word_count": 1452,
-  "extraction_method": "html_regions_v2_main_root",
+  "content_hash": "b7bff0ea087e58184cb927c2d90065f4dc021025028c1b68d19e5a4787c6623e",
+  "word_count": 726,
+  "extraction_method": "html_regions_v3_block_safe",
   "breadcrumbs": [
     {
       "title": "Home",
@@ -617,24 +617,23 @@
   "structure_blocks": [
     {
       "block_id": "block_0000",
-      "block_type": "paragraph",
-      "heading": "Buyer's Guide Prepare approval documents - Treasury Board submission",
+      "block_type": "heading",
+      "heading": "Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission"
+        "Treasury Board submission"
       ],
-      "text": "Treasury Board submission A Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only). TB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission. The decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file. Preparation and considerations When preparing a TB submission you must include: an explicit and compelling rationale for choosing a non-competitive contract process (if applicable) an assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future a statement on compliance with the Federal Contractors Program for Employment Equity Proposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval. Other areas requiring Treasury Board approval TB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract). Risk assessment for procurements requiring a Treasury Board submission A detailed risk assessment is integral at the procurement strategy stage and contract phase. For complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings. For complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage. The TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include: A risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization A risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and A description of the residual or remaining level of risk after taking into account the risk response measures Results of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings. Translation requirements Part 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation. Departmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology. In preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
+      "text": "Treasury Board submission",
       "order": 0,
       "metadata": {}
     },
     {
       "block_id": "block_0001",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission"
       ],
-      "text": "Treasury Board submission",
+      "text": "A Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).",
       "order": 1,
       "metadata": {}
     },
@@ -643,10 +642,9 @@
       "block_type": "paragraph",
       "heading": "Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission"
       ],
-      "text": "A Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).",
+      "text": "TB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.",
       "order": 2,
       "metadata": {}
     },
@@ -655,48 +653,45 @@
       "block_type": "paragraph",
       "heading": "Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission"
       ],
-      "text": "TB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.",
+      "text": "The decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.",
       "order": 3,
       "metadata": {}
     },
     {
       "block_id": "block_0004",
-      "block_type": "paragraph",
-      "heading": "Treasury Board submission",
+      "block_type": "heading",
+      "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
-        "Treasury Board submission"
+        "Treasury Board submission",
+        "Preparation and considerations"
       ],
-      "text": "The decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.",
+      "text": "Preparation and considerations",
       "order": 4,
       "metadata": {}
     },
     {
       "block_id": "block_0005",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Preparation and considerations"
       ],
-      "text": "Preparation and considerations",
+      "text": "When preparing a TB submission you must include:",
       "order": 5,
       "metadata": {}
     },
     {
       "block_id": "block_0006",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Preparation and considerations"
       ],
-      "text": "When preparing a TB submission you must include:",
+      "text": "an explicit and compelling rationale for choosing a non-competitive contract process (if applicable)",
       "order": 6,
       "metadata": {}
     },
@@ -705,11 +700,10 @@
       "block_type": "list_item",
       "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Preparation and considerations"
       ],
-      "text": "an explicit and compelling rationale for choosing a non-competitive contract process (if applicable)",
+      "text": "an assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future",
       "order": 7,
       "metadata": {}
     },
@@ -718,89 +712,82 @@
       "block_type": "list_item",
       "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Preparation and considerations"
       ],
-      "text": "an assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future",
+      "text": "a statement on compliance with the Federal Contractors Program for Employment Equity",
       "order": 8,
       "metadata": {}
     },
     {
       "block_id": "block_0009",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Preparation and considerations",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Preparation and considerations"
       ],
-      "text": "a statement on compliance with the Federal Contractors Program for Employment Equity",
+      "text": "Proposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.",
       "order": 9,
       "metadata": {}
     },
     {
       "block_id": "block_0010",
-      "block_type": "paragraph",
-      "heading": "Preparation and considerations",
+      "block_type": "heading",
+      "heading": "Other areas requiring Treasury Board approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
-        "Preparation and considerations"
+        "Other areas requiring Treasury Board approval"
       ],
-      "text": "Proposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.",
+      "text": "Other areas requiring Treasury Board approval",
       "order": 10,
       "metadata": {}
     },
     {
       "block_id": "block_0011",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Other areas requiring Treasury Board approval",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Other areas requiring Treasury Board approval"
       ],
-      "text": "Other areas requiring Treasury Board approval",
+      "text": "TB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).",
       "order": 11,
       "metadata": {}
     },
     {
       "block_id": "block_0012",
-      "block_type": "paragraph",
-      "heading": "Other areas requiring Treasury Board approval",
+      "block_type": "heading",
+      "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
-        "Other areas requiring Treasury Board approval"
+        "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "TB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).",
+      "text": "Risk assessment for procurements requiring a Treasury Board submission",
       "order": 12,
       "metadata": {}
     },
     {
       "block_id": "block_0013",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "Risk assessment for procurements requiring a Treasury Board submission",
+      "text": "A detailed risk assessment is integral at the procurement strategy stage and contract phase.",
       "order": 13,
       "metadata": {}
     },
     {
       "block_id": "block_0014",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "A detailed risk assessment is integral at the procurement strategy stage and contract phase.",
+      "text": "For complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.",
       "order": 14,
       "metadata": {}
     },
@@ -809,37 +796,34 @@
       "block_type": "list_item",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "For complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.",
+      "text": "For complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.",
       "order": 15,
       "metadata": {}
     },
     {
       "block_id": "block_0016",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "For complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.",
+      "text": "The TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:",
       "order": 16,
       "metadata": {}
     },
     {
       "block_id": "block_0017",
-      "block_type": "paragraph",
+      "block_type": "list_item",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "The TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:",
+      "text": "A risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization",
       "order": 17,
       "metadata": {}
     },
@@ -848,11 +832,10 @@
       "block_type": "list_item",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "A risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization",
+      "text": "A risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and",
       "order": 18,
       "metadata": {}
     },
@@ -861,50 +844,46 @@
       "block_type": "list_item",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "A risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and",
+      "text": "A description of the residual or remaining level of risk after taking into account the risk response measures",
       "order": 19,
       "metadata": {}
     },
     {
       "block_id": "block_0020",
-      "block_type": "list_item",
+      "block_type": "paragraph",
       "heading": "Risk assessment for procurements requiring a Treasury Board submission",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Risk assessment for procurements requiring a Treasury Board submission"
       ],
-      "text": "A description of the residual or remaining level of risk after taking into account the risk response measures",
+      "text": "Results of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.",
       "order": 20,
       "metadata": {}
     },
     {
       "block_id": "block_0021",
-      "block_type": "paragraph",
-      "heading": "Risk assessment for procurements requiring a Treasury Board submission",
+      "block_type": "heading",
+      "heading": "Translation requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
-        "Risk assessment for procurements requiring a Treasury Board submission"
+        "Translation requirements"
       ],
-      "text": "Results of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.",
+      "text": "Translation requirements",
       "order": 21,
       "metadata": {}
     },
     {
       "block_id": "block_0022",
-      "block_type": "heading",
+      "block_type": "paragraph",
       "heading": "Translation requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Translation requirements"
       ],
-      "text": "Translation requirements",
+      "text": "Part 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.",
       "order": 22,
       "metadata": {}
     },
@@ -913,11 +892,10 @@
       "block_type": "paragraph",
       "heading": "Translation requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Translation requirements"
       ],
-      "text": "Part 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.",
+      "text": "Departmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.",
       "order": 23,
       "metadata": {}
     },
@@ -926,30 +904,16 @@
       "block_type": "paragraph",
       "heading": "Translation requirements",
       "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
-        "Treasury Board submission",
-        "Translation requirements"
-      ],
-      "text": "Departmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.",
-      "order": 24,
-      "metadata": {}
-    },
-    {
-      "block_id": "block_0025",
-      "block_type": "paragraph",
-      "heading": "Translation requirements",
-      "heading_path": [
-        "Buyer's Guide Prepare approval documents - Treasury Board submission",
         "Treasury Board submission",
         "Translation requirements"
       ],
       "text": "In preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
-      "order": 25,
+      "order": 24,
       "metadata": {}
     }
   ],
   "metadata": {},
-  "raw_text": "Treasury Board submission A Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only). TB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission. The decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file. Preparation and considerations When preparing a TB submission you must include: an explicit and compelling rationale for choosing a non-competitive contract process (if applicable) an assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future a statement on compliance with the Federal Contractors Program for Employment Equity Proposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval. Other areas requiring Treasury Board approval TB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract). Risk assessment for procurements requiring a Treasury Board submission A detailed risk assessment is integral at the procurement strategy stage and contract phase. For complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings. For complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage. The TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include: A risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization A risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and A description of the residual or remaining level of risk after taking into account the risk response measures Results of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings. Translation requirements Part 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation. Departmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology. In preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).\n\nTreasury Board submission\n\nA Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).\n\nTB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.\n\nThe decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.\n\nPreparation and considerations\n\nWhen preparing a TB submission you must include:\n\nan explicit and compelling rationale for choosing a non-competitive contract process (if applicable)\n\nan assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future\n\na statement on compliance with the Federal Contractors Program for Employment Equity\n\nProposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.\n\nOther areas requiring Treasury Board approval\n\nTB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).\n\nRisk assessment for procurements requiring a Treasury Board submission\n\nA detailed risk assessment is integral at the procurement strategy stage and contract phase.\n\nFor complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.\n\nFor complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.\n\nThe TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:\n\nA risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization\n\nA risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and\n\nA description of the residual or remaining level of risk after taking into account the risk response measures\n\nResults of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.\n\nTranslation requirements\n\nPart 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.\n\nDepartmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.\n\nIn preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
-  "markdown_text": "Treasury Board submission A Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only). TB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission. The decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file. Preparation and considerations When preparing a TB submission you must include: an explicit and compelling rationale for choosing a non-competitive contract process (if applicable) an assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future a statement on compliance with the Federal Contractors Program for Employment Equity Proposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval. Other areas requiring Treasury Board approval TB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract). Risk assessment for procurements requiring a Treasury Board submission A detailed risk assessment is integral at the procurement strategy stage and contract phase. For complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings. For complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage. The TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include: A risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization A risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and A description of the residual or remaining level of risk after taking into account the risk response measures Results of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings. Translation requirements Part 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation. Departmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology. In preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).\n\nTreasury Board submission\n\nA Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).\n\nTB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.\n\nThe decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.\n\nPreparation and considerations\n\nWhen preparing a TB submission you must include:\n\nan explicit and compelling rationale for choosing a non-competitive contract process (if applicable)\n\nan assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future\n\na statement on compliance with the Federal Contractors Program for Employment Equity\n\nProposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.\n\nOther areas requiring Treasury Board approval\n\nTB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).\n\nRisk assessment for procurements requiring a Treasury Board submission\n\nA detailed risk assessment is integral at the procurement strategy stage and contract phase.\n\nFor complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.\n\nFor complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.\n\nThe TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:\n\nA risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization\n\nA risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and\n\nA description of the residual or remaining level of risk after taking into account the risk response measures\n\nResults of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.\n\nTranslation requirements\n\nPart 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.\n\nDepartmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.\n\nIn preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
+  "raw_text": "Treasury Board submission\n\nA Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).\n\nTB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.\n\nThe decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.\n\nPreparation and considerations\n\nWhen preparing a TB submission you must include:\n\nan explicit and compelling rationale for choosing a non-competitive contract process (if applicable)\n\nan assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future\n\na statement on compliance with the Federal Contractors Program for Employment Equity\n\nProposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.\n\nOther areas requiring Treasury Board approval\n\nTB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).\n\nRisk assessment for procurements requiring a Treasury Board submission\n\nA detailed risk assessment is integral at the procurement strategy stage and contract phase.\n\nFor complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.\n\nFor complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.\n\nThe TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:\n\nA risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization\n\nA risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and\n\nA description of the residual or remaining level of risk after taking into account the risk response measures\n\nResults of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.\n\nTranslation requirements\n\nPart 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.\n\nDepartmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.\n\nIn preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
+  "markdown_text": "Treasury Board submission\n\nA Treasury Board (TB) submission is an official document submitted by the Minister on behalf of a department to seek approval from TB ministers when it is a requirement. TB approval is required for any contract or contract amendment exceeding the limits outlined in the Delegation of authorities instrument (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only).\n\nTB submissions serve to acquire necessary approvals and can be used to seek advance approvals at initial stages of procurement strategy development with appropriate justification. TB ministers base their decision to approve, in this circumstance, on the information provided in the remarks section of the TB submission. Treasury Board Secretariat (TBS) analysts include in the analysis a risk assessment of the elements in the solicitation process outlined in the submission.\n\nThe decision-making process relies heavily on the justification and risk assessment provided in the submission. If at any point during the offer solicitation process there is any deviation from what has been stated in the TB submission, you must contact the TBS analyst. The TBS analyst will determine whether the change warrants further action, such as a letter to the TB President or a new TB submission. Include the written advice from the TBS analyst in the procurement file.\n\nPreparation and considerations\n\nWhen preparing a TB submission you must include:\n\nan explicit and compelling rationale for choosing a non-competitive contract process (if applicable)\n\nan assessment of the extent to which TB approval of the proposal for a competitive or non-competitive contract could limit, or encourage, the competitiveness of related procurement activities in the future\n\na statement on compliance with the Federal Contractors Program for Employment Equity\n\nProposed contracts and contract amendments, which require TB approval, must be approved by TB before they are entered into and before any work has begun. PSPC cannot enter into a contract or make any contractual commitment (for example, a letter of intent) which constitutes the first step of a project that may later require TB consideration and approval.\n\nOther areas requiring Treasury Board approval\n\nTB approval is necessary for specified areas as described in the TB directives and circulars. These areas include, any instances of \"extra payment\" (meaning a payment where a legal liability does not exist or has not been accepted by Canada or where there is uncertainty that a legal liability exists under the contract).\n\nRisk assessment for procurements requiring a Treasury Board submission\n\nA detailed risk assessment is integral at the procurement strategy stage and contract phase.\n\nFor complexity levels 1 to 3, you must complete a Procurement Risk Assessment (PRA) and consult Risk Management Advisory Services (RMAS) to discuss the findings.\n\nFor complexity levels 4 and 5 , you must, in collaboration with RMAS , complete a custom risk assessment specific to the procurement's complexities at the procurement strategy stage.\n\nThe TB submission must include a risk and mitigation strategy section. It outlines up to 5 key risks, each assessed as medium, medium-high, or high that summarize the risk assessment. For each risk identified in the TB submission narrative, include:\n\nA risk statement , describing what harm may occur, the likelihood of it occurring and its impact on the procurement and/or organization\n\nA risk response strategy , summarizing the actions, or procurement factors, that may reduce the likelihood or severity of the risk, and\n\nA description of the residual or remaining level of risk after taking into account the risk response measures\n\nResults of each TB submission risk assessment are maintained by the RMAS and are reported to Acquisitions Branch operational sectors and regions, summarizing assessment activity and key findings.\n\nTranslation requirements\n\nPart 1 of the TB submission must always be prepared in both official languages, presented side by side. When translation services are required for technical, specialized or complex documents, share drafts with translators early in the process to facilitate consistency and efficiency in translation.\n\nDepartmental standard procurement templates or other templates that have been translated and approved must be provided as a reference guide to the Translation Bureau to ensure consistency of terminology.\n\nIn preparing a contract amendment request requiring TB approval, you must prepare documents in a bilingual format using form PWGSC-TPSGC 1151-1 Contract Request/Contract Amendment Request (Part 1 – Submission Data) (accessible only on the Government of Canada network - for PSPC only).",
   "provenance_paths": {}
 }
