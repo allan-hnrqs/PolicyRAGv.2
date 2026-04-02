@@ -138,7 +138,11 @@ def test_documents_chat_uses_structured_documents_and_response_citations(monkeyp
     monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
 
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
-    evidence = EvidenceBundle(query="q", packed_chunks=[_chunk("c1", text="word " * 500)])
+    evidence = EvidenceBundle(
+        query="q",
+        packed_chunks=[_chunk("c1", text="word " * 500)],
+        retrieval_queries=["What is the rule?", "supporting branch condition"],
+    )
 
     result = documents_chat(settings, "What is the rule?", evidence)
 
@@ -152,10 +156,13 @@ def test_documents_chat_uses_structured_documents_and_response_citations(monkeyp
     documents = kwargs["documents"]
     assert len(documents) == 1
     assert documents[0].id == "c1"
+    assert "text" in documents[0].data
     assert "snippet" in documents[0].data
+    assert documents[0].data["text"] == documents[0].data["snippet"]
     assert len(documents[0].data["snippet"].split()) <= 300
     assert kwargs["messages"][0].role == "system"
-    assert kwargs["messages"][1].content == "What is the rule?"
+    assert "Original question:\nWhat is the rule?" in kwargs["messages"][1].content
+    assert "- supporting branch condition" in kwargs["messages"][1].content
 
 
 def test_answer_plan_prompt_includes_aspects_and_json_shape() -> None:

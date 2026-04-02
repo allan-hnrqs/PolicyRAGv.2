@@ -150,6 +150,22 @@ def test_demo_vector_spans_profile_loads() -> None:
     assert profile.answering.span_rerank_top_n == 12
 
 
+def test_baseline_vector_documents_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_documents", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.answering.strategy == "documents_chat"
+    assert profile.answering.planner_model_name == "command-r7b-12-2024"
+
+
+def test_demo_vector_documents_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("demo_vector_documents", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.answering.strategy == "documents_chat"
+    assert profile.answering.planner_model_name == "command-r7b-12-2024"
+
+
 def test_hierarchical_context_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("hierarchical_context_expansion", settings)

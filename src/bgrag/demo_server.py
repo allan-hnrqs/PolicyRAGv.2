@@ -26,6 +26,8 @@ from bgrag.manifests import (
     index_manifest_path,
 )
 from bgrag.pipeline import build_answer_callback
+from bgrag.profiles.loader import load_profile
+from bgrag.profiles.runtime import build_runtime_settings
 
 DEMO_PROFILE_NAME = "demo"
 PROCUREMENT_INTENT = "procurement_policy"
@@ -283,9 +285,10 @@ def run_demo_query(
     if not clean_question:
         raise ValueError("Enter a message before sending.")
 
+    runtime_settings = build_runtime_settings(settings, load_profile(profile_name, settings))
     normalized_messages = _normalize_demo_messages(messages, clean_question)
     context_start = perf_counter()
-    resolution = resolve_demo_question(settings, clean_question, normalized_messages)
+    resolution = resolve_demo_question(runtime_settings, clean_question, normalized_messages)
     context_end = perf_counter()
 
     health = evaluate_demo_health(settings)

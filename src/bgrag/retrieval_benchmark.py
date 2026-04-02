@@ -17,6 +17,7 @@ from bgrag.indexing.elastic import build_es_client, require_es_available
 from bgrag.indexing.embedder import CohereEmbedder, read_embedding_store
 from bgrag.manifests import build_run_name, load_index_manifest
 from bgrag.profiles.loader import load_profile
+from bgrag.profiles.runtime import build_runtime_settings
 from bgrag.retrieval.query_expansion import CohereQueryExpander
 from bgrag.retrieval.retriever import HybridRetriever
 from bgrag.types import ChunkRecord, EvalCase
@@ -174,14 +175,7 @@ def run_retrieval_benchmark(
         raise ValueError(f"Unsupported query_mode: {query_mode}")
 
     profile = load_profile(profile_name, settings)
-    runtime_settings = settings.model_copy(
-        update={
-            "cohere_chat_model": profile.answering.model_name,
-            "cohere_query_planner_model": profile.answering.planner_model_name or settings.cohere_query_planner_model,
-            "max_packed_docs": profile.answering.max_packed_docs,
-            "max_doc_chars": profile.answering.max_doc_chars,
-        }
-    )
+    runtime_settings = build_runtime_settings(settings, profile)
     index_manifest = load_index_manifest(settings, None)
     index_namespace = str(index_manifest["namespace"])
     chunks = read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))

@@ -1878,6 +1878,7 @@ def _build_cohere_documents(
             id=chunk.chunk_id,
             data={
                 "title": heading,
+                "text": snippet,
                 "snippet": snippet,
                 "url": chunk.canonical_url,
                 "source_family": chunk.source_family.value,
@@ -1916,11 +1917,24 @@ def _documents_system_prompt() -> str:
     return (
         "You are a procurement policy assistant.\n"
         "Answer using only the supplied grounded documents.\n"
-        "If the documents do not establish an exact detail, say so clearly.\n"
+        "Start with the direct answer to the user's actual question.\n"
+        "Resolve every distinct part of the question explicitly.\n"
+        "Preserve prerequisites, branch conditions, deadlines, exceptions, and what happens if a condition is or is not met.\n"
+        "If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.\n"
+        "If the documents do not establish an exact detail, say so clearly in the first sentence and then give only the closest supported context.\n"
         "Do not invent identifiers, forms, contact details, or workflow steps.\n"
+        "Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the documents explicitly tie them to the user's request.\n"
         "Give a direct answer first, then short bullets only when they genuinely help.\n"
         "Do not mention internal chunk IDs or say 'the provided evidence' in the answer.\n"
     )
+
+
+def _build_documents_user_prompt(question: str, evidence: EvidenceBundle) -> str:
+    retrieved_aspects = [query.strip() for query in evidence.retrieval_queries[1:] if query.strip()]
+    if not retrieved_aspects:
+        return question
+    aspect_lines = "\n".join(f"- {query}" for query in retrieved_aspects)
+    return f"Original question:\n{question}\n\nRetrieved aspects to cover when supported:\n{aspect_lines}"
 
 
 def inline_evidence_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
@@ -1966,7 +1980,7 @@ def documents_chat(settings: Settings, question: str, evidence: EvidenceBundle) 
         model=settings.cohere_chat_model,
         messages=[
             ct.SystemChatMessageV2(content=_documents_system_prompt()),
-            ct.UserChatMessageV2(content=question),
+            ct.UserChatMessageV2(content=_build_documents_user_prompt(question, evidence)),
         ],
         documents=documents,
         citation_options=ct.CitationOptions(mode="ENABLED"),

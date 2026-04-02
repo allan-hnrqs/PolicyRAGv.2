@@ -25,6 +25,7 @@ from bgrag.manifests import (
 )
 from bgrag.normalize.normalizer import assign_graph_relationships, normalize_document
 from bgrag.profiles.loader import load_profile
+from bgrag.profiles.runtime import build_runtime_settings
 from bgrag.registry import answer_strategy_registry, chunker_registry
 from bgrag.retrieval.mode_selection import CohereRetrievalModeSelector
 from bgrag.retrieval.query_expansion import CohereQueryExpander
@@ -147,16 +148,7 @@ def build_answer_callback(
     settings.require_cohere_key("Answer generation")
     profile = load_profile(profile_name, settings)
     answering_profile = profile.answering
-    runtime_settings = settings.model_copy(
-        update={
-            "cohere_chat_model": getattr(answering_profile, "model_name", settings.cohere_chat_model),
-            "cohere_query_planner_model": (
-                getattr(answering_profile, "planner_model_name", None) or settings.cohere_query_planner_model
-            ),
-            "max_packed_docs": getattr(answering_profile, "max_packed_docs", settings.max_packed_docs),
-            "max_doc_chars": getattr(answering_profile, "max_doc_chars", settings.max_doc_chars),
-        }
-    )
+    runtime_settings = build_runtime_settings(settings, profile)
     index_manifest = load_index_manifest(settings, index_namespace)
     namespace = str(index_manifest["namespace"])
     chunks = chunks or read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
