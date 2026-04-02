@@ -1131,11 +1131,13 @@ class HybridRetriever:
                 )
                 notes.append("structural_context_augmentation_applied")
         candidates = merged_candidates
-        rerank_limit = rerank_top_n or min(len(candidates), candidate_k)
-        rerank_start = perf_counter()
-        candidates = self.rerank(question, candidates, rerank_limit)
-        rerank_end = perf_counter()
-        stage_timings["rerank_seconds"] += rerank_end - rerank_start
+        if rerank_top_n > 0:
+            rerank_limit = min(len(candidates), rerank_top_n)
+            rerank_start = perf_counter()
+            candidates = self.rerank(question, candidates, rerank_limit)
+            rerank_end = perf_counter()
+            stage_timings["rerank_seconds"] += rerank_end - rerank_start
+            notes.append("cohere_rerank_applied")
         if enable_mmr_diversity:
             candidates = self.mmr_reorder(candidates, chunk_embeddings, mmr_lambda)
 

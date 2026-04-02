@@ -1,5 +1,6 @@
 from pathlib import Path
 from types import SimpleNamespace
+import threading
 
 import pytest
 
@@ -337,6 +338,85 @@ def test_retrieve_can_use_elasticsearch_knn_backend_and_records_stage_timings() 
     }
 
 
+def test_rerank_top_n_zero_does_not_call_rerank() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+
+    class _NoRerankRetriever(HybridRetriever):
+        def __init__(self, settings: Settings) -> None:
+            super().__init__(settings, elastic=None)
+
+        def lexical_search(
+            self,
+            question: str,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            allowed_chunk_ids: set[str] | None = None,
+        ) -> dict[str, float]:
+            del question, top_k, allowed_chunk_ids
+            return {chunk.chunk_id: float(index + 1) for index, chunk in enumerate(chunks)}
+
+        def rerank(self, question: str, candidates, top_n: int):
+            raise AssertionError("rerank should not be called when rerank_top_n is 0")
+
+    retriever = _NoRerankRetriever(settings)
+    chunks = [_chunk("bg1"), _chunk("bg2")]
+    embeddings = {chunk.chunk_id: [1.0, 0.0] for chunk in chunks}
+
+    evidence = retriever.retrieve(
+        question="buyer question",
+        chunks=chunks,
+        query_embedding=[1.0, 0.0],
+        chunk_embeddings=embeddings,
+        source_topology="bg_primary_support_fallback",
+        top_k=2,
+        candidate_k=2,
+        retrieval_alpha=1.0,
+        rerank_top_n=0,
+    )
+
+    assert evidence.timings["rerank_seconds"] == 0.0
+    assert "cohere_rerank_applied" not in evidence.notes
+
+
+def test_parallel_query_branches_can_run_off_main_thread() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    main_thread_id = threading.get_ident()
+    thread_ids: set[int] = set()
+
+    class _ParallelSpyRetriever(HybridRetriever):
+        def __init__(self, settings: Settings) -> None:
+            super().__init__(settings, elastic=None)
+
+        def _score_query_candidates(self, **kwargs):
+            del kwargs
+            thread_ids.add(threading.get_ident())
+            return [], {
+                "lexical_search_seconds": 0.0,
+                "vector_search_seconds": 0.0,
+                "candidate_fusion_seconds": 0.0,
+            }
+
+    retriever = _ParallelSpyRetriever(settings)
+    retriever._retrieve_multi_query_candidates(
+        retrieval_queries=["q1", "q2", "q3"],
+        query_embeddings=[[1.0, 0.0], [1.0, 0.0], [1.0, 0.0]],
+        chunks=[_chunk("bg1")],
+        chunk_embeddings={"bg1": [1.0, 0.0]},
+        retrieval_alpha=0.7,
+        candidate_k=4,
+        per_query_candidate_k=4,
+        query_fusion_rrf_k=60,
+        dense_retrieval_backend="local_embedding_store",
+        es_knn_num_candidates=12,
+        enable_parallel_query_branches=True,
+        stage_timings={},
+    )
+
+    assert thread_ids
+    assert any(thread_id != main_thread_id for thread_id in thread_ids)
+
+
 def test_retrieve_uses_candidate_k_for_candidate_pool() -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
 
@@ -370,7 +450,7 @@ def test_retrieve_uses_candidate_k_for_candidate_pool() -> None:
     )
 
     assert retriever.lexical_top_k == 4
-    assert retriever.rerank_input_count == 4
+    assert retriever.rerank_input_count is None
     assert len(evidence.packed_chunks) == 2
 
 
