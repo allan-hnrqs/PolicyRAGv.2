@@ -73,6 +73,11 @@ class AnswerProfile(BaseModel):
     max_doc_chars: int = 1600
     model_name: str = "command-a-03-2025"
     planner_model_name: str | None = None
+    evidence_unit: str = "chunk"
+    span_max_chars: int = 320
+    span_candidate_chunks: int = 8
+    span_max_per_chunk: int = 2
+    span_rerank_top_n: int = 0
 
 
 class EvalProfile(BaseModel):

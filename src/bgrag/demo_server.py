@@ -34,7 +34,7 @@ _CALLBACK_LOCK = threading.Lock()
 _MAX_CONTEXT_MESSAGES = 8
 _MAX_CONTEXT_MESSAGE_CHARS = 1200
 _RENDERED_CHUNK_ID_PATTERN = re.compile(
-    r"\s*\[(?:[A-Za-z0-9_-]+__(?:section|block|window)__\d+)(?:,\s*[A-Za-z0-9_-]+__(?:section|block|window)__\d+)*\]"
+    r"\s*\[(?:[A-Za-z0-9_-]+__(?:section|block|window)__\d+(?:__span__\d+)?)(?:,\s*[A-Za-z0-9_-]+__(?:section|block|window)__\d+(?:__span__\d+)?)*\]"
 )
 
 

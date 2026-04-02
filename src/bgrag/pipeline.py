@@ -146,6 +146,17 @@ def build_answer_callback(
 ):
     settings.require_cohere_key("Answer generation")
     profile = load_profile(profile_name, settings)
+    answering_profile = profile.answering
+    runtime_settings = settings.model_copy(
+        update={
+            "cohere_chat_model": getattr(answering_profile, "model_name", settings.cohere_chat_model),
+            "cohere_query_planner_model": (
+                getattr(answering_profile, "planner_model_name", None) or settings.cohere_query_planner_model
+            ),
+            "max_packed_docs": getattr(answering_profile, "max_packed_docs", settings.max_packed_docs),
+            "max_doc_chars": getattr(answering_profile, "max_doc_chars", settings.max_doc_chars),
+        }
+    )
     index_manifest = load_index_manifest(settings, index_namespace)
     namespace = str(index_manifest["namespace"])
     chunks = chunks or read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
@@ -165,11 +176,11 @@ def build_answer_callback(
     elastic = build_es_client(settings)
     require_es_available(elastic, settings.elastic_url)
     embedder = CohereEmbedder(settings)
-    retriever = HybridRetriever(settings, elastic=elastic, index_namespace=namespace, documents=documents)
+    retriever = HybridRetriever(runtime_settings, elastic=elastic, index_namespace=namespace, documents=documents)
     answer_strategy = answer_strategy_registry.get(profile.answering.strategy)
-    query_expander = CohereQueryExpander(settings) if profile.retrieval.enable_query_decomposition else None
+    query_expander = CohereQueryExpander(runtime_settings) if profile.retrieval.enable_query_decomposition else None
     retrieval_mode_selector = (
-        CohereRetrievalModeSelector(settings) if profile.retrieval.enable_retrieval_mode_selection else None
+        CohereRetrievalModeSelector(runtime_settings) if profile.retrieval.enable_retrieval_mode_selection else None
     )
 
     def answer_case(case) -> AnswerResult:
@@ -189,7 +200,7 @@ def build_answer_callback(
                 query_embedding=query_embeddings[0] if query_embeddings else None,
                 chunk_embeddings=embedding_store,
                 source_topology=profile.retrieval.source_topology,
-                top_k=profile.retrieval.top_k,
+                top_k=min(profile.retrieval.top_k, getattr(answering_profile, "max_packed_docs", settings.max_packed_docs)),
                 candidate_k=profile.retrieval.candidate_k,
                 retrieval_alpha=profile.retrieval.retrieval_alpha,
                 rerank_top_n=profile.retrieval.rerank_top_n,
@@ -230,6 +241,11 @@ def build_answer_callback(
                 document_seed_intro_chunks=profile.retrieval.document_seed_intro_chunks,
                 document_seed_candidate_k=profile.retrieval.document_seed_candidate_k,
                 document_seed_max_chars=profile.retrieval.document_seed_max_chars,
+                evidence_unit=getattr(answering_profile, "evidence_unit", "chunk"),
+                span_max_chars=getattr(answering_profile, "span_max_chars", 320),
+                span_candidate_chunks=getattr(answering_profile, "span_candidate_chunks", 8),
+                span_max_per_chunk=getattr(answering_profile, "span_max_per_chunk", 2),
+                span_rerank_top_n=getattr(answering_profile, "span_rerank_top_n", 0),
             )
 
         retrieval_mode_selection_seconds = 0.0
@@ -257,7 +273,7 @@ def build_answer_callback(
             if decision.rationale:
                 evidence.notes.append(f"retrieval_mode_rationale:{decision.rationale}")
             after_retrieve = perf_counter()
-        result = answer_strategy(settings, case.question, evidence)
+        result = answer_strategy(runtime_settings, case.question, evidence)
         after_answer = perf_counter()
         result.timings.update(
             {

@@ -134,6 +134,22 @@ def test_demo_vector_rerank_profile_loads() -> None:
     assert profile.retrieval.enable_parallel_query_branches is True
 
 
+def test_baseline_vector_spans_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_spans", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.answering.evidence_unit == "span"
+    assert profile.answering.span_rerank_top_n == 16
+
+
+def test_demo_vector_spans_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("demo_vector_spans", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.answering.evidence_unit == "span"
+    assert profile.answering.span_rerank_top_n == 12
+
+
 def test_hierarchical_context_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("hierarchical_context_expansion", settings)

@@ -17,6 +17,7 @@ from bgrag.config import Settings
 from bgrag.indexing.elastic import VECTOR_FIELD_NAME, chunk_index_name
 from bgrag.registry import source_topology_registry
 from bgrag.retrieval.packing import diversify_ranked_chunks
+from bgrag.retrieval.span_packing import build_span_packed_chunks
 from bgrag.types import ChunkRecord, EvidenceBundle, NormalizedDocument, RetrievalCandidate
 
 
@@ -995,6 +996,11 @@ class HybridRetriever:
         document_seed_intro_chunks: int = 3,
         document_seed_candidate_k: int = 12,
         document_seed_max_chars: int = 1400,
+        evidence_unit: str = "chunk",
+        span_max_chars: int = 320,
+        span_candidate_chunks: int = 8,
+        span_max_per_chunk: int = 2,
+        span_rerank_top_n: int = 0,
     ) -> EvidenceBundle:
         if query_embedding is None:
             raise RuntimeError(
@@ -1161,6 +1167,20 @@ class HybridRetriever:
         selected_ids = {chunk.chunk_id for chunk in selected_chunks}
         selected_candidates = [candidate for candidate in candidates if candidate.chunk.chunk_id in selected_ids]
         selected_candidates.sort(key=lambda item: item.blended_score, reverse=True)
+        packed_chunks = selected_chunks
+        if evidence_unit == "span":
+            packed_chunks = build_span_packed_chunks(
+                question=question,
+                candidates=selected_candidates,
+                max_units=top_k,
+                max_chars=span_max_chars,
+                candidate_chunk_limit=span_candidate_chunks,
+                max_per_chunk=span_max_per_chunk,
+                rerank_client=self.rerank_client,
+                rerank_model=self.settings.cohere_rerank_model,
+                rerank_top_n=span_rerank_top_n,
+            )
+            notes.append("span_evidence_packing_applied")
         packing_end = perf_counter()
         stage_timings["packing_seconds"] += packing_end - packing_start
         if len(active_queries) > 1:
@@ -1168,7 +1188,7 @@ class HybridRetriever:
         return EvidenceBundle(
             query=question,
             candidates=selected_candidates,
-            packed_chunks=selected_chunks,
+            packed_chunks=packed_chunks,
             retrieval_queries=list(active_queries),
             notes=notes,
             timings=stage_timings,

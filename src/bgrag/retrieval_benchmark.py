@@ -174,6 +174,14 @@ def run_retrieval_benchmark(
         raise ValueError(f"Unsupported query_mode: {query_mode}")
 
     profile = load_profile(profile_name, settings)
+    runtime_settings = settings.model_copy(
+        update={
+            "cohere_chat_model": profile.answering.model_name,
+            "cohere_query_planner_model": profile.answering.planner_model_name or settings.cohere_query_planner_model,
+            "max_packed_docs": profile.answering.max_packed_docs,
+            "max_doc_chars": profile.answering.max_doc_chars,
+        }
+    )
     index_manifest = load_index_manifest(settings, None)
     index_namespace = str(index_manifest["namespace"])
     chunks = read_chunks(settings.resolve(Path("datasets/corpus/chunks.jsonl")))
@@ -186,8 +194,8 @@ def run_retrieval_benchmark(
     require_es_available(elastic, settings.elastic_url)
     settings.require_cohere_key("Retrieval benchmark")
     embedder = CohereEmbedder(settings)
-    retriever = HybridRetriever(settings, elastic=elastic, index_namespace=index_namespace, documents=documents)
-    query_expander = CohereQueryExpander(settings) if profile.retrieval.enable_query_decomposition else None
+    retriever = HybridRetriever(runtime_settings, elastic=elastic, index_namespace=index_namespace, documents=documents)
+    query_expander = CohereQueryExpander(runtime_settings) if profile.retrieval.enable_query_decomposition else None
 
     case_results: list[RetrievalBenchmarkCaseResult] = []
     for case in load_eval_cases(eval_path):
@@ -205,7 +213,7 @@ def run_retrieval_benchmark(
             query_embedding=query_embeddings[0] if query_embeddings else None,
             chunk_embeddings=embedding_store,
             source_topology=profile.retrieval.source_topology,
-            top_k=profile.retrieval.top_k,
+            top_k=min(profile.retrieval.top_k, profile.answering.max_packed_docs),
             candidate_k=profile.retrieval.candidate_k,
             retrieval_alpha=profile.retrieval.retrieval_alpha,
             rerank_top_n=profile.retrieval.rerank_top_n,
@@ -246,6 +254,11 @@ def run_retrieval_benchmark(
             document_seed_intro_chunks=profile.retrieval.document_seed_intro_chunks,
             document_seed_candidate_k=profile.retrieval.document_seed_candidate_k,
             document_seed_max_chars=profile.retrieval.document_seed_max_chars,
+            evidence_unit=profile.answering.evidence_unit,
+            span_max_chars=profile.answering.span_max_chars,
+            span_candidate_chunks=profile.answering.span_candidate_chunks,
+            span_max_per_chunk=profile.answering.span_max_per_chunk,
+            span_rerank_top_n=profile.answering.span_rerank_top_n,
         )
         after_retrieve = perf_counter()
         packed_metrics = compute_retrieval_metrics(case, evidence.packed_chunks)
