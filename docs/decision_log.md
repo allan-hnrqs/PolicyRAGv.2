@@ -579,3 +579,25 @@ become the only place where rationale lives.
     - candidate wins `2`
     - control wins `0`
     - ties `1`
+
+## 2026-04-03
+
+- A controlled follow-up on grounded Cohere `documents` answering was completed
+  after the original Phase 4 experiment.
+  The follow-up removed the main confounds by:
+  - fixing citation parsing for Cohere v2 `sources`
+  - aligning the inline and grounded-doc answer contracts
+  - replaying answer generation on frozen Phase 1 evidence bundles so retrieval
+    and planning stayed fixed
+  - testing both per-chunk and single-blob grounded-document packaging
+  - testing both free-form and structured-contract grounded-document answer
+    paths
+  Result:
+  - grounded `documents` still underperformed inline on the repo's
+    synthesis-heavy tasks
+  - the failure was not explained by trimming, citation parsing, prompt drift,
+    or per-chunk packaging alone
+  Decision:
+  - keep `inline_evidence_chat` as the mainline answer path
+  - keep grounded `documents` only as a documented experimental branch, not as
+    the promoted serving direction

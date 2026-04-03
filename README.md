@@ -1,13 +1,35 @@
-# Buyer’s Guide RAG Clean
+# PolicyRAGv.2
 
 This repository is a clean-room, backend-only rebuild of the Buyer’s Guide RAG
 system. It is inspired by `DepartmentDefence-Winter2026-feat-retrieval-expensive-methods-eval`
 as a benchmark and behavior reference, but it does not copy implementation code
 from that branch.
 
+## Relation To `DepartmentDefence-Winter2026`
+
+This repo currently sits beside
+[DepartmentDefence-Winter2026](../DepartmentDefence-Winter2026/README.md).
+
+The practical split is:
+
+- `DepartmentDefence-Winter2026`
+  - integrated app repo
+  - Flask backend, React frontend, auth, chat UI, moderator dashboard
+- `PolicyRAGv.2`
+  - cleaner backend experimentation and evaluation repo
+  - retrieval, chunking, answering, evaluation, and product-comparator work
+  - used to test backend ideas more rigorously before deciding whether they are
+    worth carrying into the app repo
+
+So this repo is not the product shell. It is the benchmark-heavy backend lab
+and decision surface for the procurement-policy RAG work.
+
 ## Repo Status
 
 This Git repository is now the primary home for ongoing development.
+
+- public GitHub repo:
+  - `https://github.com/allan-hnrqs/PolicyRAGv.2`
 
 - primary tracked repo:
   - `c:\Users\14164\Documents\CohereThing\PolicyRAGv.2`
@@ -25,21 +47,55 @@ The system is Buyer’s Guide-first:
 - supporting sources should be pulled in intentionally rather than treated as
   equal peers by default
 
-## Current status
+## Current Status
 
-This repo is in active phase-1 bootstrap. The first goal is to provide a clean,
-documented, testable backend that can:
+This repo is now beyond bare bootstrap. It is the active backend experimentation
+repo for:
+
+- corpus collection and normalization
+- retrieval and answer-strategy experiments
+- judged eval and retrieval-only benchmarking
+- product-serving benchmarking
+- comparisons against live official-site and agent-style comparators
+
+The repo still aims to provide a clean, documented, testable backend that can:
 - collect and normalize the procurement sources
 - build a reusable corpus package
 - index the corpus with pluggable retrieval profiles
 - answer questions with pluggable answer strategies
 - evaluate against frozen parity suites derived from the current `feat` branch
 
-The current promoted baseline uses:
+The current strong takeaways are:
+- inline evidence remains the strongest answer transport tested so far
+- the best reversible infrastructure checkpoint so far is the Phase 1 native
+  Elasticsearch vector retrieval path
+- grounded Cohere `documents` answering was tested seriously and is currently
+  documented as an unsuccessful mainline path for this repo's synthesis-heavy
+  task
+
+The current promoted baseline family uses:
 - Buyer’s Guide-first source topology
 - Cohere hybrid retrieval with Elasticsearch lexical search
 - LLM query decomposition before retrieval
 - inline evidence answer generation with Command A
+
+## Where To Read Next
+
+If you need the shortest trustworthy map of the repo, start here:
+
+- [Current State](docs/current_state.md)
+- [Decision Log](docs/decision_log.md)
+- [Experiment Index](docs/experiment_index.md)
+- [Product Promotion Contract](docs/product_promotion_contract.md)
+- [Product Serving Benchmark](docs/product_serving_benchmark.md)
+- [Research Log](docs/research-log.md)
+
+The main recent phase notes are:
+
+- [Phase 1: native vector retrieval](docs/phase1_vector_retrieval_note.md)
+- [Phase 2: rerank experiment](docs/phase2_rerank_note.md)
+- [Phase 3: span-aware packing](docs/phase3_span_packing_note.md)
+- [Phase 4: grounded `documents` answering](docs/phase4_documents_note.md)
 
 ## CLI
 

@@ -154,6 +154,39 @@ def _render_evidence_sections(chunks: list[ChunkRecord]) -> str:
     return "\n\n---\n\n".join(sections)
 
 
+def _supporting_source_rule(chunks: list[ChunkRecord]) -> str:
+    supporting_sources_present = any(chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in chunks)
+    if supporting_sources_present:
+        return "If you rely on supporting policy or directive evidence, mention that briefly only where needed."
+    return "Do not mention supporting sources unless they are needed for the answer."
+
+
+def _shared_grounded_answer_contract(
+    *,
+    source_label: str,
+    exactness_label: str,
+    citation_instruction: str,
+    supporting_source_rule: str,
+) -> str:
+    return (
+        f"You are a procurement policy assistant. Answer using only {source_label}.\n"
+        "Requirements:\n"
+        "1. Start with the direct answer to the user's actual question.\n"
+        "2. Resolve every distinct part of the question explicitly.\n"
+        "3. If retrieved aspects are listed below, cover each supported aspect explicitly.\n"
+        "4. Preserve prerequisites, branch conditions, deadlines, exceptions, follow-on requirements, and what happens if a condition is or is not met.\n"
+        "5. If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.\n"
+        f"6. If the user asks for an exact identifier, contact detail, form number, template name, or file name and {exactness_label} do not establish it, say that directly in the first sentence and then give only the closest supported context.\n"
+        "7. Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the supporting material explicitly ties them to the user's request.\n"
+        "8. Preserve force: if the supporting material says must, only, cannot, required, or mandatory, keep that force.\n"
+        "9. Use short bullets only when they help cover multiple branches or steps; otherwise keep the answer compact.\n"
+        f"10. {citation_instruction}\n"
+        "11. Do not say 'the provided evidence' or refer to internal retrieval mechanics in the answer.\n"
+        "12. Do not end with an unfinished heading, bullet, or partial sentence.\n"
+        f"13. {supporting_source_rule}\n"
+    )
+
+
 def _build_inline_evidence_prompt(question: str, evidence: EvidenceBundle | list[ChunkRecord]) -> str:
     if isinstance(evidence, EvidenceBundle):
         chunks = evidence.packed_chunks
@@ -167,28 +200,14 @@ def _build_inline_evidence_prompt(question: str, evidence: EvidenceBundle | list
         aspect_block = "Retrieved aspects to cover when supported:\n" + "\n".join(
             f"- {query}" for query in retrieved_aspects
         ) + "\n\n"
-    supporting_sources_present = any(chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in chunks)
-    supporting_source_rule = (
-        "If you rely on supporting policy or directive evidence, mention that briefly only where needed.\n"
-        if supporting_sources_present
-        else "Do not mention supporting sources unless they are needed for the answer.\n"
+    contract = _shared_grounded_answer_contract(
+        source_label="the evidence below",
+        exactness_label="the evidence",
+        citation_instruction="Cite chunk IDs in square brackets after the statements they support.",
+        supporting_source_rule=_supporting_source_rule(chunks),
     )
     return (
-        "You are a procurement policy assistant. Answer using only the evidence below.\n"
-        "Requirements:\n"
-        "1. Start with the direct answer to the user's actual question.\n"
-        "2. Resolve every distinct part of the question explicitly.\n"
-        "3. If retrieved aspects are listed below, cover each supported aspect explicitly.\n"
-        "4. Preserve prerequisites, branch conditions, deadlines, exceptions, follow-on requirements, and what happens if a condition is or is not met.\n"
-        "5. If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.\n"
-        "6. If the user asks for an exact identifier, contact detail, form number, template name, or file name and the evidence does not establish it, say that directly in the first sentence and then give only the closest supported context.\n"
-        "7. Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the evidence explicitly ties them to the user's request.\n"
-        "8. Preserve force: if the evidence says must, only, cannot, required, or mandatory, keep that force.\n"
-        "9. Use short bullets only when they help cover multiple branches or steps; otherwise keep the answer compact.\n"
-        "10. Cite chunk IDs in square brackets after the statements they support.\n"
-        "11. Do not say 'the provided evidence' or refer to internal retrieval mechanics in the answer.\n"
-        "12. Do not end with an unfinished heading, bullet, or partial sentence.\n"
-        f"13. {supporting_source_rule.strip()}\n\n"
+        f"{contract}\n"
         f"Original question:\n{question}\n\n"
         f"{aspect_block}"
         f"Evidence:\n{joined}"
@@ -482,6 +501,61 @@ def _build_cited_structured_answer_contract_prompt(question: str, evidence: Evid
         f"Original question:\n{question}\n\n"
         f"{aspect_block}"
         f"Evidence:\n{joined}"
+    )
+
+
+def _documents_cited_structured_answer_contract_system_prompt(chunks: list[ChunkRecord]) -> str:
+    return (
+        "You are preparing an evidence-grounded structured answer contract for a procurement-policy RAG system.\n"
+        "Use only the supplied grounded documents.\n"
+        "Do not mention chunk IDs in prose. Use document IDs from the grounded documents when citation_doc_ids are required.\n"
+        f"{_supporting_source_rule(chunks)}\n"
+    )
+
+
+def _build_documents_cited_structured_answer_contract_user_prompt(question: str, evidence: EvidenceBundle) -> str:
+    aspect_lines = [query.strip() for query in evidence.retrieval_queries[1:] if query.strip()]
+    aspect_block = ""
+    if aspect_lines:
+        aspect_block = "Retrieved aspects:\n" + "\n".join(f"- {query}" for query in aspect_lines) + "\n\n"
+    return (
+        "Return JSON only in this exact top-level shape:\n"
+        '{"answer_mode":"workflow","should_abstain":false,"abstain_reason":"","slots":{"bottom_line":{"text":"","citation_chunk_ids":["document_id"]},"prerequisite_or_scope":{"text":"","citation_chunk_ids":["document_id"]},"general_rule":{"text":"","citation_chunk_ids":["document_id"]},"branch_if_all":{"text":"","citation_chunk_ids":["document_id"]},"branch_if_some":{"text":"","citation_chunk_ids":["document_id"]},"branch_if_none":{"text":"","citation_chunk_ids":["document_id"]},"required_document_or_input":{"text":"","citation_chunk_ids":["document_id"]},"deadline_or_timing":{"text":"","citation_chunk_ids":["document_id"]},"consequence":{"text":"","citation_chunk_ids":["document_id"]},"follow_on_requirement":{"text":"","citation_chunk_ids":["document_id"]},"exception":{"text":"","citation_chunk_ids":["document_id"]}}}\n\n'
+        "Allowed values for answer_mode are:\n"
+        '- "workflow"\n'
+        '- "navigation"\n'
+        '- "missing_detail"\n'
+        '- "direct_rule"\n\n'
+        "Allowed slot keys by mode:\n"
+        "- workflow: bottom_line, prerequisite_or_scope, general_rule, branch_if_all, branch_if_some, branch_if_none, required_document_or_input, deadline_or_timing, consequence, follow_on_requirement, exception\n"
+        "- navigation: start_page, parent_stage, child_page_with_rule, what_that_page_covers, direct_url\n"
+        "- missing_detail: exact_detail_status, closest_supported_context, page_or_location, supporting_rule\n"
+        "- direct_rule: bottom_line, general_rule, conditions, exception, consequence\n\n"
+        "Rules:\n"
+        "1. Choose navigation when the user mainly wants to know where in the Buyer's Guide to go.\n"
+        "2. Choose missing_detail when the user asks for an exact identifier or contact detail that the grounded documents may not provide.\n"
+        "3. Choose workflow when the user asks about options, branches, exceptions, deadlines, or consequences.\n"
+        "4. Choose direct_rule for straightforward rule or authority questions that do not need a more specialized frame.\n"
+        "5. Populate only slot keys allowed for the chosen answer_mode.\n"
+        "6. Every non-empty slot must include a short text field and 1 to 3 citation_chunk_ids using grounded document IDs that directly support that slot.\n"
+        "7. Leave unsupported or unstated slots as empty strings with empty citation_chunk_ids lists.\n"
+        "8. Every non-empty slot must be directly supported by the cited grounded documents.\n"
+        "9. Preserve force: if the grounded documents say must, only, cannot, or required, keep that force.\n"
+        "10. For workflow mode, use prerequisite_or_scope for threshold tests, applicability determinations, required forms, required certifications, or required authority preconditions.\n"
+        "11. For workflow mode, fill separate branch slots when the grounded documents distinguish all, some, none, exceptions, deadlines, or consequences.\n"
+        "12. For workflow mode, use follow_on_requirement for obligations that still must be carried out after the main decision, such as notifications, file documentation, or publication steps.\n"
+        "13. For workflow mode, use required_document_or_input for named forms, certifications, declarations, proof, or supporting evidence when they are part of the answer.\n"
+        "14. For navigation mode, identify the exact page or path the user should open and the child page with the actual rule when relevant.\n"
+        "15. For missing_detail mode, use exact_detail_status to say whether the exact requested detail is available, and use closest_supported_context for the nearest supported substitute context.\n"
+        "16. Set should_abstain to true only when the exact requested detail or determination is not established by the grounded documents.\n"
+        "17. Each non-empty slot must be concise: prefer one short sentence or phrase, ideally under 30 words.\n"
+        "18. Populate only the slots needed to answer the user's actual question completely; leave marginal or background slots empty.\n"
+        "19. For workflow mode, prefer 4 to 6 non-empty slots unless more are strictly necessary for correctness.\n"
+        "20. If the question asks about a specific branch or scenario, fill the directly relevant branch slots and leave unrelated branches empty unless they are required for the answer.\n"
+        "21. When multiple grounded documents jointly establish the answer, synthesize them in the slot text while citing the directly supporting document IDs.\n"
+        "22. Do not invent slot content or citation IDs just to fill the contract.\n\n"
+        f"Original question:\n{question}\n\n"
+        f"{aspect_block}"
     )
 
 
@@ -917,6 +991,34 @@ def _extract_cited_structured_answer_contract(
     )
     contract = _normalize_cited_structured_answer_contract_payload(contract_payload)
     return contract, contract_payload
+
+
+def _extract_cited_structured_answer_contract_from_documents(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+) -> tuple[CitedStructuredAnswerContract, dict[str, object]]:
+    settings.require_cohere_key("Structured contract extraction")
+    client = cohere.ClientV2(settings.cohere_api_key)
+    documents, _ = _build_cohere_documents(settings, evidence.packed_chunks)
+    response = client.chat(
+        model=settings.cohere_query_planner_model,
+        messages=[
+            ct.SystemChatMessageV2(content=_documents_cited_structured_answer_contract_system_prompt(evidence.packed_chunks)),
+            ct.UserChatMessageV2(content=_build_documents_cited_structured_answer_contract_user_prompt(question, evidence)),
+        ],
+        documents=documents,
+        response_format=ct.JsonObjectResponseFormatV2(),
+        temperature=0,
+        max_tokens=1400,
+    )
+    contract_text = _extract_text_from_chat_response(response)
+    contract = _normalize_cited_structured_answer_contract(contract_text)
+    payload = {
+        "contract_text": contract_text,
+        "citations": _serialize_message_citations(response),
+    }
+    return contract, payload
 
 
 def _extract_answer_rewrite_verdict(
@@ -1893,6 +1995,55 @@ def _build_cohere_documents(
     return documents, citation_lookup
 
 
+def _build_cohere_inline_blob_document(
+    chunks: list[ChunkRecord],
+) -> tuple[list[ct.Document], dict[str, AnswerCitation]]:
+    rendered = _render_evidence_sections(chunks)
+    document_id = "inline_evidence_blob"
+    document = ct.Document(
+        id=document_id,
+        data={
+            "title": "Inline Evidence Block",
+            "text": f"Evidence:\n{rendered}",
+            "snippet": f"Evidence:\n{rendered}",
+        },
+    )
+    return (
+        [document],
+        {
+            document_id: AnswerCitation(
+                chunk_id=document_id,
+                canonical_url="about:inline_evidence_blob",
+                snippet=f"Evidence:\n{rendered[:400]}",
+            )
+        },
+    )
+
+
+def _extract_citation_document_ids(citation: object) -> list[str]:
+    direct_ids = getattr(citation, "document_ids", None)
+    if isinstance(direct_ids, list):
+        return [str(item) for item in direct_ids if str(item).strip()]
+
+    resolved: list[str] = []
+    for source in getattr(citation, "sources", None) or []:
+        source_id = getattr(source, "id", None)
+        if source_id is not None and str(source_id).strip():
+            resolved.append(str(source_id))
+    return resolved
+
+
+def _serialize_message_citations(response: object) -> object:
+    try:
+        dumped = response.model_dump()
+    except Exception:
+        return None
+    message = dumped.get("message") if isinstance(dumped, dict) else None
+    if not isinstance(message, dict):
+        return None
+    return message.get("citations")
+
+
 def _build_response_citations(
     response: object,
     citation_lookup: dict[str, AnswerCitation],
@@ -1902,7 +2053,7 @@ def _build_response_citations(
     resolved: list[AnswerCitation] = []
     seen: set[str] = set()
     for citation in raw_citations:
-        for document_id in getattr(citation, "document_ids", []) or []:
+        for document_id in _extract_citation_document_ids(citation):
             if document_id in seen:
                 continue
             source = citation_lookup.get(str(document_id))
@@ -1913,28 +2064,27 @@ def _build_response_citations(
     return resolved
 
 
-def _documents_system_prompt() -> str:
-    return (
-        "You are a procurement policy assistant.\n"
-        "Answer using only the supplied grounded documents.\n"
-        "Start with the direct answer to the user's actual question.\n"
-        "Resolve every distinct part of the question explicitly.\n"
-        "Preserve prerequisites, branch conditions, deadlines, exceptions, and what happens if a condition is or is not met.\n"
-        "If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.\n"
-        "If the documents do not establish an exact detail, say so clearly in the first sentence and then give only the closest supported context.\n"
-        "Do not invent identifiers, forms, contact details, or workflow steps.\n"
-        "Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the documents explicitly tie them to the user's request.\n"
-        "Give a direct answer first, then short bullets only when they genuinely help.\n"
-        "Do not mention internal chunk IDs or say 'the provided evidence' in the answer.\n"
+def _documents_system_prompt(chunks: list[ChunkRecord]) -> str:
+    return _shared_grounded_answer_contract(
+        source_label="the supplied grounded documents",
+        exactness_label="the grounded documents",
+        citation_instruction=(
+            "Ground each supported statement in the supplied documents so native document citations can attach; do not mention chunk IDs or invent citation markers in the answer."
+        ),
+        supporting_source_rule=_supporting_source_rule(chunks),
     )
 
 
 def _build_documents_user_prompt(question: str, evidence: EvidenceBundle) -> str:
     retrieved_aspects = [query.strip() for query in evidence.retrieval_queries[1:] if query.strip()]
     if not retrieved_aspects:
-        return question
+        return f"Original question:\n{question}"
     aspect_lines = "\n".join(f"- {query}" for query in retrieved_aspects)
-    return f"Original question:\n{question}\n\nRetrieved aspects to cover when supported:\n{aspect_lines}"
+    return (
+        f"Original question:\n{question}\n\n"
+        "Retrieved aspects to cover when supported:\n"
+        f"{aspect_lines}"
+    )
 
 
 def inline_evidence_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
@@ -1979,7 +2129,7 @@ def documents_chat(settings: Settings, question: str, evidence: EvidenceBundle) 
     response = client.chat(
         model=settings.cohere_chat_model,
         messages=[
-            ct.SystemChatMessageV2(content=_documents_system_prompt()),
+            ct.SystemChatMessageV2(content=_documents_system_prompt(evidence.packed_chunks)),
             ct.UserChatMessageV2(content=_build_documents_user_prompt(question, evidence)),
         ],
         documents=documents,
@@ -1994,7 +2144,32 @@ def documents_chat(settings: Settings, question: str, evidence: EvidenceBundle) 
         model_name=settings.cohere_chat_model,
         citations=_build_response_citations(response, citation_lookup),
         evidence_bundle=evidence,
-        raw_response={"citations": [getattr(item, "document_ids", []) for item in getattr(getattr(response, "message", None), "citations", []) or []]},
+        raw_response={"citations": _serialize_message_citations(response)},
+    )
+
+
+def documents_inline_blob_chat(settings: Settings, question: str, evidence: EvidenceBundle) -> AnswerResult:
+    client = cohere.ClientV2(settings.cohere_api_key)
+    documents, citation_lookup = _build_cohere_inline_blob_document(evidence.packed_chunks)
+    response = client.chat(
+        model=settings.cohere_chat_model,
+        messages=[
+            ct.SystemChatMessageV2(content=_documents_system_prompt(evidence.packed_chunks)),
+            ct.UserChatMessageV2(content=_build_documents_user_prompt(question, evidence)),
+        ],
+        documents=documents,
+        citation_options=ct.CitationOptions(mode="ENABLED"),
+        temperature=settings.chat_temperature,
+        max_tokens=settings.chat_max_output_tokens,
+    )
+    return AnswerResult(
+        question=question,
+        answer_text=_extract_text_from_chat_response(response),
+        strategy_name="documents_inline_blob_chat",
+        model_name=settings.cohere_chat_model,
+        citations=_build_response_citations(response, citation_lookup),
+        evidence_bundle=evidence,
+        raw_response={"citations": _serialize_message_citations(response)},
     )
 
 
@@ -2343,6 +2518,49 @@ def structured_contract_deterministic_inline_evidence_chat(
             "structured_contract_payload": contract_payload.model_dump(),
             "planner_model": settings.cohere_query_planner_model,
             "planner_framework": "instructor_cohere_pydantic",
+            "render_mode": "deterministic",
+        },
+        timings={
+            "structured_contract_seconds": contract_end - contract_start,
+            "deterministic_render_seconds": render_end - contract_end,
+        },
+        abstained=contract.should_abstain,
+    )
+
+
+def structured_contract_deterministic_documents_chat(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+) -> AnswerResult:
+    contract_start = perf_counter()
+    contract, contract_payload = _extract_cited_structured_answer_contract_from_documents(settings, question, evidence)
+    contract_end = perf_counter()
+    answer_text = _render_cited_structured_contract_answer(contract)
+    render_end = perf_counter()
+    return AnswerResult(
+        question=question,
+        answer_text=answer_text,
+        strategy_name="structured_contract_deterministic_documents_chat",
+        model_name=settings.cohere_query_planner_model,
+        citations=_collect_contract_citations(contract, evidence.packed_chunks),
+        evidence_bundle=evidence,
+        raw_response={
+            "structured_contract": {
+                "answer_mode": contract.answer_mode,
+                "should_abstain": contract.should_abstain,
+                "abstain_reason": contract.abstain_reason,
+                "slots": {
+                    key: {
+                        "text": value.text,
+                        "citation_chunk_ids": value.citation_chunk_ids,
+                    }
+                    for key, value in contract.slots.items()
+                },
+            },
+            "structured_contract_payload": contract_payload,
+            "planner_model": settings.cohere_query_planner_model,
+            "planner_framework": "cohere_chat_json_documents",
             "render_mode": "deterministic",
         },
         timings={
@@ -3147,6 +3365,7 @@ def structured_contract_mode_aware_inline_evidence_chat(
 answer_strategy_registry.register("inline_evidence_chat", inline_evidence_chat)
 answer_strategy_registry.register("structured_inline_evidence_chat", structured_inline_evidence_chat)
 answer_strategy_registry.register("documents_chat", documents_chat)
+answer_strategy_registry.register("documents_inline_blob_chat", documents_inline_blob_chat)
 answer_strategy_registry.register("query_guided_inline_evidence_chat", query_guided_inline_evidence_chat)
 answer_strategy_registry.register("planned_inline_evidence_chat", planned_inline_evidence_chat)
 answer_strategy_registry.register("mode_aware_planned_inline_evidence_chat", mode_aware_planned_inline_evidence_chat)
@@ -3165,6 +3384,10 @@ answer_strategy_registry.register(
 answer_strategy_registry.register(
     "structured_contract_deterministic_inline_evidence_chat",
     structured_contract_deterministic_inline_evidence_chat,
+)
+answer_strategy_registry.register(
+    "structured_contract_deterministic_documents_chat",
+    structured_contract_deterministic_documents_chat,
 )
 answer_strategy_registry.register(
     "selective_workflow_contract_inline_evidence_chat",

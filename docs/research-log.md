@@ -364,3 +364,77 @@ references over secondary summaries.
 - Practical implication:
   - repo-local evaluation scripts should use the same explicit repo-env loading
     path as the CLI when reproducibility matters
+
+## 2026-04-02
+
+### Benchmark interpretation / product-quality findings
+
+- Published legal and retrieval benchmark numbers are not portable by default.
+  The metric only means something if the task and difficulty match. Two sources
+  are especially relevant:
+  - CLERC reports that zero-shot IR models only reach `48.3% recall@1000`,
+    which is a useful reminder that even legal retrieval alone can stay far
+    below casual "0.9" expectations on hard datasets.
+    Source:
+    - https://aclanthology.org/2025.findings-naacl.441/
+  - BRIGHT is explicitly positioned as a realistic reasoning-intensive
+    retrieval benchmark, reinforcing that benchmark difficulty changes the
+    meaning of any target number.
+    Source:
+    - https://arxiv.org/pdf/2407.12883
+- Practical implication:
+  - this repo should set product acceptance thresholds on its own authored
+    surfaces
+  - external numbers should only be used after recording task type, case count,
+    and difficulty profile
+
+### Tooling / framework findings
+
+- Existing frameworks already cover some of the orchestration patterns we keep
+  hand-rolling:
+  - Haystack has `ConditionalRouter` and web-search components, including a
+    documented web-search fallback pattern.
+    Sources:
+    - https://docs.haystack.deepset.ai/docs/conditionalrouter
+    - https://docs.haystack.deepset.ai/docs/serperdevwebsearch
+  - Haystack also ships vendor-specific hybrid retrievers such as
+    `AzureAISearchHybridRetriever`, which is a reminder that hybrid orchestration
+    is already a solved problem in some frameworks.
+    Source:
+    - https://docs.haystack.deepset.ai/docs/azureaisearchhybridretriever
+- Azure AI Search's current agentic retrieval guidance makes the tradeoff
+  explicit: more retrieval reasoning effort increases completeness but also
+  adds more LLM processing and latency.
+  Source:
+  - https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-set-retrieval-reasoning-effort
+- Practical implication:
+  - planning and web-search fallback should be treated as an orchestration
+    problem with available off-the-shelf patterns, not as an invitation to keep
+    inventing bespoke logic blindly
+  - but any imported framework still has to beat the repo baseline on the
+    authored eval surfaces
+
+### Rerank findings
+
+- Cohere's own RAG example still positions rerank as a bounded second stage
+  after retrieval, not as the first retrieval system. In their example, dense
+  retrieval returns `top_k=10` chunks and rerank then reduces this to
+  `top_k=3`.
+  Source:
+  - https://docs.cohere.com/page/rag-with-chat-embed
+- Practical implication:
+  - rerank should be used on a narrow candidate pool where better ordering is
+    worth the extra latency
+  - rerank should not be assumed helpful just because the endpoint exists
+- A newer legal-eval tool, LRAGE, explicitly calls out that overall legal RAG
+  quality depends on multiple interacting components:
+  - retrieval corpora
+  - retrieval algorithms
+  - rerankers
+  - LLM backbones
+  - evaluation metrics
+  Source:
+  - https://arxiv.org/abs/2504.01840
+- Practical implication:
+  - if rerank underperforms here, that is not a minor nuisance; it directly
+    affects one of the core components that legal-domain RAG systems depend on

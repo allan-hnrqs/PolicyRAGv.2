@@ -22,9 +22,11 @@ from bgrag.answering.strategies import (
     _build_answer_repair_plan_prompt,
     _build_answer_revision_prompt,
     _build_contextual_missing_detail_prompt,
+    _build_documents_user_prompt,
     _build_inline_evidence_prompt,
     _build_mode_aware_answer_plan_prompt,
     _build_navigation_answer_prompt,
+    _documents_system_prompt,
     _collect_contract_citations,
     _minimal_missing_detail_exactness_keep_set,
     _missing_detail_exactness_rewrite_decision,
@@ -49,6 +51,8 @@ from bgrag.answering.strategies import (
     _select_mode_aware_answer_route,
     _select_structured_contract_answer_route,
     documents_chat,
+    documents_inline_blob_chat,
+    structured_contract_deterministic_documents_chat,
 )
 from bgrag.config import Settings
 from bgrag.types import ChunkRecord, EvidenceBundle, SourceFamily
@@ -163,6 +167,177 @@ def test_documents_chat_uses_structured_documents_and_response_citations(monkeyp
     assert kwargs["messages"][0].role == "system"
     assert "Original question:\nWhat is the rule?" in kwargs["messages"][1].content
     assert "- supporting branch condition" in kwargs["messages"][1].content
+    assert "Ground each supported statement in the supplied documents so native document citations can attach" in kwargs["messages"][0].content
+
+
+def test_documents_prompts_require_cross_document_synthesis_and_exactness_discipline() -> None:
+    evidence = EvidenceBundle(
+        query="q",
+        packed_chunks=[_chunk("c1")],
+        retrieval_queries=["What is the rule?", "supporting branch condition"],
+    )
+
+    system_prompt = _documents_system_prompt(evidence.packed_chunks)
+    user_prompt = _build_documents_user_prompt("What is the rule?", evidence)
+    inline_prompt = _build_inline_evidence_prompt("What is the rule?", evidence)
+
+    shared_requirements = [
+        "Start with the direct answer to the user's actual question.",
+        "Resolve every distinct part of the question explicitly.",
+        "If retrieved aspects are listed below, cover each supported aspect explicitly.",
+        "Preserve prerequisites, branch conditions, deadlines, exceptions, follow-on requirements, and what happens if a condition is or is not met.",
+        "If the question compares two or more mechanisms, options, or scenarios, answer each one explicitly under a short heading or bullet.",
+        "Do not present nearby identifiers, related forms, or adjacent artifacts as the exact requested answer unless the supporting material explicitly ties them to the user's request.",
+        "Preserve force: if the supporting material says must, only, cannot, required, or mandatory, keep that force.",
+        "Use short bullets only when they help cover multiple branches or steps; otherwise keep the answer compact.",
+        "Do not say 'the provided evidence' or refer to internal retrieval mechanics in the answer.",
+        "Do not end with an unfinished heading, bullet, or partial sentence.",
+    ]
+    for requirement in shared_requirements:
+        assert requirement in system_prompt
+        assert requirement in inline_prompt
+    assert "Ground each supported statement in the supplied documents so native document citations can attach" in system_prompt
+    assert "Cite chunk IDs in square brackets after the statements they support." in inline_prompt
+    assert "Retrieved aspects to cover when supported:" in user_prompt
+
+
+def test_documents_chat_resolves_citations_from_sources_shape(monkeypatch) -> None:
+    class FakeResponse:
+        def __init__(self) -> None:
+            self.message = SimpleNamespace(
+                content=[SimpleNamespace(text="Grounded answer.")],
+                citations=[SimpleNamespace(sources=[SimpleNamespace(id="c1")])],
+            )
+
+        def model_dump(self):
+            return {
+                "message": {
+                    "citations": [
+                        {
+                            "start": 0,
+                            "end": 8,
+                            "text": "Grounded",
+                            "sources": [{"id": "c1", "type": "document"}],
+                        }
+                    ]
+                }
+            }
+
+    class FakeClient:
+        def __init__(self, api_key: str) -> None:
+            pass
+
+        def chat(self, **kwargs):
+            return FakeResponse()
+
+    monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
+
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    evidence = EvidenceBundle(query="q", packed_chunks=[_chunk("c1")], retrieval_queries=["What is the rule?"])
+
+    result = documents_chat(settings, "What is the rule?", evidence)
+
+    assert len(result.citations) == 1
+    assert result.citations[0].chunk_id == "c1"
+    assert result.raw_response == {
+        "citations": [
+            {
+                "start": 0,
+                "end": 8,
+                "text": "Grounded",
+                "sources": [{"id": "c1", "type": "document"}],
+            }
+        ]
+    }
+
+
+def test_documents_inline_blob_chat_uses_single_rendered_evidence_document(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeResponse:
+        def __init__(self) -> None:
+            self.message = SimpleNamespace(
+                content=[SimpleNamespace(text="Blob grounded answer.")],
+                citations=[SimpleNamespace(sources=[SimpleNamespace(id="inline_evidence_blob")])],
+            )
+
+        def model_dump(self):
+            return {
+                "message": {
+                    "citations": [
+                        {
+                            "start": 0,
+                            "end": 4,
+                            "text": "Blob",
+                            "sources": [{"id": "inline_evidence_blob", "type": "document"}],
+                        }
+                    ]
+                }
+            }
+
+    class FakeClient:
+        def __init__(self, api_key: str) -> None:
+            pass
+
+        def chat(self, **kwargs):
+            captured["kwargs"] = kwargs
+            return FakeResponse()
+
+    monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
+
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    evidence = EvidenceBundle(
+        query="q",
+        packed_chunks=[_chunk("c1", text="First chunk text."), _chunk("c2", text="Second chunk text.")],
+        retrieval_queries=["What is the rule?"],
+    )
+
+    result = documents_inline_blob_chat(settings, "What is the rule?", evidence)
+
+    assert result.answer_text == "Blob grounded answer."
+    assert len(result.citations) == 1
+    assert result.citations[0].chunk_id == "inline_evidence_blob"
+    documents = captured["kwargs"]["documents"]
+    assert len(documents) == 1
+    assert documents[0].id == "inline_evidence_blob"
+    assert documents[0].data["text"].startswith("Evidence:\n[c1]")
+    assert "[c2]" in documents[0].data["text"]
+
+
+def test_structured_contract_deterministic_documents_chat_uses_documents_and_json_mode(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeResponse:
+        def __init__(self, text: str) -> None:
+            self.message = SimpleNamespace(content=[SimpleNamespace(text=text)], citations=[])
+
+        def model_dump(self):
+            return {"message": {"citations": []}}
+
+    class FakeClient:
+        def __init__(self, api_key: str) -> None:
+            pass
+
+        def chat(self, **kwargs):
+            captured["kwargs"] = kwargs
+            return FakeResponse(
+                '{"answer_mode":"direct_rule","should_abstain":false,"abstain_reason":"","slots":{"bottom_line":{"text":"Use the rule.","citation_chunk_ids":["c1"]},"general_rule":{"text":"General rule.","citation_chunk_ids":["c1"]}}}'
+            )
+
+    monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
+
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    evidence = EvidenceBundle(query="q", packed_chunks=[_chunk("c1")], retrieval_queries=["What is the rule?"])
+
+    result = structured_contract_deterministic_documents_chat(settings, "What is the rule?", evidence)
+
+    assert "Use the rule." in result.answer_text
+    assert len(result.citations) == 1
+    kwargs = captured["kwargs"]
+    assert kwargs["documents"][0].id == "c1"
+    assert kwargs["response_format"].type == "json_object"
+    assert kwargs["messages"][0].role == "system"
+    assert "Use only the supplied grounded documents." in kwargs["messages"][0].content
 
 
 def test_answer_plan_prompt_includes_aspects_and_json_shape() -> None:
