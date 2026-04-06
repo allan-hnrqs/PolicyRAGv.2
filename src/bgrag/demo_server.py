@@ -14,20 +14,29 @@ from pathlib import Path
 from time import perf_counter
 from typing import Any
 from urllib.parse import unquote, urlparse
+from uuid import uuid4
 
 import cohere
 import cohere.types as ct
 from dotenv import dotenv_values
+from bgrag.types import ConversationState, ConversationTurn
 from bgrag.config import Settings, detect_project_root
-from bgrag.indexing.elastic import build_es_client, require_es_available
+from bgrag.indexing.search_backend import (
+    build_search_client,
+    normalize_search_backend,
+    require_search_available,
+    search_backend_label,
+)
 from bgrag.manifests import (
+    derive_index_namespace,
     get_active_index_namespace,
-    index_embeddings_path,
     index_manifest_path,
+    index_embeddings_path,
 )
 from bgrag.pipeline import build_answer_callback
 from bgrag.profiles.loader import load_profile
 from bgrag.profiles.runtime import build_runtime_settings
+from bgrag.retrieval.retriever import requires_chunk_embedding_store
 
 DEMO_PROFILE_NAME = "demo"
 PROCUREMENT_INTENT = "procurement_policy"
@@ -45,10 +54,12 @@ class DemoHealthStatus:
     ok: bool
     status_message: str
     cohere_configured: bool
-    elasticsearch_reachable: bool
+    search_backend: str
+    search_backend_reachable: bool
     active_index_namespace: str | None
     index_manifest_present: bool
     chunk_embeddings_present: bool
+    chunk_embeddings_required: bool
 
 
 @dataclass(frozen=True)
@@ -112,7 +123,6 @@ def _contextualizer_system_prompt() -> str:
         "2. Preserve the user's meaning; do not add new policy content.\n"
         "3. Do not answer the question.\n"
         "4. If the latest turn is already self-contained, keep the rewrite very close to it.\n"
-        "5. Assume the conversation is within the procurement-policy assistant's domain.\n"
     )
 
 
@@ -197,66 +207,118 @@ def resolve_demo_question(
     )
 
 
+def _build_conversation_state(
+    *,
+    conversation_id: str,
+    messages: list[dict[str, str]],
+    resolved_question: str,
+) -> ConversationState:
+    return ConversationState(
+        conversation_id=conversation_id,
+        recent_turns=[
+            ConversationTurn(role=message["role"], content=message["text"])
+            for message in messages
+        ],
+        resolved_query=resolved_question,
+    )
+
+
 def _build_status_message(status: DemoHealthStatus) -> str:
     if not status.cohere_configured:
         return "COHERE_API_KEY is missing from this repo's .env file."
-    if not status.elasticsearch_reachable:
-        return "Elasticsearch is not reachable at the configured ELASTIC_URL."
+    if not status.search_backend_reachable:
+        return f"{search_backend_label(status.search_backend)} is not reachable at the configured URL."
     if not status.active_index_namespace:
-        return "No active index is configured. Run `bgrag build-index --profile baseline` first."
+        return "No matching index is configured for this profile. Run `bgrag build-index --profile <profile>` first."
     if not status.index_manifest_present:
         return f"Index manifest is missing for active namespace `{status.active_index_namespace}`."
-    if not status.chunk_embeddings_present:
+    if status.chunk_embeddings_required and not status.chunk_embeddings_present:
         return f"Chunk embeddings are missing for active namespace `{status.active_index_namespace}`."
     return "Live backend ready."
 
 
-def evaluate_demo_health(settings: Settings) -> DemoHealthStatus:
+def _demo_profile_requires_chunk_embeddings(profile) -> bool:
+    return requires_chunk_embedding_store(
+        dense_retrieval_backend=profile.retrieval.dense_retrieval_backend,
+        enable_mmr_diversity=profile.retrieval.enable_mmr_diversity,
+    )
+
+
+def _resolve_demo_index_namespace(settings: Settings, profile_name: str, profile) -> str | None:
+    target_backend = normalize_search_backend(getattr(profile.retrieval, "search_backend", "elasticsearch"))
+    candidates: list[str] = []
+    derived_namespace = derive_index_namespace(settings, profile_name)
+    candidates.append(derived_namespace)
+    try:
+        active_namespace = get_active_index_namespace(settings)
+    except Exception:
+        active_namespace = None
+    if active_namespace and active_namespace not in candidates:
+        candidates.append(active_namespace)
+    for namespace in candidates:
+        manifest_file = index_manifest_path(settings, namespace)
+        if not manifest_file.exists():
+            continue
+        try:
+            manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        manifest_profile = str(manifest.get("profile_name", "")).strip()
+        manifest_backend = normalize_search_backend(str(manifest.get("search_backend", "elasticsearch")))
+        if manifest_profile == profile_name and manifest_backend == target_backend:
+            return namespace
+    return None
+
+
+def evaluate_demo_health(settings: Settings, profile_name: str = DEMO_PROFILE_NAME) -> DemoHealthStatus:
+    profile = load_profile(profile_name, settings)
     cohere_configured = settings.has_cohere_key()
-    elasticsearch_reachable = False
+    search_backend = normalize_search_backend(getattr(profile.retrieval, "search_backend", "elasticsearch"))
+    search_backend_reachable = False
     active_index_namespace: str | None = None
     index_manifest_present = False
     chunk_embeddings_present = False
+    chunk_embeddings_required = _demo_profile_requires_chunk_embeddings(profile)
 
     try:
-        require_es_available(build_es_client(settings), settings.elastic_url)
-        elasticsearch_reachable = True
+        require_search_available(build_search_client(settings, search_backend), settings, search_backend)
+        search_backend_reachable = True
     except Exception:
-        elasticsearch_reachable = False
+        search_backend_reachable = False
 
-    try:
-        active_index_namespace = get_active_index_namespace(settings)
-    except Exception:
-        active_index_namespace = None
-
+    active_index_namespace = _resolve_demo_index_namespace(settings, profile_name, profile)
     if active_index_namespace:
         index_manifest_present = index_manifest_path(settings, active_index_namespace).exists()
         chunk_embeddings_present = index_embeddings_path(settings, active_index_namespace).exists()
 
     ok = (
         cohere_configured
-        and elasticsearch_reachable
+        and search_backend_reachable
         and active_index_namespace is not None
         and index_manifest_present
-        and chunk_embeddings_present
+        and (chunk_embeddings_present or not chunk_embeddings_required)
     )
     provisional = DemoHealthStatus(
         ok=ok,
         status_message="",
         cohere_configured=cohere_configured,
-        elasticsearch_reachable=elasticsearch_reachable,
+        search_backend=search_backend,
+        search_backend_reachable=search_backend_reachable,
         active_index_namespace=active_index_namespace,
         index_manifest_present=index_manifest_present,
         chunk_embeddings_present=chunk_embeddings_present,
+        chunk_embeddings_required=chunk_embeddings_required,
     )
     return DemoHealthStatus(
         ok=ok,
         status_message=_build_status_message(provisional),
         cohere_configured=cohere_configured,
-        elasticsearch_reachable=elasticsearch_reachable,
+        search_backend=search_backend,
+        search_backend_reachable=search_backend_reachable,
         active_index_namespace=active_index_namespace,
         index_manifest_present=index_manifest_present,
         chunk_embeddings_present=chunk_embeddings_present,
+        chunk_embeddings_required=chunk_embeddings_required,
     )
 
 
@@ -280,27 +342,48 @@ def run_demo_query(
     question: str,
     profile_name: str = DEMO_PROFILE_NAME,
     messages: object | None = None,
+    conversation_id: str | None = None,
 ) -> dict[str, object]:
     clean_question = question.strip()
     if not clean_question:
         raise ValueError("Enter a message before sending.")
 
-    runtime_settings = build_runtime_settings(settings, load_profile(profile_name, settings))
+    profile = load_profile(profile_name, settings)
+    runtime_settings = build_runtime_settings(settings, profile)
     normalized_messages = _normalize_demo_messages(messages, clean_question)
     context_start = perf_counter()
     resolution = resolve_demo_question(runtime_settings, clean_question, normalized_messages)
     context_end = perf_counter()
+    resolved_conversation_id = conversation_id or f"demo-{uuid4().hex[:12]}"
+    conversation_state = _build_conversation_state(
+        conversation_id=resolved_conversation_id,
+        messages=normalized_messages,
+        resolved_question=resolution.resolved_question,
+    )
 
-    health = evaluate_demo_health(settings)
-    if not health.ok or not health.active_index_namespace:
-        raise RuntimeError(health.status_message)
+    health = evaluate_demo_health(settings, profile_name)
+    if not health.cohere_configured:
+        raise RuntimeError("COHERE_API_KEY is missing from this repo's .env file.")
+    requires_search_backend = profile.retrieval.retrieval_mode != "rerank_all_corpus"
+    if requires_search_backend and not health.search_backend_reachable:
+        raise RuntimeError(f"{search_backend_label(health.search_backend)} is not reachable at the configured URL.")
+    if not health.active_index_namespace:
+        raise RuntimeError(
+            f"No matching index is configured for profile `{profile_name}`. "
+            f"Run `bgrag build-index --profile {profile_name}` first."
+        )
+    if not health.index_manifest_present:
+        raise RuntimeError(f"Index manifest is missing for active namespace `{health.active_index_namespace}`.")
+    if health.chunk_embeddings_required and not health.chunk_embeddings_present:
+        raise RuntimeError(f"Chunk embeddings are missing for active namespace `{health.active_index_namespace}`.")
 
     class AdHocCase:
-        def __init__(self, prompt: str) -> None:
+        def __init__(self, prompt: str, state: ConversationState) -> None:
             self.question = prompt
+            self.conversation_state = state
 
     answer_callback = _get_answer_callback(settings, profile_name, health.active_index_namespace)
-    result = answer_callback(AdHocCase(resolution.resolved_question))
+    result = answer_callback(AdHocCase(resolution.resolved_question, conversation_state))
     evidence_notes = [f"conversation_route:{resolution.route_name}"]
     if resolution.context_applied:
         evidence_notes.append("conversation_context_applied")
@@ -320,6 +403,7 @@ def run_demo_query(
         result.timings.get("total_answer_path_seconds", 0.0)
     )
     return {
+        "conversation_id": resolved_conversation_id,
         "question": clean_question,
         "resolved_question": resolution.resolved_question,
         "answer_text": _strip_rendered_chunk_ids(result.answer_text),
@@ -329,7 +413,8 @@ def run_demo_query(
         "index_namespace": health.active_index_namespace,
         "notes": evidence_notes,
         "intent": PROCUREMENT_INTENT,
-        "response_mode": "rag",
+        "response_mode": "agentic_rag" if (result.serve_trace and result.serve_trace.serve_mode == "official_browse") else "rag",
+        "serve_mode": result.serve_trace.serve_mode if result.serve_trace else "indexed_fast",
     }
 
 
@@ -357,12 +442,14 @@ class DemoRequestHandler(BaseHTTPRequestHandler):
 
         question = str(payload.get("question", ""))
         messages = payload.get("messages")
+        conversation_id = str(payload.get("conversation_id", "")).strip() or None
         try:
             response_payload = run_demo_query(
                 self.server.state.settings,
                 question,
                 self.server.state.profile_name,
                 messages=messages,
+                conversation_id=conversation_id,
             )
         except ValueError as exc:
             self._send_json(HTTPStatus.BAD_REQUEST, {"error": "invalid_request", "status_message": str(exc)})

@@ -28,14 +28,13 @@ def test_first_expected_rank_uses_urls() -> None:
     ]
     assert _first_expected_rank(case, chunks) == 2
 
-
-def test_first_expected_rank_uses_doc_prefixes() -> None:
+def test_first_expected_rank_requires_url_match() -> None:
     case = EvalCase(id="T2", question="q", expected_doc_prefixes=["buyers_guide__foo"])
     chunks = [
         _chunk("buyers_guide__bar__section__1", "https://example.com/a"),
         _chunk("buyers_guide__foo__section__2", "https://example.com/b"),
     ]
-    assert _first_expected_rank(case, chunks) == 2
+    assert _first_expected_rank(case, chunks) is None
 
 
 def test_compute_overall_metrics_reports_rank_means_and_mrr() -> None:
@@ -53,16 +52,25 @@ def test_compute_overall_metrics_reports_rank_means_and_mrr() -> None:
             rerank_seconds=0.01,
             packing_seconds=0.01,
             total_case_seconds=0.6,
-            candidate_primary_url_hit=True,
+            raw_shortlist_primary_url_hit=True,
+            selected_primary_url_hit=True,
             packed_primary_url_hit=True,
-            candidate_expected_url_recall=1.0,
+            raw_shortlist_expected_url_recall=1.0,
+            selected_expected_url_recall=1.0,
             packed_expected_url_recall=1.0,
-            candidate_claim_evidence_recall=1.0,
+            raw_shortlist_claim_evidence_recall=1.0,
+            selected_claim_evidence_recall=1.0,
             packed_claim_evidence_recall=1.0,
+            raw_shortlist_chunk_support_recall=0.0,
+            selected_chunk_support_recall=0.0,
+            packed_chunk_support_recall=0.0,
             claim_evidence_annotated=True,
-            first_expected_candidate_rank=1,
+            claim_chunk_support_annotated=False,
+            first_expected_raw_shortlist_rank=1,
+            first_expected_selected_rank=2,
             first_expected_packed_rank=2,
-            top_candidates=[],
+            top_raw_shortlist=[],
+            top_selected=[],
             top_packed=[],
         ),
         RetrievalBenchmarkCaseResult(
@@ -78,16 +86,25 @@ def test_compute_overall_metrics_reports_rank_means_and_mrr() -> None:
             rerank_seconds=0.01,
             packing_seconds=0.02,
             total_case_seconds=0.9,
-            candidate_primary_url_hit=False,
+            raw_shortlist_primary_url_hit=False,
+            selected_primary_url_hit=False,
             packed_primary_url_hit=False,
-            candidate_expected_url_recall=0.0,
+            raw_shortlist_expected_url_recall=0.0,
+            selected_expected_url_recall=0.0,
             packed_expected_url_recall=0.0,
-            candidate_claim_evidence_recall=0.0,
+            raw_shortlist_claim_evidence_recall=0.0,
+            selected_claim_evidence_recall=0.0,
             packed_claim_evidence_recall=0.0,
+            raw_shortlist_chunk_support_recall=0.0,
+            selected_chunk_support_recall=0.0,
+            packed_chunk_support_recall=0.0,
             claim_evidence_annotated=False,
-            first_expected_candidate_rank=None,
+            claim_chunk_support_annotated=False,
+            first_expected_raw_shortlist_rank=None,
+            first_expected_selected_rank=None,
             first_expected_packed_rank=None,
-            top_candidates=[],
+            top_raw_shortlist=[],
+            top_selected=[],
             top_packed=[],
         ),
     ]
@@ -95,10 +112,13 @@ def test_compute_overall_metrics_reports_rank_means_and_mrr() -> None:
     metrics = _compute_overall_metrics(case_results)
 
     assert metrics["case_count"] == 2
-    assert metrics["candidate_first_expected_rank_mean_hit_only"] == 1
+    assert metrics["raw_shortlist_first_expected_rank_mean_hit_only"] == 1
+    assert metrics["selected_first_expected_rank_mean_hit_only"] == 2
     assert metrics["packed_first_expected_rank_mean_hit_only"] == 2
-    assert metrics["candidate_mrr"] == 1.0
+    assert metrics["raw_shortlist_mrr"] == 1.0
+    assert metrics["selected_mrr"] == 0.5
     assert metrics["packed_mrr"] == 0.5
-    assert metrics["candidate_miss_count"] == 1
+    assert metrics["raw_shortlist_miss_count"] == 1
+    assert metrics["selected_miss_count"] == 1
     assert metrics["packed_miss_count"] == 1
     assert metrics["claim_evidence_annotated_case_count"] == 1

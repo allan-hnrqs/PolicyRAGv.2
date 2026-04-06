@@ -42,7 +42,16 @@ def _eval_run(name: str, *, recall: float, forbidden: int, abstain_accuracy: flo
     )
 
 
-def _case_result(case_id: str, *, recall: float, selected_path: str) -> EvalCaseResult:
+def _case_result(
+    case_id: str,
+    *,
+    recall: float,
+    selected_path: str,
+    intervention_applied: bool | None = None,
+) -> EvalCaseResult:
+    raw_response = {"selected_path": selected_path}
+    if intervention_applied is not None:
+        raw_response["intervention_applied"] = intervention_applied
     return EvalCaseResult(
         case=EvalCase(id=case_id, question=f"Question {case_id}"),
         answer=AnswerResult(
@@ -50,7 +59,7 @@ def _case_result(case_id: str, *, recall: float, selected_path: str) -> EvalCase
             answer_text=f"Answer {case_id}",
             strategy_name="baseline",
             model_name="command-a",
-            raw_response={"selected_path": selected_path},
+            raw_response=raw_response,
         ),
         judgment={
             "required_claim_recall": recall,
@@ -345,6 +354,34 @@ def test_compose_conditional_run_allows_zero_selected_cases_when_candidate_never
     )
 
     assert composite.result.run_manifest["composed_from"]["selected_case_ids"] == []
+
+
+def test_compose_conditional_run_uses_explicit_intervention_metadata(tmp_path: Path) -> None:
+    settings = Settings(project_root=tmp_path)
+    settings.ensure_directories()
+    control = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "baseline_run",
+            [_case_result("HR_016", recall=0.5, selected_path="baseline_keep", intervention_applied=False)],
+        ),
+        path=Path("control.json"),
+    )
+    candidate = EvalRunArtifact(
+        result=_eval_run_with_cases(
+            "candidate_run",
+            [_case_result("HR_016", recall=1.0, selected_path="rewrite_structured_contract", intervention_applied=True)],
+        ),
+        path=Path("candidate.json"),
+    )
+
+    composite = compose_conditional_run(
+        settings=settings,
+        control_artifact=control,
+        candidate_artifact=candidate,
+        intervention_paths={"candidate_run"},
+    )
+
+    assert composite.result.run_manifest["composed_from"]["selected_case_ids"] == ["HR_016"]
 
 
 def test_run_conditional_compare_emits_progress(monkeypatch, tmp_path: Path) -> None:

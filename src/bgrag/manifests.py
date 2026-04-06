@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Iterable
 
 from bgrag.config import Settings
+from bgrag.indexing.search_backend import search_backend_url
 from bgrag.profiles.models import RuntimeProfile
 
 RUN_MANIFEST_SCHEMA_VERSION = 2
@@ -144,7 +145,14 @@ def load_index_manifest(settings: Settings, namespace: str | None = None) -> dic
     return payload
 
 
-def build_index_manifest(settings: Settings, profile_name: str, namespace: str, chunk_count: int) -> dict[str, object]:
+def build_index_manifest(
+    settings: Settings,
+    profile_name: str,
+    namespace: str,
+    chunk_count: int,
+    *,
+    search_backend: str = "elasticsearch",
+) -> dict[str, object]:
     collection_manifest = settings.resolve(Path("datasets/corpus/collection_manifest.json"))
     chunks_path = settings.resolve(Path("datasets/corpus/chunks.jsonl"))
     return {
@@ -157,6 +165,8 @@ def build_index_manifest(settings: Settings, profile_name: str, namespace: str, 
         "created_at": datetime.now(timezone.utc).isoformat(),
         "embed_model": settings.cohere_embed_model,
         "elastic_url": settings.elastic_url,
+        "search_backend": search_backend,
+        "search_url": search_backend_url(settings, search_backend),
         "chunk_count": chunk_count,
         "chunks_path": repo_relative_path(settings, chunks_path),
         "chunks_sha256": file_sha256(chunks_path),

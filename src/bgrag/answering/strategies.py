@@ -9,7 +9,6 @@ from time import perf_counter
 
 import cohere
 import cohere.types as ct
-from instructor import from_cohere
 from pydantic import BaseModel, Field
 
 warnings.filterwarnings(
@@ -20,7 +19,7 @@ warnings.filterwarnings(
 
 from bgrag.config import Settings
 from bgrag.registry import answer_strategy_registry
-from bgrag.types import AnswerCitation, AnswerResult, ChunkRecord, EvidenceBundle, SourceFamily
+from bgrag.types import AnswerCitation, AnswerResult, ChunkRecord, EvidenceBundle
 
 
 @dataclass(frozen=True)
@@ -121,6 +120,24 @@ class MissingDetailExactnessVerdictPayload(BaseModel):
     )
 
 
+class AnswerConfidenceSidecarPayload(BaseModel):
+    answer_text: str = Field(default="", description="Final user-facing answer text.")
+    overall_confidence_score: int = Field(
+        default=50,
+        description="Integer confidence score from 0 to 100 for the final answer.",
+    )
+    coverage_confidence: str = Field(default="medium", description="low, medium, or high")
+    exactness_confidence: str = Field(default="medium", description="low, medium, or high")
+    recommended_next_step: str = Field(
+        default="answer",
+        description="answer, retry_retrieve, or browse_official",
+    )
+    reasons: list[str] = Field(
+        default_factory=list,
+        description="Short evidence-grounded reasons for the confidence assessment.",
+    )
+
+
 @dataclass(frozen=True)
 class ContractSlotCoverageVerdict:
     confidence: str
@@ -146,6 +163,61 @@ class AnswerRepairPlan:
     unsupported_or_overstated_points: list[str]
 
 
+def _build_instructor_cohere_client(settings: Settings, *, purpose: str) -> object:
+    raise RuntimeError(
+        "_build_instructor_cohere_client should no longer be used. "
+        "Use the repo-native Cohere JSON helper instead."
+    )
+
+
+def _extract_json_response_payload(
+    settings: Settings,
+    *,
+    purpose: str,
+    prompt: str,
+    response_model: type[BaseModel],
+    max_tokens: int,
+) -> tuple[BaseModel, dict[str, object]]:
+    settings.require_cohere_key(purpose)
+    client = cohere.ClientV2(settings.cohere_api_key)
+    response = client.chat(
+        model=settings.cohere_query_planner_model,
+        messages=[ct.UserChatMessageV2(content=prompt)],
+        response_format=ct.JsonObjectResponseFormatV2(),
+        temperature=0,
+        max_tokens=max_tokens,
+    )
+    raw_text = _extract_text_from_chat_response(response)
+    parsed = _load_json_object_best_effort(raw_text)
+    if parsed is None:
+        raise RuntimeError(f"{purpose} did not return a valid JSON object.")
+    try:
+        payload = response_model.model_validate(parsed)
+    except Exception as exc:
+        raise RuntimeError(f"{purpose} returned JSON that failed schema validation.") from exc
+    raw_payload = {
+        "response_text": raw_text,
+        "parsed_payload": parsed,
+        "citations": _serialize_message_citations(response),
+    }
+    return payload, raw_payload
+
+
+def _annotate_selected_path(
+    raw_response: dict[str, object],
+    *,
+    selected_path: str,
+    path_role: str,
+    intervention_applied: bool | None = None,
+) -> dict[str, object]:
+    annotated = dict(raw_response)
+    annotated["selected_path"] = selected_path
+    annotated["path_role"] = path_role
+    if intervention_applied is not None:
+        annotated["intervention_applied"] = intervention_applied
+    return annotated
+
+
 def _render_evidence_sections(chunks: list[ChunkRecord]) -> str:
     sections: list[str] = []
     for chunk in chunks:
@@ -154,11 +226,8 @@ def _render_evidence_sections(chunks: list[ChunkRecord]) -> str:
     return "\n\n---\n\n".join(sections)
 
 
-def _supporting_source_rule(chunks: list[ChunkRecord]) -> str:
-    supporting_sources_present = any(chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in chunks)
-    if supporting_sources_present:
-        return "If you rely on supporting policy or directive evidence, mention that briefly only where needed."
-    return "Do not mention supporting sources unless they are needed for the answer."
+def _supporting_source_rule() -> str:
+    return "Use supporting policy or directive material only when it is actually needed for the answer."
 
 
 def _shared_grounded_answer_contract(
@@ -204,13 +273,38 @@ def _build_inline_evidence_prompt(question: str, evidence: EvidenceBundle | list
         source_label="the evidence below",
         exactness_label="the evidence",
         citation_instruction="Cite chunk IDs in square brackets after the statements they support.",
-        supporting_source_rule=_supporting_source_rule(chunks),
+        supporting_source_rule=_supporting_source_rule(),
     )
     return (
         f"{contract}\n"
         f"Original question:\n{question}\n\n"
         f"{aspect_block}"
         f"Evidence:\n{joined}"
+    )
+
+
+def _build_inline_confidence_sidecar_prompt(question: str, evidence: EvidenceBundle) -> str:
+    base_prompt = _build_inline_evidence_prompt(question, evidence)
+    return (
+        f"{base_prompt}\n\n"
+        "Return JSON only in this exact shape:\n"
+        '{'
+        '"answer_text":"final grounded answer with chunk citations like [chunk_id]",'
+        '"overall_confidence_score":73,'
+        '"coverage_confidence":"medium",'
+        '"exactness_confidence":"high",'
+        '"recommended_next_step":"answer",'
+        '"reasons":["short evidence-grounded reason"]'
+        '}\n\n'
+        "Rules for the sidecar fields:\n"
+        "1. answer_text must follow the same grounded answer contract above.\n"
+        "2. overall_confidence_score must be an integer from 0 to 100.\n"
+        "3. coverage_confidence and exactness_confidence must each be low, medium, or high.\n"
+        "4. recommended_next_step must be one of answer, retry_retrieve, or browse_official.\n"
+        "5. reasons must contain 1 to 4 short evidence-grounded reasons.\n"
+        "6. Be conservative on exact identifiers, contact details, file names, form numbers, and approval authorities.\n"
+        "7. If the answer is incomplete or risky, lower the confidence and say so in reasons.\n"
+        "8. Do not include markdown fences or any text outside the JSON object."
     )
 
 
@@ -505,11 +599,12 @@ def _build_cited_structured_answer_contract_prompt(question: str, evidence: Evid
 
 
 def _documents_cited_structured_answer_contract_system_prompt(chunks: list[ChunkRecord]) -> str:
+    del chunks
     return (
         "You are preparing an evidence-grounded structured answer contract for a procurement-policy RAG system.\n"
         "Use only the supplied grounded documents.\n"
         "Do not mention chunk IDs in prose. Use document IDs from the grounded documents when citation_doc_ids are required.\n"
-        f"{_supporting_source_rule(chunks)}\n"
+        f"{_supporting_source_rule()}\n"
     )
 
 
@@ -979,15 +1074,12 @@ def _extract_cited_structured_answer_contract(
     question: str,
     evidence: EvidenceBundle,
 ) -> tuple[CitedStructuredAnswerContract, CitedStructuredAnswerContractPayload]:
-    settings.require_cohere_key("Structured contract extraction")
-    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
-    contract_payload = client.create(
+    contract_payload, raw_payload = _extract_json_response_payload(
+        settings,
+        purpose="Structured contract extraction",
+        prompt=_build_cited_structured_answer_contract_prompt(question, evidence),
         response_model=CitedStructuredAnswerContractPayload,
-        messages=[{"role": "user", "content": _build_cited_structured_answer_contract_prompt(question, evidence)}],
-        model=settings.cohere_query_planner_model,
-        temperature=0,
         max_tokens=1400,
-        max_retries=2,
     )
     contract = _normalize_cited_structured_answer_contract_payload(contract_payload)
     return contract, contract_payload
@@ -1027,20 +1119,12 @@ def _extract_answer_rewrite_verdict(
     evidence: EvidenceBundle,
     draft_answer: str,
 ) -> tuple[AnswerRewriteVerdict, AnswerRewriteVerdictPayload]:
-    settings.require_cohere_key("Answer rewrite verification")
-    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
-    payload = client.create(
+    payload, _raw_payload = _extract_json_response_payload(
+        settings,
+        purpose="Answer rewrite verification",
+        prompt=_build_answer_rewrite_verdict_prompt(question, evidence, draft_answer),
         response_model=AnswerRewriteVerdictPayload,
-        messages=[
-            {
-                "role": "user",
-                "content": _build_answer_rewrite_verdict_prompt(question, evidence, draft_answer),
-            }
-        ],
-        model=settings.cohere_query_planner_model,
-        temperature=0,
         max_tokens=260,
-        max_retries=2,
     )
     return _normalize_answer_rewrite_verdict_payload(payload), payload
 
@@ -1052,25 +1136,17 @@ def _extract_contract_aware_answer_rewrite_verdict(
     contract: CitedStructuredAnswerContract,
     draft_answer: str,
 ) -> tuple[AnswerRewriteVerdict, AnswerRewriteVerdictPayload]:
-    settings.require_cohere_key("Contract-aware answer rewrite verification")
-    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
-    payload = client.create(
+    payload, _raw_payload = _extract_json_response_payload(
+        settings,
+        purpose="Contract-aware answer rewrite verification",
+        prompt=_build_contract_aware_answer_rewrite_verdict_prompt(
+            question,
+            evidence,
+            contract,
+            draft_answer,
+        ),
         response_model=AnswerRewriteVerdictPayload,
-        messages=[
-            {
-                "role": "user",
-                "content": _build_contract_aware_answer_rewrite_verdict_prompt(
-                    question,
-                    evidence,
-                    contract,
-                    draft_answer,
-                ),
-            }
-        ],
-        model=settings.cohere_query_planner_model,
-        temperature=0,
         max_tokens=260,
-        max_retries=2,
     )
     return _normalize_answer_rewrite_verdict_payload(payload), payload
 
@@ -1082,25 +1158,17 @@ def _extract_contract_slot_coverage_verdict(
     contract: CitedStructuredAnswerContract,
     draft_answer: str,
 ) -> tuple[ContractSlotCoverageVerdict, ContractSlotCoverageVerdictPayload]:
-    settings.require_cohere_key("Contract slot coverage verification")
-    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
-    payload = client.create(
+    payload, _raw_payload = _extract_json_response_payload(
+        settings,
+        purpose="Contract slot coverage verification",
+        prompt=_build_contract_slot_coverage_verdict_prompt(
+            question,
+            evidence,
+            contract,
+            draft_answer,
+        ),
         response_model=ContractSlotCoverageVerdictPayload,
-        messages=[
-            {
-                "role": "user",
-                "content": _build_contract_slot_coverage_verdict_prompt(
-                    question,
-                    evidence,
-                    contract,
-                    draft_answer,
-                ),
-            }
-        ],
-        model=settings.cohere_query_planner_model,
-        temperature=0,
         max_tokens=260,
-        max_retries=2,
     )
     verdict = _normalize_contract_slot_coverage_verdict_payload(
         payload,
@@ -1117,31 +1185,53 @@ def _extract_missing_detail_exactness_verdict(
     contract: CitedStructuredAnswerContract,
     draft_answer: str,
 ) -> tuple[MissingDetailExactnessVerdict, MissingDetailExactnessVerdictPayload]:
-    settings.require_cohere_key("Missing-detail exactness verification")
-    client = from_cohere(cohere.ClientV2(settings.cohere_api_key))
-    payload = client.create(
+    payload, _raw_payload = _extract_json_response_payload(
+        settings,
+        purpose="Missing-detail exactness verification",
+        prompt=_build_missing_detail_exactness_verdict_prompt(
+            question,
+            evidence,
+            contract,
+            draft_answer,
+        ),
         response_model=MissingDetailExactnessVerdictPayload,
-        messages=[
-            {
-                "role": "user",
-                "content": _build_missing_detail_exactness_verdict_prompt(
-                    question,
-                    evidence,
-                    contract,
-                    draft_answer,
-                ),
-            }
-        ],
-        model=settings.cohere_query_planner_model,
-        temperature=0,
         max_tokens=220,
-        max_retries=2,
     )
     return _normalize_missing_detail_exactness_verdict_payload(payload), payload
 
 
+def _load_json_object_best_effort(raw_text: str) -> dict[str, object] | None:
+    text = raw_text.strip()
+    if not text:
+        return None
+    try:
+        parsed = json.loads(text)
+        return parsed if isinstance(parsed, dict) else None
+    except json.JSONDecodeError:
+        pass
+    if text.startswith("```"):
+        lines = text.splitlines()
+        if len(lines) >= 3 and lines[-1].strip() == "```":
+            inner = "\n".join(lines[1:-1]).strip()
+            try:
+                parsed = json.loads(inner)
+                return parsed if isinstance(parsed, dict) else None
+            except json.JSONDecodeError:
+                pass
+    start = text.find("{")
+    end = text.rfind("}")
+    if start >= 0 and end > start:
+        candidate = text[start : end + 1]
+        try:
+            parsed = json.loads(candidate)
+            return parsed if isinstance(parsed, dict) else None
+        except json.JSONDecodeError:
+            return None
+    return None
+
+
 def _normalize_answer_repair_plan(raw_text: str, *, max_points: int = 6) -> AnswerRepairPlan:
-    parsed = json.loads(raw_text)
+    parsed = _load_json_object_best_effort(raw_text) or {}
     needs_revision = bool(parsed.get("needs_revision", False))
     missing_supported_points = _normalize_string_list(
         parsed.get("missing_supported_points", []),
@@ -1239,24 +1329,6 @@ def _prune_cited_structured_answer_contract(
         abstain_reason=contract.abstain_reason,
         slots={key: contract.slots[key] for key in retained_keys},
     )
-def _looks_like_missing_detail_abstention(answer_text: str) -> bool:
-    normalized = " ".join(answer_text.lower().split())
-    abstain_markers = (
-        "not provided",
-        "not available",
-        "not specified",
-        "not established",
-        "does not establish",
-        "does not explicitly",
-        "does not provide",
-        "not listed",
-        "not in the evidence",
-        "not in the provided evidence",
-        "the evidence does not",
-        "exact email address is not",
-        "exact form number",
-    )
-    return any(marker in normalized for marker in abstain_markers)
 
 
 def _missing_detail_exactness_rewrite_decision(
@@ -1265,36 +1337,15 @@ def _missing_detail_exactness_rewrite_decision(
     baseline_answer_text: str,
     exactness_verdict: MissingDetailExactnessVerdict | None,
 ) -> tuple[bool, str]:
-    baseline_corrupted = _looks_corrupted(baseline_answer_text)
-    baseline_missing_detail_abstains = _looks_like_missing_detail_abstention(baseline_answer_text)
+    del baseline_answer_text
     missing_context_slots = {"closest_supported_context", "page_or_location", "supporting_rule"}
-    missing_missing_detail_context_slots = sorted(missing_slots & missing_context_slots)
-
-    if baseline_corrupted and missing_slots:
-        return True, "missing_detail_corrupted_answer"
-    if (
-        baseline_missing_detail_abstains
-        and exactness_verdict is not None
-        and not exactness_verdict.exact_detail_overstatement_risk
-    ):
-        return False, "baseline_keep"
     if "exact_detail_status" in missing_slots:
         return True, "missing_detail_failed_abstention"
-    if not baseline_missing_detail_abstains and len(missing_missing_detail_context_slots) >= 2:
+    if missing_slots & missing_context_slots:
         return True, "missing_detail_missing_context"
     if exactness_verdict is not None and exactness_verdict.exact_detail_overstatement_risk:
         return True, "missing_detail_exactness_overstatement"
     return False, "baseline_keep"
-
-
-def _looks_corrupted(answer_text: str) -> bool:
-    tokens = [token.strip(".,:;!?()[]{}\"'").lower() for token in answer_text.split()]
-    tokens = [token for token in tokens if token]
-    if len(tokens) < 40:
-        return False
-    unique_ratio = len(set(tokens)) / len(tokens)
-    short_ratio = sum(1 for token in tokens if len(token) <= 2) / len(tokens)
-    return unique_ratio < 0.3 or short_ratio > 0.45
 
 
 def _render_cited_workflow_contract_answer(contract: CitedStructuredAnswerContract) -> str:
@@ -1486,14 +1537,6 @@ def _build_compact_workflow_answer_prompt(
 ) -> str:
     joined = _render_evidence_sections(evidence.packed_chunks)
     checklist = _render_plan_checklist(plan.coverage_points)
-    supporting_sources_present = any(
-        chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in evidence.packed_chunks
-    )
-    supporting_block = ""
-    if supporting_sources_present:
-        supporting_block = (
-            "If you rely on supporting policy or directive evidence, mention that briefly only where needed.\n"
-        )
     return (
         "You are a procurement policy assistant. Answer using only the evidence below.\n"
         "Use the evidence-grounded coverage checklist as mandatory minimum coverage, but keep the answer tightly focused on the user's question.\n"
@@ -1509,7 +1552,7 @@ def _build_compact_workflow_answer_prompt(
         "9. Do not add penalties, disqualification outcomes, consultation steps, escalation paths, or example lists unless the checklist requires them or the user's question explicitly asks for them.\n"
         "10. Cite chunk IDs in square brackets after the statements they support.\n"
         "11. Do not end with an unfinished bullet, heading, or partial sentence.\n"
-        f"12. {supporting_block if supporting_block else 'Do not mention supporting sources unless they are needed for the answer.'}\n\n"
+        "12. Use supporting policy or directive material only when it is actually needed for the answer.\n\n"
         f"Original question:\n{question}\n\n"
         f"Coverage checklist:\n{checklist}\n\n"
         f"Evidence:\n{joined}"
@@ -1737,9 +1780,6 @@ def _build_mode_aware_planned_inline_evidence_prompt(
 ) -> str:
     joined = _render_evidence_sections(evidence.packed_chunks)
     checklist = _render_plan_checklist(plan.coverage_points)
-    supporting_sources_present = any(
-        chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in evidence.packed_chunks
-    )
 
     mode_instructions = {
         "workflow": (
@@ -1774,12 +1814,6 @@ def _build_mode_aware_planned_inline_evidence_prompt(
             f"Abstain reason: {plan.abstain_reason or 'The exact requested detail is not established by the evidence.'}\n\n"
         )
 
-    supporting_block = ""
-    if supporting_sources_present:
-        supporting_block = (
-            "Supporting-source evidence is present. If you rely on any supporting policy or directive evidence, say so explicitly.\n\n"
-        )
-
     return (
         "You are a procurement policy assistant. Answer using only the evidence below.\n"
         "Use the evidence-grounded coverage checklist as mandatory answer coverage.\n"
@@ -1792,7 +1826,7 @@ def _build_mode_aware_planned_inline_evidence_prompt(
         "6. Do not add unsupported policy background.\n"
         "7. Do not stop after the first dispositive point if the checklist contains additional supported points.\n\n"
         f"{mode_instructions}\n"
-        f"{supporting_block}"
+        "Use supporting policy or directive material only when it is actually needed for the answer.\n\n"
         f"{abstain_block}"
         f"Original question:\n{question}\n\n"
         f"Coverage checklist:\n{checklist}\n\n"
@@ -1807,14 +1841,6 @@ def _build_contextual_missing_detail_prompt(
 ) -> str:
     joined = _render_evidence_sections(evidence.packed_chunks)
     checklist = _render_plan_checklist(plan.coverage_points)
-    supporting_sources_present = any(
-        chunk.source_family != SourceFamily.BUYERS_GUIDE for chunk in evidence.packed_chunks
-    )
-    supporting_block = ""
-    if supporting_sources_present:
-        supporting_block = (
-            "Supporting-source evidence is present. If you rely on any supporting policy or directive evidence, say so explicitly.\n\n"
-        )
     opening_rule = (
         "1. Start by stating that the evidence does not establish the exact requested detail.\n"
         if plan.should_abstain
@@ -1836,7 +1862,7 @@ def _build_contextual_missing_detail_prompt(
         "4. Do not present nearby identifiers or related forms as the exact requested detail unless the evidence explicitly ties them to the user's request.\n"
         "5. Cite chunk IDs in square brackets after the statements they support.\n"
         "6. Do not add unsupported policy background.\n\n"
-        f"{supporting_block}"
+        "Use supporting policy or directive material only when it is actually needed for the answer.\n\n"
         f"{abstain_block}"
         f"Original question:\n{question}\n\n"
         f"Coverage checklist:\n{checklist}\n\n"
@@ -2065,13 +2091,14 @@ def _build_response_citations(
 
 
 def _documents_system_prompt(chunks: list[ChunkRecord]) -> str:
+    del chunks
     return _shared_grounded_answer_contract(
         source_label="the supplied grounded documents",
         exactness_label="the grounded documents",
         citation_instruction=(
             "Ground each supported statement in the supplied documents so native document citations can attach; do not mention chunk IDs or invent citation markers in the answer."
         ),
-        supporting_source_rule=_supporting_source_rule(chunks),
+        supporting_source_rule=_supporting_source_rule(),
     )
 
 
@@ -2102,6 +2129,43 @@ def inline_evidence_chat(settings: Settings, question: str, evidence: EvidenceBu
         model_name=settings.cohere_chat_model,
         citations=_build_citations(evidence.packed_chunks),
         evidence_bundle=evidence,
+    )
+
+
+def inline_evidence_chat_with_confidence_sidecar(
+    settings: Settings,
+    question: str,
+    evidence: EvidenceBundle,
+) -> AnswerResult:
+    client = cohere.ClientV2(settings.cohere_api_key)
+    response = client.chat(
+        model=settings.cohere_chat_model,
+        messages=[ct.UserChatMessageV2(content=_build_inline_confidence_sidecar_prompt(question, evidence))],
+        response_format=ct.JsonObjectResponseFormatV2(),
+        temperature=settings.chat_temperature,
+        max_tokens=settings.chat_max_output_tokens,
+    )
+    raw_text = _extract_text_from_chat_response(response)
+    parsed = _load_json_object_best_effort(raw_text)
+    if parsed is None:
+        raise RuntimeError("inline_evidence_chat_with_confidence_sidecar did not return a valid JSON object.")
+    try:
+        payload = AnswerConfidenceSidecarPayload.model_validate(parsed)
+    except Exception as exc:
+        raise RuntimeError(
+            "inline_evidence_chat_with_confidence_sidecar returned JSON that failed schema validation."
+        ) from exc
+    return AnswerResult(
+        question=question,
+        answer_text=payload.answer_text.strip(),
+        strategy_name="inline_evidence_chat_with_confidence_sidecar",
+        model_name=settings.cohere_chat_model,
+        citations=_build_citations(evidence.packed_chunks),
+        evidence_bundle=evidence,
+        raw_response={
+            "confidence_sidecar": payload.model_dump(),
+            "response_text": raw_text,
+        },
     )
 
 
@@ -2319,17 +2383,20 @@ def selective_mode_aware_planned_inline_evidence_chat(
         model_name=settings.cohere_chat_model,
         citations=_build_citations(evidence.packed_chunks),
         evidence_bundle=evidence,
-        raw_response={
-            "answer_plan": {
-                "answer_mode": plan.answer_mode,
-                "should_abstain": plan.should_abstain,
-                "abstain_reason": plan.abstain_reason,
-                "coverage_points": plan.coverage_points,
+        raw_response=_annotate_selected_path(
+            {
+                "answer_plan": {
+                    "answer_mode": plan.answer_mode,
+                    "should_abstain": plan.should_abstain,
+                    "abstain_reason": plan.abstain_reason,
+                    "coverage_points": plan.coverage_points,
+                },
+                "planner_model": settings.cohere_query_planner_model,
+                "answer_model": settings.cohere_chat_model,
             },
-            "selected_path": route.selected_path,
-            "planner_model": settings.cohere_query_planner_model,
-            "answer_model": settings.cohere_chat_model,
-        },
+            selected_path=route.selected_path,
+            path_role="route",
+        ),
         timings={
             "answer_plan_seconds": plan_end - plan_start,
             "final_answer_seconds": answer_end - plan_end,
@@ -2370,17 +2437,20 @@ def selective_mode_aware_compact_inline_evidence_chat(
         model_name=settings.cohere_chat_model,
         citations=_build_citations(evidence.packed_chunks),
         evidence_bundle=evidence,
-        raw_response={
-            "answer_plan": {
-                "answer_mode": plan.answer_mode,
-                "should_abstain": plan.should_abstain,
-                "abstain_reason": plan.abstain_reason,
-                "coverage_points": plan.coverage_points,
+        raw_response=_annotate_selected_path(
+            {
+                "answer_plan": {
+                    "answer_mode": plan.answer_mode,
+                    "should_abstain": plan.should_abstain,
+                    "abstain_reason": plan.abstain_reason,
+                    "coverage_points": plan.coverage_points,
+                },
+                "planner_model": settings.cohere_query_planner_model,
+                "answer_model": settings.cohere_chat_model,
             },
-            "selected_path": route.selected_path,
-            "planner_model": settings.cohere_query_planner_model,
-            "answer_model": settings.cohere_chat_model,
-        },
+            selected_path=route.selected_path,
+            path_role="route",
+        ),
         timings={
             "answer_plan_seconds": plan_end - plan_start,
             "final_answer_seconds": answer_end - plan_end,
@@ -2457,24 +2527,27 @@ def selective_mode_aware_answer_repair_inline_evidence_chat(
         model_name=settings.cohere_chat_model,
         citations=_build_citations(evidence.packed_chunks),
         evidence_bundle=evidence,
-        raw_response={
-            "answer_plan": {
-                "answer_mode": plan.answer_mode,
-                "should_abstain": plan.should_abstain,
-                "abstain_reason": plan.abstain_reason,
-                "coverage_points": plan.coverage_points,
+        raw_response=_annotate_selected_path(
+            {
+                "answer_plan": {
+                    "answer_mode": plan.answer_mode,
+                    "should_abstain": plan.should_abstain,
+                    "abstain_reason": plan.abstain_reason,
+                    "coverage_points": plan.coverage_points,
+                },
+                "repair_plan": {
+                    "needs_revision": repair_plan.needs_revision,
+                    "missing_supported_points": repair_plan.missing_supported_points,
+                    "unsupported_or_overstated_points": repair_plan.unsupported_or_overstated_points,
+                },
+                "planner_model": settings.cohere_query_planner_model,
+                "answer_model": settings.cohere_chat_model,
+                "draft_answer_text": draft_answer,
+                "revised_answer": final_response is not None,
             },
-            "selected_path": route.selected_path,
-            "repair_plan": {
-                "needs_revision": repair_plan.needs_revision,
-                "missing_supported_points": repair_plan.missing_supported_points,
-                "unsupported_or_overstated_points": repair_plan.unsupported_or_overstated_points,
-            },
-            "planner_model": settings.cohere_query_planner_model,
-            "answer_model": settings.cohere_chat_model,
-            "draft_answer_text": draft_answer,
-            "revised_answer": final_response is not None,
-        },
+            selected_path=route.selected_path,
+            path_role="route",
+        ),
         timings={
             "answer_plan_seconds": plan_end - plan_start,
             "draft_answer_seconds": draft_end - plan_end,
@@ -2602,31 +2675,34 @@ def selective_workflow_contract_inline_evidence_chat(
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "answer_plan": {
-                    "answer_mode": plan.answer_mode,
-                    "should_abstain": plan.should_abstain,
-                    "abstain_reason": plan.abstain_reason,
-                    "coverage_points": plan.coverage_points,
-                },
-                "selected_path": "structured_contract_deterministic",
-                "structured_contract": {
-                    "answer_mode": contract.answer_mode,
-                    "should_abstain": contract.should_abstain,
-                    "abstain_reason": contract.abstain_reason,
-                    "slots": {
-                        key: {
-                            "text": value.text,
-                            "citation_chunk_ids": value.citation_chunk_ids,
-                        }
-                        for key, value in contract.slots.items()
+            raw_response=_annotate_selected_path(
+                {
+                    "answer_plan": {
+                        "answer_mode": plan.answer_mode,
+                        "should_abstain": plan.should_abstain,
+                        "abstain_reason": plan.abstain_reason,
+                        "coverage_points": plan.coverage_points,
                     },
+                    "structured_contract": {
+                        "answer_mode": contract.answer_mode,
+                        "should_abstain": contract.should_abstain,
+                        "abstain_reason": contract.abstain_reason,
+                        "slots": {
+                            key: {
+                                "text": value.text,
+                                "citation_chunk_ids": value.citation_chunk_ids,
+                            }
+                            for key, value in contract.slots.items()
+                        },
+                    },
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "render_mode": "deterministic",
                 },
-                "structured_contract_payload": contract_payload.model_dump(),
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "render_mode": "deterministic",
-            },
+                selected_path="structured_contract_deterministic",
+                path_role="route",
+            ),
             timings={
                 "answer_plan_seconds": plan_end - plan_start,
                 "structured_contract_seconds": contract_end - contract_start,
@@ -2643,7 +2719,12 @@ def selective_workflow_contract_inline_evidence_chat(
         "abstain_reason": plan.abstain_reason,
         "coverage_points": plan.coverage_points,
     }
-    raw_response["selected_path"] = "inline_evidence_baseline"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="inline_evidence_baseline",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     timings = dict(baseline_result.timings)
     timings["answer_plan_seconds"] = plan_end - plan_start
     return AnswerResult(
@@ -2700,36 +2781,40 @@ def verifier_gated_structured_contract_inline_evidence_chat(
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "baseline_answer_text": baseline_result.answer_text,
-                "selected_path": "rewrite_structured_contract",
-                "rewrite_verdict": {
-                    "action": verdict.action,
-                    "confidence": verdict.confidence,
-                    "rationale": verdict.rationale,
-                    "omission_risk": verdict.omission_risk,
-                    "exact_detail_abstain_risk": verdict.exact_detail_abstain_risk,
-                    "unsupported_detail_risk": verdict.unsupported_detail_risk,
-                },
-                "rewrite_verdict_payload": verdict_payload.model_dump(),
-                "structured_contract": {
-                    "answer_mode": contract.answer_mode,
-                    "should_abstain": contract.should_abstain,
-                    "abstain_reason": contract.abstain_reason,
-                    "slots": {
-                        key: {
-                            "text": value.text,
-                            "citation_chunk_ids": value.citation_chunk_ids,
-                        }
-                        for key, value in contract.slots.items()
+            raw_response=_annotate_selected_path(
+                {
+                    "baseline_answer_text": baseline_result.answer_text,
+                    "rewrite_verdict": {
+                        "action": verdict.action,
+                        "confidence": verdict.confidence,
+                        "rationale": verdict.rationale,
+                        "omission_risk": verdict.omission_risk,
+                        "exact_detail_abstain_risk": verdict.exact_detail_abstain_risk,
+                        "unsupported_detail_risk": verdict.unsupported_detail_risk,
                     },
+                    "rewrite_verdict_payload": verdict_payload.model_dump(),
+                    "structured_contract": {
+                        "answer_mode": contract.answer_mode,
+                        "should_abstain": contract.should_abstain,
+                        "abstain_reason": contract.abstain_reason,
+                        "slots": {
+                            key: {
+                                "text": value.text,
+                                "citation_chunk_ids": value.citation_chunk_ids,
+                            }
+                            for key, value in contract.slots.items()
+                        },
+                    },
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "baseline_model": baseline_result.model_name,
+                    "render_mode": "deterministic",
                 },
-                "structured_contract_payload": contract_payload.model_dump(),
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "baseline_model": baseline_result.model_name,
-                "render_mode": "deterministic",
-            },
+                selected_path="rewrite_structured_contract",
+                path_role="intervention",
+                intervention_applied=True,
+            ),
             timings={
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "rewrite_verdict_seconds": verifier_end - verifier_start,
@@ -2741,7 +2826,12 @@ def verifier_gated_structured_contract_inline_evidence_chat(
 
     raw_response = dict(baseline_result.raw_response or {})
     raw_response["baseline_answer_text"] = baseline_result.answer_text
-    raw_response["selected_path"] = "baseline_keep"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="baseline_keep",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     raw_response["rewrite_verdict"] = {
         "action": verdict.action,
         "confidence": verdict.confidence,
@@ -2824,25 +2914,29 @@ def contract_aware_verifier_gated_structured_contract_inline_evidence_chat(
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "baseline_answer_text": baseline_result.answer_text,
-                "selected_path": "rewrite_structured_contract",
-                "rewrite_verdict": {
-                    "action": verdict.action,
-                    "confidence": verdict.confidence,
-                    "rationale": verdict.rationale,
-                    "omission_risk": verdict.omission_risk,
-                    "exact_detail_abstain_risk": verdict.exact_detail_abstain_risk,
-                    "unsupported_detail_risk": verdict.unsupported_detail_risk,
+            raw_response=_annotate_selected_path(
+                {
+                    "baseline_answer_text": baseline_result.answer_text,
+                    "rewrite_verdict": {
+                        "action": verdict.action,
+                        "confidence": verdict.confidence,
+                        "rationale": verdict.rationale,
+                        "omission_risk": verdict.omission_risk,
+                        "exact_detail_abstain_risk": verdict.exact_detail_abstain_risk,
+                        "unsupported_detail_risk": verdict.unsupported_detail_risk,
+                    },
+                    "rewrite_verdict_payload": verdict_payload.model_dump(),
+                    "structured_contract": contract_snapshot,
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "baseline_model": baseline_result.model_name,
+                    "render_mode": "deterministic",
                 },
-                "rewrite_verdict_payload": verdict_payload.model_dump(),
-                "structured_contract": contract_snapshot,
-                "structured_contract_payload": contract_payload.model_dump(),
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "baseline_model": baseline_result.model_name,
-                "render_mode": "deterministic",
-            },
+                selected_path="rewrite_structured_contract",
+                path_role="intervention",
+                intervention_applied=True,
+            ),
             timings={
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
@@ -2854,7 +2948,12 @@ def contract_aware_verifier_gated_structured_contract_inline_evidence_chat(
 
     raw_response = dict(baseline_result.raw_response or {})
     raw_response["baseline_answer_text"] = baseline_result.answer_text
-    raw_response["selected_path"] = "baseline_keep"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="baseline_keep",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     raw_response["rewrite_verdict"] = {
         "action": verdict.action,
         "confidence": verdict.confidence,
@@ -2939,24 +3038,28 @@ def contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_ch
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "baseline_answer_text": baseline_result.answer_text,
-                "selected_path": "rewrite_structured_contract",
-                "slot_coverage_verdict": {
-                    "confidence": coverage_verdict.confidence,
-                    "rationale": coverage_verdict.rationale,
-                    "missing_or_weakened_slots": coverage_verdict.missing_or_weakened_slots,
-                    "missing_critical_slots": missing_critical_slots,
-                    "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
+            raw_response=_annotate_selected_path(
+                {
+                    "baseline_answer_text": baseline_result.answer_text,
+                    "slot_coverage_verdict": {
+                        "confidence": coverage_verdict.confidence,
+                        "rationale": coverage_verdict.rationale,
+                        "missing_or_weakened_slots": coverage_verdict.missing_or_weakened_slots,
+                        "missing_critical_slots": missing_critical_slots,
+                        "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
+                    },
+                    "slot_coverage_verdict_payload": coverage_payload.model_dump(),
+                    "structured_contract": contract_snapshot,
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "baseline_model": baseline_result.model_name,
+                    "render_mode": "deterministic",
                 },
-                "slot_coverage_verdict_payload": coverage_payload.model_dump(),
-                "structured_contract": contract_snapshot,
-                "structured_contract_payload": contract_payload.model_dump(),
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "baseline_model": baseline_result.model_name,
-                "render_mode": "deterministic",
-            },
+                selected_path="rewrite_structured_contract",
+                path_role="intervention",
+                intervention_applied=True,
+            ),
             timings={
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
@@ -2968,7 +3071,12 @@ def contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_ch
 
     raw_response = dict(baseline_result.raw_response or {})
     raw_response["baseline_answer_text"] = baseline_result.answer_text
-    raw_response["selected_path"] = "baseline_keep"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="baseline_keep",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     raw_response["slot_coverage_verdict"] = {
         "confidence": coverage_verdict.confidence,
         "rationale": coverage_verdict.rationale,
@@ -3024,26 +3132,20 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
     missing_branch_slots = sorted(missing_slots & branch_slots)
     missing_detail_context_slots = {"closest_supported_context", "page_or_location", "supporting_rule"}
     missing_missing_detail_context_slots = sorted(missing_slots & missing_detail_context_slots)
-    baseline_missing_detail_abstains = _looks_like_missing_detail_abstention(baseline_result.answer_text)
-    baseline_corrupted = _looks_corrupted(baseline_result.answer_text)
 
     should_rewrite = False
     activation_reason = "baseline_keep"
     if contract.answer_mode == "workflow":
-        if len(missing_branch_slots) >= 2:
+        if missing_branch_slots:
             should_rewrite = True
             activation_reason = "workflow_multi_branch_gap"
     elif contract.answer_mode == "missing_detail":
-        if baseline_corrupted and missing_slots:
+        if "exact_detail_status" in missing_slots:
             should_rewrite = True
-            activation_reason = "missing_detail_corrupted_answer"
-        elif not baseline_missing_detail_abstains:
-            if "exact_detail_status" in missing_slots:
-                should_rewrite = True
-                activation_reason = "missing_detail_failed_abstention"
-            elif len(missing_missing_detail_context_slots) >= 2:
-                should_rewrite = True
-                activation_reason = "missing_detail_missing_context"
+            activation_reason = "missing_detail_failed_abstention"
+        elif missing_missing_detail_context_slots:
+            should_rewrite = True
+            activation_reason = "missing_detail_missing_context"
 
     contract_snapshot = {
         "answer_mode": contract.answer_mode,
@@ -3065,8 +3167,6 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
         "missing_branch_slots": missing_branch_slots,
         "missing_missing_detail_context_slots": missing_missing_detail_context_slots,
         "unsupported_detail_risk": coverage_verdict.unsupported_detail_risk,
-        "baseline_missing_detail_abstains": baseline_missing_detail_abstains,
-        "baseline_corrupted": baseline_corrupted,
         "activation_reason": activation_reason,
     }
 
@@ -3081,18 +3181,22 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "baseline_answer_text": baseline_result.answer_text,
-                "selected_path": "rewrite_structured_contract",
-                "slot_coverage_verdict": verdict_snapshot,
-                "slot_coverage_verdict_payload": coverage_payload.model_dump(),
-                "structured_contract": contract_snapshot,
-                "structured_contract_payload": contract_payload.model_dump(),
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "baseline_model": baseline_result.model_name,
-                "render_mode": "deterministic",
-            },
+            raw_response=_annotate_selected_path(
+                {
+                    "baseline_answer_text": baseline_result.answer_text,
+                    "slot_coverage_verdict": verdict_snapshot,
+                    "slot_coverage_verdict_payload": coverage_payload.model_dump(),
+                    "structured_contract": contract_snapshot,
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "baseline_model": baseline_result.model_name,
+                    "render_mode": "deterministic",
+                },
+                selected_path="rewrite_structured_contract",
+                path_role="intervention",
+                intervention_applied=True,
+            ),
             timings={
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
@@ -3104,7 +3208,12 @@ def narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evid
 
     raw_response = dict(baseline_result.raw_response or {})
     raw_response["baseline_answer_text"] = baseline_result.answer_text
-    raw_response["selected_path"] = "baseline_keep"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="baseline_keep",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     raw_response["slot_coverage_verdict"] = verdict_snapshot
     raw_response["slot_coverage_verdict_payload"] = coverage_payload.model_dump()
     raw_response["structured_contract"] = contract_snapshot
@@ -3155,7 +3264,12 @@ def missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_
     if contract.answer_mode != "missing_detail":
         raw_response = dict(baseline_result.raw_response or {})
         raw_response["baseline_answer_text"] = baseline_result.answer_text
-        raw_response["selected_path"] = "baseline_keep"
+        raw_response = _annotate_selected_path(
+            raw_response,
+            selected_path="baseline_keep",
+            path_role="baseline",
+            intervention_applied=False,
+        )
         raw_response["structured_contract"] = contract_snapshot
         raw_response["structured_contract_payload"] = contract_payload.model_dump()
         timings = dict(baseline_result.timings)
@@ -3238,42 +3352,46 @@ def missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_
             model_name=settings.cohere_query_planner_model,
             citations=_collect_contract_citations(render_contract, evidence.packed_chunks),
             evidence_bundle=evidence,
-            raw_response={
-                "baseline_answer_text": baseline_result.answer_text,
-                "selected_path": "rewrite_structured_contract",
-                "slot_coverage_verdict": verdict_snapshot,
-                "slot_coverage_verdict_payload": coverage_payload.model_dump(),
-                "missing_detail_exactness_verdict_payload": exactness_payload.model_dump(),
-                "structured_contract": contract_snapshot,
-                "structured_contract_payload": contract_payload.model_dump(),
-                "slot_selection": {
-                    "selector_keep_slot_keys": [],
-                    "final_keep_slot_keys": [
-                        key
-                        for key in _allowed_contract_slots(contract.answer_mode)
-                        if key in selected_slot_keys and key in contract.slots
-                    ],
-                    "rationale": "exactness_minimal_keep_set",
-                    "required_missing_slots": sorted(missing_slots),
-                    "core_slots": sorted(_core_contract_slot_keys(contract)),
-                },
-                "render_contract": {
-                    "answer_mode": render_contract.answer_mode,
-                    "should_abstain": render_contract.should_abstain,
-                    "abstain_reason": render_contract.abstain_reason,
-                    "slots": {
-                        key: {
-                            "text": value.text,
-                            "citation_chunk_ids": value.citation_chunk_ids,
-                        }
-                        for key, value in render_contract.slots.items()
+            raw_response=_annotate_selected_path(
+                {
+                    "baseline_answer_text": baseline_result.answer_text,
+                    "slot_coverage_verdict": verdict_snapshot,
+                    "slot_coverage_verdict_payload": coverage_payload.model_dump(),
+                    "missing_detail_exactness_verdict_payload": exactness_payload.model_dump(),
+                    "structured_contract": contract_snapshot,
+                    "structured_contract_payload": contract_payload.model_dump(),
+                    "slot_selection": {
+                        "selector_keep_slot_keys": [],
+                        "final_keep_slot_keys": [
+                            key
+                            for key in _allowed_contract_slots(contract.answer_mode)
+                            if key in selected_slot_keys and key in contract.slots
+                        ],
+                        "rationale": "exactness_minimal_keep_set",
+                        "required_missing_slots": sorted(missing_slots),
+                        "core_slots": sorted(_core_contract_slot_keys(contract)),
                     },
+                    "render_contract": {
+                        "answer_mode": render_contract.answer_mode,
+                        "should_abstain": render_contract.should_abstain,
+                        "abstain_reason": render_contract.abstain_reason,
+                        "slots": {
+                            key: {
+                                "text": value.text,
+                                "citation_chunk_ids": value.citation_chunk_ids,
+                            }
+                            for key, value in render_contract.slots.items()
+                        },
+                    },
+                    "planner_framework": "instructor_cohere_pydantic",
+                    "planner_model": settings.cohere_query_planner_model,
+                    "baseline_model": baseline_result.model_name,
+                    "render_mode": "deterministic",
                 },
-                "planner_framework": "instructor_cohere_pydantic",
-                "planner_model": settings.cohere_query_planner_model,
-                "baseline_model": baseline_result.model_name,
-                "render_mode": "deterministic",
-            },
+                selected_path="rewrite_structured_contract",
+                path_role="intervention",
+                intervention_applied=True,
+            ),
             timings={
                 "baseline_answer_seconds": baseline_end - baseline_start,
                 "structured_contract_seconds": contract_end - contract_start,
@@ -3287,7 +3405,12 @@ def missing_detail_exactness_verifier_gated_structured_contract_inline_evidence_
 
     raw_response = dict(baseline_result.raw_response or {})
     raw_response["baseline_answer_text"] = baseline_result.answer_text
-    raw_response["selected_path"] = "baseline_keep"
+    raw_response = _annotate_selected_path(
+        raw_response,
+        selected_path="baseline_keep",
+        path_role="baseline",
+        intervention_applied=False,
+    )
     raw_response["slot_coverage_verdict"] = verdict_snapshot
     raw_response["slot_coverage_verdict_payload"] = coverage_payload.model_dump()
     raw_response["missing_detail_exactness_verdict_payload"] = exactness_payload.model_dump()
@@ -3343,17 +3466,20 @@ def structured_contract_mode_aware_inline_evidence_chat(
         model_name=settings.cohere_chat_model,
         citations=_build_citations(evidence.packed_chunks),
         evidence_bundle=evidence,
-        raw_response={
-            "structured_answer_contract": {
-                "answer_mode": contract.answer_mode,
-                "should_abstain": contract.should_abstain,
-                "abstain_reason": contract.abstain_reason,
-                "slots": contract.slots,
+        raw_response=_annotate_selected_path(
+            {
+                "structured_answer_contract": {
+                    "answer_mode": contract.answer_mode,
+                    "should_abstain": contract.should_abstain,
+                    "abstain_reason": contract.abstain_reason,
+                    "slots": contract.slots,
+                },
+                "planner_model": settings.cohere_query_planner_model,
+                "answer_model": settings.cohere_chat_model,
             },
-            "selected_path": route.selected_path,
-            "planner_model": settings.cohere_query_planner_model,
-            "answer_model": settings.cohere_chat_model,
-        },
+            selected_path=route.selected_path,
+            path_role="route",
+        ),
         timings={
             "answer_plan_seconds": plan_end - plan_start,
             "final_answer_seconds": answer_end - plan_end,
@@ -3363,6 +3489,10 @@ def structured_contract_mode_aware_inline_evidence_chat(
 
 
 answer_strategy_registry.register("inline_evidence_chat", inline_evidence_chat)
+answer_strategy_registry.register(
+    "inline_evidence_chat_with_confidence_sidecar",
+    inline_evidence_chat_with_confidence_sidecar,
+)
 answer_strategy_registry.register("structured_inline_evidence_chat", structured_inline_evidence_chat)
 answer_strategy_registry.register("documents_chat", documents_chat)
 answer_strategy_registry.register("documents_inline_blob_chat", documents_inline_blob_chat)

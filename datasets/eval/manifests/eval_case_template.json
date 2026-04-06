@@ -7,6 +7,8 @@
   ],
   "supporting_urls": [],
   "expected_primary_source_family": "buyers_guide",
+  "restricted_source_valid": true,
+  "open_browse_valid": true,
   "must_include_concepts": [
     "concept one",
     "concept two"
@@ -26,12 +28,16 @@
       "claim": "Atomic required claim one.",
       "evidence_doc_urls": [
         "https://example-primary-page"
+      ],
+      "evidence_chunk_ids": [
+        "buyers_guide__example_page__section__0"
       ]
     }
   ],
   "expect_abstain": null,
   "notes": "Optional authoring note.",
   "tags": [
-    "workflow"
+    "workflow",
+    "synthesis"
   ]
 }

@@ -26,7 +26,6 @@ chunking:
   metadata_enrichers:
     - authority_metadata
     - lineage_metadata
-    - scope_tag_metadata
     - source_topology_metadata
   sliding_window_chars: 1200
   sliding_window_overlap: 200

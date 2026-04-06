@@ -69,9 +69,17 @@ The current strong takeaways are:
 - inline evidence remains the strongest answer transport tested so far
 - the best reversible infrastructure checkpoint so far is the Phase 1 native
   Elasticsearch vector retrieval path
+- the current serious indexed-RAG control is:
+  - `baseline_vector_rerank_shortlist`
+- the current live tiered candidate is:
+  - `baseline_vector_rerank_shortlist_agentic`
 - grounded Cohere `documents` answering was tested seriously and is currently
   documented as an unsuccessful mainline path for this repo's synthesis-heavy
   task
+- bounded shortlist/rerank budget tuning matters, but larger retrieval budgets
+  alone have still not produced a `0.9+` judged-quality lane
+- a richer bounded tool-agent baseline with an indexed retrieval tool still did
+  not outperform the serious indexed RAG lane
 
 The current promoted baseline family uses:
 - Buyer’s Guide-first source topology
@@ -86,6 +94,7 @@ If you need the shortest trustworthy map of the repo, start here:
 - [Current State](docs/current_state.md)
 - [Decision Log](docs/decision_log.md)
 - [Experiment Index](docs/experiment_index.md)
+- [Profile Surface](profiles/README.md)
 - [Product Promotion Contract](docs/product_promotion_contract.md)
 - [Product Serving Benchmark](docs/product_serving_benchmark.md)
 - [Research Log](docs/research-log.md)
@@ -96,6 +105,10 @@ The main recent phase notes are:
 - [Phase 2: rerank experiment](docs/phase2_rerank_note.md)
 - [Phase 3: span-aware packing](docs/phase3_span_packing_note.md)
 - [Phase 4: grounded `documents` answering](docs/phase4_documents_note.md)
+- [Agentic architecture ADR](docs/agentic_architecture_adr.md)
+- [Retrieval backend spike plan](docs/retrieval_backend_spike_plan.md)
+- [Retrieval budget sweep](docs/retrieval_budget_sweep_note.md)
+- [Indexed tool-agent baseline](docs/tool_agent_indexed_note.md)
 
 ## CLI
 
@@ -113,11 +126,26 @@ The intended CLI surface is:
 ## Layout
 
 - `src/bgrag/`: package source
+- `src/bgrag/benchmarks/`: canonical benchmark/comparator import namespace
 - `profiles/`: named runtime profiles
 - `datasets/`: evaluation suites, manifests, and seed inputs
 - `docs/`: architecture, ADRs, and research log
 - `tests/`: unit and integration tests
 - `scripts/`: helper entrypoints for repeatable local workflows
+
+Useful benchmark runners:
+- [`scripts/run_retrieval_budget_sweep.py`](scripts/run_retrieval_budget_sweep.py)
+- [`scripts/run_tool_agent_baseline.py`](scripts/run_tool_agent_baseline.py)
+- [`scripts/run_retrieval_benchmark.py`](scripts/run_retrieval_benchmark.py)
+- [`scripts/run_product_benchmark.py`](scripts/run_product_benchmark.py)
+
+Canonical benchmark module namespace:
+- `bgrag.benchmarks.retrieval`
+- `bgrag.benchmarks.product`
+- `bgrag.benchmarks.answer_replay`
+- `bgrag.benchmarks.official_site`
+- `bgrag.benchmarks.tool_agent`
+- `bgrag.benchmarks.retrieval_budget_sweep`
 
 ## Claude Collaboration
 

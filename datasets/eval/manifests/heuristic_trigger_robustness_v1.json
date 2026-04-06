@@ -1,0 +1,46 @@
+{
+  "manifest_name": "heuristic_trigger_robustness_v1",
+  "purpose": "Paraphrase robustness audit for wording-triggered runtime heuristics.",
+  "source_eval_paths": [
+    "datasets/eval/dev/acceptance49_dev_draft.jsonl",
+    "datasets/eval/holdout/acceptance49_holdout_draft.jsonl"
+  ],
+  "output_eval_path": "datasets/eval/generated/heuristic_trigger_robustness_v1.jsonl",
+  "pairs": [
+    {
+      "source_case_id": "HR_042",
+      "paraphrase_case_id": "HR_042P1",
+      "paraphrase_question": "A company is missing from the public controlled-goods directory. Is that directory enough by itself, and does that page tell me exactly how to reach the office?"
+    },
+    {
+      "source_case_id": "HR_043",
+      "paraphrase_case_id": "HR_043P1",
+      "paraphrase_question": "That rollout page refers to a framework. Which organization maintains it, and what must procurement staff record or send back when they use it?"
+    },
+    {
+      "source_case_id": "HR_044",
+      "paraphrase_case_id": "HR_044P1",
+      "paraphrase_question": "Our plan changed, the risk is higher, and this now looks like a level-3 file. Before award, what has to be redone, what belongs in the request, and what level of approval does that combination lead to?"
+    },
+    {
+      "source_case_id": "HR_045",
+      "paraphrase_case_id": "HR_045P1",
+      "paraphrase_question": "We may reserve this procurement for Indigenous suppliers, it may interact with land claim obligations, and the value could go past $2 million. What checks come first, when is ISC brought in, and what has to happen before and after award?"
+    },
+    {
+      "source_case_id": "HR_046",
+      "paraphrase_case_id": "HR_046P1",
+      "paraphrase_question": "If we use the emergency contracting authorities, which trade-agreement and approval conditions apply, what reporting follows, and when is Treasury Board involvement required?"
+    },
+    {
+      "source_case_id": "HR_048",
+      "paraphrase_case_id": "HR_048P1",
+      "paraphrase_question": "That rollout page is high-level. For this purchase, does it itself create an operating sourcing rule, or do staff still need the implementation materials?"
+    },
+    {
+      "source_case_id": "HR_049",
+      "paraphrase_case_id": "HR_049P1",
+      "paraphrase_question": "I found the overview page on reciprocal procurement. For a live file, where are the step-by-step instructions, and at what point does the supplier statement get submitted?"
+    }
+  ]
+}

@@ -52,6 +52,7 @@ class Settings(BaseSettings):
     ragas_timeout_seconds: int = 480
     ragas_max_workers: int = 4
     elastic_url: str = "http://127.0.0.1:9200"
+    opensearch_url: str = "http://127.0.0.1:9200"
     elastic_request_timeout: int = 60
     chat_temperature: float = 0.0
     top_k: int = 16

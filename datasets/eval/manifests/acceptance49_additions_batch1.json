@@ -1,0 +1,736 @@
+[
+  {
+    "id": "HR_040",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "We want to reduce the solicitation period to 15 days after a prior request for expressions of interest. When is that allowed, what had to be in the earlier notice, and do we still have to give suppliers enough time anyway?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods"
+    ],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "15-day reduction conditions",
+      "earlier NPP content requirements",
+      "reasonable time despite minimums"
+    ],
+    "should_avoid": [
+      "treating the 15-day period as automatic whenever there was a prior notice",
+      "omitting the continuing duty to give suppliers enough time"
+    ],
+    "evaluation_focus": "Workflow branch for shortening a solicitation period after an REOI without dropping the reasonableness constraint.",
+    "required_claims": [
+      "A solicitation following a request for expressions of interest may be reduced to 15 calendar days only if one or more international trade agreements apply and the earlier NPP was published at least 40 days, but no more than 12 months, before the new NPP.",
+      "The earlier NPP must have included a description of the procurement, approximate final dates for offers or requests to participate, a request that businesses express interest, the address for obtaining the procurement documents, and as much of the new NPP information as was available.",
+      "Even when a minimum solicitation-period rule applies, buyers must still give offerors enough time to prepare and submit compliant offers."
+    ],
+    "reference_answer": "You can use the 15-day period only if the file is subject to one or more international trade agreements and the earlier notice was published at least 40 days but no more than 12 months before the new NPP. That earlier notice also had to include the core procurement description, timing, expression-of-interest request, document address, and as much of the new-notice information as was available. Even then, the Buyer’s Guide still says you must give offerors enough time to prepare and submit compliant offers.",
+    "claim_evidence": [
+      {
+        "claim": "A solicitation following a request for expressions of interest may be reduced to 15 calendar days only if one or more international trade agreements apply and the earlier NPP was published at least 40 days, but no more than 12 months, before the new NPP.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest"
+        ],
+        "evidence_chunk_ids": [
+          "0ad3805ea5d7__section__0"
+        ]
+      },
+      {
+        "claim": "The earlier NPP must have included a description of the procurement, approximate final dates for offers or requests to participate, a request that businesses express interest, the address for obtaining the procurement documents, and as much of the new NPP information as was available.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest"
+        ],
+        "evidence_chunk_ids": [
+          "0ad3805ea5d7__section__1"
+        ]
+      },
+      {
+        "claim": "Even when a minimum solicitation-period rule applies, buyers must still give offerors enough time to prepare and submit compliant offers.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods"
+        ],
+        "evidence_chunk_ids": [
+          "64c5768c5f98__section__0",
+          "d985f669617c__section__1"
+        ]
+      }
+    ],
+    "tags": [
+      "workflow_branch",
+      "solicitation_period",
+      "trade_agreement"
+    ]
+  },
+  {
+    "id": "HR_041",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "For a Buyer’s Guide file around CAD 450,000, do we need offer or contract financial security, and does the Guide give a fixed number of days that the letter of credit has to extend beyond award or completion?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "CAD 500,000 threshold",
+      "offer versus contract financial security distinction",
+      "no fixed day count in the page"
+    ],
+    "should_avoid": [
+      "inventing a fixed 30-day, 60-day, or 90-day buffer",
+      "treating offer and contract financial security as the same threshold rule"
+    ],
+    "evaluation_focus": "Exactness-plus-threshold case that should answer the stated rules and abstain on a non-specified numeric buffer.",
+    "required_claims": [
+      "Buyers must not require offer financial security for procurements valued at or below CAD 500,000.",
+      "Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
+      "The page says letters of credit should extend beyond the anticipated risk period and go beyond the expected contract award or completion date, but it does not give a fixed number of days."
+    ],
+    "forbidden_claims": [
+      "The Buyer’s Guide requires a fixed number of days for the letter-of-credit expiry buffer."
+    ],
+    "reference_answer": "At CAD 450,000, the Buyer’s Guide says you must not require offer financial security, and the contract-financial-security rule it states is for construction contracts over CAD 500,000. On the timing point, the Guide says the letter of credit has to extend beyond the anticipated risk period and beyond the expected award or completion date, but it does not give a fixed day count.",
+    "claim_evidence": [
+      {
+        "claim": "Buyers must not require offer financial security for procurements valued at or below CAD 500,000.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security"
+        ],
+        "evidence_chunk_ids": [
+          "02389a824ab6__section__13"
+        ]
+      },
+      {
+        "claim": "Contract financial security must be sought for construction contracts with an estimated value over CAD 500,000.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security"
+        ],
+        "evidence_chunk_ids": [
+          "02389a824ab6__section__21"
+        ]
+      },
+      {
+        "claim": "The page says letters of credit should extend beyond the anticipated risk period and go beyond the expected contract award or completion date, but it does not give a fixed number of days.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security"
+        ],
+        "evidence_chunk_ids": [
+          "02389a824ab6__section__5"
+        ]
+      }
+    ],
+    "tags": [
+      "exactness",
+      "financial_security",
+      "thresholds"
+    ]
+  },
+  {
+    "id": "HR_042",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "A company is not showing up on the controlled-goods public list. Can I rely on that list alone, and does that page give me the exact CGD email address or phone number?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "public list is informational only",
+      "verification required for unlisted persons",
+      "page does not provide exact contact details"
+    ],
+    "should_avoid": [
+      "treating absence from the public list as definitive proof of non-registration",
+      "inventing a specific email address or phone number"
+    ],
+    "evaluation_focus": "Abstention-resistant controlled-goods verification case grounded in what the page does and does not provide.",
+    "required_claims": [
+      "The Controlled Goods Directorate public list is maintained for information purposes only, updated daily, and its accuracy cannot be guaranteed because some registrants may choose not to appear publicly.",
+      "If a person is not listed, the page says to contact the Controlled Goods Directorate by email or telephone for further verification before releasing controlled-goods documents.",
+      "The page does not provide the actual email address or telephone number."
+    ],
+    "forbidden_claims": [
+      "The page provides a specific CGD email address or telephone number."
+    ],
+    "reference_answer": "No. The page says the public list is for information only and is not guaranteed to be complete, so absence from the list is not enough by itself. It says you should contact the Controlled Goods Directorate by email or telephone for further verification, but it does not give the actual contact details on that page.",
+    "claim_evidence": [
+      {
+        "claim": "The Controlled Goods Directorate public list is maintained for information purposes only, updated daily, and its accuracy cannot be guaranteed because some registrants may choose not to appear publicly.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+        ],
+        "evidence_chunk_ids": [
+          "0400a6a8e5ad__section__8"
+        ]
+      },
+      {
+        "claim": "If a person is not listed, the page says to contact the Controlled Goods Directorate by email or telephone for further verification before releasing controlled-goods documents.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+        ],
+        "evidence_chunk_ids": [
+          "0400a6a8e5ad__section__8"
+        ]
+      },
+      {
+        "claim": "The page does not provide the actual email address or telephone number.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+        ],
+        "evidence_chunk_ids": [
+          "0400a6a8e5ad__section__8"
+        ]
+      }
+    ],
+    "tags": [
+      "exactness",
+      "controlled_goods",
+      "abstention_or_missing_detail"
+    ]
+  },
+  {
+    "id": "HR_043",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "The Buy Canadian page mentions a policy framework, but for governance who actually owns that framework and what are contracting authorities required to do with it?",
+    "primary_urls": [
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy"
+    ],
+    "expected_primary_source_family": "tbs_directive",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "PSPC owns framework development and implementation",
+      "contracting authorities must follow framework processes",
+      "document decisions and respond to PSPC data requests"
+    ],
+    "should_avoid": [
+      "treating the Buy Canadian overview page as the governance source",
+      "answering only with generic statements about supporting Canadian industry"
+    ],
+    "evaluation_focus": "Authority-split case where the TBS directive, not the overview page, controls the governance answer.",
+    "required_claims": [
+      "The TBS directive says Public Services and Procurement Canada is responsible for developing, maintaining, and implementing the Buy Canadian Procurement Policy Framework, including issuing associated policy instruments, programs, guidance materials, tools, and training.",
+      "The TBS directive says contracting authorities must adhere to the processes set out in the Buy Canadian Procurement Policy Framework in procurements and document decisions regarding its application.",
+      "The TBS directive says contracting authorities must respond to PSPC requests for data concerning the application of the Buy Canadian Procurement Policy Framework."
+    ],
+    "reference_answer": "For governance, the controlling source is the TBS directive. It says PSPC owns developing, maintaining, and implementing the Buy Canadian Procurement Policy Framework and issuing the related instruments and guidance. It also says contracting authorities have to follow the framework’s processes in procurements, document their decisions about applying it, and respond to PSPC data requests about that application.",
+    "claim_evidence": [
+      {
+        "claim": "The TBS directive says Public Services and Procurement Canada is responsible for developing, maintaining, and implementing the Buy Canadian Procurement Policy Framework, including issuing associated policy instruments, programs, guidance materials, tools, and training.",
+        "evidence_doc_urls": [
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "e311b11cb438__section__459"
+        ]
+      },
+      {
+        "claim": "The TBS directive says contracting authorities must adhere to the processes set out in the Buy Canadian Procurement Policy Framework in procurements and document decisions regarding its application.",
+        "evidence_doc_urls": [
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "e311b11cb438__section__462",
+          "e311b11cb438__section__463"
+        ]
+      },
+      {
+        "claim": "The TBS directive says contracting authorities must respond to PSPC requests for data concerning the application of the Buy Canadian Procurement Policy Framework.",
+        "evidence_doc_urls": [
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "e311b11cb438__section__464"
+        ]
+      }
+    ],
+    "tags": [
+      "authority",
+      "buy_canadian",
+      "tbs_directive"
+    ]
+  },
+  {
+    "id": "HR_044",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "Our strategy changed, the risk has moved up, and the procurement now looks like complexity level 3. Before award, what do we need to redo, what has to go into the contract request, and what authority level does that combination point to?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process"
+    ],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "redo changed assessments",
+      "new PRA and updated complexity package",
+      "medium-high risk level 3 authority"
+    ],
+    "should_avoid": [
+      "assuming the original approval package remains valid after material changes",
+      "giving the wrong delegated authority for medium-high risk at complexity level 3"
+    ],
+    "evaluation_focus": "Cross-page operational synthesis on changed risk and complexity before contract award.",
+    "required_claims": [
+      "When procurement strategy or new information changes the risk or complexity picture, buyers must realign the assessments and may need to perform them again and resubmit the approval document to the appropriate authority level.",
+      "If risks have changed, the contract-request process requires a new Procurement Risk Assessment that identifies the changed risks and explains the reason for the change and the mitigation strategy; if the complexity level changed, the complexity assessment must be updated and a new PRA at the appropriate complexity level must be attached before finalizing the contract request.",
+      "Under the risk-based procurement delegation grid, medium-high risk at complexity level 3 points to Senior director, Regional director, or Director.",
+      "For complexity levels 2 and 3, the Procurement Risk Assessment may require a formal peer review of evaluation results before contract award."
+    ],
+    "reference_answer": "You cannot just rely on the original package. The Buyer’s Guide says changes in strategy or new information can require the complexity and risk assessments to be redone and the approval document resubmitted to the appropriate authority. In the contract request, changed risks require a new PRA with the new risks, reasons, and mitigation, and a changed complexity level requires an updated complexity assessment plus a new PRA at the right level before the request is finalized. For medium-high risk at complexity level 3, the delegation grid points to Senior director, Regional director, or Director. The evaluation page also says a formal peer review may be required for levels 2 and 3 depending on the PRA.",
+    "claim_evidence": [
+      {
+        "claim": "When procurement strategy or new information changes the risk or complexity picture, buyers must realign the assessments and may need to perform them again and resubmit the approval document to the appropriate authority level.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes"
+        ],
+        "evidence_chunk_ids": [
+          "2f2e00fbafd6__section__4"
+        ]
+      },
+      {
+        "claim": "If risks have changed, the contract-request process requires a new Procurement Risk Assessment that identifies the changed risks and explains the reason for the change and the mitigation strategy; if the complexity level changed, the complexity assessment must be updated and a new PRA at the appropriate complexity level must be attached before finalizing the contract request.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request"
+        ],
+        "evidence_chunk_ids": [
+          "fb19bc3ccf83__section__20",
+          "fb19bc3ccf83__section__21"
+        ]
+      },
+      {
+        "claim": "Under the risk-based procurement delegation grid, medium-high risk at complexity level 3 points to Senior director, Regional director, or Director.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation"
+        ],
+        "evidence_chunk_ids": [
+          "fbd03defce2a__section__1"
+        ]
+      },
+      {
+        "claim": "For complexity levels 2 and 3, the Procurement Risk Assessment may require a formal peer review of evaluation results before contract award.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process"
+        ],
+        "evidence_chunk_ids": [
+          "ed022e51c5b3__section__3"
+        ]
+      }
+    ],
+    "tags": [
+      "cross_page_synthesis",
+      "approval_workflow",
+      "risk_and_complexity"
+    ]
+  },
+  {
+    "id": "HR_045",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "We are planning a PSIB set-aside that may touch CLCA obligations and could end up over $2 million. What do we need to check first, when do we notify ISC, and what has to happen before and after award?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "CLCA precedence",
+      "ISC notification before release",
+      "top-two and $2M pre-award audit workflow"
+    ],
+    "should_avoid": [
+      "ignoring the CLCA conflict check",
+      "saying ISC only gets involved after award"
+    ],
+    "evaluation_focus": "Operational Indigenous-procurement sequence spanning CLCA analysis, ISC notification, and pre-award audit handling.",
+    "required_claims": [
+      "For a PSIB set-aside, buyers must assess whether the procurement is subject to Comprehensive Land Claims Agreements and the extent to which the CLCAs conflict with the set-aside, and the CLCAs take precedence.",
+      "Once a PSIB set-aside requisition is received and accepted, ISC must be notified before the solicitation is released, and the notification must include the estimated dollar value, description, solicitation number, solicitation closing date, and buyer contact details.",
+      "Before award, ISC must be informed of the two best-assessed responsive offerors, excluding financial information.",
+      "For requirements valued at $2 million or more, a pre-award audit of the offeror’s certification is mandatory, the top two best-assessed offers must go to ISC for eligibility confirmation, and the contract must not be awarded until ISC confirms the proposed contractor’s eligibility.",
+      "Within 15 working days after contract award, ISC must be advised of the award."
+    ],
+    "reference_answer": "Start by checking whether the procurement is subject to any CLCAs and whether they conflict with the PSIB set-aside, because the CLCAs take precedence. Once the PSIB set-aside requisition is accepted, ISC has to be notified before release with the file basics, including value, description, solicitation number, closing date, and buyer contact details. Before award, ISC has to be told who the two best-assessed responsive offerors are, and if the requirement is worth $2 million or more, the pre-award audit becomes mandatory, the top two offers have to go to ISC for eligibility confirmation, and no award can happen until ISC confirms eligibility. ISC also has to be advised of the award within 15 working days afterward.",
+    "claim_evidence": [
+      {
+        "claim": "For a PSIB set-aside, buyers must assess whether the procurement is subject to Comprehensive Land Claims Agreements and the extent to which the CLCAs conflict with the set-aside, and the CLCAs take precedence.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+        ],
+        "evidence_chunk_ids": [
+          "f2ddac70e712__section__120"
+        ]
+      },
+      {
+        "claim": "Once a PSIB set-aside requisition is received and accepted, ISC must be notified before the solicitation is released, and the notification must include the estimated dollar value, description, solicitation number, solicitation closing date, and buyer contact details.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition"
+        ],
+        "evidence_chunk_ids": [
+          "f2ddac70e712__section__122",
+          "f3372a48e905__section__80",
+          "f3372a48e905__section__81"
+        ]
+      },
+      {
+        "claim": "Before award, ISC must be informed of the two best-assessed responsive offerors, excluding financial information.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+        ],
+        "evidence_chunk_ids": [
+          "f2ddac70e712__section__129"
+        ]
+      },
+      {
+        "claim": "For requirements valued at $2 million or more, a pre-award audit of the offeror’s certification is mandatory, the top two best-assessed offers must go to ISC for eligibility confirmation, and the contract must not be awarded until ISC confirms the proposed contractor’s eligibility.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award"
+        ],
+        "evidence_chunk_ids": [
+          "35664314368a__section__112"
+        ]
+      },
+      {
+        "claim": "Within 15 working days after contract award, ISC must be advised of the award.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition"
+        ],
+        "evidence_chunk_ids": [
+          "f2ddac70e712__section__132",
+          "f3372a48e905__section__83"
+        ]
+      }
+    ],
+    "tags": [
+      "cross_page_synthesis",
+      "indigenous_procurement",
+      "award_sequence"
+    ]
+  },
+  {
+    "id": "HR_046",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "If we want to use PSPC emergency contracting limits, what trade-agreement and approval conditions have to be met, what do we have to report, and when does TB approval or ratification become necessary?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+    ],
+    "supporting_urls": [
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "trade-agreement urgency or exception condition",
+      "60-day reporting",
+      "over-$25M TB approval and ratification"
+    ],
+    "should_avoid": [
+      "treating emergency authority as available without documenting the trade-agreement basis",
+      "omitting the reporting or ratification steps"
+    ],
+    "evaluation_focus": "Emergency-contracting authority case spanning criteria, reporting, and ratification.",
+    "required_claims": [
+      "To use PSPC emergency contracting limits, the extreme-urgency provision of each applicable trade agreement must have been applied or an exception to each applicable trade agreement must apply, the requirement cannot be met through normal contracting procedures due to urgency, and the applicable department must provide the Minister’s or delegated approval to use the special authorities.",
+      "The file documentation must include the explanation of the urgency and rationale for using emergency contracting limits, and the details of the extreme-urgency provision or trade-agreement exception that was applied.",
+      "An emergency contracting report must be submitted to the Treasury Board of Canada Secretariat within 60 calendar days of entering into or amending an emergency contract or contractual arrangement.",
+      "Treasury Board approval is required for any emergency contract or contractual arrangement over $25 million, and if such a contract is entered into, ratification from the Treasury Board must be requested as soon as possible."
+    ],
+    "reference_answer": "Using PSPC’s emergency contracting limits is not just a general urgency call. The Buyer’s Guide says each applicable trade agreement needs an extreme-urgency basis or exception, the requirement has to be impossible to meet through normal procedures because of urgency, and the client department has to approve the use of the special authority. The documentation has to record both the urgency rationale and the trade-agreement basis, and the emergency contracting report has to go to TBS within 60 calendar days. If the emergency contract is over $25 million, TB approval is required, and if the contract has already been entered into, you then have to seek TB ratification as soon as possible.",
+    "claim_evidence": [
+      {
+        "claim": "To use PSPC emergency contracting limits, the extreme-urgency provision of each applicable trade agreement must have been applied or an exception to each applicable trade agreement must apply, the requirement cannot be met through normal contracting procedures due to urgency, and the applicable department must provide the Minister’s or delegated approval to use the special authorities.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+        ],
+        "evidence_chunk_ids": [
+          "28393b4a7a4b__section__27",
+          "28393b4a7a4b__section__28",
+          "28393b4a7a4b__section__29"
+        ]
+      },
+      {
+        "claim": "The file documentation must include the explanation of the urgency and rationale for using emergency contracting limits, and the details of the extreme-urgency provision or trade-agreement exception that was applied.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "28393b4a7a4b__section__31",
+          "28393b4a7a4b__section__32",
+          "e311b11cb438__section__430"
+        ]
+      },
+      {
+        "claim": "An emergency contracting report must be submitted to the Treasury Board of Canada Secretariat within 60 calendar days of entering into or amending an emergency contract or contractual arrangement.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "28393b4a7a4b__section__37",
+          "e311b11cb438__section__429"
+        ]
+      },
+      {
+        "claim": "Treasury Board approval is required for any emergency contract or contractual arrangement over $25 million, and if such a contract is entered into, ratification from the Treasury Board must be requested as soon as possible.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "28393b4a7a4b__section__41",
+          "e311b11cb438__section__347"
+        ]
+      }
+    ],
+    "tags": [
+      "authority",
+      "emergency_contracting",
+      "reporting"
+    ]
+  },
+  {
+    "id": "HR_047",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "A client requirement is subject to CLCA obligations, but the existing mandatory standing offer or supply arrangement does not address them. Do we still have to use the mandatory instrument, and what if we want a non-CLCA instrument for other work?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+    ],
+    "supporting_urls": [],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "mandatory instruments are the default",
+      "CLCA-based exemption",
+      "non-CLCA instrument clause and new-procurement fallback"
+    ],
+    "should_avoid": [
+      "saying the mandatory instrument must always be used even when it does not meet CLCA obligations",
+      "omitting the restriction on deliveries or services in CLCA settlement areas"
+    ],
+    "evaluation_focus": "Method-of-supply exception case for CLCA obligations and mandatory instruments.",
+    "required_claims": [
+      "Mandatory standing offers and supply arrangements must be used before any new procurement is considered.",
+      "If a client requirement is subject to CLCA contracting obligations and no mandatory standing offer or supply arrangement addresses those obligations, the client department is exempt from using the mandatory instrument.",
+      "If no or few resulting contracts or task authorizations will be subject to CLCAs, it may be appropriate to issue an instrument that excludes CLCA provisions, but that instrument must include a clause stating that deliveries and services cannot occur within CLCA settlement areas.",
+      "If a future requirement arises that is subject to CLCAs and no instrument exists that meets the applicable CLCA obligations, the requirement must be handled as a new procurement."
+    ],
+    "reference_answer": "Mandatory standing offers and supply arrangements are still the starting point, but the Buyer’s Guide says the client is exempt from using one if the requirement is subject to CLCA obligations and no mandatory instrument addresses those obligations. If you create an instrument for work that is not expected to fall within those obligations, it has to include a clause saying deliveries and services cannot occur within CLCA settlement areas. And if a future CLCA-affected requirement comes up with no suitable instrument, that requirement has to be handled as a new procurement.",
+    "claim_evidence": [
+      {
+        "claim": "Mandatory standing offers and supply arrangements must be used before any new procurement is considered.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ],
+        "evidence_chunk_ids": [
+          "9e57865c383b__section__5"
+        ]
+      },
+      {
+        "claim": "If a client requirement is subject to CLCA contracting obligations and no mandatory standing offer or supply arrangement addresses those obligations, the client department is exempt from using the mandatory instrument.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ],
+        "evidence_chunk_ids": [
+          "9e57865c383b__section__39"
+        ]
+      },
+      {
+        "claim": "If no or few resulting contracts or task authorizations will be subject to CLCAs, it may be appropriate to issue an instrument that excludes CLCA provisions, but that instrument must include a clause stating that deliveries and services cannot occur within CLCA settlement areas.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ],
+        "evidence_chunk_ids": [
+          "9e57865c383b__section__37"
+        ]
+      },
+      {
+        "claim": "If a future requirement arises that is subject to CLCAs and no instrument exists that meets the applicable CLCA obligations, the requirement must be handled as a new procurement.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply"
+        ],
+        "evidence_chunk_ids": [
+          "9e57865c383b__section__38"
+        ]
+      }
+    ],
+    "tags": [
+      "method_of_supply",
+      "clca",
+      "mandatory_instruments"
+    ]
+  },
+  {
+    "id": "HR_048",
+    "persona": "buyer",
+    "split": "holdout",
+    "question": "The Buy Canadian policy page says the framework is being rolled out. For this procurement, does that page itself tell me to exclude foreign suppliers or apply a specific Canadian-content threshold, or do I still need the actual framework process?",
+    "primary_urls": [
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy"
+    ],
+    "expected_primary_source_family": "tbs_directive",
+    "restricted_source_valid": true,
+    "open_browse_valid": false,
+    "must_include_concepts": [
+      "overview page is rollout context",
+      "framework processes control",
+      "no specific threshold or blanket exclusion in provided docs"
+    ],
+    "should_avoid": [
+      "inventing a Canadian-content threshold",
+      "claiming the overview page itself imposes a blanket foreign-supplier exclusion rule"
+    ],
+    "evaluation_focus": "Restricted-source boundary case for Buy Canadian operative detail versus high-level rollout messaging.",
+    "required_claims": [
+      "The Buy Canadian overview page is framed as high-level rollout context and points readers to implementation materials rather than setting the operational procurement rule itself.",
+      "The TBS directive says PSPC is responsible for developing, maintaining, and implementing the Buy Canadian Procurement Policy Framework, and contracting authorities must follow the processes set out in that framework in procurements.",
+      "The provided documents do not identify a specific Canadian-content threshold or blanket foreign-supplier exclusion rule for this procurement."
+    ],
+    "forbidden_claims": [
+      "The provided documents set a specific Canadian-content threshold for this procurement.",
+      "The provided documents say foreign suppliers must automatically be excluded from this procurement."
+    ],
+    "reference_answer": "No. The overview page is rollout context, not the operational rule by itself. The controlling material in the provided documents is the framework governance in the TBS directive, which says PSPC develops and implements the framework and contracting authorities have to follow its processes. The provided documents do not give a specific Canadian-content threshold or a blanket rule to exclude foreign suppliers for this procurement.",
+    "claim_evidence": [
+      {
+        "claim": "The Buy Canadian overview page is framed as high-level rollout context and points readers to implementation materials rather than setting the operational procurement rule itself.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buy-canadian-policy"
+        ],
+        "evidence_chunk_ids": [
+          "bcef0c07ee1c__section__0",
+          "bcef0c07ee1c__section__3"
+        ]
+      },
+      {
+        "claim": "The TBS directive says PSPC is responsible for developing, maintaining, and implementing the Buy Canadian Procurement Policy Framework, and contracting authorities must follow the processes set out in that framework in procurements.",
+        "evidence_doc_urls": [
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "e311b11cb438__section__459",
+          "e311b11cb438__section__462"
+        ]
+      },
+      {
+        "claim": "The provided documents do not identify a specific Canadian-content threshold or blanket foreign-supplier exclusion rule for this procurement.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buy-canadian-policy",
+          "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+        ],
+        "evidence_chunk_ids": [
+          "bcef0c07ee1c__section__0",
+          "bcef0c07ee1c__section__3",
+          "e311b11cb438__section__459",
+          "e311b11cb438__section__462",
+          "e311b11cb438__section__463",
+          "e311b11cb438__section__464"
+        ]
+      }
+    ],
+    "notes": "Marked open_browse_valid=false because broader live official material could legitimately answer with more operative detail than the restricted snapshot.",
+    "tags": [
+      "source_boundary",
+      "buy_canadian",
+      "restricted_only"
+    ]
+  },
+  {
+    "id": "HR_049",
+    "persona": "buyer",
+    "split": "dev",
+    "question": "I found the high-level reciprocal procurement policy page. For an actual file, where do I go for the operational steps, and when does the reciprocal declaration have to be provided?",
+    "primary_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+    ],
+    "supporting_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/legislation-and-policies/trade-agreements/interim-policy-reciprocal-procurement"
+    ],
+    "expected_primary_source_family": "buyers_guide",
+    "restricted_source_valid": true,
+    "open_browse_valid": true,
+    "must_include_concepts": [
+      "use Buyer’s Guide for operational steps",
+      "mandatory pass-fail declaration",
+      "before-award timing and two-day follow-up rule"
+    ],
+    "should_avoid": [
+      "answering from the high-level policy page alone",
+      "saying the declaration must always be mandatory at offer closing"
+    ],
+    "evaluation_focus": "Operational timing case for reciprocal declarations with an explicit source handoff from the high-level policy page.",
+    "required_claims": [
+      "The high-level reciprocal procurement policy page says to use the Buyer’s Guide for the steps to apply the policy.",
+      "The Buyer’s Guide says the Reciprocal Procurement declaration is mandatory and is assessed on a pass/fail basis.",
+      "The declaration must be provided before contract award; buyers may request it at offer closing but cannot make it mandatory at offer closing, and if it was not submitted at offer closing the supplier must be notified to submit it within two business days."
+    ],
+    "reference_answer": "For the operational workflow, the high-level policy page itself points you to the Buyer’s Guide. The Buyer’s Guide then says the reciprocal declaration is mandatory and assessed on a pass/fail basis, but the timing rule is before contract award, not necessarily at offer closing. Buyers may request it at closing, but if it was not filed then they have to notify the supplier and give them two business days to submit it.",
+    "claim_evidence": [
+      {
+        "claim": "The high-level reciprocal procurement policy page says to use the Buyer’s Guide for the steps to apply the policy.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/legislation-and-policies/trade-agreements/interim-policy-reciprocal-procurement"
+        ],
+        "evidence_chunk_ids": [
+          "a159cebe300c__section__3"
+        ]
+      },
+      {
+        "claim": "The Buyer’s Guide says the Reciprocal Procurement declaration is mandatory and is assessed on a pass/fail basis.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+        ],
+        "evidence_chunk_ids": [
+          "7d518eddf16e__section__40"
+        ]
+      },
+      {
+        "claim": "The declaration must be provided before contract award; buyers may request it at offer closing but cannot make it mandatory at offer closing, and if it was not submitted at offer closing the supplier must be notified to submit it within two business days.",
+        "evidence_doc_urls": [
+          "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement"
+        ],
+        "evidence_chunk_ids": [
+          "7d518eddf16e__section__40"
+        ]
+      }
+    ],
+    "tags": [
+      "navigation_to_detail",
+      "reciprocal_procurement",
+      "timing"
+    ]
+  }
+]

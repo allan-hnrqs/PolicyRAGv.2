@@ -318,14 +318,20 @@ def compose_conditional_run(
         if isinstance((case.answer.raw_response or {}).get("selected_path"), str)
         for selected_path in [(case.answer.raw_response or {}).get("selected_path")]
     }
-    observed_non_baseline_paths = observed_selected_paths - {"baseline_keep", "inline_evidence_baseline"}
-    if not (observed_selected_paths & intervention_paths) and observed_non_baseline_paths:
-        raise RuntimeError(
-            "Configured intervention_paths did not match any candidate selected_path values. "
-            f"Provided: {sorted(intervention_paths)}. "
-            f"Observed non-baseline selected_path values: {sorted(observed_non_baseline_paths)}. "
-            "Use raw selected_path labels such as 'rewrite_structured_contract', not profile names."
-        )
+    explicit_intervention_flags = [
+        raw_response.get("intervention_applied")
+        for case in candidate_artifact.result.cases
+        if isinstance((raw_response := (case.answer.raw_response or {})).get("intervention_applied"), bool)
+    ]
+    if not explicit_intervention_flags:
+        observed_non_baseline_paths = observed_selected_paths - {"baseline_keep", "inline_evidence_baseline"}
+        if not (observed_selected_paths & intervention_paths) and observed_non_baseline_paths:
+            raise RuntimeError(
+                "Configured intervention_paths did not match any candidate selected_path values. "
+                f"Provided: {sorted(intervention_paths)}. "
+                f"Observed non-baseline selected_path values: {sorted(observed_non_baseline_paths)}. "
+                "Use raw selected_path labels such as 'rewrite_structured_contract', not profile names."
+            )
     composite_run = compose_eval_run(
         control_run=control_artifact.result,
         candidate_run=candidate_artifact.result,

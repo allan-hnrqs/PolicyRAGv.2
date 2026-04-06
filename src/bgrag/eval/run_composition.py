@@ -76,12 +76,14 @@ def compute_overall_metrics(case_results: list[EvalCaseResult]) -> dict[str, flo
 def intervention_selected(
     case_result: EvalCaseResult,
     *,
-    intervention_paths: set[str] | None = None,
+    intervention_paths: set[str],
 ) -> bool:
-    allowed = intervention_paths or {"rewrite_structured_contract"}
     raw_response = case_result.answer.raw_response or {}
+    intervention_applied = raw_response.get("intervention_applied")
+    if isinstance(intervention_applied, bool):
+        return intervention_applied
     selected_path = raw_response.get("selected_path")
-    return isinstance(selected_path, str) and selected_path in allowed
+    return isinstance(selected_path, str) and selected_path in intervention_paths
 
 
 def _preserved_baseline_case_drift(control_case: EvalCaseResult, candidate_case: EvalCaseResult) -> dict[str, object]:

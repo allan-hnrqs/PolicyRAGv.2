@@ -41,8 +41,7 @@ def test_compute_retrieval_metrics_scores_expected_urls_and_claim_evidence() -> 
     assert metrics.expected_url_recall == 1.0
     assert metrics.claim_evidence_recall == 0.5
 
-
-def test_compute_retrieval_metrics_uses_prefix_fallback_when_urls_are_absent() -> None:
+def test_compute_retrieval_metrics_requires_url_anchors() -> None:
     case = EvalCase(
         id="T2",
         question="question",
@@ -62,7 +61,7 @@ def test_compute_retrieval_metrics_uses_prefix_fallback_when_urls_are_absent() -
         ],
     )
 
-    assert metrics.primary_url_hit is True
-    assert metrics.supporting_url_hit is True
-    assert metrics.expected_url_recall == 1.0
-    assert metrics.claim_evidence_recall == 0.5
+    assert metrics.primary_url_hit is False
+    assert metrics.supporting_url_hit is False
+    assert metrics.expected_url_recall == 0.0
+    assert metrics.claim_evidence_recall == 0.0

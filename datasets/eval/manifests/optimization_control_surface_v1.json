@@ -1,0 +1,24 @@
+{
+  "name": "optimization_control_surface_v1",
+  "purpose": "Canonical control and comparator surfaces for persistent optimization-loop cycles.",
+  "control_profile": "baseline_vector_rerank_shortlist",
+  "canonical_eval_paths": {
+    "dev": "datasets/eval/dev/parity19_dev.jsonl",
+    "holdout": "datasets/eval/holdout/parity19_holdout.jsonl"
+  },
+  "product_manifest_path": "datasets/eval/manifests/product_serving_benchmark_v1.json",
+  "multiturn_manifest_path": "datasets/eval/manifests/multiturn_benchmark_v1.json",
+  "required_comparators": [
+    "official_site_baseline",
+    "tool_agent_baseline",
+    "open_browse_official_agent"
+  ],
+  "external_comparator_artifacts": {
+    "open_browse_dev": "datasets/runs/agent_browse_benchmark/agent_browse_dev_slice_20260403_030313_036.json",
+    "open_browse_holdout": "datasets/runs/agent_browse_benchmark/agent_browse_holdout_slice_20260403_0315.json"
+  },
+  "notes": [
+    "Use this manifest to keep cycle benchmarking anchored to the same control surfaces.",
+    "The open-browse comparator is still recorded as an external artifact reference rather than a repo-native runner."
+  ]
+}

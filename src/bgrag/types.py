@@ -104,11 +104,59 @@ class RetrievalCandidate(BaseModel):
 
 class EvidenceBundle(BaseModel):
     query: str
+    raw_shortlist: list[RetrievalCandidate] = Field(default_factory=list)
     candidates: list[RetrievalCandidate] = Field(default_factory=list)
+    selected_candidates: list[RetrievalCandidate] = Field(default_factory=list)
     packed_chunks: list[ChunkRecord] = Field(default_factory=list)
     retrieval_queries: list[str] = Field(default_factory=list)
     notes: list[str] = Field(default_factory=list)
     timings: dict[str, float] = Field(default_factory=dict)
+    retrieval_assessment: RetrievalAssessment | None = None
+    tool_trace: list[ToolTraceStep] = Field(default_factory=list)
+
+
+class ConversationTurn(BaseModel):
+    role: Literal["user", "assistant"]
+    content: str
+
+
+class ConversationState(BaseModel):
+    conversation_id: str
+    recent_turns: list[ConversationTurn] = Field(default_factory=list)
+    active_entities: list[str] = Field(default_factory=list)
+    comparison_axes: list[str] = Field(default_factory=list)
+    resolved_query: str | None = None
+
+
+class RetrievalAssessment(BaseModel):
+    sufficient_for_answer: bool
+    coverage_risk: Literal["low", "medium", "high"]
+    exactness_risk: Literal["low", "medium", "high"]
+    support_conflict: bool = False
+    recommended_next_step: Literal["answer", "retry_retrieve", "browse_official"]
+    reasons: list[str] = Field(default_factory=list)
+    raw_response: dict[str, object] | None = None
+
+
+class ToolTraceStep(BaseModel):
+    tool: str
+    query_or_url: str | None = None
+    elapsed_seconds: float | None = None
+    result_count: int | None = None
+    evidence_origin: str | None = None
+    stop_reason: str | None = None
+
+
+class ServeTrace(BaseModel):
+    serve_mode: Literal["indexed_fast", "indexed_retry", "official_browse"]
+    escalation_decision: str | None = None
+    retrieval_assessment: RetrievalAssessment | None = None
+    retry_retrieval_assessment: RetrievalAssessment | None = None
+    retry_policy: dict[str, object] | None = None
+    conversation_state: ConversationState | None = None
+    timings: dict[str, float] = Field(default_factory=dict)
+    retrieval_stats: dict[str, float | int | bool | str | None] = Field(default_factory=dict)
+    notes: list[str] = Field(default_factory=list)
 
 
 class AnswerCitation(BaseModel):
@@ -128,12 +176,14 @@ class AnswerResult(BaseModel):
     timings: dict[str, float] = Field(default_factory=dict)
     abstained: bool = False
     failure_reason: str | None = None
+    serve_trace: ServeTrace | None = None
 
 
 class EvalClaimEvidence(BaseModel):
     claim: str
     evidence_doc_urls: list[str] = Field(default_factory=list)
     evidence_doc_prefixes: list[str] = Field(default_factory=list)
+    evidence_chunk_ids: list[str] = Field(default_factory=list)
 
 
 class EvalCase(BaseModel):
@@ -158,6 +208,8 @@ class EvalCase(BaseModel):
     claim_evidence: list[EvalClaimEvidence] = Field(default_factory=list)
     notes: str | None = None
     tags: list[str] = Field(default_factory=list)
+    restricted_source_valid: bool | None = None
+    open_browse_valid: bool | None = None
 
 
 class EvalCaseResult(BaseModel):

@@ -28,5 +28,4 @@ Thumbs.db
 scripts/serve_frontend_demo.mjs
 scripts/generate_repo_class_debrief_deck.ps1
 scripts/generate_repo_implementation_deck.ps1
-.claude/session_local/
-.claude/codex-peer-session-id.txt
+.claude/

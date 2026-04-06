@@ -1,0 +1,34 @@
+{
+  "name": "conversational_review_surface_v1",
+  "purpose": "Manual conversational-naturalness review surface for later quality loops. This is not an automatic promotion benchmark.",
+  "sources": [
+    {
+      "manifest_path": "datasets/eval/manifests/product_serving_benchmark_v1.json",
+      "case_ids": [
+        "CHAT_001",
+        "CHAT_002",
+        "SO_002",
+        "HR_002",
+        "HR_019"
+      ]
+    },
+    {
+      "manifest_path": "datasets/eval/manifests/multiturn_benchmark_v1.json",
+      "case_ids": [
+        "MT_001",
+        "MT_002",
+        "MT_003",
+        "MT_004"
+      ]
+    }
+  ],
+  "review_focus": [
+    "follow_up_resolution",
+    "comparison_axis_carryover",
+    "implicit_reference_resolution",
+    "natural_wording_without_retrieval_leakage"
+  ],
+  "notes": [
+    "Use this surface only after the quality path is stable enough that conversational polish will not hide coverage regressions."
+  ]
+}

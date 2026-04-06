@@ -14,6 +14,7 @@ from bgrag.answering.strategies import (
     StructuredAnswerSlotPayload,
     StructuredAnswerSlotValue,
     _build_answer_plan_prompt,
+    _build_inline_confidence_sidecar_prompt,
     _build_cited_structured_answer_contract_prompt,
     _build_compact_mode_aware_answer_plan_prompt,
     _build_compact_missing_detail_answer_prompt,
@@ -45,13 +46,12 @@ from bgrag.answering.strategies import (
     _normalize_cited_structured_answer_contract_payload,
     _normalize_mode_aware_answer_plan,
     _normalize_structured_answer_contract,
-    _looks_corrupted,
-    _looks_like_missing_detail_abstention,
     _select_compact_mode_aware_answer_route,
     _select_mode_aware_answer_route,
     _select_structured_contract_answer_route,
     documents_chat,
     documents_inline_blob_chat,
+    inline_evidence_chat_with_confidence_sidecar,
     structured_contract_deterministic_documents_chat,
 )
 from bgrag.config import Settings
@@ -121,6 +121,81 @@ def test_inline_prompt_supports_plain_chunk_list_for_direct_rule_route() -> None
     assert "Retrieved aspects to cover when supported:" not in prompt
     assert "Original question:\nquestion" in prompt
     assert "Evidence:\n[c1]" in prompt
+
+
+def test_inline_confidence_sidecar_prompt_includes_json_schema_and_score_rules() -> None:
+    evidence = EvidenceBundle(
+        query="original question",
+        packed_chunks=[_chunk("c1")],
+        retrieval_queries=["original question", "branch condition"],
+    )
+
+    prompt = _build_inline_confidence_sidecar_prompt("original question", evidence)
+
+    assert '"answer_text":"final grounded answer with chunk citations like [chunk_id]"' in prompt
+    assert '"overall_confidence_score":73' in prompt
+    assert '"recommended_next_step":"answer"' in prompt
+    assert "overall_confidence_score must be an integer from 0 to 100" in prompt
+    assert "Do not include markdown fences" in prompt
+
+
+def test_inline_confidence_sidecar_strategy_parses_answer_and_sidecar(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    class FakeClient:
+        def __init__(self, api_key: str) -> None:
+            captured["api_key"] = api_key
+
+        def chat(self, **kwargs):
+            captured["kwargs"] = kwargs
+            return SimpleNamespace(
+                message=SimpleNamespace(
+                    content=[
+                        SimpleNamespace(
+                            text=(
+                                '{"answer_text":"Use the rule directly. [c1]",'
+                                '"overall_confidence_score":82,'
+                                '"coverage_confidence":"high",'
+                                '"exactness_confidence":"medium",'
+                                '"recommended_next_step":"answer",'
+                                '"reasons":["The bundle directly states the rule."]}'
+                            )
+                        )
+                    ]
+                )
+            )
+
+    monkeypatch.setattr(strategies.cohere, "ClientV2", FakeClient)
+
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    evidence = EvidenceBundle(query="q", packed_chunks=[_chunk("c1")], retrieval_queries=["What is the rule?"])
+
+    result = inline_evidence_chat_with_confidence_sidecar(settings, "What is the rule?", evidence)
+
+    assert result.answer_text == "Use the rule directly. [c1]"
+    assert result.strategy_name == "inline_evidence_chat_with_confidence_sidecar"
+    assert result.raw_response == {
+        "confidence_sidecar": {
+            "answer_text": "Use the rule directly. [c1]",
+            "overall_confidence_score": 82,
+            "coverage_confidence": "high",
+            "exactness_confidence": "medium",
+            "recommended_next_step": "answer",
+            "reasons": ["The bundle directly states the rule."],
+        },
+        "response_text": (
+            '{"answer_text":"Use the rule directly. [c1]",'
+            '"overall_confidence_score":82,'
+            '"coverage_confidence":"high",'
+            '"exactness_confidence":"medium",'
+            '"recommended_next_step":"answer",'
+            '"reasons":["The bundle directly states the rule."]}'
+        ),
+    }
+    kwargs = captured["kwargs"]
+    assert kwargs["response_format"].type == "json_object"
+    assert kwargs["messages"][0].role == "user"
+    assert '"overall_confidence_score":73' in kwargs["messages"][0].content
 
 
 def test_documents_chat_uses_structured_documents_and_response_citations(monkeypatch) -> None:
@@ -634,6 +709,19 @@ def test_normalize_answer_repair_plan_sets_revision_when_points_exist() -> None:
     assert repair_plan.unsupported_or_overstated_points == []
 
 
+def test_normalize_answer_repair_plan_falls_back_safely_on_malformed_json() -> None:
+    repair_plan = _normalize_answer_repair_plan(
+        """
+        ```json
+        {"needs_revision": true, "missing_supported_points": ["Add the timing rule."]
+        """
+    )
+
+    assert repair_plan.needs_revision is False
+    assert repair_plan.missing_supported_points == []
+    assert repair_plan.unsupported_or_overstated_points == []
+
+
 def test_answer_rewrite_verdict_prompt_demands_conservative_post_draft_decision() -> None:
     evidence = EvidenceBundle(
         query="question",
@@ -844,13 +932,6 @@ def test_minimal_missing_detail_exactness_keep_set_prefers_exact_status_context_
     )
 
     assert keep == {"exact_detail_status", "closest_supported_context", "page_or_location"}
-def test_looks_like_missing_detail_abstention_detects_generic_abstain_language() -> None:
-    assert _looks_like_missing_detail_abstention(
-        "The evidence does not explicitly provide the exact email address."
-    )
-    assert not _looks_like_missing_detail_abstention(
-        "Use the Schedule 3 template and send the notice to the listed group."
-    )
 
 
 def test_missing_detail_exactness_rewrite_decision_fires_for_missing_exact_detail_status() -> None:
@@ -911,16 +992,8 @@ def test_missing_detail_exactness_rewrite_decision_keeps_clean_abstention_when_e
         exactness_verdict=exactness_verdict,
     )
 
-    assert should_rewrite is False
-    assert activation_reason == "baseline_keep"
-
-
-def test_looks_corrupted_detects_repetitive_gibberish() -> None:
-    corrupted = " ".join(["I", "ID", "I", "I", "ID", "I"] * 20)
-    healthy = "This answer says the exact contact detail is not available and points the user to the relevant directory."
-
-    assert _looks_corrupted(corrupted)
-    assert not _looks_corrupted(healthy)
+    assert should_rewrite is True
+    assert activation_reason == "missing_detail_failed_abstention"
 
 
 def test_mode_aware_prompt_includes_abstain_and_supporting_source_instructions() -> None:
@@ -956,7 +1029,7 @@ def test_mode_aware_prompt_includes_abstain_and_supporting_source_instructions()
     prompt = _build_mode_aware_planned_inline_evidence_prompt("original question", evidence, plan)
 
     assert "The plan determined that the answer should abstain" in prompt
-    assert "Supporting-source evidence is present." in prompt
+    assert "Use supporting policy or directive material only when it is actually needed for the answer." in prompt
     assert "Do not infer or invent exact emails, direct contacts, form numbers, file names" in prompt
 
 

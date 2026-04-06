@@ -21,6 +21,47 @@ references over secondary summaries.
 - If a useful source requires signup or manual access, record the exact manual
   task needed rather than silently replacing it with a weaker source.
 
+## 2026-04-04
+
+### Retrieval backend alternatives
+
+- OpenSearch is the closest backend alternative to the current repo shape.
+  Official docs show a native `hybrid` query plus search-pipeline-based score
+  combination and rescoring:
+  - https://docs.opensearch.org/latest/query-dsl/compound/hybrid/
+  Repo inference:
+  - this is the cleanest first spike if the goal is to stay close to the
+    current Elasticsearch-first architecture while testing a different hybrid
+    execution surface.
+- Qdrant has a stronger native story for multi-stage retrieval experiments than
+  the current repo core. Official docs show hybrid queries with `prefetch`,
+  `rrf`, and `dbsf`:
+  - https://qdrant.tech/documentation/search/hybrid-queries/
+  Repo inference:
+  - this is the strongest second backend spike if we specifically want to test
+    whether a backend with cleaner native multi-stage retrieval support can
+    outperform the current hand-rolled shortlist logic.
+- Weaviate has credible hybrid and rerank support, but it is a broader
+  platform choice than the first two options. Official docs show:
+  - hybrid search:
+    - https://docs.weaviate.io/weaviate/search/hybrid
+  - rerank:
+    - https://docs.weaviate.io/weaviate/search/rerank
+  Repo inference:
+  - it is a real option, but not the most disciplined first spike for this
+    repo.
+- Vespa has the most powerful ranking surface in this set, but also the
+  highest migration cost. Official docs show:
+  - query API:
+    - https://docs.vespa.ai/en/querying/query-api.html
+  - phased ranking:
+    - https://docs.vespa.ai/en/ranking/phased-ranking.html
+  The phased-ranking docs explicitly describe `global-phase` reranking and
+  cross-hit normalization.
+  Repo inference:
+  - Vespa is only worth a bounded spike if ranking expressiveness itself
+    becomes the main product differentiator.
+
 ## 2026-03-22
 
 ### Cohere / architecture findings

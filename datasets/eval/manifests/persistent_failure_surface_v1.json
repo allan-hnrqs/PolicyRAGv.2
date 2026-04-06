@@ -1,0 +1,32 @@
+{
+  "name": "persistent_failure_surface_v1",
+  "purpose": "Persistent hard-failure surface extracted from the current serious control. Use for small diagnostic cycles only; do not promote from this slice alone.",
+  "source_eval_paths": {
+    "dev": "datasets/eval/dev/parity19_dev.jsonl",
+    "holdout": "datasets/eval/holdout/parity19_holdout.jsonl"
+  },
+  "target_eval_paths": {
+    "dev": "datasets/eval/generated/persistent_failure_surface_dev_v1.jsonl",
+    "holdout": "datasets/eval/generated/persistent_failure_surface_holdout_v1.jsonl"
+  },
+  "source_artifacts": [
+    "datasets/runs/baseline_vector_rerank_shortlist_20260404_060154_827976_eefe.json",
+    "datasets/runs/baseline_vector_rerank_shortlist_20260404_060155_043203_c793.json"
+  ],
+  "dev_case_ids": [
+    "HR_003",
+    "HR_005",
+    "HR_015"
+  ],
+  "holdout_case_ids": [
+    "HR_002",
+    "HR_006",
+    "HR_011",
+    "HR_016"
+  ],
+  "notes": [
+    "HR_011 is the clearest retrieval/page-discovery miss in the current control.",
+    "HR_006 and HR_016 retain support in packed evidence but still underperform in final answer coverage or exactness handling.",
+    "This surface should be revised only when the control profile and current failure pattern change materially."
+  ]
+}

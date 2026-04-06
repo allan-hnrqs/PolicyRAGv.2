@@ -12,29 +12,16 @@ import httpx
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 
+from bgrag.source_catalog import SOURCE_CATALOG
 from bgrag.types import SourceDocument
 
-BUYERS_GUIDE_ROOT = "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide"
-BUY_CANADIAN_ROOT = "https://canadabuys.canada.ca/en/buy-canadian-policy"
-BUY_CANADIAN_POLICY_PREFIX = (
-    "https://canadabuys.canada.ca/en/how-procurement-works/"
-    "policies-and-guidelines/policies-directives-and-regulations"
-)
-TBS_DIRECTIVE_HTML = "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
-
-DEFAULT_SEED_URLS = [
-    BUYERS_GUIDE_ROOT,
-    BUY_CANADIAN_ROOT,
-    TBS_DIRECTIVE_HTML,
-]
-
-TBS_HOSTS = {
-    "www.tbs-sct.canada.ca",
-    "tbs-sct.canada.ca",
-    "www.tbs-sct.gc.ca",
-    "tbs-sct.gc.ca",
-}
-CANONICAL_TBS_HOST = "www.tbs-sct.canada.ca"
+BUYERS_GUIDE_ROOT = SOURCE_CATALOG.buyers_guide_root
+BUY_CANADIAN_ROOT = SOURCE_CATALOG.buy_canadian_root
+BUY_CANADIAN_POLICY_PREFIX = SOURCE_CATALOG.buy_canadian_policy_prefix
+TBS_DIRECTIVE_HTML = SOURCE_CATALOG.tbs_directive_html
+DEFAULT_SEED_URLS = SOURCE_CATALOG.default_seed_urls
+TBS_HOSTS = set(SOURCE_CATALOG.tbs_hosts)
+CANONICAL_TBS_HOST = SOURCE_CATALOG.canonical_tbs_host
 
 BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -43,57 +30,34 @@ BROWSER_UA = (
 
 
 def tbs_query_to_canonical(query_items: list[tuple[str, str]]) -> str:
-    query = dict(query_items)
-    if query.get("id") != "32692":
-        return ""
-    section = (query.get("section") or "").lower()
-    if section in {"", "html"}:
-        return urlencode([("id", "32692")])
-    kept: list[tuple[str, str]] = [("id", "32692"), ("section", section)]
-    p_value = query.get("p")
-    if p_value:
-        kept.append(("p", p_value))
-    return urlencode(kept)
+    return SOURCE_CATALOG.canonical_tbs_query(query_items)
 
 
 def canonicalize_url(url: str) -> str:
     parsed = urlsplit(url.strip())
     scheme = parsed.scheme or "https"
     host = parsed.netloc.lower()
-    if host in TBS_HOSTS:
-        host = CANONICAL_TBS_HOST
+    if host in SOURCE_CATALOG.tbs_hosts:
+        host = SOURCE_CATALOG.canonical_tbs_host
     path = parsed.path or "/"
     if path != "/":
         path = path.rstrip("/")
     if host == "canadabuys.canada.ca" and path.endswith("-0"):
         path = path[:-2]
     query = ""
-    if host == CANONICAL_TBS_HOST and path == "/pol/doc-eng.aspx":
+    if host == SOURCE_CATALOG.canonical_tbs_host and path == SOURCE_CATALOG.tbs_document_path:
         query = tbs_query_to_canonical(parse_qsl(parsed.query, keep_blank_values=True))
     return urlunsplit((scheme, host, path, query, ""))
 
 
 def in_scope_url(url: str) -> bool:
     canonical = canonicalize_url(url)
-    parsed = urlsplit(canonical)
-    if parsed.netloc == "canadabuys.canada.ca":
-        return (
-            parsed.path == "/en/buy-canadian-policy"
-            or parsed.path.startswith("/en/buyer-s-portal/buyer-s-guide")
-            or canonical.startswith(BUY_CANADIAN_POLICY_PREFIX)
-        )
-    if parsed.netloc == CANONICAL_TBS_HOST:
-        return parsed.path == "/pol/doc-eng.aspx" and "id=32692" in parsed.query
-    return False
+    return SOURCE_CATALOG.is_in_scope_canonical_url(canonical)
 
 
 def should_follow_links(url: str) -> bool:
     canonical = canonicalize_url(url)
-    if canonical.startswith(BUYERS_GUIDE_ROOT):
-        return True
-    if canonical == BUY_CANADIAN_ROOT or canonical.startswith(BUY_CANADIAN_POLICY_PREFIX):
-        return True
-    return False
+    return SOURCE_CATALOG.should_follow_canonical_url(canonical)
 
 
 def raw_snapshot_stem(url: str) -> str:

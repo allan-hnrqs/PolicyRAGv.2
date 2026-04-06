@@ -6,12 +6,15 @@ from pydantic import BaseModel, Field
 
 
 class RetrievalProfile(BaseModel):
+    search_backend: str = "elasticsearch"
     source_topology: str = "bg_primary_support_fallback"
     retrieval_mode: str = "hybrid_es_rerank"
+    hybrid_fusion_mode: str = "weighted_alpha"
     dense_retrieval_backend: str = "local_embedding_store"
     top_k: int = 16
     candidate_k: int = 48
     retrieval_alpha: float = 0.7
+    hybrid_rrf_k: int = 60
     rerank_top_n: int = 16
     es_knn_num_candidates: int = 120
     enable_mmr_diversity: bool = False
@@ -51,6 +54,19 @@ class RetrievalProfile(BaseModel):
     document_seed_intro_chunks: int = 3
     document_seed_candidate_k: int = 12
     document_seed_max_chars: int = 1400
+    enable_retrieval_assessment: bool = False
+    enable_hybrid_retry_trigger: bool = False
+    assessment_max_chunks: int = 8
+    retry_candidate_k: int = 64
+    retry_rerank_top_n: int = 64
+    retry_per_query_candidate_k: int = 32
+    enable_official_site_escalation: bool = False
+    escalation_max_steps: int = 5
+    escalation_max_live_pages: int = 6
+    escalation_max_live_chunks: int = 24
+    escalation_max_rerank_chunks: int = 12
+    escalation_max_indexed_chunks: int = 16
+    escalation_max_rerank_calls: int = 2
 
 
 class ChunkingProfile(BaseModel):
@@ -59,7 +75,6 @@ class ChunkingProfile(BaseModel):
         default_factory=lambda: [
             "authority_metadata",
             "lineage_metadata",
-            "scope_tag_metadata",
             "source_topology_metadata",
         ]
     )
@@ -73,6 +88,7 @@ class AnswerProfile(BaseModel):
     max_doc_chars: int = 1600
     model_name: str = "command-a-03-2025"
     planner_model_name: str | None = None
+    assessment_model_name: str | None = None
     evidence_unit: str = "chunk"
     span_max_chars: int = 320
     span_candidate_chunks: int = 8

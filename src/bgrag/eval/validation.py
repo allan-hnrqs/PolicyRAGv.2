@@ -103,7 +103,7 @@ def load_and_validate_eval_cases(path: Path) -> tuple[list[EvalCase], list[EvalV
                         f"{path}:{line_number}: case {case.id} has claim_evidence entry with blank claim text",
                     )
                 )
-            if not item.evidence_doc_urls and not item.evidence_doc_prefixes:
+            if not item.evidence_doc_urls and not item.evidence_doc_prefixes and not item.evidence_chunk_ids:
                 issues.append(
                     EvalValidationIssue(
                         "error",
@@ -130,6 +130,22 @@ def load_and_validate_eval_cases(path: Path) -> tuple[list[EvalCase], list[EvalV
                     ),
                 )
             )
+
+        if inferred_split == "final":
+            if case.restricted_source_valid is None:
+                issues.append(
+                    EvalValidationIssue(
+                        "warning",
+                        f"{path}:{line_number}: case {case.id} is missing restricted_source_valid on acceptance surface",
+                    )
+                )
+            if case.open_browse_valid is None:
+                issues.append(
+                    EvalValidationIssue(
+                        "warning",
+                        f"{path}:{line_number}: case {case.id} is missing open_browse_valid on acceptance surface",
+                    )
+                )
 
         cases.append(case)
 

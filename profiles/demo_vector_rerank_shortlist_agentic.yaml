@@ -1,0 +1,55 @@
+name: demo_vector_rerank_shortlist_agentic
+description: >
+  Demo-oriented tiered candidate using native Elasticsearch RRF fusion, bounded
+  shortlist reranking, structured retrieval assessment, and official-site browse
+  escalation. This profile also fails hard if native RRF is unavailable.
+collection_strategy: default_web_collect
+retrieval:
+  source_topology: ranked_passthrough
+  retrieval_mode: hybrid_es_rerank
+  hybrid_fusion_mode: es_rrf
+  hybrid_rrf_k: 60
+  dense_retrieval_backend: elasticsearch_knn
+  top_k: 12
+  candidate_k: 36
+  retrieval_alpha: 0.7
+  rerank_top_n: 18
+  es_knn_num_candidates: 90
+  enable_mmr_diversity: false
+  mmr_lambda: 0.75
+  enable_query_decomposition: false
+  max_expanded_queries: 0
+  per_query_candidate_k: 18
+  query_fusion_rrf_k: 60
+  enable_parallel_query_branches: false
+  enable_retrieval_assessment: true
+  assessment_max_chunks: 8
+  retry_candidate_k: 48
+  retry_rerank_top_n: 36
+  retry_per_query_candidate_k: 24
+  enable_official_site_escalation: true
+  escalation_max_steps: 5
+  escalation_max_live_pages: 6
+  escalation_max_live_chunks: 24
+  escalation_max_rerank_chunks: 12
+  escalation_max_indexed_chunks: 12
+  escalation_max_rerank_calls: 2
+chunking:
+  chunker: section_chunker
+  metadata_enrichers:
+    - authority_metadata
+    - lineage_metadata
+    - source_topology_metadata
+  sliding_window_chars: 1200
+  sliding_window_overlap: 200
+answering:
+  strategy: inline_evidence_chat
+  max_packed_docs: 12
+  max_doc_chars: 1200
+  model_name: command-a-03-2025
+  planner_model_name: command-a-03-2025
+  assessment_model_name: command-a-03-2025
+evaluation:
+  suite_name: parity_19
+  judge_model: command-a-03-2025
+  chat_temperature: 0.0

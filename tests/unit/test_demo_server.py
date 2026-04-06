@@ -6,30 +6,62 @@ import pytest
 
 import bgrag.demo_server as demo_server
 from bgrag.config import Settings
-from bgrag.manifests import set_active_index_namespace, write_index_manifest
+from bgrag.manifests import derive_index_namespace, set_active_index_namespace, write_index_manifest
 from bgrag.types import AnswerCitation, AnswerResult, EvidenceBundle
 
 
-def _write_ready_index(settings: Settings, namespace: str = "baseline_ns") -> str:
-    set_active_index_namespace(settings, namespace)
-    write_index_manifest(settings, namespace, {"namespace": namespace, "chunk_count": 1})
-    embeddings_path = settings.project_root / "datasets" / "index" / namespace / "chunk_embeddings.json"
+def _write_ready_index(
+    settings: Settings,
+    namespace: str | None = None,
+    *,
+    profile_name: str = demo_server.DEMO_PROFILE_NAME,
+    search_backend: str = "elasticsearch",
+) -> str:
+    resolved_namespace = namespace or f"{profile_name}_ns"
+    set_active_index_namespace(settings, resolved_namespace)
+    write_index_manifest(
+        settings,
+        resolved_namespace,
+        {
+            "namespace": resolved_namespace,
+            "chunk_count": 1,
+            "profile_name": profile_name,
+            "search_backend": search_backend,
+        },
+    )
+    embeddings_path = settings.project_root / "datasets" / "index" / resolved_namespace / "chunk_embeddings.json"
     embeddings_path.parent.mkdir(parents=True, exist_ok=True)
     embeddings_path.write_text(json.dumps({"chunk1": [0.1, 0.2]}), encoding="utf-8")
-    return namespace
+    return resolved_namespace
+
+
+def _patch_demo_profile(monkeypatch: pytest.MonkeyPatch, *, search_backend: str = "elasticsearch") -> None:
+    profile = SimpleNamespace(
+        retrieval=SimpleNamespace(
+            retrieval_mode="hybrid_es_rerank",
+            dense_retrieval_backend="elasticsearch_knn",
+            enable_mmr_diversity=False,
+            search_backend=search_backend,
+        ),
+    )
+    monkeypatch.setattr(demo_server, "load_profile", lambda profile_name, settings: profile)
+    monkeypatch.setattr(demo_server, "build_runtime_settings", lambda settings, profile: settings)
+    monkeypatch.setattr(demo_server, "derive_index_namespace", lambda settings, profile_name: f"{profile_name}_ns")
 
 
 def test_evaluate_demo_health_reports_missing_cohere_key(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     settings = Settings(project_root=tmp_path, cohere_api_key="")
     settings.ensure_directories()
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    _patch_demo_profile(monkeypatch)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
 
     status = demo_server.evaluate_demo_health(settings)
 
     assert status.ok is False
     assert status.cohere_configured is False
-    assert status.elasticsearch_reachable is True
+    assert status.search_backend == "elasticsearch"
+    assert status.search_backend_reachable is True
     assert status.active_index_namespace is None
     assert "COHERE_API_KEY" in status.status_message
 
@@ -37,17 +69,42 @@ def test_evaluate_demo_health_reports_missing_cohere_key(monkeypatch: pytest.Mon
 def test_evaluate_demo_health_reports_ready_backend(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     settings = Settings(project_root=tmp_path, cohere_api_key="test-key")
     settings.ensure_directories()
+    _patch_demo_profile(monkeypatch)
     namespace = _write_ready_index(settings)
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
 
     status = demo_server.evaluate_demo_health(settings)
 
     assert status.ok is True
+    assert status.search_backend == "elasticsearch"
     assert status.active_index_namespace == namespace
     assert status.index_manifest_present is True
     assert status.chunk_embeddings_present is True
     assert status.status_message == "Live backend ready."
+
+
+def test_evaluate_demo_health_prefers_profile_matching_namespace_over_active_pointer(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    settings = Settings(project_root=tmp_path, cohere_api_key="test-key")
+    settings.ensure_directories()
+    _patch_demo_profile(monkeypatch, search_backend="opensearch")
+    active_namespace = _write_ready_index(settings, namespace="elastic_active", profile_name="baseline_vector_rerank_shortlist")
+    _write_ready_index(
+        settings,
+        profile_name=demo_server.DEMO_PROFILE_NAME,
+        search_backend="opensearch",
+    )
+    set_active_index_namespace(settings, active_namespace)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
+
+    status = demo_server.evaluate_demo_health(settings)
+
+    assert status.ok is True
+    assert status.search_backend == "opensearch"
+    assert status.active_index_namespace == f"{demo_server.DEMO_PROFILE_NAME}_ns"
 
 
 def test_run_demo_query_rejects_empty_question(tmp_path: Path) -> None:
@@ -65,9 +122,10 @@ def test_run_demo_query_uses_direct_question_without_contextualizer(
     settings.ensure_directories()
     namespace = _write_ready_index(settings)
     demo_server.reset_demo_callback_cache()
+    _patch_demo_profile(monkeypatch)
 
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
     monkeypatch.setattr(
         demo_server,
         "contextualize_conversation_turn",
@@ -109,9 +167,10 @@ def test_run_demo_query_returns_live_payload(monkeypatch: pytest.MonkeyPatch, tm
     settings.ensure_directories()
     namespace = _write_ready_index(settings)
     demo_server.reset_demo_callback_cache()
+    _patch_demo_profile(monkeypatch)
 
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
     monkeypatch.setattr(
         demo_server,
         "contextualize_conversation_turn",
@@ -173,9 +232,10 @@ def test_run_demo_query_strips_rendered_chunk_ids(monkeypatch: pytest.MonkeyPatc
     settings.ensure_directories()
     namespace = _write_ready_index(settings)
     demo_server.reset_demo_callback_cache()
+    _patch_demo_profile(monkeypatch)
 
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
     monkeypatch.setattr(
         demo_server,
         "contextualize_conversation_turn",
@@ -233,9 +293,10 @@ def test_run_demo_query_uses_contextualized_standalone_question_for_rag(
     settings.ensure_directories()
     namespace = _write_ready_index(settings)
     demo_server.reset_demo_callback_cache()
+    _patch_demo_profile(monkeypatch)
 
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
 
     captured_messages: list[dict[str, str]] = []
 
@@ -290,9 +351,10 @@ def test_run_demo_query_accepts_cohere_style_content_segments(
     settings.ensure_directories()
     namespace = _write_ready_index(settings)
     demo_server.reset_demo_callback_cache()
+    _patch_demo_profile(monkeypatch)
 
-    monkeypatch.setattr(demo_server, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(demo_server, "require_es_available", lambda client, url: None)
+    monkeypatch.setattr(demo_server, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(demo_server, "require_search_available", lambda client, settings, backend: None)
 
     captured_messages: list[dict[str, str]] = []
 

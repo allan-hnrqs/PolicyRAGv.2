@@ -111,6 +111,14 @@ def test_baseline_vector_profile_loads() -> None:
     assert profile.retrieval.rerank_top_n == 0
 
 
+def test_baseline_vector_rerank_all_corpus_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_all_corpus", settings)
+    assert profile.retrieval.retrieval_mode == "rerank_all_corpus"
+    assert profile.retrieval.enable_query_decomposition is False
+    assert profile.retrieval.rerank_top_n == 0
+
+
 def test_demo_vector_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("demo_vector", settings)
@@ -124,6 +132,101 @@ def test_baseline_vector_rerank_profile_loads() -> None:
     assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
     assert profile.retrieval.rerank_top_n == 24
     assert profile.retrieval.enable_parallel_query_branches is True
+
+
+def test_baseline_vector_rerank_shortlist_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.retrieval.enable_parallel_query_branches is False
+
+
+def test_baseline_vector_rerank_shortlist_hybrid_retry_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_hybrid_retry", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.retrieval.enable_retrieval_assessment is True
+    assert profile.retrieval.enable_hybrid_retry_trigger is True
+    assert profile.retrieval.enable_official_site_escalation is False
+    assert profile.retrieval.retry_candidate_k == 64
+    assert profile.retrieval.retry_rerank_top_n == 64
+    assert profile.retrieval.retry_per_query_candidate_k == 32
+
+
+def test_baseline_vector_rerank_shortlist_ranked_diverse_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_ranked_diverse", settings)
+    assert profile.retrieval.source_topology == "ranked_passthrough"
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.retrieval.enable_ranked_chunk_diversity is True
+    assert profile.retrieval.max_chunks_per_heading == 3
+
+
+def test_baseline_vector_rerank_shortlist_opensearch_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_opensearch", settings)
+    assert profile.retrieval.search_backend == "opensearch"
+    assert profile.retrieval.dense_retrieval_backend == "opensearch_knn"
+    assert profile.retrieval.rerank_top_n == 48
+
+
+def test_baseline_vector_rerank_shortlist_agentic_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_agentic", settings)
+    assert profile.retrieval.hybrid_fusion_mode == "es_rrf"
+    assert profile.retrieval.enable_retrieval_assessment is True
+    assert profile.retrieval.enable_official_site_escalation is True
+
+
+def test_demo_vector_rerank_shortlist_agentic_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("demo_vector_rerank_shortlist_agentic", settings)
+    assert profile.retrieval.hybrid_fusion_mode == "es_rrf"
+    assert profile.retrieval.enable_query_decomposition is False
+    assert profile.retrieval.enable_official_site_escalation is True
+
+
+def test_baseline_vector_rerank_wide_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_wide", settings)
+    assert profile.retrieval.dense_retrieval_backend == "elasticsearch_knn"
+    assert profile.retrieval.candidate_k == 96
+    assert profile.retrieval.rerank_top_n == 96
+    assert profile.retrieval.per_query_candidate_k == 48
+
+
+def test_baseline_vector_rerank_wide_answer_repair_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_wide_answer_repair", settings)
+    assert profile.retrieval.candidate_k == 96
+    assert profile.retrieval.rerank_top_n == 96
+    assert profile.answering.strategy == "selective_mode_aware_answer_repair_inline_evidence_chat"
+
+
+def test_baseline_vector_rerank_shortlist_structured_contract_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_structured_contract", settings)
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.answering.strategy == "structured_contract_deterministic_inline_evidence_chat"
+
+
+def test_baseline_vector_rerank_shortlist_selective_workflow_contract_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_selective_workflow_contract", settings)
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.answering.strategy == "selective_workflow_contract_inline_evidence_chat"
+
+
+def test_baseline_vector_rerank_shortlist_narrow_contract_gate_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_narrow_contract_gate", settings)
+    assert profile.retrieval.rerank_top_n == 48
+    assert (
+        profile.answering.strategy
+        == "narrow_contract_slot_coverage_verifier_gated_structured_contract_inline_evidence_chat"
+    )
 
 
 def test_demo_vector_rerank_profile_loads() -> None:
@@ -201,6 +304,22 @@ def test_lineage_document_rerank_seed_profile_loads() -> None:
     settings = Settings(project_root=REPO_ROOT)
     profile = load_profile("lineage_document_rerank_seed_retrieval", settings)
     assert profile.retrieval.document_seed_scope == "local_lineage"
+
+
+def test_baseline_vector_rerank_shortlist_localized_seed_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_localized_seed", settings)
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.retrieval.enable_document_seed_retrieval is True
+    assert profile.retrieval.document_seed_scope == "local_graph"
+
+
+def test_baseline_vector_rerank_shortlist_hierarchical_context_profile_loads() -> None:
+    settings = Settings(project_root=REPO_ROOT)
+    profile = load_profile("baseline_vector_rerank_shortlist_hierarchical_context", settings)
+    assert profile.retrieval.rerank_top_n == 48
+    assert profile.retrieval.enable_page_intro_expansion is True
+    assert profile.retrieval.enable_document_context_expansion is True
 
 
 def test_selective_localized_document_rerank_seed_profile_loads() -> None:

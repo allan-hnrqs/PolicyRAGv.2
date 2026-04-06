@@ -5,16 +5,17 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from time import perf_counter
-from typing import Sequence
+from typing import Any, Sequence
 
 import math
 
 import bgrag.retrieval.topology  # Ensure topology policies are registered.
 import cohere
-from elasticsearch import Elasticsearch
+from elasticsearch import ApiError, Elasticsearch
 
 from bgrag.config import Settings
 from bgrag.indexing.elastic import VECTOR_FIELD_NAME, chunk_index_name
+from bgrag.indexing.search_backend import normalize_search_backend, search_backend_label
 from bgrag.registry import source_topology_registry
 from bgrag.retrieval.packing import diversify_ranked_chunks
 from bgrag.retrieval.span_packing import build_span_packed_chunks
@@ -30,6 +31,10 @@ def _cosine(a: Sequence[float], b: Sequence[float]) -> float:
     return numerator / (denom_a * denom_b)
 
 
+def requires_chunk_embedding_store(*, dense_retrieval_backend: str, enable_mmr_diversity: bool) -> bool:
+    return dense_retrieval_backend == "local_embedding_store" or enable_mmr_diversity
+
+
 def _heading_prefix(chunk: ChunkRecord) -> tuple[str, ...]:
     if len(chunk.heading_path) >= 2:
         return tuple(chunk.heading_path[:-1])
@@ -40,35 +45,38 @@ def _heading_prefix(chunk: ChunkRecord) -> tuple[str, ...]:
     return (chunk.title,)
 
 
-def _question_terms(question: str) -> set[str]:
-    return {
-        term
-        for term in "".join(char.lower() if char.isalnum() else " " for char in question).split()
-        if len(term) >= 4
-    }
+def _format_rerank_document(chunk: ChunkRecord) -> str:
+    heading_path = " > ".join(chunk.heading_path) if chunk.heading_path else ""
+    text_block = "\n".join(f"  {line}" for line in chunk.text.splitlines()) or "  "
+    lines = [
+        f"title: {chunk.title}",
+        f"heading: {chunk.heading or ''}",
+        f"heading_path: {heading_path}",
+        f"source_family: {chunk.source_family.value}",
+        f"canonical_url: {chunk.canonical_url}",
+        "text: |",
+        text_block,
+    ]
+    return "\n".join(lines)
 
 
-def _term_overlap_score(question_terms: set[str], text: str) -> int:
-    if not question_terms:
-        return 0
-    text_terms = {
-        term
-        for term in "".join(char.lower() if char.isalnum() else " " for char in text).split()
-        if len(term) >= 4
-    }
-    return len(question_terms & text_terms)
+def _rrf_branch_score(rank: int, *, rank_constant: int) -> float:
+    return 1.0 / (rank_constant + rank)
 
 
 class HybridRetriever:
     def __init__(
         self,
         settings: Settings,
-        elastic: Elasticsearch | None = None,
+        elastic: Any | None = None,
         index_namespace: str | None = None,
         documents: list[NormalizedDocument] | None = None,
+        search_backend: str = "elasticsearch",
     ) -> None:
         self.settings = settings
         self.elastic = elastic
+        self.search_backend = normalize_search_backend(search_backend)
+        self.search_backend_label = search_backend_label(self.search_backend)
         self.index_namespace = index_namespace or "default"
         self.rerank_client = cohere.ClientV2(settings.cohere_api_key) if settings.cohere_api_key else None
         self.documents_by_id = {document.doc_id: document for document in documents or []}
@@ -97,6 +105,17 @@ class HybridRetriever:
         self._chunk_by_id = chunk_by_id
         self._chunks_cache_key = cache_key
 
+    def _rerank_scores(self, question: str, documents: list[str], top_n: int) -> dict[int, float]:
+        if self.rerank_client is None or not documents:
+            return {}
+        response = self.rerank_client.rerank(
+            model=self.settings.cohere_rerank_model,
+            query=question,
+            documents=documents,
+            top_n=top_n,
+        )
+        return {int(result.index): float(result.relevance_score) for result in response.results}
+
     def _iter_source_families(
         self,
         chunks: list[ChunkRecord],
@@ -123,8 +142,8 @@ class HybridRetriever:
     ) -> dict[str, float]:
         if self.elastic is None:
             raise RuntimeError(
-                "Hybrid retrieval requires Elasticsearch-backed lexical search. "
-                "Configure Elasticsearch and run `bgrag build-index` before querying."
+                f"Hybrid retrieval requires {self.search_backend_label}-backed lexical search. "
+                f"Configure {self.search_backend_label} and run `bgrag build-index` before querying."
             )
         scores: dict[str, float] = {}
         found_index = False
@@ -157,21 +176,30 @@ class HybridRetriever:
                             "filter": [{"terms": {"chunk_id": family_allowed_ids}}],
                         }
                     }
-                response = self.elastic.search(
-                    index=index_name,
-                    size=top_k,
-                    query=query,
-                )
+                if self.search_backend == "opensearch":
+                    response = self.elastic.search(
+                        index=index_name,
+                        body={
+                            "size": top_k,
+                            "query": query,
+                        },
+                    )
+                else:
+                    response = self.elastic.search(
+                        index=index_name,
+                        size=top_k,
+                        query=query,
+                    )
                 for hit in response.get("hits", {}).get("hits", []):
                     scores[str(hit["_id"])] = float(hit.get("_score", 0.0))
         except Exception as exc:
             raise RuntimeError(
-                "Elasticsearch lexical search failed. "
+                f"{self.search_backend_label} lexical search failed. "
                 "Fix the indexed lexical path instead of relying on a local fallback."
             ) from exc
         if not found_index:
             raise RuntimeError(
-                "No Elasticsearch chunk indices were found. "
+                f"No {self.search_backend_label} chunk indices were found. "
                 "Run `bgrag build-index` before querying or evaluating."
             )
         return scores
@@ -209,8 +237,8 @@ class HybridRetriever:
     ) -> dict[str, float]:
         if self.elastic is None:
             raise RuntimeError(
-                "Hybrid retrieval requires Elasticsearch-backed vector search. "
-                "Configure Elasticsearch and run `bgrag build-index` before querying."
+                f"Hybrid retrieval requires {self.search_backend_label}-backed vector search. "
+                f"Configure {self.search_backend_label} and run `bgrag build-index` before querying."
             )
         scores: dict[str, float] = {}
         found_index = False
@@ -238,22 +266,40 @@ class HybridRetriever:
                     if not family_allowed_ids:
                         continue
                     knn_query["filter"] = {"terms": {"chunk_id": family_allowed_ids}}
-                response = self.elastic.search(
-                    index=index_name,
-                    size=top_k,
-                    knn=knn_query,
-                    source=False,
-                )
+                if self.search_backend == "opensearch":
+                    response = self.elastic.search(
+                        index=index_name,
+                        body={
+                            "size": top_k,
+                            "_source": False,
+                            "query": {
+                                "knn": {
+                                    VECTOR_FIELD_NAME: {
+                                        "vector": list(query_embedding),
+                                        "k": top_k,
+                                        **({"filter": knn_query["filter"]} if "filter" in knn_query else {}),
+                                    }
+                                }
+                            },
+                        },
+                    )
+                else:
+                    response = self.elastic.search(
+                        index=index_name,
+                        size=top_k,
+                        knn=knn_query,
+                        source=False,
+                    )
                 for hit in response.get("hits", {}).get("hits", []):
                     scores[str(hit["_id"])] = self._knn_score_to_cosine(float(hit.get("_score", 0.0)))
         except Exception as exc:
             raise RuntimeError(
-                "Elasticsearch vector search failed. "
+                f"{self.search_backend_label} vector search failed. "
                 "Fix the indexed vector retrieval path instead of falling back silently."
             ) from exc
         if not found_index:
             raise RuntimeError(
-                "No Elasticsearch chunk indices were found. "
+                f"No {self.search_backend_label} chunk indices were found. "
                 "Run `bgrag build-index` before querying or evaluating."
             )
         return scores
@@ -263,20 +309,25 @@ class HybridRetriever:
         *,
         query_embedding: Sequence[float],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
         top_k: int,
         dense_retrieval_backend: str,
         es_knn_num_candidates: int,
         allowed_chunk_ids: set[str] | None = None,
     ) -> dict[str, float]:
         if dense_retrieval_backend == "local_embedding_store":
+            if not chunk_embeddings:
+                raise RuntimeError(
+                    "Local dense retrieval requires a populated chunk embedding store. "
+                    "Rebuild the index or switch to Elasticsearch kNN."
+                )
             return self._dense_scores_from_store(
                 query_embedding,
                 chunks,
                 chunk_embeddings,
                 allowed_chunk_ids=allowed_chunk_ids,
             )
-        if dense_retrieval_backend == "elasticsearch_knn":
+        if dense_retrieval_backend in {"elasticsearch_knn", "opensearch_knn"}:
             return self.vector_search(
                 query_embedding,
                 chunks,
@@ -315,19 +366,177 @@ class HybridRetriever:
         candidates.sort(key=lambda item: item.blended_score, reverse=True)
         return candidates[:candidate_k]
 
+    def _materialize_rrf_candidates(
+        self,
+        *,
+        chunks: list[ChunkRecord],
+        dense_scores: dict[str, float],
+        lexical_scores: dict[str, float],
+        candidate_k: int,
+        hybrid_rrf_k: int,
+    ) -> list[RetrievalCandidate]:
+        lexical_ranked = sorted(lexical_scores.items(), key=lambda item: item[1], reverse=True)[:candidate_k]
+        dense_ranked = sorted(dense_scores.items(), key=lambda item: item[1], reverse=True)[:candidate_k]
+        fused_scores: dict[str, float] = defaultdict(float)
+        for rank, (chunk_id, _) in enumerate(lexical_ranked, start=1):
+            fused_scores[chunk_id] += _rrf_branch_score(rank, rank_constant=hybrid_rrf_k)
+        for rank, (chunk_id, _) in enumerate(dense_ranked, start=1):
+            fused_scores[chunk_id] += _rrf_branch_score(rank, rank_constant=hybrid_rrf_k)
+
+        candidates: list[RetrievalCandidate] = []
+        for chunk in chunks:
+            if chunk.chunk_id not in fused_scores:
+                continue
+            candidates.append(
+                RetrievalCandidate(
+                    chunk=chunk,
+                    dense_score=dense_scores.get(chunk.chunk_id, 0.0),
+                    lexical_score=lexical_scores.get(chunk.chunk_id, 0.0),
+                    blended_score=fused_scores[chunk.chunk_id],
+                )
+            )
+        candidates.sort(key=lambda item: item.blended_score, reverse=True)
+        return candidates[:candidate_k]
+
+    def hybrid_rrf_search(
+        self,
+        question: str,
+        query_embedding: Sequence[float],
+        chunks: list[ChunkRecord],
+        *,
+        top_k: int,
+        num_candidates: int,
+        hybrid_rrf_k: int,
+        allowed_chunk_ids: set[str] | None = None,
+    ) -> list[RetrievalCandidate]:
+        if self.search_backend != "elasticsearch":
+            raise RuntimeError(
+                "Native `es_rrf` fusion is only supported on the Elasticsearch backend. "
+                "Use `weighted_alpha` or `python_rrf` for OpenSearch spike profiles."
+            )
+        if self.elastic is None:
+            raise RuntimeError(
+                "Hybrid ES RRF retrieval requires Elasticsearch. "
+                "Configure Elasticsearch and run `bgrag build-index` before querying."
+            )
+        if allowed_chunk_ids is not None and not allowed_chunk_ids:
+            return []
+
+        index_names: list[str] = []
+        for family in self._iter_source_families(chunks, allowed_chunk_ids=allowed_chunk_ids):
+            index_name = chunk_index_name(family, self.index_namespace)
+            if self.elastic.indices.exists(index=index_name):
+                index_names.append(index_name)
+        if not index_names:
+            raise RuntimeError(
+                "No Elasticsearch chunk indices were found. "
+                "Run `bgrag build-index` before querying or evaluating."
+            )
+
+        query: dict[str, object] = {
+            "multi_match": {
+                "query": question,
+                "fields": ["title^2", "heading^2", "heading_path", "text"],
+            }
+        }
+        knn: dict[str, object] = {
+            "field": VECTOR_FIELD_NAME,
+            "query_vector": list(query_embedding),
+            "k": top_k,
+            "num_candidates": max(num_candidates, top_k),
+        }
+        if allowed_chunk_ids is not None:
+            allowed_ids = sorted(allowed_chunk_ids)
+            query = {
+                "bool": {
+                    "must": [query],
+                    "filter": [{"terms": {"chunk_id": allowed_ids}}],
+                }
+            }
+            knn["filter"] = {"terms": {"chunk_id": allowed_ids}}
+
+        try:
+            response = self.elastic.search(
+                index=index_names,
+                retriever={
+                    "rrf": {
+                        "retrievers": [
+                            {"standard": {"query": query}},
+                            {"knn": knn},
+                        ],
+                        "rank_window_size": top_k,
+                        "rank_constant": hybrid_rrf_k,
+                    }
+                },
+                size=top_k,
+                source=False,
+            )
+        except ApiError as exc:
+            raise RuntimeError(
+                "Elasticsearch native RRF failed. "
+                "This path requires an Elasticsearch cluster/license that supports RRF."
+            ) from exc
+
+        candidate_by_id = {chunk.chunk_id: chunk for chunk in chunks}
+        candidates: list[RetrievalCandidate] = []
+        for hit in response.get("hits", {}).get("hits", []):
+            chunk_id = str(hit.get("_id", ""))
+            chunk = candidate_by_id.get(chunk_id)
+            if chunk is None:
+                continue
+            score = float(hit.get("_score", 0.0))
+            candidates.append(
+                RetrievalCandidate(
+                    chunk=chunk,
+                    blended_score=score,
+                )
+            )
+        return candidates[:top_k]
+
     def _score_query_candidates(
         self,
         *,
         question: str,
         query_embedding: Sequence[float],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
+        retrieval_mode: str,
+        hybrid_fusion_mode: str = "weighted_alpha",
         retrieval_alpha: float,
+        hybrid_rrf_k: int = 60,
         candidate_k: int,
         dense_retrieval_backend: str,
         es_knn_num_candidates: int,
         restrict_lexical_search: bool,
     ) -> tuple[list[RetrievalCandidate], dict[str, float]]:
+        if retrieval_mode == "rerank_all_corpus":
+            rerank_start = perf_counter()
+            candidates = self.rerank_all_corpus(question, chunks, candidate_k)
+            rerank_end = perf_counter()
+            return candidates, {
+                "lexical_search_seconds": 0.0,
+                "vector_search_seconds": 0.0,
+                "candidate_fusion_seconds": 0.0,
+                "rerank_seconds": rerank_end - rerank_start,
+            }
+        if retrieval_mode == "hybrid_es_rerank" and hybrid_fusion_mode == "es_rrf":
+            fusion_start = perf_counter()
+            candidates = self.hybrid_rrf_search(
+                question=question,
+                query_embedding=query_embedding,
+                chunks=chunks,
+                top_k=candidate_k,
+                num_candidates=es_knn_num_candidates,
+                hybrid_rrf_k=hybrid_rrf_k,
+                allowed_chunk_ids={chunk.chunk_id for chunk in chunks} if restrict_lexical_search else None,
+            )
+            fusion_end = perf_counter()
+            return candidates, {
+                "lexical_search_seconds": 0.0,
+                "vector_search_seconds": 0.0,
+                "candidate_fusion_seconds": fusion_end - fusion_start,
+                "rerank_seconds": 0.0,
+            }
         lexical_kwargs: dict[str, object] = {}
         lexical_top_k = candidate_k
         allowed_chunk_ids: set[str] | None = None
@@ -351,18 +560,28 @@ class HybridRetriever:
         )
         vector_end = perf_counter()
         fusion_start = perf_counter()
-        candidates = self._materialize_candidates(
-            chunks=chunks,
-            dense_scores=dense_scores,
-            lexical_scores=lexical_scores,
-            retrieval_alpha=retrieval_alpha,
-            candidate_k=candidate_k,
-        )
+        if hybrid_fusion_mode == "python_rrf":
+            candidates = self._materialize_rrf_candidates(
+                chunks=chunks,
+                dense_scores=dense_scores,
+                lexical_scores=lexical_scores,
+                candidate_k=candidate_k,
+                hybrid_rrf_k=hybrid_rrf_k,
+            )
+        else:
+            candidates = self._materialize_candidates(
+                chunks=chunks,
+                dense_scores=dense_scores,
+                lexical_scores=lexical_scores,
+                retrieval_alpha=retrieval_alpha,
+                candidate_k=candidate_k,
+            )
         fusion_end = perf_counter()
         return candidates, {
             "lexical_search_seconds": lexical_end - lexical_start,
             "vector_search_seconds": vector_end - vector_start,
             "candidate_fusion_seconds": fusion_end - fusion_start,
+            "rerank_seconds": 0.0,
         }
 
     def _build_single_query_candidates(
@@ -371,8 +590,11 @@ class HybridRetriever:
         question: str,
         query_embedding: Sequence[float],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
+        retrieval_mode: str = "hybrid_es_rerank",
+        hybrid_fusion_mode: str = "weighted_alpha",
         retrieval_alpha: float,
+        hybrid_rrf_k: int = 60,
         candidate_k: int,
         dense_retrieval_backend: str,
         es_knn_num_candidates: int,
@@ -384,7 +606,10 @@ class HybridRetriever:
             query_embedding=query_embedding,
             chunks=chunks,
             chunk_embeddings=chunk_embeddings,
+            retrieval_mode=retrieval_mode,
+            hybrid_fusion_mode=hybrid_fusion_mode,
             retrieval_alpha=retrieval_alpha,
+            hybrid_rrf_k=hybrid_rrf_k,
             candidate_k=candidate_k,
             dense_retrieval_backend=dense_retrieval_backend,
             es_knn_num_candidates=es_knn_num_candidates,
@@ -402,8 +627,11 @@ class HybridRetriever:
         retrieval_queries: list[str],
         query_embeddings: list[Sequence[float]],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
+        retrieval_mode: str = "hybrid_es_rerank",
+        hybrid_fusion_mode: str = "weighted_alpha",
         retrieval_alpha: float,
+        hybrid_rrf_k: int = 60,
         candidate_k: int,
         per_query_candidate_k: int,
         query_fusion_rrf_k: int,
@@ -419,7 +647,10 @@ class HybridRetriever:
                 query_embedding=query_embeddings[0],
                 chunks=chunks,
                 chunk_embeddings=chunk_embeddings,
+                retrieval_mode=retrieval_mode,
+                hybrid_fusion_mode=hybrid_fusion_mode,
                 retrieval_alpha=retrieval_alpha,
+                hybrid_rrf_k=hybrid_rrf_k,
                 candidate_k=candidate_k,
                 dense_retrieval_backend=dense_retrieval_backend,
                 es_knn_num_candidates=es_knn_num_candidates,
@@ -431,7 +662,10 @@ class HybridRetriever:
             query_embeddings=query_embeddings,
             chunks=chunks,
             chunk_embeddings=chunk_embeddings,
+            retrieval_mode=retrieval_mode,
+            hybrid_fusion_mode=hybrid_fusion_mode,
             retrieval_alpha=retrieval_alpha,
+            hybrid_rrf_k=hybrid_rrf_k,
             candidate_k=candidate_k,
             per_query_candidate_k=per_query_candidate_k,
             query_fusion_rrf_k=query_fusion_rrf_k,
@@ -485,10 +719,13 @@ class HybridRetriever:
         question: str,
         base_candidates: list[RetrievalCandidate],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
         retrieval_queries: list[str],
         query_embeddings: list[Sequence[float]],
+        retrieval_mode: str,
+        hybrid_fusion_mode: str = "weighted_alpha",
         retrieval_alpha: float,
+        hybrid_rrf_k: int = 60,
         per_query_candidate_k: int,
         query_fusion_rrf_k: int,
         dense_retrieval_backend: str,
@@ -503,7 +740,6 @@ class HybridRetriever:
         max_chars: int,
     ) -> list[RetrievalCandidate]:
         self._ensure_chunk_views(chunks)
-        question_terms = _question_terms(question)
         seed_doc_ids: list[str] = []
         doc_scores: dict[str, float] = {}
 
@@ -592,7 +828,10 @@ class HybridRetriever:
                 query_embeddings=query_embeddings,
                 chunks=intro_pool,
                 chunk_embeddings=chunk_embeddings,
+                retrieval_mode=retrieval_mode,
+                hybrid_fusion_mode=hybrid_fusion_mode,
                 retrieval_alpha=retrieval_alpha,
+                hybrid_rrf_k=hybrid_rrf_k,
                 candidate_k=max(candidate_k, seed_docs * max(1, intro_chunks_per_doc)),
                 per_query_candidate_k=min(per_query_candidate_k, max(candidate_k, seed_docs * max(1, intro_chunks_per_doc))),
                 query_fusion_rrf_k=query_fusion_rrf_k,
@@ -633,12 +872,7 @@ class HybridRetriever:
                 continue
             doc_score = doc_scores.get(doc_id, 0.0)
             intro_chunks = [chunk for chunk in doc_chunks if chunk.order <= intro_max_order]
-            intro_chunks.sort(
-                key=lambda chunk: (
-                    -_term_overlap_score(question_terms, f"{chunk.title} {chunk.heading or ''} {chunk.text}"),
-                    chunk.order,
-                )
-            )
+            intro_chunks.sort(key=lambda chunk: chunk.order)
             for index, chunk in enumerate(intro_chunks[:intro_chunks_per_doc]):
                 add(
                     chunk,
@@ -656,7 +890,10 @@ class HybridRetriever:
                 query_embeddings=query_embeddings,
                 chunks=seeded_doc_chunks,
                 chunk_embeddings=chunk_embeddings,
+                retrieval_mode=retrieval_mode,
+                hybrid_fusion_mode=hybrid_fusion_mode,
                 retrieval_alpha=retrieval_alpha,
+                hybrid_rrf_k=hybrid_rrf_k,
                 candidate_k=candidate_k,
                 per_query_candidate_k=min(per_query_candidate_k, candidate_k),
                 query_fusion_rrf_k=query_fusion_rrf_k,
@@ -746,7 +983,6 @@ class HybridRetriever:
         if not candidates:
             return []
         self._ensure_chunk_views(chunks)
-        question_terms = _question_terms(question)
         seed_doc_ids: list[str] = []
         doc_anchor_scores: dict[str, float] = {}
         for candidate in candidates:
@@ -790,12 +1026,7 @@ class HybridRetriever:
                 continue
             doc_score = doc_anchor_scores.get(doc_id, 0.0)
             intro_chunks = [chunk for chunk in doc_chunks if chunk.order <= intro_max_order]
-            intro_chunks.sort(
-                key=lambda chunk: (
-                    -_term_overlap_score(question_terms, chunk.text),
-                    chunk.order,
-                )
-            )
+            intro_chunks.sort(key=lambda chunk: chunk.order)
             for index, chunk in enumerate(intro_chunks[: max(2, min(4, len(intro_chunks)))]):
                 add(
                     chunk,
@@ -815,7 +1046,6 @@ class HybridRetriever:
             ]
             same_heading.sort(
                 key=lambda chunk: (
-                    -_term_overlap_score(question_terms, chunk.text),
                     abs(chunk.order - candidate.chunk.order),
                     chunk.order,
                 )
@@ -835,7 +1065,6 @@ class HybridRetriever:
             ]
             nearby.sort(
                 key=lambda chunk: (
-                    -_term_overlap_score(question_terms, chunk.text),
                     abs(chunk.order - candidate.chunk.order),
                     chunk.order,
                 )
@@ -875,12 +1104,7 @@ class HybridRetriever:
             for neighbor_id in unique_neighbor_ids:
                 neighbor_chunks = self._chunks_by_doc.get(neighbor_id, [])
                 intro_chunks = [chunk for chunk in neighbor_chunks if chunk.order <= intro_max_order]
-                intro_chunks.sort(
-                    key=lambda chunk: (
-                        -_term_overlap_score(question_terms, chunk.text),
-                        chunk.order,
-                    )
-                )
+                intro_chunks.sort(key=lambda chunk: chunk.order)
                 for index, chunk in enumerate(intro_chunks[: max(1, min(3, len(intro_chunks)))]):
                     add(
                         chunk,
@@ -895,16 +1119,12 @@ class HybridRetriever:
     def rerank(self, question: str, candidates: list[RetrievalCandidate], top_n: int) -> list[RetrievalCandidate]:
         if self.rerank_client is None or not candidates:
             return candidates
-        documents = [candidate.chunk.text for candidate in candidates[:top_n]]
-        response = self.rerank_client.rerank(
-            model=self.settings.cohere_rerank_model,
-            query=question,
-            documents=documents,
-            top_n=top_n,
-        )
+        documents = [_format_rerank_document(candidate.chunk) for candidate in candidates[:top_n]]
+        response_scores = self._rerank_scores(question, documents, top_n)
         rerank_scores = {
-            candidates[result.index].chunk.chunk_id: float(result.relevance_score)
-            for result in response.results
+            candidates[index].chunk.chunk_id: score
+            for index, score in response_scores.items()
+            if 0 <= index < len(candidates)
         }
         reranked: list[RetrievalCandidate] = []
         for candidate in candidates:
@@ -913,6 +1133,26 @@ class HybridRetriever:
             reranked.append(candidate)
         reranked.sort(key=lambda item: item.blended_score, reverse=True)
         return reranked
+
+    def rerank_all_corpus(self, question: str, chunks: list[ChunkRecord], top_n: int) -> list[RetrievalCandidate]:
+        if not chunks:
+            return []
+        documents = [_format_rerank_document(chunk) for chunk in chunks]
+        response_scores = self._rerank_scores(question, documents, min(top_n, len(chunks)))
+        candidates: list[RetrievalCandidate] = []
+        for index, chunk in enumerate(chunks):
+            score = response_scores.get(index, 0.0)
+            if score <= 0.0:
+                continue
+            candidates.append(
+                RetrievalCandidate(
+                    chunk=chunk,
+                    rerank_score=score,
+                    blended_score=score,
+                )
+            )
+        candidates.sort(key=lambda item: item.rerank_score, reverse=True)
+        return candidates[:top_n]
 
     def mmr_reorder(
         self,
@@ -958,6 +1198,9 @@ class HybridRetriever:
         top_k: int,
         candidate_k: int,
         retrieval_alpha: float,
+        retrieval_mode: str = "hybrid_es_rerank",
+        hybrid_fusion_mode: str = "weighted_alpha",
+        hybrid_rrf_k: int = 60,
         rerank_top_n: int = 0,
         dense_retrieval_backend: str = "local_embedding_store",
         es_knn_num_candidates: int = 120,
@@ -1007,9 +1250,12 @@ class HybridRetriever:
                 "Hybrid retrieval requires a query embedding. "
                 "Generate queries with Cohere embeddings instead of degrading to lexical-only retrieval."
             )
-        if not chunk_embeddings:
+        if requires_chunk_embedding_store(
+            dense_retrieval_backend=dense_retrieval_backend,
+            enable_mmr_diversity=enable_mmr_diversity,
+        ) and not chunk_embeddings:
             raise RuntimeError(
-                "Hybrid retrieval requires a populated chunk embedding store. "
+                "This retrieval path requires a populated chunk embedding store. "
                 "Run `bgrag build-index` with Cohere embeddings before querying."
             )
         active_queries = retrieval_queries or [question]
@@ -1030,7 +1276,10 @@ class HybridRetriever:
             query_embeddings=active_embeddings,
             chunks=chunks,
             chunk_embeddings=chunk_embeddings,
+            retrieval_mode=retrieval_mode,
+            hybrid_fusion_mode=hybrid_fusion_mode,
             retrieval_alpha=retrieval_alpha,
+            hybrid_rrf_k=hybrid_rrf_k,
             candidate_k=candidate_k,
             per_query_candidate_k=per_query_candidate_k,
             query_fusion_rrf_k=query_fusion_rrf_k,
@@ -1051,7 +1300,10 @@ class HybridRetriever:
                     query_embeddings=active_embeddings,
                     chunks=intro_chunks,
                     chunk_embeddings=chunk_embeddings,
+                    retrieval_mode=retrieval_mode,
+                    hybrid_fusion_mode=hybrid_fusion_mode,
                     retrieval_alpha=retrieval_alpha,
+                    hybrid_rrf_k=hybrid_rrf_k,
                     candidate_k=page_intro_candidate_k,
                     per_query_candidate_k=min(per_query_candidate_k, page_intro_candidate_k),
                     query_fusion_rrf_k=query_fusion_rrf_k,
@@ -1072,7 +1324,10 @@ class HybridRetriever:
                 query_embeddings=active_embeddings,
                 chunks=chunks,
                 chunk_embeddings=chunk_embeddings,
+                retrieval_mode=retrieval_mode,
+                hybrid_fusion_mode=hybrid_fusion_mode,
                 retrieval_alpha=retrieval_alpha,
+                hybrid_rrf_k=hybrid_rrf_k,
                 per_query_candidate_k=per_query_candidate_k,
                 query_fusion_rrf_k=query_fusion_rrf_k,
                 dense_retrieval_backend=dense_retrieval_backend,
@@ -1104,7 +1359,10 @@ class HybridRetriever:
                     query_embeddings=active_embeddings,
                     chunks=context_chunks,
                     chunk_embeddings=chunk_embeddings,
+                    retrieval_mode=retrieval_mode,
+                    hybrid_fusion_mode=hybrid_fusion_mode,
                     retrieval_alpha=retrieval_alpha,
+                    hybrid_rrf_k=hybrid_rrf_k,
                     candidate_k=document_context_candidate_k,
                     per_query_candidate_k=min(per_query_candidate_k, document_context_candidate_k),
                     query_fusion_rrf_k=query_fusion_rrf_k,
@@ -1144,29 +1402,39 @@ class HybridRetriever:
             rerank_end = perf_counter()
             stage_timings["rerank_seconds"] += rerank_end - rerank_start
             notes.append("cohere_rerank_applied")
+        raw_shortlist = list(candidates)
         if enable_mmr_diversity:
+            if not chunk_embeddings:
+                raise RuntimeError(
+                    "MMR diversity requires a populated chunk embedding store for pairwise similarity checks."
+                )
             candidates = self.mmr_reorder(candidates, chunk_embeddings, mmr_lambda)
 
         packing_start = perf_counter()
-        grouped: dict[str, list[ChunkRecord]] = defaultdict(list)
-        for candidate in candidates:
-            grouped[candidate.chunk.source_family.value].append(candidate.chunk)
-        if enable_ranked_chunk_diversity:
-            grouped = {
-                family: diversify_ranked_chunks(
-                    family_chunks,
-                    target_k=top_k,
-                    cover_fraction=diversity_cover_fraction,
-                    max_per_document=max_chunks_per_document,
-                    max_per_heading=max_chunks_per_heading,
-                    seed_chunks_per_heading=seed_chunks_per_heading,
-                )
-                for family, family_chunks in grouped.items()
-            }
-        selected_chunks = source_topology_registry.get(source_topology)(question, grouped, top_k)
-        selected_ids = {chunk.chunk_id for chunk in selected_chunks}
-        selected_candidates = [candidate for candidate in candidates if candidate.chunk.chunk_id in selected_ids]
-        selected_candidates.sort(key=lambda item: item.blended_score, reverse=True)
+        if source_topology == "ranked_passthrough":
+            selected_candidates = list(candidates[:top_k])
+            selected_chunks = [candidate.chunk for candidate in selected_candidates]
+            notes.append("rank_preserving_packing_applied")
+        else:
+            grouped: dict[str, list[ChunkRecord]] = defaultdict(list)
+            for candidate in candidates:
+                grouped[candidate.chunk.source_family.value].append(candidate.chunk)
+            if enable_ranked_chunk_diversity:
+                grouped = {
+                    family: diversify_ranked_chunks(
+                        family_chunks,
+                        target_k=top_k,
+                        cover_fraction=diversity_cover_fraction,
+                        max_per_document=max_chunks_per_document,
+                        max_per_heading=max_chunks_per_heading,
+                        seed_chunks_per_heading=seed_chunks_per_heading,
+                    )
+                    for family, family_chunks in grouped.items()
+                }
+            selected_chunks = source_topology_registry.get(source_topology)(question, grouped, top_k)
+            selected_ids = {chunk.chunk_id for chunk in selected_chunks}
+            selected_candidates = [candidate for candidate in candidates if candidate.chunk.chunk_id in selected_ids]
+            selected_candidates.sort(key=lambda item: item.blended_score, reverse=True)
         packed_chunks = selected_chunks
         if evidence_unit == "span":
             packed_chunks = build_span_packed_chunks(
@@ -1185,9 +1453,13 @@ class HybridRetriever:
         stage_timings["packing_seconds"] += packing_end - packing_start
         if len(active_queries) > 1:
             notes.append("llm_query_decomposition_applied")
+        if retrieval_mode == "rerank_all_corpus":
+            notes.append("full_corpus_rerank_retrieval_applied")
         return EvidenceBundle(
             query=question,
+            raw_shortlist=raw_shortlist,
             candidates=selected_candidates,
+            selected_candidates=selected_candidates,
             packed_chunks=packed_chunks,
             retrieval_queries=list(active_queries),
             notes=notes,
@@ -1200,8 +1472,11 @@ class HybridRetriever:
         retrieval_queries: list[str],
         query_embeddings: list[Sequence[float]],
         chunks: list[ChunkRecord],
-        chunk_embeddings: dict[str, Sequence[float]],
+        chunk_embeddings: dict[str, Sequence[float]] | None,
+        retrieval_mode: str = "hybrid_es_rerank",
+        hybrid_fusion_mode: str = "weighted_alpha",
         retrieval_alpha: float,
+        hybrid_rrf_k: int = 60,
         candidate_k: int,
         per_query_candidate_k: int,
         query_fusion_rrf_k: int,
@@ -1224,7 +1499,10 @@ class HybridRetriever:
                         query_embedding=query_embedding,
                         chunks=chunks,
                         chunk_embeddings=chunk_embeddings,
+                        retrieval_mode=retrieval_mode,
+                        hybrid_fusion_mode=hybrid_fusion_mode,
                         retrieval_alpha=retrieval_alpha,
+                        hybrid_rrf_k=hybrid_rrf_k,
                         candidate_k=candidate_limit,
                         dense_retrieval_backend=dense_retrieval_backend,
                         es_knn_num_candidates=es_knn_num_candidates,
@@ -1242,7 +1520,10 @@ class HybridRetriever:
                         query_embedding=query_embedding,
                         chunks=chunks,
                         chunk_embeddings=chunk_embeddings,
+                        retrieval_mode=retrieval_mode,
+                        hybrid_fusion_mode=hybrid_fusion_mode,
                         retrieval_alpha=retrieval_alpha,
+                        hybrid_rrf_k=hybrid_rrf_k,
                         candidate_k=candidate_limit,
                         dense_retrieval_backend=dense_retrieval_backend,
                         es_knn_num_candidates=es_knn_num_candidates,

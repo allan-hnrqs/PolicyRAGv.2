@@ -9,6 +9,7 @@ from collections import defaultdict
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from bgrag.collect.collector import canonicalize_url
+from bgrag.source_catalog import SOURCE_CATALOG
 from bgrag.types import (
     NormalizedDocument,
     SourceDocument,
@@ -18,29 +19,12 @@ from bgrag.types import (
     StructureBlock,
 )
 
-NOISE_PREFIXES = (
-    "Skip to main content",
-    "Skip to \"About Canada.ca\"",
-    "Skip to \"About this site\"",
-    "Top of page",
-    "Report a problem",
-)
-
 EXTRACTION_TAGS = ("h1", "h2", "h3", "h4", "p", "li", "dt", "dd", "table")
 NESTED_BLOCK_TAGS = ("h1", "h2", "h3", "h4", "p", "li", "dt", "dd", "dl", "table", "ul", "ol")
 
 
 def infer_source_family(url: str) -> SourceFamily:
-    normalized = canonicalize_url(url).lower()
-    if (
-        "buy-canadian-policy" in normalized
-        or "/policies-and-guidelines/policies-directives-and-regulations/" in normalized
-        or "/buyer-s-portal/legislation-and-policies/" in normalized
-    ):
-        return SourceFamily.BUY_CANADIAN_POLICY
-    if "tbs-sct.canada.ca" in normalized or "pol/doc-eng.aspx" in normalized:
-        return SourceFamily.TBS_DIRECTIVE
-    return SourceFamily.BUYERS_GUIDE
+    return SOURCE_CATALOG.infer_source_family(canonicalize_url(url))
 
 
 def infer_authority_rank(source_family: SourceFamily) -> int:
@@ -124,7 +108,7 @@ def _content_root(soup: BeautifulSoup):
 def _should_drop_text(text: str) -> bool:
     if not text:
         return True
-    if any(text.startswith(prefix) for prefix in NOISE_PREFIXES):
+    if SOURCE_CATALOG.should_drop_noise_text(text):
         return True
     return False
 
@@ -233,7 +217,7 @@ def _renumber_blocks(blocks: list[StructureBlock]) -> list[StructureBlock]:
 def trim_buyers_guide_chrome(blocks: list[StructureBlock]) -> list[StructureBlock]:
     title_heading_index: int | None = None
     for index, block in enumerate(blocks):
-        if block.block_type == "heading" and block.text.startswith("Buyer's Guide "):
+        if block.block_type == "heading" and block.text.startswith(SOURCE_CATALOG.buyers_guide_chrome_heading_prefix):
             title_heading_index = index
             break
     if title_heading_index is None:

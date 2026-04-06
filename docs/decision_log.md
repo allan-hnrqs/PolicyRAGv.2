@@ -3,6 +3,271 @@
 This file records durable architectural decisions so long conversations do not
 become the only place where rationale lives.
 
+## 2026-04-04
+
+- On the wider `acceptance49` surface, the current serious control
+  (`baseline_vector_rerank_shortlist`) is now showing a clearer authority-page
+  failure family:
+  - cases such as `HR_043` and `HR_048` already surfaced the decisive TBS
+    directive chunks in the raw shortlist
+  - the current Buyer’s-Guide-first packing then discarded most of that
+    authority material before answer generation
+  Decision:
+  - treat authority/support-page suppression as a real retrieval/packing issue,
+    not just an answer-prompt issue
+  - use the wider `acceptance49` surface as the place to validate that family,
+    while keeping `parity19` frozen as control
+- A first global authority-support reserve profile was then tested:
+  - profile: `baseline_vector_rerank_shortlist_authority_reserve`
+  Result:
+  - it rescued authority retrieval on some new cases, especially `HR_043`
+  - but it regressed unrelated dev and holdout cases
+  Decision:
+  - reject a global support-slot reserve
+  - do not distort the whole fast lane just to rescue one support-page family
+- A more selective authority-support reserve profile was then tested:
+  - profile: `baseline_vector_rerank_shortlist_selective_authority_reserve`
+  Result:
+  - retrieval-only improved cleanly on `acceptance49`
+  - matched holdout judged quality improved from `0.6580` to `0.7113`
+  - matched dev judged quality regressed from `0.7118` to `0.6667`
+  - the decisive authority cases still often failed because only one TBS chunk
+    was preserved, which improved doc-level metrics but not full claim support
+  Decision:
+  - keep the selective reserve as useful diagnosis
+  - do not promote it as a general replacement
+- A narrower authority-cluster preservation profile was then tested:
+  - profile: `baseline_vector_rerank_shortlist_selective_authority_cluster`
+  Result:
+  - on holdout retrieval-only, chunk-support recall improved materially:
+    - overall chunk-support mean: `0.4800 -> 0.8533`
+    - `HR_043`: `0.0 -> 1.0`
+    - `HR_048`: `0.0 -> 0.6667`
+  - matched holdout judged quality improved modestly:
+    - `0.7260 -> 0.7460`
+  - matched dev judged quality regressed slightly:
+    - `0.6840 -> 0.6771`
+  - the holdout gain came mainly from `HR_043`, while the dev regression was
+    spread across a handful of answer-side swings
+  Decision:
+  - classify the authority-cluster intervention as `mixed`
+  - keep it as a targeted failure-family candidate, not as the new default
+  - the next step should be another small cycle:
+    - either expand this authority/governance case family further
+    - or isolate it as an intervention-only capability rather than a global
+      replacement
+- A paraphrase-robustness audit was then added for wording-triggered runtime
+  heuristics:
+  - manifest:
+    `datasets/eval/manifests/heuristic_trigger_robustness_v1.json`
+  - generated slice:
+    `datasets/eval/generated/heuristic_trigger_robustness_v1.jsonl`
+  - audit runner:
+    `scripts/run_heuristic_trigger_audit.py`
+  Result:
+  - the audit found wording-trigger changes in runtime heuristics even when the
+    question meaning was preserved:
+    - authority-support trigger changed on `2/7` paraphrase pairs
+    - question-risk level changed on `2/7`
+    - exactness-sensitive changed on `2/7`
+  - the strongest current heuristic-heavy candidate
+    (`baseline_vector_rerank_shortlist_selective_authority_cluster`) did show
+    a real win on the original source cases:
+    - source-case mean required-claim recall:
+      `0.4952 -> 0.6619`
+  - but on the paraphrased versions of those same cases, that advantage
+    disappeared:
+    - control: `0.3476`
+    - cluster: `0.3476`
+    - retrieval metrics also regressed for the cluster profile on the
+      paraphrase slice
+  Decision:
+  - do not treat wording-triggered heuristic gains as generalized until they
+    survive paraphrase robustness checks
+  - the current authority-cluster heuristic fails that proof
+  - keep it as a diagnostic/experimental intervention only, not as a
+    production-facing serving behavior
+
+- The first selective indexed-retry candidate has now been completed as a full
+  large optimization-loop cycle:
+  - cycle id: `loop03_large`
+  - hypothesis: `hybrid_retry_trigger`
+  - profile:
+    `baseline_vector_rerank_shortlist_hybrid_retry`
+  Result:
+  - canonical dev judged quality improved slightly from the current serious
+    control's `0.8611` to `0.8889`, but that change came entirely from one case
+    (`HR_015`: `0.5 -> 0.75`)
+  - canonical holdout judged quality regressed from `0.7750` to `0.7500`
+  - the holdout regression also came down to one case moving the wrong way:
+    - `HR_002`: `0.5 -> 0.25`
+  - the persistent failure surfaces also regressed:
+    - dev: `0.5833 -> 0.4167`
+    - holdout: `0.4375 -> 0.3750`
+  - product serving mean request time increased from the current repeated
+    control mean of about `17.7s` to `28.6s`
+  - retrieval-only holdout did not improve over control
+  Decision:
+  - reject the first hybrid indexed-retry trigger as currently designed
+  - do not add retrieval assessment plus retry overhead to the fast lane
+    without a clearer holdout-quality win
+  - the next large hypothesis should be narrower again:
+    - either better trigger calibration on the failure slice
+    - or a more selective browse-escalation path that only fires where the
+      indexed lane demonstrably cannot recover
+- A deterministic bundle-risk audit layer has now been added as a small-cycle
+  diagnostic:
+  - scorer: `bgrag.serving.bundle_risk.assess_bundle_risk(...)`
+  - audit runner: `scripts/run_bundle_risk_audit.py`
+  Result on the frozen serious-control eval artifacts:
+  - holdout:
+    - low-recall cases at threshold `< 0.75`: `4`
+    - flagged low-recall cases: `3`
+    - flag recall on low-recall cases: `0.75`
+    - flag precision on low-recall cases: `0.375`
+  - dev:
+    - low-recall cases at threshold `< 0.75`: `2`
+    - flagged low-recall cases: `1`
+    - flag recall on low-recall cases: `0.5`
+    - flag precision on low-recall cases: `0.1429`
+  Diagnosis:
+  - bundle-only weakness signals do catch some genuine retrieval/packing misses
+  - but they also overflag many good cases
+  - they miss some answer-side undercoverage cases where the packed bundle looks
+    healthy enough structurally
+  Decision:
+  - do not use bundle-only risk as the sole retry or escalation trigger
+  - keep it as an auxiliary deterministic signal
+  - the next serving trigger should combine:
+    - bundle-risk features
+    - structured retrieval assessment
+    - a narrower question-risk / exactness-risk layer
+- A single-call answer-side confidence sidecar was tested as an isolated
+  replay-only experiment:
+  - strategy: `inline_evidence_chat_with_confidence_sidecar`
+  - method: same answer call, but constrained to return JSON containing the
+    answer plus confidence fields
+  Result:
+  - canonical dev answer replay regressed from `0.8611` to `0.7222`
+  - canonical holdout answer replay regressed from `0.7500` to `0.6667`
+  - one holdout case (`HR_012`) failed outright because the model did not
+    return valid JSON
+  - the sidecar confidences were badly miscalibrated on several misses:
+    - `HR_001`, `HR_005`, `HR_018` all reported high confidence despite poor
+      judged recall
+  Decision:
+  - do not promote a JSON answer-plus-confidence sidecar as a serving answer
+    format
+  - if confidence sidecars are revisited, keep them internal and treat them as
+    auxiliary signals only, not as a replacement for natural answer output
+- The first large optimization-loop cycle on the new persistent protocol has
+  now been completed:
+  - cycle id: `loop02_large`
+  - hypothesis: `ranked_diverse_packing`
+  - profile:
+    `baseline_vector_rerank_shortlist_ranked_diverse`
+  Result:
+  - canonical dev judged quality regressed from the current serious control's
+    `0.8611` to `0.8333`
+  - canonical holdout judged quality regressed from `0.7750` to `0.7500`
+  - the persistent failure holdout slice improved from `0.4375` to `0.5625`,
+    but that gain came mainly from `HR_002`
+  - `HR_011` retrieval coverage improved, but the final answer still did not
+    improve there
+  - `HR_018` regressed sharply from `1.0` to `0.0` despite packed evidence
+    remaining fully present
+  - product serving mean request time on the candidate run was `32.9s`, well
+    above the current repeated control mean of `17.7s`
+  Decision:
+  - reject broad ranked-passthrough plus ranked-diversity packing as the next
+    promotion direction
+  - do not generalize a cross-source packing reorder across the whole fast lane
+  - the next large hypothesis should be selective and targeted:
+    - either retrieval retry / escalation on genuinely weak evidence
+    - or a narrower intervention on the specific failure families
+- A repo-native persistent optimization-loop scaffolding layer now exists.
+  Decision:
+  - keep `baseline_vector_rerank_shortlist` as the explicit control profile
+  - keep canonical surfaces and failure surfaces as named manifests rather than
+    ad hoc shell history
+  - record each large or small cycle as a first-class artifact
+  - use the new cycle runner and protocol docs instead of letting loop state
+    live only in conversations
+- A strict tiered agentic candidate architecture is now the active design
+  direction.
+  Decision:
+  - indexed RAG remains the default serving lane
+  - official-site browsing is an explicit escalation lane
+  - the candidate implementation uses structured retrieval assessment plus one
+    widened indexed retry before browse escalation
+  - silent infrastructure fallbacks are not allowed in this path
+- Native Elasticsearch RRF is now the target hybrid fusion method for the
+  strict agentic candidate.
+  Repo reality:
+  - the current local Elasticsearch cluster rejects native RRF because of a
+    license error
+  Decision:
+  - keep the strict candidate profiles on native RRF anyway
+  - fail hard if the cluster cannot provide it
+  - do not silently fall back to repo-side hybrid fusion inside those profiles
+- PydanticAI is now the chosen orchestration library for the bounded
+  official-site browse escalation path.
+  Decision:
+  - keep the escalation loop bounded by explicit tool budgets
+  - do not mainline a broader Haystack or LangGraph rewrite unless the current
+    PydanticAI-based spike proves inadequate
+- A bounded retrieval-budget sweep was run over the serious rerank-shortlist
+  lane on the full `19`-case parity surface.
+  Result:
+  - shortlist/rerank budget does matter
+  - the best bounded point in that sweep was:
+    - `top_k=16`
+    - `candidate_k=64`
+    - `rerank_top_n=64`
+    - `per_query_candidate_k=32`
+  - it improved judged quality over the current serious default on that surface
+  - but it still did not reach `0.9+`
+  Decision:
+  - keep that budget point as the leading retrieval-budget candidate
+  - do not claim that larger retrieval budgets alone solve the repo's product target
+- The leading bounded retrieval-budget point was then validated on the clean
+  dev/holdout split.
+  Result:
+  - judged end-to-end quality improved on both splits
+  - but holdout retrieval-only coverage regressed materially
+  Decision:
+  - do not promote that tuned budget point as the new default serious profile
+  - keep it as mixed evidence, not a clean win
+- A richer bounded tool-agent comparator was then tested with an additional
+  indexed retrieval tool.
+  Result:
+  - it still underperformed the serious indexed RAG lane
+  - it remained browse-heavy and used the indexed retrieval tool sparingly
+  Decision:
+  - do not treat “agentic” branding by itself as evidence of a better
+    architecture
+  - if agentic orchestration is revisited, judge it by tool trace quality,
+    latency, and answer quality, not by the presence of a planner loop
+- Retrieval-backend alternatives should now be evaluated as bounded spikes, not
+  as speculative rewrites.
+  Decision:
+  - keep the current serious Elasticsearch/Cohere stack as the control
+  - run OpenSearch first if a backend alternative is explored
+  - run Qdrant second only if OpenSearch is unconvincing
+  - do not broaden the spike to Weaviate or Vespa unless the earlier options
+    fail to produce a compelling path
+- The bounded OpenSearch backend spike has now been completed.
+  Result:
+  - retrieval-only behavior was competitive with the current control
+  - dev end-to-end quality improved slightly
+  - holdout end-to-end quality did not improve
+  - latency was materially worse on both splits
+  Decision:
+  - do not promote OpenSearch as the new primary backend
+  - treat the bounded OpenSearch spike as unconvincing
+  - if backend alternatives are revisited, move to the next planned spike
+    rather than relitigating the same like-for-like OpenSearch swap
+
 ## 2026-03-22
 
 - The new repo is a clean-room rebuild based on `feat-retrieval-expensive-methods-eval`
@@ -601,3 +866,24 @@ become the only place where rationale lives.
   - keep `inline_evidence_chat` as the mainline answer path
   - keep grounded `documents` only as a documented experimental branch, not as
     the promoted serving direction
+
+## 2026-04-04
+
+- The repo now has a broader diagnostic acceptance surface built from
+  low-context-authored cases rather than from iterative repo-local tuning.
+  Decision:
+  - keep `parity19` frozen as the optimization control surface
+  - keep `parity39` as the broader historical diagnostic bank
+  - add `acceptance49` as the next wider acceptance/debugging surface:
+    - `datasets/eval/parity/acceptance49_working.jsonl`
+    - `datasets/eval/dev/acceptance49_dev_draft.jsonl`
+    - `datasets/eval/holdout/acceptance49_holdout_draft.jsonl`
+  - source it from:
+    - `datasets/eval/manifests/acceptance49_blueprint.json`
+    - `datasets/eval/manifests/acceptance49_additions_batch1.json`
+    - `scripts/build_acceptance49_working.py`
+  Reason:
+  - the current failure pool is too small and too repetitive to drive the next
+    architectural decisions with confidence
+  - the new batch adds workflow, authority, exactness, source-boundary, and
+    cross-page synthesis coverage without mutating the frozen control

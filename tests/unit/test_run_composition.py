@@ -6,7 +6,17 @@ from bgrag.eval.run_composition import compose_eval_run, intervention_selected
 from bgrag.types import AnswerResult, EvalCase, EvalCaseResult, EvalRunResult
 
 
-def _case_result(case_id: str, *, recall: float, selected_path: str, seconds: float = 10.0) -> EvalCaseResult:
+def _case_result(
+    case_id: str,
+    *,
+    recall: float,
+    selected_path: str,
+    seconds: float = 10.0,
+    intervention_applied: bool | None = None,
+) -> EvalCaseResult:
+    raw_response = {"selected_path": selected_path}
+    if intervention_applied is not None:
+        raw_response["intervention_applied"] = intervention_applied
     return EvalCaseResult(
         case=EvalCase(id=case_id, question=f"Question {case_id}"),
         answer=AnswerResult(
@@ -14,7 +24,7 @@ def _case_result(case_id: str, *, recall: float, selected_path: str, seconds: fl
             answer_text=f"Answer {case_id}",
             strategy_name="baseline",
             model_name="command-a",
-            raw_response={"selected_path": selected_path},
+            raw_response=raw_response,
         ),
         judgment={
             "required_claim_recall": recall,
@@ -62,27 +72,35 @@ def _run(name: str, cases: list[EvalCaseResult]) -> EvalRunResult:
     )
 
 
-def test_intervention_selected_uses_selected_path() -> None:
+def test_intervention_selected_prefers_explicit_intervention_flag() -> None:
+    keep_case = _case_result("HR_001", recall=0.5, selected_path="rewrite_structured_contract", intervention_applied=False)
+    rewrite_case = _case_result("HR_002", recall=1.0, selected_path="baseline_keep", intervention_applied=True)
+
+    assert intervention_selected(keep_case, intervention_paths={"rewrite_structured_contract"}) is False
+    assert intervention_selected(rewrite_case, intervention_paths={"rewrite_structured_contract"}) is True
+
+
+def test_intervention_selected_falls_back_to_selected_path() -> None:
     keep_case = _case_result("HR_001", recall=0.5, selected_path="baseline_keep")
     rewrite_case = _case_result("HR_002", recall=1.0, selected_path="rewrite_structured_contract")
 
-    assert intervention_selected(keep_case) is False
-    assert intervention_selected(rewrite_case) is True
+    assert intervention_selected(keep_case, intervention_paths={"rewrite_structured_contract"}) is False
+    assert intervention_selected(rewrite_case, intervention_paths={"rewrite_structured_contract"}) is True
 
 
 def test_compose_eval_run_uses_candidate_only_for_intervened_cases() -> None:
     control_cases = [
-        _case_result("HR_001", recall=0.5, selected_path="inline_evidence_chat", seconds=10.0),
-        _case_result("HR_002", recall=0.4, selected_path="inline_evidence_chat", seconds=12.0),
+        _case_result("HR_001", recall=0.5, selected_path="inline_evidence_chat", seconds=10.0, intervention_applied=False),
+        _case_result("HR_002", recall=0.4, selected_path="inline_evidence_chat", seconds=12.0, intervention_applied=False),
     ]
     candidate_cases = [
-        _case_result("HR_001", recall=0.9, selected_path="rewrite_structured_contract", seconds=20.0),
-        _case_result("HR_002", recall=0.1, selected_path="baseline_keep", seconds=25.0),
+        _case_result("HR_001", recall=0.9, selected_path="rewrite_structured_contract", seconds=20.0, intervention_applied=True),
+        _case_result("HR_002", recall=0.1, selected_path="baseline_keep", seconds=25.0, intervention_applied=False),
     ]
     composite = compose_eval_run(
         control_run=_run("control", control_cases),
         candidate_run=_run("candidate", candidate_cases),
-        choose_candidate_case=intervention_selected,
+        choose_candidate_case=lambda case: intervention_selected(case, intervention_paths={"rewrite_structured_contract"}),
     )
 
     assert [case.case.id for case in composite.cases] == ["HR_001", "HR_002"]
@@ -98,13 +116,13 @@ def test_compose_eval_run_uses_candidate_only_for_intervened_cases() -> None:
 
 
 def test_compose_eval_run_tracks_non_selected_preserved_baseline_when_unchanged() -> None:
-    control_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
-    candidate_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep")
+    control_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep", intervention_applied=False)
+    candidate_case = _case_result("HR_003", recall=0.7, selected_path="baseline_keep", intervention_applied=False)
 
     composite = compose_eval_run(
         control_run=_run("control", [control_case]),
         candidate_run=_run("candidate", [candidate_case]),
-        choose_candidate_case=intervention_selected,
+        choose_candidate_case=lambda case: intervention_selected(case, intervention_paths={"rewrite_structured_contract"}),
     )
 
     composed_from = composite.run_manifest["composed_from"]
@@ -114,7 +132,7 @@ def test_compose_eval_run_tracks_non_selected_preserved_baseline_when_unchanged(
 
 
 def test_compose_eval_run_tracks_abstention_accuracy() -> None:
-    control_case = _case_result("HR_010", recall=1.0, selected_path="baseline_keep")
+    control_case = _case_result("HR_010", recall=1.0, selected_path="baseline_keep", intervention_applied=False)
     control_case.metrics["expect_abstain_annotated"] = True
     control_case.metrics["expect_abstain"] = True
     control_case.metrics["judge_answer_abstains"] = True
@@ -123,7 +141,7 @@ def test_compose_eval_run_tracks_abstention_accuracy() -> None:
     composite = compose_eval_run(
         control_run=_run("control", [control_case]),
         candidate_run=_run("candidate", [control_case]),
-        choose_candidate_case=intervention_selected,
+        choose_candidate_case=lambda case: intervention_selected(case, intervention_paths={"rewrite_structured_contract"}),
     )
 
     assert composite.overall_metrics["expect_abstain_annotated_case_count"] == 1
@@ -140,7 +158,7 @@ def test_compose_eval_run_rejects_mismatched_case_sets() -> None:
         compose_eval_run(
             control_run=control,
             candidate_run=candidate,
-            choose_candidate_case=intervention_selected,
+            choose_candidate_case=lambda case: intervention_selected(case, intervention_paths={"rewrite_structured_contract"}),
         )
 
 
@@ -153,5 +171,5 @@ def test_compose_eval_run_rejects_mismatched_eval_provenance() -> None:
         compose_eval_run(
             control_run=control,
             candidate_run=candidate,
-            choose_candidate_case=intervention_selected,
+            choose_candidate_case=lambda case: intervention_selected(case, intervention_paths={"rewrite_structured_contract"}),
         )

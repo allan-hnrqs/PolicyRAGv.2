@@ -1,0 +1,75 @@
+{
+  "name": "acceptance49_blueprint",
+  "status": "draft",
+  "description": "Expanded diagnostic acceptance surface built on parity39 plus a low-context authored batch to widen coverage without mutating the frozen control surfaces.",
+  "base_surface": "datasets/eval/parity/parity39_working.jsonl",
+  "current_case_count": 39,
+  "target_case_count": 49,
+  "new_case_slots": [
+    {
+      "id": "HR_040",
+      "coverage_bucket": "workflow_branch_or_deadline_consequence",
+      "split_target": "dev",
+      "rationale": "Reduces overreliance on simple minimum-period questions by adding the REOI follow-on timing window and prior-notice content test."
+    },
+    {
+      "id": "HR_041",
+      "coverage_bucket": "exactness_or_missing_detail",
+      "split_target": "holdout",
+      "rationale": "Adds threshold exactness plus a partial-abstention trap around a non-specified numeric day count."
+    },
+    {
+      "id": "HR_042",
+      "coverage_bucket": "exactness_or_missing_detail",
+      "split_target": "dev",
+      "rationale": "Adds a hallucination-resistant controlled-goods contact-detail case anchored to what the page itself does and does not provide."
+    },
+    {
+      "id": "HR_043",
+      "coverage_bucket": "support_boundary_and_authority",
+      "split_target": "holdout",
+      "rationale": "Adds an authoritative-role split case where the TBS directive, not the Buy Canadian overview page, controls."
+    },
+    {
+      "id": "HR_044",
+      "coverage_bucket": "cross_page_operational_synthesis",
+      "split_target": "dev",
+      "rationale": "Adds a complex approval-sequencing case spanning changed complexity, changed risk, evaluation review, and delegation."
+    },
+    {
+      "id": "HR_045",
+      "coverage_bucket": "cross_page_operational_synthesis",
+      "split_target": "holdout",
+      "rationale": "Adds PSIB plus CLCA plus ISC audit sequencing, which broadens the Indigenous procurement surface materially."
+    },
+    {
+      "id": "HR_046",
+      "coverage_bucket": "support_boundary_and_authority",
+      "split_target": "dev",
+      "rationale": "Adds emergency-contracting authority hierarchy, trade-agreement exceptions, reporting, and ratification in one question."
+    },
+    {
+      "id": "HR_047",
+      "coverage_bucket": "cross_page_operational_synthesis",
+      "split_target": "holdout",
+      "rationale": "Adds mandatory standing-offer/supply-arrangement use with a CLCA exception and a new-procurement fallback."
+    },
+    {
+      "id": "HR_048",
+      "coverage_bucket": "support_boundary_and_authority",
+      "split_target": "holdout",
+      "rationale": "Adds a restricted-source boundary case for Buy Canadian operative detail without phrasing the question in repo-internal language."
+    },
+    {
+      "id": "HR_049",
+      "coverage_bucket": "navigation_to_detail",
+      "split_target": "dev",
+      "rationale": "Adds a source-handoff and timing case for reciprocal procurement declarations that is easy to answer incorrectly from the high-level policy page."
+    }
+  ],
+  "notes": [
+    "The parity19 control remains frozen and is still the canonical optimization control surface.",
+    "This surface is for broader diagnostic coverage and later promotion work, not for replacing the control surface.",
+    "The new cases were drafted from the local corpus snapshot plus live official-site structure awareness, with low-context subagent assistance to reduce benchmark contamination."
+  ]
+}

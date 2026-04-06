@@ -1,0 +1,40 @@
+name: baseline_vector_rerank_shortlist_selective_authority_reserve
+description: >
+  Buyer’s Guide-first hybrid retrieval using Elasticsearch lexical + kNN,
+  followed by bounded Cohere reranking over the fused shortlist with an
+  early reserved support-page slot only for authority or source-boundary style
+  questions when a higher-authority support chunk is actually present.
+collection_strategy: default_web_collect
+retrieval:
+  source_topology: bg_primary_selective_authority_reserve
+  retrieval_mode: hybrid_es_rerank
+  dense_retrieval_backend: elasticsearch_knn
+  top_k: 16
+  candidate_k: 48
+  retrieval_alpha: 0.7
+  rerank_top_n: 48
+  es_knn_num_candidates: 120
+  enable_mmr_diversity: false
+  mmr_lambda: 0.75
+  enable_query_decomposition: true
+  max_expanded_queries: 2
+  per_query_candidate_k: 24
+  query_fusion_rrf_k: 60
+  enable_parallel_query_branches: false
+chunking:
+  chunker: section_chunker
+  metadata_enrichers:
+    - authority_metadata
+    - lineage_metadata
+    - source_topology_metadata
+  sliding_window_chars: 1200
+  sliding_window_overlap: 200
+answering:
+  strategy: inline_evidence_chat
+  max_packed_docs: 24
+  max_doc_chars: 1600
+  model_name: command-a-03-2025
+evaluation:
+  suite_name: parity_19
+  judge_model: command-a-03-2025
+  chat_temperature: 0.0

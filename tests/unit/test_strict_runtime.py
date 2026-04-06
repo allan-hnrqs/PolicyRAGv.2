@@ -7,8 +7,17 @@ import pytest
 import bgrag.pipeline as pipeline
 from bgrag.config import Settings
 from bgrag.pipeline import build_answer_callback, run_build_index
-from bgrag.retrieval.retriever import HybridRetriever
-from bgrag.types import AnswerResult, ChunkRecord, EvidenceBundle, NormalizedDocument, SourceFamily, SourceGraph
+from bgrag.retrieval.retriever import HybridRetriever, _format_rerank_document
+from bgrag.types import (
+    AnswerResult,
+    ChunkRecord,
+    EvidenceBundle,
+    NormalizedDocument,
+    RetrievalAssessment,
+    RetrievalCandidate,
+    SourceFamily,
+    SourceGraph,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
@@ -66,8 +75,8 @@ def test_build_index_indexes_vectors_into_elasticsearch(monkeypatch: pytest.Monk
         lambda profile_name, settings: SimpleNamespace(retrieval=SimpleNamespace(source_topology="bg_primary_support_fallback")),
     )
     monkeypatch.setattr(pipeline, "read_chunks", lambda path: [chunk])
-    monkeypatch.setattr(pipeline, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(pipeline, "require_es_available", lambda elastic, url: None)
+    monkeypatch.setattr(pipeline, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(pipeline, "require_search_available", lambda client, settings, backend: None)
     monkeypatch.setattr(
         pipeline,
         "derive_index_namespace",
@@ -88,15 +97,16 @@ def test_build_index_indexes_vectors_into_elasticsearch(monkeypatch: pytest.Monk
 
     monkeypatch.setattr(pipeline, "CohereEmbedder", _FakeEmbedder)
 
-    def _capture_index_chunks(elastic, chunks, namespace, *, embeddings=None):
+    def _capture_index_chunks(elastic, chunks, namespace, *, embeddings=None, backend=None):
         captured["index_chunks"] = {
             "elastic": elastic,
             "chunks": chunks,
             "namespace": namespace,
             "embeddings": embeddings,
+            "backend": backend,
         }
 
-    monkeypatch.setattr(pipeline, "index_chunks", _capture_index_chunks)
+    monkeypatch.setattr(pipeline, "index_chunks_for_backend", _capture_index_chunks)
 
     stats = run_build_index(settings, "baseline")
 
@@ -104,6 +114,7 @@ def test_build_index_indexes_vectors_into_elasticsearch(monkeypatch: pytest.Monk
     assert captured["vectors"] == {chunk.chunk_id: [0.1, 0.2]}
     assert captured["index_chunks"]["namespace"] == "phase1_test_namespace"
     assert captured["index_chunks"]["embeddings"] == {chunk.chunk_id: [0.1, 0.2]}
+    assert captured["index_chunks"]["backend"] == "elasticsearch"
 
 
 def test_lexical_search_requires_elasticsearch() -> None:
@@ -116,7 +127,7 @@ def test_lexical_search_requires_elasticsearch() -> None:
 def test_retrieve_requires_embedding_store() -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     retriever = HybridRetriever(settings, elastic=None)
-    with pytest.raises(RuntimeError, match="populated chunk embedding store"):
+    with pytest.raises(RuntimeError, match="requires a populated chunk embedding store"):
         retriever.retrieve(
             question="buyer question",
             chunks=[_chunk()],
@@ -129,11 +140,89 @@ def test_retrieve_requires_embedding_store() -> None:
         )
 
 
+def test_retrieve_es_knn_path_does_not_require_embedding_store() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+
+    class _EsOnlyRetriever(HybridRetriever):
+        def lexical_search(self, question: str, chunks: list[ChunkRecord], top_k: int, **kwargs) -> dict[str, float]:
+            del question, top_k, kwargs
+            return {chunks[0].chunk_id: 0.4}
+
+        def vector_search(
+            self,
+            query_embedding,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            num_candidates: int,
+            allowed_chunk_ids=None,
+        ) -> dict[str, float]:
+            del query_embedding, top_k, num_candidates, allowed_chunk_ids
+            return {chunks[0].chunk_id: 0.9}
+
+    retriever = _EsOnlyRetriever(settings, elastic=object())
+    evidence = retriever.retrieve(
+        question="buyer question",
+        chunks=[_chunk()],
+        query_embedding=[0.1, 0.2],
+        chunk_embeddings=None,
+        source_topology="unified_source_hybrid",
+        top_k=1,
+        candidate_k=1,
+        retrieval_alpha=0.7,
+        dense_retrieval_backend="elasticsearch_knn",
+        rerank_top_n=0,
+    )
+
+    assert [chunk.chunk_id for chunk in evidence.packed_chunks] == ["bg1"]
+    assert [candidate.chunk.chunk_id for candidate in evidence.raw_shortlist] == ["bg1"]
+
+
+def test_ranked_passthrough_preserves_cross_family_rank_order() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    bg = _chunk("bg1")
+    support = _chunk("bc1").model_copy(update={"source_family": SourceFamily.BUY_CANADIAN_POLICY})
+
+    class _RankedRetriever(HybridRetriever):
+        def lexical_search(self, question: str, chunks: list[ChunkRecord], top_k: int, **kwargs) -> dict[str, float]:
+            del question, top_k, kwargs
+            return {bg.chunk_id: 0.1, support.chunk_id: 0.9}
+
+        def vector_search(
+            self,
+            query_embedding,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            num_candidates: int,
+            allowed_chunk_ids=None,
+        ) -> dict[str, float]:
+            del query_embedding, top_k, num_candidates, allowed_chunk_ids
+            return {bg.chunk_id: 0.1, support.chunk_id: 0.9}
+
+    retriever = _RankedRetriever(settings, elastic=object())
+    evidence = retriever.retrieve(
+        question="buyer question",
+        chunks=[bg, support],
+        query_embedding=[0.1, 0.2],
+        chunk_embeddings=None,
+        source_topology="ranked_passthrough",
+        top_k=2,
+        candidate_k=2,
+        retrieval_alpha=0.7,
+        dense_retrieval_backend="elasticsearch_knn",
+        rerank_top_n=0,
+    )
+
+    assert [candidate.chunk.chunk_id for candidate in evidence.raw_shortlist] == ["bc1", "bg1"]
+    assert [chunk.chunk_id for chunk in evidence.packed_chunks] == ["bc1", "bg1"]
+
+
 def test_build_answer_callback_requires_complete_embedding_store(monkeypatch: pytest.MonkeyPatch) -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     monkeypatch.setattr(pipeline, "load_index_manifest", lambda settings, namespace=None: {"namespace": "test"})
     monkeypatch.setattr(pipeline, "read_embedding_store", lambda path: {})
-    with pytest.raises(RuntimeError, match="populated embedding store"):
+    with pytest.raises(RuntimeError, match="requires a populated embedding store"):
         build_answer_callback(settings, "baseline", chunks=[_chunk()])
 
 
@@ -141,8 +230,116 @@ def test_build_answer_callback_rejects_partial_embedding_store(monkeypatch: pyte
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     monkeypatch.setattr(pipeline, "load_index_manifest", lambda settings, namespace=None: {"namespace": "test"})
     monkeypatch.setattr(pipeline, "read_embedding_store", lambda path: {"other": [0.1, 0.2]})
-    with pytest.raises(RuntimeError, match="embeddings for every loaded chunk"):
+    with pytest.raises(RuntimeError, match="requires embeddings for every loaded chunk"):
         build_answer_callback(settings, "baseline", chunks=[_chunk()])
+
+
+def test_build_answer_callback_allows_es_knn_without_embedding_store(monkeypatch: pytest.MonkeyPatch) -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    chunk = _chunk()
+    profile = SimpleNamespace(
+        answering=SimpleNamespace(strategy="inline_evidence_chat", max_packed_docs=4),
+        retrieval=SimpleNamespace(
+            enable_query_decomposition=False,
+            max_expanded_queries=0,
+            source_topology="unified_source_hybrid",
+            top_k=1,
+            candidate_k=1,
+            retrieval_mode="hybrid_es_rerank",
+            retrieval_alpha=0.7,
+            rerank_top_n=0,
+            dense_retrieval_backend="elasticsearch_knn",
+            es_knn_num_candidates=8,
+            enable_mmr_diversity=False,
+            mmr_lambda=0.75,
+            enable_ranked_chunk_diversity=False,
+            diversity_cover_fraction=0.5,
+            max_chunks_per_document=8,
+            max_chunks_per_heading=4,
+            seed_chunks_per_heading=2,
+            query_fusion_rrf_k=60,
+            per_query_candidate_k=1,
+            enable_parallel_query_branches=False,
+            enable_page_intro_expansion=False,
+            page_intro_candidate_k=0,
+            page_intro_max_order=0,
+            enable_document_context_expansion=False,
+            document_context_seed_docs=0,
+            document_context_candidate_k=0,
+            document_context_neighbor_docs=0,
+            enable_structural_context_augmentation=False,
+            structural_context_seed_docs=0,
+            structural_context_intro_max_order=0,
+            structural_context_same_heading_k=0,
+            structural_context_nearby_k=0,
+            structural_context_nearby_window=0,
+            structural_context_neighbor_docs=0,
+            enable_document_seed_retrieval=False,
+            document_seed_ranking_mode="intro_pool",
+            document_seed_scope="corpus",
+            document_seed_scope_docs=0,
+            document_seed_docs=0,
+            document_seed_intro_max_order=0,
+            document_seed_intro_chunks=0,
+            document_seed_candidate_k=0,
+            document_seed_max_chars=0,
+            enable_retrieval_mode_selection=False,
+        ),
+    )
+
+    monkeypatch.setattr(pipeline, "load_profile", lambda profile_name, settings: profile)
+    monkeypatch.setattr(pipeline, "load_index_manifest", lambda settings, namespace=None: {"namespace": "test"})
+    monkeypatch.setattr(pipeline, "read_embedding_store", lambda path: {})
+    monkeypatch.setattr(pipeline, "read_normalized_documents", lambda path: [])
+    monkeypatch.setattr(pipeline, "build_runtime_settings", lambda settings, profile: settings)
+    monkeypatch.setattr(pipeline, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(pipeline, "require_search_available", lambda client, settings, backend: None)
+    monkeypatch.setattr(
+        pipeline,
+        "answer_strategy_registry",
+        SimpleNamespace(
+            get=lambda name: (
+                lambda settings, question, evidence, *, persona=None: AnswerResult(
+                    question=question,
+                    answer_text="answer",
+                    strategy_name=name,
+                    model_name="command-a-03-2025",
+                    evidence_bundle=evidence,
+                )
+            )
+        ),
+    )
+
+    class _StubEmbedder:
+        def __init__(self, settings: Settings) -> None:
+            del settings
+
+        def embed_texts(self, texts, input_type="search_query"):
+            del texts, input_type
+            return [[0.1, 0.2]]
+
+    class _StubRetriever:
+        def __init__(self, *args, **kwargs) -> None:
+            pass
+
+        def retrieve(self, **kwargs):
+            assert kwargs["chunk_embeddings"] == {}
+            return EvidenceBundle(
+                query=kwargs["question"],
+                raw_shortlist=[RetrievalCandidate(chunk=chunk)],
+                selected_candidates=[RetrievalCandidate(chunk=chunk)],
+                candidates=[RetrievalCandidate(chunk=chunk)],
+                packed_chunks=[chunk],
+            )
+
+    monkeypatch.setattr(pipeline, "CohereEmbedder", _StubEmbedder)
+    monkeypatch.setattr(pipeline, "HybridRetriever", _StubRetriever)
+
+    answer_callback = build_answer_callback(settings, "baseline_vector", chunks=[chunk])
+    result = answer_callback(SimpleNamespace(question="buyer question"))
+
+    assert result.evidence_bundle is not None
+    assert [packed.chunk_id for packed in result.evidence_bundle.packed_chunks] == [chunk.chunk_id]
 
 
 def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pytest.MonkeyPatch) -> None:
@@ -213,8 +410,8 @@ def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pyt
     monkeypatch.setattr(pipeline, "load_index_manifest", lambda settings, namespace=None: {"namespace": "test"})
     monkeypatch.setattr(pipeline, "read_embedding_store", lambda path: {chunk.chunk_id: [1.0, 0.0]})
     monkeypatch.setattr(pipeline, "read_normalized_documents", lambda path: [])
-    monkeypatch.setattr(pipeline, "build_es_client", lambda settings: object())
-    monkeypatch.setattr(pipeline, "require_es_available", lambda elastic, url: None)
+    monkeypatch.setattr(pipeline, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(pipeline, "require_search_available", lambda client, settings, backend: None)
 
     class _FakeEmbedder:
         def __init__(self, settings: Settings) -> None:
@@ -225,8 +422,8 @@ def test_build_answer_callback_can_select_page_family_expansion(monkeypatch: pyt
             return [[1.0, 0.0]]
 
     class _FakeRetriever:
-        def __init__(self, settings: Settings, elastic=None, index_namespace=None, documents=None) -> None:
-            del settings, elastic, index_namespace, documents
+        def __init__(self, settings: Settings, elastic=None, index_namespace=None, documents=None, search_backend=None) -> None:
+            del settings, elastic, index_namespace, documents, search_backend
 
         def retrieve(self, **kwargs):
             retrieval_calls.append(bool(kwargs["enable_document_seed_retrieval"]))
@@ -338,6 +535,68 @@ def test_retrieve_can_use_elasticsearch_knn_backend_and_records_stage_timings() 
     }
 
 
+def test_opensearch_lexical_search_uses_body_query_shape() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    chunk = _chunk("bg1")
+    captured: dict[str, object] = {}
+
+    class _Indices:
+        def exists(self, index: str) -> bool:
+            captured["index"] = index
+            return True
+
+    class _Client:
+        def __init__(self) -> None:
+            self.indices = _Indices()
+
+        def search(self, *, index, body):
+            captured["search_index"] = index
+            captured["body"] = body
+            return {"hits": {"hits": [{"_id": chunk.chunk_id, "_score": 3.5}]}}
+
+    retriever = HybridRetriever(settings, elastic=_Client(), search_backend="opensearch")
+    scores = retriever.lexical_search("buyer question", chunks=[chunk], top_k=5)
+
+    assert scores == {chunk.chunk_id: 3.5}
+    assert captured["search_index"] == "bgrag_chunks_default_buyers_guide"
+    assert captured["body"]["size"] == 5
+    assert captured["body"]["query"]["multi_match"]["query"] == "buyer question"
+
+
+def test_opensearch_vector_search_uses_knn_query_body_shape() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    chunk = _chunk("bg1")
+    captured: dict[str, object] = {}
+
+    class _Indices:
+        def exists(self, index: str) -> bool:
+            captured["index"] = index
+            return True
+
+    class _Client:
+        def __init__(self) -> None:
+            self.indices = _Indices()
+
+        def search(self, *, index, body):
+            captured["search_index"] = index
+            captured["body"] = body
+            return {"hits": {"hits": [{"_id": chunk.chunk_id, "_score": 0.95}]}}
+
+    retriever = HybridRetriever(settings, elastic=_Client(), search_backend="opensearch")
+    scores = retriever.vector_search(
+        [0.1, 0.2],
+        chunks=[chunk],
+        top_k=4,
+        num_candidates=12,
+    )
+
+    assert chunk.chunk_id in scores
+    assert captured["search_index"] == "bgrag_chunks_default_buyers_guide"
+    assert captured["body"]["size"] == 4
+    assert captured["body"]["query"]["knn"]["embedding"]["k"] == 4
+    assert captured["body"]["query"]["knn"]["embedding"]["vector"] == [0.1, 0.2]
+
+
 def test_rerank_top_n_zero_does_not_call_rerank() -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
 
@@ -377,6 +636,62 @@ def test_rerank_top_n_zero_does_not_call_rerank() -> None:
 
     assert evidence.timings["rerank_seconds"] == 0.0
     assert "cohere_rerank_applied" not in evidence.notes
+
+
+def test_shortlist_rerank_uses_structured_rerank_documents() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+
+    class _FakeRerankClient:
+        def __init__(self) -> None:
+            self.calls: list[dict[str, object]] = []
+
+        def rerank(self, *, model: str, query: str, documents: list[str], top_n: int):
+            self.calls.append(
+                {
+                    "model": model,
+                    "query": query,
+                    "documents": list(documents),
+                    "top_n": top_n,
+                }
+            )
+
+            class _Result:
+                def __init__(self, index: int, relevance_score: float) -> None:
+                    self.index = index
+                    self.relevance_score = relevance_score
+
+            class _Response:
+                def __init__(self) -> None:
+                    self.results = [_Result(1, 0.9), _Result(0, 0.4)]
+
+            return _Response()
+
+    retriever = HybridRetriever(settings, elastic=None)
+    fake_client = _FakeRerankClient()
+    retriever.rerank_client = fake_client
+    first = RetrievalCandidate(chunk=_chunk("bg1"), blended_score=0.7)
+    second = RetrievalCandidate(
+        chunk=_chunk("bg2").model_copy(
+            update={
+                "heading": "Deep rule",
+                "heading_path": ["Workflow A", "Deep rule"],
+                "canonical_url": "https://example.com/workflow/a",
+                "text": "Line one.\nLine two.",
+            }
+        ),
+        blended_score=0.6,
+    )
+
+    reranked = retriever.rerank("buyer question", [first, second], top_n=2)
+
+    assert fake_client.calls
+    documents = fake_client.calls[0]["documents"]
+    assert isinstance(documents, list)
+    assert "title: bg1" in documents[0]
+    assert "text: |" in documents[0]
+    assert "heading_path: Workflow A > Deep rule" in documents[1]
+    assert reranked[0].chunk.chunk_id == "bg2"
+    assert reranked[0].rerank_score == 0.9
 
 
 def test_parallel_query_branches_can_run_off_main_thread() -> None:
@@ -931,6 +1246,95 @@ def test_document_rerank_seed_can_scope_to_local_graph() -> None:
     assert "doc_c__section__0" not in packed_ids
 
 
+def test_format_rerank_document_includes_chunk_metadata() -> None:
+    chunk = _chunk("bg1").model_copy(
+        update={
+            "heading": "Deep rule",
+            "heading_path": ["Workflow A", "Deep rule"],
+            "canonical_url": "https://example.com/workflow/a",
+            "text": "Line one.\nLine two.",
+        }
+    )
+
+    rendered = _format_rerank_document(chunk)
+
+    assert "title: bg1" in rendered
+    assert "heading: Deep rule" in rendered
+    assert "heading_path: Workflow A > Deep rule" in rendered
+    assert "source_family: buyers_guide" in rendered
+    assert "canonical_url: https://example.com/workflow/a" in rendered
+    assert "text: |" in rendered
+    assert "  Line one." in rendered
+    assert "  Line two." in rendered
+
+
+def test_retrieve_can_use_rerank_all_corpus_mode_without_lexical_or_dense_search() -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+
+    class _FullCorpusRerankSpyRetriever(HybridRetriever):
+        def __init__(self, settings: Settings) -> None:
+            super().__init__(settings, elastic=object())
+            self.calls: list[tuple[str, int, list[str]]] = []
+
+        def lexical_search(
+            self,
+            question: str,
+            chunks: list[ChunkRecord],
+            top_k: int,
+            *,
+            allowed_chunk_ids: set[str] | None = None,
+        ) -> dict[str, float]:
+            del question, chunks, top_k, allowed_chunk_ids
+            raise AssertionError("lexical_search should not run in rerank_all_corpus mode")
+
+        def dense_search(
+            self,
+            *,
+            query_embedding,
+            chunks: list[ChunkRecord],
+            chunk_embeddings,
+            top_k: int,
+            dense_retrieval_backend: str,
+            es_knn_num_candidates: int,
+            allowed_chunk_ids: set[str] | None = None,
+        ) -> dict[str, float]:
+            del query_embedding, chunks, chunk_embeddings, top_k, dense_retrieval_backend, es_knn_num_candidates, allowed_chunk_ids
+            raise AssertionError("dense_search should not run in rerank_all_corpus mode")
+
+        def rerank_all_corpus(self, question: str, chunks: list[ChunkRecord], top_n: int) -> list[RetrievalCandidate]:
+            self.calls.append((question, top_n, [chunk.chunk_id for chunk in chunks]))
+            return [
+                RetrievalCandidate(chunk=chunks[1], rerank_score=0.91, blended_score=0.91),
+                RetrievalCandidate(chunk=chunks[0], rerank_score=0.74, blended_score=0.74),
+            ]
+
+    retriever = _FullCorpusRerankSpyRetriever(settings)
+    chunks = [_chunk("bg1"), _chunk("bg2"), _chunk("bg3")]
+    embeddings = {chunk.chunk_id: [1.0, 0.0] for chunk in chunks}
+
+    evidence = retriever.retrieve(
+        question="buyer question",
+        chunks=chunks,
+        query_embedding=[1.0, 0.0],
+        chunk_embeddings=embeddings,
+        source_topology="bg_primary_support_fallback",
+        top_k=2,
+        candidate_k=2,
+        retrieval_mode="rerank_all_corpus",
+        retrieval_alpha=0.7,
+        rerank_top_n=0,
+    )
+
+    assert retriever.calls == [("buyer question", 2, ["bg1", "bg2", "bg3"])]
+    assert [candidate.chunk.chunk_id for candidate in evidence.candidates] == ["bg2", "bg1"]
+    assert [chunk.chunk_id for chunk in evidence.packed_chunks] == ["bg2", "bg1"]
+    assert "full_corpus_rerank_retrieval_applied" in evidence.notes
+    assert evidence.timings["lexical_search_seconds"] == 0.0
+    assert evidence.timings["vector_search_seconds"] == 0.0
+    assert evidence.timings["candidate_fusion_seconds"] == 0.0
+    assert evidence.timings["rerank_seconds"] >= 0.0
+
+
 def test_document_rerank_seed_can_scope_to_local_lineage_only() -> None:
     settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
     parent_url = "https://example.com/workflow"
@@ -1015,3 +1419,144 @@ def test_document_rerank_seed_can_scope_to_local_lineage_only() -> None:
     packed_ids = {chunk.chunk_id for chunk in evidence.packed_chunks}
     assert "doc_b__section__0" in packed_ids
     assert "doc_c__section__0" not in packed_ids
+
+
+def test_build_answer_callback_hybrid_retry_trigger_can_force_one_indexed_retry(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    settings = Settings(project_root=REPO_ROOT, cohere_api_key="test-key")
+    chunk = _chunk("doc_a__section__0").model_copy(
+        update={
+            "doc_id": "doc_a",
+            "canonical_url": "https://example.com/doc_a",
+            "heading": "Intro",
+            "heading_path": ["Workflow", "Intro"],
+        }
+    )
+    sibling = _chunk("doc_b__section__0").model_copy(
+        update={
+            "doc_id": "doc_b",
+            "canonical_url": "https://example.com/doc_b",
+            "heading": "Rule",
+            "heading_path": ["Workflow", "Rule"],
+        }
+    )
+    raw_shortlist = [
+        RetrievalCandidate(chunk=chunk),
+        RetrievalCandidate(chunk=sibling),
+        RetrievalCandidate(chunk=_chunk("doc_c__section__0").model_copy(update={"doc_id": "doc_c", "heading": "A"})),
+        RetrievalCandidate(chunk=_chunk("doc_d__section__0").model_copy(update={"doc_id": "doc_d", "heading": "B"})),
+        RetrievalCandidate(chunk=_chunk("doc_e__section__0").model_copy(update={"doc_id": "doc_e", "heading": "C"})),
+        RetrievalCandidate(chunk=_chunk("doc_f__section__0").model_copy(update={"doc_id": "doc_f", "heading": "D"})),
+        RetrievalCandidate(chunk=_chunk("doc_g__section__0").model_copy(update={"doc_id": "doc_g", "heading": "E"})),
+        RetrievalCandidate(chunk=_chunk("doc_h__section__0").model_copy(update={"doc_id": "doc_h", "heading": "F"})),
+    ]
+    first_bundle = EvidenceBundle(
+        query="workflow question",
+        raw_shortlist=raw_shortlist,
+        selected_candidates=raw_shortlist,
+        candidates=raw_shortlist,
+        packed_chunks=[chunk, chunk.model_copy(update={"chunk_id": "doc_a__section__1"})],
+    )
+    second_bundle = EvidenceBundle(
+        query="workflow question",
+        raw_shortlist=[RetrievalCandidate(chunk=chunk), RetrievalCandidate(chunk=sibling)],
+        selected_candidates=[RetrievalCandidate(chunk=chunk), RetrievalCandidate(chunk=sibling)],
+        candidates=[RetrievalCandidate(chunk=chunk), RetrievalCandidate(chunk=sibling)],
+        packed_chunks=[chunk, sibling],
+    )
+    retrieval_calls: list[tuple[int, int, int]] = []
+    assessments = [
+        RetrievalAssessment(
+            sufficient_for_answer=False,
+            coverage_risk="high",
+            exactness_risk="low",
+            support_conflict=False,
+            recommended_next_step="answer",
+        ),
+        RetrievalAssessment(
+            sufficient_for_answer=True,
+            coverage_risk="low",
+            exactness_risk="low",
+            support_conflict=False,
+            recommended_next_step="answer",
+        ),
+    ]
+
+    monkeypatch.setattr(pipeline, "load_index_manifest", lambda settings, namespace=None: {"namespace": "test"})
+    monkeypatch.setattr(pipeline, "read_embedding_store", lambda path: {})
+    monkeypatch.setattr(pipeline, "read_normalized_documents", lambda path: [])
+    monkeypatch.setattr(pipeline, "build_runtime_settings", lambda settings, profile: settings)
+    monkeypatch.setattr(pipeline, "build_search_client", lambda settings, backend: object())
+    monkeypatch.setattr(pipeline, "require_search_available", lambda client, settings, backend: None)
+    monkeypatch.setattr(
+        pipeline,
+        "answer_strategy_registry",
+        SimpleNamespace(
+            get=lambda name: (
+                lambda settings, question, evidence, *, persona=None: AnswerResult(
+                    question=question,
+                    answer_text="final answer",
+                    strategy_name=name,
+                    model_name="command-a-03-2025",
+                    evidence_bundle=evidence,
+                )
+            )
+        ),
+    )
+
+    class _StubEmbedder:
+        def __init__(self, settings: Settings) -> None:
+            del settings
+
+        def embed_texts(self, texts, input_type="search_query"):
+            del texts, input_type
+            return [[0.1, 0.2]]
+
+    class _StubRetriever:
+        def __init__(self, *args, **kwargs) -> None:
+            self.call_index = 0
+
+        def retrieve(self, **kwargs):
+            retrieval_calls.append(
+                (
+                    kwargs["candidate_k"],
+                    kwargs["rerank_top_n"],
+                    kwargs["per_query_candidate_k"],
+                )
+            )
+            bundle = first_bundle if self.call_index == 0 else second_bundle
+            self.call_index += 1
+            return bundle.model_copy(deep=True)
+
+    def _fake_assess_retrieval(*args, **kwargs):
+        del args, kwargs
+        return assessments.pop(0)
+
+    monkeypatch.setattr(pipeline, "CohereEmbedder", _StubEmbedder)
+    monkeypatch.setattr(pipeline, "HybridRetriever", _StubRetriever)
+    monkeypatch.setattr(
+        pipeline,
+        "CohereQueryExpander",
+        lambda settings: SimpleNamespace(expand=lambda question, max_queries: []),
+    )
+    monkeypatch.setattr(pipeline, "assess_retrieval", _fake_assess_retrieval)
+
+    answer_callback = build_answer_callback(
+        settings,
+        "baseline_vector_rerank_shortlist_hybrid_retry",
+        chunks=[chunk, sibling],
+    )
+    result = answer_callback(SimpleNamespace(question="What happens if the workflow branch changes?"))
+
+    assert retrieval_calls == [(48, 48, 24), (64, 64, 32)]
+    assert result.serve_trace is not None
+    assert result.serve_trace.serve_mode == "indexed_retry"
+    assert result.serve_trace.escalation_decision == "answer"
+    assert result.serve_trace.retry_retrieval_assessment is not None
+    assert result.serve_trace.retry_policy is not None
+    assert result.serve_trace.retry_policy["recommended_next_step"] == "answer"
+    assert result.serve_trace.retrieval_stats["initial_raw_shortlist_count"] == 8
+    assert result.serve_trace.retrieval_stats["initial_packed_count"] == 2
+    assert result.evidence_bundle is not None
+    assert [packed.chunk_id for packed in result.evidence_bundle.packed_chunks] == [chunk.chunk_id, sibling.chunk_id]

@@ -1,3 +1,4 @@
+import bgrag.indexing.elastic as elastic_indexing
 from bgrag.indexing.elastic import DEFAULT_BULK_CHUNK_SIZE, index_chunks
 from bgrag.types import ChunkRecord, SourceFamily
 
@@ -23,11 +24,6 @@ class _FakeIndices:
 class _FakeClient:
     def __init__(self) -> None:
         self.indices = _FakeIndices()
-        self.bulk_batches: list[list[dict[str, object]]] = []
-
-    def bulk(self, operations: list[dict[str, object]], refresh: bool) -> None:
-        assert refresh is False
-        self.bulk_batches.append(list(operations))
 
 
 def _chunk(chunk_id: str) -> ChunkRecord:
@@ -44,15 +40,28 @@ def _chunk(chunk_id: str) -> ChunkRecord:
     )
 
 
-def test_index_chunks_batches_bulk_operations() -> None:
+def test_index_chunks_uses_bulk_helper(monkeypatch) -> None:
     client = _FakeClient()
     chunks = [_chunk(f"chunk_{index}") for index in range(DEFAULT_BULK_CHUNK_SIZE + 1)]
+    captured: dict[str, object] = {}
+
+    def _fake_bulk(client_arg, actions, chunk_size: int, refresh: bool) -> tuple[int, list[object]]:
+        captured["client"] = client_arg
+        captured["actions"] = list(actions)
+        captured["chunk_size"] = chunk_size
+        captured["refresh"] = refresh
+        return len(captured["actions"]), []
+
+    monkeypatch.setattr(elastic_indexing, "bulk", _fake_bulk)
 
     index_chunks(client, chunks, namespace="baseline_ns")
 
-    assert len(client.bulk_batches) == 2
-    assert len(client.bulk_batches[0]) == DEFAULT_BULK_CHUNK_SIZE * 2
-    assert len(client.bulk_batches[1]) == 2
+    assert captured["client"] is client
+    assert captured["chunk_size"] == DEFAULT_BULK_CHUNK_SIZE
+    assert captured["refresh"] is False
+    assert len(captured["actions"]) == DEFAULT_BULK_CHUNK_SIZE + 1
+    assert captured["actions"][0]["_id"] == "chunk_0"
+    assert captured["actions"][0]["_index"] == "bgrag_chunks_baseline_ns_buyers_guide"
     assert client.indices.settings_by_index["bgrag_chunks_baseline_ns_buyers_guide"] == {
         "number_of_shards": 1,
         "number_of_replicas": 0,

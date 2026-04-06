@@ -6,7 +6,8 @@ from pathlib import Path
 import _bootstrap  # noqa: F401
 
 from bgrag.config import Settings, detect_project_root
-from bgrag.official_site_baseline import (
+from bgrag.benchmarks.official_site import (
+    OfficialSiteBrowseBudget,
     run_official_site_baseline_eval,
     write_official_site_baseline_artifacts,
 )
@@ -33,12 +34,15 @@ def main() -> None:
     project_root = detect_project_root(Path.cwd())
     settings = Settings(project_root=project_root)
     settings.ensure_directories()
+    budget = OfficialSiteBrowseBudget(
+        max_live_pages=args.max_live_pages,
+        max_live_chunks=args.max_live_chunks,
+    )
     run = run_official_site_baseline_eval(
         settings,
         eval_path=args.eval,
         answer_profile_name=args.answer_profile,
-        max_live_pages=args.max_live_pages,
-        max_live_chunks=args.max_live_chunks,
+        budget=budget,
         case_limit=args.limit,
     )
     json_path, md_path = write_official_site_baseline_artifacts(settings, run)

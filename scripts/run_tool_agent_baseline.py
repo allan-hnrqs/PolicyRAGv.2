@@ -6,7 +6,11 @@ from pathlib import Path
 import _bootstrap  # noqa: F401
 
 from bgrag.config import Settings, detect_project_root
-from bgrag.tool_agent_baseline import run_tool_agent_baseline_eval, write_tool_agent_baseline_artifacts
+from bgrag.benchmarks.tool_agent import (
+    ToolAgentBudget,
+    run_tool_agent_baseline_eval,
+    write_tool_agent_baseline_artifacts,
+)
 
 
 def main() -> None:
@@ -22,22 +26,33 @@ def main() -> None:
         default="baseline_vector",
         help="Answer profile to reuse for final answering.",
     )
+    parser.add_argument(
+        "--indexed-tool-profile",
+        default=None,
+        help="Optional profile to expose as an indexed retrieval tool to the agent.",
+    )
     parser.add_argument("--max-steps", type=int, default=5)
     parser.add_argument("--max-live-pages", type=int, default=6)
     parser.add_argument("--max-live-chunks", type=int, default=24)
+    parser.add_argument("--max-indexed-chunks", type=int, default=16)
     parser.add_argument("--limit", type=int, default=0, help="Optional case limit for smoke runs.")
     args = parser.parse_args()
 
     project_root = detect_project_root(Path.cwd())
     settings = Settings(project_root=project_root)
     settings.ensure_directories()
+    budget = ToolAgentBudget(
+        max_steps=args.max_steps,
+        max_live_pages=args.max_live_pages,
+        max_live_chunks=args.max_live_chunks,
+        max_indexed_chunks=args.max_indexed_chunks,
+    )
     run = run_tool_agent_baseline_eval(
         settings,
         eval_path=args.eval,
         answer_profile_name=args.answer_profile,
-        max_steps=args.max_steps,
-        max_live_pages=args.max_live_pages,
-        max_live_chunks=args.max_live_chunks,
+        indexed_tool_profile_name=args.indexed_tool_profile,
+        budget=budget,
         case_limit=args.limit,
     )
     json_path, md_path = write_tool_agent_baseline_artifacts(settings, run)

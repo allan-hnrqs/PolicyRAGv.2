@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 from bgrag.demo_server import build_demo_settings
-from bgrag.product_benchmark import run_product_benchmark, write_product_benchmark_artifacts
+from bgrag.benchmarks.product import run_product_benchmark, write_product_benchmark_artifacts
 
 
 def main() -> None:

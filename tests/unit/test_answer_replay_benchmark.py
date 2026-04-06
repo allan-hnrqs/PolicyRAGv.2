@@ -15,6 +15,7 @@ def test_render_answer_replay_markdown_includes_summary_and_cases() -> None:
         source_profile_name="baseline_vector",
         strategy_name="inline_evidence_chat",
         answer_model="command-a-03-2025",
+        case_filter_ids=["HR_001"],
         case_results=[
             AnswerReplayCaseResult(
                 case_id="HR_001",
@@ -48,6 +49,7 @@ def test_render_answer_replay_markdown_includes_summary_and_cases() -> None:
     markdown = render_answer_replay_markdown(run)
 
     assert "# Answer Replay Benchmark: inline_evidence_chat" in markdown
+    assert "- case_filter_ids: HR_001" in markdown
     assert "- required_claim_recall_mean: 1.0000" in markdown
     assert "### HR_001" in markdown
     assert "- citation_count: 2" in markdown

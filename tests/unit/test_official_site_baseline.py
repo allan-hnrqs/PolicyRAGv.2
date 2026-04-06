@@ -5,6 +5,7 @@ from pathlib import Path
 
 from bgrag.config import Settings
 from bgrag.official_site_baseline import (
+    OfficialSiteBrowseBudget,
     build_official_site_run_manifest,
     build_site_inventory_entries,
     render_official_site_baseline_markdown,
@@ -40,16 +41,17 @@ def test_build_site_inventory_entries_includes_title_url_and_preview() -> None:
 
 def test_build_official_site_run_manifest_records_answer_profile_and_limits() -> None:
     settings = Settings(project_root=REPO_ROOT)
+    budget = OfficialSiteBrowseBudget(inventory_preview_chars=650, max_live_pages=5, max_live_chunks=20)
     manifest = build_official_site_run_manifest(
         settings,
         eval_path=Path("datasets/eval/dev/parity19_dev.jsonl"),
         answer_profile_name="baseline_vector",
-        max_live_pages=5,
-        max_live_chunks=20,
+        budget=budget,
     )
 
     assert manifest["mode"] == "official_site_live_browse_v1"
     assert manifest["answer_profile_name"] == "baseline_vector"
+    assert manifest["inventory_preview_chars"] == 650
     assert manifest["max_live_pages"] == 5
     assert manifest["max_live_chunks"] == 20
     assert manifest["eval_path"] == "datasets/eval/dev/parity19_dev.jsonl"

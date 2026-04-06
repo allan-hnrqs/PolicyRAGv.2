@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 from bgrag.config import Settings
-from bgrag.retrieval_benchmark import run_retrieval_benchmark, write_retrieval_benchmark_artifacts
+from bgrag.benchmarks.retrieval import run_retrieval_benchmark, write_retrieval_benchmark_artifacts
 
 
 def main() -> None:
